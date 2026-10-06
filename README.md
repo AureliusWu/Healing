@@ -6,7 +6,12 @@
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏和陈知遥相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
 
-![游戏背景](public/art/classroom.webp)
+![电脑标题界面](docs/previews/title-desktop.jpg)
+
+| 预览 | 电脑 | 手机 |
+| --- | --- | --- |
+| 标题界面 | [查看](docs/previews/title-desktop.jpg) | [查看](docs/previews/title-mobile.jpg) |
+| 实际阅读 | [查看](docs/previews/reading-desktop.jpg) | [查看](docs/previews/reading-mobile.jpg) |
 
 ## 可玩的内容
 
@@ -93,4 +98,4 @@ npm run test:desktop
 
 ## 授权
 
-项目代码和原创文本使用 [MIT](LICENSE)。AI 美术来源与生成记录见素材文档。游戏内字体使用 Noto Serif SC 子集，遵循 [SIL Open Font License](docs/OFL-NotoSerifSC.txt)。
+项目代码和原创文本使用 [MIT](LICENSE)。AI 美术来源与生成记录见素材文档。游戏内字体使用 Noto Serif SC 子集，遵循 [SIL Open Font License](docs/OFL-NotoSerifSC.txt)。两份许可文本也随 PWA 和桌面包提供于 `licenses/`。
