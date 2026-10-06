@@ -13,6 +13,18 @@
 
 实际结果以 [Build game](https://github.com/AureliusWu/Project1/actions/workflows/build.yml) 和 [Publish PWA](https://github.com/AureliusWu/Project1/actions/workflows/pages.yml) 的对应运行记录为准。版本下载中的 `release.json` 固定记录源码提交和构建证据。
 
+## v0.1.1 发布结果
+
+运行代码提交：`2eec3dfeeeb89acd4d6c59041cec4dccacee7fe1`。
+
+- [Build game #37487512201](https://github.com/AureliusWu/Project1/actions/runs/37487512201)：Web、Windows、Release 全部 success；16 项逻辑、20 项浏览器测试全部通过。Windows 源码及 ASAR 安装包启动均输出 `DESKTOP_SMOKE_OK`。
+- [Publish PWA #37488175964](https://github.com/AureliusWu/Project1/actions/runs/37488175964)：部署及实际网址验证全部 success。电脑、手机分别输出 `LIVE_SMOKE_OK`，版本 0.1.1，美术、自动存档、离线重开均成功，页面异常数为 0。
+- 已读取 Pages 实际配置：`build_type: workflow`，使用 GitHub Actions 发布。
+- [版本下载](https://github.com/AureliusWu/Project1/releases/tag/v0.1.1) 已公开：安装 EXE、便携 EXE、PWA ZIP、`release.json`、`SHA256SUMS.txt` 五项文件上传并校验成功，版本标签指向上述运行代码提交。
+- [线上双端截图](https://github.com/AureliusWu/Project1/actions/runs/37488175964/artifacts/11423708478) 包含标题与实际阅读界面。
+
+发布结果记录后补充了发布脚本的草稿提交检查：未公开的草稿若属于另一个提交，会拒绝上传。此检查不属于客户端运行代码，不改变上述已验证的游戏包与 PWA。
+
 ## v0.1.0 历史记录
 
 ## 已完成

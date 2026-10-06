@@ -31,6 +31,7 @@ if (release && !release.draft) {
   console.log(`Published release is immutable; keeping ${release.html_url}`);
   process.exit(0);
 }
+if (release && release.target_commitish !== sha) throw new Error(`${tag} draft belongs to another commit; bump the version`);
 const ref = await api(`/git/ref/tags/${tag}`);
 if (ref && (ref.object.type !== 'commit' || ref.object.sha !== sha)) throw new Error(`${tag} already points to a different commit; bump the version`);
 if (!release) release = await api('/releases', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ tag_name: tag, target_commitish: sha, name: `湿性愈合 ${tag} · 生长痛`, body: notes, draft: true, prerelease: false }) });
