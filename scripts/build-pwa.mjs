@@ -31,11 +31,17 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   if (request.method !== 'GET' || url.origin !== self.location.origin || !url.href.startsWith(self.registration.scope)) return;
   event.respondWith(caches.open(CACHE).then(async cache => {
-    const hit = await cache.match(request);
+    // Precache fetches and module/navigation requests may have different Origin
+    // headers on hosts that return Vary: Origin. These are immutable local files.
+    if (request.mode === 'navigate') {
+      const shell = await cache.match(new URL('index.html', self.registration.scope), { ignoreVary: true });
+      if (shell) return shell;
+    }
+    const hit = await cache.match(request, { ignoreVary: true });
     if (hit) return hit;
     try { return await fetch(request); }
     catch (error) {
-      if (request.mode === 'navigate') return await cache.match(new URL('index.html', self.registration.scope)) || Response.error();
+      if (request.mode === 'navigate') return await cache.match(new URL('index.html', self.registration.scope), { ignoreVary: true }) || Response.error();
       return Response.error();
     }
   }));

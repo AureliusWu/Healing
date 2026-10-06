@@ -44,15 +44,16 @@
     "asar": true,
     "win": {
       "icon": "public/icons/icon.ico",
-      "target": ["nsis", "portable"],
-      "artifactName": "MoistHealing-${version}-${arch}-${target}.${ext}"
+      "target": ["nsis", "portable"]
     },
     "nsis": {
+      "artifactName": "MoistHealing-${version}-${arch}-Setup.${ext}",
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "shortcutName": "湿性愈合"
     },
+    "portable": { "artifactName": "MoistHealing-${version}-${arch}-Portable.${ext}" },
     "linux": { "target": ["AppImage"], "category": "Game", "icon": "public/icons/icon-512.png" }
   }
 }

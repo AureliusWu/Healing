@@ -29,6 +29,10 @@ jobs:
           name: MoistHealing-PWA
           path: dist/
       - uses: actions/upload-artifact@v4
+        with:
+          name: MoistHealing-Previews
+          path: test-results/previews/
+      - uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: Playwright-report

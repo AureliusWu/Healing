@@ -1,6 +1,7 @@
 import { test, expect, type Page } from '@playwright/test';
 import { advance, choose, getScene, newGame } from '../../src/game/engine';
 import { encodeSave } from '../../src/game/storage';
+import { mkdir } from 'node:fs/promises';
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript(() => { localStorage.setItem('moist-healing:v1:settings', JSON.stringify({ textSpeed: 0, autoDelay: 800, music: false, volume: 0.1, reducedMotion: true })); });
@@ -14,17 +15,26 @@ async function playToChoice(page: Page) {
   for (let i = 0; i < 100; i++) {
     if (await page.locator('.choice-panel').isVisible()) return;
     if (await page.locator('.ending-card').isVisible()) return;
-    await page.getByRole('button', { name: '显示下一段', exact: true }).click();
+    // The final paragraph can render the choice between our visibility check
+    // and pointer dispatch. The reader is then intentionally disabled.
+    try { await page.getByRole('button', { name: '显示下一段', exact: true }).click({ timeout: 1500 }); }
+    catch (error) {
+      if (await page.locator('.choice-panel').isVisible() || await page.locator('.ending-card').isVisible()) return;
+      throw error;
+    }
   }
   throw new Error('Did not reach choice or ending');
 }
 
-test('title, original art, chapter and character screens render without page errors', async ({ page }) => {
+test('title, original art, chapter and character screens render without page errors', async ({ page }, testInfo) => {
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('/');
   await expect(page.getByRole('heading', { level: 1 })).toContainText('湿性愈合');
   await expect.poll(() => page.evaluate(() => [...document.images].every(image => image.complete && image.naturalWidth > 0))).toBe(true);
+  await page.evaluate(() => document.fonts.ready);
+  await mkdir('test-results/previews', { recursive: true });
+  await page.screenshot({ path: `test-results/previews/title-${testInfo.project.name}.png`, fullPage: true });
   await page.getByRole('button', { name: '角色', exact: true }).click();
   await expect(page.getByRole('heading', { name: '林见夏', exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { name: '陈知遥', exact: true })).toBeVisible();
@@ -36,11 +46,13 @@ test('title, original art, chapter and character screens render without page err
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
-test('choices change the route and autosave survives a reload', async ({ page }) => {
+test('choices change the route and autosave survives a reload', async ({ page }, testInfo) => {
   await start(page);
   await playToChoice(page);
   await page.getByRole('button', { name: /我其实/ }).click();
   await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', 'desk-honest');
+  await mkdir('test-results/previews', { recursive: true });
+  await page.screenshot({ path: `test-results/previews/reading-${testInfo.project.name}.png` });
   await page.reload();
   await page.getByRole('button', { name: '继续上次的故事', exact: true }).click();
   await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', 'desk-honest');
