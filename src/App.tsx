@@ -1,16 +1,17 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { Icon } from './components/Icon';
 import { Dialog } from './components/Dialog';
+import { PwaPanel } from './components/PwaPanel';
+import { pwa } from './pwa';
 import { advance, choose, getScene, newGame, recordLine } from './game/engine';
 import { decodeSave, encodeSave, KEY, readEndings, readSave, readSettings, slots, writeSave, type Slot } from './game/storage';
 import { music } from './game/music';
 import type { GameState, Save, Settings } from './game/types';
 import { characterInfo, endingInfo } from './story/chapter1';
 
-type Panel = 'chapters' | 'characters' | 'memories' | 'settings' | 'saves' | 'history' | 'about' | null;
-type InstallEvent = Event & { prompt: () => Promise<void>; userChoice: Promise<{ outcome: string }> };
+type Panel = 'chapters' | 'characters' | 'memories' | 'settings' | 'saves' | 'history' | 'about' | 'pwa' | null;
 const art = (name: string) => `${import.meta.env.BASE_URL}art/${name}.webp`;
-const panelTitles = { chapters: '章节', characters: '与你相遇', memories: '回忆手册', settings: '阅读设置', saves: '存档', history: '已读文字', about: '关于这场青春' };
+const panelTitles = { chapters: '章节', characters: '与你相遇', memories: '回忆手册', settings: '阅读设置', saves: '存档', history: '已读文字', about: '关于这场青春', pwa: '把故事留在身边' };
 
 export function App() {
   const [screen, setScreen] = useState<'title' | 'game'>('title');
@@ -23,9 +24,7 @@ export function App() {
   const [auto, setAuto] = useState(false);
   const [fast, setFast] = useState(false);
   const [toast, setToast] = useState('');
-  const [install, setInstall] = useState<InstallEvent | null>(null);
-  const [offlineReady, setOfflineReady] = useState(false);
-  const [online, setOnline] = useState(navigator.onLine);
+  const pwaState = useSyncExternalStore(pwa.subscribe, pwa.getState);
   const [confirm, setConfirm] = useState<{ text: string; action: () => void } | null>(null);
   const importRef = useRef<HTMLInputElement>(null);
   const currentRef = useRef(game);
@@ -63,28 +62,11 @@ export function App() {
     const visibility = () => {
       if (document.hidden) { setAuto(false); setFast(false); music.pause(); }
     };
-    const beforeInstall = (event: Event) => { event.preventDefault(); setInstall(event as InstallEvent); };
-    const installed = () => { setInstall(null); notify('已安装，可以从桌面打开《湿性愈合》。'); };
-    const connectivity = () => setOnline(navigator.onLine);
-    const workerError = () => notify('离线下载未完成，联网时仍可阅读。请刷新后重试。');
     document.addEventListener('visibilitychange', visibility);
-    window.addEventListener('beforeinstallprompt', beforeInstall);
-    window.addEventListener('appinstalled', installed);
-    window.addEventListener('online', connectivity);
-    window.addEventListener('offline', connectivity);
-    window.addEventListener('pwa-error', workerError);
-    if ('serviceWorker' in navigator && ['http:', 'https:'].includes(location.protocol) && import.meta.env.PROD) {
-      void navigator.serviceWorker.ready.then(() => setOfflineReady(true));
-    }
     return () => {
       document.removeEventListener('visibilitychange', visibility);
-      window.removeEventListener('beforeinstallprompt', beforeInstall);
-      window.removeEventListener('appinstalled', installed);
-      window.removeEventListener('online', connectivity);
-      window.removeEventListener('offline', connectivity);
-      window.removeEventListener('pwa-error', workerError);
     };
-  }, [notify]);
+  }, []);
 
   useEffect(() => {
     setVisible(0);
@@ -180,7 +162,7 @@ export function App() {
         <div className="chapter-note"><span className="note-number">01</span><div><span>第一章 / 生长痛</span><p>九月、换座、旧校刊，还有一句没说完的话。</p></div></div>
       </section>
       <section className="title-visual" aria-label="雨后校园与林见夏"><img className="cover-background" src={art('campus')} alt="秋雨后的校园，香樟树与湿润的跑道" /><div className="cover-wash" /><img className="cover-character" src={art('lin')} alt="林见夏，抱着文学笔记本的靠窗邻座" /><div className="visual-date">江城 · 九月<br /><span>17:42 / AFTER THE RAIN</span></div><div className="visual-caption"><span className="caption-line" /><p>“你还没想好，<br />也可以先留白。”</p><small>林见夏</small></div><span className="visual-index">01 — 03</span></section>
-      <footer className="title-footer"><span><i className={`status-dot ${offlineReady ? 'ready' : ''}`} />{location.protocol === 'file:' ? '桌面版 · 离线阅读' : offlineReady ? `${online ? '离线阅读已就绪' : '正在离线阅读'} · PWA` : '校园视觉小说 · 第一章'}</span><div>{install && <button onClick={async () => { try { await install.prompt(); setInstall(null); } catch { notify('请使用浏览器菜单中的“安装应用”。'); } }}><Icon name="download" size={14} />安装到桌面</button>}<button onClick={() => setPanel('saves')}>存档迁移</button><span>v{__APP_VERSION__}</span></div></footer>
+      <footer className="title-footer"><span><i className={`status-dot ${pwaState.status === 'ready' || pwaState.status === 'desktop' ? 'ready' : ''}`} />{pwaState.status === 'desktop' ? '桌面版 · 离线阅读' : pwaState.status === 'ready' ? `${pwaState.online ? '离线阅读已就绪' : '正在离线阅读'} · PWA` : pwaState.status === 'downloading' ? '正在下载离线内容…' : pwaState.status === 'error' ? '离线下载待重试' : '校园视觉小说 · 第一章'}</span><div>{pwaState.status !== 'desktop' && <button onClick={() => setPanel('pwa')}><Icon name={pwaState.updateReady ? 'check' : 'download'} size={14} />{pwaState.updateReady ? '有新版本' : '安装与离线'}</button>}<button onClick={() => setPanel('saves')}>存档迁移</button><span>v{__APP_VERSION__}</span></div></footer>
     </main> : <main className="game-screen" data-scene={game.sceneId} data-line={game.line}>
       <img key={scene.background} className="scene-background" src={art(scene.background)} alt={scene.background === 'classroom' ? '午后的校园教室' : '雨后的校园'} />
       <div className="scene-shade" />
@@ -195,6 +177,7 @@ export function App() {
     </div>
 
     {panel && !confirm && <Dialog title={panelTitles[panel]} onClose={closePanel} wide={panel === 'characters' || panel === 'saves'} subtitle={panel === 'saves' ? '在这里留住进度，也可以带到另一台设备。' : undefined}>
+      {panel === 'pwa' && <PwaPanel state={pwaState} />}
       {panel === 'chapters' && <><button className="chapter-card" onClick={begin}><img src={art('campus')} alt="校园" /><div><span className="eyebrow">CHAPTER 01 · 可阅读</span><h3>生长痛</h3><p>一张成绩单，一本笔记，三个没说完的下午。</p><small>四次选择 · 三种结局</small></div><Icon name="arrow" /></button><p className="soft-note">当前版本包含完整第一章。后续章节将继续沿用你的故事选择。</p></>}
       {panel === 'characters' && <div className="character-cards">{(['lin', 'chen'] as const).map(id => <article key={id} className="character-card"><div className="character-portrait"><img src={art(id)} alt={characterInfo[id].name} /></div><span className="eyebrow">{characterInfo[id].role}</span><h3>{characterInfo[id].name}</h3><p>{characterInfo[id].subtitle}</p><blockquote>{characterInfo[id].quote}</blockquote></article>)}</div>}
       {panel === 'memories' && <><p className="soft-note">完成第一章后，相应的结局会留在这里。已解锁 {endings.length} / 3。</p><div className="memory-list">{Object.entries(endingInfo).map(([id, info], index) => <article key={id} className={endings.includes(id) ? 'memory unlocked' : 'memory'}><span>0{index + 1}</span><div><small>{endings.includes(id) ? info.badge : '尚未相遇'}</small><h3>{endings.includes(id) ? info.label : '未翻开的那一页'}</h3><p>{endings.includes(id) ? info.subtitle : '不同的选择，会让故事走向不同的地方。'}</p></div><Icon name={endings.includes(id) ? 'check' : 'book'} /></article>)}</div></>}

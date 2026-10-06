@@ -1,8 +1,13 @@
 name: Publish PWA
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: [Build game]
+    types: [completed]
+    branches: [main]
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -10,6 +15,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:
@@ -17,19 +23,77 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - name: Keep deployment on the current main
+        id: current
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.git.getRef({ ...context.repo, ref: 'heads/main' });
+            const target = context.payload.workflow_run?.head_sha || context.sha;
+            core.setOutput('deploy', String(data.object.sha === target));
+            if (data.object.sha !== target) core.notice('A newer main commit exists; this older build will not replace it.');
+      - uses: actions/download-artifact@v4
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_run'
+        with:
+          name: MoistHealing-PWA
+          path: dist
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
       - uses: actions/setup-node@v4
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
         with:
           node-version: 24
           cache: npm
       - run: npm ci
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
         env:
           ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
       - run: npm test
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
       - run: npm run build
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
+      - run: npx playwright install --with-deps chromium
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
+      - run: npm run test:e2e
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
       - uses: actions/configure-pages@v5
+        if: steps.current.outputs.deploy == 'true'
+      - name: Inspect Pages publishing source
+        if: steps.current.outputs.deploy == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.repos.getPages(context.repo);
+            core.info(`PAGES_SOURCE ${JSON.stringify({ build_type: data.build_type, source: data.source, html_url: data.html_url })}`);
+            if (data.build_type !== 'workflow') core.warning('Choose GitHub Actions in Settings → Pages → Source to prevent the source branch from replacing the built game.');
       - uses: actions/upload-pages-artifact@v3
+        if: steps.current.outputs.deploy == 'true'
         with:
           path: dist
       - name: Publish
+        if: steps.current.outputs.deploy == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/setup-node@v4
+        if: steps.deployment.outcome == 'success' && github.event_name == 'workflow_run'
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+        if: steps.deployment.outcome == 'success' && github.event_name == 'workflow_run'
+        env:
+          ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+      - run: npx playwright install --with-deps chromium
+        if: steps.deployment.outcome == 'success' && github.event_name == 'workflow_run'
+      - name: Verify the actual published game and offline reload
+        if: steps.deployment.outcome == 'success'
+        run: node scripts/live-smoke.mjs
+        env:
+          GAME_URL: ${{ steps.deployment.outputs.page_url }}
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.deployment.outcome == 'success'
+        with:
+          name: MoistHealing-Live-Previews
+          path: test-results/live

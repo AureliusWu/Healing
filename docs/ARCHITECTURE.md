@@ -9,9 +9,12 @@ React 19 + TypeScript + Vite 8 是唯一的界面与构建入口。Electron 44 �
 | `src/game/storage.ts` | 版本化存档、本地槽位、设置、严格的导入解析 |
 | `src/game/music.ts` | 用户点击解锁的原创程序音序；后台暂停 |
 | `src/App.tsx` | 标题、阅读、角色、章节、回忆、存档、设置与回看 |
+| `src/pwa.ts`、`src/components/PwaPanel.tsx` | 安装提示、完整离线缓存状态、下载失败重试及版本检查 |
 | `scripts/build-pwa.mjs` | 按实际产物及内容哈希生成完整资源缓存 |
 | `electron/main.cjs` | 本地窗口、全屏、加载控制、独立桌面启动校验 |
 | `.github/workflows/` | Web 验证、Windows 构建与可选 Pages 部署 |
+| `scripts/publish-release.mjs` | 仅在双端验证成功后发布不可变的版本下载、校验值与构建证据 |
+| `scripts/live-smoke.mjs` | 复验真正发布的网址、双屏幕与离线存档恢复 |
 
 ## 存档契约
 
@@ -25,7 +28,9 @@ React 19 + TypeScript + Vite 8 是唯一的界面与构建入口。Electron 44 �
 
 构建后枚举全部 HTML、JS、CSS、立绘、背景、图标与字体，再计算内容哈希作为缓存版本。安装缓存是原子的；任何必需资源失败，都不宣称离线已就绪。缓存只拦截自身 origin 和 scope 内的 GET。路径全部相对，支持 GitHub Pages 子目录。
 
-新 Service Worker 不在阅读过程中强制跳过等待状态。旧页面仍由旧版本服务，关掉后再次启动才接管。激活后只清理本游戏的旧缓存。
+新 Service Worker 不在阅读过程中强制跳过等待状态。旧页面仍由旧版本服务；下载完成后提示关闭所有游戏窗口并重新打开。手动检查通过 `registration.update()` 完成，下载失败允许重试。缓存成功并激活前不会宣称已可离线阅读。预缓存显式重新获取资源，避免浏览器旧 HTML 缓存混入新版本。激活后只清理本游戏的旧缓存。
+
+Pages 自动部署只使用 `main` 上通过完整验证的那次构建产物，并拒绝用较旧提交覆盖已经前进的 `main`。Release 先创建草稿，上传并验证必要文件后再公开；已经公开的版本不被覆盖，下载提供 SHA-256 与确切源码提交。
 
 ## 桌面
 

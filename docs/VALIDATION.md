@@ -1,6 +1,19 @@
 # 验证记录
 
-版本：0.1.0。日期：2026-10-06。
+当前版本：0.1.1。日期：2026-10-06。
+
+## v0.1.1 检查范围
+
+- 保留 16 项剧情与存档校验；第一章与 `chapter1-v1` 存档契约保持兼容。
+- 浏览器集成检查增加到 20 项，覆盖电脑与手机的资源缓存失败/重试、子目录离线重开、等待更新与关闭窗口后的存档恢复、安装提示状态。
+- 更新测试使用真实 Service Worker 和完整构建包，在同一浏览器存储空间内切换两次缓存版本。观察页面位于游戏作用域之外，确认旧窗口关闭后才激活新版本。
+- 安装事件测试验证应用如何调用浏览器提供的安装事件；系统安装对话框由浏览器自行提供。
+- Windows 流程验证源码窗口及打包后 ASAR 窗口，全部通过后才公开 Release。
+- Pages 使用通过双端验证的产物自动发布；发布后另用真实网址检查手机、电脑、所有美术、自动存档及断网重开。证据截图作为 `MoistHealing-Live-Previews` 产物提供。
+
+实际结果以 [Build game](https://github.com/AureliusWu/Project1/actions/workflows/build.yml) 和 [Publish PWA](https://github.com/AureliusWu/Project1/actions/workflows/pages.yml) 的对应运行记录为准。版本下载中的 `release.json` 固定记录源码提交和构建证据。
+
+## v0.1.0 历史记录
 
 ## 已完成
 
@@ -31,4 +44,4 @@ Windows CI 载入实际 Electron 窗口，检查标题、美术、剧情开始�
 - 跨端存档通过导出/导入完成，未提供账户云同步。
 - 暂无人物语音。
 - Windows 包暂未代码签名。
-- Pages 部署需要在仓库设置中启用 GitHub Actions 源，再运行发布工作流。
+- Pages 已启用并完成 v0.1.0 部署。后续版本由验证成功的构建自动发布；仓库的 Pages Source 应设为 GitHub Actions。

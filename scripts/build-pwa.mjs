@@ -21,7 +21,7 @@ const worker = `// Generated from actual build output. Every game asset is cache
 const CACHE = 'moist-healing-${version}';
 const FILES = ${JSON.stringify(urls)};
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES.map(url => new Request(url, { cache: 'reload' })))));
 });
 self.addEventListener('activate', event => {
   event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('moist-healing-') && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
