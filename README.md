@@ -90,6 +90,7 @@ npm run build
 npx playwright install chromium
 npm run test:e2e
 npm run test:desktop
+npm run test:desktop:packaged # Windows 打包后，检查实际 ASAR 桌面程序
 ```
 
 剧情校验遍历全部 54 条路线，并验证每段可恢复、全部场景可达、非法存档被拒绝。浏览器测试覆盖两个屏幕规格下的完整游玩、存档、迁移、离线重开与短横屏布局。桌面启动检查验证实际窗口、立绘资源、剧情启动、自动存档和渲染器隔离。

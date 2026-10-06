@@ -15,9 +15,10 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "test:desktop": "node scripts/desktop-smoke.cjs",
+    "test:desktop:packaged": "node scripts/desktop-smoke.cjs \"release/win-unpacked/湿性愈合.exe\"",
     "desktop": "npm run build && electron .",
-    "desktop:pack": "npm run build && electron-builder --dir",
-    "desktop:win": "npm run build && electron-builder --win --x64",
+    "desktop:pack": "npm run build && electron-builder --dir --publish never",
+    "desktop:win": "npm run build && electron-builder --win --x64 --publish never",
     "check": "npm run test && npm run build && npm run test:e2e"
   },
   "dependencies": {

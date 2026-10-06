@@ -1,6 +1,8 @@
 const { spawn } = require('node:child_process');
-const electron = require('electron');
-const args = ['.', '--smoke-test'];
+const path = require('node:path');
+const packaged = process.argv[2];
+const electron = packaged ? path.resolve(packaged) : require('electron');
+const args = packaged ? ['--smoke-test'] : ['.', '--smoke-test'];
 // Root-only CI runners cannot use Chromium's user namespace sandbox. The game
 // keeps renderer sandbox/contextIsolation enabled; this flag is test-runner only.
 if (process.platform === 'linux' && process.getuid?.() === 0) args.push('--no-sandbox');
