@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "湿性愈合 · 生长痛",
+  "short_name": "湿性愈合",
+  "description": "关于青春、生长与靠近的校园视觉小说。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f3e9",
+  "theme_color": "#f5f3e9",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

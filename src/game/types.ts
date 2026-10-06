@@ -1,0 +1,32 @@
+export type Character = 'lin' | 'chen';
+export type Background = 'classroom' | 'campus';
+export type Ending = 'together' | 'letter' | 'quiet';
+export type Stats = { honesty: number; lin: number; chen: number };
+export type Line = { speaker: string; text: string };
+export type Choice = { id: string; text: string; next: string; effect?: Partial<Stats> };
+export type Scene = {
+  id: string;
+  title: string;
+  location: string;
+  time: string;
+  background: Background;
+  character?: Character;
+  lines: Line[];
+  choices?: Choice[];
+  next?: string;
+  resolve?: true;
+  ending?: Ending;
+};
+export type HistoryEntry = Line & { sceneId: string; line: number };
+export type Decision = { sceneId: string; choiceId: string };
+export type GameState = {
+  schema: 1;
+  storyVersion: 'chapter1-v1';
+  sceneId: string;
+  line: number;
+  stats: Stats;
+  decisions: Decision[];
+  history: HistoryEntry[];
+};
+export type Save = { schema: 1; game: 'moist-healing'; savedAt: string; state: GameState };
+export type Settings = { textSpeed: number; autoDelay: number; music: boolean; volume: number; reducedMotion: boolean };

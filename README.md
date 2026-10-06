@@ -1,7 +1,96 @@
 # 湿性愈合
 
-青春期校园题材视觉小说。第一章：**生长痛**。
+> 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-PWA 与 Windows 桌面端共用剧情、游戏引擎和存档格式。
+青春期校园题材原创视觉小说。第一章 **《生长痛》** 已实现，当前版本 **v0.1.0**。
 
-项目开发中。
+你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏和陈知遥相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
+
+![游戏背景](public/art/classroom.webp)
+
+## 可玩的内容
+
+- 完整第一章，4 次关键选择，54 种选择组合，3 种章节结局。
+- 两位主要角色的原创 AI 立绘、两张原创 AI 校园背景。
+- 逐字文本、自动阅读、快进、已读回看、结局回忆手册。
+- 自动存档 + 3 个手动存档位；JSON 导入/导出，在手机与电脑之间迁移进度。
+- 横屏/竖屏响应布局、键盘操作、减少动态效果选项。
+- 原创 Web Audio 轻音乐；无账号、无 API 密钥、无运行时外部请求。
+
+## 两个客户端，一套游戏
+
+| 客户端 | 运行方式 | 离线支持 | 存档 |
+| --- | --- | --- | --- |
+| 手机 / 电脑 PWA | HTTPS 网站安装到主屏幕或桌面 | 首次缓存全部资源后可断网重开 | 浏览器本地存储，可导出迁移 |
+| Windows 桌面 | Electron 安装包 / 便携 EXE | 所有资源随安装包提供 | 应用本地存储，可导出迁移 |
+
+这是共用代码与数据格式的双端实现。当前版本不包含账户云同步。
+
+## 开发与游玩
+
+需要 Node.js 24（或满足 Vite 8 要求的 Node.js 22.12+）。
+
+```bash
+npm ci
+npm run dev
+```
+
+浏览器打开终端显示的地址。测试生产 PWA：
+
+```bash
+npm run build
+npm run preview
+```
+
+localhost 可测试 Service Worker；手机实际安装需要 HTTPS。
+
+桌面版：
+
+```bash
+npm run desktop       # 构建并启动桌面客户端
+npm run desktop:pack  # 输出未打包目录
+npm run desktop:win   # 在 Windows 生成 NSIS 安装包和便携 EXE
+```
+
+`release/`、`dist/` 和依赖目录不进入 Git。发布包通过 Actions 生成。
+
+## 下载与部署
+
+每次推送 `main` 会运行 [Build game](https://github.com/AureliusWu/Project1/actions/workflows/build.yml)：先验证剧情与手机/电脑 PWA，再在 Windows 启动实际 Electron 程序并生成安装包。成功后，在对应运行页面的 Artifacts 中下载：
+
+- `MoistHealing-PWA`：完整静态网页包。
+- `MoistHealing-Windows-x64`：NSIS 安装包与便携 EXE。
+
+仓库同时提供 [Publish PWA](https://github.com/AureliusWu/Project1/actions/workflows/pages.yml)。在 GitHub Settings → Pages 将 Source 设为 **GitHub Actions**，再手动运行该工作流。默认 Pages 地址为 `https://aureliuswu.github.io/Project1/`；需以成功部署输出为准。
+
+还可以把 `dist/` 部署到任意 HTTPS 静态主机。采用相对路径，支持子目录部署。网页更新在下一次完整启动时接管，避免正在阅读的旧版本被中途替换。
+
+## 操作
+
+| 操作 | 键盘 / 触屏 |
+| --- | --- |
+| 显示完整段落 / 下一段 | 空格、Enter、右方向键，或点击画面/文本 |
+| 自动阅读 | A，或「自动」 |
+| 存档 | S / Esc，或「存档」 |
+| 回看 | L，或「回看」 |
+| 桌面全屏 | F11 |
+
+快进与自动阅读都会在选择处停下。回到标题会保留进度；开启新故事前会提示自动存档将更新。
+
+## 验证
+
+```bash
+npm test
+npm run build
+npx playwright install chromium
+npm run test:e2e
+npm run test:desktop
+```
+
+剧情校验遍历全部 54 条路线，并验证每段可恢复、全部场景可达、非法存档被拒绝。浏览器测试覆盖两个屏幕规格下的完整游玩、存档、迁移、离线重开与短横屏布局。桌面启动检查验证实际窗口、立绘资源、剧情启动、自动存档和渲染器隔离。
+
+详见 [技术结构](docs/ARCHITECTURE.md)、[第一章设计](docs/STORY.md)、[素材与提示词](docs/prompts/ART.md) 和 [验证记录](docs/VALIDATION.md)。
+
+## 授权
+
+项目代码和原创文本使用 [MIT](LICENSE)。AI 美术来源与生成记录见素材文档。游戏内字体使用 Noto Serif SC 子集，遵循 [SIL Open Font License](docs/OFL-NotoSerifSC.txt)。
