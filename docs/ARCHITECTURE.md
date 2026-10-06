@@ -8,6 +8,7 @@ React 19 + TypeScript + Vite 8 是唯一的界面与构建入口。Electron 44 �
 | `src/game/engine.ts` | 不依赖 DOM 的剧情推进、选择、路线重放与结局解析 |
 | `src/game/storage.ts` | 版本化存档、本地槽位、设置、严格的导入解析 |
 | `src/game/music.ts` | 用户点击解锁的原创程序音序；后台暂停 |
+| `src/useDisplayMode.ts`、`src/components/DisplayControls.tsx` | 横屏提示、全屏状态、触屏横屏锁定与浏览器拒绝后的继续阅读 |
 | `src/App.tsx` | 标题、阅读、角色、章节、回忆、存档、设置与回看 |
 | `src/pwa.ts`、`src/components/PwaPanel.tsx` | 安装提示、完整离线缓存状态、下载失败重试及版本检查 |
 | `scripts/build-pwa.mjs` | 按实际产物及内容哈希生成完整资源缓存 |
@@ -32,9 +33,15 @@ React 19 + TypeScript + Vite 8 是唯一的界面与构建入口。Electron 44 �
 
 Pages 自动部署只使用 `main` 上通过完整验证的那次构建产物，并拒绝用较旧提交覆盖已经前进的 `main`。Release 先创建草稿，上传并验证必要文件后再公开；已经公开的版本不被覆盖，下载提供 SHA-256 与确切源码提交。
 
+## 横屏与全屏
+
+安装清单声明 `orientation: landscape`。普通网页不强制旋转；触屏竖屏时显示可关闭的非模态提示。主标题和阅读界面优先适配短横屏，并考虑刘海与底部安全区域。剧情选项和正文放在同一列中，空间不足时选项可滚动，避免两层相互遮挡。
+
+全屏只由按钮手势请求，覆盖标题、阅读界面与设置。触屏设备在进入全屏后尝试 `screen.orientation.lock('landscape')`；无接口或被浏览器拒绝时保留全屏并提示手动旋转。监听原生 `fullscreenchange`，系统退出全屏时同步按钮状态并释放本应用的方向锁。转向与全屏不会创建新剧情状态，也不改变存档契约。
+
 ## 桌面
 
-使用本地 `file:` 加载；Service Worker 仅在 HTTP(S) 注册。运行时不开远程窗口、不导航到外部内容，Node integration 关闭，context isolation 与 renderer sandbox 开启。渲染器不需要 preload 或原生文件系统桥接。
+使用本地 `file:` 加载；Service Worker 仅在 HTTP(S) 注册。运行时不开远程窗口、不导航到外部内容，Node integration 关闭，context isolation 与 renderer sandbox 开启。全屏权限仅允许本地游戏主文档，拒绝自动全屏及其余原生权限。渲染器不需要 preload 或原生文件系统桥接。
 
 下载/导入使用浏览器文件接口。桌面包用 `asar` 封装。Windows 流程输出安装 EXE 与便携 EXE；当前未配置代码签名。
 

@@ -125,10 +125,23 @@ test('PWA caches every asset and restores the same story after going offline', a
   await expect.poll(() => page.evaluate(() => [...document.images].every(image => image.complete && image.naturalWidth > 0))).toBe(true);
 });
 
-test('short landscape screens keep reading controls and options inside the viewport', async ({ page }) => {
-  await page.setViewportSize({ width: 844, height: 390 });
-  await start(page);
-  await playToChoice(page);
-  const boxes = await page.locator('.reading-panel, .choice-panel').evaluateAll(elements => elements.map(element => { const r = element.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, width: innerWidth, height: innerHeight }; }));
-  for (const box of boxes) { expect(box.left).toBeGreaterThanOrEqual(0); expect(box.right).toBeLessThanOrEqual(box.width); expect(box.top).toBeGreaterThanOrEqual(0); expect(box.bottom).toBeLessThanOrEqual(box.height); }
+test('short landscape screens keep title actions and story controls visible without overlap', async ({ page }, testInfo) => {
+  for (const [width, height] of [[568, 320], [640, 360], [844, 390], [915, 412]]) {
+    await page.setViewportSize({ width, height });
+    await page.goto('/');
+    await page.evaluate(() => localStorage.removeItem('moist-healing:v1:save:auto'));
+    await page.reload();
+    await page.evaluate(() => document.fonts.ready);
+    const title = await page.locator('.title-header, .title-menu, .title-nav, .title-footer').evaluateAll(elements => elements.map(element => { const r = element.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom }; }));
+    for (const box of title) { expect(box.left).toBeGreaterThanOrEqual(0); expect(box.right).toBeLessThanOrEqual(width); expect(box.top).toBeGreaterThanOrEqual(0); expect(box.bottom).toBeLessThanOrEqual(height); }
+    expect(await page.evaluate(() => document.documentElement.scrollHeight <= innerHeight)).toBe(true);
+    if (width === 844) await page.screenshot({ path: `test-results/previews/title-landscape-${testInfo.project.name}.png` });
+    await page.getByRole('button', { name: '开始阅读', exact: true }).click();
+    await playToChoice(page);
+    const [header, choices, reader] = await page.locator('.game-header, .choice-panel, .reading-panel').evaluateAll(elements => elements.map(element => { const r = element.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom }; }));
+    for (const box of [header, choices, reader]) { expect(box.left).toBeGreaterThanOrEqual(0); expect(box.right).toBeLessThanOrEqual(width); expect(box.top).toBeGreaterThanOrEqual(0); expect(box.bottom).toBeLessThanOrEqual(height); }
+    expect(choices.top).toBeGreaterThanOrEqual(header.bottom + 6);
+    expect(choices.bottom).toBeLessThanOrEqual(reader.top - 8);
+    if (width === 844) await page.screenshot({ path: `test-results/previews/choices-landscape-${testInfo.project.name}.png` });
+  }
 });

@@ -1,6 +1,9 @@
 import type { CSSProperties } from 'react';
 
 const paths: Record<string, string> = {
+  expand: 'M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5',
+  shrink: 'M3 8h5V3m8 0v5h5M8 21v-5H3m13 5v-5h5',
+  rotate: 'M16 5a8 8 0 0 0-12 5M4 5v5h5m-1 9a8 8 0 0 0 12-5m0 5v-5h-5m-6-7h6v10H9Z',
   leaf: 'M19 4C10 2 3 7 5 15c4 4 11 4 14-11ZM5 20l9-10',
   arrow: 'M4 12h15m-6-6 6 6-6 6',
   book: 'M3 4h6c2 0 3 1 3 3v14c0-2-1-3-3-3H3Zm18 0h-6c-2 0-3 1-3 3v14c0-2 1-3 3-3h6Z',

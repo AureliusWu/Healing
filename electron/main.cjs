@@ -20,8 +20,11 @@ function openWindow() {
   window.webContents.on('will-navigate', (event, url) => {
     if (url.split('#')[0] !== entry) event.preventDefault();
   });
-  window.webContents.session.setPermissionRequestHandler((_webContents, _permission, callback) => callback(false));
-  window.webContents.session.setPermissionCheckHandler(() => false);
+  const allowFullscreen = (contents, permission, details = {}) => permission === 'fullscreen'
+    && contents === window.webContents && contents.getURL().split('#')[0] === entry
+    && details.isMainFrame !== false && (!details.requestingUrl || details.requestingUrl.split('#')[0] === entry);
+  window.webContents.session.setPermissionRequestHandler((contents, permission, callback, details) => callback(allowFullscreen(contents, permission, details)));
+  window.webContents.session.setPermissionCheckHandler((contents, permission, _origin, details) => allowFullscreen(contents, permission, details));
   window.webContents.on('before-input-event', (event, input) => {
     if (input.key === 'F11' && input.type === 'keyDown') { event.preventDefault(); window.setFullScreen(!window.isFullScreen()); }
   });
@@ -32,6 +35,29 @@ function openWindow() {
   });
   if (smoke) window.webContents.once('did-finish-load', async () => {
     try {
+      await window.webContents.executeJavaScript(`(async () => {
+        for (let i = 0; i < 100; i++) {
+          if (document.querySelector('.fullscreen-button')) return;
+          await new Promise(resolve => setTimeout(resolve, 30));
+        }
+        throw new Error('Title controls missing');
+      })()`);
+      await window.webContents.executeJavaScript(`(async () => {
+        document.querySelector('.fullscreen-button').click();
+        for (let i = 0; i < 100; i++) {
+          if (document.fullscreenElement && document.querySelector('[aria-label="退出全屏"]')) return;
+          await new Promise(resolve => setTimeout(resolve, 30));
+        }
+        throw new Error('Fullscreen button failed to enter fullscreen');
+      })()`, true);
+      await window.webContents.executeJavaScript(`(async () => {
+        document.querySelector('[aria-label="退出全屏"]').click();
+        for (let i = 0; i < 100; i++) {
+          if (!document.fullscreenElement && document.querySelector('[aria-label="全屏阅读"]')) return;
+          await new Promise(resolve => setTimeout(resolve, 30));
+        }
+        throw new Error('Fullscreen button failed to exit fullscreen');
+      })()`, true);
       const result = await window.webContents.executeJavaScript(`(async () => {
         const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
         await delay(700);
@@ -45,7 +71,7 @@ function openWindow() {
         reader.click(); await delay(30); reader.click(); await delay(100);
         const raw = localStorage.getItem('moist-healing:v1:save:auto');
         if (!raw || JSON.parse(raw).state.line !== 1) throw new Error('Autosave failed');
-        return { title: document.title, story: true, autosave: true, sandbox: true };
+        return { title: document.title, story: true, autosave: true, fullscreen: true, sandbox: true };
       })()`);
       console.log('DESKTOP_SMOKE_OK', JSON.stringify(result));
       app.exit(0);
