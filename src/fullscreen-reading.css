@@ -1,0 +1,222 @@
+/* Full-window reading surface. The logical grid remains intact for keyboard, tests and
+   rotation handling, while the artwork visually escapes the stage row and fills the window. */
+:root { --reading-overlay-opacity: .72; }
+
+.game-screen {
+  position: relative;
+  isolation: isolate;
+  background: #18221c;
+}
+
+.game-stage {
+  overflow: visible;
+  background: transparent;
+  background-image: none;
+  z-index: 1;
+}
+
+.scene-frame {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh;
+  transform: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.scene-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.scene-character {
+  height: 96%;
+  max-width: 88%;
+  left: 63%;
+  bottom: 0;
+}
+
+.scene-tap { z-index: 1; }
+
+/* Collapse the old header strip, but keep its actual controls and place them inside the
+   lower translucent reading layer. */
+.game-header {
+  position: relative;
+  z-index: 8;
+  height: 0;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  overflow: visible;
+}
+
+.scene-heading { display: none; }
+
+.game-header > .paper-button,
+.game-header-actions {
+  position: fixed;
+  bottom: max(24px, calc(env(safe-area-inset-bottom) + 12px));
+  z-index: 9;
+}
+
+.game-header > .paper-button {
+  right: max(132px, calc((100vw - 1180px) / 2 + 132px));
+}
+
+.game-header-actions {
+  right: max(24px, calc((100vw - 1180px) / 2 + 24px));
+  display: flex;
+  gap: 6px;
+}
+
+.game-header .paper-button {
+  min-width: 38px;
+  min-height: 36px;
+  padding: 7px 9px;
+  border: 1px solid rgba(225, 235, 221, .55);
+  border-radius: 10px;
+  color: #f6f7ef;
+  background: rgba(45, 63, 52, calc(var(--reading-overlay-opacity) * .82));
+  box-shadow: 0 6px 20px rgba(18, 31, 22, .16);
+  backdrop-filter: blur(10px) saturate(1.05);
+}
+
+.game-header .paper-button > span { display: none; }
+.game-header .paper-button:hover { background: rgba(45, 63, 52, calc(var(--reading-overlay-opacity) * .95)); }
+
+.story-controls {
+  position: relative;
+  z-index: 6;
+  min-height: 0;
+  padding: 0 max(20px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+  border: 0;
+  background: transparent;
+}
+
+.reading-panel {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 16px 22px 9px;
+  border: 1px solid rgba(236, 241, 231, .56);
+  border-radius: 18px;
+  background: rgba(247, 245, 237, var(--reading-overlay-opacity));
+  box-shadow: 0 18px 50px rgba(26, 41, 31, .18);
+  backdrop-filter: blur(12px) saturate(1.06);
+}
+
+.dialogue-text {
+  min-height: 74px;
+  max-height: 25dvh;
+}
+
+.reading-bottom {
+  padding-right: 290px;
+}
+
+.game-tools {
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.game-tools::-webkit-scrollbar { display: none; }
+.next-indicator { display: none; }
+.reading-progress { left: 22px; right: 22px; }
+
+.overlay-opacity-control {
+  position: fixed;
+  right: max(178px, calc((100vw - 1180px) / 2 + 178px));
+  bottom: max(24px, calc(env(safe-area-inset-bottom) + 12px));
+  z-index: 10;
+}
+
+.opacity-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 7px 10px;
+  border: 1px solid rgba(225, 235, 221, .55);
+  border-radius: 10px;
+  color: #f6f7ef;
+  background: rgba(45, 63, 52, calc(var(--reading-overlay-opacity) * .82));
+  box-shadow: 0 6px 20px rgba(18, 31, 22, .16);
+  backdrop-filter: blur(10px) saturate(1.05);
+  font-size: 10px;
+  letter-spacing: .04em;
+}
+.opacity-toggle:hover { background: rgba(45, 63, 52, calc(var(--reading-overlay-opacity) * .95)); }
+.opacity-toggle strong { font-size: 10px; font-weight: 500; }
+
+.opacity-popover {
+  position: absolute;
+  right: 0;
+  bottom: 44px;
+  width: 220px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px 14px;
+  align-items: center;
+  padding: 14px;
+  border: 1px solid rgba(235, 241, 230, .62);
+  border-radius: 12px;
+  color: #f7f8f1;
+  background: rgba(42, 59, 48, .9);
+  box-shadow: 0 14px 36px rgba(18, 31, 22, .24);
+  backdrop-filter: blur(14px) saturate(1.08);
+  font-size: 11px;
+}
+.opacity-popover strong { font-weight: 500; }
+.opacity-popover input {
+  grid-column: 1 / -1;
+  width: 100%;
+  accent-color: #dbe8d4;
+}
+
+.game-screen[data-ui-hidden='true'] .game-header { height: 0; }
+
+@media (orientation: portrait) {
+  .scene-character { left: 55%; height: 93%; max-width: 118%; }
+  .scene-background { object-position: 52% center; }
+}
+
+@media (max-width: 760px) {
+  .story-controls {
+    padding-left: max(6px, env(safe-area-inset-left));
+    padding-right: max(6px, env(safe-area-inset-right));
+    padding-bottom: max(6px, env(safe-area-inset-bottom));
+  }
+  .reading-panel {
+    padding: 11px 12px 7px;
+    border-radius: 14px;
+  }
+  .dialogue-text { min-height: 54px; max-height: 23dvh; }
+  .reading-bottom { padding-right: 212px; }
+  .game-tools { gap: 12px; }
+  .game-header > .paper-button {
+    right: max(108px, calc(env(safe-area-inset-right) + 108px));
+  }
+  .game-header-actions {
+    right: max(10px, calc(env(safe-area-inset-right) + 10px));
+  }
+  .game-header > .paper-button,
+  .game-header-actions,
+  .overlay-opacity-control {
+    bottom: max(14px, calc(env(safe-area-inset-bottom) + 8px));
+  }
+  .overlay-opacity-control {
+    right: max(154px, calc(env(safe-area-inset-right) + 154px));
+  }
+  .opacity-label { display: none; }
+  .opacity-toggle { min-width: 52px; justify-content: center; padding: 7px 8px; }
+  .opacity-popover { width: min(220px, calc(100vw - 24px)); }
+}
+
+@media (orientation: landscape) and (max-height: 600px) {
+  .reading-panel { padding-top: 8px; }
+  .dialogue-text { min-height: 40px; max-height: 18dvh; padding-bottom: 4px; }
+  .speaker { margin-bottom: 3px; }
+}
