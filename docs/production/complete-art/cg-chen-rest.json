@@ -1,0 +1,14 @@
+{
+  "kind": "background",
+  "width": 1672,
+  "height": 941,
+  "path": "public/art/cg-chen-rest.webp",
+  "bytes": 432034,
+  "sha256": "9c8f0f0e7e44de411cb9ad99dff1daf3a5261755fcb9e1f7a844dc365892280d",
+  "prompt": "Use case: illustration-story. Asset type: final 16:9 visual-novel event illustration, at least 1672x941, a SINGLE scene, no panels. Original Chinese high-school coming-of-age VN. Match supplied reference faces, thin clean anime outlines, flat cel colors, simple shadows, restrained ivory/mint-green/navy palette, NOT painterly or realistic. Everyone wears the same ivory tracksuit jacket with forest-green shoulder panels and thin green sleeves accents, plain white T-shirt, navy school pants. Expressive but understated. Faces in upper 65%, lower quarter calm for translucent dialogue. No text, UI, logos, watermark, borders. References are identity and style guides only; never reproduce the expression-sheet layout. One girl only: Chen Zhiyao, chestnut high ponytail and cream hair tie, exact reference identity. Seated resting at a bench under a campus tree after school, shoulders relaxed, finished journal on her lap, turning to the viewer with an unhurried warm smile and subtle blush. No to-do list and no heroic pose, hands naturally resting. Sunlight through leaves, quiet green school yard. Medium shot, face around x36% y32%.",
+  "mode": "built-in image_gen",
+  "references": [
+    "public/art/chen-expressions.webp",
+    "public/art/campus.webp"
+  ]
+}
