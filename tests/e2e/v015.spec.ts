@@ -5,16 +5,16 @@ test.describe('v0.1.5 regressions', () => {
     test.skip(testInfo.project.name !== 'mobile', 'mobile regression only');
     await page.goto('/');
 
-    const button = page.getByRole('button', { name: '全屏阅读' }).first();
-    await button.click();
+    await page.getByRole('button', { name: '全屏阅读' }).first().click();
 
     await expect(page.locator('html')).toHaveClass(/immersive-reading/);
-    await expect(button).toHaveAttribute('aria-label', '退出全屏');
+    const exitButton = page.getByRole('button', { name: '退出全屏' }).first();
+    await expect(exitButton).toBeVisible();
     expect(await page.evaluate(() => document.fullscreenElement === null)).toBe(true);
 
-    await button.click();
+    await exitButton.click();
     await expect(page.locator('html')).not.toHaveClass(/immersive-reading/);
-    await expect(button).toHaveAttribute('aria-label', '全屏阅读');
+    await expect(page.getByRole('button', { name: '全屏阅读' }).first()).toBeVisible();
   });
 
   test('character archive exposes adult profile details for all three heroines', async ({ page }) => {
