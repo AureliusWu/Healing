@@ -20,7 +20,7 @@ const allRoutes = routes();
 
 describe('complete chapter graph', () => {
   it('has unique scenes, valid destinations, and readable paragraphs', () => {
-    expect(sceneMap.size).toBe(scenes.length);
+    expect([...sceneMap.values()].filter(scene => scene.chapter === 1)).toHaveLength(scenes.length);
     for (const scene of scenes) {
       expect(scene.lines.length).toBeGreaterThan(0);
       expect(scene.lines.every(line => !!line.speaker && !!line.text)).toBe(true);

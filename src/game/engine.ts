@@ -1,4 +1,4 @@
-import { scenes } from '../story/chapter1';
+import { scenes } from '../story';
 import type { Decision, Ending, GameState, Scene, Stats } from './types';
 
 export const sceneMap = new Map(scenes.map(scene => [scene.id, scene]));
@@ -8,7 +8,7 @@ export function getScene(state: GameState): Scene {
   return scene;
 }
 export function newGame(): GameState {
-  return { schema: 1, storyVersion: 'chapter1-v1', sceneId: 'arrival', line: 0,
+  return { schema: 1, storyVersion: 'moist-healing-v1', sceneId: 'arrival', line: 0,
     stats: { honesty: 0, lin: 0, chen: 0 }, decisions: [], history: [] };
 }
 export function endingFor(stats: Stats): Ending {
@@ -22,14 +22,14 @@ export function recordLine(state: GameState): GameState {
   if (!current) return state;
   const last = state.history.at(-1);
   if (last?.sceneId === scene.id && last.line === state.line) return state;
-  return { ...state, history: [...state.history, { ...current, sceneId: scene.id, line: state.line }].slice(-500) };
+  return { ...state, history: [...state.history, { ...current, sceneId: scene.id, line: state.line }].slice(-1500) };
 }
 export function advance(state: GameState): GameState {
   const scene = getScene(state);
   const recorded = recordLine(state);
   if (state.line < scene.lines.length - 1) return { ...recorded, line: state.line + 1 };
-  if (scene.choices || scene.ending) return recorded;
-  const target = scene.resolve ? `end-${endingFor(state.stats)}` : scene.next;
+  if (scene.choices || scene.ending || scene.chapterEnd) return recorded;
+  const target = scene.resolve ? `end-${endingFor(state.stats)}` : scene.bridge ? `c2-from-${endingFor(state.stats)}` : scene.next;
   return target ? { ...recorded, sceneId: target, line: 0 } : recorded;
 }
 export function choose(state: GameState, choiceId: string): GameState {
@@ -42,12 +42,17 @@ export function choose(state: GameState, choiceId: string): GameState {
   return { ...recordLine(state), sceneId: choice.next, line: 0, stats,
     decisions: [...state.decisions, { sceneId: scene.id, choiceId }] };
 }
+export function continueStory(state: GameState): GameState {
+  const scene = getScene(state);
+  if (!scene.continuation || state.line !== scene.lines.length - 1 || (!scene.ending && !scene.chapterEnd)) throw new Error('请先读完当前章节');
+  return { ...recordLine(state), storyVersion: 'moist-healing-v1', sceneId: scene.continuation, line: 0 };
+}
 // Rebuild from choices instead of trusting imported stats/history. A save can only
 // point to a position that is actually reachable along the declared route.
 export function replay(decisions: Decision[], sceneId: string, line: number): GameState {
   let state = newGame();
   let decisionIndex = 0;
-  for (let steps = 0; steps < 1200; steps++) {
+  for (let steps = 0; steps < 4000; steps++) {
     const scene = getScene(state);
     if (state.sceneId === sceneId && state.line === line && decisionIndex === decisions.length) return state;
     if (state.line === scene.lines.length - 1 && scene.choices) {
@@ -55,7 +60,7 @@ export function replay(decisions: Decision[], sceneId: string, line: number): Ga
       if (!decision || decision.sceneId !== scene.id) throw new Error('存档路线不完整');
       state = choose(state, decision.choiceId);
     } else {
-      const next = advance(state);
+      const next = scene.continuation && state.line === scene.lines.length - 1 ? continueStory(state) : advance(state);
       if (next.sceneId === state.sceneId && next.line === state.line) break;
       state = next;
     }
