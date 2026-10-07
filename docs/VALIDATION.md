@@ -1,6 +1,6 @@
 # 验证记录
 
-当前版本：0.1.6（发布验证中）。日期：2026-10-07（北京时间）。
+当前版本：0.1.6（已正式发布）。日期：2026-10-07（北京时间）。
 
 ## v0.1.6 检查范围
 
@@ -10,8 +10,20 @@
 - 中文字体已重新生成，源码中文字形覆盖完整。生产构建通过，PWA 包含 21 个离线资源；旧许棠 SVG 已移除。
 - 本地六项与本次改动直接相关的浏览器检查通过：电脑 / 手机的画集六种表情、三视图断网浏览、争执表情读档恢复，以及四种短横屏边界与 PWA 全资产断网重开。一次遗漏的知遥表情注解在实机测试发现后补齐，两个恢复检查重新通过。
 - 三位角色在 1440×900、844×390、412×915 均完成实际预览，页面错误为 0；角色画集与三视图另存于 `docs/previews/v0.1.6/`。验收脚本为 `scripts/character-preview.mjs`。
-- 首次完整云端 Web 检查通过：20 项逻辑、33 项浏览器用例，另 3 项因设备类型不适用而跳过。Windows 首次启动检查仍断言旧版“十八岁”首句，已同步为恢复后的“十七岁”；完整双端流程重新执行，后续结果以下方发布证据为准。
-- Windows 构建与实际包启动、完整 CI 浏览器检查、线上 PWA 与离线重开结果在执行后补记；未验证前不记录正式发布完成。
+- 首次完整云端 Web 检查通过：20 项逻辑、33 项浏览器用例，另 3 项因设备类型不适用而跳过。Windows 首次启动检查仍断言旧版“十八岁”首句，已同步为恢复后的“十七岁”；随后重新执行完整双端流程并通过，结果见下方发布证据。
+- 完整 CI 浏览器检查、Windows 源码与实际 ASAR 包启动、线上 PWA 与离线重开全部通过，证据见下方发布结果。
+
+## v0.1.6 发布结果
+
+运行代码提交：`c16120834b902c0fbf4058aa26c2f8181d778ae4`。
+
+- [Build game #37572000848](https://github.com/AureliusWu/Project1/actions/runs/37572000848)：Web、Windows、Release 全部 success；20 项逻辑、33 项浏览器用例通过，另 3 项因设备类型不适用而跳过。Web 生产包包含 21 个离线资源，缓存版本 `286bdeb308e0ee`。
+- Windows 源码与实际 ASAR 打包程序均输出 `DESKTOP_SMOKE_OK`，验证剧情启动、自动存档、系统全屏、画面与阅读区域、隐藏界面及恢复不推进、渲染器隔离；恢复后的十七岁开场通过实际启动检查。
+- [Publish PWA #37572389175](https://github.com/AureliusWu/Project1/actions/runs/37572389175)：部署与实际网址复验全部 success。电脑、手机竖屏、手机横屏均输出 `LIVE_SMOKE_OK`，版本 0.1.6，横屏清单、美术、存档、方向切换、隐藏界面与断网重开均成功，页面异常数为 0。Pages 实际配置为 `build_type: workflow`。
+- [v0.1.6 下载](https://github.com/AureliusWu/Project1/releases/tag/v0.1.6) 已公开：安装 EXE 118,832,278 字节、便携 EXE 118,598,005 字节、PWA ZIP 6,974,672 字节，另附构建记录 JSON 与 SHA-256 校验文件。五项上传状态、大小与服务端提供的摘要已由发布脚本校验，版本标签固定指向上述代码提交。
+- [线上最终截图](https://github.com/AureliusWu/Project1/actions/runs/37572389175/artifacts/11460997282) 包含三种屏幕规格的标题、阅读、选择与隐藏界面。该次线上原图已转换为仓库 `docs/previews/` 的十二张 JPEG；三位角色与三视图的十三张专项预览另存于 `docs/previews/v0.1.6/`。
+
+发布后仅补充验证记录、制作经验与预览，不改变已公开客户端。
 
 ## v0.1.3 检查范围
 
@@ -32,7 +44,7 @@
 - [Publish PWA #37554181424](https://github.com/AureliusWu/Project1/actions/runs/37554181424)：部署和实际网址复验全部 success。电脑、手机竖屏、手机横屏均输出 `LIVE_SMOKE_OK`，版本 0.1.3，横屏清单、美术、画面分区、隐藏界面、存档与断网重开全部成功，页面异常数为 0。
 - Pages 实际配置为 `build_type: workflow`，继续通过 GitHub Actions 发布。
 - [v0.1.3 下载](https://github.com/AureliusWu/Project1/releases/tag/v0.1.3) 已公开，包含安装 EXE、便携 EXE、PWA ZIP、构建证据 JSON、SHA-256 校验文件。已核对五项资源的上传结果与摘要，Release 与版本标签都固定指向上述代码提交。
-- [线上最终截图](https://github.com/AureliusWu/Project1/actions/runs/37554181424/artifacts/11454286573) 包含三种屏幕规格的标题、阅读、选择与隐藏界面。仓库 `docs/previews/` 同时保留该版本的 12 张最终实机预览。
+- [线上最终截图](https://github.com/AureliusWu/Project1/actions/runs/37554181424/artifacts/11454286573) 包含三种屏幕规格的标题、阅读、选择与隐藏界面。当时的 12 张实机预览保留在该版本代码提交的 `docs/previews/`；当前目录随最新版本更新。
 
 发布后仅补充验证结果与迭代记录，不改变已发布客户端。
 
