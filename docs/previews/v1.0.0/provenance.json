@@ -1,0 +1,228 @@
+{
+  "version": "1.0.0",
+  "runtimeCommit": "aa9b6444106f5a56a53f4ac281c5f6ddb620db4e",
+  "encoding": "JPEG quality 86; original dimensions; no crop",
+  "sources": [
+    {
+      "kind": "web",
+      "run": 37614961604,
+      "artifact": 11479623722,
+      "zipSha256": "6f822b99c24bb1eb108bd63f4f85e592698e2a8c59ad38cd6b4ac5cdb986a1bf"
+    },
+    {
+      "kind": "live",
+      "run": 37615575960,
+      "artifact": 11478794360,
+      "zipSha256": "86dad9dd6b0423449ed37d5ac9299eda7eb0d9930c3d77e442cc3d7c71412dc5"
+    }
+  ],
+  "screenshots": [
+    {
+      "source": "web",
+      "original": "cg-lin-page-desktop.png",
+      "path": "docs/previews/v1.0.0/cg-lin-page-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "5edd594e0efece759ae03d990d6443a2e41c8e1dfce3dd7c4bb30ea086cedc01",
+      "jpgSha256": "1b7a54a79882db48109c3c9127776d5b551460886f19b9b2bd9456d9a005ef0b"
+    },
+    {
+      "source": "web",
+      "original": "cg-lin-page-mobile.png",
+      "path": "docs/previews/v1.0.0/cg-lin-page-mobile.jpg",
+      "width": 1082,
+      "height": 2402,
+      "pngSha256": "0f5956591883637bda79442209f71f89b09d6e851602d582372aea77d3a47861",
+      "jpgSha256": "da0fe62579b956412da8019833247889ed96a875c48120dc34d849ce06f92b79"
+    },
+    {
+      "source": "web",
+      "original": "cg-chen-rest-desktop.png",
+      "path": "docs/previews/v1.0.0/cg-chen-rest-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "8c21877801144058dbccddd9ba13664d7f99118009398e8718ee0ba0d599806a",
+      "jpgSha256": "02cabe03fc5c655620b0902e5ff1b0b64cea3999bf16299e653c1cd91d15c1d5"
+    },
+    {
+      "source": "web",
+      "original": "cg-chen-rest-mobile.png",
+      "path": "docs/previews/v1.0.0/cg-chen-rest-mobile.jpg",
+      "width": 1082,
+      "height": 2402,
+      "pngSha256": "27e90b049b59e6954df0d940a48df13a6f34c19e23c5d3fbca71a7b8ec92f4bb",
+      "jpgSha256": "a59a1be89ad8692a6fdfd0bafdbad3ed51ce1e24a5c9f9857bc61bab0a6722c2"
+    },
+    {
+      "source": "web",
+      "original": "cg-tang-light-desktop.png",
+      "path": "docs/previews/v1.0.0/cg-tang-light-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "3d77b3e85b736d90bec9e944da75472666aba921d4484b7a207eaeba79cd6f44",
+      "jpgSha256": "57f0e0f751f548b04fdd8fe734d1388e247b28b55587c6d3a31fba61fcb1ecb6"
+    },
+    {
+      "source": "web",
+      "original": "cg-tang-light-mobile.png",
+      "path": "docs/previews/v1.0.0/cg-tang-light-mobile.jpg",
+      "width": 1082,
+      "height": 2402,
+      "pngSha256": "a26e9568513038e3f5b8c7d0c0bcc0bdff054338bc0fe983ea937dab9e448ccd",
+      "jpgSha256": "f4f192bfe72b391615b74ad5360186851991c951a1be7454a2e603091ffc9c32"
+    },
+    {
+      "source": "web",
+      "original": "cg-shared-print-desktop.png",
+      "path": "docs/previews/v1.0.0/cg-shared-print-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "2b7a2b4001065bc665eeead710d9803f9e877db1f9dc1ac162e6462d58d1322b",
+      "jpgSha256": "349eaeb4a130494ec318a5ad271406ee46cecda91e7a51115aafc05051f477bd"
+    },
+    {
+      "source": "web",
+      "original": "cg-shared-print-mobile.png",
+      "path": "docs/previews/v1.0.0/cg-shared-print-mobile.jpg",
+      "width": 1082,
+      "height": 2402,
+      "pngSha256": "ec41370efb98bcf19c66c6d09c125b2bea1701cc57fd1b9c52f6731347395131",
+      "jpgSha256": "1d0283fab2ea6179a179f3498f3cf094e58d2d2d68eb2240e70fe545e289f03d"
+    },
+    {
+      "source": "live",
+      "original": "title-desktop.png",
+      "path": "docs/previews/title-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "520f8e27b4b88ae875dcf0cbe4e230f2e6ae4f01372b2ab6d62ce88d1f97c121",
+      "jpgSha256": "eca6ff616cb3cf47fb3ae58f98c66552eec509ba5f4370fff4d56ea275289dae"
+    },
+    {
+      "source": "live",
+      "original": "title-mobile.png",
+      "path": "docs/previews/title-mobile.jpg",
+      "width": 1082,
+      "height": 2575,
+      "pngSha256": "d98ee3241ba736b355f64188185b3fd79f125edef2d8b5e048f7e574928ba412",
+      "jpgSha256": "107f66c4bea2592ff52cdaea5711d9368139d0d3f5e724553c710e792b9419f3"
+    },
+    {
+      "source": "live",
+      "original": "title-landscape.png",
+      "path": "docs/previews/title-landscape.jpg",
+      "width": 2216,
+      "height": 1024,
+      "pngSha256": "6990a9257bf68467bb19d80b02b80643d46775779d33f54a2aa1e8ed26711f93",
+      "jpgSha256": "78787cb5407d3aeebbc69ef0d28b9e17f986089504605eefc8f18354eb1b686a"
+    },
+    {
+      "source": "live",
+      "original": "reading-desktop.png",
+      "path": "docs/previews/reading-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "3ce4c410a9696462f977b4abd2f9f959743e3fd336bbc6ab5c117e1cc18dd155",
+      "jpgSha256": "dd04f3ccd7d15da61931fb6890ba534f509e9db1c3c533a98a082d9efb78a433"
+    },
+    {
+      "source": "live",
+      "original": "reading-mobile.png",
+      "path": "docs/previews/reading-mobile.jpg",
+      "width": 1082,
+      "height": 2402,
+      "pngSha256": "9c7ab816825b394db527a70eb31941b8dcd97099daf765455606c0c907afbe7d",
+      "jpgSha256": "589abd302099574ebf744e78ca899a135808658012a0cd7a7cb3a73f16834f85"
+    },
+    {
+      "source": "live",
+      "original": "reading-landscape.png",
+      "path": "docs/previews/reading-landscape.jpg",
+      "width": 2216,
+      "height": 1024,
+      "pngSha256": "2b2cd97132ab7e3c1e1db552fccecd2652b0ad84b5196e87c25da588afefdc58",
+      "jpgSha256": "52c29237c15ab0876b3038c62566b9271bd7a049485dde96cdbb5a816244a0fc"
+    },
+    {
+      "source": "live",
+      "original": "choices-desktop.png",
+      "path": "docs/previews/choices-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "8cb4364c3f8c59416af456522078bc9b8fe3fda31981d69d417d868635465881",
+      "jpgSha256": "9b45ca4a7d28f9b564ce7cf0673e1e319f006a39f23648d122b47eb41c6f7cbc"
+    },
+    {
+      "source": "live",
+      "original": "choices-mobile.png",
+      "path": "docs/previews/choices-mobile.jpg",
+      "width": 1082,
+      "height": 2402,
+      "pngSha256": "78592376d27ad41c88126ef0e917dc669b7491c6cdb5ff318a76b2b47ddb78f4",
+      "jpgSha256": "0699f439e1562951f2181696303ab10dad9bd758646a6f2bf3ac29b2a226d0a6"
+    },
+    {
+      "source": "live",
+      "original": "choices-landscape.png",
+      "path": "docs/previews/choices-landscape.jpg",
+      "width": 2216,
+      "height": 1024,
+      "pngSha256": "5110ca76517d7b7c099f23e88c8ae6c125f3d08305013711354f06566adb333a",
+      "jpgSha256": "0a9474f571b49112ddcd259a35188af2ab48419d941ee119afdff18d2a809fe5"
+    },
+    {
+      "source": "live",
+      "original": "picture-desktop.png",
+      "path": "docs/previews/picture-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "6c2cfaca47bab3d8154ebefc1b38ef82cea41fe728088bc66c9033861a741655",
+      "jpgSha256": "be8c3960f9290ed3dadc3f1573bf9b73395680e9813a1720f63b6f1ceabd7e0f"
+    },
+    {
+      "source": "live",
+      "original": "picture-mobile.png",
+      "path": "docs/previews/picture-mobile.jpg",
+      "width": 1082,
+      "height": 2402,
+      "pngSha256": "ef2db9bedd60faf19cf4ce6d4bb0fbed29fb4d958b6def3916875cc6b418227e",
+      "jpgSha256": "8bc67fcb5fb71bb471b65c7c8e76c5b4669b6daf377b40bae24f4d30688393ec"
+    },
+    {
+      "source": "live",
+      "original": "picture-landscape.png",
+      "path": "docs/previews/picture-landscape.jpg",
+      "width": 2216,
+      "height": 1024,
+      "pngSha256": "0d0cae2df3f99096a4e7b65e431192b2d9b52d0bc76a17f5d3c5157ddada5b38",
+      "jpgSha256": "058137a3a10ec28b2e28fa9ee4c352049a15963a279f325bde1f60e982967fa3"
+    },
+    {
+      "source": "live",
+      "original": "complete-cg-desktop.png",
+      "path": "docs/previews/v1.0.0/complete-cg-desktop.jpg",
+      "width": 1440,
+      "height": 900,
+      "pngSha256": "5edd594e0efece759ae03d990d6443a2e41c8e1dfce3dd7c4bb30ea086cedc01",
+      "jpgSha256": "1b7a54a79882db48109c3c9127776d5b551460886f19b9b2bd9456d9a005ef0b"
+    },
+    {
+      "source": "live",
+      "original": "complete-cg-mobile.png",
+      "path": "docs/previews/v1.0.0/complete-cg-mobile.jpg",
+      "width": 1082,
+      "height": 2402,
+      "pngSha256": "0f5956591883637bda79442209f71f89b09d6e851602d582372aea77d3a47861",
+      "jpgSha256": "da0fe62579b956412da8019833247889ed96a875c48120dc34d849ce06f92b79"
+    },
+    {
+      "source": "live",
+      "original": "complete-cg-landscape.png",
+      "path": "docs/previews/v1.0.0/complete-cg-landscape.jpg",
+      "width": 2216,
+      "height": 1024,
+      "pngSha256": "ab3a32257f1434d5c2d4d323599708bb667a392541ebc25bda3c19e2169105b2",
+      "jpgSha256": "b4e232cfa3208090957c74c5c077015a3633330c6b383ee38638f5d9382979a2"
+    }
+  ]
+}

@@ -22,7 +22,7 @@
 - [Publish PWA #37615575960](https://github.com/AureliusWu/Project1/actions/runs/37615575960)：部署与公开网址复验 success。电脑、手机竖屏、手机横屏均输出版本 1.0.0 的 `LIVE_SMOKE_OK`；断网、存档、旧章续读、结局 CG、最终结局与制作人员均成功，页面异常为 0。
 - [v1.0.0 下载](https://github.com/AureliusWu/Project1/releases/tag/v1.0.0) 已公开：安装 EXE 122,011,660 字节、便携 EXE 121,777,414 字节、PWA ZIP 10,159,075 字节，另附 `release.json` 与 `SHA256SUMS.txt`。五项上传状态、大小与服务端 SHA-256 均已核对，版本标签固定指向上述代码提交。
 - [完整 CG 实机产物](https://github.com/AureliusWu/Project1/actions/runs/37614961604/artifacts/11479623722) 保留四幅 CG 的电脑和手机实际 PNG；[线上最终截图](https://github.com/AureliusWu/Project1/actions/runs/37615575960/artifacts/11478794360) 包含三屏幕的标题、阅读、选择、隐藏界面与断网结局 CG。正式八张新增美术及全部提示词已保存在仓库 `public/art/` 与 `docs/production/complete-art/`。
-- 发布完成后工作区连接中断，最后一批 JPEG 预览未推入仓库。当前界面截图以以上正式工作流产物为准；`docs/previews/` 的既有文件保留为 v0.1.6 历史预览。
+- 收尾时从两份正式产物恢复并归档 23 张 JPEG：四幅 CG 的电脑/手机预览 8 张、线上三屏幕 CG 3 张、标题/阅读/选择/隐藏界面 12 张。保留原尺寸，文件与原 PNG 的 SHA-256、来源 ZIP 摘要、构建与产物 ID 固定在 `docs/previews/v1.0.0/provenance.json`；原 PNG 仍在上述产物中。`scripts/archive-previews.py` 已实际运行并完成格式、尺寸和重复文件验收。当前 `docs/previews/` 的十二张界面同步为 v1.0.0。
 
 发布后的文档提交保存实际验证证据；已公开客户端和版本标签固定于上述运行提交。
 
