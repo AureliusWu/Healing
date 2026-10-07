@@ -9,8 +9,21 @@
 - 四张美术全部重新绘制为二维风格。两张背景为 1672×941，两张真实透明立绘为 1024×1536；格式脚本验证透明角、主体边距与 WebP 编码后的 alpha 一致。最终资源参数与 SHA-256 见 `docs/production/ART-ASSETS.json`。
 - 中文字体重新生成固定 400 字重，当前源码 CJK 字形覆盖完整。PWA 构建枚举 15 个资源，全部随包缓存。
 - 本地生产包的电脑、手机横屏、手机竖屏均完成实际游玩、选择、方向切换、断网重开、画面分区与隐藏界面检查，页面异常数为 0。预览同时保存标题、阅读、选择与隐藏界面；在实机背景上确认透明边缘正常。
-- Windows 源码及实际 ASAR 包启动检查新增画面与控件分区、隐藏界面与恢复不推进验证。完整双端与线上发布结果在完成后记录。
+- Windows 源码及实际 ASAR 包启动检查新增画面与控件分区、隐藏界面与恢复不推进验证。双端与线上检查已实际通过，证据见下方发布结果。
 - 可复用内容固定在根目录 `AGENTS.md`、`docs/PRODUCTION.md`、迭代记录、提示词与两个制作脚本中。
+
+## v0.1.3 发布结果
+
+运行代码提交：`02b0975a2be970fdd9dd432f8372a9fe69eb0e57`。
+
+- [Build game #37553843794](https://github.com/AureliusWu/Project1/actions/runs/37553843794)：Web、Windows、Release 全部 success；16 项逻辑、28 项浏览器测试全部通过，CI 浏览器用例耗时 59.6 秒。Web 生产包包含 15 个离线资源，缓存版本 `6fc79b99ffbc16`。
+- Windows 源码客户端与实际 ASAR 打包客户端均输出 `DESKTOP_SMOKE_OK`，实际验证剧情、自动存档、全屏、`stageSeparated: true`、`pictureMode: true` 与渲染器隔离。恢复界面后的段落保持不变。
+- [Publish PWA #37554181424](https://github.com/AureliusWu/Project1/actions/runs/37554181424)：部署和实际网址复验全部 success。电脑、手机竖屏、手机横屏均输出 `LIVE_SMOKE_OK`，版本 0.1.3，横屏清单、美术、画面分区、隐藏界面、存档与断网重开全部成功，页面异常数为 0。
+- Pages 实际配置为 `build_type: workflow`，继续通过 GitHub Actions 发布。
+- [v0.1.3 下载](https://github.com/AureliusWu/Project1/releases/tag/v0.1.3) 已公开，包含安装 EXE、便携 EXE、PWA ZIP、构建证据 JSON、SHA-256 校验文件。已核对五项资源的上传结果与摘要，Release 与版本标签都固定指向上述代码提交。
+- [线上最终截图](https://github.com/AureliusWu/Project1/actions/runs/37554181424/artifacts/11454286573) 包含三种屏幕规格的标题、阅读、选择与隐藏界面。仓库 `docs/previews/` 同时保留该版本的 12 张最终实机预览。
+
+发布后仅补充验证结果与迭代记录，不改变已发布客户端。
 
 ## v0.1.2 检查范围
 
