@@ -1,11 +1,11 @@
 # 《湿性愈合》制作约定
 
-本仓库是青春期校园视觉小说，第一章《生长痛》。同一份 React 游戏发布为离线 PWA 与 Windows Electron 客户端。用户要求横屏优先、二维国 G 美术、界面不遮挡画面，并在每次制作中固化可复用内容。
+本仓库是青春期校园视觉小说，第一章《生长痛》。同一份 React 游戏发布为离线 PWA 与 Windows Electron 客户端。用户要求横屏优先、二维国 G 美术、界面尽量不遮挡关键画面，并在每次制作中固化可复用内容。
 
-开始修改前阅读 [制作规范](docs/PRODUCTION.md) 与 [迭代记录](docs/production/ITERATIONS.md)。剧情工作另读 `docs/STORY.md`；发布工作另读 `docs/ARCHITECTURE.md`、`docs/VALIDATION.md` 和版本说明。
+开始修改前阅读 [制作规范](docs/PRODUCTION.md)、[全屏浮层阅读规范](docs/production/FULLSCREEN-READING.md) 与 [迭代记录](docs/production/ITERATIONS.md)。剧情工作另读 `docs/STORY.md`；发布工作另读 `docs/ARCHITECTURE.md`、`docs/VALIDATION.md` 和版本说明。阅读布局以 `docs/production/FULLSCREEN-READING.md` 的当前规则为准，它覆盖 `docs/PRODUCTION.md` 中早期“场景与阅读区完全分行”的旧描述。
 
 - 每次制作结束前，更新适用的规范或添加一条迭代记录：写清真实问题、采用的办法、可复用文件与实际验证结果。将有效的提示词、脚本、组件和资源约定保存在仓库；不把未经验证的设想写成已完成经验。
-- 背景、立绘与剧情 UI 分区。文字、选项、场景信息和结局提示不得重新覆盖场景画面。隐藏界面时暂停推进；恢复操作保留当前段落与选择。
+- 背景与立绘组成全窗口画面层；剧情 UI 只保留下部半透明阅读/操作层，并将返回、全屏、设置等必要功能键并入其中。透明度可调且持久化。隐藏界面时暂停推进；恢复操作保留当前段落与选择。
 - 延续原创人物识别特征、江城校园与薄荷绿/米白校服。采用线稿、平涂色块和简洁阴影。新增美术先按素材规范验收，并记录最终提示词与资源清单。
 - 素材路径使用 `import.meta.env.BASE_URL`；需要离线使用的文件进入 `public/` 或被构建引用，不依赖远程图片或字体。
 - 不随意变更 `chapter1-v1` 与存档 schema。编辑剧情顺序或存档结构前明确迁移方案。界面和美术更新保持现有路线与存档兼容。
