@@ -125,7 +125,7 @@ test('PWA caches every asset and restores the same story after going offline', a
   await expect.poll(() => page.evaluate(() => [...document.images].every(image => image.complete && image.naturalWidth > 0))).toBe(true);
 });
 
-test('short landscape screens keep title actions and story controls visible without overlap', async ({ page }, testInfo) => {
+test('short landscape screens keep full-window artwork and reading controls inside the viewport', async ({ page }, testInfo) => {
   for (const [width, height] of [[568, 320], [640, 360], [844, 390], [915, 412]]) {
     await page.setViewportSize({ width, height });
     await page.goto('/');
@@ -149,7 +149,11 @@ test('short landscape screens keep title actions and story controls visible with
     expect(choices.bottom).toBeLessThanOrEqual(reader.bottom);
     expect(character.top).toBeGreaterThanOrEqual(frame.top - 1);
     expect(character.bottom).toBeLessThanOrEqual(frame.bottom + 1);
-    expect(frame.width / frame.height).toBeCloseTo(16 / 9, 2);
+    expect(frame.left).toBeCloseTo(0, 0);
+    expect(frame.top).toBeCloseTo(0, 0);
+    expect(frame.width).toBeCloseTo(width, 0);
+    expect(frame.height).toBeCloseTo(height, 0);
+    expect(await page.locator('.scene-background').evaluate(element => getComputedStyle(element).objectFit)).toBe('cover');
     expect(stage.height).toBeGreaterThan(height * .35);
     if (width === 844) await page.screenshot({ path: `test-results/previews/choices-landscape-${testInfo.project.name}.png` });
   }
