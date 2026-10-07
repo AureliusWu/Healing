@@ -32,7 +32,8 @@ test('rotation keeps the reading position and the portrait hint can be dismissed
   await expect(page.locator('.game-screen')).toHaveAttribute('data-line', '1');
 });
 
-test('real fullscreen follows external exit and gracefully handles orientation lock rejection', async ({ page }) => {
+test('desktop native fullscreen follows external exit and gracefully handles orientation lock rejection', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'desktop', 'native Fullscreen API is desktop-only after v0.1.5');
   await page.setViewportSize({ width: 844, height: 390 });
   await page.goto('/');
   await page.evaluate(() => {
@@ -43,7 +44,6 @@ test('real fullscreen follows external exit and gracefully handles orientation l
   await expect.poll(() => page.evaluate(() => !!document.fullscreenElement)).toBe(true);
   await expect(page.locator('html')).toHaveAttribute('data-direction', 'landscape');
   await expect(page.getByRole('button', { name: '退出全屏', exact: true })).toBeVisible();
-  // Exercise a browser/system exit, rather than only our own exit button.
   await page.evaluate(() => document.exitFullscreen());
   await expect(page.getByRole('button', { name: '全屏阅读', exact: true })).toBeVisible();
   await expect(page.locator('html')).toHaveAttribute('data-unlocked', 'yes');
@@ -56,7 +56,8 @@ test('real fullscreen follows external exit and gracefully handles orientation l
   await expect.poll(() => page.evaluate(() => !!document.fullscreenElement)).toBe(false);
 });
 
-test('blocked or unavailable fullscreen preserves reading and explains how to continue', async ({ page }) => {
+test('desktop blocked or unavailable fullscreen preserves reading and explains how to continue', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'desktop', 'mobile web intentionally avoids native Fullscreen API');
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('/');

@@ -1,4 +1,4 @@
-export type Character = 'lin' | 'chen';
+export type Character = 'lin' | 'chen' | 'tang';
 export type Background = 'classroom' | 'campus';
 export type Ending = 'together' | 'letter' | 'quiet';
 export type Stats = { honesty: number; lin: number; chen: number };

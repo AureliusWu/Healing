@@ -67,7 +67,7 @@ function openWindow() {
         document.querySelector('.start-button').click();
         await delay(250);
         const reader = document.querySelector('.dialogue-text');
-        if (!reader || !reader.textContent.includes('十七岁')) throw new Error('Story failed to start');
+        if (!reader || !reader.textContent.includes('十八岁')) throw new Error('Story failed to start');
         reader.click(); await delay(30); reader.click(); await delay(100);
         const raw = localStorage.getItem('moist-healing:v1:save:auto');
         if (!raw || JSON.parse(raw).state.line !== 1) throw new Error('Autosave failed');

@@ -220,3 +220,32 @@
   .dialogue-text { min-height: 40px; max-height: 18dvh; padding-bottom: 4px; }
   .speaker { margin-bottom: 3px; }
 }
+
+
+/* v0.1.5 mobile immersive mode: avoids Android Chrome's native fullscreen education bubble. */
+html.immersive-reading,
+html.immersive-reading body { width: 100%; height: 100%; overflow: hidden; overscroll-behavior: none; background: #18221c; }
+html.immersive-reading .app { position: fixed; inset: 0; width: 100vw; height: 100dvh; overflow: hidden; }
+
+/* Xu Tang is a framed vector cut-in portrait rather than a full-body alpha sprite. */
+.game-screen[data-scene='tang-interlude'] .scene-character {
+  height: auto;
+  width: min(39vw, 470px);
+  max-width: 42vw;
+  max-height: 66dvh;
+  left: auto;
+  right: 5vw;
+  bottom: 20dvh;
+  transform: none;
+  object-fit: contain;
+  border-radius: 26px;
+  filter: drop-shadow(0 18px 36px rgba(21, 34, 25, .24));
+}
+@media (max-width: 760px) and (orientation: landscape) {
+  .game-screen[data-scene='tang-interlude'] .scene-character {
+    width: min(35vw, 300px);
+    max-height: 58dvh;
+    right: 5vw;
+    bottom: 27dvh;
+  }
+}

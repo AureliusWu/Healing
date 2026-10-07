@@ -2,7 +2,7 @@
   "style": "campus-2d-v2",
   "date": "2026-10-07",
   "generator": "built-in image_gen",
-  "prompts": "docs/prompts/ART-v2.md",
+  "prompts": "docs/prompts/ART-v3.md",
   "inputCommit": "ddbfb907914415b849562bf2649be9e318dc7fef",
   "assets": [
     {
@@ -66,6 +66,15 @@
         923,
         1536
       ]
+    },
+    {
+      "id": "tang",
+      "path": "public/art/tang.svg",
+      "kind": "sprite-vector",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 3181,
+      "sha256": "44bb6c7b1442d145c2ce96803cf6e29e82765ecf6425057113e724761822d757"
     }
   ]
 }
