@@ -21,3 +21,8 @@ Use case: illustration-story. Original Chinese school visual novel character sta
 ## 字体
 
 Noto Serif SC：来自 Google Fonts 官方仓库的 `ofl/notoserifsc/NotoSerifSC[wght].ttf`。以 fontTools 固定 400 字重，并对当前工程文本字符做 WOFF2 子集。原始许可保存为 `docs/OFL-NotoSerifSC.txt`。字体使用 SIL Open Font License，不受项目 MIT 许可替代。
+
+
+## v0.1.3 二维重绘
+
+当前美术的完整提示词与透明边缘处理见 [ART-v2.md](ART-v2.md)，实际资源参数见 [资源清单](../production/ART-ASSETS.json)。上文保留 v0.1.0 的制作历史；后续新增素材沿用 [制作规范](../PRODUCTION.md)。

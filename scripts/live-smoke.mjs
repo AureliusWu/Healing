@@ -24,6 +24,11 @@ for (const screen of ['desktop', 'mobile', 'landscape']) {
     await page.evaluate(() => document.fonts.ready);
     await page.screenshot({ path: `test-results/live/title-${screen}.png`, fullPage: true });
     await page.getByRole('button', { name: '开始阅读', exact: true }).click();
+    await page.getByRole('button', { name: '快进', exact: true }).click();
+    await expect(page.locator('.choice-panel')).toBeVisible();
+    await page.screenshot({ path: `test-results/live/choices-${screen}.png` });
+    await page.getByRole('button', { name: /我其实/ }).click();
+    await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', 'desk-honest');
     await page.getByRole('button', { name: '显示下一段', exact: true }).click();
     await expect(page.locator('.game-screen')).toHaveAttribute('data-line', '1');
     if (screen === 'mobile') {
@@ -40,8 +45,22 @@ for (const screen of ['desktop', 'mobile', 'landscape']) {
     await expect(page.locator('.game-screen')).toHaveAttribute('data-line', '1');
     await expect.poll(() => page.evaluate(() => [...document.images].every(image => image.complete && image.naturalWidth > 0))).toBe(true);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    const separated = await page.evaluate(() => {
+      const stage = document.querySelector('.game-stage').getBoundingClientRect();
+      const header = document.querySelector('.game-header').getBoundingClientRect();
+      const reader = document.querySelector('.reading-panel').getBoundingClientRect();
+      return header.bottom <= stage.top + 1 && stage.bottom <= reader.top + 1;
+    });
+    expect(separated).toBe(true);
     expect(errors).toEqual([]);
+    await expect(page.locator('.toast.visible')).toHaveCount(0);
     await page.screenshot({ path: `test-results/live/reading-${screen}.png` });
-    console.log(`LIVE_SMOKE_OK ${JSON.stringify({ url: target.origin + target.pathname, version, screen, orientation: manifest.orientation, art: true, autosave: true, offline: true, pageErrors: errors.length })}`);
+    await page.getByRole('button', { name: '隐藏界面', exact: true }).click();
+    await expect(page.locator('.story-controls')).toBeHidden();
+    await page.screenshot({ path: `test-results/live/picture-${screen}.png` });
+    await page.getByRole('button', { name: '恢复阅读界面', exact: true }).click();
+    await expect(page.locator('.game-screen')).toHaveAttribute('data-line', '1');
+    await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', 'desk-honest');
+    console.log(`LIVE_SMOKE_OK ${JSON.stringify({ url: target.origin + target.pathname, version, screen, orientation: manifest.orientation, art: true, stageSeparated: separated, pictureMode: true, autosave: true, offline: true, pageErrors: errors.length })}`);
   } finally { await browser.close(); }
 }

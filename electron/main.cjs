@@ -71,7 +71,17 @@ function openWindow() {
         reader.click(); await delay(30); reader.click(); await delay(100);
         const raw = localStorage.getItem('moist-healing:v1:save:auto');
         if (!raw || JSON.parse(raw).state.line !== 1) throw new Error('Autosave failed');
-        return { title: document.title, story: true, autosave: true, fullscreen: true, sandbox: true };
+        const stage = document.querySelector('.game-stage').getBoundingClientRect();
+        const header = document.querySelector('.game-header').getBoundingClientRect();
+        const dock = document.querySelector('.reading-panel').getBoundingClientRect();
+        if (header.bottom > stage.top + 1 || stage.bottom > dock.top + 1) throw new Error('UI covers artwork');
+        [...document.querySelectorAll('.game-tools button')].find(button => button.textContent.includes('隐藏界面')).click();
+        await delay(100);
+        if (document.querySelector('.story-controls').getBoundingClientRect().height !== 0) throw new Error('Picture mode did not hide UI');
+        document.querySelector('[aria-label="恢复阅读界面"]').click();
+        await delay(100);
+        if (document.querySelector('.game-screen').dataset.line !== '1') throw new Error('Restoring UI advanced the story');
+        return { title: document.title, story: true, autosave: true, fullscreen: true, stageSeparated: true, pictureMode: true, sandbox: true };
       })()`);
       console.log('DESKTOP_SMOKE_OK', JSON.stringify(result));
       app.exit(0);

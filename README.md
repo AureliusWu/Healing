@@ -2,9 +2,9 @@
 
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。第一章 **《生长痛》** 已实现，当前版本 **v0.1.2**。
+青春期校园题材原创视觉小说。第一章 **《生长痛》** 已实现，当前版本 **v0.1.3**。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Project1/) · [下载 Windows / PWA](https://github.com/AureliusWu/Project1/releases/tag/v0.1.2)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Project1/) · [下载 Windows / PWA](https://github.com/AureliusWu/Project1/releases/tag/v0.1.3)
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏和陈知遥相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
 
@@ -14,11 +14,14 @@
 | --- | --- | --- | --- |
 | 标题界面 | [查看](docs/previews/title-desktop.jpg) | [查看](docs/previews/title-landscape.jpg) | [查看](docs/previews/title-mobile.jpg) |
 | 实际阅读 | [查看](docs/previews/reading-desktop.jpg) | [查看](docs/previews/reading-landscape.jpg) | [查看](docs/previews/reading-mobile.jpg) |
+| 剧情选择 | [查看](docs/previews/choices-desktop.jpg) | [查看](docs/previews/choices-landscape.jpg) | [查看](docs/previews/choices-mobile.jpg) |
+| 隐藏界面 | [查看](docs/previews/picture-desktop.jpg) | [查看](docs/previews/picture-landscape.jpg) | [查看](docs/previews/picture-mobile.jpg) |
 
 ## 可玩的内容
 
 - 完整第一章，4 次关键选择，54 种选择组合，3 种章节结局。
-- 两位主要角色的原创 AI 立绘、两张原创 AI 校园背景。
+- 两位主要角色的原创二维 AI 立绘、两张重新绘制的二维校园背景。
+- 独立的场景与底部阅读区：文字、选择和工具不覆盖画面；隐藏界面可完整欣赏背景与立绘。
 - 逐字文本、自动阅读、快进、已读回看、结局回忆手册。
 - 自动存档 + 3 个手动存档位；JSON 导入/导出，在手机与电脑之间迁移进度。
 - 横屏优先：手机短横屏标题、立绘和阅读布局；竖屏旋转提示可关闭，旋转时保留进度。
@@ -70,7 +73,7 @@ npm run desktop:win   # 在 Windows 生成 NSIS 安装包和便携 EXE
 
 直接打开 [游戏网页](https://aureliuswu.github.io/Project1/)，标题页的「安装与离线」提供安装操作、下载状态与更新检查。离线状态就绪后可以断网重开。
 
-[版本下载页](https://github.com/AureliusWu/Project1/releases/tag/v0.1.2) 提供 Windows 安装版、便携版及 PWA ZIP，包含文件 SHA-256 与实际构建提交记录。该下载不依赖 Actions 产物保留期限。
+[版本下载页](https://github.com/AureliusWu/Project1/releases/tag/v0.1.3) 提供 Windows 安装版、便携版及 PWA ZIP，包含文件 SHA-256 与实际构建提交记录。该下载不依赖 Actions 产物保留期限。
 
 每次推送 `main` 会运行 [Build game](https://github.com/AureliusWu/Project1/actions/workflows/build.yml)：先验证剧情与手机/电脑 PWA，再在 Windows 启动实际 Electron 程序、生成安装包并启动实际打包程序复验。全部成功后，对应版本的安装包和 PWA 会发布到 Releases。需要发布新版本时，同时更新 `package.json`、锁文件与 `docs/releases/v版本号.md`；已发布版本不被覆盖。对应运行页面也保留 Artifacts：
 
@@ -91,9 +94,10 @@ npm run desktop:win   # 在 Windows 生成 NSIS 安装包和便携 EXE
 | 自动阅读 | A，或「自动」 |
 | 存档 | S / Esc，或「存档」 |
 | 回看 | L，或「回看」 |
+| 隐藏 / 恢复界面 | H，或「隐藏界面」；轻触画面与 Esc 可恢复 |
 | 进入 / 退出全屏 | 标题、阅读页或设置中的全屏按钮；桌面版也支持 F11 |
 
-快进与自动阅读都会在选择处停下。回到标题会保留进度；开启新故事前会提示自动存档将更新。
+隐藏界面会暂停自动与快进，恢复操作保持当前段落。快进与自动阅读都会在选择处停下。回到标题会保留进度；开启新故事前会提示自动存档将更新。
 
 ## 验证
 
@@ -108,7 +112,7 @@ npm run test:desktop:packaged # Windows 打包后，检查实际 ASAR 桌面程�
 
 剧情校验遍历全部 54 条路线，并验证每段可恢复、全部场景可达、非法存档被拒绝。浏览器测试覆盖两个屏幕规格下的完整游玩、存档、迁移、离线重开与短横屏布局。桌面启动检查验证实际窗口、立绘资源、剧情启动、自动存档和渲染器隔离。
 
-详见 [技术结构](docs/ARCHITECTURE.md)、[第一章设计](docs/STORY.md)、[素材与提示词](docs/prompts/ART.md) 和 [验证记录](docs/VALIDATION.md)。
+详见 [技术结构](docs/ARCHITECTURE.md)、[第一章设计](docs/STORY.md)、[素材与提示词](docs/prompts/ART.md)、[制作规范](docs/PRODUCTION.md)、[迭代记录](docs/production/ITERATIONS.md) 和 [验证记录](docs/VALIDATION.md)。
 
 ## 授权
 

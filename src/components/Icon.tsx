@@ -1,6 +1,8 @@
 import type { CSSProperties } from 'react';
 
 const paths: Record<string, string> = {
+  eye: 'M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Zm13 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0',
+  'eye-off': 'm3 3 18 18M10 5h2c6 0 10 7 10 7s-1 2-3 4M6 6c-3 2-4 6-4 6s4 7 10 7c2 0 3-1 4-1M9 9a4 4 0 0 0 6 6',
   expand: 'M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5',
   shrink: 'M3 8h5V3m8 0v5h5M8 21v-5H3m13 5v-5h5',
   rotate: 'M16 5a8 8 0 0 0-12 5M4 5v5h5m-1 9a8 8 0 0 0 12-5m0 5v-5h-5m-6-7h6v10H9Z',

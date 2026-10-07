@@ -138,10 +138,19 @@ test('short landscape screens keep title actions and story controls visible with
     if (width === 844) await page.screenshot({ path: `test-results/previews/title-landscape-${testInfo.project.name}.png` });
     await page.getByRole('button', { name: '开始阅读', exact: true }).click();
     await playToChoice(page);
-    const [header, choices, reader] = await page.locator('.game-header, .choice-panel, .reading-panel').evaluateAll(elements => elements.map(element => { const r = element.getBoundingClientRect(); return { left: r.left, right: r.right, top: r.top, bottom: r.bottom }; }));
-    for (const box of [header, choices, reader]) { expect(box.left).toBeGreaterThanOrEqual(0); expect(box.right).toBeLessThanOrEqual(width); expect(box.top).toBeGreaterThanOrEqual(0); expect(box.bottom).toBeLessThanOrEqual(height); }
-    expect(choices.top).toBeGreaterThanOrEqual(header.bottom + 6);
-    expect(choices.bottom).toBeLessThanOrEqual(reader.top - 8);
+    const [header, stage, frame, choices, reader, character] = await page.evaluate(() => ['.game-header', '.game-stage', '.scene-frame', '.choice-panel', '.reading-panel', '.scene-character'].map(selector => {
+      const r = document.querySelector(selector)!.getBoundingClientRect();
+      return { left: r.left, right: r.right, top: r.top, bottom: r.bottom, width: r.width, height: r.height };
+    }));
+    for (const box of [header, stage, frame, choices, reader, character]) { expect(box.left).toBeGreaterThanOrEqual(-1); expect(box.right).toBeLessThanOrEqual(width + 1); expect(box.top).toBeGreaterThanOrEqual(-1); expect(box.bottom).toBeLessThanOrEqual(height + 1); }
+    expect(stage.top).toBeGreaterThanOrEqual(header.bottom - 1);
+    expect(reader.top).toBeGreaterThanOrEqual(stage.bottom - 1);
+    expect(choices.top).toBeGreaterThanOrEqual(reader.top);
+    expect(choices.bottom).toBeLessThanOrEqual(reader.bottom);
+    expect(character.top).toBeGreaterThanOrEqual(frame.top - 1);
+    expect(character.bottom).toBeLessThanOrEqual(frame.bottom + 1);
+    expect(frame.width / frame.height).toBeCloseTo(16 / 9, 2);
+    expect(stage.height).toBeGreaterThan(height * .35);
     if (width === 844) await page.screenshot({ path: `test-results/previews/choices-landscape-${testInfo.project.name}.png` });
   }
 });

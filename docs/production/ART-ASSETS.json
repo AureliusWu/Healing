@@ -1,0 +1,71 @@
+{
+  "style": "campus-2d-v2",
+  "date": "2026-10-07",
+  "generator": "built-in image_gen",
+  "prompts": "docs/prompts/ART-v2.md",
+  "inputCommit": "ddbfb907914415b849562bf2649be9e318dc7fef",
+  "assets": [
+    {
+      "id": "campus",
+      "path": "public/art/campus.webp",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "bytes": 571028,
+      "sha256": "bdf33ddaf2d996bb9842fc898da770b0b623ce33ee155bc699837594771e043e"
+    },
+    {
+      "id": "classroom",
+      "path": "public/art/classroom.webp",
+      "kind": "background",
+      "width": 1672,
+      "height": 941,
+      "bytes": 319372,
+      "sha256": "0c3a2d7bf8525d0105675a5a9bcff6315de98d778c1aaf808f0b7781100af0ec"
+    },
+    {
+      "id": "lin",
+      "path": "public/art/lin.webp",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 955322,
+      "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548",
+      "transparentFraction": 0.63,
+      "alphaBounds": [
+        65,
+        12,
+        771,
+        1536
+      ],
+      "solidAlphaBounds": [
+        246,
+        15,
+        767,
+        1536
+      ]
+    },
+    {
+      "id": "chen",
+      "path": "public/art/chen.webp",
+      "kind": "sprite",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1050262,
+      "sha256": "1af71b2d3dfce1ae4fc8275b447f559544dbae86826f6f120adae2438a8f766f",
+      "transparentFraction": 0.5639,
+      "alphaBounds": [
+        161,
+        0,
+        926,
+        1536
+      ],
+      "solidAlphaBounds": [
+        165,
+        8,
+        923,
+        1536
+      ]
+    }
+  ]
+}
