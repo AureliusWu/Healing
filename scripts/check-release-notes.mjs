@@ -22,11 +22,6 @@ if (!fs.existsSync(expectedPath)) {
   fail(`missing docs/releases/${expected}`);
 }
 
-const releaseText = fs.readFileSync(expectedPath, 'utf8').trim();
-if (releaseText.length < 80 || !releaseText.includes(`v${version}`)) {
-  fail(`docs/releases/${expected} must contain the version and a meaningful changelog`);
-}
-
 if (!fs.existsSync(indexPath)) {
   fail('missing docs/releases/README.md changelog index');
 }
@@ -37,6 +32,14 @@ const noteFiles = fs.readdirSync(releaseDir)
   .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
 
 for (const file of noteFiles) {
+  const notePath = path.join(releaseDir, file);
+  const noteText = fs.readFileSync(notePath, 'utf8').trim();
+  const noteVersion = file.slice(0, -3);
+
+  if (noteText.length < 80 || !noteText.includes(noteVersion)) {
+    fail(`docs/releases/${file} must contain its version and a meaningful changelog`);
+  }
+
   if (!indexText.includes(`](${file})`)) {
     fail(`docs/releases/README.md does not index ${file}`);
   }
