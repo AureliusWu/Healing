@@ -1,0 +1,14 @@
+{
+  "kind": "background",
+  "width": 1672,
+  "height": 941,
+  "path": "public/art/cg-tang-light.webp",
+  "bytes": 441676,
+  "sha256": "7af7ab488adb255f975991e8ebceb9e90df1ddc680fb90d3f537230ea2cd1fc6",
+  "prompt": "Use case: illustration-story. Asset type: final 16:9 visual-novel event illustration, at least 1672x941, a SINGLE scene, no panels. Original Chinese high-school coming-of-age VN. Match supplied reference faces, thin clean anime outlines, flat cel colors, simple shadows, restrained ivory/mint-green/navy palette, NOT painterly or realistic. Everyone wears the same ivory tracksuit jacket with forest-green shoulder panels and thin green sleeves accents, plain white T-shirt, navy school pants. Expressive but understated. Faces in upper 65%, lower quarter calm for translucent dialogue. No text, UI, logos, watermark, borders. References are identity and style guides only; never reproduce the expression-sheet layout. One girl only: Xu Tang, dark low ponytail with dark tie, exact reference identity. At sunset on an ordinary riverside walkway after rain, standing safely inside the railing, holding a compact camera at chest level supported by both hands; looking back toward the viewer with a small sincere shy smile. Warm gold reflected in damp pavement, broad river and a modest distant bridge. Camera strap natural and visible, not posing dangerously. Medium shot, face around x51% y31%.",
+  "mode": "built-in image_gen",
+  "references": [
+    "public/art/tang-expressions.webp",
+    "public/art/riverbank.webp"
+  ]
+}
