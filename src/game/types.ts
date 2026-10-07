@@ -1,7 +1,9 @@
 export type Character = 'lin' | 'chen' | 'tang';
 export type Expression = 'neutral' | 'smile' | 'surprised' | 'worried' | 'hurt' | 'shy';
-export type Background = 'classroom' | 'campus';
-export type Ending = 'together' | 'letter' | 'quiet';
+export type Background = 'classroom' | 'campus' | 'clubroom' | 'home' | 'printshop' | 'riverbank';
+export type CgId = 'lin-page' | 'chen-rest' | 'tang-light' | 'shared-print';
+export type MusicId = 'rain' | 'window' | 'workshop' | 'distance' | 'evening' | 'after-rain';
+export type Ending = 'together' | 'letter' | 'quiet' | 'lin-final' | 'chen-final' | 'tang-final' | 'friends-final';
 export type Stats = { honesty: number; lin: number; chen: number };
 export type Line = { speaker: string; text: string; expression?: Expression };
 export type Choice = { id: string; text: string; next: string; effect?: Partial<Stats> };
@@ -17,12 +19,19 @@ export type Scene = {
   next?: string;
   resolve?: true;
   ending?: Ending;
+  chapter?: 1 | 2 | 3;
+  continuation?: string;
+  bridge?: true;
+  chapterEnd?: true;
+  cg?: CgId;
+  music?: MusicId;
+  rain?: boolean;
 };
 export type HistoryEntry = Line & { sceneId: string; line: number };
 export type Decision = { sceneId: string; choiceId: string };
 export type GameState = {
   schema: 1;
-  storyVersion: 'chapter1-v1';
+  storyVersion: 'chapter1-v1' | 'moist-healing-v1';
   sceneId: string;
   line: number;
   stats: Stats;
@@ -30,4 +39,4 @@ export type GameState = {
   history: HistoryEntry[];
 };
 export type Save = { schema: 1; game: 'moist-healing'; savedAt: string; state: GameState };
-export type Settings = { textSpeed: number; autoDelay: number; music: boolean; volume: number; reducedMotion: boolean };
+export type Settings = { textSpeed: number; autoDelay: number; music: boolean; volume: number; reducedMotion: boolean; soundEffects: boolean; ambience: boolean };
