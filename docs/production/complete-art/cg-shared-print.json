@@ -1,0 +1,16 @@
+{
+  "kind": "background",
+  "width": 1672,
+  "height": 941,
+  "path": "public/art/cg-shared-print.webp",
+  "bytes": 369192,
+  "sha256": "c89562bd61fa251f5571dcdd0d43944256edd0c46e32c67ed66af007b5252123",
+  "prompt": "Use case: illustration-story. Asset type: final 16:9 visual-novel event illustration, at least 1672x941, a SINGLE scene, no panels. Original Chinese high-school coming-of-age VN. Match supplied reference faces, thin clean anime outlines, flat cel colors, simple shadows, restrained ivory/mint-green/navy palette, NOT painterly or realistic. Everyone wears the same ivory tracksuit jacket with forest-green shoulder panels and thin green sleeves accents, plain white T-shirt, navy school pants. Expressive but understated. Faces in upper 65%, lower quarter calm for translucent dialogue. No text, UI, logos, watermark, borders. References are identity and style guides only; never reproduce the expression-sheet layout. Exactly THREE different girls around the literature-club shared table, pleasant ordinary after-school mood: left Lin dark bob and mint rectangular clip, middle Chen chestnut HIGH ponytail cream tie, right Xu Tang dark LOW ponytail dark tie. Their faces and hairstyles must clearly match the three respective character references, no swapping. Small stack of newly printed folded school journals in center, Tang's compact camera resting on table, quiet satisfied smiles and naturally separate hands. View from an empty fourth chair as the unseen player, no additional faces or characters. Wide shot framing all three faces in upper half, table calm in lower quarter. Warm afternoon window light.",
+  "mode": "built-in image_gen",
+  "references": [
+    "public/art/lin-expressions.webp",
+    "public/art/chen-expressions.webp",
+    "public/art/tang-expressions.webp",
+    "public/art/clubroom.webp"
+  ]
+}

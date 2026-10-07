@@ -10,7 +10,7 @@ function openWindow() {
   const entry = pathToFileURL(index).href;
   window = new BrowserWindow({
     width: 1360, height: 860, minWidth: 800, minHeight: 560,
-    title: '湿性愈合 · 生长痛', backgroundColor: '#f5f3e9',
+    title: '湿性愈合 · 三章完结', backgroundColor: '#f5f3e9',
     icon: path.join(__dirname, '..', 'dist', 'icons', 'icon-512.png'),
     show: false, autoHideMenuBar: true,
     webPreferences: { nodeIntegration: false, contextIsolation: true, sandbox: true, webSecurity: true },
@@ -83,7 +83,44 @@ function openWindow() {
         if (document.querySelector('.game-screen').dataset.line !== '1') throw new Error('Restoring UI advanced the story');
         return { title: document.title, story: true, autosave: true, fullscreen: true, stageSeparated: true, pictureMode: true, sandbox: true };
       })()`);
-      console.log('DESKTOP_SMOKE_OK', JSON.stringify(result));
+      const fixtures = require('./smoke-fixtures.json');
+      const edition = await window.webContents.executeJavaScript(`(async () => {
+        const fixtures = ${JSON.stringify(fixtures)};
+        const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+        const wait = async predicate => { for (let i = 0; i < 200; i++) { if (predicate()) return; await delay(25); } throw new Error('Complete-edition UI timed out'); };
+        const button = name => [...document.querySelectorAll('button')].find(item => (item.textContent.trim() === name || item.getAttribute('aria-label') === name) && item.getBoundingClientRect().height > 0);
+        const importSave = async state => {
+          document.querySelector('[aria-label="返回标题"]')?.click();
+          await wait(() => button('存档迁移'));
+          button('存档迁移').click(); await delay(50);
+          const file = new File([JSON.stringify({ schema: 1, game: 'moist-healing', savedAt: new Date().toISOString(), state })], 'smoke.json', { type: 'application/json' });
+          const data = new DataTransfer(); data.items.add(file);
+          const input = document.querySelector('input[type="file"]'); input.files = data.files; input.dispatchEvent(new Event('change', { bubbles: true }));
+          await wait(() => document.querySelector('.confirm-actions .primary'));
+          document.querySelector('.confirm-actions .primary').click();
+          await wait(() => document.querySelector('.game-screen')?.dataset.scene === state.sceneId);
+        };
+        await importSave(fixtures.legacy);
+        await wait(() => button('下一章 · 显影'));
+        button('下一章 · 显影').click();
+        await wait(() => document.querySelector('.game-screen')?.dataset.scene === 'c2-open');
+        const migrated = JSON.parse(localStorage.getItem('moist-healing:v1:save:auto')).state;
+        if (migrated.storyVersion !== 'moist-healing-v1' || JSON.stringify(migrated.decisions) !== JSON.stringify(fixtures.legacy.decisions)) throw new Error('Legacy route lost during continuation');
+        await importSave(fixtures.cg);
+        await wait(() => document.querySelector('.scene-event')?.naturalWidth >= 1600);
+        if (document.querySelector('.scene-character')) throw new Error('CG duplicates character sprite');
+        await importSave(fixtures.final);
+        await wait(() => button('制作人员'));
+        button('制作人员').click();
+        await wait(() => document.querySelector('.credits-copy'));
+        button('关闭').click(); button('回到标题').click();
+        await wait(() => button('回忆')); button('回忆').click();
+        await wait(() => document.querySelector('.cg-card:not(:disabled)'));
+        document.querySelector('.cg-card:not(:disabled)').click();
+        await wait(() => document.querySelector('.cg-view img')?.naturalWidth >= 1600);
+        return { legacyContinuation: true, completeEnding: true, packagedCg: true, credits: true, memory: true };
+      })()`);
+      console.log('DESKTOP_SMOKE_OK', JSON.stringify({ ...result, ...edition }));
       app.exit(0);
     } catch (error) { console.error(error); app.exit(1); }
   });

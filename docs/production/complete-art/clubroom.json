@@ -1,0 +1,11 @@
+{
+  "id": "clubroom",
+  "kind": "background",
+  "width": 1672,
+  "height": 941,
+  "path": "public/art/clubroom.webp",
+  "bytes": 376468,
+  "sha256": "86f8d0bdd72ceca45cd00ccef0dcb1f94be4bd54c4463bbdbdbbf8f60014fb4e",
+  "prompt": "Produce one landscape 16:9 background illustration at least 1672x941 for a Chinese school visual novel, no people. Match supplied original classroom and campus backgrounds precisely: fine hand-drawn anime contours, flat colour planes and simple cel shadows, restrained warm ivory and forest/mint green colours. Entirely 2D, not realistic, not 3D. Natural scale and architecture, coherent perspective, visible autumn Jiangcheng setting. Compose a calm lower quarter for a later dialogue overlay and uncluttered center-right for a standing sprite. No letters, signage writing, interface, logos or watermarks. A modest old school literary club archive room, late afternoon. Wooden shared editing desk in foreground, green book cupboards full of old school journals, small stapler, clips, a plain cream notebook, a few proof sheets with unreadable faint abstract lines. Open window to autumn trees, warm sun, umbrella stand by door, no fantasy luxury or coffee shop.",
+  "mode": "built-in image_gen"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "riverbank",
+  "kind": "background",
+  "width": 1672,
+  "height": 941,
+  "path": "public/art/riverbank.webp",
+  "bytes": 543848,
+  "sha256": "b6c653aa9a13ee3df517347716e325c6af663a8726ef8e5c0aa7d74480104486",
+  "prompt": "Produce one landscape 16:9 background illustration at least 1672x941 for a Chinese school visual novel, no people. Match supplied original classroom and campus backgrounds precisely: fine hand-drawn anime contours, flat colour planes and simple cel shadows, restrained warm ivory and forest/mint green colours. Entirely 2D, not realistic, not 3D. Natural scale and architecture, coherent perspective, visible autumn Jiangcheng setting. Compose a calm lower quarter for a later dialogue overlay and uncluttered center-right for a standing sprite. No letters, signage writing, interface, logos or watermarks. Jiangcheng riverfront walkway just after rain at sunset. Wide calm river and distant contemporary skyline, simple bridge across river, an old camphor tree at right, dark railing, weathered wooden bench and wet stone paving reflecting golden light. Camera eye-level, clear 2D artwork, quiet ordinary riverside, no people.",
+  "mode": "built-in image_gen"
+}

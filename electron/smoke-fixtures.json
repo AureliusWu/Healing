@@ -1,0 +1,116 @@
+{
+  "legacy": {
+    "schema": 1,
+    "storyVersion": "chapter1-v1",
+    "sceneId": "end-together",
+    "line": 17,
+    "stats": {
+      "honesty": 6,
+      "lin": 6,
+      "chen": 2
+    },
+    "decisions": [
+      {
+        "sceneId": "desk",
+        "choiceId": "honest"
+      },
+      {
+        "sceneId": "lunch",
+        "choiceId": "lin"
+      },
+      {
+        "sceneId": "club",
+        "choiceId": "plain"
+      },
+      {
+        "sceneId": "storm",
+        "choiceId": "both"
+      }
+    ],
+    "history": []
+  },
+  "cg": {
+    "schema": 1,
+    "storyVersion": "moist-healing-v1",
+    "sceneId": "c3-lin-page",
+    "line": 0,
+    "stats": {
+      "honesty": 8,
+      "lin": 10,
+      "chen": 3
+    },
+    "decisions": [
+      {
+        "sceneId": "desk",
+        "choiceId": "honest"
+      },
+      {
+        "sceneId": "lunch",
+        "choiceId": "lin"
+      },
+      {
+        "sceneId": "club",
+        "choiceId": "plain"
+      },
+      {
+        "sceneId": "storm",
+        "choiceId": "both"
+      },
+      {
+        "sceneId": "c2-task",
+        "choiceId": "read"
+      },
+      {
+        "sceneId": "c2-permission",
+        "choiceId": "ask"
+      },
+      {
+        "sceneId": "c3-after-school",
+        "choiceId": "lin"
+      }
+    ],
+    "history": []
+  },
+  "final": {
+    "schema": 1,
+    "storyVersion": "moist-healing-v1",
+    "sceneId": "end-lin-final",
+    "line": 7,
+    "stats": {
+      "honesty": 8,
+      "lin": 10,
+      "chen": 3
+    },
+    "decisions": [
+      {
+        "sceneId": "desk",
+        "choiceId": "honest"
+      },
+      {
+        "sceneId": "lunch",
+        "choiceId": "lin"
+      },
+      {
+        "sceneId": "club",
+        "choiceId": "plain"
+      },
+      {
+        "sceneId": "storm",
+        "choiceId": "both"
+      },
+      {
+        "sceneId": "c2-task",
+        "choiceId": "read"
+      },
+      {
+        "sceneId": "c2-permission",
+        "choiceId": "ask"
+      },
+      {
+        "sceneId": "c3-after-school",
+        "choiceId": "lin"
+      }
+    ],
+    "history": []
+  }
+}

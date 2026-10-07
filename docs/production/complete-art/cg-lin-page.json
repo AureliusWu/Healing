@@ -1,0 +1,14 @@
+{
+  "kind": "background",
+  "width": 1672,
+  "height": 941,
+  "path": "public/art/cg-lin-page.webp",
+  "bytes": 295350,
+  "sha256": "e2e4feb31ad132235a0a0fa31aa0345c0c26982f375d6f43d38e376a7e3adfd4",
+  "prompt": "Use case: illustration-story. Asset type: final 16:9 visual-novel event illustration, at least 1672x941, a SINGLE scene, no panels. Original Chinese high-school coming-of-age VN. Match supplied reference faces, thin clean anime outlines, flat cel colors, simple shadows, restrained ivory/mint-green/navy palette, NOT painterly or realistic. Everyone wears the same ivory tracksuit jacket with forest-green shoulder panels and thin green sleeves accents, plain white T-shirt, navy school pants. Expressive but understated. Faces in upper 65%, lower quarter calm for translucent dialogue. No text, UI, logos, watermark, borders. References are identity and style guides only; never reproduce the expression-sheet layout. One girl only: Lin Jianxia, dark shoulder-length bob, mint rectangular hair clip, matching reference identity. In the school literature club at afternoon sunlight, seated across the table facing the viewer with a small trusting shy smile and slightly pink cheeks, handing a finished manuscript sheet toward the first-person reader's hand at bottom edge. Soft eye contact, journal beside her, ordinary gentle moment of sharing a revised last sentence, no embrace. Medium close-up, face around x57% y33%.",
+  "mode": "built-in image_gen",
+  "references": [
+    "public/art/lin-expressions.webp",
+    "public/art/clubroom.webp"
+  ]
+}
