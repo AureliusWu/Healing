@@ -15,8 +15,6 @@ async function playToChoice(page: Page) {
   for (let i = 0; i < 100; i++) {
     if (await page.locator('.choice-panel').isVisible()) return;
     if (await page.locator('.ending-card').isVisible()) return;
-    // The final paragraph can render the choice between our visibility check
-    // and pointer dispatch. The reader is then intentionally disabled.
     try { await page.getByRole('button', { name: '显示下一段', exact: true }).click({ timeout: 1500 }); }
     catch (error) {
       if (await page.locator('.choice-panel').isVisible() || await page.locator('.ending-card').isVisible()) return;
@@ -38,6 +36,7 @@ test('title, original art, chapter and character screens render without page err
   await page.getByRole('button', { name: '角色', exact: true }).click();
   await expect(page.getByRole('heading', { name: '林见夏', exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { name: '陈知遥', exact: true })).toBeVisible();
+  await expect(page.getByRole('heading', { name: '许棠', exact: true })).toBeVisible();
   await page.getByRole('button', { name: '关闭', exact: true }).click();
   await page.getByRole('button', { name: '章节', exact: true }).click();
   await expect(page.getByRole('heading', { name: '生长痛', exact: true })).toBeVisible();
@@ -70,7 +69,7 @@ test('manual slots restore an earlier paragraph and history can be read', async 
   await page.locator('.save-card').filter({ hasText: '手动存档 1' }).getByRole('button', { name: /读取/ }).click();
   await expect(page.locator('.game-screen')).toHaveAttribute('data-line', '1');
   await page.getByRole('button', { name: '回看', exact: true }).click();
-  await expect(page.locator('.history-list')).toContainText('十七岁的秋天');
+  await expect(page.locator('.history-list')).toContainText('十八岁的秋天');
 });
 
 test('one full playthrough reaches the shared ending and unlocks its memory', async ({ page }) => {
@@ -117,6 +116,7 @@ test('PWA caches every asset and restores the same story after going offline', a
     return (await cache.keys()).map(request => new URL(request.url).pathname);
   });
   for (const art of ['classroom', 'campus', 'lin', 'chen']) expect(cached).toContain(`/art/${art}.webp`);
+  expect(cached).toContain('/art/tang.svg');
   expect(cached.some(url => url.endsWith('.woff2'))).toBe(true);
   await context.setOffline(true);
   await page.reload();
