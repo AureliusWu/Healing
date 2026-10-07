@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 
 const portraitQuery = '(orientation: portrait) and (max-width: 900px) and (pointer: coarse)';
 const mobileUa = /Android|iPhone|iPad|iPod/i;
+type ExtendedOrientation = ScreenOrientation & { lock?: (orientation: string) => Promise<void>; unlock?: () => void };
 
 export function useDisplayMode(notify: (message: string) => void) {
   const [portrait, setPortrait] = useState(() => matchMedia(portraitQuery).matches);
@@ -14,7 +15,8 @@ export function useDisplayMode(notify: (message: string) => void) {
 
   const unlockOrientation = useCallback(() => {
     if (!orientationLocked.current) return;
-    try { screen.orientation?.unlock?.(); } catch { /* best effort */ }
+    const orientation = screen.orientation as ExtendedOrientation | undefined;
+    try { orientation?.unlock?.(); } catch { /* best effort */ }
     orientationLocked.current = false;
   }, []);
 
@@ -69,8 +71,9 @@ export function useDisplayMode(notify: (message: string) => void) {
 
       await document.documentElement.requestFullscreen({ navigationUI: 'hide' });
       try {
-        if (screen.orientation?.lock) {
-          await screen.orientation.lock('landscape');
+        const orientation = screen.orientation as ExtendedOrientation | undefined;
+        if (orientation?.lock) {
+          await orientation.lock('landscape');
           orientationLocked.current = true;
         }
       } catch {
