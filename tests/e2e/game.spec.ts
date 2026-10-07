@@ -69,7 +69,7 @@ test('manual slots restore an earlier paragraph and history can be read', async 
   await page.locator('.save-card').filter({ hasText: '手动存档 1' }).getByRole('button', { name: /读取/ }).click();
   await expect(page.locator('.game-screen')).toHaveAttribute('data-line', '1');
   await page.getByRole('button', { name: '回看', exact: true }).click();
-  await expect(page.locator('.history-list')).toContainText('十八岁的秋天');
+  await expect(page.locator('.history-list')).toContainText('十七岁的秋天');
 });
 
 test('one full playthrough reaches the shared ending and unlocks its memory', async ({ page }) => {
@@ -116,7 +116,10 @@ test('PWA caches every asset and restores the same story after going offline', a
     return (await cache.keys()).map(request => new URL(request.url).pathname);
   });
   for (const art of ['classroom', 'campus', 'lin', 'chen']) expect(cached).toContain(`/art/${art}.webp`);
-  expect(cached).toContain('/art/tang.svg');
+  for (const id of ['lin', 'chen', 'tang']) {
+    expect(cached).toContain(`/art/${id}-expressions.webp`);
+    expect(cached).toContain(`/art/${id}-turnaround.webp`);
+  }
   expect(cached.some(url => url.endsWith('.woff2'))).toBe(true);
   await context.setOffline(true);
   await page.reload();

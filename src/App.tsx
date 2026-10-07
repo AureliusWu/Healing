@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { Icon } from './components/Icon';
 import { Dialog } from './components/Dialog';
+import { CharacterSprite } from './components/CharacterSprite';
+import { CharacterGallery } from './components/CharacterGallery';
 import { PwaPanel } from './components/PwaPanel';
 import { FullscreenButton, RotationHint } from './components/DisplayControls';
 import { useDisplayMode } from './useDisplayMode';
@@ -8,11 +10,12 @@ import { pwa } from './pwa';
 import { advance, choose, getScene, newGame, recordLine } from './game/engine';
 import { decodeSave, encodeSave, KEY, readEndings, readSave, readSettings, slots, writeSave, type Slot } from './game/storage';
 import { music } from './game/music';
+import { presentationAt } from './game/presentation';
 import type { GameState, Save, Settings } from './game/types';
-import { characterInfo, endingInfo } from './story/chapter1';
+import { endingInfo } from './story/chapter1';
 
 type Panel = 'chapters' | 'characters' | 'memories' | 'settings' | 'saves' | 'history' | 'about' | 'pwa' | null;
-const art = (name: string) => `${import.meta.env.BASE_URL}art/${name}${name === 'tang' ? '.svg' : '.webp'}`;
+const art = (name: string) => `${import.meta.env.BASE_URL}art/${name}.webp`;
 const panelTitles = { chapters: '章节', characters: '与你相遇', memories: '回忆手册', settings: '阅读设置', saves: '存档', history: '已读文字', about: '关于这场青春', pwa: '把故事留在身边' };
 
 export function App() {
@@ -161,7 +164,7 @@ export function App() {
     if (importRef.current) importRef.current.value = '';
   }
   const setSetting = <K extends keyof Settings>(key: K, value: Settings[K]) => setSettings(previous => ({ ...previous, [key]: value }));
-  const activeCharacter = line.speaker === '林见夏' ? 'lin' : line.speaker === '陈知遥' ? 'chen' : scene.character;
+  const { character: activeCharacter, expression: activeExpression } = presentationAt(scene, game.line);
   const navigation = <>
     <button onClick={() => setPanel('chapters')}><Icon name="book" /><span>章节</span></button>
     <button onClick={() => setPanel('characters')}><Icon name="users" /><span>角色</span></button>
@@ -194,7 +197,7 @@ export function App() {
       <section className="game-stage" aria-label="故事画面">
         <div className="scene-frame">
           <img key={scene.background} className="scene-background" src={art(scene.background)} alt={scene.background === 'classroom' ? '午后的校园教室' : '雨后的校园'} />
-          {activeCharacter && <img key={activeCharacter} className="scene-character" src={art(activeCharacter)} alt={characterInfo[activeCharacter].name} />}
+          {activeCharacter && <CharacterSprite key={activeCharacter} character={activeCharacter} expression={activeExpression} className="scene-character" />}
         </div>
         <button className="scene-tap" onClick={step} aria-label={uiHidden ? '恢复阅读界面' : '继续剧情'} disabled={!uiHidden && (choicesVisible || finished)} />
         {uiHidden && <button className="focus-return" onClick={() => setUiHidden(false)}><Icon name="eye" size={16} /><span>恢复界面</span><kbd>H</kbd></button>}
@@ -219,12 +222,12 @@ export function App() {
     {panel && !confirm && <Dialog title={panelTitles[panel]} onClose={closePanel} wide={panel === 'characters' || panel === 'saves'} subtitle={panel === 'saves' ? '在这里留住进度，也可以带到另一台设备。' : undefined}>
       {panel === 'pwa' && <PwaPanel state={pwaState} />}
       {panel === 'chapters' && <><button className="chapter-card" onClick={begin}><img src={art('campus')} alt="校园" /><div><span className="eyebrow">CHAPTER 01 · 可阅读</span><h3>生长痛</h3><p>一张成绩单，一本笔记，三个没说完的下午。</p><small>四次选择 · 三种结局</small></div><Icon name="arrow" /></button><p className="soft-note">当前版本包含完整第一章。后续章节将继续沿用你的故事选择。</p></>}
-      {panel === 'characters' && <div className="character-cards">{(['lin', 'chen', 'tang'] as const).map(id => <article key={id} className="character-card"><div className="character-portrait"><img src={art(id)} alt={characterInfo[id].name} /></div><span className="eyebrow">{characterInfo[id].role}</span><h3>{characterInfo[id].name}</h3><p>{characterInfo[id].subtitle}</p><blockquote>{characterInfo[id].quote}</blockquote></article>)}</div>}
+      {panel === 'characters' && <CharacterGallery />}
       {panel === 'memories' && <><p className="soft-note">完成第一章后，相应的结局会留在这里。已解锁 {endings.length} / 3。</p><div className="memory-list">{Object.entries(endingInfo).map(([id, info], index) => <article key={id} className={endings.includes(id) ? 'memory unlocked' : 'memory'}><span>0{index + 1}</span><div><small>{endings.includes(id) ? info.badge : '尚未相遇'}</small><h3>{endings.includes(id) ? info.label : '未翻开的那一页'}</h3><p>{endings.includes(id) ? info.subtitle : '不同的选择，会让故事走向不同的地方。'}</p></div><Icon name={endings.includes(id) ? 'check' : 'book'} /></article>)}</div></>}
       {panel === 'settings' && <div className="settings-list"><label className="setting"><span>文字速度<small>{settings.textSpeed === 0 ? '一次显示全部' : `${settings.textSpeed} 字 / 秒`}</small></span><input aria-label="文字速度" type="range" min="0" max="80" step="4" value={settings.textSpeed} onChange={e => setSetting('textSpeed', +e.target.value)} /></label><label className="setting"><span>自动阅读停留<small>{(settings.autoDelay / 1000).toFixed(1)} 秒 + 段落阅读时间</small></span><input aria-label="自动阅读停留" type="range" min="800" max="6000" step="200" value={settings.autoDelay} onChange={e => setSetting('autoDelay', +e.target.value)} /></label><label className="setting"><span>背景音乐<small>原创轻音序 · 首次点击后播放</small></span><input aria-label="背景音乐" type="checkbox" checked={settings.music} onChange={e => { setSetting('music', e.target.checked); if (e.target.checked) void music.unlock(); }} /></label><label className="setting"><span>音乐音量<small>{Math.round(settings.volume * 100)}%</small></span><input aria-label="音乐音量" type="range" min="0" max="1" step="0.05" value={settings.volume} onChange={e => setSetting('volume', +e.target.value)} /></label><label className="setting"><span>减少动态效果<small>关闭动画并一次显示文字</small></span><input aria-label="减少动态效果" type="checkbox" checked={settings.reducedMotion} onChange={e => setSetting('reducedMotion', e.target.checked)} /></label><div className="display-setting"><div><strong>横屏阅读</strong><p>把手机横过来，能看见更多校园与角色。</p></div><FullscreenButton display={display} /></div><div className="keyboard-hints"><span>空格 / Enter · 继续</span><span>A · 自动</span><span>S / Esc · 存档</span><span>L · 回看</span><span>H · 隐藏 / 恢复界面</span></div><p className="soft-note">隐藏界面后会暂停自动阅读，轻触画面即可恢复，段落保持原位。推荐横屏游玩。安装后优先横屏；也可继续竖屏阅读，旋转时自动保留进度。若屏幕没有转向，请开启系统的自动旋转。</p></div>}
       {panel === 'saves' && <><div className="save-grid">{slots.map(slot => { const save = saveList[slot]; return <article key={slot} className="save-card"><div className="save-heading"><span>{slot === 'auto' ? '自动存档' : `手动存档 ${slot}`}</span><small>{save ? new Date(save.savedAt).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }) : '空白'}</small></div><h3>{save ? getScene(save.state).title : '把这一刻留下来'}</h3><p>{save ? `${getScene(save.state).location} · 第 ${save.state.line + 1} 段` : '开始阅读后可以存入这里。'}</p><div>{slot !== 'auto' && <button disabled={screen !== 'game'} onClick={() => { const run = () => { if (store(slot, currentRef.current)) notify('这一刻已经保存。'); }; if (save) setConfirm({ text: `要更新手动存档 ${slot} 吗？`, action: run }); else run(); }}>存入</button>}<button disabled={!save} onClick={() => save && load(save)}>读取 <Icon name="arrow" size={14} /></button></div></article>; })}</div><div className="save-actions"><button onClick={exportProgress}><Icon name="download" size={18} />导出存档</button><button onClick={() => importRef.current?.click()}><Icon name="upload" size={18} />导入存档</button></div><p className="soft-note">手机与电脑共用存档格式。导出 JSON 后，在另一台设备导入即可继续；当前版本不提供账户云同步。</p></>}
       {panel === 'history' && <div className="history-list">{recordLine(game).history.length === 0 ? <p>还没有读过的文字。</p> : recordLine(game).history.map((entry, index) => <article key={`${entry.sceneId}-${entry.line}-${index}`}><span>{entry.speaker}</span><p>{entry.text}</p></article>)}</div>}
-      {panel === 'about' && <div className="about-copy"><span className="about-leaf"><Icon name="leaf" size={46} /></span><p>《湿性愈合》是一部关于青春期、校园与靠近的原创视觉小说。</p><p>角色年龄设定：本作所有登场角色均年满18周岁；学生角色均为18岁或以上。</p><p>你扮演已满18岁的高二学生程屿，在一次月考后的换座中，与林见夏和陈知遥相遇。成绩、家庭期待、说不出口的话，都会成为这段故事的一部分。</p><p>第一章《生长痛》有四次关键选择和三种结局。“湿性愈合”在故事中作为情感隐喻：为尚未说完的话，保留一点可以被接住的空间。</p><p className="soft-note">创作 / AureliusWu 与 AI 协作<br />美术 / AI 生成原创背景与角色立绘<br />音乐 / 原创程序音序<br />版本 / {__APP_VERSION__}</p></div>}
+      {panel === 'about' && <div className="about-copy"><span className="about-leaf"><Icon name="leaf" size={46} /></span><p>《湿性愈合》是一部关于青春期、校园与靠近的原创视觉小说。</p><p>你扮演高二学生程屿，在一次月考后的换座中，与林见夏和陈知遥相遇。成绩、家庭期待、说不出口的话，都会成为这段故事的一部分。</p><p>第一章《生长痛》有四次关键选择和三种结局。“湿性愈合”在故事中作为情感隐喻：为尚未说完的话，保留一点可以被接住的空间。</p><p className="soft-note">创作 / AureliusWu 与 AI 协作<br />美术 / AI 生成原创背景与角色立绘<br />音乐 / 原创程序音序<br />版本 / {__APP_VERSION__}</p></div>}
     </Dialog>}
     {confirm && <Dialog title="留住这一刻" onClose={() => setConfirm(null)}><p className="confirm-text">{confirm.text}</p><div className="confirm-actions"><button className="secondary" onClick={() => setConfirm(null)}>再想一下</button><button className="primary" onClick={() => { confirm.action(); setConfirm(null); }}>继续 <Icon name="arrow" size={18} /></button></div></Dialog>}
     <input ref={importRef} className="sr-only" tabIndex={-1} aria-label="选择存档文件" type="file" accept=".json,application/json" onChange={e => { void importProgress(e.target.files?.[0]); }} />

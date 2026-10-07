@@ -4,6 +4,7 @@ import { App } from './App';
 import { ReadingOverlayOpacity } from './ReadingOverlayOpacity';
 import './styles.css';
 import './fullscreen-reading.css';
+import './character-art.css';
 import { pwa } from './pwa';
 
 createRoot(document.getElementById('root')!).render(<React.StrictMode><><App /><ReadingOverlayOpacity /></></React.StrictMode>);

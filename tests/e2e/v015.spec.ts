@@ -17,7 +17,7 @@ test.describe('v0.1.5 regressions', () => {
     await expect(page.getByRole('button', { name: '全屏阅读' }).first()).toBeVisible();
   });
 
-  test('character archive exposes adult profile details for all three heroines', async ({ page }) => {
+  test('character archive keeps birthdays and measurements alongside the restored high-school ages', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('button', { name: /角色/ }).click();
 
@@ -25,7 +25,8 @@ test.describe('v0.1.5 regressions', () => {
     await expect(dialog).toContainText('林见夏');
     await expect(dialog).toContainText('陈知遥');
     await expect(dialog).toContainText('许棠');
-    await expect(dialog).toContainText('18岁');
+    await expect(dialog).toContainText('17岁');
+    await expect(dialog).not.toContainText('18岁');
     await expect(dialog).toContainText('5月22日');
     await expect(dialog).toContainText('2月11日');
     await expect(dialog).toContainText('7月17日');

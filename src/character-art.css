@@ -1,0 +1,49 @@
+.character-sprite {
+  display: block;
+  position: relative;
+  aspect-ratio: var(--sprite-ratio);
+  overflow: hidden;
+}
+.character-sprite.scene-character { position: absolute; height: min(96dvh, calc(88vw / var(--sprite-ratio))); }
+.character-sprite > .expression-atlas {
+  position: absolute;
+  display: block;
+  width: var(--atlas-width);
+  height: var(--atlas-height);
+  max-width: none;
+  margin: 0;
+  left: var(--atlas-left);
+  top: var(--atlas-top);
+  object-fit: fill;
+  pointer-events: none;
+}
+.character-gallery-tabs { display: flex; gap: 10px; margin-bottom: 24px; }
+.character-gallery-tabs button,
+.expression-options button {
+  padding: 9px 13px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: #f7f5ed;
+  color: #496143;
+  font-size: 12px;
+}
+.character-gallery-tabs button[aria-pressed='true'],
+.expression-options button[aria-pressed='true'] { background: #dce7d4; border-color: #7e9870; }
+.character-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.character-gallery .character-portrait { height: 245px; }
+.character-gallery .gallery-sprite { height: 340px; width: calc(340px * var(--sprite-ratio)); margin: 0 auto; }
+.expression-options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin: 0 0 18px; }
+.expression-options button { min-height: 36px; padding: 6px 3px; font-size: 11px; }
+.turnaround-gallery { grid-template-columns: 1fr; }
+.character-turnaround { margin: 0 -19px 18px; }
+.character-turnaround img { display: block; width: 100%; height: auto; }
+.character-turnaround figcaption { margin: 10px 19px 0; text-align: center; color: #6c8265; font-size: 12px; }
+@media (max-width: 600px) {
+  .character-gallery { grid-template-columns: 1fr; }
+  .character-gallery .character-portrait { height: 260px; }
+  .character-gallery .gallery-sprite { height: 365px; width: calc(365px * var(--sprite-ratio)); }
+  .character-turnaround { margin-left: -12px; margin-right: -12px; }
+}
+@media (orientation: portrait) {
+  .character-sprite.scene-character { left: 50%; height: min(93dvh, calc(98vw / var(--sprite-ratio))); }
+}

@@ -1,8 +1,9 @@
 export type Character = 'lin' | 'chen' | 'tang';
+export type Expression = 'neutral' | 'smile' | 'surprised' | 'worried' | 'hurt' | 'shy';
 export type Background = 'classroom' | 'campus';
 export type Ending = 'together' | 'letter' | 'quiet';
 export type Stats = { honesty: number; lin: number; chen: number };
-export type Line = { speaker: string; text: string };
+export type Line = { speaker: string; text: string; expression?: Expression };
 export type Choice = { id: string; text: string; next: string; effect?: Partial<Stats> };
 export type Scene = {
   id: string;

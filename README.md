@@ -2,9 +2,9 @@
 
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。第一章 **《生长痛》** 已实现，当前版本 **v0.1.5**。
+青春期校园题材原创视觉小说。第一章 **《生长痛》** 已实现，当前版本 **v0.1.6**。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Project1/) · [下载 Windows / PWA](https://github.com/AureliusWu/Project1/releases/tag/v0.1.5)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Project1/) · [下载 Windows / PWA](https://github.com/AureliusWu/Project1/releases/tag/v0.1.6)
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥和许棠相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
 
@@ -17,10 +17,12 @@
 | 剧情选择 | [查看](docs/previews/choices-desktop.jpg) | [查看](docs/previews/choices-landscape.jpg) | [查看](docs/previews/choices-mobile.jpg) |
 | 隐藏界面 | [查看](docs/previews/picture-desktop.jpg) | [查看](docs/previews/picture-landscape.jpg) | [查看](docs/previews/picture-mobile.jpg) |
 
+[三位角色与表情实机预览](docs/previews/v0.1.6/characters-desktop.png) · [角色美术规范与素材](docs/production/CHARACTER-ART.md) · [v0.1.6 更新记录](docs/releases/v0.1.6.md)
+
 ## 可玩的内容
 
 - 完整第一章，4 次关键选择，54 种选择组合，3 种章节结局。
-- 三位主要女角色的二维立绘 / 切入立绘、两张重新绘制的二维校园背景；角色档案包含年龄、生日、身高与体重。
+- 三位主要女角色沿用 v0.1.4 的统一二维美术；每人六种表情与完整三视图，可在角色档案浏览。生日、身高、体重保留，恢复十七岁的高二校园设定。
 - 全窗口场景画面 + 底部一体化半透明阅读层；透明度可调，隐藏界面可完整欣赏背景与立绘。
 - 逐字文本、自动阅读、快进、已读回看、结局回忆手册。
 - 自动存档 + 3 个手动存档位；JSON 导入/导出，在手机与电脑之间迁移进度。
@@ -73,7 +75,7 @@ npm run desktop:win   # 在 Windows 生成 NSIS 安装包和便携 EXE
 
 直接打开 [游戏网页](https://aureliuswu.github.io/Project1/)，标题页的「安装与离线」提供安装操作、下载状态与更新检查。离线状态就绪后可以断网重开。
 
-[版本下载页](https://github.com/AureliusWu/Project1/releases/tag/v0.1.3) 提供 Windows 安装版、便携版及 PWA ZIP，包含文件 SHA-256 与实际构建提交记录。该下载不依赖 Actions 产物保留期限。
+[版本下载页](https://github.com/AureliusWu/Project1/releases/tag/v0.1.6) 提供 Windows 安装版、便携版及 PWA ZIP，包含文件 SHA-256 与实际构建提交记录。该下载不依赖 Actions 产物保留期限。
 
 每次推送 `main` 会运行 [Build game](https://github.com/AureliusWu/Project1/actions/workflows/build.yml)：先验证剧情与手机/电脑 PWA，再在 Windows 启动实际 Electron 程序、生成安装包并启动实际打包程序复验。全部成功后，对应版本的安装包和 PWA 会发布到 Releases。需要发布新版本时，同时更新 `package.json`、锁文件与 `docs/releases/v版本号.md`；已发布版本不被覆盖。对应运行页面也保留 Artifacts：
 

@@ -1,9 +1,9 @@
 {
-  "style": "campus-2d-v2",
+  "style": "campus-2d-v0.1.4",
   "date": "2026-10-07",
   "generator": "built-in image_gen",
-  "prompts": "docs/prompts/ART-v3.md",
-  "inputCommit": "ddbfb907914415b849562bf2649be9e318dc7fef",
+  "prompts": "docs/prompts/ART-v4.md",
+  "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
   "assets": [
     {
       "id": "campus",
@@ -68,13 +68,367 @@
       ]
     },
     {
-      "id": "tang",
-      "path": "public/art/tang.svg",
-      "kind": "sprite-vector",
-      "width": 1024,
-      "height": 1536,
-      "bytes": 3181,
-      "sha256": "44bb6c7b1442d145c2ce96803cf6e29e82765ecf6425057113e724761822d757"
+      "kind": "atlas",
+      "width": 1254,
+      "height": 1254,
+      "transparentFraction": 0.5613,
+      "alphaBounds": [
+        0,
+        0,
+        1224,
+        1254
+      ],
+      "solidAlphaBounds": [
+        108,
+        40,
+        1136,
+        1222
+      ],
+      "columns": 3,
+      "rows": 2,
+      "expressions": [
+        "neutral",
+        "smile",
+        "surprised",
+        "worried",
+        "hurt",
+        "shy"
+      ],
+      "figureBounds": [
+        [
+          108,
+          40,
+          362,
+          610
+        ],
+        [
+          496,
+          40,
+          750,
+          610
+        ],
+        [
+          879,
+          40,
+          1135,
+          610
+        ],
+        [
+          108,
+          653,
+          364,
+          1222
+        ],
+        [
+          495,
+          653,
+          751,
+          1222
+        ],
+        [
+          880,
+          653,
+          1136,
+          1222
+        ]
+      ],
+      "frames": [
+        [
+          91,
+          24,
+          288,
+          602
+        ],
+        [
+          479,
+          24,
+          288,
+          602
+        ],
+        [
+          863,
+          24,
+          288,
+          602
+        ],
+        [
+          92,
+          637,
+          288,
+          602
+        ],
+        [
+          479,
+          637,
+          288,
+          602
+        ],
+        [
+          864,
+          637,
+          288,
+          602
+        ]
+      ],
+      "path": "public/art/lin-expressions.webp",
+      "bytes": 994336,
+      "sha256": "dcd67fd0346ecf7db63ea9322e47e193733fe3a5d3243223b8144833be20558d",
+      "id": "lin-expressions",
+      "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
+      "prompts": "docs/prompts/ART-v4.md"
+    },
+    {
+      "kind": "sheet",
+      "width": 1536,
+      "height": 1024,
+      "path": "public/art/lin-turnaround.webp",
+      "bytes": 132008,
+      "sha256": "b8642a5fcef0de00c246a8b455b859304d320d9d3483313873af06641a051a26",
+      "id": "lin-turnaround",
+      "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
+      "prompts": "docs/prompts/ART-v4.md"
+    },
+    {
+      "kind": "atlas",
+      "width": 1254,
+      "height": 1254,
+      "transparentFraction": 0.4562,
+      "alphaBounds": [
+        37,
+        36,
+        1254,
+        1254
+      ],
+      "solidAlphaBounds": [
+        72,
+        42,
+        1251,
+        1241
+      ],
+      "columns": 3,
+      "rows": 2,
+      "expressions": [
+        "neutral",
+        "smile",
+        "surprised",
+        "worried",
+        "hurt",
+        "shy"
+      ],
+      "figureBounds": [
+        [
+          72,
+          42,
+          435,
+          621
+        ],
+        [
+          471,
+          43,
+          834,
+          620
+        ],
+        [
+          890,
+          42,
+          1251,
+          620
+        ],
+        [
+          72,
+          662,
+          435,
+          1241
+        ],
+        [
+          472,
+          662,
+          836,
+          1241
+        ],
+        [
+          892,
+          662,
+          1251,
+          1241
+        ]
+      ],
+      "frames": [
+        [
+          56,
+          26,
+          396,
+          611
+        ],
+        [
+          454,
+          27,
+          396,
+          611
+        ],
+        [
+          872,
+          26,
+          396,
+          611
+        ],
+        [
+          56,
+          646,
+          396,
+          611
+        ],
+        [
+          456,
+          646,
+          396,
+          611
+        ],
+        [
+          874,
+          646,
+          396,
+          611
+        ]
+      ],
+      "path": "public/art/chen-expressions.webp",
+      "bytes": 1248646,
+      "sha256": "f19df7ddae0436a79325d4fc27af0007575e1389288818165601d7f0f5f84f05",
+      "id": "chen-expressions",
+      "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
+      "prompts": "docs/prompts/ART-v4.md"
+    },
+    {
+      "kind": "sheet",
+      "width": 1536,
+      "height": 1024,
+      "path": "public/art/chen-turnaround.webp",
+      "bytes": 144706,
+      "sha256": "5607692ff308f797348b994e42a6a581734d33c4a2896867ef4b30b0349985cf",
+      "id": "chen-turnaround",
+      "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
+      "prompts": "docs/prompts/ART-v4.md"
+    },
+    {
+      "kind": "atlas",
+      "width": 1254,
+      "height": 1254,
+      "transparentFraction": 0.5034,
+      "alphaBounds": [
+        0,
+        30,
+        1232,
+        1254
+      ],
+      "solidAlphaBounds": [
+        125,
+        34,
+        1140,
+        1234
+      ],
+      "columns": 3,
+      "rows": 2,
+      "expressions": [
+        "neutral",
+        "smile",
+        "surprised",
+        "worried",
+        "hurt",
+        "shy"
+      ],
+      "figureBounds": [
+        [
+          125,
+          34,
+          422,
+          612
+        ],
+        [
+          475,
+          34,
+          772,
+          613
+        ],
+        [
+          841,
+          34,
+          1139,
+          613
+        ],
+        [
+          125,
+          656,
+          423,
+          1234
+        ],
+        [
+          476,
+          657,
+          773,
+          1234
+        ],
+        [
+          841,
+          657,
+          1140,
+          1234
+        ]
+      ],
+      "frames": [
+        [
+          108,
+          18,
+          331,
+          611
+        ],
+        [
+          458,
+          18,
+          331,
+          611
+        ],
+        [
+          824,
+          18,
+          331,
+          611
+        ],
+        [
+          108,
+          640,
+          331,
+          611
+        ],
+        [
+          459,
+          641,
+          331,
+          611
+        ],
+        [
+          825,
+          641,
+          331,
+          611
+        ]
+      ],
+      "path": "public/art/tang-expressions.webp",
+      "bytes": 1072718,
+      "sha256": "2a51f8847b2bc09152ce70e6fcdd123c4aee9018774ea250a75938c59f7f8f13",
+      "id": "tang-expressions",
+      "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
+      "prompts": "docs/prompts/ART-v4.md"
+    },
+    {
+      "kind": "sheet",
+      "width": 1536,
+      "height": 1024,
+      "path": "public/art/tang-turnaround.webp",
+      "bytes": 133428,
+      "sha256": "49cc3d6b12d2e53773908959467589aa1dccdcd41c0673a0196dccd5b7f9e870",
+      "id": "tang-turnaround",
+      "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
+      "prompts": "docs/prompts/ART-v4.md"
     }
   ]
 }
