@@ -63,7 +63,7 @@ test('all four final illustrations, ending rereads and offline memories retain a
     await mkdir('test-results/previews', { recursive: true });
     await page.screenshot({ path: `test-results/previews/cg-${cg.cg}-${info.project.name}.png` });
     await seed(page, replay(route, cg.next!, getScene({ ...state, sceneId: cg.next! }).lines.length - 1));
-    await page.getByRole('button', { name: '制作名单', exact: true }).click();
+    await page.getByRole('button', { name: '制作人员', exact: true }).click();
     await expect(page.getByRole('dialog')).toContainText('谢谢你读到这里');
     await page.getByRole('button', { name: '关闭', exact: true }).click();
     await page.getByRole('button', { name: '回到标题', exact: true }).click();
@@ -90,13 +90,55 @@ test('fresh devices keep chapters, final memories and pictures locked', async ({
   await expect(page.locator('.score-card:enabled')).toHaveCount(1);
 });
 
-test('short landscape ending controls stay visible and do not advance when hiding UI', async ({ page }) => {
-  await page.setViewportSize({ width: 568, height: 320 });
+test('portrait and short landscape ending controls fit and hiding UI never advances', async ({ page }) => {
   await seed(page, legacyEnding);
   const button = page.getByRole('button', { name: /下一章 · 显影/ });
-  await expect(button).toBeInViewport();
+  for (const [width, height] of [[568, 320], [844, 390], [412, 915]]) {
+    await page.setViewportSize({ width, height });
+    await expect(button).toBeInViewport({ ratio: .99 });
+    await expect(page.getByRole('button', { name: '回到标题', exact: true })).toBeInViewport({ ratio: .99 });
+    expect(await page.locator('.ending-card h2').evaluate(element => element.getBoundingClientRect().height)).toBeLessThan(60);
+    expect(await page.locator('.ending-actions').evaluate(element => element.getBoundingClientRect().right <= innerWidth)).toBe(true);
+  }
   await page.getByRole('button', { name: '隐藏界面', exact: true }).click();
   await page.getByRole('button', { name: '恢复阅读界面', exact: true }).click();
   await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', legacyEnding.sceneId);
   await expect(button).toBeInViewport();
+});
+
+test('six scores produce bounded audible output in one context and audition restores settings', async ({ page }) => {
+  await page.addInitScript(() => {
+    const Native = window.AudioContext;
+    const contexts: AudioContext[] = [], meters: AnalyserNode[] = [];
+    Object.assign(window, { editionAudio: { contexts, meters } });
+    window.AudioContext = class extends Native {
+      constructor(options?: AudioContextOptions) {
+        super(options); contexts.push(this);
+        const create = this.createGain.bind(this); let first = true;
+        this.createGain = () => {
+          const gain = create();
+          if (first) { first = false; const meter = this.createAnalyser(); meter.fftSize = 2048; gain.connect(meter); meters.push(meter); }
+          return gain;
+        };
+      }
+    };
+  });
+  await seed(page, replay([...earlierChoices, { sceneId: 'c3-after-school', choiceId: 'chen' }], 'end-chen-final', 0));
+  await page.getByRole('button', { name: '返回标题', exact: true }).click();
+  await page.getByRole('button', { name: '回忆', exact: true }).click();
+  await expect(page.locator('.score-card:enabled')).toHaveCount(6);
+  for (const button of await page.locator('.score-card').all()) {
+    await button.click();
+    await expect(button).toHaveAttribute('aria-pressed', 'true');
+    await expect.poll(() => page.evaluate(() => {
+      const { contexts, meters } = (window as unknown as { editionAudio: { contexts: AudioContext[]; meters: AnalyserNode[] } }).editionAudio;
+      if (contexts.length !== 1 || contexts[0].state !== 'running') return false;
+      const data = new Float32Array(2048); meters[0].getFloatTimeDomainData(data);
+      const peak = Math.max(...data.map(Math.abs));
+      return peak > .0001 && peak < .5;
+    })).toBe(true);
+  }
+  await page.getByRole('button', { name: '关闭', exact: true }).click();
+  await expect.poll(() => page.evaluate(() => (window as unknown as { editionAudio: { contexts: AudioContext[] } }).editionAudio.contexts[0].state)).toBe('suspended');
+  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('moist-healing:v1:settings')!).music)).toBe(false);
 });

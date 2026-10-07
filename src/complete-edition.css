@@ -38,7 +38,8 @@
   .game-tools button { min-height: 38px; }
   .reading-panel { padding-bottom: 8px; }
   .reading-context { font-size: 9px; gap: 8px; }
-  .ending-card { align-items: start; }
+  .ending-card { align-items: stretch; flex-direction: column; }
+  .ending-card > div:first-child { width: 100%; }
   .ending-actions { width: 100%; }
   .ending-actions .primary { flex: 1; }
   .score-list { grid-template-columns: 1fr; }

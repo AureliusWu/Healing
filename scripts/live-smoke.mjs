@@ -3,6 +3,7 @@ import { mkdir, readFile } from 'node:fs/promises';
 
 const target = new URL(process.env.GAME_URL || 'https://aureliuswu.github.io/Project1/');
 const version = process.env.EXPECTED_VERSION || JSON.parse(await readFile('package.json', 'utf8')).version;
+const fixtures = JSON.parse(await readFile('electron/smoke-fixtures.json', 'utf8'));
 if (!['https:', 'http:'].includes(target.protocol)) throw new Error('Expected an HTTP(S) game URL');
 target.searchParams.set('verify', process.env.GITHUB_SHA || `v${version}`);
 await mkdir('test-results/live', { recursive: true });
@@ -61,6 +62,24 @@ for (const screen of ['desktop', 'mobile', 'landscape']) {
     await page.getByRole('button', { name: '恢复阅读界面', exact: true }).click();
     await expect(page.locator('.game-screen')).toHaveAttribute('data-line', '1');
     await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', 'desk-honest');
-    console.log(`LIVE_SMOKE_OK ${JSON.stringify({ url: target.origin + target.pathname, version, screen, orientation: manifest.orientation, art: true, stageSeparated: separated, pictureMode: true, autosave: true, offline: true, pageErrors: errors.length })}`);
+    await page.evaluate(state => localStorage.setItem('moist-healing:v1:save:auto', JSON.stringify({ schema: 1, game: 'moist-healing', savedAt: new Date().toISOString(), state })), fixtures.legacy);
+    await page.reload();
+    await page.getByRole('button', { name: '继续上次的故事', exact: true }).click();
+    await page.getByRole('button', { name: /下一章 · 显影/ }).click();
+    await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', 'c2-open');
+    await page.evaluate(state => localStorage.setItem('moist-healing:v1:save:auto', JSON.stringify({ schema: 1, game: 'moist-healing', savedAt: new Date().toISOString(), state })), fixtures.cg);
+    await page.reload();
+    await page.getByRole('button', { name: '继续上次的故事', exact: true }).click();
+    await expect.poll(() => page.locator('.scene-event').evaluate(image => image.complete && image.naturalWidth >= 1600)).toBe(true);
+    await expect(page.locator('.toast.visible')).toHaveCount(0);
+    await page.screenshot({ path: `test-results/live/complete-cg-${screen}.png` });
+    await page.evaluate(state => localStorage.setItem('moist-healing:v1:save:auto', JSON.stringify({ schema: 1, game: 'moist-healing', savedAt: new Date().toISOString(), state })), fixtures.final);
+    await page.reload();
+    await page.getByRole('button', { name: '继续上次的故事', exact: true }).click();
+    await expect(page.locator('.ending-card')).toContainText('写在页边');
+    await page.getByRole('button', { name: '制作人员', exact: true }).click();
+    await expect(page.locator('.credits-copy')).toContainText('谢谢你读到这里');
+    expect(errors).toEqual([]);
+    console.log(`LIVE_SMOKE_OK ${JSON.stringify({ url: target.origin + target.pathname, version, screen, orientation: manifest.orientation, art: true, stageSeparated: separated, pictureMode: true, autosave: true, offline: true, legacyContinuation: true, completeCg: true, finalEnding: true, credits: true, pageErrors: errors.length })}`);
   } finally { await browser.close(); }
 }

@@ -88,7 +88,7 @@ function openWindow() {
         const fixtures = ${JSON.stringify(fixtures)};
         const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
         const wait = async predicate => { for (let i = 0; i < 200; i++) { if (predicate()) return; await delay(25); } throw new Error('Complete-edition UI timed out'); };
-        const button = name => [...document.querySelectorAll('button')].find(item => item.textContent.trim() === name && item.getBoundingClientRect().height > 0);
+        const button = name => [...document.querySelectorAll('button')].find(item => (item.textContent.trim() === name || item.getAttribute('aria-label') === name) && item.getBoundingClientRect().height > 0);
         const importSave = async state => {
           document.querySelector('[aria-label="返回标题"]')?.click();
           await wait(() => button('存档迁移'));
@@ -110,8 +110,8 @@ function openWindow() {
         await wait(() => document.querySelector('.scene-event')?.naturalWidth >= 1600);
         if (document.querySelector('.scene-character')) throw new Error('CG duplicates character sprite');
         await importSave(fixtures.final);
-        await wait(() => button('制作名单'));
-        button('制作名单').click();
+        await wait(() => button('制作人员'));
+        button('制作人员').click();
         await wait(() => document.querySelector('.credits-copy'));
         button('关闭').click(); button('回到标题').click();
         await wait(() => button('回忆')); button('回忆').click();
