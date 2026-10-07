@@ -1,75 +1,76 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
-type LandscapeOrientation = ScreenOrientation & { lock?: (orientation: 'landscape') => Promise<void> };
 const portraitQuery = '(orientation: portrait) and (max-width: 900px) and (pointer: coarse)';
+const coarseQuery = '(pointer: coarse)';
 
 export function useDisplayMode(notify: (message: string) => void) {
   const [portrait, setPortrait] = useState(() => matchMedia(portraitQuery).matches);
   const [dismissed, setDismissed] = useState(false);
-  const [fullscreen, setFullscreen] = useState(() => !!document.fullscreenElement);
+  const [nativeFullscreen, setNativeFullscreen] = useState(() => !!document.fullscreenElement);
+  const [immersive, setImmersive] = useState(false);
   const [busy, setBusy] = useState(false);
-  const locked = useRef(false);
-  const pending = useRef(false);
-
-  const unlock = useCallback(() => {
-    if (!locked.current) return;
-    locked.current = false;
-    try { window.screen.orientation?.unlock(); } catch { /* The browser may already have released the lock. */ }
-  }, []);
+  const fullscreen = nativeFullscreen || immersive;
 
   useEffect(() => {
     const media = matchMedia(portraitQuery);
     const resize = () => setPortrait(media.matches);
     const change = () => {
-      setFullscreen(!!document.fullscreenElement);
-      if (!document.fullscreenElement) unlock();
+      setNativeFullscreen(!!document.fullscreenElement);
+      if (document.fullscreenElement) setImmersive(false);
     };
     media.addEventListener('change', resize);
     document.addEventListener('fullscreenchange', change);
     return () => {
       media.removeEventListener('change', resize);
       document.removeEventListener('fullscreenchange', change);
-      unlock();
     };
-  }, [unlock]);
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('immersive-reading', immersive);
+    return () => document.documentElement.classList.remove('immersive-reading');
+  }, [immersive]);
 
   const toggleFullscreen = useCallback(async () => {
-    if (pending.current) return;
-    pending.current = true;
+    if (busy) return;
     setBusy(true);
     try {
+      if (immersive) {
+        setImmersive(false);
+        return;
+      }
       if (document.fullscreenElement) {
-        unlock();
         await document.exitFullscreen();
         return;
       }
-      if (!document.documentElement.requestFullscreen || document.fullscreenEnabled === false) {
-        notify('当前浏览器不支持全屏。请将手机横过来，或安装到主屏幕后阅读；桌面版也可按 F11。');
+
+      if (matchMedia(coarseQuery).matches) {
+        setImmersive(true);
+        requestAnimationFrame(() => window.scrollTo(0, 1));
         return;
       }
-      // Called directly from a button gesture; never enter fullscreen automatically.
+
+      if (!document.documentElement.requestFullscreen || document.fullscreenEnabled === false) {
+        notify('当前浏览器不支持系统全屏。可以继续使用沉浸阅读；桌面版也可按 F11。');
+        return;
+      }
+
       await document.documentElement.requestFullscreen({ navigationUI: 'hide' });
       window.scrollTo(0, 0);
-      if (matchMedia('(pointer: coarse)').matches) {
-        const orientation = window.screen.orientation as LandscapeOrientation | undefined;
-        try {
-          if (!orientation?.lock) throw new Error('Orientation lock unavailable');
-          await orientation.lock('landscape');
-          locked.current = true;
-          if (!document.fullscreenElement) unlock();
-        } catch {
-          notify('已进入全屏。请将手机横过来；若画面没有转向，请开启系统的自动旋转。');
-        }
-      }
     } catch {
-      notify(document.fullscreenElement ? '暂时无法退出全屏，请使用系统的返回键或 Esc。' : '暂时无法进入全屏。可以直接横屏阅读，桌面版也可按 F11。');
+      notify(document.fullscreenElement ? '暂时无法退出全屏，可按 Esc。' : '暂时无法进入全屏。');
     } finally {
-      pending.current = false;
       setBusy(false);
     }
-  }, [notify, unlock]);
+  }, [busy, immersive, notify]);
 
-  return { fullscreen, busy, showRotationHint: portrait && !dismissed, dismissRotationHint: () => setDismissed(true), toggleFullscreen };
+  return {
+    fullscreen,
+    busy,
+    showRotationHint: portrait && !dismissed,
+    dismissRotationHint: () => setDismissed(true),
+    toggleFullscreen,
+  };
 }
 
 export type DisplayMode = ReturnType<typeof useDisplayMode>;

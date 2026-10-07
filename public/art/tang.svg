@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" role="img" aria-labelledby="title desc">
+<title id="title">许棠角色立绘</title>
+<desc id="desc">深棕低马尾、琥珀棕眼睛，米白与墨绿运动校服，胸前挂相机并抱着排版样张。</desc>
+<defs>
+  <linearGradient id="hair" x1="0" x2="1"><stop stop-color="#2b2526"/><stop offset="1" stop-color="#51413a"/></linearGradient>
+  <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2efe4"/><stop offset="1" stop-color="#ded9c9"/></linearGradient>
+  <linearGradient id="green" x1="0" x2="1"><stop stop-color="#365844"/><stop offset="1" stop-color="#56745d"/></linearGradient>
+</defs>
+<g stroke="#433a37" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+  <path fill="url(#hair)" d="M270 278c30-137 143-213 266-213 157 0 282 114 277 303-2 91-38 171-83 228-38 48-48 104-36 163l-104 23-239-28-77-129c-59-74-73-222-4-347z"/>
+  <path fill="#f4d8c5" d="M346 304c22-94 104-149 196-149 108 0 191 74 191 183 0 106-79 203-184 219-106 17-207-55-222-163-4-31 2-61 19-90z"/>
+  <path fill="url(#hair)" d="M319 300c30-118 125-184 229-184 94 0 172 51 207 139-67-26-118-74-151-121-37 73-131 122-285 166z"/>
+  <path fill="none" d="M326 298c-17 88 2 187 66 254M730 282c34 101 17 190-45 271"/>
+  <ellipse fill="#8b6946" cx="446" cy="374" rx="31" ry="25"/><ellipse fill="#8b6946" cx="625" cy="366" rx="31" ry="25"/>
+  <ellipse fill="#fff" stroke="none" cx="456" cy="366" rx="8" ry="7"/><ellipse fill="#fff" stroke="none" cx="635" cy="358" rx="8" ry="7"/>
+  <path fill="none" d="M508 460c29 22 58 20 84-3"/>
+  <path fill="#e8b9a8" stroke="none" d="M451 427c-38 7-66-2-80-20 22-10 51-11 80 20zm168-3c35 3 61-6 75-22-22-8-48-6-75 22z" opacity=".38"/>
+  <path fill="#f4d8c5" d="M485 534l11 112h109l10-119"/>
+  <path fill="url(#jacket)" d="M286 733c63-82 140-121 217-123h99c99 5 184 52 230 142 39 77 59 272 68 475H153c9-213 49-410 133-494z"/>
+  <path fill="url(#green)" d="M286 733c35-44 78-77 126-97l77 104-81 487H153c9-213 49-410 133-494zm546 19c-34-59-83-96-137-117l-86 105 86 487h205c-9-203-29-398-68-475z"/>
+  <path fill="#fff" d="M486 643l55 76 61-76 87 584H402z"/>
+  <path fill="none" d="M541 719v505M407 761l-84 122M686 765l89 116"/>
+  <rect fill="#3f4647" x="454" y="822" width="185" height="132" rx="25"/>
+  <circle fill="#252a2b" cx="548" cy="888" r="49"/><circle fill="#657070" cx="548" cy="888" r="29"/>
+  <path fill="none" d="M475 820c-2-76 142-77 145 0"/>
+  <path fill="#eee8d9" d="M650 943l164 42-52 205-169-49z"/>
+  <path fill="#c7d7c4" d="M677 989l102 26-8 31-102-26z" stroke="none"/>
+  <path fill="#93ad96" d="M666 1040l87 22-7 27-87-22zm-13 50l106 27-7 27-106-27z" stroke="none"/>
+  <path fill="#f4d8c5" d="M365 960c-45 17-66 72-44 112 23 43 72 42 110 8l75-70-57-65z"/>
+  <path fill="#f4d8c5" d="M718 942c54 2 89 47 75 92-13 44-60 54-105 32l-80-44 39-78z"/>
+  <path fill="url(#hair)" d="M737 237c91-4 165 58 184 151 15 76-3 162-47 233-28-83-79-137-147-164z"/>
+  <path fill="none" d="M770 293c48 36 76 86 85 153"/>
+  <circle fill="#c3d8c5" cx="340" cy="253" r="19"/><path fill="none" d="M340 234v38m-19-19h38"/>
+</g>
+</svg>

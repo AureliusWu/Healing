@@ -1,7 +1,7 @@
 {
   "name": "moist-healing",
   "productName": "湿性愈合",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "type": "module",
   "main": "electron/main.cjs",
@@ -40,12 +40,21 @@
   "build": {
     "appId": "com.aureliuswu.moisthealing",
     "productName": "湿性愈合",
-    "directories": { "output": "release" },
-    "files": ["dist/**/*", "electron/**/*", "package.json"],
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
     "asar": true,
     "win": {
       "icon": "public/icons/icon.ico",
-      "target": ["nsis", "portable"]
+      "target": [
+        "nsis",
+        "portable"
+      ]
     },
     "nsis": {
       "artifactName": "MoistHealing-${version}-${arch}-Setup.${ext}",
@@ -54,7 +63,15 @@
       "createDesktopShortcut": true,
       "shortcutName": "湿性愈合"
     },
-    "portable": { "artifactName": "MoistHealing-${version}-${arch}-Portable.${ext}" },
-    "linux": { "target": ["AppImage"], "category": "Game", "icon": "public/icons/icon-512.png" }
+    "portable": {
+      "artifactName": "MoistHealing-${version}-${arch}-Portable.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Game",
+      "icon": "public/icons/icon-512.png"
+    }
   }
 }

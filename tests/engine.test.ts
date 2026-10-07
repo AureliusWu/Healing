@@ -34,6 +34,11 @@ describe('complete chapter graph', () => {
     expect(new Set(allRoutes.map(route => getScene(route).ending))).toEqual(new Set(['together', 'letter', 'quiet']));
     expect(allRoutes.every(route => route.decisions.length === 4)).toBe(true);
   });
+  it('keeps the adult cast rule and the new Xu Tang scene in the authored graph', () => {
+    expect(scenes.some(scene => scene.id === 'tang-interlude' && scene.character === 'tang')).toBe(true);
+    const source = scenes.flatMap(scene => scene.lines).map(line => line.text).join('\n');
+    expect(source).not.toContain('十七岁的秋天');
+  });
   it('every authored scene appears on at least one reachable route', () => {
     const visited = new Set(allRoutes.flatMap(route => [...route.history.map(entry => entry.sceneId), route.sceneId]));
     expect(visited).toEqual(new Set(scenes.map(scene => scene.id)));
