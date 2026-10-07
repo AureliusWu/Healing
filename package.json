@@ -1,11 +1,11 @@
 {
   "name": "moist-healing",
   "productName": "湿性愈合",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "main": "electron/main.cjs",
-  "description": "青春期校园视觉小说 · 第一章 生长痛",
+  "description": "原创青春期校园视觉小说 · 三章完结",
   "author": "AureliusWu",
   "license": "MIT",
   "scripts": {
