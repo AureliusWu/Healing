@@ -1,0 +1,11 @@
+{
+  "id": "printshop",
+  "kind": "background",
+  "width": 1672,
+  "height": 941,
+  "path": "public/art/printshop.webp",
+  "bytes": 330378,
+  "sha256": "61676eb0bb860175ec947ba3d7ea34ddc2350ce48691fc985c08ffdbe922ed99",
+  "prompt": "Produce one landscape 16:9 background illustration at least 1672x941 for a Chinese school visual novel, no people. Match supplied original classroom and campus backgrounds precisely: fine hand-drawn anime contours, flat colour planes and simple cel shadows, restrained warm ivory and forest/mint green colours. Entirely 2D, not realistic, not 3D. Natural scale and architecture, coherent perspective, visible autumn Jiangcheng setting. Compose a calm lower quarter for a later dialogue overlay and uncluttered center-right for a standing sprite. No letters, signage writing, interface, logos or watermarks. The small school document printing room, late afternoon. A functional photocopier at left, stacked cream paper, green low cabinet, a work counter for folding and stapling proofs with a ruler, chairs and autumn window. Clear correct paper tray geometry, believable small practical school room. No readable text on machine.",
+  "mode": "built-in image_gen"
+}
