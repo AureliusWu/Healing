@@ -1,7 +1,7 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 const portraitQuery = '(orientation: portrait) and (max-width: 900px) and (pointer: coarse)';
-const coarseQuery = '(pointer: coarse)';
+const mobileUa = /Android|iPhone|iPad|iPod/i;
 
 export function useDisplayMode(notify: (message: string) => void) {
   const [portrait, setPortrait] = useState(() => matchMedia(portraitQuery).matches);
@@ -9,22 +9,32 @@ export function useDisplayMode(notify: (message: string) => void) {
   const [nativeFullscreen, setNativeFullscreen] = useState(() => !!document.fullscreenElement);
   const [immersive, setImmersive] = useState(false);
   const [busy, setBusy] = useState(false);
+  const orientationLocked = useRef(false);
   const fullscreen = nativeFullscreen || immersive;
+
+  const unlockOrientation = useCallback(() => {
+    if (!orientationLocked.current) return;
+    try { screen.orientation?.unlock?.(); } catch { /* best effort */ }
+    orientationLocked.current = false;
+  }, []);
 
   useEffect(() => {
     const media = matchMedia(portraitQuery);
     const resize = () => setPortrait(media.matches);
     const change = () => {
-      setNativeFullscreen(!!document.fullscreenElement);
-      if (document.fullscreenElement) setImmersive(false);
+      const active = !!document.fullscreenElement;
+      setNativeFullscreen(active);
+      if (active) setImmersive(false);
+      else unlockOrientation();
     };
     media.addEventListener('change', resize);
     document.addEventListener('fullscreenchange', change);
     return () => {
       media.removeEventListener('change', resize);
       document.removeEventListener('fullscreenchange', change);
+      unlockOrientation();
     };
-  }, []);
+  }, [unlockOrientation]);
 
   useEffect(() => {
     document.documentElement.classList.toggle('immersive-reading', immersive);
@@ -41,28 +51,38 @@ export function useDisplayMode(notify: (message: string) => void) {
       }
       if (document.fullscreenElement) {
         await document.exitFullscreen();
+        unlockOrientation();
         return;
       }
 
-      if (matchMedia(coarseQuery).matches) {
+      const touchStandalone = matchMedia('(display-mode: standalone)').matches && navigator.maxTouchPoints > 0;
+      if (mobileUa.test(navigator.userAgent) || touchStandalone) {
         setImmersive(true);
         requestAnimationFrame(() => window.scrollTo(0, 1));
         return;
       }
 
       if (!document.documentElement.requestFullscreen || document.fullscreenEnabled === false) {
-        notify('当前浏览器不支持系统全屏。可以继续使用沉浸阅读；桌面版也可按 F11。');
+        notify('当前浏览器不支持全屏。可以继续使用沉浸阅读；桌面版也可按 F11。');
         return;
       }
 
       await document.documentElement.requestFullscreen({ navigationUI: 'hide' });
+      try {
+        if (screen.orientation?.lock) {
+          await screen.orientation.lock('landscape');
+          orientationLocked.current = true;
+        }
+      } catch {
+        notify('已进入全屏；如未自动横屏，请手动旋转设备。');
+      }
       window.scrollTo(0, 0);
     } catch {
       notify(document.fullscreenElement ? '暂时无法退出全屏，可按 Esc。' : '暂时无法进入全屏。');
     } finally {
       setBusy(false);
     }
-  }, [busy, immersive, notify]);
+  }, [busy, immersive, notify, unlockOrientation]);
 
   return {
     fullscreen,
