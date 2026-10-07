@@ -1,0 +1,11 @@
+{
+  "id": "home",
+  "kind": "background",
+  "width": 1672,
+  "height": 941,
+  "path": "public/art/home.webp",
+  "bytes": 334232,
+  "sha256": "ace4e68d785a3a46746a2875b955320799e6e1fca8f1173f2c8c20b5f8ceb528",
+  "prompt": "Produce one landscape 16:9 background illustration at least 1672x941 for a Chinese school visual novel, no people. Match supplied original classroom and campus backgrounds precisely: fine hand-drawn anime contours, flat colour planes and simple cel shadows, restrained warm ivory and forest/mint green colours. Entirely 2D, not realistic, not 3D. Natural scale and architecture, coherent perspective, visible autumn Jiangcheng setting. Compose a calm lower quarter for a later dialogue overlay and uncluttered center-right for a standing sprite. No letters, signage writing, interface, logos or watermarks. A modest Jiangcheng family flat on a rainy evening. Dining table with two bowls of rice, simple dishes and a covered plate set aside for a parent's late shift, one green workbook and a folded manuscript bag, green cupboard and small kitchen doorway, rainy window, warm ceiling light. Comfortable ordinary lived-in interior, no luxury, no people.",
+  "mode": "built-in image_gen"
+}
