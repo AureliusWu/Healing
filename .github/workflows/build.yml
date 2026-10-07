@@ -75,12 +75,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Check version has release notes
+      - name: Check version has indexed release notes
         id: version
-        run: |
-          version=$(node -p "JSON.parse(require('fs').readFileSync('package.json')).version")
-          test -f "docs/releases/v${version}.md"
-          echo "version=$version" >> "$GITHUB_OUTPUT"
+        run: node scripts/check-release-notes.mjs
       - uses: actions/download-artifact@v4
         with:
           name: MoistHealing-Windows-x64
