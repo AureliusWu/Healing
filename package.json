@@ -1,7 +1,7 @@
 {
   "name": "moist-healing",
   "productName": "湿性愈合",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "main": "electron/main.cjs",
@@ -13,13 +13,14 @@
     "build": "tsc --noEmit && vite build && node scripts/build-pwa.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "test": "vitest run",
+    "test:release": "node --test scripts/tests/publish-release.test.mjs",
     "test:e2e": "playwright test",
     "test:desktop": "node scripts/desktop-smoke.cjs",
     "test:desktop:packaged": "node scripts/desktop-smoke.cjs \"release/win-unpacked/湿性愈合.exe\"",
     "desktop": "npm run build && electron .",
     "desktop:pack": "npm run build && electron-builder --dir --publish never",
     "desktop:win": "npm run build && electron-builder --win --x64 --publish never",
-    "check": "npm run test && npm run build && npm run test:e2e"
+    "check": "npm run test:release && npm run test && npm run build && npm run test:e2e"
   },
   "dependencies": {
     "react": "19.3.0",

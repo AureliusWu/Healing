@@ -25,6 +25,23 @@ const legacy = routes(newGame(), true);
 afterEach(() => vi.unstubAllGlobals());
 
 describe('three-chapter complete edition', () => {
+  it('uses reachable smoke fixtures matching the current engine contract for release metadata', () => {
+    const fixtures = JSON.parse(readFileSync('electron/smoke-fixtures.json', 'utf8'));
+    const contract = newGame();
+    for (const fixture of [fixtures.cg, fixtures.final]) {
+      expect(fixture.schema).toBe(contract.schema);
+      expect(fixture.storyVersion).toBe(contract.storyVersion);
+      const restored = decodeSave(JSON.stringify(encodeSave(fixture))).state;
+      expect(restored.sceneId).toBe(fixture.sceneId);
+      expect(restored.line).toBe(fixture.line);
+      expect(restored.decisions).toEqual(fixture.decisions);
+      expect(restored.stats).toEqual(fixture.stats);
+    }
+    expect(getScene(fixtures.cg).cg).toBe('lin-page');
+    expect(getScene(fixtures.final).ending).toBe('lin-final');
+    expect(fixtures.legacy.schema).toBe(contract.schema);
+    expect(decodeSave(JSON.stringify(encodeSave(fixtures.legacy))).state.sceneId).toBe(fixtures.legacy.sceneId);
+  });
   it('preserves every v0.1.6 first-chapter paragraph, choice and destination', () => {
     const baseline = JSON.parse(readFileSync('tests/fixtures/chapter1-v016.json', 'utf8'));
     const actual = scenes.filter(scene => scene.chapter === 1).map(({ id, lines, choices, next, ending }) => ({ id, lines: lines.map(({ speaker, text }) => ({ speaker, text })), choices: choices ?? null, next: next ?? null, ending: ending ?? null }));

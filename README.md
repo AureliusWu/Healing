@@ -117,7 +117,7 @@ npm run test:desktop
 npm run test:desktop:packaged # Windows 打包后，检查实际 ASAR 桌面程序
 ```
 
-剧情校验遍历全部 54 条路线，并验证每段可恢复、全部场景可达、非法存档被拒绝。浏览器测试覆盖两个屏幕规格下的完整游玩、存档、迁移、离线重开与短横屏布局。桌面启动检查验证实际窗口、立绘资源、剧情启动、自动存档和渲染器隔离。
+剧情校验遍历 1,296 条完整路线与 54 条旧章迁移，并验证段落可恢复、全部场景可达、非法存档被拒绝。浏览器测试覆盖电脑与手机的完整游玩、存档、迁移、离线重开与短横屏布局。桌面启动检查验证实际窗口、立绘资源、剧情启动、自动存档和渲染器隔离。
 
 详见 [技术结构](docs/ARCHITECTURE.md)、[三章剧情设计](docs/STORY.md)、[素材与提示词](docs/prompts/ART-v4.md)、[制作规范](docs/PRODUCTION.md)、[迭代记录](docs/production/ITERATIONS.md) 和 [验证记录](docs/VALIDATION.md)。
 

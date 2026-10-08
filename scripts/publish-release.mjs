@@ -4,16 +4,21 @@ import path from 'node:path';
 
 const { version } = JSON.parse(await readFile('package.json', 'utf8'));
 const { GITHUB_REPOSITORY: repository, GITHUB_SHA: sha, GITHUB_RUN_ID: run, GH_TOKEN: token } = process.env;
-if (!/^\d+\.\d+\.\d+$/.test(version) || !/^[\w.-]+\/[\w.-]+$/.test(repository ?? '') || !/^[a-f0-9]{40}$/.test(sha ?? '') || !token) throw new Error('Missing or invalid release context');
+if (!/^\d+\.\d+\.\d+$/.test(version) || !/^[\w.-]+\/[\w.-]+$/.test(repository ?? '') || !/^[a-f0-9]{40}$/.test(sha ?? '') || !/^[1-9]\d*$/.test(run ?? '') || !token) throw new Error('Missing or invalid release context');
 const tag = `v${version}`;
 const directory = 'release-assets';
 const notes = await readFile(`docs/releases/${tag}.md`, 'utf8');
+const heading = notes.split(/\r?\n/).find(line => line.startsWith('# '))?.slice(2).trim();
+if (!heading?.startsWith(`${tag} · `)) throw new Error('Release notes heading does not match the package version');
+// These real route fixtures are verified by both source and packaged desktop smoke.
+const { final: current, cg, legacy } = JSON.parse(await readFile('electron/smoke-fixtures.json', 'utf8'));
+if (!/^[a-z0-9-]+$/.test(current?.storyVersion ?? '') || !Number.isSafeInteger(current?.schema) || current.schema < 1 || cg?.storyVersion !== current.storyVersion || cg?.schema !== current.schema || !/^[a-z0-9-]+$/.test(legacy?.storyVersion ?? '')) throw new Error('Inconsistent verified save fixtures');
 const names = [`MoistHealing-${version}-x64-Setup.exe`, `MoistHealing-${version}-x64-Portable.exe`, `MoistHealing-PWA-${version}.zip`];
 for (const name of names) {
   const data = await readFile(path.join(directory, name));
   if (data.length < 1000 || (name.endsWith('.exe') ? data.toString('ascii', 0, 2) !== 'MZ' : data.toString('ascii', 0, 2) !== 'PK')) throw new Error(`Invalid release file: ${name}`);
 }
-await writeFile(path.join(directory, 'release.json'), JSON.stringify({ version, commit: sha, build: `https://github.com/${repository}/actions/runs/${run}`, storyVersion: 'chapter1-v1', saveSchema: 1 }, null, 2) + '\n');
+await writeFile(path.join(directory, 'release.json'), JSON.stringify({ version, commit: sha, build: `https://github.com/${repository}/actions/runs/${run}`, storyVersion: current.storyVersion, saveSchema: current.schema, compatibleStoryVersions: [...new Set([legacy.storyVersion, current.storyVersion])] }, null, 2) + '\n');
 names.push('release.json');
 const sums = await Promise.all(names.map(async name => `${createHash('sha256').update(await readFile(path.join(directory, name))).digest('hex')}  ${name}`));
 await writeFile(path.join(directory, 'SHA256SUMS.txt'), sums.join('\n') + '\n');
@@ -34,7 +39,7 @@ if (release && !release.draft) {
 if (release && release.target_commitish !== sha) throw new Error(`${tag} draft belongs to another commit; bump the version`);
 const ref = await api(`/git/ref/tags/${tag}`);
 if (ref && (ref.object.type !== 'commit' || ref.object.sha !== sha)) throw new Error(`${tag} already points to a different commit; bump the version`);
-if (!release) release = await api('/releases', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ tag_name: tag, target_commitish: sha, name: `湿性愈合 ${tag} · 生长痛`, body: notes, draft: true, prerelease: false }) });
+if (!release) release = await api('/releases', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ tag_name: tag, target_commitish: sha, name: `湿性愈合 ${heading}`, body: notes, draft: true, prerelease: false }) });
 // Only a draft for this exact tested commit may be repaired on retry.
 for (const name of names) {
   const existing = release.assets.find(asset => asset.name === name);
