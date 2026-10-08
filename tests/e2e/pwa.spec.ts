@@ -37,11 +37,14 @@ test('failed precache is reported and retry enables offline reading in a subdire
     host.version.failAsset = false;
     await page.getByRole('button', { name: '重新下载', exact: true }).click();
     await expect(page.getByRole('heading', { name: '可以离线阅读', exact: true })).toBeVisible();
+    await expect(page.locator('.pwa-summary')).toContainText('三章完整故事已保存在这台设备上');
     await expect.poll(() => page.evaluate(() => !!navigator.serviceWorker.controller)).toBe(true);
     await context.setOffline(true);
     await page.reload();
     await expect(page.locator('.title-footer')).toContainText('正在离线阅读');
     await expect.poll(() => page.evaluate(() => [...document.images].every(image => image.complete && image.naturalWidth > 0))).toBe(true);
+    await page.getByRole('button', { name: '安装与离线', exact: true }).click();
+    await expect(page.locator('.pwa-summary')).toContainText('正在使用已下载的三章完整故事');
   } finally { await host.close(); }
 });
 

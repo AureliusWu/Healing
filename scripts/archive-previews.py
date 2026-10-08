@@ -30,6 +30,11 @@ def main():
     root = Path(__file__).resolve().parents[1]
     output = root / 'docs/previews' / f'v{args.version}'
     output.mkdir(parents=True, exist_ok=True)
+    manifest_path = output / 'provenance.json'
+    if manifest_path.exists():
+        previous = json.loads(manifest_path.read_text())
+        if previous.get('version') != args.version or previous.get('runtimeCommit') != args.commit:
+            raise ValueError('This version already archives a different runtime commit')
     events = ['lin-page', 'chen-rest', 'tang-light', 'shared-print']
     web_names = [f'cg-{event}-{screen}.png' for event in events for screen in ['desktop', 'mobile']]
     live_names = [f'{kind}-{screen}.png' for kind in ['title', 'reading', 'choices', 'picture', 'complete-cg'] for screen in ['desktop', 'mobile', 'landscape']]
@@ -58,12 +63,15 @@ def main():
                         checked.load()
                         if checked.size != source.size:
                             raise ValueError(f'Screenshot dimensions changed: {name}')
-                    target = output / name.replace('.png', '.jpg') if kind == 'web' or name.startswith('complete-cg-') else root / 'docs/previews' / name.replace('.png', '.jpg')
+                    # Every provenance path belongs to its version, including UI.
+                    target = output / name.replace('.png', '.jpg')
                     jobs.append((target, data, {'source': kind, 'original': name, 'path': target.relative_to(root).as_posix(), 'width': source.width, 'height': source.height, 'pngSha256': digest(raw), 'jpgSha256': digest(data)}))
-    for target, data, _ in jobs:
+    for target, data, item in jobs:
         target.write_bytes(data)
+        if item['source'] == 'live' and not item['original'].startswith('complete-cg-'):
+            (root / 'docs/previews' / target.name).write_bytes(data)
     manifest = {'version': args.version, 'runtimeCommit': args.commit, 'encoding': 'JPEG quality 86; original dimensions; no crop', 'sources': sources, 'screenshots': [item for _, _, item in jobs]}
-    (output / 'provenance.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
     print(f'PREVIEW_ARCHIVE_OK v{args.version}: {len(jobs)} screenshots, dimensions preserved')
 
 

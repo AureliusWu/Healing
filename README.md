@@ -2,17 +2,17 @@
 
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，当前版本 **v1.0.0**。
+青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，当前公开版本 **v1.0.1**。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Project1/) · [下载 Windows / PWA](https://github.com/AureliusWu/Project1/releases/tag/v1.0.0)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Project1/) · [下载 Windows / PWA](https://github.com/AureliusWu/Project1/releases/tag/v1.0.1)
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥和许棠相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
 
 ![共同篇事件画面](public/art/cg-shared-print.webp)
 
-[完整版实机预览与验证证据](docs/previews/v1.0.0/README.md)
+[完整版实机预览与验证证据](docs/previews/v1.0.1/README.md)
 
-下表为 v1.0.0 正式线上版本的实际界面，已将通过验证的截图归档到仓库。
+下表为 v1.0.1 正式线上版本的实际界面，已将通过验证的截图归档到仓库。
 
 | 预览 | 电脑 | 手机横屏 | 手机竖屏兼容 |
 | --- | --- | --- | --- |
@@ -21,7 +21,7 @@
 | 剧情选择 | [查看](docs/previews/choices-desktop.jpg) | [查看](docs/previews/choices-landscape.jpg) | [查看](docs/previews/choices-mobile.jpg) |
 | 隐藏界面 | [查看](docs/previews/picture-desktop.jpg) | [查看](docs/previews/picture-landscape.jpg) | [查看](docs/previews/picture-mobile.jpg) |
 
-[三位角色与表情实机预览](docs/previews/v0.1.6/characters-desktop.png) · [角色美术规范与素材](docs/production/CHARACTER-ART.md) · [v1.0.0 更新记录](docs/releases/v1.0.0.md)
+[三位角色与表情实机预览](docs/previews/v0.1.6/characters-desktop.png) · [角色美术规范与素材](docs/production/CHARACTER-ART.md) · [v1.0.1 更新记录](docs/releases/v1.0.1.md)
 
 ## 可玩的内容
 
@@ -80,7 +80,7 @@ npm run desktop:win   # 在 Windows 生成 NSIS 安装包和便携 EXE
 
 直接打开 [游戏网页](https://aureliuswu.github.io/Project1/)，标题页的「安装与离线」提供安装操作、下载状态与更新检查。离线状态就绪后可以断网重开。
 
-[版本下载页](https://github.com/AureliusWu/Project1/releases/tag/v1.0.0) 提供 Windows 安装版、便携版及 PWA ZIP，包含文件 SHA-256 与实际构建提交记录。该下载不依赖 Actions 产物保留期限。
+[版本下载页](https://github.com/AureliusWu/Project1/releases/tag/v1.0.1) 提供 Windows 安装版、便携版及 PWA ZIP，包含文件 SHA-256 与实际构建提交记录。该下载不依赖 Actions 产物保留期限。
 
 每次推送 `main` 会运行 [Build game](https://github.com/AureliusWu/Project1/actions/workflows/build.yml)：先验证剧情与手机/电脑 PWA，再在 Windows 启动实际 Electron 程序、生成安装包并启动实际打包程序复验。全部成功后，对应版本的安装包和 PWA 会发布到 Releases。需要发布新版本时，同时更新 `package.json`、锁文件与 `docs/releases/v版本号.md`；已发布版本不被覆盖。对应运行页面也保留 Artifacts：
 

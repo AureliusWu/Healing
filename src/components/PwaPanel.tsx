@@ -5,8 +5,8 @@ export function PwaPanel({ state }: { state: PwaState }) {
   const description = {
     desktop: '桌面版的全部资源随安装包提供，可以直接离线阅读。',
     unsupported: '安装与离线阅读需要使用支持 PWA 的浏览器，并通过 HTTPS 打开游戏。',
-    downloading: '正在下载完整第一章。完成前请保持联网，仍然可以开始阅读。',
-    ready: state.online ? '完整第一章已保存在这台设备上，可以断网重开并继续阅读。' : '正在使用已下载的第一章。阅读和存档均可正常使用。',
+    downloading: '正在下载三章完整故事。完成前请保持联网，仍然可以开始阅读。',
+    ready: state.online ? '三章完整故事已保存在这台设备上，可以断网重开并继续阅读。' : '正在使用已下载的三章完整故事。阅读和存档均可正常使用。',
     error: '离线下载没有完成。联网时可以阅读，重试成功后才能断网重开。',
   }[state.status];
   return <div className="pwa-panel">

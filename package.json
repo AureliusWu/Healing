@@ -1,7 +1,7 @@
 {
   "name": "moist-healing",
   "productName": "湿性愈合",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "type": "module",
   "main": "electron/main.cjs",
