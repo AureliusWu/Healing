@@ -15,7 +15,7 @@ def main():
     parser.add_argument('source', type=Path)
     parser.add_argument('--output', type=Path, default=Path('src/assets/story-serif.woff2'))
     args = parser.parse_args()
-    text = ''.join(p.read_text() for p in Path('src').rglob('*') if p.suffix in ('.ts', '.tsx', '.css'))
+    text = ''.join(p.read_text() for p in Path('src').rglob('*') if p.suffix in ('.ts', '.tsx', '.css', '.json'))
     with TTFont(args.source) as font:
         if 'fvar' in font:
             instantiateVariableFont(font, {'wght': 400}, inplace=True)

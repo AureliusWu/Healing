@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "files": {
+    "docs/production/SHARED-VN.md": "b371e0f8e51411479563952f07e1046cb8de9b91f82f5828796ab1154779a6ab",
+    "scripts/vn-contract.mjs": "ca1a7ee3621c0c3eee3e7136dbbe6250864189021290f9f6edc70a2b14c69403",
+    "scripts/vn-contract.d.mts": "382423131839fa824b4ba46ad2c64cb5653c6a562f736c381da938f013ac776f"
+  },
+  "peers": [
+    "AureliusWu/NetLove",
+    "AureliusWu/Project1",
+    "AureliusWu/Test"
+  ]
+}
