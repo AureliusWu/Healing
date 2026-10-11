@@ -1,4 +1,5 @@
 node_modules/
+.reuse-kit/
 dist/
 release/
 test-results/

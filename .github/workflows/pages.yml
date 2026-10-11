@@ -52,6 +52,8 @@ jobs:
           ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
       - run: npm test
         if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
+      - run: npm run test:materials
+        if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
       - run: npm run build
         if: steps.current.outputs.deploy == 'true' && github.event_name == 'workflow_dispatch'
       - run: npx playwright install --with-deps chromium
@@ -71,11 +73,24 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         if: steps.current.outputs.deploy == 'true'
         with:
+          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
           path: dist
-      - name: Publish
+      - name: Recheck main immediately before publishing
+        id: latest
         if: steps.current.outputs.deploy == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const {data}=await github.rest.git.getRef({...context.repo,ref:'heads/main'});
+            const target=context.payload.workflow_run?.head_sha||context.sha;
+            core.setOutput('deploy',String(data.object.sha===target));
+            if(data.object.sha!==target) core.notice('A newer main commit exists; this older build will not replace it.');
+      - name: Publish
+        if: steps.latest.outputs.deploy == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
       - uses: actions/setup-node@v4
         if: steps.deployment.outcome == 'success' && github.event_name == 'workflow_run'
         with:

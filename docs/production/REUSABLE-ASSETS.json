@@ -1,0 +1,952 @@
+{
+  "schema": 1,
+  "contractVersion": "1.1.0",
+  "project": "Healing",
+  "repository": "https://github.com/AureliusWu/Healing",
+  "sourceCommit": "83c87111cbc9fcb31970a963efada885a100fc41",
+  "inventoryDate": "2026-10-11",
+  "entries": [
+    {
+      "id": "shared-vn-production",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "AureliusWu/Rain, NetLove and Healing; shared production contract v1.1.0",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "docs/production/SHARED-VN.md",
+          "encoding": "text-lf",
+          "sha256": "f08a062eed6bf65683b8fd4197bbd3852973adb45d5f107a72d303028c571f1d"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-contract.mjs",
+          "encoding": "text-lf",
+          "sha256": "7385f28e51f7b633e3e64ec15b51891d4b5edbc17d1f3a0a7d18c9d5887ecdb7"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-contract.d.mts",
+          "encoding": "text-lf",
+          "sha256": "382423131839fa824b4ba46ad2c64cb5653c6a562f736c381da938f013ac776f"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-materials.mjs",
+          "encoding": "text-lf",
+          "sha256": "3b7ad85d6437f85bb376dbe2bf1d72b5c086c1a7a89e5db6e1cfe6ba78d76d6d"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-materials.test.mjs",
+          "encoding": "text-lf",
+          "sha256": "591898378eab69462e3d8f725486574c7ef7201a0f74fa7441de63b50bce9cab"
+        },
+        {
+          "role": "recipe",
+          "path": "docs/production/REUSABLE-MATERIALS.md",
+          "encoding": "text-lf",
+          "sha256": "68659626d126f1e8751f145123541da02c7592b9ce19fc24d5ee9cab3cbfa6e4"
+        },
+        {
+          "role": "template",
+          "path": "docs/production/templates/ART-PROMPT.md",
+          "encoding": "text-lf",
+          "sha256": "2707278d457016924469427b4d80e2a7ae19a7090df06d3fc0f33a1c3348db49"
+        },
+        {
+          "role": "template",
+          "path": "docs/production/templates/ASSET-RECORD.json",
+          "encoding": "text-lf",
+          "sha256": "e89b8775b40e89e5ca57135fbae0eb8f13a009ff450fcb9baed83b9543c92cc9"
+        },
+        {
+          "role": "template",
+          "path": "docs/production/templates/DUAL-PLATFORM-CHECKLIST.md",
+          "encoding": "text-lf",
+          "sha256": "25e938e4294def0b00b34cc4703bfdec7221591fd2ae13ce10109cc390d933d1"
+        }
+      ]
+    },
+    {
+      "id": "story-serif-subset",
+      "kind": "font",
+      "reuse": "licensed",
+      "origin": "Noto Serif SC; project-specific subset",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Upstream full font is not stored here; regenerate with target JSON/UI glyph coverage, preserve OFL naming restrictions",
+      "license": {
+        "name": "SIL Open Font License 1.1",
+        "file": {
+          "role": "license",
+          "path": "public/licenses/OFL-NotoSerifSC.txt",
+          "encoding": "text-lf",
+          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+        }
+      },
+      "files": [
+        {
+          "role": "runtime",
+          "path": "src/assets/story-serif.woff2",
+          "encoding": "binary",
+          "sha256": "4083633a527ebce482420abb9488604eb0b631f12c86c90b5bf10d10dea6bd98"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/subset-font.py",
+          "encoding": "text-lf",
+          "sha256": "960639e6b6290a19f49fd347d70f77b360ebed69d7497a6c553c0d7b429ac9c6"
+        }
+      ]
+    },
+    {
+      "id": "image-encoding",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "Original project Pillow encoding and atlas checks; adapt to target assets",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "scripts/prepare-art.py",
+          "encoding": "text-lf",
+          "sha256": "856ef48fbad2dd50af0b46a0a9e745fcc3986cd2850f90dcc98db36c514393b5"
+        }
+      ]
+    },
+    {
+      "id": "font-subsetting",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "Original project fonttools glyph collection and subsetting; regenerate for target story",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "scripts/subset-font.py",
+          "encoding": "text-lf",
+          "sha256": "960639e6b6290a19f49fd347d70f77b360ebed69d7497a6c553c0d7b429ac9c6"
+        }
+      ]
+    },
+    {
+      "id": "procedural-web-audio",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "Original project melody/chord/WebAudio synthesis; adapt scene IDs, UI store and browser audio unlock",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "src/game/score.ts",
+          "encoding": "text-lf",
+          "sha256": "ea32ee35a67c9bfee2b35ef3d3da382704500f0950108a37059811d621ac32c4"
+        },
+        {
+          "role": "recipe",
+          "path": "src/game/music.ts",
+          "encoding": "text-lf",
+          "sha256": "28e22c08cfcfd1630c78ca240edce439d9ab73d266892706e877d4f7fe8793f3"
+        },
+        {
+          "role": "recipe",
+          "path": "src/game/types.ts",
+          "encoding": "text-lf",
+          "sha256": "85cc9c507f5db7f1605dd0558eccfbc31268c8811fd3ab1f89308a1f99a26d9c"
+        }
+      ]
+    },
+    {
+      "id": "campus",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/campus.webp",
+          "encoding": "binary",
+          "sha256": "bdf33ddaf2d996bb9842fc898da770b0b623ce33ee155bc699837594771e043e"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 571028
+      }
+    },
+    {
+      "id": "classroom",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/classroom.webp",
+          "encoding": "binary",
+          "sha256": "0c3a2d7bf8525d0105675a5a9bcff6315de98d778c1aaf808f0b7781100af0ec"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 319372
+      }
+    },
+    {
+      "id": "lin",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/lin.webp",
+          "encoding": "binary",
+          "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1024,
+        "height": 1536,
+        "bytes": 955322,
+        "transparentFraction": 0.63,
+        "alphaBounds": [
+          65,
+          12,
+          771,
+          1536
+        ],
+        "solidAlphaBounds": [
+          246,
+          15,
+          767,
+          1536
+        ]
+      }
+    },
+    {
+      "id": "chen",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/chen.webp",
+          "encoding": "binary",
+          "sha256": "1af71b2d3dfce1ae4fc8275b447f559544dbae86826f6f120adae2438a8f766f"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1050262,
+        "transparentFraction": 0.5639,
+        "alphaBounds": [
+          161,
+          0,
+          926,
+          1536
+        ],
+        "solidAlphaBounds": [
+          165,
+          8,
+          923,
+          1536
+        ]
+      }
+    },
+    {
+      "id": "lin-expressions",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/lin-expressions.webp",
+          "encoding": "binary",
+          "sha256": "dcd67fd0346ecf7db63ea9322e47e193733fe3a5d3243223b8144833be20558d"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 994336,
+        "transparentFraction": 0.5613,
+        "alphaBounds": [
+          0,
+          0,
+          1224,
+          1254
+        ],
+        "solidAlphaBounds": [
+          108,
+          40,
+          1136,
+          1222
+        ],
+        "columns": 3,
+        "rows": 2,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            108,
+            40,
+            362,
+            610
+          ],
+          [
+            496,
+            40,
+            750,
+            610
+          ],
+          [
+            879,
+            40,
+            1135,
+            610
+          ],
+          [
+            108,
+            653,
+            364,
+            1222
+          ],
+          [
+            495,
+            653,
+            751,
+            1222
+          ],
+          [
+            880,
+            653,
+            1136,
+            1222
+          ]
+        ]
+      }
+    },
+    {
+      "id": "lin-turnaround",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/lin-turnaround.webp",
+          "encoding": "binary",
+          "sha256": "b8642a5fcef0de00c246a8b455b859304d320d9d3483313873af06641a051a26"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "bytes": 132008
+      }
+    },
+    {
+      "id": "chen-expressions",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/chen-expressions.webp",
+          "encoding": "binary",
+          "sha256": "f19df7ddae0436a79325d4fc27af0007575e1389288818165601d7f0f5f84f05"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1248646,
+        "transparentFraction": 0.4562,
+        "alphaBounds": [
+          37,
+          36,
+          1254,
+          1254
+        ],
+        "solidAlphaBounds": [
+          72,
+          42,
+          1251,
+          1241
+        ],
+        "columns": 3,
+        "rows": 2,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            72,
+            42,
+            435,
+            621
+          ],
+          [
+            471,
+            43,
+            834,
+            620
+          ],
+          [
+            890,
+            42,
+            1251,
+            620
+          ],
+          [
+            72,
+            662,
+            435,
+            1241
+          ],
+          [
+            472,
+            662,
+            836,
+            1241
+          ],
+          [
+            892,
+            662,
+            1251,
+            1241
+          ]
+        ]
+      }
+    },
+    {
+      "id": "chen-turnaround",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/chen-turnaround.webp",
+          "encoding": "binary",
+          "sha256": "5607692ff308f797348b994e42a6a581734d33c4a2896867ef4b30b0349985cf"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "bytes": 144706
+      }
+    },
+    {
+      "id": "tang-expressions",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/tang-expressions.webp",
+          "encoding": "binary",
+          "sha256": "2a51f8847b2bc09152ce70e6fcdd123c4aee9018774ea250a75938c59f7f8f13"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1072718,
+        "transparentFraction": 0.5034,
+        "alphaBounds": [
+          0,
+          30,
+          1232,
+          1254
+        ],
+        "solidAlphaBounds": [
+          125,
+          34,
+          1140,
+          1234
+        ],
+        "columns": 3,
+        "rows": 2,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            125,
+            34,
+            422,
+            612
+          ],
+          [
+            475,
+            34,
+            772,
+            613
+          ],
+          [
+            841,
+            34,
+            1139,
+            613
+          ],
+          [
+            125,
+            656,
+            423,
+            1234
+          ],
+          [
+            476,
+            657,
+            773,
+            1234
+          ],
+          [
+            841,
+            657,
+            1140,
+            1234
+          ]
+        ]
+      }
+    },
+    {
+      "id": "tang-turnaround",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/tang-turnaround.webp",
+          "encoding": "binary",
+          "sha256": "49cc3d6b12d2e53773908959467589aa1dccdcd41c0673a0196dccd5b7f9e870"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/prompts/ART-v4.md",
+          "encoding": "text-lf",
+          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1536,
+        "height": 1024,
+        "bytes": 133428
+      }
+    },
+    {
+      "id": "cg-chen-rest",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact prompt in metadata",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP and generation request metadata are in repository; original PNG not preserved",
+      "licenseNote": "Generated project art, kept with its original work",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/cg-chen-rest.webp",
+          "encoding": "binary",
+          "sha256": "9c8f0f0e7e44de411cb9ad99dff1daf3a5261755fcb9e1f7a844dc365892280d"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/production/complete-art/cg-chen-rest.json",
+          "encoding": "text-lf",
+          "sha256": "62f29f4ac3b80c21d895beb053634f363aa3e4718451b67b69f9dcbc87f6ea75"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 432034
+      }
+    },
+    {
+      "id": "cg-lin-page",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact prompt in metadata",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP and generation request metadata are in repository; original PNG not preserved",
+      "licenseNote": "Generated project art, kept with its original work",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/cg-lin-page.webp",
+          "encoding": "binary",
+          "sha256": "e2e4feb31ad132235a0a0fa31aa0345c0c26982f375d6f43d38e376a7e3adfd4"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/production/complete-art/cg-lin-page.json",
+          "encoding": "text-lf",
+          "sha256": "a4df42ac24ee156ff1a6e48b69784664c31bdc8a87f727b0e8941ce76c0d807e"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 295350
+      }
+    },
+    {
+      "id": "cg-shared-print",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact prompt in metadata",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP and generation request metadata are in repository; original PNG not preserved",
+      "licenseNote": "Generated project art, kept with its original work",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/cg-shared-print.webp",
+          "encoding": "binary",
+          "sha256": "c89562bd61fa251f5571dcdd0d43944256edd0c46e32c67ed66af007b5252123"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/production/complete-art/cg-shared-print.json",
+          "encoding": "text-lf",
+          "sha256": "d637d6cdc8e1b8cbf511e78827026273b360e76e7d31b918c90d9f0725e9a5c4"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 369192
+      }
+    },
+    {
+      "id": "cg-tang-light",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact prompt in metadata",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP and generation request metadata are in repository; original PNG not preserved",
+      "licenseNote": "Generated project art, kept with its original work",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/cg-tang-light.webp",
+          "encoding": "binary",
+          "sha256": "7af7ab488adb255f975991e8ebceb9e90df1ddc680fb90d3f537230ea2cd1fc6"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/production/complete-art/cg-tang-light.json",
+          "encoding": "text-lf",
+          "sha256": "f3df913ed25a57fdcb758789d23fa5d59b9e6b6e4515a108a62322420fa790e9"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 441676
+      }
+    },
+    {
+      "id": "clubroom",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact prompt in metadata",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP and generation request metadata are in repository; original PNG not preserved",
+      "licenseNote": "Generated project art, kept with its original work",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/clubroom.webp",
+          "encoding": "binary",
+          "sha256": "86f8d0bdd72ceca45cd00ccef0dcb1f94be4bd54c4463bbdbdbbf8f60014fb4e"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/production/complete-art/clubroom.json",
+          "encoding": "text-lf",
+          "sha256": "6248a54fba4d52572f8ab11be18fc0312dcb56205a61a239112c857ef360964f"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 376468
+      }
+    },
+    {
+      "id": "home",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact prompt in metadata",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP and generation request metadata are in repository; original PNG not preserved",
+      "licenseNote": "Generated project art, kept with its original work",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/home.webp",
+          "encoding": "binary",
+          "sha256": "ace4e68d785a3a46746a2875b955320799e6e1fca8f1173f2c8c20b5f8ceb528"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/production/complete-art/home.json",
+          "encoding": "text-lf",
+          "sha256": "584845a8790f5962683b43a27ade427a5f5a46375a7c82d3bd9979f4db561da4"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 334232
+      }
+    },
+    {
+      "id": "printshop",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact prompt in metadata",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP and generation request metadata are in repository; original PNG not preserved",
+      "licenseNote": "Generated project art, kept with its original work",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/printshop.webp",
+          "encoding": "binary",
+          "sha256": "61676eb0bb860175ec947ba3d7ea34ddc2350ce48691fc985c08ffdbe922ed99"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/production/complete-art/printshop.json",
+          "encoding": "text-lf",
+          "sha256": "f6fd9af3f4c51c1d08e827df5bebfdc31d52b5ff55d5c90047ca1ea5dceebac4"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 330378
+      }
+    },
+    {
+      "id": "riverbank",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact prompt in metadata",
+      "sourceStatus": "not-in-repository",
+      "sourceNote": "Only final WebP and generation request metadata are in repository; original PNG not preserved",
+      "licenseNote": "Generated project art, kept with its original work",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/riverbank.webp",
+          "encoding": "binary",
+          "sha256": "b6c653aa9a13ee3df517347716e325c6af663a8726ef8e5c0aa7d74480104486"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/production/complete-art/riverbank.json",
+          "encoding": "text-lf",
+          "sha256": "81348515e3902f508a8001f00aea4d7c2451af8cc1df2ffa6f2bd4b78ee0a7be"
+        }
+      ],
+      "formatMetadata": {
+        "width": 1672,
+        "height": 941,
+        "bytes": 543848
+      }
+    },
+    {
+      "id": "pwa-offline-delivery",
+      "kind": "tool",
+      "reuse": "recipe",
+      "origin": "Healing scope-isolated atomic cache and install/update state adapter; change namespace/BASE_URL/build paths for a new app",
+      "sourceStatus": "not-applicable",
+      "license": {
+        "name": "MIT — original project code only",
+        "file": {
+          "role": "license",
+          "path": "LICENSE",
+          "encoding": "text-lf",
+          "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+        }
+      },
+      "files": [
+        {
+          "role": "recipe",
+          "path": "src/pwa.ts",
+          "encoding": "text-lf",
+          "sha256": "fa0751a4b447274a38ad30247e2018534fe3be575b3b191a136031e71431ead3"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/build-pwa.mjs",
+          "encoding": "text-lf",
+          "sha256": "469a83ceef6e7eca5689f437ec6553a2676c678964757f6538a75baa84a79fba"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/pwa-build.mjs",
+          "encoding": "text-lf",
+          "sha256": "18c0bcd19ad0cf158983d14fe48254cb73f89492f35789a828186b853901f59c"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/pwa-build.d.mts",
+          "encoding": "text-lf",
+          "sha256": "be206b0b9934aede25b490a7fa270e1e92440df04979e134f58e53df0dbb8594"
+        }
+      ]
+    }
+  ]
+}

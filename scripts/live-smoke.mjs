@@ -1,12 +1,28 @@
 import { chromium, devices, expect } from '@playwright/test';
 import { mkdir, readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 
-const target = new URL(process.env.GAME_URL || 'https://aureliuswu.github.io/Project1/');
+const target = new URL(process.env.GAME_URL || 'https://aureliuswu.github.io/Healing/');
 const version = process.env.EXPECTED_VERSION || JSON.parse(await readFile('package.json', 'utf8')).version;
 const fixtures = JSON.parse(await readFile('electron/smoke-fixtures.json', 'utf8'));
 if (!['https:', 'http:'].includes(target.protocol)) throw new Error('Expected an HTTP(S) game URL');
 target.searchParams.set('verify', process.env.GITHUB_SHA || `v${version}`);
 await mkdir('test-results/live', { recursive: true });
+const integrityBrowser = await chromium.launch({ ...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH, args: JSON.parse(process.env.PLAYWRIGHT_CHROMIUM_ARGS || '[]') } : {}), ...(process.env.PLAYWRIGHT_PROXY ? { proxy: { server: process.env.PLAYWRIGHT_PROXY } } : {}) });
+try {
+  const context = await integrityBrowser.newContext();
+  for (const file of ['index.html', 'sw.js']) {
+    const url = new URL(file, target);
+    url.searchParams.set('verify', process.env.GITHUB_SHA || `v${version}`);
+    const response = await context.request.get(url.href, { headers: { 'Cache-Control': 'no-cache' }, timeout: 60000 });
+    expect(response.status()).toBe(200);
+    const expected = createHash('sha256').update(await readFile(`dist/${file}`)).digest('hex');
+    const actual = createHash('sha256').update(await response.body()).digest('hex');
+    expect(actual, `Published ${file} must match the tested build`).toBe(expected);
+    console.log('PUBLISHED_FILE_OK', JSON.stringify({ file, sha256: actual }));
+  }
+  await context.close();
+} finally { await integrityBrowser.close(); }
 for (const screen of ['desktop', 'mobile', 'landscape']) {
   const browser = await chromium.launch({ ...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH, args: JSON.parse(process.env.PLAYWRIGHT_CHROMIUM_ARGS || '[]') } : {}), ...(process.env.PLAYWRIGHT_PROXY ? { proxy: { server: process.env.PLAYWRIGHT_PROXY } } : {}) });
   try {
@@ -53,6 +69,11 @@ for (const screen of ['desktop', 'mobile', 'landscape']) {
       return header.bottom <= stage.top + 1 && stage.bottom <= reader.top + 1;
     });
     expect(separated).toBe(true);
+    const fullWindowArtwork = await page.locator('.scene-frame').evaluate(element => {
+      const frame = element.getBoundingClientRect();
+      return Math.abs(frame.left) <= 1 && Math.abs(frame.top) <= 1 && Math.abs(frame.width - innerWidth) <= 1 && Math.abs(frame.height - innerHeight) <= 1;
+    });
+    expect(fullWindowArtwork).toBe(true);
     expect(errors).toEqual([]);
     await expect(page.locator('.toast.visible')).toHaveCount(0);
     await page.screenshot({ path: `test-results/live/reading-${screen}.png` });
@@ -80,6 +101,6 @@ for (const screen of ['desktop', 'mobile', 'landscape']) {
     await page.getByRole('button', { name: '制作人员', exact: true }).click();
     await expect(page.locator('.credits-copy')).toContainText('谢谢你读到这里');
     expect(errors).toEqual([]);
-    console.log(`LIVE_SMOKE_OK ${JSON.stringify({ url: target.origin + target.pathname, version, screen, orientation: manifest.orientation, art: true, stageSeparated: separated, pictureMode: true, autosave: true, offline: true, legacyContinuation: true, completeCg: true, finalEnding: true, credits: true, pageErrors: errors.length })}`);
+    console.log(`LIVE_SMOKE_OK ${JSON.stringify({ url: target.origin + target.pathname, version, screen, orientation: manifest.orientation, art: true, stageSeparated: separated, fullWindowArtwork, pictureMode: true, autosave: true, offline: true, legacyContinuation: true, completeCg: true, finalEnding: true, credits: true, pageErrors: errors.length })}`);
   } finally { await browser.close(); }
 }

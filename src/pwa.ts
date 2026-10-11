@@ -38,6 +38,8 @@ function change(patch: Partial<PwaState>) {
 
 function watchWorker(worker: ServiceWorker, owner: ServiceWorkerRegistration) {
   const changed = () => {
+    if (registration !== owner) return;
+    if (worker.state === 'activated' && owner.active === worker) change({ status: 'ready', checking: false });
     if (worker.state === 'installed' && owner.active) {
       change({ updateReady: true, checking: false, message: '新版本已下载。关闭所有游戏窗口，再次打开即可更新。' });
     }
@@ -51,7 +53,7 @@ function watchWorker(worker: ServiceWorker, owner: ServiceWorkerRegistration) {
 
 async function register() {
   if (!supported || registering) return registering;
-  change({ status: registration?.active ? 'ready' : 'downloading', message: '' });
+  change({ status: registration?.active?.state === 'activated' ? 'ready' : 'downloading', message: '' });
   registering = (async () => {
     try {
       registration = await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`, { updateViaCache: 'none' });
@@ -60,11 +62,15 @@ async function register() {
         if (owner.installing) watchWorker(owner.installing, owner);
       });
       if (owner.installing) watchWorker(owner.installing, owner);
+      if (owner.active) {
+        watchWorker(owner.active, owner);
+        if (owner.active.state === 'activated') change({ status: 'ready' });
+      }
       if (owner.waiting) change({ updateReady: true, message: '新版本已下载。关闭所有游戏窗口，再次打开即可更新。' });
-      // ready resolves only after the atomically cached worker has activated.
-      void navigator.serviceWorker.ready.then(() => change({ status: 'ready' }));
+      // Only this registration proves this game's atomic download is usable.
+      // serviceWorker.ready can resolve for an older worker at a parent scope.
     } catch {
-      change({ status: registration?.active ? 'ready' : 'error', checking: false, message: '离线下载未完成，请联网后重试。' });
+      change({ status: registration?.active?.state === 'activated' ? 'ready' : 'error', checking: false, message: '离线下载未完成，请联网后重试。' });
     }
   })().finally(() => { registering = null; });
   return registering;

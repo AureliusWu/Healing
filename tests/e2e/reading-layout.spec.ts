@@ -2,6 +2,27 @@ import { test, expect } from '@playwright/test';
 import { advance, getScene, newGame } from '../../src/game/engine';
 import { encodeSave } from '../../src/game/storage';
 
+test('reading opacity persists while the full-window artwork and save position stay intact', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('moist-healing:v1:settings', JSON.stringify({ textSpeed: 0, music: false, reducedMotion: true })));
+  await page.goto('/');
+  await page.getByRole('button', { name: '开始阅读', exact: true }).click();
+  await page.getByRole('button', { name: /调整对话框透明度/ }).click();
+  const range = page.getByRole('slider', { name: '对话框透明度', exact: true });
+  await range.focus();
+  await range.press('Home');
+  for (let i = 0; i < 4; i++) await range.press('ArrowRight');
+  await expect.poll(() => page.evaluate(() => localStorage.getItem('moist-healing:v1:dialogue-opacity'))).toBe('0.55');
+  await page.reload();
+  await page.getByRole('button', { name: '继续上次的故事', exact: true }).click();
+  await expect(page.locator('.game-screen')).toHaveAttribute('data-line', '0');
+  await expect(page.getByRole('button', { name: '调整对话框透明度，当前 55%', exact: true })).toBeVisible();
+  const fullWindow = await page.locator('.scene-frame').evaluate(element => {
+    const frame = element.getBoundingClientRect();
+    return Math.abs(frame.left) <= 1 && Math.abs(frame.top) <= 1 && Math.abs(frame.width - innerWidth) <= 1 && Math.abs(frame.height - innerHeight) <= 1;
+  });
+  expect(fullWindow).toBe(true);
+});
+
 test('hidden interface pauses playback and restores touch or keyboard without advancing or choosing', async ({ page }) => {
   let state = newGame();
   while (!(state.sceneId === 'desk' && state.line === getScene(state).lines.length - 1)) state = advance(state);

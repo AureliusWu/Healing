@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { mkdtemp, mkdir, readFile, writeFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import test from 'node:test';
 
@@ -65,7 +65,7 @@ async function publish(t, scenario, alter = () => {}) {
   }
   const mock = path.join(directory, 'mock-fetch.mjs');
   await writeFile(mock, "import { appendFileSync } from 'node:fs';\nimport { createHash } from 'node:crypto';\n(" + mockNetwork.toString() + ')();\n');
-  const result = spawnSync(process.execPath, ['--import', mock, path.join(root, 'scripts/publish-release.mjs')], {
+  const result = spawnSync(process.execPath, ['--import', pathToFileURL(mock).href, path.join(root, 'scripts/publish-release.mjs')], {
     cwd: directory, encoding: 'utf8', timeout: 10000,
     env: { ...process.env, GITHUB_REPOSITORY: 'test-owner/test-repo', GITHUB_SHA: commit, GITHUB_RUN_ID: data.run, GH_TOKEN: 'test-token', RELEASE_TEST_CASE: scenario },
   });
