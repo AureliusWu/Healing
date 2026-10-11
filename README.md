@@ -2,9 +2,9 @@
 
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，当前 Windows 下载版本 **v1.0.2**，本次修订 **v1.0.3** 正在完成双端验证；PWA 发布状态单列于验证记录。
+青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.0.3**。真实安装升级、公开三种屏幕规格的断网续读与下载字节已核验，证据见 [发布记录](docs/production/PUBLISHED-v1.0.3.json)。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.0.2)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.0.3)
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥和许棠相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
 
@@ -82,7 +82,7 @@ npm run desktop:win   # 在 Windows 生成 NSIS 安装包和便携 EXE
 
 直接打开 [游戏网页](https://aureliuswu.github.io/Healing/)，标题页的「安装与离线」提供安装操作、下载状态与更新检查。离线状态就绪后可以断网重开。
 
-[版本下载页](https://github.com/AureliusWu/Healing/releases/tag/v1.0.2) 提供 Windows 安装版、便携版及 PWA ZIP，包含文件 SHA-256 与实际构建提交记录。该下载不依赖 Actions 产物保留期限。
+[版本下载页](https://github.com/AureliusWu/Healing/releases/tag/v1.0.3) 提供 Windows 安装版、便携版及 PWA ZIP，包含文件 SHA-256 与实际构建提交记录。公开下载已实际回读：两份 EXE 与对应 CI 附件字节一致，PWA ZIP 的全部 31 个文件与 CI 静态包一致。该下载不依赖 Actions 产物保留期限。
 
 每次推送 `main` 会运行 [Build game](https://github.com/AureliusWu/Healing/actions/workflows/build.yml)：先验证剧情与手机/电脑 PWA，再在 Windows 启动实际 Electron 程序、生成安装包并启动实际打包程序复验。全部成功后，对应版本的安装包和 PWA 会发布到 Releases。需要发布新版本时，同时更新 `package.json`、锁文件与 `docs/releases/v版本号.md`；已发布版本不被覆盖。对应运行页面也保留 Artifacts：
 

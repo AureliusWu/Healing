@@ -1,6 +1,16 @@
 # 验证记录
 
-当前收尾版本：1.0.3（本地双端检查完成，等待本次 CI、真实安装升级与公网复验）。当前 Windows 公开下载版本：1.0.2；PWA 公网版本以本次发布后复验为准。日期：2026-10-11。
+当前正式版本：1.0.3，Windows 公开下载与 PWA 公网均已核验。客户端、CI、Release 和标签绑定提交 `848792bed66f5b94f67ce5753de36c7c90b07bda`。日期：2026-10-11；后续证据文档提交不改变已验收客户端字节。
+
+## v1.0.3 正式发布与公网结果
+
+- [Build game 38110162164](https://github.com/AureliusWu/Healing/actions/runs/38110162164)：Web、Windows、Release 全部 success。九项发布回归、五项素材工具回归、44 项逻辑用例通过；浏览器 49 项通过，三项因设备类型不适用跳过。CI 使用固定 Playwright，PWA 共 29 项预缓存资源，CI 缓存版本 `38bbf7fa2ee8e0`。本机 Windows 构建的缓存版本不同，来源是 checkout 换行差异；公网哈希比较使用同次 CI 附件，未替换成本机 dist。
+- Windows 源码与实际打包程序均完成 `DESKTOP_SMOKE_OK`。一次性 Windows runner 真实安装已公开的 v1.0.2，再在同路径升级 v1.0.3，读取 EXE 产品版本分别为 1.0.2 / 1.0.3；复用旧版实际存档 profile，`DESKTOP_UPGRADE_OK` 恢复 schema 1 的 `end-lin-final`，`sameProfile:true`。随后完整桌面 smoke 通过，安装后的 ASAR 与 CI 已测试 ASAR 同为 `a4191c172cc3b313ba3091fce09af1d6df656df8e8af52263252f5ba618ebe52`。实际安装证据产物为 `Healing-Windows-Runtime-Evidence`（11690962918）。本机没有运行安装器。
+- [Publish PWA 38110500780](https://github.com/AureliusWu/Healing/actions/runs/38110500780)：部署和实际公开网址三个视口全部 success。Pages 唯一附件、部署前最新 main SHA 二次检查已在本次流程执行。实际版本为 1.0.3，桌面、手机竖屏、手机横屏的选择、保存续读、真实断网刷新、旧章续读、完整 CG、最终结局与制作人员均通过，页面异常为零。
+- 独立公网复验在 `https://aureliuswu.github.io/Healing/` 执行，采用同次 `MoistHealing-PWA` 附件 11690464903 的实际字节，系统 Chrome 154.0.8037.98，1440×900、412×915、844×390。三组 `LIVE_SMOKE_OK` 全部成功，真实断网由浏览器网络离线设置执行；隐藏恢复和旋转保持第 1 段。续章、CG 和结局检查显式使用原生迁移夹具，并通过真实控件继续，不把夹具定位冒称为完整路线阅读。三屏整体执行 79.63 秒，无证书绕过；竖屏阅读与横屏 CG 实际截图已目视复核。
+- 公网入口 `index.html` SHA-256 为 `2b87e2dfe0686044f85f113abedc99537527c364c1546c638ada045778760bee`，`sw.js` 为 `b6ff9af1059404dbb6773304901d96262cc7d32a77c864a26c5c381f6efed89c`；两份 HTTP 200 响应与已验收 CI 附件一致。独立执行原始输出、三屏截图和下载回读保存在忽略目录 `tmp/public-ci-38110162164-848792b-review-2/`，永久精简元数据见 [PUBLISHED-v1.0.3.json](production/PUBLISHED-v1.0.3.json)。
+- [正式 v1.0.3](https://github.com/AureliusWu/Healing/releases/tag/v1.0.3) 为非草稿、非预发布，标签与目标提交均精确指向上述客户端。五份公开资产全部实际下载并核验服务端 digest，四行 `SHA256SUMS.txt` 全部一致。安装版 122,012,380 字节，SHA-256 `cdc0987e96a7d5f9b213b0b85639b6eb387a0baeeb5d39a942ed3273515f101a`；便携版 121,778,109 字节，SHA-256 `52686bd39797014120836ef65069316407cda337a6a82562d70daa1116eee76c`，均与 CI Windows 附件 11690713084 的实际 EXE 一致。PWA ZIP 10,159,107 字节，SHA-256 `3e41f676671d0f9075653e3c609d4f93c3deabbbba70131d45d19b9b0eb5ac63`，全部 31 个文件的集合及字节与 CI PWA 附件一致。下载的 `release.json` 再次确认提交、schema 1 和两种兼容 storyVersion。
+- 原始剧情、美术、依赖版本和存档身份保持不变；共用素材 gate 已导出独立复用包。物理手机主屏安装、真人阅读与试听、普通硬件体验继续独立验收，Windows 下载未代码签名；素材目录中缺失原图与完整字体源的记录保留。线上历史预览继续标注其 v1.0.1 来源。
 
 ## v1.0.3 本地双端检查
 
@@ -11,9 +21,9 @@
 - 本地并行项目曾共用预览端口 4173，测试快照实际打开了 NetLove；该轮已停止且不计入结果。Healing 现使用独立端口 4185、strictPort 和禁止复用已有预览服务，最终整套结果来自本项目实际产物。专用 worker observer 返回成功空页，避免新版 Chrome 对 404 页面导航直接失败。
 - Windows 11 `10.0.26200`、锁定 Electron `44.5.1`、electron-builder `26.15.3`：真实源码窗口与最终 `release/win-unpacked/湿性愈合.exe` 均输出 `DESKTOP_SMOKE_OK`；全屏进入/退出、全窗口画面、透明度入口、存档、剧情、隐藏恢复、渲染器隔离、旧章续读、包内 CG、结局、制作名单和回忆全部 true。原生全屏会让 `show:false` 的窗口自动显示，测试现禁止抢焦点和任务栏、静音，在全屏退出后显式隐藏，结束时实际 `hiddenWindow:true`；全屏转换仍可能瞬时可见，不能宣称完全 headless。测试专用后台计时保持开启，正常玩家后台暂停逻辑不变。包内 `electron/main.cjs` 与当前源文件逐字节一致。
 - 最终 NSIS 安装版 122,012,357 字节、便携版 121,778,112 字节，本地打包成功。源码和 ASAR 程序再次使用同一个隔离测试 profile，均输出 `DESKTOP_UPGRADE_OK`，实际恢复 schema 1 的 `end-lin-final` 结局及同一选择序列；这是重开恢复证据，尚不能替代旧版安装器升级。
-- 真实 NSIS 安装/升级门禁仅允许一次性 Healing Windows Actions runner 执行：下载公开 v1.0.2 的安装包，核对官方 SHA-256、大小与服务端 digest，先实际安装并启动旧版，再同路径安装新版、读 Windows EXE 产品版本、复用旧版实际存档 profile 并重放结局，最后比较安装后的 ASAR 与本次构建摘要。本机拒绝执行该安装步骤，未改变用户注册表、快捷方式或实际应用数据；本次 CI 结果尚未取得。
+- 真实 NSIS 安装/升级门禁仅允许一次性 Healing Windows Actions runner 执行：下载公开 v1.0.2 的安装包，核对官方 SHA-256、大小与服务端 digest，先实际安装并启动旧版，再同路径安装新版、读 Windows EXE 产品版本、复用旧版实际存档 profile 并重放结局，最后比较安装后的 ASAR 与本次构建摘要。本机拒绝执行该安装步骤，未改变用户注册表、快捷方式或实际应用数据；随后取得的真实 CI 结果见上方正式发布记录。
 - 共享契约 v1.1.0 的九份文件与素材 gate 五项回归通过；Healing 索引 24 条目、48 文件，包含六项可复用素材/制作配方、18 项项目专用美术。缺失的 18 条原始美术和完整字体源共 19 条明确标记；字体子集携 OFL 许可，PWA 适配代码携 MIT。CI 会实际导出 `.reuse-kit/v1.1.0` 并上传独立材料产物。
-- 版本 1.0.3、锁文件、十一份日志索引检查与 diff 空白检查通过。本次未升级依赖，也未提交、推送或修改已公开版本标签。
+- 版本 1.0.3、锁文件、十一份日志索引检查与 diff 空白检查通过。本地检查阶段未升级依赖，也未推送或修改已公开版本标签；后续仅在门禁通过后发布本次新版本。
 
 ## v1.0.3 本地性能对照
 
@@ -34,9 +44,9 @@
 
 ## v1.0.2 发布链核查
 
-2026-10-11 只读核对公开 Release：v1.0.2 已于 `2026-10-08T15:30:33Z` 发布。Build game [37800543785](https://github.com/AureliusWu/Healing/actions/runs/37800543785) 成功；Publish PWA [37801369207](https://github.com/AureliusWu/Healing/actions/runs/37801369207) 的实际部署日志报 `Multiple artifacts named "github-pages" ... Artifact count is 2`，因此不能将 Windows 公开下载等同于 PWA 同步成功。本次上传与部署改为同一个带 `run_id` / `run_attempt` 的唯一产物名，待新 CI 实证。
+2026-10-11 只读核对公开 Release：v1.0.2 已于 `2026-10-08T15:30:33Z` 发布。Build game [37800543785](https://github.com/AureliusWu/Healing/actions/runs/37800543785) 成功；Publish PWA [37801369207](https://github.com/AureliusWu/Healing/actions/runs/37801369207) 的实际部署日志报 `Multiple artifacts named "github-pages" ... Artifact count is 2`，因此不能将 Windows 公开下载等同于 PWA 同步成功。本次上传与部署改为同一个带 `run_id` / `run_attempt` 的唯一产物名，后续 v1.0.3 的真实部署已成功验证修复。
 
-当前仓库及 Pages 地址已更名为 [Healing](https://github.com/AureliusWu/Healing) / [在线游戏](https://aureliuswu.github.io/Healing/)，历史 Project1 的验证链接和已归档截图保留原始来源。本次最终公网三屏幕离线复验、真正系统安装及安装器升级均待统一推送后单列结果。
+当前仓库及 Pages 地址已更名为 [Healing](https://github.com/AureliusWu/Healing) / [在线游戏](https://aureliuswu.github.io/Healing/)，历史 Project1 的验证链接和已归档截图保留原始来源。v1.0.3 的公网三屏幕离线、真实 Windows 安装器升级结果已单列于上方；物理手机安装继续保留人工验收边界。
 
 ## v1.0.2 本地检查
 

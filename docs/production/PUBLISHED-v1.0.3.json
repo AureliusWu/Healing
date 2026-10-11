@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "version": "1.0.3",
+  "measured_at": "2026-10-11T04:11:46.2660338Z",
+  "tested_commit": "848792bed66f5b94f67ce5753de36c7c90b07bda",
+  "metadata_only_followup": true,
+  "build": {
+    "run_id": 38110162164,
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/38110162164",
+    "conclusion": "success",
+    "release_tests": 9,
+    "materials_tests": 5,
+    "unit_tests": 44,
+    "e2e_passed": 49,
+    "e2e_device_skips": 3
+  },
+  "deployment": {
+    "run_id": 38110500780,
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/38110500780",
+    "conclusion": "success",
+    "public_url": "https://aureliuswu.github.io/Healing/",
+    "cache_version": "38bbf7fa2ee8e0",
+    "pwa_artifact_id": 11690464903,
+    "index_and_worker_from_tested_ci": [
+      {
+        "file": "index.html",
+        "sha256": "2b87e2dfe0686044f85f113abedc99537527c364c1546c638ada045778760bee"
+      },
+      {
+        "file": "sw.js",
+        "sha256": "b6ff9af1059404dbb6773304901d96262cc7d32a77c864a26c5c381f6efed89c"
+      }
+    ],
+    "ci_public_views": [
+      "desktop",
+      "mobile",
+      "landscape"
+    ]
+  },
+  "independent_public_smoke": {
+    "scope": "production",
+    "started_at": "2026-10-11T04:08:21.196999Z",
+    "completed_at": "2026-10-11T04:09:40.834952Z",
+    "elapsed_seconds": 79.6308961,
+    "browser": "System Chrome 154.0.8037.98",
+    "certificate_bypass": false,
+    "viewports": [
+      "1440x900",
+      "412x915",
+      "844x390"
+    ],
+    "views": [
+      {
+        "url": "https://aureliuswu.github.io/Healing/",
+        "version": "1.0.3",
+        "screen": "desktop",
+        "orientation": "landscape",
+        "art": true,
+        "stageSeparated": true,
+        "fullWindowArtwork": true,
+        "pictureMode": true,
+        "autosave": true,
+        "offline": true,
+        "legacyContinuation": true,
+        "completeCg": true,
+        "finalEnding": true,
+        "credits": true,
+        "pageErrors": 0
+      },
+      {
+        "url": "https://aureliuswu.github.io/Healing/",
+        "version": "1.0.3",
+        "screen": "mobile",
+        "orientation": "landscape",
+        "art": true,
+        "stageSeparated": true,
+        "fullWindowArtwork": true,
+        "pictureMode": true,
+        "autosave": true,
+        "offline": true,
+        "legacyContinuation": true,
+        "completeCg": true,
+        "finalEnding": true,
+        "credits": true,
+        "pageErrors": 0
+      },
+      {
+        "url": "https://aureliuswu.github.io/Healing/",
+        "version": "1.0.3",
+        "screen": "landscape",
+        "orientation": "landscape",
+        "art": true,
+        "stageSeparated": true,
+        "fullWindowArtwork": true,
+        "pictureMode": true,
+        "autosave": true,
+        "offline": true,
+        "legacyContinuation": true,
+        "completeCg": true,
+        "finalEnding": true,
+        "credits": true,
+        "pageErrors": 0
+      }
+    ],
+    "actual_choice_and_next_click": true,
+    "actual_offline_reload": true,
+    "fixture_assisted_checks": [
+      "chapter1 continuation",
+      "complete CG",
+      "final ending",
+      "credits"
+    ],
+    "source": "Same-commit CI PWA artifact in isolated ignored cwd; original absolute script; local Windows dist was not substituted."
+  },
+  "windows": {
+    "runner": "GitHub hosted disposable Windows runner",
+    "source_and_packaged_runtime": "success",
+    "runtime_evidence_artifact_id": 11690962918,
+    "executable_artifact_id": 11690713084,
+    "native_fullscreen": true,
+    "prior_version": "1.0.2",
+    "installed_version": "1.0.3",
+    "same_installation": true,
+    "same_actual_prior_profile": true,
+    "restored_ending": "end-lin-final",
+    "save_schema": 1,
+    "baseline_installer_sha256": "10bf1c8871bb2212c87e3dcbb52b8f262d92aeb3911a5d3a382ee03733b59e6b",
+    "current_installer_sha256": "cdc0987e96a7d5f9b213b0b85639b6eb387a0baeeb5d39a942ed3273515f101a",
+    "installed_asar_sha256": "a4191c172cc3b313ba3091fce09af1d6df656df8e8af52263252f5ba618ebe52",
+    "tested_asar_sha256": "a4191c172cc3b313ba3091fce09af1d6df656df8e8af52263252f5ba618ebe52",
+    "installer_gate": true,
+    "local_system_installation": false
+  },
+  "release": {
+    "url": "https://github.com/AureliusWu/Healing/releases/tag/v1.0.3",
+    "tag": "v1.0.3",
+    "tag_commit": "848792bed66f5b94f67ce5753de36c7c90b07bda",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-10-11T04:05:56Z",
+    "assets": [
+      {
+        "id": 629728895,
+        "name": "MoistHealing-1.0.3-x64-Portable.exe",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.3/MoistHealing-1.0.3-x64-Portable.exe",
+        "bytes": 121778109,
+        "sha256": "52686bd39797014120836ef65069316407cda337a6a82562d70daa1116eee76c",
+        "actual_download": true,
+        "github_digest_match": true,
+        "published_checksum_match": true,
+        "tested_ci_artifact_match": true
+      },
+      {
+        "id": 629728645,
+        "name": "MoistHealing-1.0.3-x64-Setup.exe",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.3/MoistHealing-1.0.3-x64-Setup.exe",
+        "bytes": 122012380,
+        "sha256": "cdc0987e96a7d5f9b213b0b85639b6eb387a0baeeb5d39a942ed3273515f101a",
+        "actual_download": true,
+        "github_digest_match": true,
+        "published_checksum_match": true,
+        "tested_ci_artifact_match": true
+      },
+      {
+        "id": 629729013,
+        "name": "MoistHealing-PWA-1.0.3.zip",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.3/MoistHealing-PWA-1.0.3.zip",
+        "bytes": 10159107,
+        "sha256": "3e41f676671d0f9075653e3c609d4f93c3deabbbba70131d45d19b9b0eb5ac63",
+        "actual_download": true,
+        "github_digest_match": true,
+        "published_checksum_match": true,
+        "tested_ci_artifact_match": true
+      },
+      {
+        "id": 629729046,
+        "name": "release.json",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.3/release.json",
+        "bytes": 293,
+        "sha256": "0e00bed658f17225eb5401016f62778b251be9a86bff0ef3572805542bf7c04e",
+        "actual_download": true,
+        "github_digest_match": true,
+        "published_checksum_match": true,
+        "tested_ci_artifact_match": null
+      },
+      {
+        "id": 629729062,
+        "name": "SHA256SUMS.txt",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.3/SHA256SUMS.txt",
+        "bytes": 373,
+        "sha256": "b337540f6a403456ffa9d8be506bce0e6a57dccac6727dbc35bc59fd668c4e88",
+        "actual_download": true,
+        "github_digest_match": true,
+        "published_checksum_match": null,
+        "tested_ci_artifact_match": null
+      }
+    ],
+    "official_checksum_entries_verified": 4,
+    "pwa_zip_file_count": 31,
+    "pwa_zip_file_set_and_bytes_match_ci": true
+  },
+  "unchanged": {
+    "story": true,
+    "artwork": true,
+    "runtime_dependencies": true,
+    "save_schema": 1,
+    "game": "moist-healing",
+    "story_versions": [
+      "chapter1-v1",
+      "moist-healing-v1"
+    ],
+    "storage": "moist-healing:v1"
+  },
+  "limits": [
+    "Physical device home-screen installation, human listening and reading acceptance remain separate.",
+    "Windows artifacts remain unsigned.",
+    "The independent browser checks use emulated mobile viewports, not a physical phone.",
+    "Missing original artwork and full upstream font source remain recorded in the reusable asset catalog."
+  ],
+  "verdict": "PASS"
+}
