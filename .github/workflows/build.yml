@@ -24,7 +24,9 @@ jobs:
         env:
           ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
       - name: Verify release metadata and immutable publication
-        run: npm run test:release
+        run: |
+          npm run test:release
+          node scripts/check-release-notes.mjs
       - name: Verify shared capabilities and reusable materials
         run: npm run test:materials
       - name: Export verified reusable materials
