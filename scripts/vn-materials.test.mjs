@@ -14,7 +14,7 @@ function fixture(t) {
   writeFileSync(join(root, 'character.webp'), Buffer.from([0, 1, 2, 255]));
   const ref = (path, text, encoding = 'text-lf', role = 'recipe') => ({ path, role, encoding, sha256: createHash('sha256').update(text).digest('hex') });
   const license = { name: 'fixture permission', file: ref('LICENSE', 'permission\n') };
-  const catalog = { schema: 1, contractVersion: '1.1.0', project: 'fixture', entries: [
+  const catalog = { schema: 1, contractVersion: '1.2.0', project: 'fixture', entries: [
     { id: 'recipe', kind: 'tool', reuse: 'recipe', origin: 'fixture', sourceStatus: 'not-applicable', license, files: [ref('recipe.txt', 'recipe\n')] },
     { id: 'character', kind: 'art', reuse: 'project-only', origin: 'fixture', sourceStatus: 'not-in-repository', sourceNote: 'Source was not preserved', files: [ref('character.webp', Buffer.from([0, 1, 2, 255]), 'binary', 'runtime')] }
   ] };

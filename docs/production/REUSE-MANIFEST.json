@@ -1,16 +1,21 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "hashEncoding": "UTF-8, CRLF normalized to LF",
   "files": {
-    "docs/production/SHARED-VN.md": "f08a062eed6bf65683b8fd4197bbd3852973adb45d5f107a72d303028c571f1d",
+    "docs/production/SHARED-VN.md": "a44afcc027b434f3972632cb643e04de9c6a350864a983d0ca907c05e3cae674",
     "scripts/vn-contract.mjs": "7385f28e51f7b633e3e64ec15b51891d4b5edbc17d1f3a0a7d18c9d5887ecdb7",
     "scripts/vn-contract.d.mts": "382423131839fa824b4ba46ad2c64cb5653c6a562f736c381da938f013ac776f",
-    "scripts/vn-materials.mjs": "3b7ad85d6437f85bb376dbe2bf1d72b5c086c1a7a89e5db6e1cfe6ba78d76d6d",
-    "scripts/vn-materials.test.mjs": "591898378eab69462e3d8f725486574c7ef7201a0f74fa7441de63b50bce9cab",
-    "docs/production/REUSABLE-MATERIALS.md": "68659626d126f1e8751f145123541da02c7592b9ce19fc24d5ee9cab3cbfa6e4",
+    "scripts/vn-materials.mjs": "4259df6e5a5eb23de52a00b60f3767747226f75759d978258990cbd57361b11e",
+    "scripts/vn-materials.test.mjs": "876f5c0e214cb1f53fe9ab61174446c8ee4c7ae2a415482c7bbcf74abd52ae08",
+    "docs/production/REUSABLE-MATERIALS.md": "c40da5d6a54ac49325002f535219d377562b2f6337a3f6211ebb5a6c574f2b93",
     "docs/production/templates/ART-PROMPT.md": "2707278d457016924469427b4d80e2a7ae19a7090df06d3fc0f33a1c3348db49",
     "docs/production/templates/ASSET-RECORD.json": "e89b8775b40e89e5ca57135fbae0eb8f13a009ff450fcb9baed83b9543c92cc9",
-    "docs/production/templates/DUAL-PLATFORM-CHECKLIST.md": "25e938e4294def0b00b34cc4703bfdec7221591fd2ae13ce10109cc390d933d1"
+    "docs/production/templates/DUAL-PLATFORM-CHECKLIST.md": "25e938e4294def0b00b34cc4703bfdec7221591fd2ae13ce10109cc390d933d1",
+    "scripts/vn-creative.mjs": "a98149f99694e2dcdf13dd30515be122f5caed7e89642ca8ea2a16de19cbe77b",
+    "scripts/vn-creative.d.mts": "b47a40eeb01d20019ab755a78a3c8f10bfb917b077be99fac15ea11ed3cc8881",
+    "scripts/vn-creative.test.mjs": "d8a5df00c68801afbbb1747b0aac3111a7054588a3a3ccda84e8af00784b01fc",
+    "docs/production/CREATIVE-PLAYBOOK.md": "dcf2cc35f28a8c35b648f23ba305b27f8c6337cf025ffd9e525c96a20b627f58",
+    "docs/production/templates/SCENE-REVISION.md": "9d52c9c1fdd94dee530f0607871228a18418e6097f44684eac8dc24a2760351b"
   },
   "peers": [
     "AureliusWu/Rain",

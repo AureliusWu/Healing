@@ -3,7 +3,7 @@ import { resolve, relative, dirname, sep, isAbsolute } from 'node:path';
 import { createHash } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 
-export const MATERIALS_VERSION = '1.1.0';
+export const MATERIALS_VERSION = '1.2.0';
 const CATALOG = 'docs/production/REUSABLE-ASSETS.json';
 const MANIFEST = 'docs/production/REUSE-MANIFEST.json';
 const policies = new Set(['licensed', 'recipe', 'project-only']);

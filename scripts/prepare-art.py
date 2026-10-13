@@ -54,12 +54,28 @@ def main():
                     parser.error('Atlas must divide into three columns and two rows')
                 # Measure the six actual figures instead of assuming the generator
                 # obeyed perfect grid spacing. Sampling changes no source pixels.
+                # Measure the actual transparent row gutter: an assumed middle
+                # can intersect shoes when an atlas is not perfectly equalized.
+                solid = alpha.point(lambda value: 255 if value >= 200 else 0)
+                pixels = list(solid.get_flattened_data())
+                gaps = []
+                for y in range(height // 3, height * 2 // 3):
+                    if sum(value != 0 for value in pixels[y * width:(y + 1) * width]) < 5:
+                        if not gaps or y > gaps[-1][-1] + 1:
+                            gaps.append([y])
+                        else:
+                            gaps[-1].append(y)
+                gaps = [gap for gap in gaps if len(gap) >= 8]
+                if not gaps:
+                    parser.error('Atlas rows need a clearly separated transparent gutter')
+                gap = min(gaps, key=lambda values: abs((values[0] + values[-1]) / 2 - height / 2))
+                separator = (gap[0] + gap[-1]) // 2
                 bodies = []
                 for row in range(2):
-                    top = row * height // 2
-                    mask = alpha.crop((0, top, width, top + height // 2)).point(lambda value: 255 if value >= 200 else 0)
+                    top, bottom = (0, separator) if row == 0 else (separator, height)
+                    mask = solid.crop((0, top, width, bottom))
                     data = list(mask.get_flattened_data())
-                    occupied = [x for x in range(width) if sum(data[y * width + x] != 0 for y in range(height // 2)) >= 5]
+                    occupied = [x for x in range(width) if sum(data[y * width + x] != 0 for y in range(bottom - top)) >= 5]
                     runs = []
                     for x in occupied:
                         if not runs or x - runs[-1][-1] > 12:
@@ -71,14 +87,20 @@ def main():
                         parser.error('Atlas must contain three clearly separated figures in each row')
                     for run in runs:
                         left, right = max(0, run[0] - 4), min(width, run[-1] + 5)
-                        box = mask.crop((left, 0, right, height // 2)).getbbox()
+                        box = mask.crop((left, 0, right, bottom - top)).getbbox()
                         if not box:
                             parser.error('Atlas contains an empty figure')
                         bodies.append([left + box[0], top + box[1], left + box[2], top + box[3]])
                 frame_width = max(box[2] - box[0] for box in bodies) + 32
-                frame_height = max(box[3] - box[1] for box in bodies) + 32
-                frames = [[round((box[0] + box[2] - frame_width) / 2), box[1] - 16, frame_width, frame_height] for box in bodies]
-                report.update(columns=3, rows=2, expressions=['neutral', 'smile', 'surprised', 'worried', 'hurt', 'shy'], figureBounds=bodies, frames=frames)
+                frame_height = max(box[3] - box[1] for box in bodies) + 12
+                frames = [[max(0, min(round((box[0] + box[2] - frame_width) / 2), width - frame_width)), max(0, min(box[1] - 6, height - frame_height)), frame_width, frame_height] for box in bodies]
+                for index, (x, y, fw, fh) in enumerate(frames):
+                    if x < 0 or y < 0 or x + fw > width or y + fh > height:
+                        parser.error('Measured atlas sample leaves the canvas')
+                    for other, (left, top, right, bottom) in enumerate(bodies):
+                        if other != index and x < right and x + fw > left and y < bottom and y + fh > top:
+                            parser.error('Measured atlas sample includes an adjacent figure; regenerate wider gutters')
+                report.update(columns=3, rows=2, rowSeparator=separator, expressions=['neutral', 'smile', 'surprised', 'worried', 'hurt', 'shy'], figureBounds=bodies, frames=frames)
         else:
             if args.kind == 'background' and abs(width / height - 16 / 9) > .01:
                 parser.error('Background must use the shared 16:9 composition')

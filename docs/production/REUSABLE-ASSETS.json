@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "contractVersion": "1.1.0",
+  "contractVersion": "1.2.0",
   "project": "Healing",
   "repository": "https://github.com/AureliusWu/Healing",
   "sourceCommit": "83c87111cbc9fcb31970a963efada885a100fc41",
-  "inventoryDate": "2026-10-11",
+  "inventoryDate": "2026-10-13",
   "entries": [
     {
       "id": "shared-vn-production",
       "kind": "tool",
       "reuse": "recipe",
-      "origin": "AureliusWu/Rain, NetLove and Healing; shared production contract v1.1.0",
+      "origin": "AureliusWu/Rain, NetLove and Healing; shared production contract v1.2.0",
       "sourceStatus": "not-applicable",
       "license": {
         "name": "MIT — original project code only",
@@ -26,7 +26,7 @@
           "role": "recipe",
           "path": "docs/production/SHARED-VN.md",
           "encoding": "text-lf",
-          "sha256": "f08a062eed6bf65683b8fd4197bbd3852973adb45d5f107a72d303028c571f1d"
+          "sha256": "a44afcc027b434f3972632cb643e04de9c6a350864a983d0ca907c05e3cae674"
         },
         {
           "role": "recipe",
@@ -44,19 +44,19 @@
           "role": "recipe",
           "path": "scripts/vn-materials.mjs",
           "encoding": "text-lf",
-          "sha256": "3b7ad85d6437f85bb376dbe2bf1d72b5c086c1a7a89e5db6e1cfe6ba78d76d6d"
+          "sha256": "4259df6e5a5eb23de52a00b60f3767747226f75759d978258990cbd57361b11e"
         },
         {
           "role": "recipe",
           "path": "scripts/vn-materials.test.mjs",
           "encoding": "text-lf",
-          "sha256": "591898378eab69462e3d8f725486574c7ef7201a0f74fa7441de63b50bce9cab"
+          "sha256": "876f5c0e214cb1f53fe9ab61174446c8ee4c7ae2a415482c7bbcf74abd52ae08"
         },
         {
           "role": "recipe",
           "path": "docs/production/REUSABLE-MATERIALS.md",
           "encoding": "text-lf",
-          "sha256": "68659626d126f1e8751f145123541da02c7592b9ce19fc24d5ee9cab3cbfa6e4"
+          "sha256": "c40da5d6a54ac49325002f535219d377562b2f6337a3f6211ebb5a6c574f2b93"
         },
         {
           "role": "template",
@@ -75,6 +75,36 @@
           "path": "docs/production/templates/DUAL-PLATFORM-CHECKLIST.md",
           "encoding": "text-lf",
           "sha256": "25e938e4294def0b00b34cc4703bfdec7221591fd2ae13ce10109cc390d933d1"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-creative.mjs",
+          "encoding": "text-lf",
+          "sha256": "a98149f99694e2dcdf13dd30515be122f5caed7e89642ca8ea2a16de19cbe77b"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-creative.d.mts",
+          "encoding": "text-lf",
+          "sha256": "b47a40eeb01d20019ab755a78a3c8f10bfb917b077be99fac15ea11ed3cc8881"
+        },
+        {
+          "role": "recipe",
+          "path": "scripts/vn-creative.test.mjs",
+          "encoding": "text-lf",
+          "sha256": "d8a5df00c68801afbbb1747b0aac3111a7054588a3a3ccda84e8af00784b01fc"
+        },
+        {
+          "role": "recipe",
+          "path": "docs/production/CREATIVE-PLAYBOOK.md",
+          "encoding": "text-lf",
+          "sha256": "dcf2cc35f28a8c35b648f23ba305b27f8c6337cf025ffd9e525c96a20b627f58"
+        },
+        {
+          "role": "template",
+          "path": "docs/production/templates/SCENE-REVISION.md",
+          "encoding": "text-lf",
+          "sha256": "9d52c9c1fdd94dee530f0607871228a18418e6097f44684eac8dc24a2760351b"
         }
       ]
     },
@@ -99,7 +129,7 @@
           "role": "runtime",
           "path": "src/assets/story-serif.woff2",
           "encoding": "binary",
-          "sha256": "4083633a527ebce482420abb9488604eb0b631f12c86c90b5bf10d10dea6bd98"
+          "sha256": "8226b31a5f917d4b3632421436890a0a8b97a5d6ca82e6ee44835d2e89eb505e"
         },
         {
           "role": "recipe",
@@ -129,7 +159,7 @@
           "role": "recipe",
           "path": "scripts/prepare-art.py",
           "encoding": "text-lf",
-          "sha256": "856ef48fbad2dd50af0b46a0a9e745fcc3986cd2850f90dcc98db36c514393b5"
+          "sha256": "db7c2e796ea6858565906df21170a9f9a2315b35d438d0de73aa30fb9071095d"
         }
       ]
     },
@@ -189,7 +219,7 @@
           "role": "recipe",
           "path": "src/game/types.ts",
           "encoding": "text-lf",
-          "sha256": "85cc9c507f5db7f1605dd0558eccfbc31268c8811fd3ab1f89308a1f99a26d9c"
+          "sha256": "1701102db77dc99af4f0fc98342df7bd997378f1af55bb908385bbb9f31b7e67"
         }
       ]
     },
@@ -947,6 +977,35 @@
           "sha256": "be206b0b9934aede25b490a7fa270e1e92440df04979e134f58e53df0dbb8594"
         }
       ]
+    },
+    {
+      "id": "cg-proof",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in imagegen; original project references; 2026-10-13",
+      "sourceStatus": "present",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/cg-proof.webp",
+          "encoding": "binary",
+          "sha256": "7d4dd8cb72158374254288275417f6619a65d52240b3c8b079f43264e39cbbcf"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/cg/proof-v1.png",
+          "encoding": "binary",
+          "sha256": "673c73c95dc8036aeb53b04d4f44351f280a2c8c6d4e0a06fc478376f3d36f29"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/production/complete-art/cg-proof.json",
+          "encoding": "text-lf",
+          "sha256": "72a3047dba3f9f5b8d527adf70284d553481f4bb0fe473d9971967a031f3ccd4"
+        }
+      ],
+      "licenseNote": "Original project generated art; does not inherit a general MIT artwork license",
+      "approvalStatus": "agent_integration_review"
     }
   ]
 }

@@ -1,0 +1,148 @@
+{
+  "creativeVersion": "1.0.0",
+  "scenes": 65,
+  "revisedParagraphs": 23,
+  "protectedVoices": 0,
+  "savePositionsPreserved": true,
+  "routeContractPreserved": true,
+  "changes": [
+    {
+      "scene": "c2-open",
+      "section": "lines",
+      "index": 10,
+      "id": "10"
+    },
+    {
+      "scene": "c2-from-together",
+      "section": "lines",
+      "index": 4,
+      "id": "4"
+    },
+    {
+      "scene": "c2-from-together",
+      "section": "lines",
+      "index": 7,
+      "id": "7"
+    },
+    {
+      "scene": "c2-from-quiet",
+      "section": "lines",
+      "index": 8,
+      "id": "8"
+    },
+    {
+      "scene": "c2-deadline",
+      "section": "lines",
+      "index": 9,
+      "id": "9"
+    },
+    {
+      "scene": "c2-lin-draft",
+      "section": "lines",
+      "index": 9,
+      "id": "9"
+    },
+    {
+      "scene": "c2-chen-list",
+      "section": "lines",
+      "index": 10,
+      "id": "10"
+    },
+    {
+      "scene": "c2-tang-photo",
+      "section": "lines",
+      "index": 3,
+      "id": "3"
+    },
+    {
+      "scene": "c2-proof",
+      "section": "lines",
+      "index": 5,
+      "id": "5"
+    },
+    {
+      "scene": "c2-proof",
+      "section": "lines",
+      "index": 9,
+      "id": "9"
+    },
+    {
+      "scene": "c2-proof",
+      "section": "lines",
+      "index": 11,
+      "id": "11"
+    },
+    {
+      "scene": "c2-home",
+      "section": "lines",
+      "index": 12,
+      "id": "12"
+    },
+    {
+      "scene": "c2-home-plan",
+      "section": "lines",
+      "index": 7,
+      "id": "7"
+    },
+    {
+      "scene": "c2-home-plan",
+      "section": "lines",
+      "index": 9,
+      "id": "9"
+    },
+    {
+      "scene": "c2-parent-lin",
+      "section": "lines",
+      "index": 12,
+      "id": "12"
+    },
+    {
+      "scene": "c3-open",
+      "section": "lines",
+      "index": 4,
+      "id": "4"
+    },
+    {
+      "scene": "c3-return",
+      "section": "lines",
+      "index": 7,
+      "id": "7"
+    },
+    {
+      "scene": "c3-revision",
+      "section": "lines",
+      "index": 11,
+      "id": "11"
+    },
+    {
+      "scene": "c3-check",
+      "section": "lines",
+      "index": 4,
+      "id": "4"
+    },
+    {
+      "scene": "c3-check",
+      "section": "lines",
+      "index": 13,
+      "id": "13"
+    },
+    {
+      "scene": "c3-print",
+      "section": "lines",
+      "index": 8,
+      "id": "8"
+    },
+    {
+      "scene": "c3-give",
+      "section": "lines",
+      "index": 1,
+      "id": "1"
+    },
+    {
+      "scene": "c3-give",
+      "section": "lines",
+      "index": 13,
+      "id": "13"
+    }
+  ]
+}

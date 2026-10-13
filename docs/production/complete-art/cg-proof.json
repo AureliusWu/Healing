@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "tool": "Built-in imagegen",
+  "model": "not exposed by tool",
+  "date": "2026-10-13",
+  "prompt": "Use case: illustration-story. Asset type: new single 16:9 1920x1080 event CG for original Chinese school visual novel Moist Healing. The reference is the APPROVED school print room; match its clean fine anime line art, simple cel-shaded forms, mint green cabinets, ivory paper and soft golden September late-afternoon light. New composition: intimate downward view over the proofing desk in this same room. Two versions of a small school literary magazine proof sit side by side, offset at slight angles; one pencil circle marks the end of a short paragraph missing from the left version; the right version has a faint extra line and a folded paper corner. Text should consist only of small indistinct hand-written strokes, no legible sentence or title. Include a short worn pencil, a green binder clip, a simple steel ruler, and edge of a school copier in the distant upper-left. No faces, bodies or hands, no smartphone, logos, UI or collage. A quiet concrete moment of discovering a dropped line, not a ceremonial still life. Main paper focal area in upper-middle 60%, lower 28% has less contrast for game's translucent dialogue. Full single-frame original 2D event illustration, maintain 16:9 and do not draw character sprites into it.",
+  "reference": "public/art/printshop.webp",
+  "source": "assets_source/cg/proof-v1.png",
+  "runtime": "public/art/cg-proof.webp",
+  "scene": "c2-proof"
+}

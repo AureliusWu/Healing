@@ -1,0 +1,10 @@
+import{test}from'node:test';
+import assert from'node:assert/strict';
+import{snapshotStory,auditRevision,validateFrames}from'./vn-creative.mjs';
+const original={entry:'a',scenes:[{id:'a',lines:[{id:'a1',speaker:'n',text:'Rain.'},{id:'a2',speaker:'h',text:'Wait.',voice:'v2'}],choices:[{id:'stay',next:'b',effect:{trust:1},response:[{id:'r1',speaker:'p',text:'Yes.'}]}]},{id:'b',lines:[{id:'b1',speaker:'n',text:'Morning.'}],ending:'end'}]};
+const baseline=snapshotStory(original);
+test('permits prose/art revisions and preserves recorded words',()=>{const d=structuredClone(original);d.scenes[0].lines[0].text='Water rattled.';d.scenes[1].cg='new';assert.equal(auditRevision(baseline,d).revisedParagraphs,1);assert.equal(auditRevision(baseline,d).protectedVoices,1);});
+test('rejects inserted/reordered paragraphs and voice drift',()=>{for(const mutate of[d=>d.scenes[0].lines.reverse(),d=>d.scenes[0].lines.push({id:'new',speaker:'n',text:'Extra.'}),d=>d.scenes[0].lines[1].text='Wrong recording',d=>d.scenes[0].lines[1].voice=null]){const d=structuredClone(original);mutate(d);assert.throws(()=>auditRevision(baseline,d));}});
+test('rejects route/effect/conditional route changes',()=>{for(const mutate of[d=>d.entry='b',d=>d.scenes[0].choices[0].effect.trust=5,d=>d.scenes[0].choices[0].next='a',d=>d.scenes[0].routes=[{when:{trust:2},next:'b'}]]){const d=structuredClone(original);mutate(d);assert.throws(()=>auditRevision(baseline,d));}});
+test('checks response slots and duplicate identities',()=>{const d=structuredClone(original);d.scenes[0].choices[0].response.length=0;assert.throws(()=>auditRevision(baseline,d));d.scenes.push(d.scenes[0]);assert.throws(()=>snapshotStory(d));});
+test('rejects negative and overflowing measured frames',()=>{const frames=Array.from({length:6},()=>[12,16,120,200]);assert.equal(validateFrames({h:{width:600,height:600,frames}}),1);frames[2][0]=-1;assert.throws(()=>validateFrames({h:{width:600,height:600,frames}}));frames[2][0]=520;assert.throws(()=>validateFrames({h:{width:600,height:600,frames}}));});

@@ -135,39 +135,39 @@
       "frames": [
         [
           91,
-          24,
+          34,
           288,
-          602
+          582
         ],
         [
           479,
-          24,
+          34,
           288,
-          602
+          582
         ],
         [
           863,
-          24,
+          34,
           288,
-          602
+          582
         ],
         [
           92,
-          637,
+          647,
           288,
-          602
+          582
         ],
         [
           479,
-          637,
+          647,
           288,
-          602
+          582
         ],
         [
           864,
-          637,
+          647,
           288,
-          602
+          582
         ]
       ],
       "path": "public/art/lin-expressions.webp",
@@ -175,7 +175,8 @@
       "sha256": "dcd67fd0346ecf7db63ea9322e47e193733fe3a5d3243223b8144833be20558d",
       "id": "lin-expressions",
       "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
-      "prompts": "docs/prompts/ART-v4.md"
+      "prompts": "docs/prompts/ART-v4.md",
+      "measurement": "2026-10-13 from existing runtime WebP; original source gap remains documented"
     },
     {
       "kind": "sheet",
@@ -256,39 +257,39 @@
       "frames": [
         [
           56,
-          26,
+          36,
           396,
-          611
+          591
         ],
         [
           454,
-          27,
+          37,
           396,
-          611
+          591
         ],
         [
-          872,
-          26,
+          858,
+          36,
           396,
-          611
+          591
         ],
         [
           56,
-          646,
+          656,
           396,
-          611
+          591
         ],
         [
           456,
-          646,
+          656,
           396,
-          611
+          591
         ],
         [
-          874,
-          646,
+          858,
+          656,
           396,
-          611
+          591
         ]
       ],
       "path": "public/art/chen-expressions.webp",
@@ -296,7 +297,8 @@
       "sha256": "f19df7ddae0436a79325d4fc27af0007575e1389288818165601d7f0f5f84f05",
       "id": "chen-expressions",
       "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
-      "prompts": "docs/prompts/ART-v4.md"
+      "prompts": "docs/prompts/ART-v4.md",
+      "measurement": "2026-10-13 from existing runtime WebP; original source gap remains documented"
     },
     {
       "kind": "sheet",
@@ -377,39 +379,39 @@
       "frames": [
         [
           108,
-          18,
+          28,
           331,
-          611
+          591
         ],
         [
           458,
-          18,
+          28,
           331,
-          611
+          591
         ],
         [
           824,
-          18,
+          28,
           331,
-          611
+          591
         ],
         [
           108,
-          640,
+          650,
           331,
-          611
+          591
         ],
         [
           459,
-          641,
+          651,
           331,
-          611
+          591
         ],
         [
           825,
-          641,
+          651,
           331,
-          611
+          591
         ]
       ],
       "path": "public/art/tang-expressions.webp",
@@ -417,7 +419,8 @@
       "sha256": "2a51f8847b2bc09152ce70e6fcdd123c4aee9018774ea250a75938c59f7f8f13",
       "id": "tang-expressions",
       "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
-      "prompts": "docs/prompts/ART-v4.md"
+      "prompts": "docs/prompts/ART-v4.md",
+      "measurement": "2026-10-13 from existing runtime WebP; original source gap remains documented"
     },
     {
       "kind": "sheet",
@@ -429,6 +432,24 @@
       "id": "tang-turnaround",
       "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
       "prompts": "docs/prompts/ART-v4.md"
+    },
+    {
+      "id": "cg-proof",
+      "path": "public/art/cg-proof.webp",
+      "source": "assets_source/cg/proof-v1.png",
+      "sourceSha256": "673c73c95dc8036aeb53b04d4f44351f280a2c8c6d4e0a06fc478376f3d36f29",
+      "sha256": "7d4dd8cb72158374254288275417f6619a65d52240b3c8b079f43264e39cbbcf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 209942,
+      "alpha": false,
+      "promptRegistry": "docs/production/complete-art/cg-proof.json",
+      "generator": "built-in imagegen",
+      "approval": "agent integration review"
     }
   ]
 }

@@ -1,4 +1,4 @@
-# 可复用素材与制作工具 v1.1.0
+# 可复用素材与制作工具 v1.2.0
 
 三个仓库使用同一份素材校验和导出接口；各自的 `REUSABLE-ASSETS.json` 记录当前文件、来源、SHA-256、许可证和复用范围。`REUSE-MANIFEST.json` 锁定共用工具与模板的 LF 文本哈希，换行风格不会导致 Windows 与 CI 的假漂移。
 
@@ -9,7 +9,7 @@
 ```sh
 node --test scripts/vn-materials.test.mjs
 node scripts/vn-materials.mjs verify
-node scripts/vn-materials.mjs export .reuse-kit/v1.1.0
+node scripts/vn-materials.mjs export .reuse-kit/v1.2.0
 ```
 
 导出目录必须是新的 `.reuse-kit/<名称>`；再次导出请使用新名称，工具不会覆盖已有文件。所有校验通过才开始导出。目录包含 MANIFEST.json、文件原有相对路径及逐项许可证；原图和运行文件保留二进制字节，文本规范为 LF。导出目录被 Git 忽略，可打包为团队交接素材。

@@ -1,6 +1,6 @@
-# 三项目视觉小说制作契约 v1.1.0
+# 三项目视觉小说制作契约 v1.2.0
 
-同步日期：2026-10-11。适用仓库：[Rain](https://github.com/AureliusWu/Rain)、[NetLove](https://github.com/AureliusWu/NetLove)、[Healing](https://github.com/AureliusWu/Healing)。旧文档的 Test 对应 Rain，Project1 对应 Healing；既有版本证明保留原仓库名和提交。
+同步日期：2026-10-13。适用仓库：[Rain](https://github.com/AureliusWu/Rain)、[NetLove](https://github.com/AureliusWu/NetLove)、[Healing](https://github.com/AureliusWu/Healing)。旧文档的 Test 对应 Rain，Project1 对应 Healing；既有版本证明保留原仓库名和提交。
 
 三个作品共用制作方法、检查接口和可复用素材包，各自保留故事、美术与原生引擎。共用文件及 LF 文本哈希由各仓库 docs/production/REUSE-MANIFEST.json 锁定；作品素材分别记录在 REUSABLE-ASSETS.json。共用更新必须在三仓验证，不能只复制文件而宣称平台已验收。
 
@@ -26,7 +26,7 @@ NetLove 的成年人物设定、Healing 的校园角色设定和 Rain 的 Ren'Py
 node scripts/vn-contract.mjs path/to/story.json
 node --test scripts/vn-materials.test.mjs
 node scripts/vn-materials.mjs verify
-node scripts/vn-materials.mjs export .reuse-kit/v1.1.0
+node scripts/vn-materials.mjs export .reuse-kit/v1.2.0
 ```
 
 vn-contract 接受 scenes 或 nodes，检查入口、唯一 ID、台词非空、选项冲突、目标存在、可达性、意外环路和未完成终点。Rain 的 routes 作为结构分支读取；条件是否成立由 Ren'Py 原生验证器判断。Healing 通过 tests/shared-vn.test.ts 适配 resolve、bridge 和旧段落偏移。图路径数不能替代真实状态路线数。
@@ -48,3 +48,7 @@ vn-materials 检查真实字节、许可证引用、源文件状态和共用文�
 ## 本轮维护依据
 
 v1.0 沉淀了 Healing 的全窗口阅读/PWA、Rain 的资产追溯/实际 Windows 验证和 NetLove 的 JSON 字形及引擎无关检查。本轮补齐 Rain Web 平台、核验两个 Electron 作品的缓存部署隔离，并把素材索引、校验、导出和模板变成可运行的工具。发布结果以各仓本轮测试与版本文档的实际证据为准。
+
+## v1.2 剧情与美术协作
+
+新增 CREATIVE-PLAYBOOK.md、场景精修模板与 vn-creative 检查。精修前捕获原生剧情基线，修后核对段落身份、选择/条件路由、录音文本及图集画布边界。具体交付和平台证据见各仓本轮 CREATIVE-REVIEW.md。

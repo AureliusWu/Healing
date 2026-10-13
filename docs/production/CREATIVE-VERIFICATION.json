@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "date": "2026-10-13",
+  "project": "Healing",
+  "version": "1.0.4",
+  "baselineCommit": "1bfe88eaa94233e63d93f03960c9173cdd936895",
+  "revisedParagraphs": 23,
+  "sharedContract": "1.2.0",
+  "sharedPinnedFiles": 14,
+  "localChecks": {
+    "logicTests": 45,
+    "routes": 1296,
+    "legacyEndings": 54,
+    "releaseTests": 9,
+    "sharedToolTests": 10,
+    "fontCoverage": "passed",
+    "build": "passed",
+    "browserCollected": 54
+  },
+  "browserRuntime": "pending_ci",
+  "windowsRuntime": "pending_ci",
+  "publicPwa": "pending_ci",
+  "sourceHashes": {
+    "src/story/chapter2.ts": "2875b8499f21f3099fd755e46479abf46d135d60c390dec9484de008e7f92304",
+    "src/story/chapter3.ts": "f1723fb9a2d6ab68942eb09055f952c72badf73934dedf84c6a7d4b02be56a4a",
+    "src/game/character-frames.json": "4b96c864583aa8c0e9f0838743aa7988142402b5459d13b4433b3763652b2091",
+    "public/art/cg-proof.webp": "7d4dd8cb72158374254288275417f6619a65d52240b3c8b079f43264e39cbbcf",
+    "src/assets/story-serif.woff2": "8226b31a5f917d4b3632421436890a0a8b97a5d6ca82e6ee44835d2e89eb505e"
+  },
+  "recoveredBinaryGitObjects": "all 14 match the previously uploaded original blob IDs"
+}
