@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "version": "1.0.4",
+  "runtimeCommit": "5d847b3c3b8763dcada6f34d013995f7c87e9f62",
+  "desktopJob": 115371191717,
+  "desktop": [
+    {
+      "title": "湿性愈合 · 三章完结",
+      "story": true,
+      "autosave": true,
+      "fullscreen": true,
+      "stageSeparated": true,
+      "fullWindowArtwork": true,
+      "opacityControl": true,
+      "pictureMode": true,
+      "sandbox": true,
+      "legacyContinuation": true,
+      "completeEnding": true,
+      "packagedCg": true,
+      "credits": true,
+      "memory": true,
+      "hiddenWindow": true
+    },
+    {
+      "title": "湿性愈合 · 三章完结",
+      "story": true,
+      "autosave": true,
+      "fullscreen": true,
+      "stageSeparated": true,
+      "fullWindowArtwork": true,
+      "opacityControl": true,
+      "pictureMode": true,
+      "sandbox": true,
+      "legacyContinuation": true,
+      "completeEnding": true,
+      "packagedCg": true,
+      "credits": true,
+      "memory": true,
+      "hiddenWindow": true
+    },
+    {
+      "title": "湿性愈合 · 三章完结",
+      "story": true,
+      "autosave": true,
+      "fullscreen": true,
+      "stageSeparated": true,
+      "pictureMode": true,
+      "sandbox": true,
+      "legacyContinuation": true,
+      "completeEnding": true,
+      "packagedCg": true,
+      "credits": true,
+      "memory": true
+    },
+    {
+      "version": "1.0.4",
+      "saveSchema": 1,
+      "legacyCompatible": true,
+      "restoredEnding": "end-lin-final",
+      "sameProfile": true
+    },
+    {
+      "title": "湿性愈合 · 三章完结",
+      "story": true,
+      "autosave": true,
+      "fullscreen": true,
+      "stageSeparated": true,
+      "fullWindowArtwork": true,
+      "opacityControl": true,
+      "pictureMode": true,
+      "sandbox": true,
+      "legacyContinuation": true,
+      "completeEnding": true,
+      "packagedCg": true,
+      "credits": true,
+      "memory": true,
+      "hiddenWindow": true
+    },
+    {
+      "previousVersion": "1.0.2",
+      "version": "1.0.4",
+      "measuredAt": "2026-10-13T15:07:47.688Z",
+      "installation": "D:\\a\\_temp\\Healing-installed-2RbYIp\\game",
+      "stages": [
+        {
+          "name": "baseline-installed",
+          "version": "1.0.2",
+          "smoke": true,
+          "pid": 8320
+        },
+        {
+          "name": "upgrade-installed",
+          "version": "1.0.4",
+          "sameInstallation": true,
+          "sameProfile": true,
+          "actualPriorSaveRestored": true,
+          "smoke": true
+        }
+      ],
+      "baselineInstallerSha256": "10bf1c8871bb2212c87e3dcbb52b8f262d92aeb3911a5d3a382ee03733b59e6b",
+      "currentInstallerSha256": "5c490a5213bf4c348a3cc9540bb5c1afd97d0f366e3017d110fa12132f5b8cc9",
+      "baselineExecutableVersion": "1.0.2",
+      "upgradedExecutableVersion": "1.0.4",
+      "installedAsarSha256": "38cc30eae36db6fea202a1037105d429f4552e2a2ce488a5194ae4352d7e923e",
+      "builtAsarSha256": "38cc30eae36db6fea202a1037105d429f4552e2a2ce488a5194ae4352d7e923e",
+      "ok": true
+    }
+  ],
+  "public": [
+    {
+      "url": "https://aureliuswu.github.io/Healing/",
+      "version": "1.0.4",
+      "screen": "desktop",
+      "orientation": "landscape",
+      "art": true,
+      "stageSeparated": true,
+      "fullWindowArtwork": true,
+      "pictureMode": true,
+      "autosave": true,
+      "offline": true,
+      "legacyContinuation": true,
+      "completeCg": true,
+      "finalEnding": true,
+      "credits": true,
+      "pageErrors": 0
+    },
+    {
+      "url": "https://aureliuswu.github.io/Healing/",
+      "version": "1.0.4",
+      "screen": "mobile",
+      "orientation": "landscape",
+      "art": true,
+      "stageSeparated": true,
+      "fullWindowArtwork": true,
+      "pictureMode": true,
+      "autosave": true,
+      "offline": true,
+      "legacyContinuation": true,
+      "completeCg": true,
+      "finalEnding": true,
+      "credits": true,
+      "pageErrors": 0
+    },
+    {
+      "url": "https://aureliuswu.github.io/Healing/",
+      "version": "1.0.4",
+      "screen": "landscape",
+      "orientation": "landscape",
+      "art": true,
+      "stageSeparated": true,
+      "fullWindowArtwork": true,
+      "pictureMode": true,
+      "autosave": true,
+      "offline": true,
+      "legacyContinuation": true,
+      "completeCg": true,
+      "finalEnding": true,
+      "credits": true,
+      "pageErrors": 0
+    }
+  ]
+}

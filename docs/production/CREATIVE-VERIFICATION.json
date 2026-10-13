@@ -17,9 +17,9 @@
     "build": "passed",
     "browserCollected": 54
   },
-  "browserRuntime": "pending_ci",
-  "windowsRuntime": "pending_ci",
-  "publicPwa": "pending_ci",
+  "browserRuntime": "passed",
+  "windowsRuntime": "passed",
+  "publicPwa": "passed",
   "sourceHashes": {
     "src/story/chapter2.ts": "2875b8499f21f3099fd755e46479abf46d135d60c390dec9484de008e7f92304",
     "src/story/chapter3.ts": "f1723fb9a2d6ab68942eb09055f952c72badf73934dedf84c6a7d4b02be56a4a",
@@ -27,5 +27,28 @@
     "public/art/cg-proof.webp": "7d4dd8cb72158374254288275417f6619a65d52240b3c8b079f43264e39cbbcf",
     "src/assets/story-serif.woff2": "8226b31a5f917d4b3632421436890a0a8b97a5d6ca82e6ee44835d2e89eb505e"
   },
-  "recoveredBinaryGitObjects": "all 14 match the previously uploaded original blob IDs"
+  "recoveredBinaryGitObjects": "all 14 match the previously uploaded original blob IDs",
+  "runtimeCommit": "5d847b3c3b8763dcada6f34d013995f7c87e9f62",
+  "platformEvidence": "PLATFORM-v1.0.4.json",
+  "publicationEvidence": "PUBLISHED-v1.0.4.json",
+  "visualEvidence": [
+    {
+      "path": "docs/previews/v1.0.4/cg-proof-desktop.png",
+      "sha256": "5007067fb57c71e345418a95622334fa1d3630d5fb0bf9946329b8a29f098aa0",
+      "gitBlob": "b94d9634df81183cc37f4000119b325106227293",
+      "sourceArtifact": 11826170537,
+      "artifactSha256": "7f63fd3f1d3f2b6a0d3f17fcf51b2985d374757f7830f3d765bf0ce70bd92dd3",
+      "sourceCommit": "5d847b3c3b8763dcada6f34d013995f7c87e9f62",
+      "review": "inspected actual desktop/mobile browser capture; no visible clipping of heads or controls"
+    },
+    {
+      "path": "docs/previews/v1.0.4/cg-proof-mobile.png",
+      "sha256": "ab4e4b46eb4160c1e1f3503ade151fbdf7d07c4457d617c3522843739dc24cc2",
+      "gitBlob": "b077241c23ca1fd0611ae3ae8dff0c8467bf2f98",
+      "sourceArtifact": 11826170537,
+      "artifactSha256": "7f63fd3f1d3f2b6a0d3f17fcf51b2985d374757f7830f3d765bf0ce70bd92dd3",
+      "sourceCommit": "5d847b3c3b8763dcada6f34d013995f7c87e9f62",
+      "review": "inspected actual desktop/mobile browser capture; no visible clipping of heads or controls"
+    }
+  ]
 }

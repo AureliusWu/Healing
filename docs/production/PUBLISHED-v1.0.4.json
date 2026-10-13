@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "date": "2026-10-13",
+  "project": "Healing",
+  "version": "1.0.4",
+  "runtimeCommit": "5d847b3c3b8763dcada6f34d013995f7c87e9f62",
+  "build": {
+    "run": 38418665571,
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/38418665571",
+    "status": "success",
+    "desktopJob": 115371191717,
+    "webTests": 54
+  },
+  "publicPwa": {
+    "run": 38419588733,
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/38419588733",
+    "target": "https://aureliuswu.github.io/Healing/",
+    "status": "success",
+    "screens": [
+      "desktop",
+      "mobile",
+      "landscape"
+    ],
+    "sourceArtifact": 11825517790,
+    "artifactSha256": "7f5bcf1f7e2db0176c543df61867383d2c98d77b138d60bab893ccf243fffe92",
+    "entryAndWorkerMatchTestedBuild": true
+  },
+  "release": {
+    "tag": "v1.0.4",
+    "url": "https://github.com/AureliusWu/Healing/releases/tag/v1.0.4",
+    "prerelease": false,
+    "targetCommit": "5d847b3c3b8763dcada6f34d013995f7c87e9f62",
+    "assets": [
+      {
+        "name": "MoistHealing-1.0.4-x64-Portable.exe",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.4/MoistHealing-1.0.4-x64-Portable.exe",
+        "bytes": 121988659,
+        "digest": "sha256:64193c6ff39986003bb56714edb28e027a50d22cd4b9906052dfb7a36ae6ef73"
+      },
+      {
+        "name": "MoistHealing-1.0.4-x64-Setup.exe",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.4/MoistHealing-1.0.4-x64-Setup.exe",
+        "bytes": 122222902,
+        "digest": "sha256:5c490a5213bf4c348a3cc9540bb5c1afd97d0f366e3017d110fa12132f5b8cc9"
+      },
+      {
+        "name": "MoistHealing-PWA-1.0.4.zip",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.4/MoistHealing-PWA-1.0.4.zip",
+        "bytes": 10370459,
+        "digest": "sha256:755f3ebf488b805861fa90dcb03c1e73631aad9d4c8c81b7098df440476ca64f"
+      },
+      {
+        "name": "release.json",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.4/release.json",
+        "bytes": 293,
+        "digest": "sha256:3b5d789ca515c3fdec987f66239cce3b9aa008ed059bd19dcac8714f206cb79c"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.4/SHA256SUMS.txt",
+        "bytes": 373,
+        "digest": "sha256:817e61a52240ed8e948a544c3da644d7095214fe90a6e347e150924f435af519"
+      }
+    ],
+    "readback": "GitHub tag/asset metadata and upload digest verification; no independent EXE download readback claimed"
+  },
+  "previews": [
+    {
+      "path": "docs/previews/v1.0.4/cg-proof-desktop.png",
+      "sha256": "5007067fb57c71e345418a95622334fa1d3630d5fb0bf9946329b8a29f098aa0",
+      "gitBlob": "b94d9634df81183cc37f4000119b325106227293",
+      "sourceArtifact": 11826170537,
+      "artifactSha256": "7f63fd3f1d3f2b6a0d3f17fcf51b2985d374757f7830f3d765bf0ce70bd92dd3",
+      "sourceCommit": "5d847b3c3b8763dcada6f34d013995f7c87e9f62",
+      "review": "inspected actual desktop/mobile browser capture; no visible clipping of heads or controls"
+    },
+    {
+      "path": "docs/previews/v1.0.4/cg-proof-mobile.png",
+      "sha256": "ab4e4b46eb4160c1e1f3503ade151fbdf7d07c4457d617c3522843739dc24cc2",
+      "gitBlob": "b077241c23ca1fd0611ae3ae8dff0c8467bf2f98",
+      "sourceArtifact": 11826170537,
+      "artifactSha256": "7f63fd3f1d3f2b6a0d3f17fcf51b2985d374757f7830f3d765bf0ce70bd92dd3",
+      "sourceCommit": "5d847b3c3b8763dcada6f34d013995f7c87e9f62",
+      "review": "inspected actual desktop/mobile browser capture; no visible clipping of heads or controls"
+    }
+  ]
+}

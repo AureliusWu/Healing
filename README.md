@@ -1,12 +1,12 @@
-> 2026-10-13：v1.0.4 剧情与美术修订进入本次验收，详见 [精修记录](docs/production/CREATIVE-REVIEW.md)。以下历史下载与预览保留对应旧版身份。
+> 2026-10-13：v1.0.4 剧情精修与漏句样张 CG 已正式发布，见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [本轮电脑/手机预览](docs/previews/v1.0.4/README.md)。
 
 # 湿性愈合
 
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.0.3**。真实安装升级、公开三种屏幕规格的断网续读与下载字节已核验，证据见 [发布记录](docs/production/PUBLISHED-v1.0.3.json)。
+青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.0.4**。本次 CI 通过真实安装升级与公开三种屏幕规格的断网续读，证据见 [发布记录](docs/production/PUBLISHED-v1.0.4.json)。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.0.3)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.0.4)
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥和许棠相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
 
@@ -28,7 +28,7 @@
 ## 可玩的内容
 
 - 三章完结，65 个场景、7 次选择、1,296 种组合；保留第一章 3 种章节结局，追加 4 个最终结局。
-- 四张新增背景与四张事件 CG；章首重读、结局重读、事件画面和音乐鉴赏随阅读开启，保留真实路线。
+- 四张后续章节背景与五张事件 CG；漏句样张随实际阅读解锁，章首重读、结局重读、事件画面和音乐鉴赏保留真实路线。
 - 三位主要女角色沿用 v0.1.4 的统一二维美术；每人六种表情与完整三视图，可在角色档案浏览。生日、身高、体重保留，恢复十七岁的高二校园设定。
 - 全窗口场景画面 + 底部一体化半透明阅读层；透明度可调，隐藏界面可完整欣赏背景与立绘。
 - 逐字文本、自动阅读、快进、已读回看、结局回忆手册。
@@ -52,7 +52,7 @@ PWA 安装清单指定 `orientation: landscape`，支持的系统安装后优先
 
 ## 开发与游玩
 
-[共享制作契约](docs/production/SHARED-VN.md) · [可复用素材与工具](docs/production/REUSABLE-MATERIALS.md) · [v1.0.3 修订](docs/releases/v1.0.3.md)。素材目录保留许可证、摘要和项目专用边界；缺失的原始美术与完整字体源会明确标注。
+[共享制作契约](docs/production/SHARED-VN.md) · [剧情与美术协作方法](docs/production/CREATIVE-PLAYBOOK.md) · [可复用素材与工具](docs/production/REUSABLE-MATERIALS.md) · [v1.0.4 修订](docs/releases/v1.0.4.md)。素材目录保留许可证、摘要和项目专用边界；缺失的原始美术与完整字体源会明确标注。
 
 需要 Node.js 24（或满足 Vite 8 要求的 Node.js 22.12+）。
 
