@@ -27,6 +27,11 @@ if (!fs.existsSync(indexPath)) {
 }
 
 const indexText = fs.readFileSync(indexPath, 'utf8');
+const currentHeading = fs.readFileSync(expectedPath, 'utf8').split(/\r?\n/)
+  .find((line) => line.startsWith('# '))?.slice(2).trim();
+if (!currentHeading?.startsWith(`v${version} · `)) {
+  fail(`docs/releases/${expected} heading must start with v${version} · `);
+}
 const noteFiles = fs.readdirSync(releaseDir)
   .filter((name) => /^v\d+\.\d+\.\d+\.md$/.test(name))
   .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
