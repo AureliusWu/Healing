@@ -1,3 +1,5 @@
+> 2026-10-14：v1.0.5 回看检索候选，本地剧情、存档与浏览器检查通过；双端 CI 待验收。见 [本轮记录](docs/production/HISTORY-REVIEW.md)。
+
 > 2026-10-13：v1.0.4 剧情精修与漏句样张 CG 已正式发布，见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [本轮电脑/手机预览](docs/previews/v1.0.4/README.md)。
 
 # 湿性愈合
