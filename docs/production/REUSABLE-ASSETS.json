@@ -129,7 +129,7 @@
           "role": "runtime",
           "path": "src/assets/story-serif.woff2",
           "encoding": "binary",
-          "sha256": "63543fac456c08d10d5ce30c3a8aec6a0cb50da2ac98d2ccb4c9a69b13f79d02"
+          "sha256": "0d59d018f492781d9d63479030195ff63242fa6d15f28b51c0d9530e14b79ace"
         },
         {
           "role": "recipe",

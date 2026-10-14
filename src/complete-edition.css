@@ -55,3 +55,8 @@
   .ending-actions { flex-wrap: nowrap; }
   .ending-actions button { padding: 9px 12px; font-size: 11px; }
 }
+.history-entry-location { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.history-entry-location > span { font-size: 11px; line-height: 1.7; color: var(--muted); }
+.history-reread { display: inline-flex; align-items: center; gap: 6px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px; font-size: 12px; }
+.history-reread:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.confirm-actions { flex-wrap: wrap; }
