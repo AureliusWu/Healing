@@ -37,6 +37,7 @@ export function App() {
   const [auto, setAuto] = useState(false);
   const [fast, setFast] = useState(false);
   const [uiHidden, setUiHidden] = useState(false);
+  const [pageHidden, setPageHidden] = useState(() => document.hidden);
   const [toast, setToast] = useState('');
   const pwaState = useSyncExternalStore(pwa.subscribe, pwa.getState);
   const [confirm, setConfirm] = useState<{ text: string; action: () => void; exportBefore?: boolean } | null>(null);
@@ -50,7 +51,7 @@ export function App() {
   const lineKey = `${game.sceneId}:${game.line}`;
   const visible = typing.key === lineKey ? typing.count : 0;
   const complete = visible >= characters.length;
-  const typingPaused = screen !== 'game' || !!panel || !!confirm || uiHidden;
+  const typingPaused = screen !== 'game' || !!panel || !!confirm || uiHidden || pageHidden;
   const readHistory = complete ? recordLine(game).history : game.history;
   const lastLine = game.line === scene.lines.length - 1;
   const choicesVisible = lastLine && !!scene.choices && complete;
@@ -86,6 +87,7 @@ export function App() {
   }, [game, screen, store]);
   useEffect(() => {
     const visibility = () => {
+      setPageHidden(document.hidden);
       if (document.hidden) { setAuto(false); setFast(false); music.pause(); }
     };
     document.addEventListener('visibilitychange', visibility);
@@ -96,26 +98,26 @@ export function App() {
 
   useEffect(() => { setTyping({ key: lineKey, count: 0 }); }, [lineKey, line.text]);
   useEffect(() => {
-    if (typingPaused || complete) return;
+    if (typingPaused || document.hidden || complete) return;
     if (settings.textSpeed === 0 || fast || settings.reducedMotion) { setTyping({ key: lineKey, count: characters.length }); return; }
-    const id = setInterval(() => setTyping(previous => ({ key: lineKey,
+    const id = setInterval(() => setTyping(previous => document.hidden ? previous : ({ key: lineKey,
       count: Math.min((previous.key === lineKey ? previous.count : 0) + 1, characters.length),
     })), Math.round(1000 / settings.textSpeed));
     return () => clearInterval(id);
   }, [lineKey, line.text, characters.length, settings.textSpeed, settings.reducedMotion, fast, typingPaused, complete]);
 
   const step = useCallback(() => {
-    if (screen !== 'game' || panel || confirm) return;
+    if (document.hidden || screen !== 'game' || panel || confirm) return;
     if (uiHidden) { setUiHidden(false); return; }
     if (finished) return;
     if (!complete) { setTyping({ key: lineKey, count: characters.length }); return; }
     if (!choicesVisible) { music.effect('page'); setGame(state => advance(state)); }
   }, [screen, panel, confirm, uiHidden, finished, complete, lineKey, characters.length, choicesVisible]);
   useEffect(() => {
-    if ((!auto && !fast) || uiHidden || !complete || choicesVisible || finished || panel || confirm || screen !== 'game') return;
+    if ((!auto && !fast) || typingPaused || !complete || choicesVisible || finished) return;
     const id = setTimeout(step, fast ? 70 : settings.autoDelay + Math.min(line.text.length * 45, 2500));
     return () => clearTimeout(id);
-  }, [auto, fast, uiHidden, complete, choicesVisible, finished, panel, confirm, screen, step, settings.autoDelay, line.text]);
+  }, [auto, fast, typingPaused, complete, choicesVisible, finished, step, settings.autoDelay, line.text]);
   useEffect(() => {
     if (choicesVisible || finished) { setAuto(false); setFast(false); }
   }, [choicesVisible, finished]);

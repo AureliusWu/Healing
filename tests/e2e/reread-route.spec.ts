@@ -1,0 +1,66 @@
+import { test, expect } from '@playwright/test';
+import { readFileSync } from 'node:fs';
+import { mkdir } from 'node:fs/promises';
+import { choose, getScene, replay, sceneMap } from '../../src/game/engine';
+import { decodeSave, encodeSave, KEY } from '../../src/game/storage';
+import { rereadFrom } from '../../src/game/reread';
+
+const fixtures = JSON.parse(readFileSync('electron/smoke-fixtures.json', 'utf8'));
+const final = decodeSave(JSON.stringify(encodeSave(fixtures.final))).state;
+const lunch = sceneMap.get('lunch')!;
+const target = { sceneId: lunch.id, line: lunch.lines.length - 1 };
+
+test('rereads an earlier choice, changes the native route and restores it offline while retaining memories', async ({ page, context }, info) => {
+  const errors: string[] = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.addInitScript(key => localStorage.setItem(`${key}:settings`, JSON.stringify({
+    textSpeed: 0, music: false, soundEffects: false, ambience: false, reducedMotion: true,
+  })), KEY);
+  await page.goto('/');
+  await expect(page.locator('.title-footer')).toContainText('离线阅读已就绪');
+  await expect.poll(() => page.evaluate(() => !!navigator.serviceWorker.controller)).toBe(true);
+  await page.evaluate(({ key, raw }) => localStorage.setItem(`${key}:save:auto`, raw), { key: KEY, raw: JSON.stringify(encodeSave(final)) });
+  await page.reload();
+  await page.getByRole('button', { name: '继续上次的故事', exact: true }).click();
+  await expect(page.locator('.ending-card')).toBeVisible();
+  await page.getByRole('button', { name: '存档', exact: true }).click();
+  await page.locator('.save-card').filter({ hasText: '手动存档 1' }).getByRole('button', { name: '存入', exact: true }).click();
+  const manual = await page.evaluate(key => localStorage.getItem(`${key}:save:1`), KEY);
+  const memories = await page.evaluate(key => Object.fromEntries(['gallery', 'endings', 'scores'].map(name => [name, localStorage.getItem(`${key}:${name}`)])), KEY);
+  await page.getByRole('button', { name: '关闭', exact: true }).click();
+  await page.getByRole('button', { name: '回看', exact: true }).click();
+  const history = page.getByRole('dialog', { name: '已读文字', exact: true });
+  const paragraph = history.locator('.history-list article').filter({ hasText: lunch.lines[target.line].text });
+  await paragraph.getByRole('button', { name: '从这里重读', exact: true }).click();
+  const confirm = page.getByRole('dialog', { name: '留住这一刻', exact: true });
+  await expect(confirm).toContainText(`第 ${target.line + 1} 段重新阅读`);
+  await expect(page.locator('.toast.visible')).toHaveCount(0);
+  await mkdir('test-results/previews', { recursive: true });
+  await page.screenshot({ path: `test-results/previews/reread-route-confirm-${info.project.name}.png` });
+  await confirm.getByRole('button', { name: '继续', exact: true }).click();
+  await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', target.sceneId);
+  await expect(page.locator('.choice-panel')).toBeVisible();
+  const expected = choose(rereadFrom(final, target), 'chen');
+  await page.getByRole('button', { name: new RegExp(lunch.choices!.find(choice => choice.id === 'chen')!.text) }).click();
+  await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', expected.sceneId);
+  const saved = await page.evaluate(key => JSON.parse(localStorage.getItem(`${key}:save:auto`)!), KEY);
+  expect(saved.state).toEqual(expected);
+  expect(saved.state).toEqual(replay(expected.decisions, expected.sceneId, expected.line));
+  expect(await page.evaluate(key => localStorage.getItem(`${key}:save:1`), KEY)).toBe(manual);
+  expect(await page.evaluate(key => Object.fromEntries(['gallery', 'endings', 'scores'].map(name => [name, localStorage.getItem(`${key}:${name}`)])), KEY)).toEqual(memories);
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.locator('.title-footer')).toContainText('正在离线阅读');
+  await page.getByRole('button', { name: '继续上次的故事', exact: true }).click();
+  await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', expected.sceneId);
+  await expect(page.locator('.dialogue-text')).toContainText(getScene(expected).lines[expected.line].text);
+  await expect(page.locator('.toast.visible')).toHaveCount(0);
+  await page.screenshot({ path: `test-results/previews/reread-route-offline-${info.project.name}.png` });
+  await page.getByRole('button', { name: '回看', exact: true }).click();
+  await expect(history.locator('.history-list')).not.toContainText(getScene(final).lines[final.line].text);
+  await page.getByRole('button', { name: '关闭', exact: true }).click();
+  await page.getByRole('button', { name: '返回标题', exact: true }).click();
+  await page.getByRole('button', { name: '回忆', exact: true }).click();
+  await expect(page.locator('.edition-memories')).toContainText('最终结局 1 / 4');
+  expect(errors).toEqual([]);
+});

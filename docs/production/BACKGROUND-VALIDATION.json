@@ -1,0 +1,267 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "version": "1.0.8",
+  "baseHead": "7dcb160c33318edbed9a94088401a6e7d0cb2223",
+  "restoredRuntimeCheckpoint": "eede83c35340c5251d6a78ad1bd286921ff70bb3",
+  "currentChecks": {
+    "environment": "restored session",
+    "logicPassed": 63,
+    "completeRoutes": 1296,
+    "legacyMigrations": 54,
+    "releaseRegressionPassed": 9,
+    "materialToolsPassed": 10,
+    "sharedFileHashes": 15,
+    "typeScript": "passed via build",
+    "productionBuild": "passed",
+    "releaseNotes": "passed",
+    "diffWhitespace": "passed",
+    "log": "artifacts/current-checks.log",
+    "logSha256": "572522f819cf4d6a9b27b86fd8ecf6df83c6bd74fb9112302dfa7f588e6683e7"
+  },
+  "currentBrowser": {
+    "status": "passed",
+    "browser": "Chromium 153.0.8010.0",
+    "validatedCommit": "6b8f1c601c1182d8280563ccae81c81c75267f8f",
+    "scope": [
+      "background-reading.spec.ts",
+      "reread-route.spec.ts"
+    ],
+    "passed": 8,
+    "skipped": 0,
+    "failed": 0,
+    "workers": 2,
+    "durationSeconds": 21.7,
+    "log": "artifacts/current-browser.log",
+    "logSha256": "057805ab6b72616e7a06cf4dd215a7567d5bc8520f0ec1344c8b882821916c11",
+    "fullSuiteCompleted": false
+  },
+  "historicalBrowser": {
+    "browser": "Chromium 153.0.8010.0",
+    "runtimeCommit": "01411ccd3649dc26f0cca81d7dbf9075b0cf8e0e",
+    "testCommit": "439050001505f548124b6a224c373e2da16aba5a",
+    "targeted": {
+      "passed": 16,
+      "skipped": 0,
+      "failed": 0,
+      "flaky": 0,
+      "files": [
+        "background-reading.spec.ts",
+        "reread-route.spec.ts",
+        "same-line-load.spec.ts"
+      ]
+    },
+    "fullSuite": {
+      "planned": 72,
+      "status": "interrupted by session environment reset",
+      "lastObservedCase": 55,
+      "lastObservedResult": "mobile PWA caches every asset and restores the same story after going offline: passed",
+      "finalSummary": null,
+      "claimedComplete": false
+    },
+    "rawHistoricalLogsRetained": false
+  },
+  "bugReproduction": {
+    "runtimeCommit": "7dcb160c33318edbed9a94088401a6e7d0cb2223",
+    "speed": 4,
+    "initialVisible": "十七",
+    "backgroundVirtualMilliseconds": 60000,
+    "expected": "same two visible characters",
+    "observed": "the whole paragraph became visible",
+    "lifecycleSignal": "document.hidden and visibilitychange injected in a real Chromium page"
+  },
+  "sourceFiles": {
+    "src/App.tsx": "bf194e9e909c00c1ba0d933c3f30784acaf911842122d031939649942ac3746f",
+    "package.json": "9b247e98ae029fad1b4f3512dc52af3adc3b0c11cf4796686e65872df3e339be",
+    "package-lock.json": "0c1c254dc0a464ab6e29455498fd9570e32fb644f414d2e611b784c8670f967a",
+    "tests/e2e/background-reading.spec.ts": "8be3afbf6e543bde8a2f7311ef832e8b8e2f4337b0d771135bf2c4cfa3c6db3c",
+    "tests/e2e/reread-route.spec.ts": "3efb72bae641a4441849936c04464c71091e89c0f66d1fd02fc0d8224d759d3a",
+    "tests/e2e/same-line-load.spec.ts": "cd8b0914ff413ee8210717f2fa5f66479bc6ccd7fd1a4fbc6566c5e24d54feb3"
+  },
+  "pwaBuild": {
+    "cacheVersion": "e86f9306b4d43f",
+    "precacheResources": 30,
+    "files": [
+      {
+        "path": "art/campus.webp",
+        "bytes": 571028,
+        "sha256": "bdf33ddaf2d996bb9842fc898da770b0b623ce33ee155bc699837594771e043e"
+      },
+      {
+        "path": "art/cg-chen-rest.webp",
+        "bytes": 432034,
+        "sha256": "9c8f0f0e7e44de411cb9ad99dff1daf3a5261755fcb9e1f7a844dc365892280d"
+      },
+      {
+        "path": "art/cg-lin-page.webp",
+        "bytes": 295350,
+        "sha256": "e2e4feb31ad132235a0a0fa31aa0345c0c26982f375d6f43d38e376a7e3adfd4"
+      },
+      {
+        "path": "art/cg-proof.webp",
+        "bytes": 209942,
+        "sha256": "7d4dd8cb72158374254288275417f6619a65d52240b3c8b079f43264e39cbbcf"
+      },
+      {
+        "path": "art/cg-shared-print.webp",
+        "bytes": 369192,
+        "sha256": "c89562bd61fa251f5571dcdd0d43944256edd0c46e32c67ed66af007b5252123"
+      },
+      {
+        "path": "art/cg-tang-light.webp",
+        "bytes": 441676,
+        "sha256": "7af7ab488adb255f975991e8ebceb9e90df1ddc680fb90d3f537230ea2cd1fc6"
+      },
+      {
+        "path": "art/chen-expressions.webp",
+        "bytes": 1248646,
+        "sha256": "f19df7ddae0436a79325d4fc27af0007575e1389288818165601d7f0f5f84f05"
+      },
+      {
+        "path": "art/chen-turnaround.webp",
+        "bytes": 144706,
+        "sha256": "5607692ff308f797348b994e42a6a581734d33c4a2896867ef4b30b0349985cf"
+      },
+      {
+        "path": "art/chen.webp",
+        "bytes": 1050262,
+        "sha256": "1af71b2d3dfce1ae4fc8275b447f559544dbae86826f6f120adae2438a8f766f"
+      },
+      {
+        "path": "art/classroom.webp",
+        "bytes": 319372,
+        "sha256": "0c3a2d7bf8525d0105675a5a9bcff6315de98d778c1aaf808f0b7781100af0ec"
+      },
+      {
+        "path": "art/clubroom.webp",
+        "bytes": 376468,
+        "sha256": "86f8d0bdd72ceca45cd00ccef0dcb1f94be4bd54c4463bbdbdbbf8f60014fb4e"
+      },
+      {
+        "path": "art/home.webp",
+        "bytes": 334232,
+        "sha256": "ace4e68d785a3a46746a2875b955320799e6e1fca8f1173f2c8c20b5f8ceb528"
+      },
+      {
+        "path": "art/lin-expressions.webp",
+        "bytes": 994336,
+        "sha256": "dcd67fd0346ecf7db63ea9322e47e193733fe3a5d3243223b8144833be20558d"
+      },
+      {
+        "path": "art/lin-turnaround.webp",
+        "bytes": 132008,
+        "sha256": "b8642a5fcef0de00c246a8b455b859304d320d9d3483313873af06641a051a26"
+      },
+      {
+        "path": "art/lin.webp",
+        "bytes": 955322,
+        "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+      },
+      {
+        "path": "art/printshop.webp",
+        "bytes": 330378,
+        "sha256": "61676eb0bb860175ec947ba3d7ea34ddc2350ce48691fc985c08ffdbe922ed99"
+      },
+      {
+        "path": "art/riverbank.webp",
+        "bytes": 543848,
+        "sha256": "b6c653aa9a13ee3df517347716e325c6af663a8726ef8e5c0aa7d74480104486"
+      },
+      {
+        "path": "art/tang-expressions.webp",
+        "bytes": 1072718,
+        "sha256": "2a51f8847b2bc09152ce70e6fcdd123c4aee9018774ea250a75938c59f7f8f13"
+      },
+      {
+        "path": "art/tang-turnaround.webp",
+        "bytes": 133428,
+        "sha256": "49cc3d6b12d2e53773908959467589aa1dccdcd41c0673a0196dccd5b7f9e870"
+      },
+      {
+        "path": "assets/index-C92BeUgt.css",
+        "bytes": 40410,
+        "sha256": "f774d9603bcd44732953d0522d4da30b505f0902609d0f410d4136d7343a6837"
+      },
+      {
+        "path": "assets/index-D5sMiAkk.js",
+        "bytes": 364307,
+        "sha256": "fa7a8ea43da073bcbf592258c6831477d84b25a112b2cbb37433e6f3f529eac9"
+      },
+      {
+        "path": "assets/story-serif-DQCLXa_j.woff2",
+        "bytes": 210252,
+        "sha256": "0d59d018f492781d9d63479030195ff63242fa6d15f28b51c0d9530e14b79ace"
+      },
+      {
+        "path": "icons/icon-192.png",
+        "bytes": 5177,
+        "sha256": "9f73bdf841406e627fa2236165bce468cc222844d09d76fd2d00955f7ecc7640"
+      },
+      {
+        "path": "icons/icon-512.png",
+        "bytes": 19234,
+        "sha256": "c96b7e1519906e8b836129608f1498b9813652288293b2bb8c38e17b9988a79b"
+      },
+      {
+        "path": "icons/icon.ico",
+        "bytes": 27386,
+        "sha256": "a345beeaa49cf85b7b20953e7dce6820a30f148756919a6b77f660b8848f1ad7"
+      },
+      {
+        "path": "icons/icon.svg",
+        "bytes": 491,
+        "sha256": "d64517fdd93296a9792607ac5197e35bfa37232efb855a61c4a66b88d9449389"
+      },
+      {
+        "path": "icons/maskable-512.png",
+        "bytes": 19234,
+        "sha256": "c96b7e1519906e8b836129608f1498b9813652288293b2bb8c38e17b9988a79b"
+      },
+      {
+        "path": "index.html",
+        "bytes": 1157,
+        "sha256": "fdb5b6872b78a59fd2ff8cdb0782fcf5bff287d77eba9dd9602f1b4e01b3e75d"
+      },
+      {
+        "path": "licenses/MIT.txt",
+        "bytes": 1067,
+        "sha256": "18b51f395f21b905ff80d3817b714ed596ab5b36920f29ec8765ed1f72a8c1c7"
+      },
+      {
+        "path": "licenses/OFL-NotoSerifSC.txt",
+        "bytes": 4350,
+        "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+      },
+      {
+        "path": "manifest.webmanifest",
+        "bytes": 661,
+        "sha256": "8eaa2dbd9f7eb5430bbc330b9238aadc918f7995bdff1817b0f29648c1c0767c"
+      },
+      {
+        "path": "sw.js",
+        "bytes": 2325,
+        "sha256": "5008e5beb67c7e7f09f7e7996eef51242307a7d8c3247128bf5a47d438aae35b"
+      }
+    ]
+  },
+  "platform": {
+    "v1.0.7Evidence": "PLATFORM-v1.0.7.json",
+    "v1.0.8Windows": "not run: candidate not pushed",
+    "v1.0.8PublicPwa": "not deployed",
+    "publicVersion": "1.0.4"
+  },
+  "visualQa": {
+    "historicalInspected": [
+      "desktop offline reading",
+      "mobile reread confirmation"
+    ],
+    "screenshots": "local QA only; not committed or included in deliverable"
+  },
+  "limits": [
+    "Historical browser execution is identified separately from checks rerun after restoring this session.",
+    "72-case full-suite execution has no completion result.",
+    "Headless visibility events are controlled signals, not a real phone lock-screen test.",
+    "No claim of v1.0.8 Windows, installer upgrade, release or public PWA success.",
+    "No remote write, merge, release, deployment or comment was performed."
+  ]
+}

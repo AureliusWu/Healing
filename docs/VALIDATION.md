@@ -1,6 +1,16 @@
 # 验证记录
 
-当前正式版本：1.0.3，Windows 公开下载与 PWA 公网均已核验。客户端、CI、Release 和标签绑定提交 `848792bed66f5b94f67ce5753de36c7c90b07bda`。日期：2026-10-11；后续证据文档提交不改变已验收客户端字节。
+当前正式版本：1.0.4，对应客户端提交 `5d847b3c3b8763dcada6f34d013995f7c87e9f62`。Windows 与公开 PWA 三种屏幕的真实平台范围见 [v1.0.4 发布记录](production/PUBLISHED-v1.0.4.json)；下载记录属于 GitHub 元数据与上传摘要验证，没有宣称再次独立下载全部 EXE。
+
+## v1.0.8 当前候选
+
+修复页面切入后台后逐字仍继续，回到前台保留原字数。重置前实际 Chromium 专项 16 项全过；完整 72 项运行在手机第 55 项通过后中断，没有最终完成结论。此次恢复后桌面/手机后台与路线重读专项 8 项重新通过（两个工作进程、21.7 秒、无跳过）；63 项逻辑、9 项发行回归、10 项素材工具、15 份共用哈希与生产构建通过。当前检查、历史执行范围和产物摘要分别记录于 [后台阅读验收](production/BACKGROUND-READING-REVIEW.md) 与 [结构化证据](production/BACKGROUND-VALIDATION.json)。
+
+本候选尚未推送，未执行对应提交的 Windows CI、安装升级或公开 PWA；没有合并、发布或部署。
+
+## v1.0.7 基线候选平台核验
+
+已回读 [Build game #38662790234](https://github.com/AureliusWu/Healing/actions/runs/38662790234)：web/windows 成功，63 项逻辑、61 项浏览器通过/3 项设备适用性跳过，Windows 源码/实际 ASAR 和真实 NSIS 1.0.2→1.0.7 同安装位同 profile 旧存档恢复成功。准确提交及摘要见 [v1.0.7 平台证据](production/PLATFORM-v1.0.7.json)。该证据不能替代 v1.0.8 的平台执行。
 
 ## v1.0.3 正式发布与公网结果
 
