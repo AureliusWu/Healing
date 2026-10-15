@@ -158,7 +158,7 @@ export function App() {
     else run();
   }
   function load(save: Save) {
-    setGame(save.state); setScreen('game'); setPanel(null); setUiHidden(false); setAuto(false); setFast(false); void music.unlock(); notify('已回到上次停下的地方。');
+    setGame(save.state); setTyping({ key: `${save.state.sceneId}:${save.state.line}`, count: 0 }); setScreen('game'); setPanel(null); setUiHidden(false); setAuto(false); setFast(false); void music.unlock(); notify('已回到上次停下的地方。');
   }
   function requestReread(entry: HistoryEntry) {
     try {
