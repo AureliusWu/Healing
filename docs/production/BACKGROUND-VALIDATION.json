@@ -246,8 +246,8 @@
   },
   "platform": {
     "v1.0.7Evidence": "PLATFORM-v1.0.7.json",
-    "v1.0.8Windows": "not run: candidate not pushed",
-    "v1.0.8PublicPwa": "not deployed",
+    "v1.0.8Windows": "passed for PR head 852678ad in Build game 38743334332; formal main run pending",
+    "v1.0.8PublicPwa": "formal deployment and actual public three-screen verification pending",
     "publicVersion": "1.0.4"
   },
   "visualQa": {
@@ -258,10 +258,68 @@
     "screenshots": "local QA only; not committed or included in deliverable"
   },
   "limits": [
-    "Historical browser execution is identified separately from checks rerun after restoring this session.",
-    "72-case full-suite execution has no completion result.",
+    "Local restored-session and historical browser executions are retained as dated snapshots; latestCi is the current complete PR result.",
+    "The interrupted local 72-case run is historical; the current PR CI completed all 72 cases with 69 passed and 3 device-specific skips.",
     "Headless visibility events are controlled signals, not a real phone lock-screen test.",
-    "No claim of v1.0.8 Windows, installer upgrade, release or public PWA success.",
-    "No remote write, merge, release, deployment or comment was performed."
-  ]
+    "PR platform verification is not formal main release, publication or public PWA evidence.",
+    "Formal main build, release and public PWA verification have not yet completed."
+  ],
+  "releaseReadiness": "PR dual-platform verification passed; formal main build, release and public PWA verification pending",
+  "latestCi": {
+    "phase": "pull_request",
+    "head": "852678adf789331fb9bd56ccac1e5735466bd337",
+    "checkout": "9c410cbcd4893033e873ccdd2c1fd5d9f5141b58",
+    "run": 38743334332,
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/38743334332",
+    "conclusion": "success",
+    "web": {
+      "job": 116450390189,
+      "logicPassed": 63,
+      "releaseRegressionPassed": 9,
+      "materialToolsPassed": 10,
+      "sharedFileHashes": 15,
+      "browserPlanned": 72,
+      "browserPassed": 69,
+      "browserSkipped": 3,
+      "browserDuration": "2.4m",
+      "fullSuiteCompleted": true,
+      "pwaCacheVersion": "e86f9306b4d43f"
+    },
+    "windows": {
+      "job": 116452059363,
+      "sourceLaunch": "success",
+      "installationAndPortableBuild": "success",
+      "packagedAsarLaunch": "success",
+      "previousInstalledVersion": "1.0.2",
+      "upgradedVersion": "1.0.8",
+      "sameInstallation": true,
+      "sameProfile": true,
+      "actualPriorSaveRestored": true,
+      "restoredEnding": "end-lin-final",
+      "installedAsarSha256": "cd59c067bbf734b163b77c12f374ef433382d20fdccdbb635335f7d999675d0b",
+      "builtAsarSha256": "cd59c067bbf734b163b77c12f374ef433382d20fdccdbb635335f7d999675d0b",
+      "currentInstallerSha256": "aad4903a512f1b9a4f1592d97631adc416b45a76ba07553c9ad42866a97d2a64"
+    },
+    "releaseJob": {
+      "job": 116454301010,
+      "conclusion": "skipped: pull-request workflow"
+    },
+    "artifacts": [
+      {
+        "id": 11977881103,
+        "name": "MoistHealing-Windows-x64",
+        "digest": "sha256:3af215e7ca891874c96e2ab82f693967998db5a5e4a6b275a2b00b2bf04b4be0"
+      },
+      {
+        "id": 11977736867,
+        "name": "Healing-Windows-Runtime-Evidence",
+        "digest": "sha256:6f1954b5f6b3a9d1debc7375025bfae387a9b1f0ab493276e150d39ab136466f"
+      },
+      {
+        "id": 11977256408,
+        "name": "MoistHealing-PWA",
+        "digest": "sha256:ca74ee52a4e3ed4fcf4031d20aa51f5be3d14cef61f3eef93a06647454bad6f4"
+      }
+    ]
+  }
 }

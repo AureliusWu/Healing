@@ -20,4 +20,10 @@ v1.0.7 已核实的 [Build game #38662790234](https://github.com/AureliusWu/Heal
 
 本次恢复后，后台与路线重读两个文件的桌面/手机共 8 项已在 Chromium 153、两个工作进程下重新通过，耗时 21.7 秒、无跳过。原始输出保存为 `artifacts/current-browser.log`，摘要记入结构化证据；63 项逻辑、9 项发行回归、10 项素材工具、15 份共用哈希和生产构建也已重新通过。
 
-v1.0.8 尚未推送，未运行对应提交的远程 CI、Windows 成品或公开 PWA；v1.0.7 的平台记录只证明其自身提交。候选尚未合并、发布或部署，公开 PWA 仍为正式版 v1.0.4。
+## 当前 PR 双端验收
+
+PR head `852678adf789331fb9bd56ccac1e5735466bd337` 的 [Build game #38743334332](https://github.com/AureliusWu/Healing/actions/runs/38743334332) 已全部成功；实际 checkout 为 PR merge `9c410cbcd4893033e873ccdd2c1fd5d9f5141b58`。web job `116450390189` 完成 63 项逻辑、9 项发行回归、10 项工具与 15 份共用哈希；完整 72 项浏览器已得到最终汇总：69 项通过、3 项设备适用性跳过，耗时 2.4 分钟。PWA 缓存版本 `e86f9306b4d43f`。
+
+windows job `116452059363` 的源码启动、安装/便携包生成、实际打包 ASAR 启动和真实 NSIS 1.0.2→1.0.8 升级全部通过。同安装位、同 profile 恢复 schema 1 的 `end-lin-final`，安装后与构建 ASAR 的 SHA-256 均为 `cd59c067bbf734b163b77c12f374ef433382d20fdccdbb635335f7d999675d0b`。这是本版 PR 的实际结果，早期本地中断记录保留为历史快照，不再作为本版完整 CI 的状态。
+
+该 PR 的 release job 按条件跳过，未由其触发正式部署。正式 main 构建、版本发布和公开 PWA 三屏真实断网复验仍待执行；公开 PWA 当前仍为正式版 v1.0.4。准确 job 与产物摘要见结构化证据。

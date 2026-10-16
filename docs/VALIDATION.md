@@ -4,9 +4,11 @@
 
 ## v1.0.8 当前候选
 
-修复页面切入后台后逐字仍继续，回到前台保留原字数。重置前实际 Chromium 专项 16 项全过；完整 72 项运行在手机第 55 项通过后中断，没有最终完成结论。此次恢复后桌面/手机后台与路线重读专项 8 项重新通过（两个工作进程、21.7 秒、无跳过）；63 项逻辑、9 项发行回归、10 项素材工具、15 份共用哈希与生产构建通过。当前检查、历史执行范围和产物摘要分别记录于 [后台阅读验收](production/BACKGROUND-READING-REVIEW.md) 与 [结构化证据](production/BACKGROUND-VALIDATION.json)。
+修复页面切入后台后逐字仍继续，回到前台保留原字数。PR head `852678adf789331fb9bd56ccac1e5735466bd337` 的 [Build game #38743334332](https://github.com/AureliusWu/Healing/actions/runs/38743334332) 已完整成功：63 项逻辑、9 项发行回归、10 项素材工具、15 份共用哈希、生产构建，以及完整 72 项浏览器中的 69 项通过/3 项设备适用性跳过。
 
-本候选尚未推送，未执行对应提交的 Windows CI、安装升级或公开 PWA；没有合并、发布或部署。
+Windows 源码启动、安装/便携包生成、实际 ASAR 启动及真实 1.0.2→1.0.8 同安装位同 profile 升级通过，恢复旧存档 `end-lin-final`；安装后 ASAR 与构建摘要一致。当前 PR 的 job、摘要和早期本地历史执行分别记录于 [后台阅读验收](production/BACKGROUND-READING-REVIEW.md) 与 [结构化证据](production/BACKGROUND-VALIDATION.json)。
+
+PR 双端成功不代表正式发行。正式 main 构建、Release 与公开 PWA 三屏复验尚待执行，当前公开版本仍为 v1.0.4。
 
 ## v1.0.7 基线候选平台核验
 
