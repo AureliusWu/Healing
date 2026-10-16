@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { Icon } from './components/Icon';
 import { Dialog } from './components/Dialog';
+import { RecordSearch } from './components/RecordSearch';
 import { CharacterSprite } from './components/CharacterSprite';
 import { CharacterGallery } from './components/CharacterGallery';
 import { ChapterMenu, MemoryBook, Credits } from './components/EditionPanels';
@@ -9,11 +10,12 @@ import { FullscreenButton, RotationHint } from './components/DisplayControls';
 import { useDisplayMode } from './useDisplayMode';
 import { pwa } from './pwa';
 import { advance, choose, continueStory, getScene, newGame, recordLine } from './game/engine';
+import { rereadFrom } from './game/reread';
 import { decodeSave, encodeSave, KEY, readEndings, readSave, readSettings, slots, writeSave, type Slot } from './game/storage';
 import { music } from './game/music';
 import { presentationAt } from './game/presentation';
 import { musicFor, readGallery, readScores, rememberProgress } from './game/progress';
-import type { CgId, GameState, MusicId, Save, Settings } from './game/types';
+import type { CgId, GameState, HistoryEntry, MusicId, Save, Settings } from './game/types';
 import { chapters, cgInfo, endingInfo } from './story';
 
 type Panel = 'chapters' | 'characters' | 'memories' | 'settings' | 'saves' | 'history' | 'about' | 'credits' | 'pwa' | null;
@@ -31,13 +33,14 @@ export function App() {
   const [gallery, setGallery] = useState<CgId[]>(readGallery);
   const [scores, setScores] = useState<MusicId[]>(readScores);
   const [audition, setAudition] = useState<MusicId | null>(null);
-  const [visible, setVisible] = useState(0);
+  const [typing, setTyping] = useState({ key: 'arrival:0', count: 0 });
   const [auto, setAuto] = useState(false);
   const [fast, setFast] = useState(false);
   const [uiHidden, setUiHidden] = useState(false);
+  const [pageHidden, setPageHidden] = useState(() => document.hidden);
   const [toast, setToast] = useState('');
   const pwaState = useSyncExternalStore(pwa.subscribe, pwa.getState);
-  const [confirm, setConfirm] = useState<{ text: string; action: () => void } | null>(null);
+  const [confirm, setConfirm] = useState<{ text: string; action: () => void; exportBefore?: boolean } | null>(null);
   const importRef = useRef<HTMLInputElement>(null);
   const currentRef = useRef(game);
   const storageWarning = useRef(false);
@@ -45,7 +48,11 @@ export function App() {
   const scene = getScene(game);
   const line = scene.lines[game.line];
   const characters = Array.from(line.text);
+  const lineKey = `${game.sceneId}:${game.line}`;
+  const visible = typing.key === lineKey ? typing.count : 0;
   const complete = visible >= characters.length;
+  const typingPaused = screen !== 'game' || !!panel || !!confirm || uiHidden || pageHidden;
+  const readHistory = complete ? recordLine(game).history : game.history;
   const lastLine = game.line === scene.lines.length - 1;
   const choicesVisible = lastLine && !!scene.choices && complete;
   const finished = lastLine && (!!scene.ending || !!scene.chapterEnd) && complete;
@@ -80,6 +87,7 @@ export function App() {
   }, [game, screen, store]);
   useEffect(() => {
     const visibility = () => {
+      setPageHidden(document.hidden);
       if (document.hidden) { setAuto(false); setFast(false); music.pause(); }
     };
     document.addEventListener('visibilitychange', visibility);
@@ -88,28 +96,28 @@ export function App() {
     };
   }, []);
 
+  useEffect(() => { setTyping({ key: lineKey, count: 0 }); }, [lineKey, line.text]);
   useEffect(() => {
-    setVisible(0);
-    if (settings.textSpeed === 0 || fast || settings.reducedMotion) { setVisible(Array.from(line.text).length); return; }
-    const id = setInterval(() => setVisible(count => {
-      if (count >= Array.from(line.text).length) clearInterval(id);
-      return count + 1;
-    }), Math.round(1000 / settings.textSpeed));
+    if (typingPaused || document.hidden || complete) return;
+    if (settings.textSpeed === 0 || fast || settings.reducedMotion) { setTyping({ key: lineKey, count: characters.length }); return; }
+    const id = setInterval(() => setTyping(previous => document.hidden ? previous : ({ key: lineKey,
+      count: Math.min((previous.key === lineKey ? previous.count : 0) + 1, characters.length),
+    })), Math.round(1000 / settings.textSpeed));
     return () => clearInterval(id);
-  }, [game.sceneId, game.line, line.text, settings.textSpeed, settings.reducedMotion, fast]);
+  }, [lineKey, line.text, characters.length, settings.textSpeed, settings.reducedMotion, fast, typingPaused, complete]);
 
   const step = useCallback(() => {
-    if (screen !== 'game' || panel || confirm) return;
+    if (document.hidden || screen !== 'game' || panel || confirm) return;
     if (uiHidden) { setUiHidden(false); return; }
     if (finished) return;
-    if (!complete) { setVisible(characters.length); return; }
+    if (!complete) { setTyping({ key: lineKey, count: characters.length }); return; }
     if (!choicesVisible) { music.effect('page'); setGame(state => advance(state)); }
-  }, [screen, panel, confirm, uiHidden, finished, complete, characters.length, choicesVisible]);
+  }, [screen, panel, confirm, uiHidden, finished, complete, lineKey, characters.length, choicesVisible]);
   useEffect(() => {
-    if ((!auto && !fast) || uiHidden || !complete || choicesVisible || finished || panel || confirm || screen !== 'game') return;
+    if ((!auto && !fast) || typingPaused || !complete || choicesVisible || finished) return;
     const id = setTimeout(step, fast ? 70 : settings.autoDelay + Math.min(line.text.length * 45, 2500));
     return () => clearTimeout(id);
-  }, [auto, fast, uiHidden, complete, choicesVisible, finished, panel, confirm, screen, step, settings.autoDelay, line.text]);
+  }, [auto, fast, typingPaused, complete, choicesVisible, finished, step, settings.autoDelay, line.text]);
   useEffect(() => {
     if (choicesVisible || finished) { setAuto(false); setFast(false); }
   }, [choicesVisible, finished]);
@@ -147,12 +155,19 @@ export function App() {
   }, [panel, confirm, screen, step, uiHidden, hideInterface]);
 
   function begin() {
-    const run = () => { setGame(newGame()); setScreen('game'); setPanel(null); setUiHidden(false); setAuto(false); setFast(false); void music.unlock(); };
+    const run = () => { setGame(newGame()); setTyping({ key: 'arrival:0', count: 0 }); setScreen('game'); setPanel(null); setUiHidden(false); setAuto(false); setFast(false); void music.unlock(); };
     if (saveList.auto) setConfirm({ text: '开始新的阅读会更新自动存档。手动存档会保留。', action: run });
     else run();
   }
   function load(save: Save) {
-    setGame(save.state); setScreen('game'); setPanel(null); setUiHidden(false); setAuto(false); setFast(false); void music.unlock(); notify('已回到上次停下的地方。');
+    setGame(save.state); setTyping({ key: `${save.state.sceneId}:${save.state.line}`, count: 0 }); setScreen('game'); setPanel(null); setUiHidden(false); setAuto(false); setFast(false); void music.unlock(); notify('已回到上次停下的地方。');
+  }
+  function requestReread(entry: HistoryEntry) {
+    try {
+      const restored = rereadFrom(currentRef.current, entry);
+      setConfirm({ text: `从「${getScene(restored).title}」第 ${restored.line + 1} 段重新阅读，会更新自动存档。之后的选择可以重新决定，手动存档与已解锁回忆会保留。需要保留原进度，可先导出存档。`,
+        action: () => load(encodeSave(restored)), exportBefore: true });
+    } catch (error) { notify(error instanceof Error ? error.message : '无法恢复这段已读文字'); }
   }
   function exportProgress() {
     const state = screen === 'game' ? currentRef.current : saveList.auto?.state;
@@ -241,10 +256,10 @@ export function App() {
       {panel === 'credits' && <Credits />}
       {panel === 'settings' && <div className="settings-list"><label className="setting"><span>文字速度<small>{settings.textSpeed === 0 ? '一次显示全部' : `${settings.textSpeed} 字 / 秒`}</small></span><input aria-label="文字速度" type="range" min="0" max="80" step="4" value={settings.textSpeed} onChange={e => setSetting('textSpeed', +e.target.value)} /></label><label className="setting"><span>自动阅读停留<small>{(settings.autoDelay / 1000).toFixed(1)} 秒 + 段落阅读时间</small></span><input aria-label="自动阅读停留" type="range" min="800" max="6000" step="200" value={settings.autoDelay} onChange={e => setSetting('autoDelay', +e.target.value)} /></label><label className="setting"><span>背景音乐<small>六首原创配乐 · 首次点击后播放</small></span><input aria-label="背景音乐" type="checkbox" checked={settings.music} onChange={e => { setSetting('music', e.target.checked); if (e.target.checked) void music.unlock(); }} /></label><label className="setting"><span>声音音量<small>{Math.round(settings.volume * 100)}%</small></span><input aria-label="声音音量" type="range" min="0" max="1" step="0.05" value={settings.volume} onChange={e => setSetting('volume', +e.target.value)} /></label><label className="setting"><span>环境雨声<small>在雨天场景播放，可独立关闭</small></span><input aria-label="环境雨声" type="checkbox" checked={settings.ambience} onChange={e => setSetting('ambience', e.target.checked)} /></label><label className="setting"><span>操作提示音<small>轻声提示翻页与选择</small></span><input aria-label="操作提示音" type="checkbox" checked={settings.soundEffects} onChange={e => setSetting('soundEffects', e.target.checked)} /></label><label className="setting"><span>减少动态效果<small>关闭动画并一次显示文字</small></span><input aria-label="减少动态效果" type="checkbox" checked={settings.reducedMotion} onChange={e => setSetting('reducedMotion', e.target.checked)} /></label><div className="display-setting"><div><strong>横屏阅读</strong><p>把手机横过来，能看见更多校园与角色。</p></div><FullscreenButton display={display} /></div><div className="keyboard-hints"><span>空格 / Enter · 继续</span><span>A · 自动</span><span>S / Esc · 存档</span><span>L · 回看</span><span>H · 隐藏 / 恢复界面</span></div><p className="soft-note">隐藏界面后会暂停自动阅读，轻触画面即可恢复，段落保持原位。推荐横屏游玩。安装后优先横屏；也可继续竖屏阅读，旋转时自动保留进度。若屏幕没有转向，请开启系统的自动旋转。</p></div>}
       {panel === 'saves' && <><div className="save-grid">{slots.map(slot => { const save = saveList[slot]; return <article key={slot} className="save-card"><div className="save-heading"><span>{slot === 'auto' ? '自动存档' : `手动存档 ${slot}`}</span><small>{save ? new Date(save.savedAt).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }) : '空白'}</small></div><h3>{save ? getScene(save.state).title : '把这一刻留下来'}</h3><p>{save ? `${getScene(save.state).location} · 第 ${save.state.line + 1} 段` : '开始阅读后可以存入这里。'}</p><div>{slot !== 'auto' && <button disabled={screen !== 'game'} onClick={() => { const run = () => { if (store(slot, currentRef.current)) notify('这一刻已经保存。'); }; if (save) setConfirm({ text: `要更新手动存档 ${slot} 吗？`, action: run }); else run(); }}>存入</button>}<button disabled={!save} onClick={() => save && load(save)}>读取 <Icon name="arrow" size={14} /></button></div></article>; })}</div><div className="save-actions"><button onClick={exportProgress}><Icon name="download" size={18} />导出存档</button><button onClick={() => importRef.current?.click()}><Icon name="upload" size={18} />导入存档</button></div><p className="soft-note">手机与电脑共用存档格式。导出 JSON 后，在另一台设备导入即可继续；当前版本不提供账户云同步。</p></>}
-      {panel === 'history' && <div className="history-list">{recordLine(game).history.length === 0 ? <p>还没有读过的文字。</p> : recordLine(game).history.map((entry, index) => <article key={`${entry.sceneId}-${entry.line}-${index}`}><span>{entry.speaker}</span><p>{entry.text}</p></article>)}</div>}
+      {panel === 'history' && <RecordSearch entries={readHistory} renderEntry={entry => <article><div className="history-entry-location"><span>{getScene({ ...game, sceneId: entry.sceneId }).title} · 第 {entry.line + 1} 段</span><button className="history-reread" onClick={() => requestReread(entry)}>从这里重读 <Icon name="arrow" size={14} /></button></div><span>{entry.speaker}</span><p>{entry.text}</p></article>} />}
       {panel === 'about' && <div className="about-copy"><span className="about-leaf"><Icon name="leaf" size={46} /></span><p>《湿性愈合》是一部关于青春期、校园与靠近的原创视觉小说。</p><p>你扮演高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥、许棠相遇。成绩、家庭期待、说不出口的话，都会成为这段故事的一部分。</p><p>三章《生长痛》《显影》《雨停以后》已完整收录。第一章保留三个章节结局，最后一个放学路口通向四个最终结局。“湿性愈合”在故事中作为情感隐喻：为尚未说完的话，保留一点可以被接住的空间。</p><p className="soft-note">创作 / AureliusWu 与 AI 协作<br />美术 / AI 生成原创背景与角色立绘<br />音乐 / 原创程序音序<br />版本 / {__APP_VERSION__}</p></div>}
     </Dialog>}
-    {confirm && <Dialog title="留住这一刻" onClose={() => setConfirm(null)}><p className="confirm-text">{confirm.text}</p><div className="confirm-actions"><button className="secondary" onClick={() => setConfirm(null)}>再想一下</button><button className="primary" onClick={() => { confirm.action(); setConfirm(null); }}>继续 <Icon name="arrow" size={18} /></button></div></Dialog>}
+    {confirm && <Dialog title="留住这一刻" onClose={() => setConfirm(null)}><p className="confirm-text">{confirm.text}</p><div className="confirm-actions">{confirm.exportBefore && <button className="secondary" onClick={exportProgress}><Icon name="download" size={18} />导出原进度</button>}<button className="secondary" onClick={() => setConfirm(null)}>再想一下</button><button className="primary" onClick={() => { confirm.action(); setConfirm(null); }}>继续 <Icon name="arrow" size={18} /></button></div></Dialog>}
     <input ref={importRef} className="sr-only" tabIndex={-1} aria-label="选择存档文件" type="file" accept=".json,application/json" onChange={e => { void importProgress(e.target.files?.[0]); }} />
     <div className={toast ? 'toast visible' : 'toast'} role="status" aria-live="polite">{toast}</div>
   </div>;

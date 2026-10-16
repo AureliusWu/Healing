@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "version": "1.0.7",
+  "candidateHead": "7dcb160c33318edbed9a94088401a6e7d0cb2223",
+  "ciCheckout": "915f32a62e66b9c01ab477281f408deb666f674d",
+  "checkedAt": "2026-10-15",
+  "run": {
+    "id": 38662790234,
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/38662790234",
+    "event": "pull_request",
+    "conclusion": "success"
+  },
+  "web": {
+    "jobId": 116187724356,
+    "logicPassed": 63,
+    "browserPassed": 61,
+    "browserSkipped": 3,
+    "releaseRegressionPassed": 9,
+    "materialToolsPassed": 10,
+    "sharedFileHashes": 15,
+    "build": "success"
+  },
+  "windows": {
+    "jobId": 116188613573,
+    "sourceLaunch": "success",
+    "packagedAsarLaunch": "success",
+    "nsisInstaller": "success",
+    "portableExe": "built",
+    "installedUpgrade": {
+      "previousVersion": "1.0.2",
+      "version": "1.0.7",
+      "sameInstallation": true,
+      "sameProfile": true,
+      "actualPriorSaveRestored": true,
+      "restoredEnding": "end-lin-final",
+      "baselineInstallerSha256": "10bf1c8871bb2212c87e3dcbb52b8f262d92aeb3911a5d3a382ee03733b59e6b",
+      "currentInstallerSha256": "97c6b601b8e9abf9eb8cb8d78784d98766a209118022d9761c288033c537be1c",
+      "installedAsarSha256": "a58f45343af7ff0e7a95992de8e61f3dbed3deff521432bcc4a2f2a015a49572",
+      "builtAsarSha256": "a58f45343af7ff0e7a95992de8e61f3dbed3deff521432bcc4a2f2a015a49572",
+      "ok": true
+    }
+  },
+  "publication": {
+    "release": "skipped: pull-request workflow",
+    "pages": "not run for this candidate",
+    "publicVersion": "1.0.4"
+  },
+  "limits": [
+    "Actual job logs were read. This evidence applies only to the v1.0.7 candidate and its PR merge checkout.",
+    "This is not platform evidence for v1.0.8."
+  ]
+}

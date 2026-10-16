@@ -1,6 +1,18 @@
 # 验证记录
 
-当前正式版本：1.0.3，Windows 公开下载与 PWA 公网均已核验。客户端、CI、Release 和标签绑定提交 `848792bed66f5b94f67ce5753de36c7c90b07bda`。日期：2026-10-11；后续证据文档提交不改变已验收客户端字节。
+当前正式版本：1.0.4，对应客户端提交 `5d847b3c3b8763dcada6f34d013995f7c87e9f62`。Windows 与公开 PWA 三种屏幕的真实平台范围见 [v1.0.4 发布记录](production/PUBLISHED-v1.0.4.json)；下载记录属于 GitHub 元数据与上传摘要验证，没有宣称再次独立下载全部 EXE。
+
+## v1.0.8 当前候选
+
+修复页面切入后台后逐字仍继续，回到前台保留原字数。PR head `852678adf789331fb9bd56ccac1e5735466bd337` 的 [Build game #38743334332](https://github.com/AureliusWu/Healing/actions/runs/38743334332) 已完整成功：63 项逻辑、9 项发行回归、10 项素材工具、15 份共用哈希、生产构建，以及完整 72 项浏览器中的 69 项通过/3 项设备适用性跳过。
+
+Windows 源码启动、安装/便携包生成、实际 ASAR 启动及真实 1.0.2→1.0.8 同安装位同 profile 升级通过，恢复旧存档 `end-lin-final`；安装后 ASAR 与构建摘要一致。当前 PR 的 job、摘要和早期本地历史执行分别记录于 [后台阅读验收](production/BACKGROUND-READING-REVIEW.md) 与 [结构化证据](production/BACKGROUND-VALIDATION.json)。
+
+PR 双端成功不代表正式发行。正式 main 构建、Release 与公开 PWA 三屏复验尚待执行，当前公开版本仍为 v1.0.4。
+
+## v1.0.7 基线候选平台核验
+
+已回读 [Build game #38662790234](https://github.com/AureliusWu/Healing/actions/runs/38662790234)：web/windows 成功，63 项逻辑、61 项浏览器通过/3 项设备适用性跳过，Windows 源码/实际 ASAR 和真实 NSIS 1.0.2→1.0.7 同安装位同 profile 旧存档恢复成功。准确提交及摘要见 [v1.0.7 平台证据](production/PLATFORM-v1.0.7.json)。该证据不能替代 v1.0.8 的平台执行。
 
 ## v1.0.3 正式发布与公网结果
 

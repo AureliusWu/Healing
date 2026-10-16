@@ -7,6 +7,7 @@ React 19 + TypeScript + Vite 8 是唯一的界面与构建入口。Electron 44 �
 | `src/story/chapter1.ts`、`chapter2.ts`、`chapter3.ts`、`index.ts` | 三章有向剧情图、台词、选择、章首和七种结局元数据 |
 | `src/game/progress.ts`、`src/components/EditionPanels.tsx` | 验证章首/结局检查点、事件画面、音乐鉴赏和制作名单 |
 | `src/game/engine.ts` | 不依赖 DOM 的剧情推进、选择、路线重放与结局解析 |
+| `src/game/reread.ts` | 原生重放验证当前已读路径，裁剪目标之后的选择并重建段落 |
 | `src/game/storage.ts` | 版本化存档、本地槽位、设置、严格的导入解析 |
 | `src/game/presentation.ts`、`src/game/character-frames.json`、`src/components/CharacterSprite.tsx` | 从台词与位置重建角色表情、按真实图集框采样，不添加存档状态 |
 | `src/components/CharacterGallery.tsx` | 角色档案、六种表情与三视图浏览 |
@@ -25,6 +26,12 @@ React 19 + TypeScript + Vite 8 是唯一的界面与构建入口。Electron 44 �
 `schema: 1`、`game: moist-healing`；`storyVersion` 支持旧 `chapter1-v1` 与完整 `moist-healing-v1`。存档记录剧情位置和选择序列。导入时从入口重放选择来重建属性与历史，不相信输入文件中的属性、台词历史或任意场景跳转。大小限制为 2 MB。
 
 两端使用相同 JSON 文件格式。浏览器与 Electron 的存储空间彼此独立，迁移需要玩家导出/导入。目前没有后端、账户或自动云同步。
+
+回看重读只接受当前路线已经到达的场景/段落。先重放当前状态，再以最短合法选择前缀到达目标，不信任属性或历史数组。确认前可导出原进度，取消不改变任何存档；确认后仅更新自动槽，保留手动槽与已解锁回忆。正在打字的当前全文不提前加入回看。面板、确认、隐藏与标题页暂停逐字显示，恢复原字数；设置速度和退出快进不重置正文。
+
+明确载入进度时，`load` 同时重置目标段落的临时打字字数。即使目标与当前位置相同，重读、手动读取、JSON 导入或标题页继续也从段首逐字显示；关闭面板、取消确认、恢复隐藏界面仍保留原字数。该显示状态不进入存档，段落位置键不能独自充当一次载入的标识。
+
+页面可见性属于统一暂停条件。切入后台停止逐字、自动和快进；返回前台保留原字数，自动与快进仍由玩家重新开启。interval 回调及推进入口还直接检查 `document.hidden`，避免可见性事件已到达、React effect 尚未清理旧计时器时继续打字或推进。该临时状态不进入存档。
 
 内容增补可加入新章节数据并明确迁移契约。不要在原剧情版本内悄悄改段落顺序，否则旧存档的段落索引可能指向不同文本。
 

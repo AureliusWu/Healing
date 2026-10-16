@@ -1,3 +1,5 @@
+> 2026-10-15：v1.0.8 候选，修复页面切入后台后逐字仍继续，并验证旧存档与离线恢复的交叉状态。承接 v1.0.7 同段载入重置与已读重读；当前验证与平台范围见 [本轮记录](docs/production/BACKGROUND-READING-REVIEW.md)。
+
 > 2026-10-13：v1.0.4 剧情精修与漏句样张 CG 已正式发布，见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [本轮电脑/手机预览](docs/previews/v1.0.4/README.md)。
 
 # 湿性愈合

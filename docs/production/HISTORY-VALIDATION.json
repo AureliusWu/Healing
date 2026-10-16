@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-14",
+  "project": "Healing",
+  "baseCommit": "b78aca7de13ce552e9828783750d94ba54fbd11e",
+  "scope": "read-history search; native story/save identities and existing art/voices preserved",
+  "platforms": {
+    "local": "verified; see HISTORY-REVIEW.md",
+    "githubCI": "pending",
+    "publicPWA": "pending",
+    "humanListening": "not performed"
+  },
+  "version": "1.0.5",
+  "localChecks": {
+    "unit": 48,
+    "browserPassed": 53,
+    "browserSkipped": 3,
+    "routes": 1296,
+    "oldChapterMigrations": 54
+  },
+  "browser": "Chromium 140.0.7339.186; production build"
+}
