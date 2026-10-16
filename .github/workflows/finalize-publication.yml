@@ -121,3 +121,5 @@ jobs:
         with:
           name: Healing-Publication-Finalization
           path: .publication-finalization/*.json
+          include-hidden-files: true
+          if-no-files-found: error

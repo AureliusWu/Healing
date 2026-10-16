@@ -252,8 +252,121 @@
   ],
   "notesSynchronization": {
     "workflow": ".github/workflows/finalize-publication.yml",
-    "scope": "description only; existing tag and all assets are verified and retained",
-    "executionEvidence": "Healing-Publication-Finalization artifact of the documentation commit"
+    "scope": "Description only; the existing release identity, tag and all published assets are verified and retained.",
+    "executionEvidence": "Successful first finalization run/job logs and API readback; that original run did not upload an artifact.",
+    "firstFinalization": {
+      "documentationCommit": "a1224f8df382eee26e6866917db9fed791a3fbe9",
+      "run": 38829100932,
+      "url": "https://github.com/AureliusWu/Healing/actions/runs/38829100932",
+      "job": 116743434093,
+      "jobUrl": "https://github.com/AureliusWu/Healing/actions/runs/38829100932/job/116743434093",
+      "status": "success",
+      "finalizedAt": "2026-10-16T00:22:38.5541503Z",
+      "log": {
+        "path": "artifacts/finalize-38829100932-job-116743434093.log",
+        "sha256": "f51c16b58f1772aa5a9447b5d909340327be23947ffd30b7655e58a24ec3e5d0"
+      },
+      "result": {
+        "version": "1.0.8",
+        "runtimeCommit": "d7e6df9b697eebd982f2043785089b2463a1ab91",
+        "documentationCommit": "a1224f8df382eee26e6866917db9fed791a3fbe9",
+        "changedPaths": [
+          ".github/workflows/finalize-publication.yml",
+          "README.md",
+          "docs/VALIDATION.md",
+          "docs/production/BACKGROUND-READING-REVIEW.md",
+          "docs/production/BACKGROUND-VALIDATION.json",
+          "docs/production/ITERATIONS.md",
+          "docs/production/PUBLISHED-v1.0.8.json",
+          "docs/releases/README.md",
+          "docs/releases/v1.0.8.md"
+        ],
+        "tagVerified": true,
+        "successfulRuntimeBuildAndPagesVerified": true,
+        "allFiveAssetsDownloadedAndDigestsMatched": true,
+        "allFourChecksumRowsMatched": true,
+        "publicEntryAndWorkerMatched": true,
+        "assetSha256": {
+          "MoistHealing-1.0.8-x64-Portable.exe": "30d30ece5b3dfab105f72df63ab6066cf2fad26e3a69d50412d22382213d540c",
+          "MoistHealing-1.0.8-x64-Setup.exe": "b6949395368592cf973dcc3a41c23565f8ed148242684727de75e94ecaaffbf4",
+          "MoistHealing-PWA-1.0.8.zip": "2a1383282fbdc0a5dca18a6dfea539aa1052fdab6dfdddf8b1508c050af02ca7",
+          "release.json": "f235936476ee436736a9454e1bbecc3e336cca561b3f51d6489b3998e33fcd05",
+          "SHA256SUMS.txt": "c22d7aea26a831f596141eda0ecca7654186caccaef82f79499be29223bf63de"
+        },
+        "releaseNotesReadbackMatched": true,
+        "assetsUnchanged": true,
+        "tagUnchanged": true,
+        "draftAndPrereleaseUnchanged": true
+      },
+      "artifact": {
+        "name": "Healing-Publication-Finalization",
+        "status": "not-uploaded",
+        "apiArtifactCount": 0,
+        "originalUploadOptions": {
+          "include-hidden-files": false,
+          "if-no-files-found": "warn"
+        },
+        "warning": "No files were found with the provided path: .publication-finalization/*.json. No artifacts will be uploaded.",
+        "uploadStepConclusion": "success",
+        "explanation": "The JSON files were created under the hidden .publication-finalization directory; the original upload step excluded hidden files. Its missing-file warning did not fail the finalization checks or job."
+      }
+    },
+    "documentationFollowup": {
+      "commit": "a1224f8df382eee26e6866917db9fed791a3fbe9",
+      "build": {
+        "run": 38829100959,
+        "url": "https://github.com/AureliusWu/Healing/actions/runs/38829100959",
+        "name": "Build game",
+        "event": "push",
+        "headCommit": "a1224f8df382eee26e6866917db9fed791a3fbe9",
+        "status": "success",
+        "jobs": [
+          {
+            "id": 116743433974,
+            "name": "web",
+            "url": "https://github.com/AureliusWu/Healing/actions/runs/38829100959/job/116743433974",
+            "status": "success"
+          },
+          {
+            "id": 116744515315,
+            "name": "windows",
+            "url": "https://github.com/AureliusWu/Healing/actions/runs/38829100959/job/116744515315",
+            "status": "success"
+          },
+          {
+            "id": 116745355269,
+            "name": "release",
+            "url": "https://github.com/AureliusWu/Healing/actions/runs/38829100959/job/116745355269",
+            "status": "success"
+          }
+        ]
+      },
+      "publicPwa": {
+        "run": 38829716908,
+        "url": "https://github.com/AureliusWu/Healing/actions/runs/38829716908",
+        "name": "Publish PWA",
+        "event": "workflow_run",
+        "headCommit": "a1224f8df382eee26e6866917db9fed791a3fbe9",
+        "status": "success",
+        "jobs": [
+          {
+            "id": 116745438492,
+            "name": "deploy",
+            "url": "https://github.com/AureliusWu/Healing/actions/runs/38829716908/job/116745438492",
+            "status": "success"
+          }
+        ]
+      }
+    },
+    "artifactUploadRepair": {
+      "uploadOptions": {
+        "include-hidden-files": true,
+        "if-no-files-found": "error"
+      },
+      "trigger": "A subsequent main push changing docs/production/PUBLISHED-v1.0.8.json",
+      "status": "configured-awaiting-run",
+      "executionEvidence": "A new run and its uploaded JSON artifact must be inspected before recording artifact-upload success."
+    }
   },
   "limits": [
     "Controlled headless visibility signals do not certify a physical phone lock screen.",
