@@ -1,0 +1,123 @@
+name: Finalize v1.0.8 publication record
+on:
+  push:
+    branches: [main]
+    paths: [docs/production/PUBLISHED-v1.0.8.json]
+permissions:
+  actions: read
+  contents: write
+concurrency:
+  group: finalize-healing-v1.0.8
+  cancel-in-progress: false
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify the published runtime and existing assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import hashlib, json, os, re, subprocess, urllib.request
+          from pathlib import Path
+          repository = os.environ['GITHUB_REPOSITORY']
+          assert repository == 'AureliusWu/Healing'
+          record = json.loads(Path('docs/production/PUBLISHED-v1.0.8.json').read_text())
+          commit = record['runtimeCommit']
+          assert record['version'] == '1.0.8' and re.fullmatch('[a-f0-9]{40}', commit)
+          assert commit == 'd7e6df9b697eebd982f2043785089b2463a1ab91'
+          assert subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip() == os.environ['GITHUB_SHA']
+          subprocess.run(['git', 'merge-base', '--is-ancestor', commit, 'HEAD'], check=True)
+          changed = subprocess.check_output(['git', 'diff', '--name-only', commit, 'HEAD'], text=True).splitlines()
+          assert changed and all(p.startswith('docs/') or p in ['README.md', 'CHANGELOG.md', '.github/workflows/finalize-publication.yml'] for p in changed), changed
+          def api(path):
+              request = urllib.request.Request('https://api.github.com/repos/' + repository + path, headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  return json.load(response)
+          tag = api('/git/ref/tags/v1.0.8')
+          assert tag['object']['type'] == 'commit' and tag['object']['sha'] == commit
+          release = api('/releases/tags/v1.0.8')
+          assert not release['draft'] and not release['prerelease'] and release['target_commitish'] == commit
+          assert release['id'] == record['release']['id'] and release['html_url'] == record['release']['url']
+          for key, name in [('build', 'Build game'), ('publicPwa', 'Publish PWA')]:
+              assert record[key]['status'] == 'success'
+              run = api('/actions/runs/' + str(record[key]['run']))
+              assert run['name'] == name and run['conclusion'] == 'success' and run['head_sha'] == commit
+          names = {'MoistHealing-1.0.8-x64-Setup.exe', 'MoistHealing-1.0.8-x64-Portable.exe', 'MoistHealing-PWA-1.0.8.zip', 'release.json', 'SHA256SUMS.txt'}
+          assert {a['name'] for a in release['assets']} == names
+          expected = {a['name']: a for a in record['release']['assets']}
+          assert set(expected) == names
+          root = Path('.publication-finalization')
+          root.mkdir()
+          (root / 'before.json').write_text(json.dumps(release, indent=2) + '\n')
+          hashes = {}
+          for asset in release['assets']:
+              name = asset['name']
+              assert asset['id'] == expected[name]['id'] and asset['size'] == expected[name]['bytes'] and asset['digest'] == expected[name]['digest']
+              request = urllib.request.Request(asset['browser_download_url'], headers={'User-Agent': 'Healing-publication-finalization', 'Cache-Control': 'no-cache'})
+              digest, size = hashlib.sha256(), 0
+              with urllib.request.urlopen(request, timeout=180) as response, (root / name).open('wb') as output:
+                  assert response.status == 200
+                  while data := response.read(1024 * 1024):
+                      output.write(data)
+                      digest.update(data)
+                      size += len(data)
+              hashes[name] = digest.hexdigest()
+              assert size == asset['size'] and 'sha256:' + hashes[name] == asset['digest'], name
+          lines = (root / 'SHA256SUMS.txt').read_text().splitlines()
+          sums = dict((name, sha) for sha, name in (line.split('  ', 1) for line in lines))
+          assert len(lines) == 4 and set(sums) == names - {'SHA256SUMS.txt'}
+          assert all(hashes[name] == sha for name, sha in sums.items())
+          metadata = json.loads((root / 'release.json').read_text())
+          assert metadata['commit'] == commit and metadata['version'] == '1.0.8' and metadata['saveSchema'] == 1
+          assert metadata['storyVersion'] == 'moist-healing-v1' and set(metadata['compatibleStoryVersions']) == {'chapter1-v1', 'moist-healing-v1'}
+          assert record['publicPwa']['target'] == 'https://aureliuswu.github.io/Healing/'
+          assert set(record['publicPwa']['screens']) == {'desktop', 'mobile', 'landscape'}
+          for file in record['publicPwa']['publishedFiles']:
+              assert file['path'] in ['index.html', 'sw.js']
+              request = urllib.request.Request(record['publicPwa']['target'] + file['path'] + '?finalize=' + os.environ['GITHUB_SHA'], headers={'Cache-Control': 'no-cache'})
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  assert response.status == 200 and hashlib.sha256(response.read()).hexdigest() == file['sha256']
+          assert {f['path'] for f in record['publicPwa']['publishedFiles']} == {'index.html', 'sw.js'}
+          evidence = {'version': '1.0.8', 'runtimeCommit': commit, 'documentationCommit': os.environ['GITHUB_SHA'], 'changedPaths': changed, 'tagVerified': True, 'successfulRuntimeBuildAndPagesVerified': True, 'allFiveAssetsDownloadedAndDigestsMatched': True, 'allFourChecksumRowsMatched': True, 'publicEntryAndWorkerMatched': True, 'assetSha256': hashes}
+          (root / 'verification.json').write_text(json.dumps(evidence, indent=2) + '\n')
+          print('PUBLICATION_VERIFIED', json.dumps(evidence))
+          PY
+      - name: Synchronize release notes without replacing assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release edit v1.0.8 --repo "$GITHUB_REPOSITORY" --notes-file docs/releases/v1.0.8.md
+      - name: Read back the updated description and unchanged release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/$GITHUB_REPOSITORY/releases/tags/v1.0.8" > .publication-finalization/after.json
+          gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/v1.0.8" > .publication-finalization/tag-after.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('.publication-finalization')
+          before, after = [json.loads((root / (name + '.json')).read_text()) for name in ['before', 'after']]
+          for key in ['id', 'tag_name', 'target_commitish', 'name', 'draft', 'prerelease', 'created_at', 'published_at']:
+              assert before[key] == after[key], key
+          asset_fields = ['id', 'name', 'size', 'digest', 'browser_download_url', 'state']
+          def assets(release):
+              return sorted([{k: a[k] for k in asset_fields} for a in release['assets']], key=lambda a: a['name'])
+          assert assets(before) == assets(after)
+          assert after['body'] == Path('docs/releases/v1.0.8.md').read_text()
+          tag = json.loads((root / 'tag-after.json').read_text())
+          assert tag['object']['type'] == 'commit' and tag['object']['sha'] == before['target_commitish']
+          evidence = json.loads((root / 'verification.json').read_text())
+          evidence.update({'releaseNotesReadbackMatched': True, 'assetsUnchanged': True, 'tagUnchanged': True, 'draftAndPrereleaseUnchanged': True})
+          (root / 'finalization.json').write_text(json.dumps(evidence, indent=2) + '\n')
+          print('PUBLICATION_FINALIZED', json.dumps(evidence))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Healing-Publication-Finalization
+          path: .publication-finalization/*.json

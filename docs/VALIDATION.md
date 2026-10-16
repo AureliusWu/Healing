@@ -1,14 +1,15 @@
 # 验证记录
 
-当前正式版本：1.0.4，对应客户端提交 `5d847b3c3b8763dcada6f34d013995f7c87e9f62`。Windows 与公开 PWA 三种屏幕的真实平台范围见 [v1.0.4 发布记录](production/PUBLISHED-v1.0.4.json)；下载记录属于 GitHub 元数据与上传摘要验证，没有宣称再次独立下载全部 EXE。
+当前正式版本：**v1.0.8**，运行提交 `d7e6df9b697eebd982f2043785089b2463a1ab91`。Windows 与公开 PWA 均已更新；正式双端、真实安装升级、公开三屏和五项下载回读见 [PUBLISHED-v1.0.8.json](production/PUBLISHED-v1.0.8.json)。
 
-## v1.0.8 当前候选
+## v1.0.8 正式发布与公开结果
 
-修复页面切入后台后逐字仍继续，回到前台保留原字数。PR head `852678adf789331fb9bd56ccac1e5735466bd337` 的 [Build game #38743334332](https://github.com/AureliusWu/Healing/actions/runs/38743334332) 已完整成功：63 项逻辑、9 项发行回归、10 项素材工具、15 份共用哈希、生产构建，以及完整 72 项浏览器中的 69 项通过/3 项设备适用性跳过。
+- [Build game #38827590631](https://github.com/AureliusWu/Healing/actions/runs/38827590631) 的 Web、Windows、Release 全部 success。正式 web job `116738556805` 完成 63 项逻辑（1,296 条完整路线、54 份旧章迁移）、9 项发行回归、10 项素材工具和 15 份共用哈希。完整 72 项浏览器最终得到 69 项通过、3 项设备适用性跳过，耗时 2.2 分钟。PWA 为 30 项预缓存资源，缓存版本 `e86f9306b4d43f`。
+- 正式 windows job `116739534640` 的源码、NSIS/便携包构建、实际 ASAR 启动均成功。一次性 Windows runner 实际安装公开 v1.0.2，再同安装位升级至 v1.0.8；EXE 产品版本分别为 1.0.2/1.0.8，同 profile 实际旧存档恢复 `end-lin-final`，随后安装后完整 smoke 通过。安装后与构建 ASAR 的 SHA-256 均为 `cd59c067bbf734b163b77c12f374ef433382d20fdccdbb635335f7d999675d0b`。正式安装器与之前 PR 的摘要分别记录；便携 EXE 核验了构建和公开字节，没有独立执行便携包装器。
+- [Publish PWA #38828306159](https://github.com/AureliusWu/Healing/actions/runs/38828306159) 已部署上述正式产物。公开网址电脑、手机竖屏、手机横屏三组 `LIVE_SMOKE_OK` 均为 1.0.8，选择、存档续读、真实断网刷新、旧章迁移、完整 CG、最终结局、制作名单均通过，页面异常为零。公开 `index.html` SHA-256 为 `fdb5b6872b78a59fd2ff8cdb0782fcf5bff287d77eba9dd9602f1b4e01b3e75d`，`sw.js` 为 `5008e5beb67c7e7f09f7e7996eef51242307a7d8c3247128bf5a47d438aae35b`，均与正式 CI 附件实际字节一致。本地独立 HTTP 比对也成功；本地浏览器导航被代理证书拦截，没有计为独立三屏通过。
+- [正式 v1.0.8](https://github.com/AureliusWu/Healing/releases/tag/v1.0.8) 为非草稿、非预发布；tag 与 target 均精确绑定上述运行提交。五项公开资产已全部实际下载并核对 GitHub digest，四行 `SHA256SUMS.txt` 全部一致。安装 EXE 为 122,225,347 字节、SHA-256 `b6949395368592cf973dcc3a41c23565f8ed148242684727de75e94ecaaffbf4`；便携 EXE 为 121,991,104 字节、SHA-256 `30d30ece5b3dfab105f72df63ab6066cf2fad26e3a69d50412d22382213d540c`，二者均与正式 Windows 附件实际字节一致。PWA ZIP 为 10,372,979 字节、SHA-256 `2a1383282fbdc0a5dca18a6dfea539aa1052fdab6dfdddf8b1508c050af02ca7`，全部 32 个文件的集合与字节均匹配正式 PWA 附件。公开 `release.json` 的运行提交、schema 1 与两种兼容剧情标识也已核对。
 
-Windows 源码启动、安装/便携包生成、实际 ASAR 启动及真实 1.0.2→1.0.8 同安装位同 profile 升级通过，恢复旧存档 `end-lin-final`；安装后 ASAR 与构建摘要一致。当前 PR 的 job、摘要和早期本地历史执行分别记录于 [后台阅读验收](production/BACKGROUND-READING-REVIEW.md) 与 [结构化证据](production/BACKGROUND-VALIDATION.json)。
-
-PR 双端成功不代表正式发行。正式 main 构建、Release 与公开 PWA 三屏复验尚待执行，当前公开版本仍为 v1.0.4。
+PR head `852678ad` 的 [Build game #38743334332](https://github.com/AureliusWu/Healing/actions/runs/38743334332) 为先前候选验证；完整 PR 与正式 main 分别保存在 [后台阅读验收](production/BACKGROUND-READING-REVIEW.md) 和 [结构化证据](production/BACKGROUND-VALIDATION.json)，未将 PR 产物冒称为正式下载。后台信号为真实 Chromium 中受控注入，不代表物理手机锁屏认证；截图保持为 CI 或本地 QA 产物。
 
 ## v1.0.7 基线候选平台核验
 

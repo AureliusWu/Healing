@@ -246,9 +246,10 @@
   },
   "platform": {
     "v1.0.7Evidence": "PLATFORM-v1.0.7.json",
-    "v1.0.8Windows": "passed for PR head 852678ad in Build game 38743334332; formal main run pending",
-    "v1.0.8PublicPwa": "formal deployment and actual public three-screen verification pending",
-    "publicVersion": "1.0.4"
+    "v1.0.8Windows": "passed on formal main d7e6df9 in Build game 38827590631; source, packaged ASAR and real NSIS 1.0.2 upgrade",
+    "v1.0.8PublicPwa": "passed: Publish PWA 38828306159, actual public desktop/mobile/landscape and real offline reload",
+    "publicVersion": "1.0.8",
+    "publicationEvidence": "PUBLISHED-v1.0.8.json"
   },
   "visualQa": {
     "historicalInspected": [
@@ -258,14 +259,70 @@
     "screenshots": "local QA only; not committed or included in deliverable"
   },
   "limits": [
-    "Local restored-session and historical browser executions are retained as dated snapshots; latestCi is the current complete PR result.",
-    "The interrupted local 72-case run is historical; the current PR CI completed all 72 cases with 69 passed and 3 device-specific skips.",
+    "Local restored-session and historical browser executions remain dated snapshots; latestCi is the complete formal main result.",
+    "The interrupted local 72-case run is historical; the formal main CI completed all 72 cases with 69 passed and 3 device-specific skips.",
     "Headless visibility events are controlled signals, not a real phone lock-screen test.",
-    "PR platform verification is not formal main release, publication or public PWA evidence.",
-    "Formal main build, release and public PWA verification have not yet completed."
+    "Public release, all five downloaded assets, exact CI-byte comparisons and actual public three-screen results are recorded in PUBLISHED-v1.0.8.json."
   ],
-  "releaseReadiness": "PR dual-platform verification passed; formal main build, release and public PWA verification pending",
+  "releaseReadiness": "published: formal main Build game, release, actual public three-screen offline checks and five-asset download readback passed",
   "latestCi": {
+    "phase": "push main",
+    "head": "d7e6df9b697eebd982f2043785089b2463a1ab91",
+    "checkout": "d7e6df9b697eebd982f2043785089b2463a1ab91",
+    "run": 38827590631,
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/38827590631",
+    "conclusion": "success",
+    "web": {
+      "job": 116738556805,
+      "logicPassed": 63,
+      "releaseRegressionPassed": 9,
+      "materialToolsPassed": 10,
+      "sharedFileHashes": 15,
+      "browserPlanned": 72,
+      "browserPassed": 69,
+      "browserSkipped": 3,
+      "browserDuration": "2.2m",
+      "fullSuiteCompleted": true,
+      "pwaCacheVersion": "e86f9306b4d43f"
+    },
+    "windows": {
+      "job": 116739534640,
+      "sourceLaunch": "success",
+      "installationAndPortableBuild": "success",
+      "packagedAsarLaunch": "success",
+      "previousInstalledVersion": "1.0.2",
+      "upgradedVersion": "1.0.8",
+      "sameInstallation": true,
+      "sameProfile": true,
+      "actualPriorSaveRestored": true,
+      "restoredEnding": "end-lin-final",
+      "installedAsarSha256": "cd59c067bbf734b163b77c12f374ef433382d20fdccdbb635335f7d999675d0b",
+      "builtAsarSha256": "cd59c067bbf734b163b77c12f374ef433382d20fdccdbb635335f7d999675d0b",
+      "currentInstallerSha256": "b6949395368592cf973dcc3a41c23565f8ed148242684727de75e94ecaaffbf4"
+    },
+    "releaseJob": {
+      "job": 116740640098,
+      "conclusion": "success"
+    },
+    "artifacts": [
+      {
+        "id": 12016296061,
+        "name": "MoistHealing-Windows-x64",
+        "digest": "sha256:a62fcf8099d2c937511c0ae4e43dd38d238a42d214526ac2567a5e9433918047"
+      },
+      {
+        "id": 12015717933,
+        "name": "Healing-Windows-Runtime-Evidence",
+        "digest": "sha256:22d19ce0850ec2c449ee8c6795745873f23a906c8ce75afc47e86003e406076b"
+      },
+      {
+        "id": 12015543083,
+        "name": "MoistHealing-PWA",
+        "digest": "sha256:348cbce5b7e7326e17fe1910180bf38dbfa62997acf8b1e6083417267eb94602"
+      }
+    ]
+  },
+  "previousPrCi": {
     "phase": "pull_request",
     "head": "852678adf789331fb9bd56ccac1e5735466bd337",
     "checkout": "9c410cbcd4893033e873ccdd2c1fd5d9f5141b58",

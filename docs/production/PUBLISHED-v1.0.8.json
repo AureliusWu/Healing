@@ -1,0 +1,263 @@
+{
+  "schema": 1,
+  "date": "2026-10-16",
+  "project": "Healing",
+  "version": "1.0.8",
+  "runtimeCommit": "d7e6df9b697eebd982f2043785089b2463a1ab91",
+  "build": {
+    "run": 38827590631,
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/38827590631",
+    "status": "success",
+    "webJob": 116738556805,
+    "windowsJob": 116739534640,
+    "releaseJob": 116740640098,
+    "logicPassed": 63,
+    "completeRoutes": 1296,
+    "legacyMigrations": 54,
+    "releaseRegressionPassed": 9,
+    "materialToolsPassed": 10,
+    "sharedFileHashes": 15,
+    "browserPlanned": 72,
+    "browserPassed": 69,
+    "browserSkipped": 3,
+    "browserDuration": "2.2m",
+    "pwaCacheVersion": "e86f9306b4d43f",
+    "precacheResources": 30
+  },
+  "windows": {
+    "sourceSmoke": "success",
+    "packagedAsarSmoke": "success",
+    "installerAndPortableBuilt": true,
+    "actualInstallerUpgrade": {
+      "previousVersion": "1.0.2",
+      "version": "1.0.8",
+      "measuredAt": "2026-10-16T00:12:12.584Z",
+      "installation": "D:\\a\\_temp\\Healing-installed-JyUT9L\\game",
+      "stages": [
+        {
+          "name": "baseline-installed",
+          "version": "1.0.2",
+          "smoke": true,
+          "pid": 4496
+        },
+        {
+          "name": "upgrade-installed",
+          "version": "1.0.8",
+          "sameInstallation": true,
+          "sameProfile": true,
+          "actualPriorSaveRestored": true,
+          "smoke": true
+        }
+      ],
+      "baselineInstallerSha256": "10bf1c8871bb2212c87e3dcbb52b8f262d92aeb3911a5d3a382ee03733b59e6b",
+      "currentInstallerSha256": "b6949395368592cf973dcc3a41c23565f8ed148242684727de75e94ecaaffbf4",
+      "baselineExecutableVersion": "1.0.2",
+      "upgradedExecutableVersion": "1.0.8",
+      "installedAsarSha256": "cd59c067bbf734b163b77c12f374ef433382d20fdccdbb635335f7d999675d0b",
+      "builtAsarSha256": "cd59c067bbf734b163b77c12f374ef433382d20fdccdbb635335f7d999675d0b",
+      "ok": true
+    }
+  },
+  "publicPwa": {
+    "run": 38828306159,
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/38828306159",
+    "job": 116740876466,
+    "status": "success",
+    "sourceCommit": "d7e6df9b697eebd982f2043785089b2463a1ab91",
+    "target": "https://aureliuswu.github.io/Healing/",
+    "screens": [
+      "desktop",
+      "mobile",
+      "landscape"
+    ],
+    "sourceArtifact": 12015543083,
+    "artifactSha256": "348cbce5b7e7326e17fe1910180bf38dbfa62997acf8b1e6083417267eb94602",
+    "entryAndWorkerMatchTestedBuild": true,
+    "publishedFiles": [
+      {
+        "path": "index.html",
+        "sha256": "fdb5b6872b78a59fd2ff8cdb0782fcf5bff287d77eba9dd9602f1b4e01b3e75d"
+      },
+      {
+        "path": "sw.js",
+        "sha256": "5008e5beb67c7e7f09f7e7996eef51242307a7d8c3247128bf5a47d438aae35b"
+      }
+    ],
+    "liveSmoke": [
+      {
+        "url": "https://aureliuswu.github.io/Healing/",
+        "version": "1.0.8",
+        "screen": "desktop",
+        "orientation": "landscape",
+        "art": true,
+        "stageSeparated": true,
+        "fullWindowArtwork": true,
+        "pictureMode": true,
+        "autosave": true,
+        "offline": true,
+        "legacyContinuation": true,
+        "completeCg": true,
+        "finalEnding": true,
+        "credits": true,
+        "pageErrors": 0
+      },
+      {
+        "url": "https://aureliuswu.github.io/Healing/",
+        "version": "1.0.8",
+        "screen": "mobile",
+        "orientation": "landscape",
+        "art": true,
+        "stageSeparated": true,
+        "fullWindowArtwork": true,
+        "pictureMode": true,
+        "autosave": true,
+        "offline": true,
+        "legacyContinuation": true,
+        "completeCg": true,
+        "finalEnding": true,
+        "credits": true,
+        "pageErrors": 0
+      },
+      {
+        "url": "https://aureliuswu.github.io/Healing/",
+        "version": "1.0.8",
+        "screen": "landscape",
+        "orientation": "landscape",
+        "art": true,
+        "stageSeparated": true,
+        "fullWindowArtwork": true,
+        "pictureMode": true,
+        "autosave": true,
+        "offline": true,
+        "legacyContinuation": true,
+        "completeCg": true,
+        "finalEnding": true,
+        "credits": true,
+        "pageErrors": 0
+      }
+    ]
+  },
+  "release": {
+    "id": 414394590,
+    "tag": "v1.0.8",
+    "url": "https://github.com/AureliusWu/Healing/releases/tag/v1.0.8",
+    "draft": false,
+    "prerelease": false,
+    "publishedAt": "2026-10-16T00:13:59Z",
+    "targetCommit": "d7e6df9b697eebd982f2043785089b2463a1ab91",
+    "tagCommit": "d7e6df9b697eebd982f2043785089b2463a1ab91",
+    "assets": [
+      {
+        "id": 645588534,
+        "name": "MoistHealing-1.0.8-x64-Portable.exe",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/MoistHealing-1.0.8-x64-Portable.exe",
+        "bytes": 121991104,
+        "digest": "sha256:30d30ece5b3dfab105f72df63ab6066cf2fad26e3a69d50412d22382213d540c"
+      },
+      {
+        "id": 645588255,
+        "name": "MoistHealing-1.0.8-x64-Setup.exe",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/MoistHealing-1.0.8-x64-Setup.exe",
+        "bytes": 122225347,
+        "digest": "sha256:b6949395368592cf973dcc3a41c23565f8ed148242684727de75e94ecaaffbf4"
+      },
+      {
+        "id": 645588725,
+        "name": "MoistHealing-PWA-1.0.8.zip",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/MoistHealing-PWA-1.0.8.zip",
+        "bytes": 10372979,
+        "digest": "sha256:2a1383282fbdc0a5dca18a6dfea539aa1052fdab6dfdddf8b1508c050af02ca7"
+      },
+      {
+        "id": 645588777,
+        "name": "release.json",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/release.json",
+        "bytes": 293,
+        "digest": "sha256:f235936476ee436736a9454e1bbecc3e336cca561b3f51d6489b3998e33fcd05"
+      },
+      {
+        "id": 645588843,
+        "name": "SHA256SUMS.txt",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/SHA256SUMS.txt",
+        "bytes": 373,
+        "digest": "sha256:c22d7aea26a831f596141eda0ecca7654186caccaef82f79499be29223bf63de"
+      }
+    ],
+    "readback": {
+      "allFiveAssetsIndependentlyDownloaded": true,
+      "allGithubDigestsMatched": true,
+      "allFourChecksumRowsMatched": true,
+      "windowsExecutablesMatchCiArtifact": true,
+      "allPwaFilesMatchCiArtifact": true,
+      "pwaFileCount": 32,
+      "releaseJsonVerified": true,
+      "pwaZipCrc": "passed"
+    }
+  },
+  "releaseMetadata": {
+    "version": "1.0.8",
+    "commit": "d7e6df9b697eebd982f2043785089b2463a1ab91",
+    "build": "https://github.com/AureliusWu/Healing/actions/runs/38827590631",
+    "storyVersion": "moist-healing-v1",
+    "saveSchema": 1,
+    "compatibleStoryVersions": [
+      "chapter1-v1",
+      "moist-healing-v1"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": 12016296061,
+      "name": "MoistHealing-Windows-x64",
+      "digest": "sha256:a62fcf8099d2c937511c0ae4e43dd38d238a42d214526ac2567a5e9433918047"
+    },
+    {
+      "id": 12015717933,
+      "name": "Healing-Windows-Runtime-Evidence",
+      "digest": "sha256:22d19ce0850ec2c449ee8c6795745873f23a906c8ce75afc47e86003e406076b"
+    },
+    {
+      "id": 12015543083,
+      "name": "MoistHealing-PWA",
+      "digest": "sha256:348cbce5b7e7326e17fe1910180bf38dbfa62997acf8b1e6083417267eb94602"
+    },
+    {
+      "id": 12016396379,
+      "name": "MoistHealing-Live-Previews",
+      "digest": "sha256:fce344782bf80b7b041cb6fa0d7919411f7bc4ad5cc6b0ff0f844e8db5c5a204"
+    }
+  ],
+  "localFollowup": {
+    "publicHttpEntryAndWorker": "passed; same SHA-256 as successful main artifact",
+    "independentBrowserThreeScreens": "not counted: proxy certificate blocked navigation with ERR_CERT_AUTHORITY_INVALID",
+    "acceptanceSource": "successful GitHub Actions Publish PWA actual public three-screen checks"
+  },
+  "evidenceLogs": [
+    {
+      "path": "artifacts/main-web-38827590631.log",
+      "sha256": "c8265761931e2e955c052904dc33bee5871c48b4397b49221f48b7d327709597"
+    },
+    {
+      "path": "artifacts/main-windows-38827590631.log",
+      "sha256": "7341264adcb0cb25cb1ee004ec38717d8ee5ff04800d2c65af00f531fb6d6afb"
+    },
+    {
+      "path": "artifacts/main-pages-38828306159.log",
+      "sha256": "3475880f34cb2594dc6c793649a6afe8761c094195a57364f675ee8695abed3b"
+    },
+    {
+      "path": "artifacts/release-v1.0.8-readback/readback.json",
+      "sha256": "5eba710da3d33eb9bb91d7305e2b5177590e5ddad0e42911abece4030b75c73f"
+    }
+  ],
+  "notesSynchronization": {
+    "workflow": ".github/workflows/finalize-publication.yml",
+    "scope": "description only; existing tag and all assets are verified and retained",
+    "executionEvidence": "Healing-Publication-Finalization artifact of the documentation commit"
+  },
+  "limits": [
+    "Controlled headless visibility signals do not certify a physical phone lock screen.",
+    "Portable EXE bytes were verified; the portable wrapper was not independently launched.",
+    "Screenshots remain CI or local QA artifacts; no screenshots were added to this publication record."
+  ]
+}
