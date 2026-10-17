@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-17",
+  "project": "Healing",
+  "version": "1.0.8",
+  "status": "release_update_closed",
+  "auditedMain": "3fee2ee8b6d31c4bf518dc903c6d56d4daefb60c",
+  "runtimeTag": "v1.0.8",
+  "runtimeCommit": "d7e6df9b697eebd982f2043785089b2463a1ab91",
+  "release": {
+    "id": 414394590,
+    "tag": "v1.0.8",
+    "prerelease": false,
+    "draft": false,
+    "url": "https://github.com/AureliusWu/Healing/releases/tag/v1.0.8",
+    "publishedAt": "2026-10-16T00:13:59Z"
+  },
+  "openPullRequests": 0,
+  "unpublishedPlayerChanges": false,
+  "postReleaseChangedPaths": [
+    ".github/workflows/finalize-publication.yml",
+    "README.md",
+    "docs/VALIDATION.md",
+    "docs/production/BACKGROUND-READING-REVIEW.md",
+    "docs/production/BACKGROUND-VALIDATION.json",
+    "docs/production/ITERATIONS.md",
+    "docs/production/MAINTENANCE-20261017.json",
+    "docs/production/PUBLISHED-v1.0.8.json",
+    "docs/releases/README.md",
+    "docs/releases/v1.0.8.md"
+  ],
+  "assets": [
+    {
+      "id": 645588534,
+      "name": "MoistHealing-1.0.8-x64-Portable.exe",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/MoistHealing-1.0.8-x64-Portable.exe",
+      "bytes": 121991104,
+      "sha256": "30d30ece5b3dfab105f72df63ab6066cf2fad26e3a69d50412d22382213d540c",
+      "verified": true,
+      "method": "fresh anonymous download, size and SHA-256 verified"
+    },
+    {
+      "id": 645588255,
+      "name": "MoistHealing-1.0.8-x64-Setup.exe",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/MoistHealing-1.0.8-x64-Setup.exe",
+      "bytes": 122225347,
+      "sha256": "b6949395368592cf973dcc3a41c23565f8ed148242684727de75e94ecaaffbf4",
+      "verified": true,
+      "method": "fresh anonymous download, size and SHA-256 verified"
+    },
+    {
+      "id": 645588725,
+      "name": "MoistHealing-PWA-1.0.8.zip",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/MoistHealing-PWA-1.0.8.zip",
+      "bytes": 10372979,
+      "sha256": "2a1383282fbdc0a5dca18a6dfea539aa1052fdab6dfdddf8b1508c050af02ca7",
+      "verified": true,
+      "method": "fresh anonymous download, size and SHA-256 verified"
+    },
+    {
+      "id": 645588777,
+      "name": "release.json",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/release.json",
+      "bytes": 293,
+      "sha256": "f235936476ee436736a9454e1bbecc3e336cca561b3f51d6489b3998e33fcd05",
+      "verified": true,
+      "method": "fresh anonymous download, size and SHA-256 verified"
+    },
+    {
+      "id": 645588843,
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.0.8/SHA256SUMS.txt",
+      "bytes": 373,
+      "sha256": "c22d7aea26a831f596141eda0ecca7654186caccaef82f79499be29223bf63de",
+      "verified": true,
+      "method": "fresh anonymous download, size and SHA-256 verified"
+    }
+  ],
+  "checksumFiles": {
+    "SHA256SUMS.txt": [
+      {
+        "name": "MoistHealing-1.0.8-x64-Setup.exe",
+        "publicName": "MoistHealing-1.0.8-x64-Setup.exe",
+        "sha256": "b6949395368592cf973dcc3a41c23565f8ed148242684727de75e94ecaaffbf4"
+      },
+      {
+        "name": "MoistHealing-1.0.8-x64-Portable.exe",
+        "publicName": "MoistHealing-1.0.8-x64-Portable.exe",
+        "sha256": "30d30ece5b3dfab105f72df63ab6066cf2fad26e3a69d50412d22382213d540c"
+      },
+      {
+        "name": "MoistHealing-PWA-1.0.8.zip",
+        "publicName": "MoistHealing-PWA-1.0.8.zip",
+        "sha256": "2a1383282fbdc0a5dca18a6dfea539aa1052fdab6dfdddf8b1508c050af02ca7"
+      },
+      {
+        "name": "release.json",
+        "publicName": "release.json",
+        "sha256": "f235936476ee436736a9454e1bbecc3e336cca561b3f51d6489b3998e33fcd05"
+      }
+    ]
+  },
+  "zipChecks": [
+    {
+      "name": "MoistHealing-PWA-1.0.8.zip",
+      "crc": "passed",
+      "entries": 36,
+      "files": 32
+    }
+  ],
+  "publicPwa": {
+    "expectedBytesSource": "published Web/PWA ZIP",
+    "entryAndWorker": [
+      {
+        "url": "https://aureliuswu.github.io/Healing/index.html",
+        "httpStatus": 200,
+        "bytes": 1157,
+        "sha256": "fdb5b6872b78a59fd2ff8cdb0782fcf5bff287d77eba9dd9602f1b4e01b3e75d",
+        "matchesVerifiedBuild": true
+      },
+      {
+        "url": "https://aureliuswu.github.io/Healing/sw.js",
+        "httpStatus": 200,
+        "bytes": 2325,
+        "sha256": "5008e5beb67c7e7f09f7e7996eef51242307a7d8c3247128bf5a47d438aae35b",
+        "matchesVerifiedBuild": true
+      }
+    ]
+  },
+  "observedWorkflowRuns": [
+    {
+      "id": 38860559654,
+      "name": "Publish PWA",
+      "sha": "62b6088424cf1180dd2008c99be7fd6d71825618",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38860005612,
+      "name": "Build game",
+      "sha": "62b6088424cf1180dd2008c99be7fd6d71825618",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38860005504,
+      "name": "Finalize v1.0.8 publication record",
+      "sha": "62b6088424cf1180dd2008c99be7fd6d71825618",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38829716908,
+      "name": "Publish PWA",
+      "sha": "a1224f8df382eee26e6866917db9fed791a3fbe9",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38829100959,
+      "name": "Build game",
+      "sha": "a1224f8df382eee26e6866917db9fed791a3fbe9",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "scope": "Source push, release identity, published downloads and deployed PWA consistency. Existing native/offline interaction evidence is retained in the version-specific publication receipt; this audit does not relabel physical-device or human acceptance as completed.",
+  "existingPlatformReceipt": "PUBLISHED-v1.0.8.json",
+  "requiredSuccessfulWorkflows": [
+    {
+      "id": 38860005612,
+      "name": "Build game",
+      "sha": "62b6088424cf1180dd2008c99be7fd6d71825618",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38860559654,
+      "name": "Publish PWA",
+      "sha": "62b6088424cf1180dd2008c99be7fd6d71825618",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "id": 38860005504,
+      "name": "Finalize v1.0.8 publication record",
+      "sha": "62b6088424cf1180dd2008c99be7fd6d71825618",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "receiptUpdate": {
+    "type": "documentation_only",
+    "preservesRuntimeTagAndReleaseAssets": true,
+    "auditedMainIsTheParentOfThisReceipt": true
+  }
+}
