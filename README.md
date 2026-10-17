@@ -1,4 +1,4 @@
-> 2026-10-16：v1.0.8 已正式发布。后台暂停逐字显示，返回前台继续原字数；同段载入、已读重读、旧存档与离线恢复已完成双端验收。正式构建、Windows 安装升级、公开三屏与下载回读见 [发布记录](docs/production/PUBLISHED-v1.0.8.json)。 本轮更新与推送的最终核验见 [闭环回执](docs/production/RELEASE-CLOSURE-20261017.md)。
+> 2026-10-16：v1.0.8 已正式发布。后台暂停逐字显示，返回前台继续原字数；同段载入、已读重读、旧存档与离线恢复已完成双端验收。正式构建、Windows 安装升级、公开三屏与下载回读见 [发布记录](docs/production/PUBLISHED-v1.0.8.json)。 本轮更新与推送的最终核验见 [闭环回执](docs/production/RELEASE-CLOSURE-20261017.md)。 下一版目标与四仓交流见 [更新规划](docs/production/FOUR-GAMES-NEXT-20261017.md)。
 
 > 2026-10-13：v1.0.4 剧情精修与漏句样张 CG 已正式发布，见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [本轮电脑/手机预览](docs/previews/v1.0.4/README.md)。
 

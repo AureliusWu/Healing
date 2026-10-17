@@ -1,0 +1,315 @@
+{
+  "schema": 1,
+  "verifiedAt": "2026-10-17T05:52:28.837105+00:00",
+  "projects": [
+    {
+      "project": "Circuit",
+      "sourceMain": "942d0f67ffb9f316d106e4a0d921fa816f0dcf82",
+      "version": "1.4.0",
+      "prerelease": false,
+      "site": "https://aureliuswu.github.io/Circuit/",
+      "manifest": {
+        "url": "https://aureliuswu.github.io/Circuit/manifest.webmanifest",
+        "httpStatus": 200,
+        "sha256": "65a3f9f2e7c6d334b9816e2ea3f9d7b55e9b3411f2aae53b82a707902655cf8f",
+        "name": "回路 Circuit",
+        "display": "standalone",
+        "startUrl": "https://aureliuswu.github.io/Circuit/",
+        "scope": "https://aureliuswu.github.io/Circuit/",
+        "id": null,
+        "orientation": "any",
+        "icons": [
+          {
+            "url": "https://aureliuswu.github.io/Circuit/icons/192x192.png",
+            "httpStatus": 200,
+            "size": "192x192",
+            "sha256": "979a14b4845a3808507d7452484292663e8028ed4d163bf6ea33c0f736755077",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Circuit/icons/512x512.png",
+            "httpStatus": 200,
+            "size": "512x512",
+            "sha256": "eee6b23b35577455c4e0e453e08f306ab8bbcb3560b5227dd92c80533d02d9dc",
+            "purpose": "any maskable"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Circuit/icon.png",
+            "httpStatus": 200,
+            "size": "512x512",
+            "sha256": "eee6b23b35577455c4e0e453e08f306ab8bbcb3560b5227dd92c80533d02d9dc",
+            "purpose": "any maskable"
+          }
+        ]
+      },
+      "worker": {
+        "url": "https://aureliuswu.github.io/Circuit/sw.js",
+        "httpStatus": 200,
+        "sha256": "2200a19a11e5cbf6cb8ef0c03c2923ba19dd1856ab05a407881c0fc4337fe841",
+        "matchesPriorVerifiedLiveBuild": true
+      },
+      "entry": {
+        "httpStatus": 200,
+        "sha256": "12fe853d473141b2d01633de1b463cb1de2bc7f6c22df7ca6d40313b761475c1",
+        "matchesPriorVerifiedLiveBuild": true
+      },
+      "offlineInteractionEvidence": "https://github.com/AureliusWu/Circuit/blob/942d0f67ffb9f316d106e4a0d921fa816f0dcf82/docs/production/PUBLISHED-v1.4.0.json",
+      "verificationScope": "Current HTTPS manifest, start URL/scope, install icons and deployed entry/worker bytes verified. Offline interaction and native execution use the cited existing version-specific receipts. Physical-device installation is not newly claimed."
+    },
+    {
+      "project": "NetLove",
+      "sourceMain": "2ebe9039d76e9cc227cb33cf76810deb0be084a0",
+      "version": "0.2.5",
+      "prerelease": true,
+      "site": "https://aureliuswu.github.io/NetLove/",
+      "manifest": {
+        "url": "https://aureliuswu.github.io/NetLove/manifest.webmanifest",
+        "httpStatus": 200,
+        "sha256": "8fc0c9c66b7a018bf2211f4fa89cc9114c911d9f36618ec3c178ef651e669537",
+        "name": "“网”恋 · NetLove",
+        "display": "standalone",
+        "startUrl": "https://aureliuswu.github.io/NetLove/",
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "id": "./",
+        "orientation": "landscape",
+        "icons": [
+          {
+            "url": "https://aureliuswu.github.io/NetLove/icons/icon-192.png",
+            "httpStatus": 200,
+            "size": "192x192",
+            "sha256": "2888467df172dfdea19f20d65d7061ca548257bfe8fa79ec253ce17fca8c9d59",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/NetLove/icons/icon-512.png",
+            "httpStatus": 200,
+            "size": "512x512",
+            "sha256": "25f42f34119357332d65ac0b038144939f957c1d7f648ce073793949271981f2",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/NetLove/icons/maskable-512.png",
+            "httpStatus": 200,
+            "size": "512x512",
+            "sha256": "25f42f34119357332d65ac0b038144939f957c1d7f648ce073793949271981f2",
+            "purpose": "maskable"
+          }
+        ]
+      },
+      "worker": {
+        "url": "https://aureliuswu.github.io/NetLove/sw.js",
+        "httpStatus": 200,
+        "sha256": "d66d5093abe8d6d22898c4ab1731df7e893cb4793df370150c975bb412b53557",
+        "matchesPriorVerifiedLiveBuild": true
+      },
+      "entry": {
+        "httpStatus": 200,
+        "sha256": "4c2eefc3652d48919c0bd62ffc988cd0a3a0d81fbb46c58b62bab978d5bf2ed5",
+        "matchesPriorVerifiedLiveBuild": true
+      },
+      "offlineInteractionEvidence": "https://github.com/AureliusWu/NetLove/blob/2ebe9039d76e9cc227cb33cf76810deb0be084a0/docs/production/PUBLISHED-v0.2.5.json",
+      "verificationScope": "Current HTTPS manifest, start URL/scope, install icons and deployed entry/worker bytes verified. Offline interaction and native execution use the cited existing version-specific receipts. Physical-device installation is not newly claimed."
+    },
+    {
+      "project": "Rain",
+      "sourceMain": "6768bd0fba052b8bf389da19693057ca8c12d552",
+      "version": "1.2.2",
+      "prerelease": false,
+      "site": "https://aureliuswu.github.io/Rain/",
+      "manifest": {
+        "url": "https://aureliuswu.github.io/Rain/manifest.json",
+        "httpStatus": 200,
+        "sha256": "971558313e5e997c93d99a6bd349eb68d1efc25de801f506c7d386f8e48e973d",
+        "name": "雨停之前",
+        "display": "standalone",
+        "startUrl": "https://aureliuswu.github.io/Rain/index.html",
+        "scope": "https://aureliuswu.github.io/Rain/",
+        "id": "./",
+        "orientation": "landscape",
+        "icons": [
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-72x72.png",
+            "httpStatus": 200,
+            "size": "72x72",
+            "sha256": "fef693e7313b15b4b382df029398026cf799a6ab76ac67c09e2c304b9d6af07f",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-72x72-maskable.png",
+            "httpStatus": 200,
+            "size": "72x72",
+            "sha256": "6f4146865f2d95d1d0bb954a1063fb58faeb93fc758ee92cdd26522f83ec18b2",
+            "purpose": "maskable"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-96x96.png",
+            "httpStatus": 200,
+            "size": "96x96",
+            "sha256": "e360cef039de8a9175c9ecfd1155c59d56c937692a026621174ef2b3aaaeaae6",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-96x96-maskable.png",
+            "httpStatus": 200,
+            "size": "96x96",
+            "sha256": "b8c8feba78603c485acbd87b90fff9633845ef0f6d785b0ec2004f833a7d8515",
+            "purpose": "maskable"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-128x128.png",
+            "httpStatus": 200,
+            "size": "128x128",
+            "sha256": "f37125a093d3abe070c09cfc6dafb1f64e6a719380804341a76b24e5baa2ae5f",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-128x128-maskable.png",
+            "httpStatus": 200,
+            "size": "128x128",
+            "sha256": "803f8c27b6252ab65a9ad430d4be58cdc9a5ecf17af258d0481f8d46c164fe08",
+            "purpose": "maskable"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-144x144.png",
+            "httpStatus": 200,
+            "size": "144x144",
+            "sha256": "8bef1c5380fded5fb56ecb8760523604dc3ee4c1c0f42e641df0d5f122cf455e",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-144x144-maskable.png",
+            "httpStatus": 200,
+            "size": "144x144",
+            "sha256": "d11b340be20c9585507f71f6539d29b9d1c440cc5829bfecaccf0d39216680be",
+            "purpose": "maskable"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-152x152.png",
+            "httpStatus": 200,
+            "size": "152x152",
+            "sha256": "9c0143db9c50ee64ce140c98a1d5008c6db5e6c3ec92f47fa7bc743d80817533",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-152x152-maskable.png",
+            "httpStatus": 200,
+            "size": "152x152",
+            "sha256": "9527f18c683bc003e3e6936cf07b7dc900f064a2f68330ec0a409da3dfef0cbc",
+            "purpose": "maskable"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-192x192.png",
+            "httpStatus": 200,
+            "size": "192x192",
+            "sha256": "d05b9cc48932e89243d963fca0ad53ac95d46c0fb6211a1b6ddd68683c8b43c9",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-192x192-maskable.png",
+            "httpStatus": 200,
+            "size": "192x192",
+            "sha256": "ed460051766a839685d115d59cc369c801f91b5af9add0e03a253b61b68f6716",
+            "purpose": "maskable"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-384x384.png",
+            "httpStatus": 200,
+            "size": "384x384",
+            "sha256": "fd725b1489de42108f4ecf20c455208415a727b4f5f5938497ede8ed54da5d48",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-384x384-maskable.png",
+            "httpStatus": 200,
+            "size": "384x384",
+            "sha256": "d562c2d71e6dc454b9f9bc1c4d492b38b670d0657aea8ba5abf3647f3e288cd8",
+            "purpose": "maskable"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-512x512.png",
+            "httpStatus": 200,
+            "size": "512x512",
+            "sha256": "c5c6c10da60bbf7f387e31f0d19de2681efed604ac2f334feabcf77353acb333",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Rain/icons/icon-512x512-maskable.png",
+            "httpStatus": 200,
+            "size": "512x512",
+            "sha256": "32a03c8da46d714a251e93a8e2c393b078ebfa825bc4b87a35d8403b077e123c",
+            "purpose": "maskable"
+          }
+        ]
+      },
+      "worker": {
+        "url": "https://aureliuswu.github.io/Rain/service-worker.js",
+        "httpStatus": 200,
+        "sha256": "2406ed74f8448fde83475b8411825b9882ff2c42441b6cb2f2301c02233b9372",
+        "matchesPriorVerifiedLiveBuild": true
+      },
+      "entry": {
+        "httpStatus": 200,
+        "sha256": "fec5f80a3b0b4c7581e789bce575df15fa69513bf52f46dee9d825dc547aa394",
+        "matchesPriorVerifiedLiveBuild": true
+      },
+      "offlineInteractionEvidence": "https://github.com/AureliusWu/Rain/blob/6768bd0fba052b8bf389da19693057ca8c12d552/docs/production/PUBLISHED-v1.2.2.json",
+      "verificationScope": "Current HTTPS manifest, start URL/scope, install icons and deployed entry/worker bytes verified. Offline interaction and native execution use the cited existing version-specific receipts. Physical-device installation is not newly claimed."
+    },
+    {
+      "project": "Healing",
+      "sourceMain": "39eb5c66dbc86389d98aca721ef0fefa96a43443",
+      "version": "1.0.8",
+      "prerelease": false,
+      "site": "https://aureliuswu.github.io/Healing/",
+      "manifest": {
+        "url": "https://aureliuswu.github.io/Healing/manifest.webmanifest",
+        "httpStatus": 200,
+        "sha256": "8eaa2dbd9f7eb5430bbc330b9238aadc918f7995bdff1817b0f29648c1c0767c",
+        "name": "湿性愈合 · 三章完结",
+        "display": "standalone",
+        "startUrl": "https://aureliuswu.github.io/Healing/",
+        "scope": "https://aureliuswu.github.io/Healing/",
+        "id": "./",
+        "orientation": "landscape",
+        "icons": [
+          {
+            "url": "https://aureliuswu.github.io/Healing/icons/icon-192.png",
+            "httpStatus": 200,
+            "size": "192x192",
+            "sha256": "9f73bdf841406e627fa2236165bce468cc222844d09d76fd2d00955f7ecc7640",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Healing/icons/icon-512.png",
+            "httpStatus": 200,
+            "size": "512x512",
+            "sha256": "c96b7e1519906e8b836129608f1498b9813652288293b2bb8c38e17b9988a79b",
+            "purpose": "any"
+          },
+          {
+            "url": "https://aureliuswu.github.io/Healing/icons/maskable-512.png",
+            "httpStatus": 200,
+            "size": "512x512",
+            "sha256": "c96b7e1519906e8b836129608f1498b9813652288293b2bb8c38e17b9988a79b",
+            "purpose": "maskable"
+          }
+        ]
+      },
+      "worker": {
+        "url": "https://aureliuswu.github.io/Healing/sw.js",
+        "httpStatus": 200,
+        "sha256": "5008e5beb67c7e7f09f7e7996eef51242307a7d8c3247128bf5a47d438aae35b",
+        "matchesPriorVerifiedLiveBuild": true
+      },
+      "entry": {
+        "httpStatus": 200,
+        "sha256": "fdb5b6872b78a59fd2ff8cdb0782fcf5bff287d77eba9dd9602f1b4e01b3e75d",
+        "matchesPriorVerifiedLiveBuild": true
+      },
+      "offlineInteractionEvidence": "https://github.com/AureliusWu/Healing/blob/39eb5c66dbc86389d98aca721ef0fefa96a43443/docs/production/PUBLISHED-v1.0.8.json",
+      "verificationScope": "Current HTTPS manifest, start URL/scope, install icons and deployed entry/worker bytes verified. Offline interaction and native execution use the cited existing version-specific receipts. Physical-device installation is not newly claimed."
+    }
+  ],
+  "allHaveDeployedPwa": true,
+  "nativeDeviceInstallationRetested": false
+}
