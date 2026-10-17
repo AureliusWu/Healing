@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-17",
+  "project": "Healing",
+  "version": "1.0.8",
+  "testedCommit": "96954b4d402bac3385e1881cf561e444910141d4",
+  "runtimeChanged": false,
+  "checks": {
+    "unitPassed": 63,
+    "completeRoutes": 1296,
+    "legacyMigrations": 54,
+    "productionBuild": "passed",
+    "materialToolTestsPassed": 10,
+    "sharedFilesVerified": 15,
+    "releaseTestsPassed": 9,
+    "releaseNoteIndex": "passed",
+    "browser": {
+      "version": "153.0.8010.0",
+      "workers": 2,
+      "passed": 69,
+      "skippedDeviceInapplicable": 3,
+      "failed": 0,
+      "complete": true,
+      "durationSecondsApprox": 120
+    }
+  },
+  "coverage": [
+    "background and same-paragraph typing",
+    "manual save and JSON import",
+    "isolated history and rereading",
+    "all complete-story routes and final illustrations",
+    "portrait and short landscape layouts",
+    "offline reopening, cache isolation and waiting updates"
+  ],
+  "sourceSha256": {
+    "src/App.tsx": "bf194e9e909c00c1ba0d933c3f30784acaf911842122d031939649942ac3746f",
+    "package-lock.json": "0c1c254dc0a464ab6e29455498fd9570e32fb644f414d2e611b784c8670f967a"
+  },
+  "scope": "Fresh local verification of the existing production version; no new Windows execution or physical-device acceptance is claimed.",
+  "publishedRelease": "https://github.com/AureliusWu/Healing/releases/tag/v1.0.8",
+  "previousPublicationReceipt": "PUBLISHED-v1.0.8.json"
+}
