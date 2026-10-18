@@ -129,7 +129,7 @@
           "role": "runtime",
           "path": "src/assets/story-serif.woff2",
           "encoding": "binary",
-          "sha256": "0d59d018f492781d9d63479030195ff63242fa6d15f28b51c0d9530e14b79ace"
+          "sha256": "294f166ce96b224d34a641c7ed44f4c0ba99511cce972c3956d0ab4287a6e47b"
         },
         {
           "role": "recipe",
@@ -1045,7 +1045,7 @@
           "role": "recipe",
           "path": "src/history-search.css",
           "encoding": "text-lf",
-          "sha256": "934b8e89dbf4a8a951460f89ef9d72ac0bbd486a4cfb4f3871c649be1976e77b"
+          "sha256": "36f9ef9eaac0a463dbadf21a68ebd85ceed268f566ceacc0b937fe23921a3b1b"
         }
       ]
     }

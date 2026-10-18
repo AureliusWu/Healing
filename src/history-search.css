@@ -9,3 +9,8 @@
 .record-search-empty { font-size: 14px; line-height: 1.8; padding: 16px 0; }
 .record-search-controls :is(input, select, button):focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
 @media (max-width: 480px) { .record-search-controls { gap: 10px; } .record-search-controls label { flex-basis: 100%; } }
+
+.reread-banner {position:absolute;z-index:12;top:62px;left:16px;right:16px;display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 14px;background:#f6f5e9ee;border:1px solid #b5c8ba;border-radius:12px;font-size:13px;}
+.reread-banner button {padding:7px 10px;border:1px solid #b5c8ba;border-radius:8px;background:#fff;}
+.game-screen[data-ui-hidden="true"] .reread-banner {display:none;}
+.history-entry-location {flex-wrap:wrap;}

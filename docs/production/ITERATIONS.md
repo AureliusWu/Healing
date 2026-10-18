@@ -1,3 +1,7 @@
+# 2026-10-18 · v1.1.0 阅读备份与临时重读
+
+保留旧槽位身份和原生路线重建。新增完整迁移、事务回滚、临时重读及精确字数恢复；有效浏览器汇总 75 通过 / 3 设备限定跳过。可复用入口为 src/game/backup.ts、tests/backup.test.ts、tests/e2e/reading-backup.spec.ts。详细证据和边界见 [本轮记录](IMPLEMENTATION-20261018.md)。
+
 # 制作迭代记录
 
 ## 2026-10-17 / v1.1.0 规划与四仓 PWA 核对

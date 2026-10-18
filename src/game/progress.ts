@@ -21,6 +21,7 @@ function known<T extends string>(key: string, ids: T[]): T[] {
     return Array.isArray(raw) ? [...new Set(raw.filter((id): id is T => typeof id === 'string' && ids.includes(id as T)))] : [];
   } catch { return []; }
 }
+export function readUnlockProof(id: string): Save | null { return checkpoint(`proof:${id}`); }
 export function readGallery(): CgId[] { return known('gallery', Object.keys(cgInfo) as CgId[]); }
 export function readScores(): MusicId[] { return [...new Set<MusicId>(['rain', ...known('scores', Object.keys(scoreInfo) as MusicId[])])]; }
 function union<T extends string>(key: string, old: T[], added: T[]) {
@@ -40,6 +41,12 @@ export function rememberProgress(state: GameState, finished: boolean) {
     }
   }
   const visited = [...new Set([...state.history.map(line => line.sceneId), state.sceneId])].map(id => sceneMap.get(id)!);
+  // Persist a compact route once per unlocked asset, even after all slots move on.
+  const { schema, storyVersion, sceneId, line, decisions } = state;
+  const proof = JSON.stringify({ ...encodeSave(state), state: { schema, storyVersion, sceneId, line, decisions } });
+  for (const item of visited) for (const id of [...(item.cg ? [`gallery:${item.cg}`] : []), `scores:${musicFor(item.id)}`]) {
+    if (!readUnlockProof(id)) localStorage.setItem(`${KEY}:proof:${id}`, proof);
+  }
   const gallery = union('gallery', readGallery(), visited.flatMap(item => item.cg ? [item.cg] : []));
   const scores = union('scores', readScores(), visited.map(item => musicFor(item.id)));
   let endings = readEndings();
