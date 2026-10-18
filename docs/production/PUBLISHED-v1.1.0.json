@@ -1,0 +1,80 @@
+{
+  "repo": "Healing",
+  "tag": "v1.1.0",
+  "target": "db551e14617e10db45e1982e45aec0d97f5c48d7",
+  "releaseId": 416282819,
+  "url": "https://github.com/AureliusWu/Healing/releases/tag/v1.1.0",
+  "assets": [
+    {
+      "id": 652719295,
+      "name": "MoistHealing-1.1.0-x64-Portable.exe",
+      "bytes": 121993428,
+      "sha256": "1ebc154731010636eb3c4d2c627c87aae2f5510fba7a6920473c4c136ba1bd4b"
+    },
+    {
+      "id": 652719163,
+      "name": "MoistHealing-1.1.0-x64-Setup.exe",
+      "bytes": 122227665,
+      "sha256": "cf41f7bfbdedec06382875dff57db9260133b7201940fa55aa37beaf12dd8f18"
+    },
+    {
+      "id": 652719473,
+      "name": "MoistHealing-PWA-1.1.0.zip",
+      "bytes": 10375907,
+      "sha256": "8f96c8f793a362928f3a36fe9e495b0273b0fe215899e1c8b59d46a2704e0be2",
+      "zip_entries": 36,
+      "crc": "passed"
+    },
+    {
+      "id": 652719520,
+      "name": "release.json",
+      "bytes": 293,
+      "sha256": "4e10dad7c2f3f2221f6258704f4b41250b66ce572fa279bb4387a4748833d420"
+    },
+    {
+      "id": 652719538,
+      "name": "SHA256SUMS.txt",
+      "bytes": 373,
+      "sha256": "979aece174fe1029c4d88715a519d814eb83e655b505154221d1c480a1192ffe"
+    }
+  ],
+  "checksum_table": "passed",
+  "public_pwa": {
+    "index.html": {
+      "sha256": "6a841dab904e6e146eccb6aac9a66baf44e324b58ade8808982c34d07f20a551",
+      "same_as_download": true
+    },
+    "sw.js": {
+      "sha256": "fb2b8340feec9b5fe59cfda269858921827246aa7563c6ccc3a2b1cdafae50e9",
+      "same_as_download": true
+    }
+  },
+  "status": "anonymous_assets_verified",
+  "schema": 1,
+  "verifiedOn": "2026-10-18",
+  "runtimeCommit": "db551e14617e10db45e1982e45aec0d97f5c48d7",
+  "validationCommit": "db551e14617e10db45e1982e45aec0d97f5c48d7",
+  "workflows": {
+    "build": {
+      "runId": 39104819907,
+      "url": "https://github.com/AureliusWu/Healing/actions/runs/39104819907",
+      "conclusion": "success"
+    },
+    "ci": {
+      "runId": 39104819907,
+      "url": "https://github.com/AureliusWu/Healing/actions/runs/39104819907",
+      "conclusion": "success"
+    },
+    "pages": {
+      "runId": 39105245121,
+      "url": "https://github.com/AureliusWu/Healing/actions/runs/39105245121",
+      "conclusion": "success"
+    }
+  },
+  "checks": {
+    "logic": 71,
+    "browser": "75 passed, 3 device-specific skips",
+    "windows": "source, win-unpacked EXE, real NSIS 1.0.2 -> 1.1.0 upgrade with same profile and prior save passed; portable built, wrapper not separately launched"
+  },
+  "humanReview": "not claimed"
+}

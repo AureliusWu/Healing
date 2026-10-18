@@ -1,4 +1,4 @@
-> 2026-10-18：v1.1.0 新增完整阅读备份与临时重读；本地逻辑、浏览器、素材和生产构建已验，远端发布正在接续。见 [实现记录](docs/production/IMPLEMENTATION-20261018.md)。
+> 2026-10-18：**v1.1.0 版本已发布，双端 CI 与公开 PWA 验证通过。** [本轮发布回读](docs/production/RELEASE-CLOSURE-20261018.md)。实体设备体验、真人阅读审阅保持独立待办。
 
 > 2026-10-16：v1.0.8 已正式发布。后台暂停逐字显示，返回前台继续原字数；同段载入、已读重读、旧存档与离线恢复已完成双端验收。正式构建、Windows 安装升级、公开三屏与下载回读见 [发布记录](docs/production/PUBLISHED-v1.0.8.json)。 本轮更新与推送的最终核验见 [闭环回执](docs/production/RELEASE-CLOSURE-20261017.md)。 下一版目标与四仓交流见 [更新规划](docs/production/FOUR-GAMES-NEXT-20261017.md)。
 
@@ -10,7 +10,7 @@
 
 青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.0.8**。正式 CI 通过真实安装升级与公开三种屏幕规格的断网续读，五项公开下载也已实际回读，证据见 [发布记录](docs/production/PUBLISHED-v1.0.8.json)。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.0.8)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.1.0)
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥和许棠相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
 
