@@ -1,4 +1,4 @@
-# 四作品回看检索方法 v1.0.0
+# 四作品回看检索方法 v1.1.0
 
 2026-10-14，适用 [NetLove](https://github.com/AureliusWu/NetLove)、[Healing](https://github.com/AureliusWu/Healing)、[Rain](https://github.com/AureliusWu/Rain)、[Circuit](https://github.com/AureliusWu/Circuit)。
 
@@ -33,3 +33,11 @@
 ## Rain 的浏览器输入适配
 
 真实 WASM 回归中，SDL 画布输入未接收测试中的中文字。网页使用浏览器原生搜索框接收中文与输入法组合，通过官方命令接口只更新当前 history screen 的查询并刷新界面。人物筛选、结果、原语音与历史继续由 Ren’Py 执行；Windows 仍使用原生 input。浏览器控件使用带 OFL 许可的自托管中文字体，覆盖本轮控件和剧情关键词。启动页结束后才读取原生历史；输入进行中不以旧查询回写正在编辑的文本。
+
+## 2026-10-19：章节与收藏筛选
+
+RecordSearch 增加可选 chapterFor 适配器，由目标作品把每条真实已读记录映射为章节。章节选项只从输入记录生成；章节、说话人和关键词同时过滤，渲染仍使用筛选前的原始索引。NetLove、Healing 已接入，Circuit 保留本章日志且不传章节适配器。新增控件继续使用既有 flex 换行布局，清除时同时重置三项。
+
+Rain 的已读收藏沿用原台词和录音目录，新增关键词与人物筛选及结果数量；网页输入桥通过当前活动的历史或收藏面板取得会话令牌，迟到的旧查询不能改写另一面板。查询和清除均不修改收藏、剧情或存档；移除收藏继续使用已有带时间戳的持久字段。
+
+本轮各作品的实际验证见 READING-20261019.md；共享方法的存在不代表所有平台已通过。

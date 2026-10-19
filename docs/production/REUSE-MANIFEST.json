@@ -16,7 +16,7 @@
     "scripts/vn-creative.test.mjs": "d8a5df00c68801afbbb1747b0aac3111a7054588a3a3ccda84e8af00784b01fc",
     "docs/production/CREATIVE-PLAYBOOK.md": "dcf2cc35f28a8c35b648f23ba305b27f8c6337cf025ffd9e525c96a20b627f58",
     "docs/production/templates/SCENE-REVISION.md": "9d52c9c1fdd94dee530f0607871228a18418e6097f44684eac8dc24a2760351b",
-    "docs/production/READ-HISTORY.md": "d56162182346d6eaecc6d8a31557b27cc11609c5c8316f96f3e9086f9a4471c5"
+    "docs/production/READ-HISTORY.md": "2d9070b6dee781321f9ef80839e8f7eb296a16a4c48a1d7787646ad05cf39c30"
   },
   "peers": [
     "AureliusWu/Rain",

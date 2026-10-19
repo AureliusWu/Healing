@@ -1027,7 +1027,7 @@
           "role": "recipe",
           "path": "docs/production/READ-HISTORY.md",
           "encoding": "text-lf",
-          "sha256": "d56162182346d6eaecc6d8a31557b27cc11609c5c8316f96f3e9086f9a4471c5"
+          "sha256": "2d9070b6dee781321f9ef80839e8f7eb296a16a4c48a1d7787646ad05cf39c30"
         },
         {
           "role": "recipe",
@@ -1039,7 +1039,7 @@
           "role": "recipe",
           "path": "src/components/RecordSearch.tsx",
           "encoding": "text-lf",
-          "sha256": "c24a9dae27f2707709ef71eb593a430428b1b6a1510a71a3446342979e5da8f2"
+          "sha256": "8137a6e718811baf47653bb7ff3be3b88003d7e0ede32a664904025a0fe59458"
         },
         {
           "role": "recipe",
