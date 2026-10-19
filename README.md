@@ -1,3 +1,5 @@
+> 2026-10-19：**v1.1.1 已发布**。已读章节筛选与关键词、说话人交叉检索已完成；本次 Windows 实际运行、公开 PWA 三屏断网与字节核验通过。[发布凭据](docs/production/PUBLISHED-v1.1.1.json) · [下载](https://github.com/AureliusWu/Healing/releases/tag/v1.1.1)。
+
 > 2026-10-18：**v1.1.0 版本已发布，双端 CI 与公开 PWA 验证通过。** [本轮发布回读](docs/production/RELEASE-CLOSURE-20261018.md)。实体设备体验、真人阅读审阅保持独立待办。
 
 > 2026-10-16：v1.0.8 已正式发布。后台暂停逐字显示，返回前台继续原字数；同段载入、已读重读、旧存档与离线恢复已完成双端验收。正式构建、Windows 安装升级、公开三屏与下载回读见 [发布记录](docs/production/PUBLISHED-v1.0.8.json)。 本轮更新与推送的最终核验见 [闭环回执](docs/production/RELEASE-CLOSURE-20261017.md)。 下一版目标与四仓交流见 [更新规划](docs/production/FOUR-GAMES-NEXT-20261017.md)。
@@ -8,7 +10,7 @@
 
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.0.8**。正式 CI 通过真实安装升级与公开三种屏幕规格的断网续读，五项公开下载也已实际回读，证据见 [发布记录](docs/production/PUBLISHED-v1.0.8.json)。
+青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.1.1**。正式 CI 通过真实安装升级与公开三种屏幕规格的断网续读，五项公开下载也已实际回读，证据见 [发布记录](docs/production/PUBLISHED-v1.0.8.json)。
 
 [在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.1.0)
 

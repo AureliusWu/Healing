@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "checkedDate": "2026-10-19",
+  "version": "1.1.1",
+  "status": "published_native_and_public_pwa_verified",
+  "runtimeCommit": "e90273f0b19eabca496a7c01ac9614fa3eebbc18",
+  "release": {
+    "id": 416891417,
+    "url": "https://github.com/AureliusWu/Healing/releases/tag/v1.1.1",
+    "publishedAt": "2026-10-19T04:07:22Z",
+    "draft": false,
+    "prerelease": false,
+    "assets": [
+      {
+        "name": "MoistHealing-1.1.1-x64-Portable.exe",
+        "bytes": 121993716,
+        "digest": "sha256:55866c2c437a13cac1171c0dc5143496d954d0b0cb38ea2313ce820f63b67155",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.1.1/MoistHealing-1.1.1-x64-Portable.exe"
+      },
+      {
+        "name": "MoistHealing-1.1.1-x64-Setup.exe",
+        "bytes": 122227975,
+        "digest": "sha256:ce27c54fbc6f577fef91390e87a687965909ba16bbbfb20d4118b738d4b053f4",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.1.1/MoistHealing-1.1.1-x64-Setup.exe"
+      },
+      {
+        "name": "MoistHealing-PWA-1.1.1.zip",
+        "bytes": 10376078,
+        "digest": "sha256:c95707ba8a3ba3bc199f17ec8680699f78ec305b6f10a53cfb6b41c2a0671a10",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.1.1/MoistHealing-PWA-1.1.1.zip"
+      },
+      {
+        "name": "release.json",
+        "bytes": 293,
+        "digest": "sha256:135d1aafd99772d54b2ce01bd63a1442a573c211c8d23ba1eb869670f268d71d",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.1.1/release.json"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "bytes": 373,
+        "digest": "sha256:eaa079f4878e7407a20ed57dd85b2c628df015b73b5b07958942adcd40231ec2",
+        "url": "https://github.com/AureliusWu/Healing/releases/download/v1.1.1/SHA256SUMS.txt"
+      }
+    ]
+  },
+  "build": {
+    "run": 39197402297,
+    "status": "success"
+  },
+  "pwa": {
+    "run": 39197902979,
+    "status": "success",
+    "files": [
+      {
+        "file": "index.html",
+        "sha256": "bae4ea200021f3f2fcb0c9dbe76e38c18fc8e7c08bcb531d78abc6f23887776c"
+      },
+      {
+        "file": "sw.js",
+        "sha256": "b78582760eb2dbc037acc4fc1cb10ff1e74287ae0b830ef6225ccdb8b3953969"
+      }
+    ],
+    "screens": [
+      {
+        "url": "https://aureliuswu.github.io/Healing/",
+        "version": "1.1.1",
+        "screen": "desktop",
+        "orientation": "landscape",
+        "art": true,
+        "stageSeparated": true,
+        "fullWindowArtwork": true,
+        "pictureMode": true,
+        "autosave": true,
+        "offline": true,
+        "legacyContinuation": true,
+        "completeCg": true,
+        "finalEnding": true,
+        "credits": true,
+        "pageErrors": 0
+      },
+      {
+        "url": "https://aureliuswu.github.io/Healing/",
+        "version": "1.1.1",
+        "screen": "mobile",
+        "orientation": "landscape",
+        "art": true,
+        "stageSeparated": true,
+        "fullWindowArtwork": true,
+        "pictureMode": true,
+        "autosave": true,
+        "offline": true,
+        "legacyContinuation": true,
+        "completeCg": true,
+        "finalEnding": true,
+        "credits": true,
+        "pageErrors": 0
+      },
+      {
+        "url": "https://aureliuswu.github.io/Healing/",
+        "version": "1.1.1",
+        "screen": "landscape",
+        "orientation": "landscape",
+        "art": true,
+        "stageSeparated": true,
+        "fullWindowArtwork": true,
+        "pictureMode": true,
+        "autosave": true,
+        "offline": true,
+        "legacyContinuation": true,
+        "completeCg": true,
+        "finalEnding": true,
+        "credits": true,
+        "pageErrors": 0
+      }
+    ]
+  },
+  "localValidation": {
+    "logic": 71,
+    "browser": 77,
+    "deviceSpecificSkipped": 3
+  },
+  "humanAcceptanceClaimed": false,
+  "pending": [
+    "human listening",
+    "physical devices and ordinary computer/DPI",
+    "creative review"
+  ],
+  "publicDownloads": {
+    "status": "all uploaded file SHA-256 values verified against release asset digests by the successful publication script",
+    "independentAnonymousDownloadNotClaimed": true
+  },
+  "native": {
+    "status": "source and packaged ASAR, real v1.0.2 installation upgrade passed",
+    "portableOuterExecutionNotClaimed": true
+  }
+}
