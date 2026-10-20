@@ -1,0 +1,45 @@
+name: Prepare complete-cast source artwork
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/full-media-art.yml', 'docs/production/full-media/art-batch.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: full-media-art-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install author-only image encoder
+        run: python -m pip install 'Pillow>=12.1,<13'
+      - name: Decode and verify every generated source
+        run: python tools/production/prepare_full_art.py
+      - name: Preserve prepared images and exact measured frames
+        uses: actions/upload-artifact@v4
+        with:
+          name: prepared-full-art-${{ github.sha }}
+          path: |
+            assets_source/full-media-prepared/
+            docs/production/full-media/prepared-art.json
+          retention-days: 30
+          if-no-files-found: error
+      - name: Save the checked authoring assets without publishing a game
+        run: |
+          test "$(git ls-remote origin refs/heads/main | cut -f1)" = "$GITHUB_SHA"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets_source/full-media-prepared docs/production/full-media/prepared-art.json
+          if ! git diff --cached --quiet; then
+            git commit -m "production: preserve checked full-cast authoring assets [skip ci]"
+            git push origin HEAD:main
+          fi
