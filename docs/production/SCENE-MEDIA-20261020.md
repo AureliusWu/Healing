@@ -1,23 +1,19 @@
-# 场景美术与音乐 · v1.2.0已发布 · 2026-10-20
+# 场景美术与音乐 · v1.2.0 已发布 · 2026-10-20
 
-c2-confirm 使用清晨样张CG与专曲，按实际阅读解锁。六张CG、七首配乐沿用现有回忆与备份结构。
+c2-confirm 显示已确认的校刊清样与专曲，隐藏立绘；保留既有路线、鉴赏及存档身份。
 
-## 来源
+## 新增素材
 
-[新CG原图、提示词、参考与校验](../art/confirmed-proof-manifest.json)；[原创音乐配方与完整解码](../audio/proof-confirmed-score-manifest.json)。图像使用内置image_gen；音乐使用原创编配和程序合成，无外部录音或音乐模型。源文件与运行文件分离并随此检查点保存。
+CG《七点四十》：[原图、提示词、参考与校验](../art/confirmed-proof-manifest.json)。原创场景音乐《七点四十》：[编配配方、源 WAV、运行 OGG 与完整解码](../audio/proof-confirmed-score-manifest.json)。图像由 image_gen 制作；音乐为原创编配与程序合成。各作素材独立，保留源文件、配方与运行文件。
 
-## 检查与断点
+## 当前检查
 
-本地74项逻辑检查、TypeScript/Vite生产构建通过，新图与OGG已进入完整离线缓存。 新增异步播放检查覆盖迟到下载、重复配置、暂停上下文和离开场景；Rain另核对逐句CG切换和素材角色。
+本地 74 项逻辑 / 作者工具检查及生产校验通过。[本版 Build](https://github.com/AureliusWu/Healing/actions/runs/39370279598) 的网页路线、六尺寸新 CG、离线音频和实际 Windows 包检查通过；[公开 PWA](https://github.com/AureliusWu/Healing/actions/runs/39370842536) 成功。[v1.2.0 下载](https://github.com/AureliusWu/Healing/releases/tag/v1.2.0) 已公开。独立下载公开 PWA ZIP 和 Windows 附件后，大小及 SHA-256 与 GitHub 摘要匹配；PWA ZIP CRC 正常，新 CG 与 OGG 逐字节匹配已测源文件。
 
-当前环境的Chromium下载返回截断包，未完成本轮浏览器交互，也未运行Windows包。仓库CI继续六种尺寸、离线新音频解码、原生源码/包和旧档检查。Rain新原生计划为37用例、498断言、87截图；前缀仍为7/149/33，仅为计划，不能记为已执行。
+四作 [同源联合检查 39382250096](https://github.com/AureliusWu/Circuit/actions/runs/39382250096) 已通过：同一新 Chromium 配置中依次安装四作，192 个缓存文件与各自 scope 保持隔离，保留此前 React 存档，四作均可断网重开，0 页面错误。[完整原始报告及工件摘要](FOUR-GAMES-OFFLINE-20261020.json)。
 
-本轮未找到上一轮聊天所称未提交素材的可复用文件；本次四图四曲是新生成并独立登记的批次，不记作此前18句配音已恢复。真人试听与最终视觉选择待体验。[精确检查点](SCENE-MEDIA-20261020.json)。
+## 制作与验收边界
 
-## 可复用办法
+新图只在对应物品出现后显示，收走后恢复原场景；文件音轨接入既有音乐总线，保留原有音量、暂停和混音行为。React 三作的异步播放检查覆盖迟到下载、重复配置、暂停上下文与离开场景；Rain 保留原生引擎通道与逐句演出。
 
-SceneLoop把本地OGG接到已有音乐总线，异步解码结束后重新核对场景与上下文，避免旧场景迟到开播；同一曲目不重复启动。按作品保留独立编配与CG，只交流工具及制作方法。新增OGG要同时核对实际缓存清单，图片只在对应物品出现后显示，收走后恢复场景。
-
-## 本版发布回读
-
-[本版Build](https://github.com/AureliusWu/Healing/actions/runs/39370279598) 与[公开PWA](https://github.com/AureliusWu/Healing/actions/runs/39370842536) 均成功；源码与实际Windows包检查通过。[v1.2.0下载](https://github.com/AureliusWu/Healing/releases/tag/v1.2.0) 已公开。独立下载PWA ZIP后，SHA-256与GitHub摘要相同，ZIP CRC通过，新增CG和OGG逐字节匹配已测源。较早“本地未执行”保留为本地环境边界；本段是当前CI实际结果。真人试听与最终美术选择仍待体验。
+真人试听、普通硬件和最终美术选择仍待实际体验。本批是新制作的四图四曲，不记录此前未找到的临时素材或录音为已恢复。[精确检查点](SCENE-MEDIA-20261020.json)。
