@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-light--005",
+  "sceneId": "c3-tang-light",
+  "lineId": "c3-tang-light--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "只发给我，不放班群。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1471994192,
+  "textSha256": "f5205f4db0c953e07f80d72f1c208baad0137e0ac4edb44a4e05ed1188e3ee54",
+  "medium": "spoken",
+  "requestSha256": "d56a2df00eb95402a6cc6464ba560289e139c308a8833898546a07246d1b4591",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "只发给我不放班群",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 90.362,
+  "loudness": {
+    "input_i": "-24.96",
+    "input_tp": "-8.11",
+    "input_lra": "0.00",
+    "input_thresh": "-34.96",
+    "output_i": "-20.02",
+    "output_tp": "-3.15",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-light--005/raw.wav",
+      "bytes": 169040,
+      "sha256": "2f358db49eb66fd22347342ccc67265e586c0cc8193a0d4ab43d0082906d7200"
+    },
+    "master": {
+      "path": "healing-c3-tang-light--005/master.wav",
+      "bytes": 84558,
+      "sha256": "e8ec4f28c6ad7f04c39cb4f7ee0331650cbbf91f2eb78c25bb7549211dae0e25"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-light--005/runtime.ogg",
+      "bytes": 17286,
+      "sha256": "57ba8b5ba6cab21833ea88b89e1f92bb27f1fd5219d3285ea36c378e662fadca"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

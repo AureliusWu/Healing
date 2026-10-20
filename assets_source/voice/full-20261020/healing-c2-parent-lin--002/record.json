@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-lin--002",
+  "sceneId": "c2-parent-lin",
+  "lineId": "c2-parent-lin--002",
+  "lineIndex": 1,
+  "speaker": "林见夏",
+  "text": "爸爸，现在能看这个吗？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 860243351,
+  "textSha256": "12133bff037621032c9c0b7faf1e527e06dd6a377bc589debb19f76d03a349d6",
+  "medium": "spoken",
+  "requestSha256": "c18dacf987da33564c7c989113f78992a412032be838920f5c55434026720cba",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "爸爸現在能看這個嗎",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 109.378,
+  "loudness": {
+    "input_i": "-27.48",
+    "input_tp": "-12.02",
+    "input_lra": "3.30",
+    "input_thresh": "-38.16",
+    "output_i": "-19.50",
+    "output_tp": "-5.19",
+    "output_lra": "0.00",
+    "output_thresh": "-30.18",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.50"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-lin--002/raw.wav",
+      "bytes": 314960,
+      "sha256": "71b59721dae326ffb9ac9dae81b30a43e2f17a004f77fe56f1e5cdb7b189f8e4"
+    },
+    "master": {
+      "path": "healing-c2-parent-lin--002/master.wav",
+      "bytes": 157518,
+      "sha256": "b3d5d23d9cae1eb8825144e260e995c629582231936a9e8f118982c43d2ba2f6"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-lin--002/runtime.ogg",
+      "bytes": 25614,
+      "sha256": "2669e1ba401942e6b5a58d30be35c9d79ab736a825d134f473294ed5722c5937"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

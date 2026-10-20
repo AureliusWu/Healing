@@ -1,0 +1,55 @@
+{
+  "id": "healing-tang-interlude--005",
+  "sceneId": "tang-interlude",
+  "lineId": "tang-interlude--005",
+  "lineIndex": 4,
+  "speaker": "许棠",
+  "text": "班主任让我把摄影征集改到月考以后。她说家长会快到了，别让大家分心。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1538505003,
+  "textSha256": "cb0ce617ecf1ca42e1d28e76181a027038681b91640304c187cd957392352cd3",
+  "medium": "spoken",
+  "requestSha256": "9b752aae3f6f06f3b5b1d52c0ee2fbabd054f20c05a1b256b645866ae03ea9c3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "班主任讓我把攝影徵集改到月考以後他說 家長會快到了別讓大家分心",
+    "cer": 0.033333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.52,
+  "wallSeconds": 470.644,
+  "loudness": {
+    "input_i": "-20.44",
+    "input_tp": "-3.95",
+    "input_lra": "2.20",
+    "input_thresh": "-30.97",
+    "output_i": "-18.92",
+    "output_tp": "-2.53",
+    "output_lra": "1.80",
+    "output_thresh": "-29.32",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.08"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-tang-interlude--005/raw.wav",
+      "bytes": 914000,
+      "sha256": "ef901f5667d09fc9f3f8b732192fae81be05a1834331873f691c62213b63e531"
+    },
+    "master": {
+      "path": "healing-tang-interlude--005/master.wav",
+      "bytes": 457038,
+      "sha256": "c8beef35f1dd82f06b2f2c37c64226d02b87b8a029c97068401e54022aa553e9"
+    },
+    "runtime": {
+      "path": "healing-tang-interlude--005/runtime.ogg",
+      "bytes": 67889,
+      "sha256": "9dd89df082d78f129915d3b6406a420380ebb4a4499a18c36d7159a64123d856"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

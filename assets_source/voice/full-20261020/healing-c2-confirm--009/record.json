@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-confirm--009",
+  "sceneId": "c2-confirm",
+  "lineId": "c2-confirm--009",
+  "lineIndex": 8,
+  "speaker": "陈知遥",
+  "text": "老师说中午前。不用为了送十份纸，连本来要问的题都不问。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1768190694,
+  "textSha256": "05f7088ee6e317f84765f084edfe967a3fb886fa16685729acac3b683ec4cb94",
+  "medium": "spoken",
+  "requestSha256": "ed2330a2501343bcf20e1474f8928e36081b501e145dd956d35d3774da4810da",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "老师说中午前,不用为了送十份纸,连本来要问的题都不问",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.8,
+  "wallSeconds": 326.733,
+  "loudness": {
+    "input_i": "-18.43",
+    "input_tp": "-4.07",
+    "input_lra": "1.40",
+    "input_thresh": "-29.27",
+    "output_i": "-19.32",
+    "output_tp": "-5.00",
+    "output_lra": "1.30",
+    "output_thresh": "-29.99",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.68"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-confirm--009/raw.wav",
+      "bytes": 652880,
+      "sha256": "1cedd435fd4bda82c592dedc50041f6753f37827974f7b88d1fdba1a5ae09763"
+    },
+    "master": {
+      "path": "healing-c2-confirm--009/master.wav",
+      "bytes": 326478,
+      "sha256": "a90399d56bb71f21b7d93f8a06e47546bde4fb3eaa7ad3ac612ebc0e706d056d"
+    },
+    "runtime": {
+      "path": "healing-c2-confirm--009/runtime.ogg",
+      "bytes": 49220,
+      "sha256": "2afa0bb1644175bdb108271418f2b29dc795712c33401b27b3fde3b6996009e4"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

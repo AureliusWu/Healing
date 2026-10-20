@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-talk--003",
+  "sceneId": "c3-lin-talk",
+  "lineId": "c3-lin-talk--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "周一继续？像布置作业。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 96334522,
+  "textSha256": "310fc044b92ab652dd72e3d8134d21fb2e1f29192d9c73cb6d05fc6ed71bff45",
+  "medium": "spoken",
+  "requestSha256": "5ca711fa909fc3fcb8a38083f93d0cd1449e51a47f263ec50872adcf004e2003",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "周一继续想不知作业",
+    "cer": 0.333333,
+    "polarityCountsMatch": false,
+    "passed": false
+  },
+  "duration": 2.08,
+  "wallSeconds": 19.75,
+  "loudness": {
+    "input_i": "-26.53",
+    "input_tp": "-11.45",
+    "input_lra": "0.00",
+    "input_thresh": "-37.07",
+    "output_i": "-19.99",
+    "output_tp": "-4.92",
+    "output_lra": "0.00",
+    "output_thresh": "-30.53",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-talk--003/raw.wav",
+      "bytes": 199760,
+      "sha256": "a396cfff0a6d3d78bb018f00c177bbf0b6c8fc7de92872bd7b722ce44fd60e1c"
+    },
+    "master": {
+      "path": "healing-c3-lin-talk--003/master.wav",
+      "bytes": 99918,
+      "sha256": "41186a3c0b531e6016b190b5454df92d2017a814bf243d6b5096a4c814d69dba"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-talk--003/runtime.ogg",
+      "bytes": 18684,
+      "sha256": "3ddcde83e9f114371b5bc34c67cba562f2cae6d6ca9ecd9359005d04af5f1a1e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

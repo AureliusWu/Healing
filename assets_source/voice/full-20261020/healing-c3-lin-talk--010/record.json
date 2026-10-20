@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-talk--010",
+  "sceneId": "c3-lin-talk",
+  "lineId": "c3-lin-talk--010",
+  "lineIndex": 9,
+  "speaker": "林见夏",
+  "text": "我记得很多。你把其实很害怕写出来的时候，也记得。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 677834688,
+  "textSha256": "838ac67427a3d5d5c1854d847eebac0da911c27a080d88160cbb3457f1e95355",
+  "medium": "spoken",
+  "requestSha256": "f971b836c7a7d62b1c27498afed0c2c54d25e6e1bc6e36d1a2c261cbd8275816",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我记得很多,你把其实很害怕写出来的时候也记得",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.88,
+  "wallSeconds": 159.723,
+  "loudness": {
+    "input_i": "-27.55",
+    "input_tp": "-12.64",
+    "input_lra": "0.20",
+    "input_thresh": "-37.60",
+    "output_i": "-20.22",
+    "output_tp": "-5.28",
+    "output_lra": "0.10",
+    "output_thresh": "-30.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-talk--010/raw.wav",
+      "bytes": 468560,
+      "sha256": "c48666b8a452722f81c8c245b3bf451d7a26d6e2ac80668098ffb08322f0d7e3"
+    },
+    "master": {
+      "path": "healing-c3-lin-talk--010/master.wav",
+      "bytes": 234318,
+      "sha256": "b0b4682dc1220d221033239999d2cc1597e91f94d03698dbbfe4fdbdee602569"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-talk--010/runtime.ogg",
+      "bytes": 38346,
+      "sha256": "18926336ebc09a226bc0e66743ae375c9dead27c94594e72eb5e157c4b13c5c4"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

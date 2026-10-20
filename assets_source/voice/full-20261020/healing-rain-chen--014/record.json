@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-chen--014",
+  "sceneId": "rain-chen",
+  "lineId": "rain-chen--014",
+  "lineIndex": 13,
+  "speaker": "程屿",
+  "text": "没事。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1397340617,
+  "textSha256": "6054220f472343d764438d4799d9f51d34571811e1b83bbb521a08526ad3d55e",
+  "medium": "spoken",
+  "requestSha256": "7dd3380f89655e7d9f6c5e67ba6ff16a0711f6a0bf397861acf4d8669cc1b0e0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "没事",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.48,
+  "wallSeconds": 3.398,
+  "loudness": {
+    "input_i": "-25.35",
+    "input_tp": "-9.96",
+    "input_lra": "0.00",
+    "input_thresh": "-35.35",
+    "output_i": "-20.05",
+    "output_tp": "-4.61",
+    "output_lra": "0.00",
+    "output_thresh": "-30.05",
+    "normalization_type": "linear",
+    "target_offset": "0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-chen--014/raw.wav",
+      "bytes": 46160,
+      "sha256": "d2b215992e3855375c7638cf0a08d1af48c4ce8c4c8586d84e1048a0dc79fd10"
+    },
+    "master": {
+      "path": "healing-rain-chen--014/master.wav",
+      "bytes": 23118,
+      "sha256": "beda55c3089a5118ecfad086ff5ecd71fb9907c44279bde8b5cf7b7f7d51f14f"
+    },
+    "runtime": {
+      "path": "healing-rain-chen--014/runtime.ogg",
+      "bytes": 7518,
+      "sha256": "bf0dbedeb41f06b3c366e8e1e8d8f26580dd053b441a36673e610fbdea4dc30f"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

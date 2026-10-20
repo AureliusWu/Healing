@@ -1,0 +1,55 @@
+{
+  "id": "healing-club--014",
+  "sceneId": "club",
+  "lineId": "club--014",
+  "lineIndex": 13,
+  "speaker": "林见夏",
+  "text": "你要是想写，今天可以只写一句。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 404828124,
+  "textSha256": "e85f870fdbaa177cf30dbc14c09c86d277e87b19727d55722a3901d9491b2876",
+  "medium": "spoken",
+  "requestSha256": "e52d3762f1ee680fd9845a487420ecb6386ffb0ba5ae6a651017bdc45a971814",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你要是想写,今天可以只写一句",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.48,
+  "wallSeconds": 11.78,
+  "loudness": {
+    "input_i": "-25.63",
+    "input_tp": "-12.39",
+    "input_lra": "0.00",
+    "input_thresh": "-35.63",
+    "output_i": "-20.01",
+    "output_tp": "-6.76",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-club--014/raw.wav",
+      "bytes": 238160,
+      "sha256": "0499f6f705621f4d056f9a086d8249719dbd80bf7adaef32b6de33d04f71f287"
+    },
+    "master": {
+      "path": "healing-club--014/master.wav",
+      "bytes": 119118,
+      "sha256": "789fb6f974b20df0d2ea091b6005ce59ebb34b243d49e4e82406f974ca4e1a7c"
+    },
+    "runtime": {
+      "path": "healing-club--014/runtime.ogg",
+      "bytes": 21466,
+      "sha256": "716d85dec6656d206a0a5d2dd5afee7c082decba5487b54629124dd27af4647a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

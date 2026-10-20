@@ -1,0 +1,55 @@
+{
+  "id": "healing-tang-interlude--015",
+  "sceneId": "tang-interlude",
+  "lineId": "tang-interlude--015",
+  "lineIndex": 14,
+  "speaker": "许棠",
+  "text": "走吧。再晚一点，门卫真要来赶人了。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 296401511,
+  "textSha256": "33be40ef9dfcf4f2fa633fe8b73011daabdd7ac1b370d3884f9ccf139adaba06",
+  "medium": "spoken",
+  "requestSha256": "faa7ff534e484fa625a503e99a029072bc9b5516e5db06c341183651162822b2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "走吧 再晚一點 門位真要來趕人了",
+    "cer": 0.071429,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 20.142,
+  "loudness": {
+    "input_i": "-21.42",
+    "input_tp": "-5.90",
+    "input_lra": "1.60",
+    "input_thresh": "-31.72",
+    "output_i": "-18.01",
+    "output_tp": "-2.54",
+    "output_lra": "1.40",
+    "output_thresh": "-28.65",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.99"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-tang-interlude--015/raw.wav",
+      "bytes": 407120,
+      "sha256": "06f4a1bafedde18f1ecde6c5b9277bc60a9a935666d6dfdadc43e63316a9f2b4"
+    },
+    "master": {
+      "path": "healing-tang-interlude--015/master.wav",
+      "bytes": 203598,
+      "sha256": "90131d3f367444f470321ff98d82df18f16af0bc81c6a4838c3e12d363a63cd9"
+    },
+    "runtime": {
+      "path": "healing-tang-interlude--015/runtime.ogg",
+      "bytes": 31808,
+      "sha256": "8d3874e130c0a111951bec8c6faed39d2b34bd5f16fc3449f71de8242eea5dc2"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

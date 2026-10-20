@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-tang-photo--010",
+  "sceneId": "c2-tang-photo",
+  "lineId": "c2-tang-photo--010",
+  "lineIndex": 9,
+  "speaker": "许棠",
+  "text": "也舍不得。不过舍不得是我的事。给别人看之前，要由照片里的那个人决定。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1337317689,
+  "textSha256": "adb291af3f7f6812dd495bcba88e0d459a4c1a66d352a7d1553c9ffe06f8e421",
+  "medium": "spoken",
+  "requestSha256": "27096d4397398717e987a3161f3a1c6b08f5e4361c65da5729de1bd1b0be53eb",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "也舍不得,不過舍不得是我的事,給別人看之前要有照片裡的那個人決定",
+    "cer": 0.033333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.76,
+  "wallSeconds": 215.693,
+  "loudness": {
+    "input_i": "-19.79",
+    "input_tp": "-3.50",
+    "input_lra": "3.20",
+    "input_thresh": "-30.31",
+    "output_i": "-19.25",
+    "output_tp": "-3.15",
+    "output_lra": "3.10",
+    "output_thresh": "-29.78",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.75"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-tang-photo--010/raw.wav",
+      "bytes": 745040,
+      "sha256": "24c14e005131b4d247873841b484c6bba0733812ab3c75f3375f438b7df2436a"
+    },
+    "master": {
+      "path": "healing-c2-tang-photo--010/master.wav",
+      "bytes": 372558,
+      "sha256": "42fd1326b4d7de6b80bb567b786974979c64b69539c59a80a68a0ac63d12ecfe"
+    },
+    "runtime": {
+      "path": "healing-c2-tang-photo--010/runtime.ogg",
+      "bytes": 55431,
+      "sha256": "0db75b5dcb87b011c908b59c6bec88e727f249d62f009768d494f2040400a672"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-together--004",
+  "sceneId": "end-together",
+  "lineId": "end-together--004",
+  "lineIndex": 3,
+  "speaker": "陈知遥",
+  "text": "我试过删。每次删掉最后一句，都觉得少了点东西。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1470114730,
+  "textSha256": "c0f66c5a00630c30029213a557a4ebeffc261ef4a8a20ff98b1471d659237543",
+  "medium": "spoken",
+  "requestSha256": "619d2cae51f884e591828f04e4b20c99f46205207766cbb5ec402f66fa2fb122",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我試過山,每次刪掉最後一句都覺得少了點東西。",
+    "cer": 0.05,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.8,
+  "wallSeconds": 22.137,
+  "loudness": {
+    "input_i": "-20.23",
+    "input_tp": "-5.31",
+    "input_lra": "1.90",
+    "input_thresh": "-30.41",
+    "output_i": "-19.97",
+    "output_tp": "-5.19",
+    "output_lra": "2.00",
+    "output_thresh": "-30.28",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-together--004/raw.wav",
+      "bytes": 460880,
+      "sha256": "55884a5f46f1a6c4d38425381d9e49bdc777ba52c870979c29498616a0bb4c11"
+    },
+    "master": {
+      "path": "healing-end-together--004/master.wav",
+      "bytes": 230478,
+      "sha256": "59d42cec45cbb0e48620c8bbed3b47b51528b3aad93a098d5fcad6765b668b50"
+    },
+    "runtime": {
+      "path": "healing-end-together--004/runtime.ogg",
+      "bytes": 37782,
+      "sha256": "2cb20002d77ca46bf32e218fe865e609e1889667e7425f07ab127d7b5ed2cb3a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

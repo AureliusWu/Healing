@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-chen--005",
+  "sceneId": "c2-parent-chen",
+  "lineId": "c2-parent-chen--005",
+  "lineIndex": 4,
+  "speaker": "陈知遥",
+  "text": "今晚做不完。星期一中午能交，要是今天就要得找别人。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 888809687,
+  "textSha256": "04acd46bda70504ab20a37e424943dece42b2bee0526f9b419e075da1d73b7fb",
+  "medium": "spoken",
+  "requestSha256": "72ab2a7d8b832e8294a816b40698655264ee40cbfe2625b259a2d87a8c0a150f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先晚做不完,星期一中午能教,要是今天就要得找別人",
+    "cer": 0.090909,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.52,
+  "wallSeconds": 43.51,
+  "loudness": {
+    "input_i": "-18.48",
+    "input_tp": "-4.64",
+    "input_lra": "2.50",
+    "input_thresh": "-29.04",
+    "output_i": "-20.19",
+    "output_tp": "-6.92",
+    "output_lra": "2.50",
+    "output_thresh": "-30.75",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-chen--005/raw.wav",
+      "bytes": 530000,
+      "sha256": "3211a3893a0528dd2a60c073acb6bc430e51287931f5a214dc9625c11d2fe945"
+    },
+    "master": {
+      "path": "healing-c2-parent-chen--005/master.wav",
+      "bytes": 265038,
+      "sha256": "d12d2ca529123a0ee98712611b094912b394a849c6745f8d6442e2a8d6f0d7e4"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-chen--005/runtime.ogg",
+      "bytes": 41463,
+      "sha256": "c08fcdf7510c206d783924da951cf50fd58f03ff020c1241554fe9a6897fc993"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

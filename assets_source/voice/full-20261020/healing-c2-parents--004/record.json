@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parents--004",
+  "sceneId": "c2-parents",
+  "lineId": "c2-parents--004",
+  "lineIndex": 3,
+  "speaker": "贺川",
+  "text": "我爸坐错了。他刚问我名字为什么写李卓。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1670617992,
+  "textSha256": "304abe1f6fb6174499344c97b3e3b86766562a3ee7c55c7c217a440fb05f9caa",
+  "medium": "spoken",
+  "requestSha256": "eeba9b8ce6d1a9e89d2cbd43310f63633b90c810f1e060081f49db14cfaad483",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "唉,我爸租錯了,他剛問我名字為什麼寫李卓",
+    "cer": 0.117647,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.84,
+  "wallSeconds": 374.23,
+  "loudness": {
+    "input_i": "-22.26",
+    "input_tp": "-4.65",
+    "input_lra": "2.50",
+    "input_thresh": "-33.39",
+    "output_i": "-20.02",
+    "output_tp": "-2.00",
+    "output_lra": "1.40",
+    "output_thresh": "-31.50",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parents--004/raw.wav",
+      "bytes": 752720,
+      "sha256": "c6c95a7ee53af854dc2551b276c8676e72b1404c2fc4f150bfb3110872cd6ee3"
+    },
+    "master": {
+      "path": "healing-c2-parents--004/master.wav",
+      "bytes": 376398,
+      "sha256": "4759af833591c6afd75c91b70a998ed82305adcc71df052d15fd45cf1bc6efa5"
+    },
+    "runtime": {
+      "path": "healing-c2-parents--004/runtime.ogg",
+      "bytes": 55735,
+      "sha256": "3c62ca819d36d636b85ccfc430c2512f04dda8ca66126958e9ba9a79ab014011"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--004",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--004",
+  "lineIndex": 3,
+  "speaker": "程屿",
+  "text": "如果他们觉得我没努力，那我还有一种解释。等我认真起来，就会变好。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1929028061,
+  "textSha256": "ad9a2573cec00742be153e4469a4b2926a44c45d029bfe8c3c568224923ba743",
+  "medium": "spoken",
+  "requestSha256": "f92d5fd068bc3921af150f245c1accaf74c7a15664d5781d6c56750f3361a181",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "如果他们觉得我没努力那我还有一种解释等我认真起来就会变好",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.24,
+  "wallSeconds": 37.499,
+  "loudness": {
+    "input_i": "-27.12",
+    "input_tp": "-7.15",
+    "input_lra": "2.20",
+    "input_thresh": "-37.66",
+    "output_i": "-20.33",
+    "output_tp": "-2.00",
+    "output_lra": "2.40",
+    "output_thresh": "-31.03",
+    "normalization_type": "dynamic",
+    "target_offset": "0.33"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--004/raw.wav",
+      "bytes": 599120,
+      "sha256": "21cd07ab7a3fca9baa26cbda557f2c64a51b6f586077cac88e3e9cad72c29341"
+    },
+    "master": {
+      "path": "healing-draft-plain--004/master.wav",
+      "bytes": 299598,
+      "sha256": "394a0c2c7910f8a7131b9e10e27c368536bc482b75896cda1a15d279bd8f6962"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--004/runtime.ogg",
+      "bytes": 47359,
+      "sha256": "d0063560a018a80e38ef147bebc133f23abb74d63894d0457b3542f5eb2787f0"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

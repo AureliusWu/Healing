@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-stitch--004",
+  "sceneId": "c2-stitch",
+  "lineId": "c2-stitch--004",
+  "lineIndex": 3,
+  "speaker": "许棠",
+  "text": "那群里只说样张入柜，周一再看。别发一串现在就要答的照片。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1853283094,
+  "textSha256": "1dc8086caab4a58c6bed87833eba3728f3ece50365a8b3e8e4b4157ce9665518",
+  "medium": "spoken",
+  "requestSha256": "afe504eba6cc9e4e8391ccde45bd4e4ee06c298a86b3e55bd57041fdd82b42d7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那群裡只說樣張入櫃,週一再看。別發一串,現在就要達的照片。",
+    "cer": 0.04,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.2,
+  "wallSeconds": 55.188,
+  "loudness": {
+    "input_i": "-22.57",
+    "input_tp": "-7.32",
+    "input_lra": "2.10",
+    "input_thresh": "-33.19",
+    "output_i": "-20.15",
+    "output_tp": "-5.01",
+    "output_lra": "2.40",
+    "output_thresh": "-30.93",
+    "normalization_type": "dynamic",
+    "target_offset": "0.15"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-stitch--004/raw.wav",
+      "bytes": 691280,
+      "sha256": "9ba695cc8affeed4de997ffe1f649e3aca277a9097886a3688e9f76d19ba41bb"
+    },
+    "master": {
+      "path": "healing-c2-stitch--004/master.wav",
+      "bytes": 345678,
+      "sha256": "5ff2228c8ef8dd7ea044edc6925e5186c5f314b7268e76c4b53564d9f8bd8b42"
+    },
+    "runtime": {
+      "path": "healing-c2-stitch--004/runtime.ogg",
+      "bytes": 52226,
+      "sha256": "1e3f3728e0877eed6cd2e6ecb40f5276daa57f63b64f350628b624afaaf34022"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-deadline--008",
+  "sceneId": "c2-deadline",
+  "lineId": "c2-deadline--008",
+  "lineIndex": 7,
+  "speaker": "林见夏",
+  "text": "今天改不完的文章，也先不上。不用把每个空位都塞满。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 492730744,
+  "textSha256": "77e7929bc8d987d0cc6ad95677d26302b7ee56ad15e2ca3dee5c74ee7ed7b598",
+  "medium": "spoken",
+  "requestSha256": "52c75c0ebed79b980801bcf56aaac2df4cdadac3632a7d7958484c7f44437ab4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天改不完的文章,也先不上不用把每个空位都塞满",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.2,
+  "wallSeconds": 23.481,
+  "loudness": {
+    "input_i": "-25.66",
+    "input_tp": "-9.55",
+    "input_lra": "1.60",
+    "input_thresh": "-36.51",
+    "output_i": "-19.68",
+    "output_tp": "-3.58",
+    "output_lra": "1.60",
+    "output_thresh": "-30.35",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.32"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-deadline--008/raw.wav",
+      "bytes": 499280,
+      "sha256": "7a482cc0e4c0996e6e33d7edded3db1abd6e6eb70b8c63b6f577bb5dfc185a8b"
+    },
+    "master": {
+      "path": "healing-c2-deadline--008/master.wav",
+      "bytes": 249678,
+      "sha256": "cd204e7b57e5022ddd17679363324de70d59e330cf689c8aff09aa8e5ad820e7"
+    },
+    "runtime": {
+      "path": "healing-c2-deadline--008/runtime.ogg",
+      "bytes": 40854,
+      "sha256": "a42016acc79e3663fae83d2d80cbdb65fd83a43c40efca0a1dc4c1d74b21e687"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

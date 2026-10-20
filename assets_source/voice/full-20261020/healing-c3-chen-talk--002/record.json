@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-talk--002",
+  "sceneId": "c3-chen-talk",
+  "lineId": "c3-chen-talk--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "比搬箱时快。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 576446274,
+  "textSha256": "02afe8aa2e8fde6eb0bd38c311cd2f468ae7a03fd5e94273a8157e2faa2cffd2",
+  "medium": "spoken",
+  "requestSha256": "0a522c4239b137d31ad69bd9b29c1ea28954e2337ab8b8a2170fe8b8ce4e1b2d",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "比搬箱时快",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 63.434,
+  "loudness": {
+    "input_i": "-22.47",
+    "input_tp": "-5.83",
+    "input_lra": "0.00",
+    "input_thresh": "-32.47",
+    "output_i": "-20.00",
+    "output_tp": "-3.36",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-talk--002/raw.wav",
+      "bytes": 107600,
+      "sha256": "a43115bdaed2b4223bccf13979769e27d9fa4ac2f64509ca15438522d3c161b2"
+    },
+    "master": {
+      "path": "healing-c3-chen-talk--002/master.wav",
+      "bytes": 53838,
+      "sha256": "f32f76cd131b29a7549b8fb01e87627281d95b6d773981a52179ec2df6bb1ddb"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-talk--002/runtime.ogg",
+      "bytes": 12205,
+      "sha256": "babffa06690e477f476b4d9c5b984d0fbd384f277b470fd88766b9199cbcf261"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

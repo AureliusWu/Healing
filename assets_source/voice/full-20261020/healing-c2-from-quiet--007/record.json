@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-quiet--007",
+  "sceneId": "c2-from-quiet",
+  "lineId": "c2-from-quiet--007",
+  "lineIndex": 6,
+  "speaker": "许棠",
+  "text": "绕的那句我们可以圈出来。要不要改、怎么改，还是你决定。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1393392168,
+  "textSha256": "6abe0c8bd5c2cff44126ee0fdf6ae485b757d599aaa3f01a45a2f056b0cd7264",
+  "medium": "spoken",
+  "requestSha256": "75788c6c1b8d9f6778f6c06c45c95484fb492808ebd68cb716255a017b4d53a6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "绕的那句,我们可以圈出来,要不要改,怎么改,还是你决定。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.32,
+  "wallSeconds": 201.945,
+  "loudness": {
+    "input_i": "-23.51",
+    "input_tp": "-8.16",
+    "input_lra": "1.20",
+    "input_thresh": "-34.22",
+    "output_i": "-20.10",
+    "output_tp": "-4.55",
+    "output_lra": "2.00",
+    "output_thresh": "-30.86",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-quiet--007/raw.wav",
+      "bytes": 606800,
+      "sha256": "8d7116519fd0c4e900339a1a3da70f089ac04b72b9699e6e291ffcf8bbd16de6"
+    },
+    "master": {
+      "path": "healing-c2-from-quiet--007/master.wav",
+      "bytes": 303438,
+      "sha256": "a8a82197e6d5d8bf7bd65aee004970df402be8009e0b9be204d94974d5ac155a"
+    },
+    "runtime": {
+      "path": "healing-c2-from-quiet--007/runtime.ogg",
+      "bytes": 46961,
+      "sha256": "e7e1d585ef8464ed6401f99f7802a275107623f982b783e46c1301f760d07de4"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-chen-final--007",
+  "sceneId": "end-chen-final",
+  "lineId": "end-chen-final--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "今天不用说班里。你文章的下一段，后来怎么写？",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 576783558,
+  "textSha256": "ab57e5eca82ad231949378b552d26b8b5c7c8e3e365089284b7f113e7a74c7c8",
+  "medium": "spoken",
+  "requestSha256": "cbbaac6710c605bb3996090f897eebb32b36afbcb1168c48c433a7e4748898a7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天不用说班礼你文章的下一段后来怎么写",
+    "cer": 0.052632,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.4,
+  "wallSeconds": 20.543,
+  "loudness": {
+    "input_i": "-20.50",
+    "input_tp": "-6.59",
+    "input_lra": "1.00",
+    "input_thresh": "-30.85",
+    "output_i": "-18.77",
+    "output_tp": "-4.70",
+    "output_lra": "0.40",
+    "output_thresh": "-29.13",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.23"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-chen-final--007/raw.wav",
+      "bytes": 422480,
+      "sha256": "e39b16e86e192db1cb86ef2d08527c6012e052af3a4f8ed563bf5491b944741e"
+    },
+    "master": {
+      "path": "healing-end-chen-final--007/master.wav",
+      "bytes": 211278,
+      "sha256": "964627ffcee667bdd321d0f5c66477ab6865e0310d429f7abd15f48148c5f143"
+    },
+    "runtime": {
+      "path": "healing-end-chen-final--007/runtime.ogg",
+      "bytes": 33856,
+      "sha256": "32907612a79cc390da0e3f27c747b6bc92f2eb8d5c31596befb254be01ec50ce"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

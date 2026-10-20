@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-tang-photo--006",
+  "sceneId": "c2-tang-photo",
+  "lineId": "c2-tang-photo--006",
+  "lineIndex": 5,
+  "speaker": "许棠",
+  "text": "会。所以本来就留了能换的位置。用长椅那张，没有人。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1023265266,
+  "textSha256": "0af632a514cd3e724c9b5f5e56b9aaa98c797a4a027de148a19508a23509f594",
+  "medium": "spoken",
+  "requestSha256": "11fc8d1fe1e22dc74a0a61d2f39a483ccad8c89f2038fa441f0fb3e1ff956552",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "會,所以本來就留了能換的位置,用長椅那張沒有燃",
+    "cer": 0.047619,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.64,
+  "wallSeconds": 318.096,
+  "loudness": {
+    "input_i": "-17.87",
+    "input_tp": "-4.54",
+    "input_lra": "2.10",
+    "input_thresh": "-29.09",
+    "output_i": "-19.95",
+    "output_tp": "-6.05",
+    "output_lra": "1.80",
+    "output_thresh": "-31.15",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-tang-photo--006/raw.wav",
+      "bytes": 637520,
+      "sha256": "6e40583a89450ad1231d287c4c02861ae0dacf6fcfeec0fc517077623226225d"
+    },
+    "master": {
+      "path": "healing-c2-tang-photo--006/master.wav",
+      "bytes": 318798,
+      "sha256": "3c6a5e798a9323f4e69da32d6c68104b32e9d89df50b315177c86bff5ab01244"
+    },
+    "runtime": {
+      "path": "healing-c2-tang-photo--006/runtime.ogg",
+      "bytes": 46514,
+      "sha256": "6e060726821d7a2740daf3d44e438ae77fd040c591b2d3b2dd7c19eb0b7dc8c4"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

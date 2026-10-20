@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-tang-photo--008",
+  "sceneId": "c2-tang-photo",
+  "lineId": "c2-tang-photo--008",
+  "lineIndex": 7,
+  "speaker": "许棠",
+  "text": "我以前拿相机的时候，总想着抓住最好看的那一瞬间。拍下来了，就很难舍得不用。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 589768319,
+  "textSha256": "808a077a4000dccffa150bfd1381914eeddedcf92785ecb432bc68a7dc84d0cb",
+  "medium": "spoken",
+  "requestSha256": "e4175cfb5ef02fdb8519ce9910c7455e43a85cb105767a3fca5992e298d11c18",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我以前拿相机的时候总想着抓住最好看的那一瞬间拍下来了就很难舍得不用",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.84,
+  "wallSeconds": 44.575,
+  "loudness": {
+    "input_i": "-20.52",
+    "input_tp": "-5.25",
+    "input_lra": "3.80",
+    "input_thresh": "-31.01",
+    "output_i": "-20.67",
+    "output_tp": "-6.23",
+    "output_lra": "2.80",
+    "output_thresh": "-31.09",
+    "normalization_type": "dynamic",
+    "target_offset": "0.67"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-tang-photo--008/raw.wav",
+      "bytes": 752720,
+      "sha256": "2d2de90ed97cb5b2774994f77f1a4cc335be02eacaa81b4a23037766488ffff6"
+    },
+    "master": {
+      "path": "healing-c2-tang-photo--008/master.wav",
+      "bytes": 376398,
+      "sha256": "315707ff8e23bd1e54bf15b8012ed8551440cb034a6e3413a9bce0b5d93eb174"
+    },
+    "runtime": {
+      "path": "healing-c2-tang-photo--008/runtime.ogg",
+      "bytes": 58415,
+      "sha256": "ab15552bc4f973e3df15121ee35126188d17198aa4765f30598af7dcc6b3e0c5"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

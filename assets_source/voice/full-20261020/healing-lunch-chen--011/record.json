@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--011",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--011",
+  "lineIndex": 10,
+  "speaker": "陈知遥",
+  "text": "我知道。可是每次说“我没空”，都觉得下一句要交代一个足够重要的理由。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1904786344,
+  "textSha256": "1f3afa00458310afb1c4bb2befb5fdeeb2526099c3204975290a3a98e927af78",
+  "medium": "spoken",
+  "requestSha256": "57a1f576b6f7afa7245138933a155063bd05390ee050ebe89cb409ee91da4f9a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我知道,可是每次說我沒空,都覺得下一句要交代一個足夠重要的理由。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.24,
+  "wallSeconds": 36.033,
+  "loudness": {
+    "input_i": "-21.72",
+    "input_tp": "-4.91",
+    "input_lra": "3.30",
+    "input_thresh": "-32.07",
+    "output_i": "-20.57",
+    "output_tp": "-5.27",
+    "output_lra": "1.90",
+    "output_thresh": "-30.94",
+    "normalization_type": "dynamic",
+    "target_offset": "0.57"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--011/raw.wav",
+      "bytes": 791120,
+      "sha256": "5444ad0fed1ff82129631207998357d0c88187c256e3f01537a0435aabfa420b"
+    },
+    "master": {
+      "path": "healing-lunch-chen--011/master.wav",
+      "bytes": 395598,
+      "sha256": "5124b4c392cfc780aab15e0e86ff23d3ec853b2c66e6dff9e77e3cd4255bfe65"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--011/runtime.ogg",
+      "bytes": 58824,
+      "sha256": "e860ff1db67480205da5165abb632a1e9eb32ff59b690358ca4b9a770624db77"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

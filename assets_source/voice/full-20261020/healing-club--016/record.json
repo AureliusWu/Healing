@@ -1,0 +1,55 @@
+{
+  "id": "healing-club--016",
+  "sceneId": "club",
+  "lineId": "club--016",
+  "lineIndex": 15,
+  "speaker": "陈知遥",
+  "text": "我们不是来给稿子打分的。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 191766837,
+  "textSha256": "e2841f7a75dacd96164dad659650f7fd8b7f870292ca3185e71227350cca652c",
+  "medium": "spoken",
+  "requestSha256": "791190c083e4d1ab8bec89be6fa3911dcabb9e7f609f15e692d796a3a88a6115",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我們不是來給稿子打分的",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.32,
+  "wallSeconds": 67.505,
+  "loudness": {
+    "input_i": "-19.02",
+    "input_tp": "-6.80",
+    "input_lra": "0.00",
+    "input_thresh": "-29.02",
+    "output_i": "-19.99",
+    "output_tp": "-7.77",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-club--016/raw.wav",
+      "bytes": 222800,
+      "sha256": "0ec844c146e83b7cd666562a6b8f048442e967a9959a1e1f9425ed33d59afd21"
+    },
+    "master": {
+      "path": "healing-club--016/master.wav",
+      "bytes": 111438,
+      "sha256": "924004a71bdabe27cb9c28074ebdddc3cb5e1fba6a84bd3e0edded490b526fb7"
+    },
+    "runtime": {
+      "path": "healing-club--016/runtime.ogg",
+      "bytes": 20124,
+      "sha256": "975d0700d131e77add5b300be2480f56acfb0217b9c416e7491efaada277f3ea"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

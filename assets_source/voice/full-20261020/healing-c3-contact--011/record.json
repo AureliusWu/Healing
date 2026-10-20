@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-contact--011",
+  "sceneId": "c3-contact",
+  "lineId": "c3-contact--011",
+  "lineIndex": 10,
+  "speaker": "许棠",
+  "text": "先不说。说了好像就必须拍好，放学也变成赶进度。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1500729337,
+  "textSha256": "9f8a5fa964ce6689feccf11ce445e1a5354b3e49f0e5ad4b0790c1441447814e",
+  "medium": "spoken",
+  "requestSha256": "ee350eca0782d613e8c049796f25504aa89280cf3fc9300fa03034c4346dc2cc",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先不說 輸了好像就必須拍好放學也變成趕進讀",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 25.835,
+  "loudness": {
+    "input_i": "-19.62",
+    "input_tp": "-4.21",
+    "input_lra": "0.60",
+    "input_thresh": "-29.94",
+    "output_i": "-19.53",
+    "output_tp": "-4.02",
+    "output_lra": "0.40",
+    "output_thresh": "-29.97",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.47"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-contact--011/raw.wav",
+      "bytes": 414800,
+      "sha256": "1725783535cbb02b4ad8d6ab6c2a196eb5e843e08ab6a55a9ee6cfcf924e54a8"
+    },
+    "master": {
+      "path": "healing-c3-contact--011/master.wav",
+      "bytes": 207438,
+      "sha256": "c35205322de0fc6b893c4e7b0b4290a3c3ec32b46ab316bc073f62a02214295e"
+    },
+    "runtime": {
+      "path": "healing-c3-contact--011/runtime.ogg",
+      "bytes": 34772,
+      "sha256": "d0cfef2440326a31f401934260f6b26cd2247149384db3da10586672019b33b0"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

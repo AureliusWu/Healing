@@ -1,0 +1,55 @@
+{
+  "id": "healing-evening--004",
+  "sceneId": "evening",
+  "lineId": "evening--004",
+  "lineIndex": 3,
+  "speaker": "母亲",
+  "text": "你不是说最近没时间吗？作业又要写到半夜。",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1378248143,
+  "textSha256": "77a825d672a354642501237e78c67d9f304c8cf2f18d5a7782b480befaf2304c",
+  "medium": "spoken",
+  "requestSha256": "60c76edfe47da691343cc1f6e77fd1092b42b9183c8acb68e7c2f6c2cc04bb3a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你不是说最近没时间吗作业又要写到半夜",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.36,
+  "wallSeconds": 192.922,
+  "loudness": {
+    "input_i": "-23.22",
+    "input_tp": "-8.88",
+    "input_lra": "0.50",
+    "input_thresh": "-33.52",
+    "output_i": "-19.58",
+    "output_tp": "-5.29",
+    "output_lra": "0.00",
+    "output_thresh": "-29.87",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.42"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-evening--004/raw.wav",
+      "bytes": 322640,
+      "sha256": "48ae498223d4e57a407bd1480c5e984edf2f862efdc01ac6414a2b811e7c3ba2"
+    },
+    "master": {
+      "path": "healing-evening--004/master.wav",
+      "bytes": 161358,
+      "sha256": "6cf92f5556f4269505190dfd687946d0847d93ad19256385c47498255a152d03"
+    },
+    "runtime": {
+      "path": "healing-evening--004/runtime.ogg",
+      "bytes": 27590,
+      "sha256": "c1fdbe16ec80b44d9045f6ebcebcab930fbc50bc51258ef577679e8541007b06"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

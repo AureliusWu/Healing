@@ -1,0 +1,55 @@
+{
+  "id": "healing-club--004",
+  "sceneId": "club",
+  "lineId": "club--004",
+  "lineIndex": 3,
+  "speaker": "程屿",
+  "text": "还差多少？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1229320893,
+  "textSha256": "593cdb5668f670908c6ef29dc2f63ebc72809901cb7ef0cc1f3e4b7b628958ec",
+  "medium": "spoken",
+  "requestSha256": "1eb91c573feffc6c36906b7db445a46972392e7ba758e73ea09f7a2c12af8a82",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "还差多少",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.96,
+  "wallSeconds": 11.813,
+  "loudness": {
+    "input_i": "-25.97",
+    "input_tp": "-9.67",
+    "input_lra": "0.00",
+    "input_thresh": "-35.97",
+    "output_i": "-20.00",
+    "output_tp": "-3.70",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-club--004/raw.wav",
+      "bytes": 92240,
+      "sha256": "28a3e1502ff11766a139244ea744901e2661d7fd166ffb7120cea66f800ee8cf"
+    },
+    "master": {
+      "path": "healing-club--004/master.wav",
+      "bytes": 46158,
+      "sha256": "800c7d8234f331cdfa853b62e495ec04d3c8921e16b5191e029fa8b332d951da"
+    },
+    "runtime": {
+      "path": "healing-club--004/runtime.ogg",
+      "bytes": 10886,
+      "sha256": "967f6e5984c188cc8bbc1247230efb97e37cd04233276373612c783f67d703a9"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-contact--009",
+  "sceneId": "c3-contact",
+  "lineId": "c3-contact--009",
+  "lineIndex": 8,
+  "speaker": "许棠",
+  "text": "用这张。至少它记得那天还没刷漆。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 414435596,
+  "textSha256": "01a1191279b728ad1a45020628f33567dee10543904b4a283939a5c23c46549c",
+  "medium": "spoken",
+  "requestSha256": "1a4c83c57fa007875407dc11c5168c8dd89dd9d8b00993e9eddaae89b10692bd",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "用這掌至少他記得那天還沒刷漆",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 226.88,
+  "loudness": {
+    "input_i": "-17.92",
+    "input_tp": "-3.32",
+    "input_lra": "3.60",
+    "input_thresh": "-28.32",
+    "output_i": "-16.94",
+    "output_tp": "-2.15",
+    "output_lra": "2.40",
+    "output_thresh": "-27.53",
+    "normalization_type": "dynamic",
+    "target_offset": "-3.06"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-contact--009/raw.wav",
+      "bytes": 445520,
+      "sha256": "22eacd5edd6fafb8acdff44e35897dba1874510c82145dbfee0a3937132dbfd3"
+    },
+    "master": {
+      "path": "healing-c3-contact--009/master.wav",
+      "bytes": 222798,
+      "sha256": "8ee9258bffbedfd8e311b46d25f1133da590b6e3645e1b9876947b04028955de"
+    },
+    "runtime": {
+      "path": "healing-c3-contact--009/runtime.ogg",
+      "bytes": 35478,
+      "sha256": "84a06d3e7451c8df794149f29d944e446937da28687169b20a0c8055a25dcbf9"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

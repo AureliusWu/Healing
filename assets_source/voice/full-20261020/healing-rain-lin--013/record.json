@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-lin--013",
+  "sceneId": "rain-lin",
+  "lineId": "rain-lin--013",
+  "lineIndex": 12,
+  "speaker": "林见夏",
+  "text": "我明天跟知遥说清楚。不让你当传话的人。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 958375172,
+  "textSha256": "06eba3b4989a43fc2b273fa51a7a4f0717b97cc3523463c1dc2c80234ffa01e3",
+  "medium": "spoken",
+  "requestSha256": "de5759bbdef3c955df942052f8a2a5793bdfed7556a9e803d8e829605a356189",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我明天跟治瑤說清楚,不讓你當傳話的人",
+    "cer": 0.117647,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 161.51,
+  "loudness": {
+    "input_i": "-24.29",
+    "input_tp": "-7.18",
+    "input_lra": "1.10",
+    "input_thresh": "-34.58",
+    "output_i": "-20.12",
+    "output_tp": "-3.27",
+    "output_lra": "0.00",
+    "output_thresh": "-30.38",
+    "normalization_type": "dynamic",
+    "target_offset": "0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-lin--013/raw.wav",
+      "bytes": 345680,
+      "sha256": "9e1f7c748f69cb1db6821ebed062d218d8f3068874617a082ac9cc7edf10a303"
+    },
+    "master": {
+      "path": "healing-rain-lin--013/master.wav",
+      "bytes": 172878,
+      "sha256": "92a145abbab4f143dd97e7bbd6cee6f8769164600db85e5f6cfd4d3ed297458d"
+    },
+    "runtime": {
+      "path": "healing-rain-lin--013/runtime.ogg",
+      "bytes": 29737,
+      "sha256": "474d24fe7b6cd8f634b0bd45734bea4dbdaea61a577010d2a8ec90ead17c7af1"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

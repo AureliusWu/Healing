@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-tang--009",
+  "sceneId": "c2-parent-tang",
+  "lineId": "c2-parent-tang--009",
+  "lineIndex": 8,
+  "speaker": "许母",
+  "text": "先试一个月。我还是会看作业。",
+  "actorId": "许母",
+  "voice": "Vivian",
+  "instruct": "中年母亲，普通话，语气认真克制，日常家庭交谈，不撒娇。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1013297884,
+  "textSha256": "b616f477314fcf2e3fdb2ff418334c13d4c601cc7b3e87899d3822d8570a6519",
+  "medium": "spoken",
+  "requestSha256": "4978c649b16f2a0dd240102a9e38bb8413b27a9da06917f8efeb093883c29e81",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先是一個月 我還是會看作業",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.36,
+  "wallSeconds": 165.586,
+  "loudness": {
+    "input_i": "-24.15",
+    "input_tp": "-9.78",
+    "input_lra": "1.90",
+    "input_thresh": "-34.66",
+    "output_i": "-19.23",
+    "output_tp": "-5.58",
+    "output_lra": "0.00",
+    "output_thresh": "-29.89",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.77"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-tang--009/raw.wav",
+      "bytes": 322640,
+      "sha256": "cc79b70498dc0cebd90c51b505a8bd6dd48d09502e96d8e70d27171aacd0eeb9"
+    },
+    "master": {
+      "path": "healing-c2-parent-tang--009/master.wav",
+      "bytes": 161358,
+      "sha256": "d66077fce252a132467d1de94c508a46adcc45f6d5be2077684349a9f7944a16"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-tang--009/runtime.ogg",
+      "bytes": 26553,
+      "sha256": "5f58f9b1184f62b3ac133a3e2b9b3b6f6497d3e5a43c24a23e9b7ec4bfdeb301"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

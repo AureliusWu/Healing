@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-contact--003",
+  "sceneId": "c3-contact",
+  "lineId": "c3-contact--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "旧照片挺好。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1057813508,
+  "textSha256": "e8e49298d4468674c52d0f7433f6812a9ad29c5f47803c6d87975f80afb9925b",
+  "medium": "spoken",
+  "requestSha256": "9afd2dc20a59b685d618bb126b06422c575b6f56e0b2ac8e32a7c8ad8499ebca",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "就照片挺好",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 61.102,
+  "loudness": {
+    "input_i": "-25.54",
+    "input_tp": "-7.74",
+    "input_lra": "0.00",
+    "input_thresh": "-35.54",
+    "output_i": "-20.01",
+    "output_tp": "-2.20",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-contact--003/raw.wav",
+      "bytes": 107600,
+      "sha256": "28a57f30f534826ee282d7abdc784f5941b168d3a02f61be82d6b3bbddeb54b5"
+    },
+    "master": {
+      "path": "healing-c3-contact--003/master.wav",
+      "bytes": 53838,
+      "sha256": "9dd852d84deb6155fbb235be80dbe5a4e34f509f52ce8fb199bf434a356c59bc"
+    },
+    "runtime": {
+      "path": "healing-c3-contact--003/runtime.ogg",
+      "bytes": 12263,
+      "sha256": "569c0a610f8151d52559f7bd7caf58e0e73b3de530e8f157fcb1beabf696a6c3"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

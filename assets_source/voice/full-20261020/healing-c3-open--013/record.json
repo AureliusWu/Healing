@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-open--013",
+  "sceneId": "c3-open",
+  "lineId": "c3-open--013",
+  "lineIndex": 12,
+  "speaker": "林见夏",
+  "text": "慢一点也在写，有一段这周想再改。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 535880908,
+  "textSha256": "3c6ffd99476e4a329895e3af6a59b0d701c168d71fa39092840e78c4d90d726f",
+  "medium": "spoken",
+  "requestSha256": "37f5be21d83d2a6322f825c8683205a4a16aa5e1f6e6408235c1fd5e3ef13ef4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "慢一点也在写有一段这周想再改",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 133.298,
+  "loudness": {
+    "input_i": "-24.22",
+    "input_tp": "-10.77",
+    "input_lra": "0.50",
+    "input_thresh": "-34.53",
+    "output_i": "-19.72",
+    "output_tp": "-6.46",
+    "output_lra": "0.00",
+    "output_thresh": "-30.04",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.28"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-open--013/raw.wav",
+      "bytes": 299600,
+      "sha256": "14b191b15dc5a755303bff86450682125c0bfdf4f0e8ae88ff36502b48560066"
+    },
+    "master": {
+      "path": "healing-c3-open--013/master.wav",
+      "bytes": 149838,
+      "sha256": "30dad207c10bdb8e2b1440324cc6355315b889a53ee49ac6e4192b61011d8a64"
+    },
+    "runtime": {
+      "path": "healing-c3-open--013/runtime.ogg",
+      "bytes": 26352,
+      "sha256": "9eb2b5c16279e89c17a1b556e194a5e4211bd2a6ded03e8ee234108065910929"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

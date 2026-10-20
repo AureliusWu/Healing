@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--011",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--011",
+  "lineIndex": 10,
+  "speaker": "林见夏",
+  "text": "我想把“我”留下来。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1179157185,
+  "textSha256": "258ccd437927f7aabf098ef3c87ff99d3d986da541390c134f998e985dbf89c8",
+  "medium": "spoken",
+  "requestSha256": "87c57e79a5f22c335383a73c1ca68433c39475c2fa5aaf94beb214008f1e39b9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我想把我留下来。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 97.432,
+  "loudness": {
+    "input_i": "-26.51",
+    "input_tp": "-13.97",
+    "input_lra": "0.00",
+    "input_thresh": "-36.51",
+    "output_i": "-19.99",
+    "output_tp": "-7.45",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--011/raw.wav",
+      "bytes": 169040,
+      "sha256": "1862ae5e6faff4152ba8df8cc3f16906fc6454b98d210bba34a3160afba1d368"
+    },
+    "master": {
+      "path": "healing-draft-plain--011/master.wav",
+      "bytes": 84558,
+      "sha256": "7b2d511aa90c00595bfeb710ec096f0318340f7986089ae54ae4eb3de13846b0"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--011/runtime.ogg",
+      "bytes": 16020,
+      "sha256": "8107bb4dd34f63e957c0e5fa3148c71acd6a387367378eb9ef6ba3d320182583"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-help--002",
+  "sceneId": "desk-help",
+  "lineId": "desk-help--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "旧刊按年份放到柜子里。柜子上面那层我够不着。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1324158730,
+  "textSha256": "afe48e1d2a17b664799725db6c6d6ffcb52ca3095fdebc54c890297c74c51354",
+  "medium": "spoken",
+  "requestSha256": "04139ae2dad5ce7e0e71551bf2f9bbddc1fee13954eada46b5df377f784e922b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "就看按年份放到櫃子里櫃子上面那层我够不着",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.44,
+  "wallSeconds": 24.545,
+  "loudness": {
+    "input_i": "-20.23",
+    "input_tp": "-5.87",
+    "input_lra": "3.20",
+    "input_thresh": "-30.75",
+    "output_i": "-20.26",
+    "output_tp": "-6.39",
+    "output_lra": "4.00",
+    "output_thresh": "-30.90",
+    "normalization_type": "dynamic",
+    "target_offset": "0.26"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-help--002/raw.wav",
+      "bytes": 522320,
+      "sha256": "51fd69e079a6fdbeb34b0246930ce871395ee8b294237da18e0a37e5b687bd77"
+    },
+    "master": {
+      "path": "healing-desk-help--002/master.wav",
+      "bytes": 261198,
+      "sha256": "d523e9b02f30ed3e3df9505f6386924e8cebccceb51d5f67a8ec261882936f15"
+    },
+    "runtime": {
+      "path": "healing-desk-help--002/runtime.ogg",
+      "bytes": 40463,
+      "sha256": "b17a381744959e983629947f25712287cb81916ace4ac8e63018c6b09107fd3f"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

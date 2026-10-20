@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-honest--007",
+  "sceneId": "desk-honest",
+  "lineId": "desk-honest--007",
+  "lineIndex": 6,
+  "speaker": "林见夏",
+  "text": "有时候大家只问我们为什么没做好，没有人问那个晚上到底有没有睡着。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 242900114,
+  "textSha256": "dea4ed4cb3c50e81910bd5e837a1f353f153a18fc651ac48b38277f80ee869f9",
+  "medium": "spoken",
+  "requestSha256": "4940cdf3c3fc19b11707ef47b37f5e7cfff240f5f668ad9fe71796990678e3b0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "有时候大家只问我们为什么没做好没有人问那个晚上到底有没有睡着哦",
+    "cer": 0.033333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.6,
+  "wallSeconds": 285.644,
+  "loudness": {
+    "input_i": "-21.43",
+    "input_tp": "-7.06",
+    "input_lra": "0.60",
+    "input_thresh": "-31.96",
+    "output_i": "-19.56",
+    "output_tp": "-4.82",
+    "output_lra": "2.00",
+    "output_thresh": "-30.11",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.44"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-honest--007/raw.wav",
+      "bytes": 537680,
+      "sha256": "1294fd7ec6cf058c34c8875fb349f786eb650ad53e7be56a4a01ee9c2576d702"
+    },
+    "master": {
+      "path": "healing-desk-honest--007/master.wav",
+      "bytes": 268878,
+      "sha256": "7e171f5087d5116aaeaf96b78b9b0b85f62a5f69a99e6651d191b69ef9632b3b"
+    },
+    "runtime": {
+      "path": "healing-desk-honest--007/runtime.ogg",
+      "bytes": 42762,
+      "sha256": "39374e3123b3964ffe30cef130207e4b028385fcaa349ce85e72cb2542663c92"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-open--004",
+  "sceneId": "c3-open",
+  "lineId": "c3-open--004",
+  "lineIndex": 3,
+  "speaker": "程屿",
+  "text": "纸箱还在旧刊室。这个先还。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 862226276,
+  "textSha256": "4633729f07bd7797fb05fb8923c1c346dbf2194a62789c2cef5641f87a9df474",
+  "medium": "spoken",
+  "requestSha256": "fca01a52b372b0f938cafa08f4e92b1f8ceeee92f1bcb37127798cadd7fb6234",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "紙箱还在救堪室这个箱还",
+    "cer": 0.272727,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 2.8,
+  "wallSeconds": 96.336,
+  "loudness": {
+    "input_i": "-24.02",
+    "input_tp": "-6.99",
+    "input_lra": "0.00",
+    "input_thresh": "-34.19",
+    "output_i": "-20.00",
+    "output_tp": "-2.97",
+    "output_lra": "0.00",
+    "output_thresh": "-30.16",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-open--004/raw.wav",
+      "bytes": 268880,
+      "sha256": "f659c012a8c51312be93298c3d013de7ef4bde9a3c8a16557c67f41d59b7cd44"
+    },
+    "master": {
+      "path": "healing-c3-open--004/master.wav",
+      "bytes": 134478,
+      "sha256": "8d0630b967f6af1fd691e2840d9fdf1628275aed025440de0e0230ac86fb03f6"
+    },
+    "runtime": {
+      "path": "healing-c3-open--004/runtime.ogg",
+      "bytes": 24466,
+      "sha256": "71edee9d78f4b52df8e1701366be88966132cbfee470b39952133a9262d9c77a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

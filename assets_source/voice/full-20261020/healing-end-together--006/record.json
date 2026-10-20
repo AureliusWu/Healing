@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-together--006",
+  "sceneId": "end-together",
+  "lineId": "end-together--006",
+  "lineIndex": 5,
+  "speaker": "林见夏",
+  "text": "我想交了。想改的地方，我会自己说。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1171483315,
+  "textSha256": "ab551502d80c51293d2a4c84dff12f76367667eeb4da71dcd8a75d2a69cb0b82",
+  "medium": "spoken",
+  "requestSha256": "f71d650b8e82104c91d1f679e53c52877501129aa090d9d9d9bb5dc71e097d6d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我想教了 想改的地方我會自己說",
+    "cer": 0.071429,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 14.459,
+  "loudness": {
+    "input_i": "-26.28",
+    "input_tp": "-8.74",
+    "input_lra": "0.60",
+    "input_thresh": "-36.45",
+    "output_i": "-19.45",
+    "output_tp": "-2.06",
+    "output_lra": "0.00",
+    "output_thresh": "-29.62",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.55"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-together--006/raw.wav",
+      "bytes": 299600,
+      "sha256": "3ca938452ac52092edc3f96d360052760f43565ebdedf9095a04a3385f862bb4"
+    },
+    "master": {
+      "path": "healing-end-together--006/master.wav",
+      "bytes": 149838,
+      "sha256": "4510cdf052705fcb7ef479fb6dbc205ccfac45c4ca9de55c165ca1a6fa9b079a"
+    },
+    "runtime": {
+      "path": "healing-end-together--006/runtime.ogg",
+      "bytes": 25765,
+      "sha256": "2544643f2e2ce212986101d52519dc6d69ab569c9145b2f4564636f0024b5306"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

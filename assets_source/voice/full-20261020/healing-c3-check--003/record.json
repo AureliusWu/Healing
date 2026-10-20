@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-check--003",
+  "sceneId": "c3-check",
+  "lineId": "c3-check--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "我只核对两页，还拿错一次。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 231156866,
+  "textSha256": "58883f54b0926e9d8e0d55854b6af53ce93322645186f935e600b6a7d98c8934",
+  "medium": "spoken",
+  "requestSha256": "afb73f57e3b8c5fd867e8c639b8eae60f1190c42ec3f547490d12fd1ebbc257d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我只核对两页还拿错一次",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.16,
+  "wallSeconds": 62.286,
+  "loudness": {
+    "input_i": "-26.28",
+    "input_tp": "-8.02",
+    "input_lra": "0.00",
+    "input_thresh": "-36.28",
+    "output_i": "-20.27",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.27",
+    "normalization_type": "linear",
+    "target_offset": "0.27"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-check--003/raw.wav",
+      "bytes": 207440,
+      "sha256": "b466181b20cdb60e8cbd951a13a4e198e16b99dd6a100058b4b700fa6915c930"
+    },
+    "master": {
+      "path": "healing-c3-check--003/master.wav",
+      "bytes": 103758,
+      "sha256": "4cbb22ad8a79afbe9fcf0963049073f68faf6ebee257acb0686a4fb278cff0f2"
+    },
+    "runtime": {
+      "path": "healing-c3-check--003/runtime.ogg",
+      "bytes": 20408,
+      "sha256": "01b5fa735e13495feab30645c28b703b590233fcd980f635ca3a140cc45e137e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

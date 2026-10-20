@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk--002",
+  "sceneId": "desk",
+  "lineId": "desk--002",
+  "lineIndex": 1,
+  "speaker": "班主任",
+  "text": "换个位置，换个状态。成绩单下午发，有问题单独来找我。",
+  "actorId": "班主任",
+  "voice": "Uncle_Fu",
+  "instruct": "中年男性教师，普通话，平静直接，日常交谈，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 233791831,
+  "textSha256": "8230ea82f4222b1ccb8792ad81f872f9de261cafb7c5be46dd2212ad4e1756d6",
+  "medium": "spoken",
+  "requestSha256": "4a27f74da5d00f766e7a66e271668a76d1b358214b72a92fa14272e5679a44e0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "换个位置换个状态成绩待下无法有问题单独来找我",
+    "cer": 0.136364,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.32,
+  "wallSeconds": 201.6,
+  "loudness": {
+    "input_i": "-21.03",
+    "input_tp": "-3.50",
+    "input_lra": "0.50",
+    "input_thresh": "-31.37",
+    "output_i": "-19.73",
+    "output_tp": "-2.00",
+    "output_lra": "0.40",
+    "output_thresh": "-30.09",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.27"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk--002/raw.wav",
+      "bytes": 606800,
+      "sha256": "eb59dc505e9a454b16cc02abcd18ecab7ffa6f9d8d059d19779608ffb71b0d90"
+    },
+    "master": {
+      "path": "healing-desk--002/master.wav",
+      "bytes": 303438,
+      "sha256": "a988debd1ff38ecf25819db24f82762201b9ebe54f4aba4472a8c61d08baad02"
+    },
+    "runtime": {
+      "path": "healing-desk--002/runtime.ogg",
+      "bytes": 49489,
+      "sha256": "a324d7c44ebced1b96fb5113ec89ab116756dd6a0dc33d7cd316e6de81087e5a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

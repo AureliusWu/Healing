@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-revision--011",
+  "sceneId": "c3-revision",
+  "lineId": "c3-revision--011",
+  "lineIndex": 10,
+  "speaker": "程屿",
+  "text": "留着。那个晚上确实害怕，后来有进展，不用把以前的我改成一直敢说话的人。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1860968825,
+  "textSha256": "68509d62f38e03a3ca5a09b14d75b8b3a2fb99e5572f075f1eaba1242e62649f",
+  "medium": "spoken",
+  "requestSha256": "ac541c1f4b729f398982009c67b14be79df45cbfde6706e6f91bd74be8feb67a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "留着,那个晚上确实害怕,后来有进展,不用把以前的我改成一直敢说话的人。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.48,
+  "wallSeconds": 38.575,
+  "loudness": {
+    "input_i": "-28.70",
+    "input_tp": "-9.52",
+    "input_lra": "2.90",
+    "input_thresh": "-39.07",
+    "output_i": "-20.54",
+    "output_tp": "-2.00",
+    "output_lra": "1.40",
+    "output_thresh": "-31.10",
+    "normalization_type": "dynamic",
+    "target_offset": "0.54"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-revision--011/raw.wav",
+      "bytes": 814160,
+      "sha256": "eac65edf84cfd150ee918cae8d2f3a935dc5befbaa2fbda9bc8c113978941acb"
+    },
+    "master": {
+      "path": "healing-c3-revision--011/master.wav",
+      "bytes": 407118,
+      "sha256": "2ba4b0961e166ce46ec686d3e390d5c47180f1af62268ff6e1dad86fdd24288d"
+    },
+    "runtime": {
+      "path": "healing-c3-revision--011/runtime.ogg",
+      "bytes": 66963,
+      "sha256": "7b21ae153d47c4d693a657589c68c72367ae33ae180bec4624f48adfc39a5b83"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

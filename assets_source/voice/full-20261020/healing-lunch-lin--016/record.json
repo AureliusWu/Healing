@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--016",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--016",
+  "lineIndex": 15,
+  "speaker": "林见夏",
+  "text": "那我写“靠窗的同学”。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1804506021,
+  "textSha256": "49d3a4a903bf480413f3c461270e3c5fb4654ef98dc40991d0ccbc9ec759f6c6",
+  "medium": "spoken",
+  "requestSha256": "a5c77b47825c09bb6e12375b1dcb0992149dd871d42d6acdbd5c6000fa424b13",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那我写靠窗的同学",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.16,
+  "wallSeconds": 88.685,
+  "loudness": {
+    "input_i": "-22.52",
+    "input_tp": "-6.60",
+    "input_lra": "0.00",
+    "input_thresh": "-32.52",
+    "output_i": "-19.99",
+    "output_tp": "-4.08",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--016/raw.wav",
+      "bytes": 207440,
+      "sha256": "7dc5649c5e7497f6a26c5d6ed51ce306d76c6c4a93138ede2411984c31d8a1f0"
+    },
+    "master": {
+      "path": "healing-lunch-lin--016/master.wav",
+      "bytes": 103758,
+      "sha256": "458375f8fb22bea7d2dc3b84f5a2951911bd77bde5672d8483700e66feca9720"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--016/runtime.ogg",
+      "bytes": 19117,
+      "sha256": "eb919f85a8c6cc2e8d5471588239e23f7fd2cb8f512274c9d1d2316bb3dc324f"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

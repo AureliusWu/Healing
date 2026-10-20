@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-honest--004",
+  "sceneId": "desk-honest",
+  "lineId": "desk-honest--004",
+  "lineIndex": 3,
+  "speaker": "程屿",
+  "text": "你这叫不太好？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1691550211,
+  "textSha256": "2a7e0a115d0ad4ffbb637fc8a8019eec31ac0765eb6894d8dd3cbbc8715bcada",
+  "medium": "spoken",
+  "requestSha256": "0b0c4ba911e8c8a0cc4576a176fffae12490c81a7d51a50093b0f4f7bba9c370",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你这叫不太好",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 80.498,
+  "loudness": {
+    "input_i": "-26.33",
+    "input_tp": "-7.56",
+    "input_lra": "0.00",
+    "input_thresh": "-36.33",
+    "output_i": "-20.78",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.78",
+    "normalization_type": "linear",
+    "target_offset": "0.78"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-honest--004/raw.wav",
+      "bytes": 138320,
+      "sha256": "447623451dbe2f762656795842421d053065dae6f391d01671b68d9dd492a22a"
+    },
+    "master": {
+      "path": "healing-desk-honest--004/master.wav",
+      "bytes": 69198,
+      "sha256": "69f27aa6c887c6e35e4dd4ec039dcaf5491a2d9a87d0658f00cdba048ea44623"
+    },
+    "runtime": {
+      "path": "healing-desk-honest--004/runtime.ogg",
+      "bytes": 15995,
+      "sha256": "fe438cd077af0538ea8d20d0f70cb47548df79f44589efb2b5d4effac9c179e9"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-both--010",
+  "sceneId": "rain-both",
+  "lineId": "rain-both--010",
+  "lineIndex": 9,
+  "speaker": "陈知遥",
+  "text": "那现在可以问吗？我回去关窗，你们愿意等我五分钟吗？",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 629056038,
+  "textSha256": "87629e5ca98b578ac96b2542b9dd37e08a7ba1b9b6bd80ff7f3d6f78827ffdb1",
+  "medium": "spoken",
+  "requestSha256": "6871ac98cb1dc2700340b76f791b4d7e7948a96020af567aa1a8c0ad07ea65da",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那現在可以問嗎?回去關窗你們願意等我五分鐘嗎?",
+    "cer": 0.045455,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.44,
+  "wallSeconds": 196.751,
+  "loudness": {
+    "input_i": "-19.38",
+    "input_tp": "-7.24",
+    "input_lra": "3.00",
+    "input_thresh": "-29.93",
+    "output_i": "-17.97",
+    "output_tp": "-5.64",
+    "output_lra": "4.10",
+    "output_thresh": "-28.52",
+    "normalization_type": "dynamic",
+    "target_offset": "-2.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-both--010/raw.wav",
+      "bytes": 522320,
+      "sha256": "43998824e6d73d5c2023ccf0880b5fdf8e4c443a412d72caf6415b6b3099dc7f"
+    },
+    "master": {
+      "path": "healing-rain-both--010/master.wav",
+      "bytes": 261198,
+      "sha256": "c02d7c6018045b75b348cbc2fb35863ff0a6d0a5d8eaed427d616020dc5fab24"
+    },
+    "runtime": {
+      "path": "healing-rain-both--010/runtime.ogg",
+      "bytes": 39217,
+      "sha256": "b3d58d90aab34d7fe6cc4dca21f147c383bd69ffe33fbed2a43c28a83769e6c5"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

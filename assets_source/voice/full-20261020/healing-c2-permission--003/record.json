@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-permission--003",
+  "sceneId": "c2-permission",
+  "lineId": "c2-permission--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "我还想看看文章旁边的名字。名字、照片和文章，能分开决定吧？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 191767759,
+  "textSha256": "7bc8e4f6bd231280665de1ad4c4ef7f74f7ac328c573a2599ac7aa06b8b8585f",
+  "medium": "spoken",
+  "requestSha256": "f18d6c4ce74743361d62605f88595236a8b05e360b61e4f85f2a6060abd2b825",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我还想看看文章旁边的名字名字、照片和文章能分开决定吧",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 10.16,
+  "wallSeconds": 282.573,
+  "loudness": {
+    "input_i": "-27.78",
+    "input_tp": "-8.86",
+    "input_lra": "4.20",
+    "input_thresh": "-38.31",
+    "output_i": "-20.63",
+    "output_tp": "-2.40",
+    "output_lra": "2.60",
+    "output_thresh": "-31.13",
+    "normalization_type": "dynamic",
+    "target_offset": "0.63"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-permission--003/raw.wav",
+      "bytes": 975440,
+      "sha256": "7064df37b31fdcdd9e15ab10a02ea9a5eab530c3707d54f843125b60ff553b17"
+    },
+    "master": {
+      "path": "healing-c2-permission--003/master.wav",
+      "bytes": 487758,
+      "sha256": "87bfca1dbbf52477c5b918a6a2e046d4d1a4705c8e977fac56475d659b1602df"
+    },
+    "runtime": {
+      "path": "healing-c2-permission--003/runtime.ogg",
+      "bytes": 72421,
+      "sha256": "d928113d0ebeb2affec6e3d2bad63bee925d5b172f3a6ed4bb37b0f53ec658b1"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

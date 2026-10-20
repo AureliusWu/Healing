@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--007",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "不知道。我昨天也没睡。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1419820708,
+  "textSha256": "87dd688147825dad8e63c2711edc5dcbb4fb8e20ccb0254f712b372b95dd6b4a",
+  "medium": "spoken",
+  "requestSha256": "a9893d506db3df0da8a42ac326e9f58751e0da75910ab19804ae0487158fcda6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不知道 我昨天也沒睡",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.72,
+  "wallSeconds": 12.696,
+  "loudness": {
+    "input_i": "-19.10",
+    "input_tp": "-6.29",
+    "input_lra": "0.00",
+    "input_thresh": "-29.76",
+    "output_i": "-20.00",
+    "output_tp": "-7.19",
+    "output_lra": "0.00",
+    "output_thresh": "-30.67",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--007/raw.wav",
+      "bytes": 261200,
+      "sha256": "b9539d5e67c03def5ccffe1d60d54266d5dbdc2f075a78cf5d6cceb3f00200aa"
+    },
+    "master": {
+      "path": "healing-lunch-chen--007/master.wav",
+      "bytes": 130638,
+      "sha256": "c7bbecc6d5fde08f1be2d5404c76168e2e1a2a0e2c95993a56b5626d7b8e2785"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--007/runtime.ogg",
+      "bytes": 21970,
+      "sha256": "38fbe81636d0393843fe12f89ef829ebd82672b949d3a3609921fc11aaef2fab"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

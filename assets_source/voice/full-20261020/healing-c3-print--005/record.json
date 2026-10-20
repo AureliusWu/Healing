@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-print--005",
+  "sceneId": "c3-print",
+  "lineId": "c3-print--005",
+  "lineIndex": 4,
+  "speaker": "贺川",
+  "text": "怎么还是热的？",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1610336315,
+  "textSha256": "40dd7368c02825e728be7910d19eee06b48aa04af7972ead20dfcf6d6cccee7a",
+  "medium": "spoken",
+  "requestSha256": "bc8dbb55b188ee0b39f85f9fbd1b05586917225f7d7d49e95d55a30ab831d3e5",
+  "attempt": 0,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "呵呵,呵呵,呵呵,怎么还是热的,呵呵。",
+    "cer": 1.333333,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 6.16,
+  "wallSeconds": 196.226,
+  "loudness": {
+    "input_i": "-24.56",
+    "input_tp": "-4.53",
+    "input_lra": "1.40",
+    "input_thresh": "-35.68",
+    "output_i": "-20.03",
+    "output_tp": "-2.00",
+    "output_lra": "1.50",
+    "output_thresh": "-31.31",
+    "normalization_type": "dynamic",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-print--005/raw.wav",
+      "bytes": 591440,
+      "sha256": "9816cfb9ab7a9a39cf94ee63f36e733d754563915ff7e95b629f4ba8eba81905"
+    },
+    "master": {
+      "path": "healing-c3-print--005/master.wav",
+      "bytes": 295758,
+      "sha256": "ee48435929a4638513eb2c797096be3ed366770b7cfb1aea1fa868272e46d547"
+    },
+    "runtime": {
+      "path": "healing-c3-print--005/runtime.ogg",
+      "bytes": 44839,
+      "sha256": "cb36ffde2b77646d53da5a7911caafcea79694830292cf2f59f032ba98862e1f"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parents--009",
+  "sceneId": "c2-parents",
+  "lineId": "c2-parents--009",
+  "lineIndex": 8,
+  "speaker": "陈知遥",
+  "text": "我告诉妈妈搬书安排好了。贺川五点来。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1626095024,
+  "textSha256": "992fceaadde0942e1ed8072f2688de9b6449e3a944f7d81680d26379e89bd207",
+  "medium": "spoken",
+  "requestSha256": "15f528493afa97ccea941ba7a388c31f8949c0b019ff17c1df2192d8870b3798",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我告訴媽媽 班淑安排好了赫川五點來",
+    "cer": 0.1875,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 182.973,
+  "loudness": {
+    "input_i": "-19.76",
+    "input_tp": "-4.41",
+    "input_lra": "0.60",
+    "input_thresh": "-30.04",
+    "output_i": "-19.13",
+    "output_tp": "-4.11",
+    "output_lra": "0.10",
+    "output_thresh": "-29.37",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.87"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parents--009/raw.wav",
+      "bytes": 407120,
+      "sha256": "996669e05ec78f917f6f9e3c2550ab5a0d00acd2bd125fa5f5c15a4a29fa3088"
+    },
+    "master": {
+      "path": "healing-c2-parents--009/master.wav",
+      "bytes": 203598,
+      "sha256": "d083afec2714c10f05c6d11d184086a804903f9fdd22359fb1898bd28ecf5ba3"
+    },
+    "runtime": {
+      "path": "healing-c2-parents--009/runtime.ogg",
+      "bytes": 32373,
+      "sha256": "e76317ce826c6439438c40a44411e8bb246b837ec6995d29129cb555f96e65ec"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

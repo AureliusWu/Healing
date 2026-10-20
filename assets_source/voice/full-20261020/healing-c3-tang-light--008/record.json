@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-light--008",
+  "sceneId": "c3-tang-light",
+  "lineId": "c3-tang-light--008",
+  "lineIndex": 7,
+  "speaker": "许棠",
+  "text": "没赶上它在你袖子上。不过车来了，今天到这里，不拿迟到换一张照片。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1998630933,
+  "textSha256": "df44bd2a7254ea209d7e4474f36ece3fdc4301bc5494335c6c1d85685832980b",
+  "medium": "spoken",
+  "requestSha256": "c8ef01cbc79120e4ba55929f8f1a67d92ec6cbe3344723737708a259c71b98d0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "没赶上它在你袖子上,不过车来了,今天到这里,不拿迟到换一张照片。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.0,
+  "wallSeconds": 483.063,
+  "loudness": {
+    "input_i": "-17.66",
+    "input_tp": "-2.70",
+    "input_lra": "1.90",
+    "input_thresh": "-28.20",
+    "output_i": "-19.62",
+    "output_tp": "-5.48",
+    "output_lra": "2.00",
+    "output_thresh": "-30.25",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.38"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-light--008/raw.wav",
+      "bytes": 768080,
+      "sha256": "52c0916e01d1788ee2b8cc982445c022b5f1009122bfd072dee793b58bcf5734"
+    },
+    "master": {
+      "path": "healing-c3-tang-light--008/master.wav",
+      "bytes": 384078,
+      "sha256": "f8a56f18d11cf01772f6745f3b6119406832ae5c3b47cfb720fe277e045ce6e3"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-light--008/runtime.ogg",
+      "bytes": 57171,
+      "sha256": "bd73a79554f48a43835858270f1e13755c6289aefd15aa44634880b15e95b7d7"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-return--007",
+  "sceneId": "c3-return",
+  "lineId": "c3-return--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "昨天中午交了。老师说下次早点提醒，我说下次也需要两天。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 868078238,
+  "textSha256": "ecdd885c0f782150a72ab063a54dcccbd946c36fe7435af77c8c28f413927751",
+  "medium": "spoken",
+  "requestSha256": "bac184fc3a9c8649f733f06943660ebae0eccd99336d5481b259afefa35c9704",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "昨天中午教了,老师说下次早点提醒,我说下次也需要两天。",
+    "cer": 0.041667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.96,
+  "wallSeconds": 265.386,
+  "loudness": {
+    "input_i": "-19.45",
+    "input_tp": "-4.36",
+    "input_lra": "0.90",
+    "input_thresh": "-29.92",
+    "output_i": "-19.50",
+    "output_tp": "-4.64",
+    "output_lra": "1.30",
+    "output_thresh": "-29.88",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.50"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-return--007/raw.wav",
+      "bytes": 668240,
+      "sha256": "c502be978d81d891a4d5a63a3bf471b3dc2105ce7860fdf767d5384d17730a64"
+    },
+    "master": {
+      "path": "healing-c3-return--007/master.wav",
+      "bytes": 334158,
+      "sha256": "d112b917d77c6351a08a900ffa57c91fda3b95591b8a3d2a589085ca957b26cb"
+    },
+    "runtime": {
+      "path": "healing-c3-return--007/runtime.ogg",
+      "bytes": 51055,
+      "sha256": "0f8e3bf0fb277e7d84c20bcf64efc36a38c48f31a505313919187749705894cc"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

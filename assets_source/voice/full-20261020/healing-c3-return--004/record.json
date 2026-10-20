@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-return--004",
+  "sceneId": "c3-return",
+  "lineId": "c3-return--004",
+  "lineIndex": 3,
+  "speaker": "许棠",
+  "text": "上次没回信的人，我问了。原图能留，不愿意印。继续用窗框。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 131545157,
+  "textSha256": "5a2afbd92527c69a6b4ee599069cbb55f8cbb4ab23d927691e4d2000711666f9",
+  "medium": "spoken",
+  "requestSha256": "aa093220000ee98ea92662e257ad0e8b93e6a2885b13105223c50bc8db4e07bd",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "上次沒回信的人,我問了原土能流,不願意印,繼續用窗框",
+    "cer": 0.086957,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.48,
+  "wallSeconds": 37.687,
+  "loudness": {
+    "input_i": "-19.99",
+    "input_tp": "-4.81",
+    "input_lra": "2.10",
+    "input_thresh": "-30.70",
+    "output_i": "-19.57",
+    "output_tp": "-4.07",
+    "output_lra": "3.00",
+    "output_thresh": "-30.26",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.43"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-return--004/raw.wav",
+      "bytes": 814160,
+      "sha256": "daaa679865b69eda35a950e45826f4021471d37a7647ea954566001ec5b9031f"
+    },
+    "master": {
+      "path": "healing-c3-return--004/master.wav",
+      "bytes": 407118,
+      "sha256": "56b8dcbb27b97451a99f784ef11bd95fa6197e5575b8523817564f3deff07981"
+    },
+    "runtime": {
+      "path": "healing-c3-return--004/runtime.ogg",
+      "bytes": 56360,
+      "sha256": "8a6c1d82b23733dabfe6a9ee6d45878e9e238ca4bdc6aaf0e492cfb39ebe9ddf"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

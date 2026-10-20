@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-tang-photo--002",
+  "sceneId": "c2-tang-photo",
+  "lineId": "c2-tang-photo--002",
+  "lineIndex": 1,
+  "speaker": "许棠",
+  "text": "好，这张撤下。原图你想要吗？我可以只给你，或者一起删掉。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 509573761,
+  "textSha256": "3aaf2bbce9511228ea282d13d37df9d5b75ccc054ca89baeb44591e7bffb3681",
+  "medium": "spoken",
+  "requestSha256": "8cf2e4b145a1c31cae6c6fe7a63885e6bf1d3c9ed056ffa7dd035749514f727a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好,这张彻下。原图你想要吗?我可以只给你,或者一起删掉。",
+    "cer": 0.043478,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.92,
+  "wallSeconds": 35.747,
+  "loudness": {
+    "input_i": "-18.73",
+    "input_tp": "-4.98",
+    "input_lra": "2.40",
+    "input_thresh": "-29.33",
+    "output_i": "-19.21",
+    "output_tp": "-4.61",
+    "output_lra": "3.70",
+    "output_thresh": "-29.87",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.79"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-tang-photo--002/raw.wav",
+      "bytes": 760400,
+      "sha256": "dee514a437e65a7c3492a2dd31054ed09ccb8a87f7af6de9089d7e69aaa3b083"
+    },
+    "master": {
+      "path": "healing-c2-tang-photo--002/master.wav",
+      "bytes": 380238,
+      "sha256": "d174914fdf68e19c21f5eeaed223f7bb4fec30e8bff872b76469e70b17efef20"
+    },
+    "runtime": {
+      "path": "healing-c2-tang-photo--002/runtime.ogg",
+      "bytes": 55355,
+      "sha256": "12db06f7ed9efba734a9f7184c87f8c5ade648aa7024bdecca883db16c23e0aa"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

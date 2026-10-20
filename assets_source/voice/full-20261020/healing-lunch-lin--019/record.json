@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--019",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--019",
+  "lineIndex": 18,
+  "speaker": "程屿",
+  "text": "去。我至少会搬书。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 856488082,
+  "textSha256": "e6d1a764a6222936552f63453f23614d703f6adfd7906fcb74242edff5d5ae61",
+  "medium": "spoken",
+  "requestSha256": "a6ae0d3d4eea1be6091cfd3691e6526339532a998709d760c131cd37c902c2a8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "去 我至少会搬书",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.68,
+  "wallSeconds": 60.776,
+  "loudness": {
+    "input_i": "-26.01",
+    "input_tp": "-7.68",
+    "input_lra": "0.00",
+    "input_thresh": "-36.36",
+    "output_i": "-20.33",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.68",
+    "normalization_type": "linear",
+    "target_offset": "0.33"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--019/raw.wav",
+      "bytes": 161360,
+      "sha256": "e69c1822b71f553c50fe1d44d0004abc1e9bf96165f1d017ea264864cce77716"
+    },
+    "master": {
+      "path": "healing-lunch-lin--019/master.wav",
+      "bytes": 80718,
+      "sha256": "cbed6863af410fef69936c3b9ca537f731817ce483bf4aa9b104e1660dda3214"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--019/runtime.ogg",
+      "bytes": 15698,
+      "sha256": "1f0a02181c414aaf79eb3bb95423ffb5219e982edbc488c2f0cd3fa31ca21875"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

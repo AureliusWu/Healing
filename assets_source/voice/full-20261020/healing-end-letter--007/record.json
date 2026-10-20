@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-letter--007",
+  "sceneId": "end-letter",
+  "lineId": "end-letter--007",
+  "lineIndex": 6,
+  "speaker": "林见夏",
+  "text": "这句比“谢谢”具体。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 117916696,
+  "textSha256": "72b887c7dbeba1d04e5b5030965f9884f5db19c23dda863711a4e8eec1d49908",
+  "medium": "spoken",
+  "requestSha256": "e020ae37897972d613fe041cebb5c1a1f26a287f5b0285dc325c267e7a997ce5",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这句比谢谢具体",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.64,
+  "wallSeconds": 88.102,
+  "loudness": {
+    "input_i": "-25.28",
+    "input_tp": "-11.87",
+    "input_lra": "0.00",
+    "input_thresh": "-35.53",
+    "output_i": "-20.00",
+    "output_tp": "-6.59",
+    "output_lra": "0.00",
+    "output_thresh": "-30.48",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-letter--007/raw.wav",
+      "bytes": 253520,
+      "sha256": "037f9ccbd3fa677c4ba96511d4462b172af9c3e8b1280ac5f2267cc0d578f504"
+    },
+    "master": {
+      "path": "healing-end-letter--007/master.wav",
+      "bytes": 126798,
+      "sha256": "31d315b7fc93157353f11290fa0ba2b0fc310c5906c47bf77f45bea45c47c27b"
+    },
+    "runtime": {
+      "path": "healing-end-letter--007/runtime.ogg",
+      "bytes": 21686,
+      "sha256": "bb7ef5462f7dd257151fc2c2ab9fd70d53b40be4ee76e97b14965f584b63ac2e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

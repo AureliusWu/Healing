@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-talk--003",
+  "sceneId": "c3-tang-talk",
+  "lineId": "c3-tang-talk--003",
+  "lineIndex": 2,
+  "speaker": "许棠",
+  "text": "不知道，它不按清单走。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1047008548,
+  "textSha256": "a1c79c1dd115bf84e1f9975fed719c686fa65be457c2d226bc3fc396bcb3ed38",
+  "medium": "spoken",
+  "requestSha256": "9196a4179b3b346776c5525276466436c191dde24860d29f872a666e4c868ad7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不知道 他不按清單走",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.16,
+  "wallSeconds": 75.135,
+  "loudness": {
+    "input_i": "-17.92",
+    "input_tp": "-4.08",
+    "input_lra": "0.00",
+    "input_thresh": "-28.46",
+    "output_i": "-19.99",
+    "output_tp": "-6.17",
+    "output_lra": "0.00",
+    "output_thresh": "-30.53",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-talk--003/raw.wav",
+      "bytes": 207440,
+      "sha256": "d704cd67ea940e2ba6e17fca4fad3114849d3ebf8b955594b52bc177261b18dc"
+    },
+    "master": {
+      "path": "healing-c3-tang-talk--003/master.wav",
+      "bytes": 103758,
+      "sha256": "ed98ad13ac32539c6e3d392c2f5999e12fba2748248a1addf500b1f9a0d18fa7"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-talk--003/runtime.ogg",
+      "bytes": 18309,
+      "sha256": "b3184c179dc66a77cf144d0f261353ce8e642e8ed236ec2b13a50a7127f87818"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

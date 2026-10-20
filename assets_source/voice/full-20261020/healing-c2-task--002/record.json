@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-task--002",
+  "sceneId": "c2-task",
+  "lineId": "c2-task--002",
+  "lineIndex": 1,
+  "speaker": "林见夏",
+  "text": "我想保留这一句，但不知道会不会显得太直白。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 521622265,
+  "textSha256": "2988745ab6a1d6628da23110681ac6d63f00397d163fcddead617678e33556d7",
+  "medium": "spoken",
+  "requestSha256": "2f7e4cca7a3730b8a5f3c6e6393bf8ee971545fd871a154f1056b64f87110ff3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我想保留這一句但不知道會不會顯得太直白",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.68,
+  "wallSeconds": 178.816,
+  "loudness": {
+    "input_i": "-27.26",
+    "input_tp": "-8.17",
+    "input_lra": "1.80",
+    "input_thresh": "-37.26",
+    "output_i": "-20.11",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.11",
+    "normalization_type": "dynamic",
+    "target_offset": "0.11"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-task--002/raw.wav",
+      "bytes": 353360,
+      "sha256": "61d1abc431451020f382f9e1bf46e4d07c7e03ad63dc1d6601de6c5e4f4582c3"
+    },
+    "master": {
+      "path": "healing-c2-task--002/master.wav",
+      "bytes": 176718,
+      "sha256": "0ff1075c053c0c8b2363430142ab0c667803686c9a76e36d7887612b210addfa"
+    },
+    "runtime": {
+      "path": "healing-c2-task--002/runtime.ogg",
+      "bytes": 30825,
+      "sha256": "7b8bcedf0e4543bfbd7037e2cd584361bdd2571517560ba236bef1b193ff35f9"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

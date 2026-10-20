@@ -1,0 +1,55 @@
+{
+  "id": "healing-arrival--008",
+  "sceneId": "arrival",
+  "lineId": "arrival--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "没什么，公交又堵了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1018228616,
+  "textSha256": "6080cecd5d9081381f4afb5fc4b2b87cb3af09df0b935bd81755c63e18773c9e",
+  "medium": "spoken",
+  "requestSha256": "0fcda9065955389a41f60bac7491981c53b7995d43b36bdf59d4c381f0f98cb8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "没什么 公交又堵了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 91.21,
+  "loudness": {
+    "input_i": "-25.36",
+    "input_tp": "-8.30",
+    "input_lra": "0.00",
+    "input_thresh": "-35.67",
+    "output_i": "-20.00",
+    "output_tp": "-2.94",
+    "output_lra": "0.00",
+    "output_thresh": "-30.31",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-arrival--008/raw.wav",
+      "bytes": 169040,
+      "sha256": "c770a67b53a428153bd91ead5db2d23732ab0fc436182be63d6876f380ab6706"
+    },
+    "master": {
+      "path": "healing-arrival--008/master.wav",
+      "bytes": 84558,
+      "sha256": "1b68a5ce9aed16c9f1e5fce7a896517c90e4449659c040f8b1065a0a00daa5d3"
+    },
+    "runtime": {
+      "path": "healing-arrival--008/runtime.ogg",
+      "bytes": 16756,
+      "sha256": "616c5bf5e8222e73ade800e37371e66ae4cdc12603c9ef75e268c36cf673c572"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

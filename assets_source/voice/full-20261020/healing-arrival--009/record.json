@@ -1,0 +1,55 @@
+{
+  "id": "healing-arrival--009",
+  "sceneId": "arrival",
+  "lineId": "arrival--009",
+  "lineIndex": 8,
+  "speaker": "贺川",
+  "text": "那就先不说。下次想编理由，别挑一个我也坐的公交。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1364706089,
+  "textSha256": "083958304fb11458059b16ecf216a0b24d4e4acedf29f39a51cda82399642b5d",
+  "medium": "spoken",
+  "requestSha256": "8926f0f5b5233c5e3b16ac1b31b182889cb353468776de2b3d6c28aff30b7aa1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那就先不说下次想便理由别挑一个我也做的公交",
+    "cer": 0.095238,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 124.131,
+  "loudness": {
+    "input_i": "-23.61",
+    "input_tp": "-3.61",
+    "input_lra": "0.10",
+    "input_thresh": "-33.67",
+    "output_i": "-19.98",
+    "output_tp": "-2.00",
+    "output_lra": "0.30",
+    "output_thresh": "-30.10",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-arrival--009/raw.wav",
+      "bytes": 384080,
+      "sha256": "0f1399b5ac01c791a094483659fe0da4469618c16b868ae4ea04c677b244758c"
+    },
+    "master": {
+      "path": "healing-arrival--009/master.wav",
+      "bytes": 192078,
+      "sha256": "e0ebedb3d69a1a2fbbae4711d4985b918c2f134a405e9fe701364d5c75fbc11c"
+    },
+    "runtime": {
+      "path": "healing-arrival--009/runtime.ogg",
+      "bytes": 33797,
+      "sha256": "ea99a33fa0828a895e0d385961b3e7e298afbc7a65847d98e54296e64e4f0e7a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

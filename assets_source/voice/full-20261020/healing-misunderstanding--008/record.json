@@ -1,0 +1,55 @@
+{
+  "id": "healing-misunderstanding--008",
+  "sceneId": "misunderstanding",
+  "lineId": "misunderstanding--008",
+  "lineIndex": 7,
+  "speaker": "林见夏",
+  "text": "我知道。可是你一直帮我留位置，帮我跟老师解释，帮我把报名表放在桌上。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1864834311,
+  "textSha256": "cc730d01771ac3dfac56dc3a1bed5a097f22a36d393e32ca0320ea00a4273585",
+  "medium": "spoken",
+  "requestSha256": "ecf71b79917bd3f5fa5ea6a41ef7bde67fca29268c9e3db0f97a04dd6ef9e87c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我知道可是你一直帮我留位置帮我跟老师解释帮我把报名表放在桌上",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.92,
+  "wallSeconds": 45.837,
+  "loudness": {
+    "input_i": "-25.31",
+    "input_tp": "-6.28",
+    "input_lra": "2.10",
+    "input_thresh": "-35.59",
+    "output_i": "-20.04",
+    "output_tp": "-2.01",
+    "output_lra": "1.70",
+    "output_thresh": "-30.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-misunderstanding--008/raw.wav",
+      "bytes": 952400,
+      "sha256": "f3fa2db52b611d55f34188273b496bd2000d179d2caa8b6988c9e2a255872c33"
+    },
+    "master": {
+      "path": "healing-misunderstanding--008/master.wav",
+      "bytes": 476238,
+      "sha256": "2aad4698c5ca5db88f57be013f127eb9c5f8d944a99d8f0b6cddf7d96b745a2d"
+    },
+    "runtime": {
+      "path": "healing-misunderstanding--008/runtime.ogg",
+      "bytes": 70379,
+      "sha256": "0926ee9fef5e6c638ae0cc6242213ad01fc942ea9678a77cd20d3382f5ead25c"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

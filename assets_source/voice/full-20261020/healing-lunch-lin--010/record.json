@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--010",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--010",
+  "lineIndex": 9,
+  "speaker": "林见夏",
+  "text": "那你觉得，想做一件没用的事，要先把有用的事全部做好吗？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 225683138,
+  "textSha256": "3a6a2bc960a263eb1364e608e2290f87da9a93cd3aaa79f4e32d45f82c26ce13",
+  "medium": "spoken",
+  "requestSha256": "434bddc9bbc2e12bb6a3a86dde8f6f2ef9010ccb60d42c4b34bf4147bfa8ed46",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那你觉得想做一件没用的事要先把有用的事全部做好吗?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 178.341,
+  "loudness": {
+    "input_i": "-26.30",
+    "input_tp": "-8.51",
+    "input_lra": "1.80",
+    "input_thresh": "-36.41",
+    "output_i": "-19.57",
+    "output_tp": "-2.00",
+    "output_lra": "0.90",
+    "output_thresh": "-29.67",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.43"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--010/raw.wav",
+      "bytes": 445520,
+      "sha256": "9fe0ec6fc24330ba42ffaa890b5528b4d6a9b22ee0331adcb3283f492c7e4a05"
+    },
+    "master": {
+      "path": "healing-lunch-lin--010/master.wav",
+      "bytes": 222798,
+      "sha256": "28294b9a67e6709a29610ddcc5018bbb3c571e40d405c8fd21e592a205594cdf"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--010/runtime.ogg",
+      "bytes": 37644,
+      "sha256": "14674bc030855530d600422ebe447e7cda253f38aff1f6bae6fc2aee9e0a152a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

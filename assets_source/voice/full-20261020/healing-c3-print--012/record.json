@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-print--012",
+  "sceneId": "c3-print",
+  "lineId": "c3-print--012",
+  "lineIndex": 11,
+  "speaker": "林见夏",
+  "text": "那让它大一点吧。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 506636380,
+  "textSha256": "029725950dd58a43aab1d023d874b98371b9b25298d80e09259348b0cd9dcadf",
+  "medium": "spoken",
+  "requestSha256": "d10e054295efe00cb162cdb3cd52bf36775553064564fdd7fd4218b92947bbc5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那让它大一点吧",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.84,
+  "wallSeconds": 17.987,
+  "loudness": {
+    "input_i": "-26.67",
+    "input_tp": "-9.13",
+    "input_lra": "0.00",
+    "input_thresh": "-36.67",
+    "output_i": "-19.98",
+    "output_tp": "-2.46",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-print--012/raw.wav",
+      "bytes": 176720,
+      "sha256": "3a037d2ca8258de57a1eac736d9c9e3925325ed4c4bfc456e82794adfb1d20e1"
+    },
+    "master": {
+      "path": "healing-c3-print--012/master.wav",
+      "bytes": 88398,
+      "sha256": "6834a5552440e5acc070924c27dd8a7e27139ad93e7413953ee2efbf24b8d54c"
+    },
+    "runtime": {
+      "path": "healing-c3-print--012/runtime.ogg",
+      "bytes": 16715,
+      "sha256": "933cc97f8e5677be760b966f0c420d8f91d6ac1ed2a2438a02e4b309c7be3fe4"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

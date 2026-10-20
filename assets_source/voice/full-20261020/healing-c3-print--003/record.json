@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-print--003",
+  "sceneId": "c3-print",
+  "lineId": "c3-print--003",
+  "lineIndex": 2,
+  "speaker": "许棠",
+  "text": "能了。这个版本。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1866659209,
+  "textSha256": "373a78e2f7014a45dad9c176a63c63b1836207129ba92cd7cb664e1fde7d69bb",
+  "medium": "spoken",
+  "requestSha256": "06e57c58fa8166e956b12a2b61216381aa5195bc589c0ff22dc0ab46b515bcdf",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "能了,這個版本",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 52.816,
+  "loudness": {
+    "input_i": "-23.45",
+    "input_tp": "-7.73",
+    "input_lra": "0.00",
+    "input_thresh": "-34.22",
+    "output_i": "-19.99",
+    "output_tp": "-4.28",
+    "output_lra": "0.00",
+    "output_thresh": "-30.76",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-print--003/raw.wav",
+      "bytes": 169040,
+      "sha256": "a0d74053b48af4a6398e58aa03ec9222de430548e934f3dddc25efb922bb9008"
+    },
+    "master": {
+      "path": "healing-c3-print--003/master.wav",
+      "bytes": 84558,
+      "sha256": "f8257f501aa275220a2866c13d4f3b4b821f9e8f12bdd6dbe832a913740ae8bb"
+    },
+    "runtime": {
+      "path": "healing-c3-print--003/runtime.ogg",
+      "bytes": 15176,
+      "sha256": "5dd1b86178d46337a242b297a57036d63d702a206d7af780b4f5e900a10443b1"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

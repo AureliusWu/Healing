@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-lin-final--006",
+  "sceneId": "end-lin-final",
+  "lineId": "end-lin-final--006",
+  "lineIndex": 5,
+  "speaker": "林见夏",
+  "text": "这句没懂？我也没想明白怎么写，午休再改。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1052563608,
+  "textSha256": "7917c1771ed3b7ad07372efe404c631fa1f556148511b21f904901cc8d201307",
+  "medium": "spoken",
+  "requestSha256": "c70af7fab78d2249dcd39df3a14126474aff7293a51758cf3ae8565412724ace",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "這句沒懂,我也沒想明白怎麼寫,五修再改",
+    "cer": 0.117647,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 31.526,
+  "loudness": {
+    "input_i": "-27.70",
+    "input_tp": "-12.38",
+    "input_lra": "0.90",
+    "input_thresh": "-38.28",
+    "output_i": "-18.81",
+    "output_tp": "-3.46",
+    "output_lra": "0.00",
+    "output_thresh": "-29.34",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.19"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-lin-final--006/raw.wav",
+      "bytes": 361040,
+      "sha256": "bc1438e1552535a6dac51ff719748c1ce43b6352fddd5612ddba26d1b4828ac1"
+    },
+    "master": {
+      "path": "healing-end-lin-final--006/master.wav",
+      "bytes": 180558,
+      "sha256": "d8baaf71b501e39c0b4bf87857c55a0ae00058cd176a39f4add4974edfbe4050"
+    },
+    "runtime": {
+      "path": "healing-end-lin-final--006/runtime.ogg",
+      "bytes": 30770,
+      "sha256": "8384174887ad69d17ad33f110e4096af536818f4e97eb35143a9bfa74799855b"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

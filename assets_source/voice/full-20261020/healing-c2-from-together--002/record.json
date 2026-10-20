@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-together--002",
+  "sceneId": "c2-from-together",
+  "lineId": "c2-from-together--002",
+  "lineIndex": 1,
+  "speaker": "林见夏",
+  "text": "我改了最后一段。没有写“以后一定”，那句我自己都不敢保证。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 137359167,
+  "textSha256": "ae66d2b19b2195ba7fff1ac18ee4bb705399f1becaf84f4e7058c30e44906f9a",
+  "medium": "spoken",
+  "requestSha256": "2cec7420411193060e4ee31f09d4943121c7e9966b7f5aa752629b8e2dc073f0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我改了最后一段没有写以后一定那句我自己都不敢保证",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.32,
+  "wallSeconds": 175.084,
+  "loudness": {
+    "input_i": "-29.19",
+    "input_tp": "-14.21",
+    "input_lra": "1.20",
+    "input_thresh": "-39.44",
+    "output_i": "-20.22",
+    "output_tp": "-5.32",
+    "output_lra": "1.00",
+    "output_thresh": "-30.52",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-together--002/raw.wav",
+      "bytes": 606800,
+      "sha256": "8cc0667d23c7097336d82baeabf86bba5f846ac985f0123d88dada08e990b3dd"
+    },
+    "master": {
+      "path": "healing-c2-from-together--002/master.wav",
+      "bytes": 303438,
+      "sha256": "d0aed393a307ecb59baeaf0b3b96e078e406e43556af9410afadc475b8192b15"
+    },
+    "runtime": {
+      "path": "healing-c2-from-together--002/runtime.ogg",
+      "bytes": 47862,
+      "sha256": "b37317e9d37d629cd714141a968cd7294b465ba210c39d723f342f348277a4d9"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

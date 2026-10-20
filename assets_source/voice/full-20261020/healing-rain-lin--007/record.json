@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-lin--007",
+  "sceneId": "rain-lin",
+  "lineId": "rain-lin--007",
+  "lineIndex": 6,
+  "speaker": "林见夏",
+  "text": "以前我爸接我放学也这样。我妈每次都说他撑伞的水平很差。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 586591135,
+  "textSha256": "2b2b0cdd9d9822c95d7e777de43d8b1ca68c71f7e78784b7ddeb7478888e1a90",
+  "medium": "spoken",
+  "requestSha256": "4adb7422369220f0142ad6bb05e497e3d9bbaebddb0bc670a3b472517fa29df4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以前,我爸借我放學也這樣我媽每次都說她撐傘的水平很差",
+    "cer": 0.08,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.6,
+  "wallSeconds": 219.151,
+  "loudness": {
+    "input_i": "-26.48",
+    "input_tp": "-9.74",
+    "input_lra": "0.30",
+    "input_thresh": "-36.80",
+    "output_i": "-19.54",
+    "output_tp": "-3.19",
+    "output_lra": "0.60",
+    "output_thresh": "-29.88",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.46"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-lin--007/raw.wav",
+      "bytes": 537680,
+      "sha256": "49bfe71edc8c1ca35f165693dccdd466a7487f8a5d8e2b963dfc457cdfd9369f"
+    },
+    "master": {
+      "path": "healing-rain-lin--007/master.wav",
+      "bytes": 268878,
+      "sha256": "a84808d2d77ccf6ead490066adf0b3e9f682cf7491aa3d85403a29b80d85c7ea"
+    },
+    "runtime": {
+      "path": "healing-rain-lin--007/runtime.ogg",
+      "bytes": 44460,
+      "sha256": "964f1f64f86714fc3c1c3fae25807b7d00002be573cdaecd792399294706d0b7"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--006",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "午休还剩几分钟？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1846879488,
+  "textSha256": "08b6f206172e371c31aab4ad18a1df3944458617f5cec7d5f619400bae4ccbdd",
+  "medium": "spoken",
+  "requestSha256": "cb0e18fb3b974eee280e97ad4630a0745a6fe28d419fa655a69749434dee2fe8",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "五修还剩几分钟",
+    "cer": 0.285714,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 1.6,
+  "wallSeconds": 8.316,
+  "loudness": {
+    "input_i": "-26.86",
+    "input_tp": "-8.43",
+    "input_lra": "0.00",
+    "input_thresh": "-36.86",
+    "output_i": "-20.40",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.40",
+    "normalization_type": "linear",
+    "target_offset": "0.40"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--006/raw.wav",
+      "bytes": 153680,
+      "sha256": "8d3e682758c18124c867db8b5fac1b3ba583e03a563dbe46aa89d1718f43e95c"
+    },
+    "master": {
+      "path": "healing-lunch-chen--006/master.wav",
+      "bytes": 76878,
+      "sha256": "90d71ac2d8003d5eeccf0f2f6c46d57784ead56d0adce04c1b8984c180c072e1"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--006/runtime.ogg",
+      "bytes": 15467,
+      "sha256": "186329b45a3651c5a3d1069ec86d4be8e9ebe99267afbcfd013a0c8cf921035d"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

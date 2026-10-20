@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-revision--005",
+  "sceneId": "c3-revision",
+  "lineId": "c3-revision--005",
+  "lineIndex": 4,
+  "speaker": "林见夏",
+  "text": "这次想用这个。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 168148350,
+  "textSha256": "cb281a57a1380577c0cbe252700350f1ba41076302b5ef4c26962b1662efa27c",
+  "medium": "spoken",
+  "requestSha256": "0687a9e5f87d73f7c5f9870512c2b787f31efcef1648fa00bf848a4866548084",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这次想用这个",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 60.644,
+  "loudness": {
+    "input_i": "-23.26",
+    "input_tp": "-8.80",
+    "input_lra": "0.00",
+    "input_thresh": "-33.26",
+    "output_i": "-20.01",
+    "output_tp": "-5.54",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-revision--005/raw.wav",
+      "bytes": 107600,
+      "sha256": "60d8729a9495eeb17f85be1b1facfbd75ccba7a2db04300c6cec157c80f6cb62"
+    },
+    "master": {
+      "path": "healing-c3-revision--005/master.wav",
+      "bytes": 53838,
+      "sha256": "dfdf47686b6e0b72f52d7b6e1a2b87151d5e77cd3883747162bd7ba4281a56a1"
+    },
+    "runtime": {
+      "path": "healing-c3-revision--005/runtime.ogg",
+      "bytes": 12018,
+      "sha256": "ea8a9672f80703d67d83dd2043d23cb634994cd867f5a01fc26c58e687a8f4c4"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

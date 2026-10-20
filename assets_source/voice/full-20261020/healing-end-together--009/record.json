@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-together--009",
+  "sceneId": "end-together",
+  "lineId": "end-together--009",
+  "lineIndex": 8,
+  "speaker": "林见夏",
+  "text": "不用今天就把一切写好。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1285931797,
+  "textSha256": "3752612b36d55ced6788fabd363e831c5028b103a0d74e7cf5af590af29acc36",
+  "medium": "spoken",
+  "requestSha256": "ef42adcae5ad0f8dae0b0d274abba0f1bf087404395316de6e091b8721957be6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不用,今天就把一切切好。",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.0,
+  "wallSeconds": 68.205,
+  "loudness": {
+    "input_i": "-24.86",
+    "input_tp": "-7.48",
+    "input_lra": "0.00",
+    "input_thresh": "-35.10",
+    "output_i": "-19.99",
+    "output_tp": "-2.62",
+    "output_lra": "0.00",
+    "output_thresh": "-30.23",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-together--009/raw.wav",
+      "bytes": 192080,
+      "sha256": "fbe53547a6767cc886e40866af4d6ce7477429e84336a54d4634900eb0fb674e"
+    },
+    "master": {
+      "path": "healing-end-together--009/master.wav",
+      "bytes": 96078,
+      "sha256": "7777fa25570b8249ebc04b1e660e19016c6670a0183a99f0b40f5274e4cc4f03"
+    },
+    "runtime": {
+      "path": "healing-end-together--009/runtime.ogg",
+      "bytes": 18106,
+      "sha256": "bab1198cf0ac8c96b0113f353b7663b7f77a211623aeb6da15d9f19c88638551"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

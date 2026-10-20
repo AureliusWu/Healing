@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-both--004",
+  "sceneId": "rain-both",
+  "lineId": "rain-both--004",
+  "lineIndex": 3,
+  "speaker": "林见夏",
+  "text": "我不是不想来。我只是……不想每次还没想好，就已经欠下一句谢谢。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1050238716,
+  "textSha256": "1eff2f8c6dc94fefb1b00802d8afe5c64f3efe62dc577205b015bf584bf5c1c9",
+  "medium": "spoken",
+  "requestSha256": "1636cb89a4664a1af11ed5b21fd412dc91b8b1d31e555a34fd31bf3eeec72b62",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我不是不想來我只是不想每次還沒想好就已經欠下一句謝謝",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.84,
+  "wallSeconds": 310.079,
+  "loudness": {
+    "input_i": "-22.02",
+    "input_tp": "-6.62",
+    "input_lra": "7.60",
+    "input_thresh": "-33.44",
+    "output_i": "-18.89",
+    "output_tp": "-3.40",
+    "output_lra": "5.50",
+    "output_thresh": "-30.72",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.11"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-both--004/raw.wav",
+      "bytes": 944720,
+      "sha256": "b142e1dbfc2ebfcc7c7333b2d3a8ee4eabc797109b0ddba2b2bceb5070f07ee6"
+    },
+    "master": {
+      "path": "healing-rain-both--004/master.wav",
+      "bytes": 472398,
+      "sha256": "4bd0ba5a607f96ff520f627c699a9b3b611480d25f3c7e508fde51e52e4f5ad7"
+    },
+    "runtime": {
+      "path": "healing-rain-both--004/runtime.ogg",
+      "bytes": 67926,
+      "sha256": "f39a11c45158090620421ead43d8469a3032d9bc93e9e72b76c5a05f75bb937f"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

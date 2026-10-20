@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-both--005",
+  "sceneId": "rain-both",
+  "lineId": "rain-both--005",
+  "lineIndex": 4,
+  "speaker": "陈知遥",
+  "text": "我也不是想替你决定。我不知道，除了帮忙，还能怎么让别人知道我在乎。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1437766371,
+  "textSha256": "553e52be44833737ac8ce4c36774f2859bc9e42f65054b5a1515f6986cdcfe8c",
+  "medium": "spoken",
+  "requestSha256": "3c008defc56c8a2eb4b84f9ebece36c84bcb7b56e42f3f0c031203d25063ce2d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也不是想替你决定我不知道除了帮忙还能怎么让别人知道我在乎",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.68,
+  "wallSeconds": 483.858,
+  "loudness": {
+    "input_i": "-16.83",
+    "input_tp": "-2.05",
+    "input_lra": "4.60",
+    "input_thresh": "-27.37",
+    "output_i": "-19.05",
+    "output_tp": "-3.86",
+    "output_lra": "3.30",
+    "output_thresh": "-29.68",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.95"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-both--005/raw.wav",
+      "bytes": 929360,
+      "sha256": "f86d7fdf82a8487732cedf3257bbc66059a840ba68f4cf4b0ab57c33e43e9533"
+    },
+    "master": {
+      "path": "healing-rain-both--005/master.wav",
+      "bytes": 464718,
+      "sha256": "6c651341df880bb880e3b350099fe79834d83f53dcd4bd90358906209e1fda54"
+    },
+    "runtime": {
+      "path": "healing-rain-both--005/runtime.ogg",
+      "bytes": 68670,
+      "sha256": "bc3116dc45a4248ee611b652f215ec67ab1541d697416911c47e2969bebdb360"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-quiet--007",
+  "sceneId": "end-quiet",
+  "lineId": "end-quiet--007",
+  "lineIndex": 6,
+  "speaker": "贺川",
+  "text": "饭团，今天没买辣的。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1613092037,
+  "textSha256": "ff2b3a5b08164e51489f0b93cdba5a65763d430e49b4deed61142af137b6f6fa",
+  "medium": "spoken",
+  "requestSha256": "5d41ea868e42f1c5871da9bed104553a1e262135920d8e4ba53b67d8e165d421",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "饭团,今天没买辣的",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 7.489,
+  "loudness": {
+    "input_i": "-22.08",
+    "input_tp": "-7.02",
+    "input_lra": "0.00",
+    "input_thresh": "-32.08",
+    "output_i": "-20.00",
+    "output_tp": "-4.94",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-quiet--007/raw.wav",
+      "bytes": 138320,
+      "sha256": "0e95a3f8ee400088deda8535c373ee5c465ce758382b4e0711b616b2eb48db12"
+    },
+    "master": {
+      "path": "healing-end-quiet--007/master.wav",
+      "bytes": 69198,
+      "sha256": "79cb4274fb1a692ec48242e63b0d4f83eecfe7580a5da925eb447d5ca5fa91e1"
+    },
+    "runtime": {
+      "path": "healing-end-quiet--007/runtime.ogg",
+      "bytes": 14199,
+      "sha256": "b968a17a9382b9b8635fe7f3dfb5eca6bc4f9a9a06c310d7804087e2baef4112"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

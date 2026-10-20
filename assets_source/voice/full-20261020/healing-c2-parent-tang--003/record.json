@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-tang--003",
+  "sceneId": "c2-parent-tang",
+  "lineId": "c2-parent-tang--003",
+  "lineIndex": 2,
+  "speaker": "许棠",
+  "text": "拍错题是真的。但还拍了别的，我躲着没说。今天带来还社团，周末别人要借。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 187757398,
+  "textSha256": "32a3c4e1c701dd2c8c006b45b93e5f377a10694e63873cdd2c44f1cf5eb80167",
+  "medium": "spoken",
+  "requestSha256": "bbe73a7ae3fbfadc2ee7ceef4cb4e1516b182de04a03d7fe13cb17e7119e6c0a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "拍作提示真的,但還拍了別的,我躲著沒說。今天帶來環社團,週末別人要見。",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.76,
+  "wallSeconds": 216.514,
+  "loudness": {
+    "input_i": "-21.57",
+    "input_tp": "-6.69",
+    "input_lra": "5.00",
+    "input_thresh": "-31.98",
+    "output_i": "-19.39",
+    "output_tp": "-3.22",
+    "output_lra": "3.40",
+    "output_thresh": "-29.86",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.61"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-tang--003/raw.wav",
+      "bytes": 745040,
+      "sha256": "e66e4eafb012ca227145ca690baf19407073341dd3fb428c554fbfb4255a0cb0"
+    },
+    "master": {
+      "path": "healing-c2-parent-tang--003/master.wav",
+      "bytes": 372558,
+      "sha256": "9d58bb2f23ca4154d2083eb880a6dc58e757b3db49c8552b0f55189495b5ecfa"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-tang--003/runtime.ogg",
+      "bytes": 55798,
+      "sha256": "25a516c93e047d4de4ed33ea015ba5fa868844a17af3710e12b7161e9fd52380"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

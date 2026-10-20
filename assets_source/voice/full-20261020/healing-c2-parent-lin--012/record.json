@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-lin--012",
+  "sceneId": "c2-parent-lin",
+  "lineId": "c2-parent-lin--012",
+  "lineIndex": 11,
+  "speaker": "林见夏",
+  "text": "这份可以。我那份还有铅笔字。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1821199273,
+  "textSha256": "6ecd50a9f859ffbbf939e50b2b417d2f65084a93d38fe86127abcb79d0babe50",
+  "medium": "spoken",
+  "requestSha256": "052508ce903c0cb1be42bd0bdec6fe8632d1a88a4016c834c1e76a856aef6a54",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这份可以我那份还有签笔字",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.04,
+  "wallSeconds": 150.011,
+  "loudness": {
+    "input_i": "-26.21",
+    "input_tp": "-11.99",
+    "input_lra": "0.10",
+    "input_thresh": "-36.88",
+    "output_i": "-19.21",
+    "output_tp": "-5.04",
+    "output_lra": "0.00",
+    "output_thresh": "-29.90",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.79"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-lin--012/raw.wav",
+      "bytes": 291920,
+      "sha256": "84a7190631b975ec3cb310faf1007253a02cf69898888d7feb6d1fc3937664c1"
+    },
+    "master": {
+      "path": "healing-c2-parent-lin--012/master.wav",
+      "bytes": 145998,
+      "sha256": "dc02fee16c494f6e18d40409199092f4812baaddc620a9e8f9e111c7b0239819"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-lin--012/runtime.ogg",
+      "bytes": 24289,
+      "sha256": "a8721fa373918a8ee521945086f7a012e7be6564bd84114e6186fc529af36148"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

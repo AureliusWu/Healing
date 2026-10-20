@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parents--010",
+  "sceneId": "c2-parents",
+  "lineId": "c2-parents--010",
+  "lineIndex": 9,
+  "speaker": "贺川",
+  "text": "我现在就在这里。再确认一次，我会像快递一样被催熟。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 421407822,
+  "textSha256": "c2557b35376df0828d9afe1f8eb18df298a957717742972ca7a62e919f728b26",
+  "medium": "spoken",
+  "requestSha256": "9b245e9691a43e0134d12df8737a08d606feedad18867784e8bfafcc4f3974ea",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我现在就在这里,再确认一次,我会像快递一样被催俗。",
+    "cer": 0.045455,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.0,
+  "wallSeconds": 27.618,
+  "loudness": {
+    "input_i": "-22.95",
+    "input_tp": "-5.23",
+    "input_lra": "0.70",
+    "input_thresh": "-33.30",
+    "output_i": "-20.02",
+    "output_tp": "-2.42",
+    "output_lra": "3.00",
+    "output_thresh": "-30.40",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parents--010/raw.wav",
+      "bytes": 576080,
+      "sha256": "f3255e6ff3724ee407a750a65e687bce2d5a3087f0466df7804dabcbda9e6cf9"
+    },
+    "master": {
+      "path": "healing-c2-parents--010/master.wav",
+      "bytes": 288078,
+      "sha256": "6135551c6c1c1de86407f1eaa37349c3bd30a94bad708564f1ed3438c00579a9"
+    },
+    "runtime": {
+      "path": "healing-c2-parents--010/runtime.ogg",
+      "bytes": 48652,
+      "sha256": "b1977603efcf1caec3cf1dd0febae90e603f6b100a8ff7ecb1e1df1c2561749d"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

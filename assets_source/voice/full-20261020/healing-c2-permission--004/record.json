@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-permission--004",
+  "sceneId": "c2-permission",
+  "lineId": "c2-permission--004",
+  "lineIndex": 3,
+  "speaker": "陈知遥",
+  "text": "能。你慢慢看，我不替你点头。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 678178119,
+  "textSha256": "7e16e2166b0990a4fb41e2fe69a6975305148a2db9c7635edb6e651b3a1d067e",
+  "medium": "spoken",
+  "requestSha256": "621616b0173fdd20a0f0a3bcda65cb12a73621c5f65aa2ab756444fb48e09bfb",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "能,你慢慢看,我不替你点头。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.92,
+  "wallSeconds": 131.262,
+  "loudness": {
+    "input_i": "-18.05",
+    "input_tp": "-5.00",
+    "input_lra": "0.20",
+    "input_thresh": "-28.51",
+    "output_i": "-18.67",
+    "output_tp": "-5.81",
+    "output_lra": "0.00",
+    "output_thresh": "-29.10",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.33"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-permission--004/raw.wav",
+      "bytes": 376400,
+      "sha256": "09e6008aac8803b6c7519c1e455593c3dfe9f3c82d650ae5c8f186eea391eced"
+    },
+    "master": {
+      "path": "healing-c2-permission--004/master.wav",
+      "bytes": 188238,
+      "sha256": "da08f56386b659bf997d2ff3145897c3e82f9cbd0b7b848865a6ea3172906c57"
+    },
+    "runtime": {
+      "path": "healing-c2-permission--004/runtime.ogg",
+      "bytes": 28858,
+      "sha256": "fbd7028c7509033002c0c81ae29657d87f55c97aee533bac6d24e6cc449c1feb"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

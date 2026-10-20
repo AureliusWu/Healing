@@ -1,0 +1,293 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "sourceRun": 39386271240,
+  "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
+  "target": 427,
+  "accepted": 401,
+  "pendingCount": 26,
+  "pending": [
+    {
+      "id": "healing-corridor--002",
+      "text": "看不见就别挤了。我一米八都只看见三十个后脑勺。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "看不见就别挤啦我1米8都只看见30个后脑勺",
+        "cer": 0.238095,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-corridor--015",
+      "text": "今天没太阳。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "今天没态呀",
+        "cer": 0.4,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-lunch-chen--006",
+      "text": "午休还剩几分钟？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "五修还剩几分钟",
+        "cer": 0.285714,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-lunch-chen--013",
+      "text": "“我要午睡”够不够重要？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "我要五岁够不够重要",
+        "cer": 0.222222,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-club--011",
+      "text": "可以很短。四百字也行。署名可以用笔名。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "可以很短,400字也行,署名可以用比名",
+        "cer": 0.25,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-rain-lin--002",
+      "text": "那知遥呢？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "那芝羊呢?",
+        "cer": 0.5,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c2-deadline--004",
+      "text": "那我们别在五点四十四再发现有三页要重排。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "那我們別再5.44再發現有三頁要重排",
+        "cer": 0.315789,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c2-lin-draft--009",
+      "text": "我记在这里，不凭记性。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "我记在这里不凭记一下",
+        "cer": 0.222222,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c2-home--002",
+      "text": "核对校刊，六点关门，校门等了一班车。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "河队校刊6点关门校门挡了一班车",
+        "cer": 0.266667,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c2-confirm--008",
+      "text": "我先问一题，八点二十以前送去，行吗？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "我先问一题 8.20 以前送去 行吗",
+        "cer": 0.266667,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c2-parents--005",
+      "text": "没告诉他哪排？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "没告他哪牌",
+        "cer": 0.333333,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c2-parent-chen--010",
+      "text": "那五点二十走？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "你5点20走",
+        "cer": 0.666667,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c2-finish--006",
+      "text": "程屿，下周记得还我直尺！",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "成语下周记得黄我支持",
+        "cer": 0.5,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c3-open--004",
+      "text": "纸箱还在旧刊室。这个先还。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "紙箱还在救堪室这个箱还",
+        "cer": 0.272727,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c3-check--013",
+      "text": "嗯，纸上确认没问题，才印正式份数。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "嗯,纸上确认没问题,才应正十分说。",
+        "cer": 0.285714,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c3-print--002",
+      "text": "现在能印？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "現在能應",
+        "cer": 0.25,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c3-print--005",
+      "text": "怎么还是热的？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "呵呵,呵呵,呵呵,怎么还是热的,呵呵。",
+        "cer": 1.333333,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c3-print--011",
+      "text": "标题缩过，名字没有。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "标题说过 您怎么要",
+        "cer": 0.625,
+        "polarityCountsMatch": false,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c3-after-school--002",
+      "text": "那句想让我写的话，还算数吗？旧刊室有纸。",
+      "status": "missing"
+    },
+    {
+      "id": "healing-c3-lin-talk--003",
+      "text": "周一继续？像布置作业。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "周一继续想不知作业",
+        "cer": 0.333333,
+        "polarityCountsMatch": false,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c3-lin-page--002",
+      "text": "帮我看这一段？不必今天看完，意见写旁边，别替我改。",
+      "status": "missing"
+    },
+    {
+      "id": "healing-c3-chen-rest--002",
+      "text": "以前一坐下就想，十分钟能做几道题。现在跟你说这个，用了两分钟。",
+      "status": "missing"
+    },
+    {
+      "id": "healing-c3-tang-talk--008",
+      "text": "什么样？",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "什么样儿",
+        "cer": 0.333333,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c3-tang-talk--009",
+      "text": "栏杆这边，袖子有光。正脸、不写班级，你看过愿意才留，只在我和你的相册。",
+      "status": "missing"
+    },
+    {
+      "id": "healing-c3-shared-talk--003",
+      "text": "我答应，别让我举书站直，像发奖。",
+      "status": "needs_review",
+      "asr": {
+        "transcript": "我答应 别让我举输战职 想发强",
+        "cer": 0.384615,
+        "polarityCountsMatch": true,
+        "passed": false
+      },
+      "error": null
+    },
+    {
+      "id": "healing-c3-shared-talk--008",
+      "text": "对。今天照片没他，校刊里有，不用每件事都凑成所有人合影。",
+      "status": "missing"
+    }
+  ],
+  "status": "recovered_verified_takes",
+  "archive": "assets_source/voice/full-20261020",
+  "humanListening": false,
+  "runtimeIntegration": "pending",
+  "release": "not_published"
+}

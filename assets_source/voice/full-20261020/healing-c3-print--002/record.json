@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-print--002",
+  "sceneId": "c3-print",
+  "lineId": "c3-print--002",
+  "lineIndex": 1,
+  "speaker": "文印老师",
+  "text": "现在能印？",
+  "actorId": "文印老师",
+  "voice": "Uncle_Fu",
+  "instruct": "中年男性教职工，普通话，平实耐心，清晰自然，日常工作交流。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1534337582,
+  "textSha256": "8fcc354a1a3cf7b83a95a9c381bdcaff45fcbf7535e24f0c5d98c2bdeb34e917",
+  "medium": "spoken",
+  "requestSha256": "8db0cbdda493f35937ce6497924c9d097bd83dd5b303e50ad613507455a4c233",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "現在能應",
+    "cer": 0.25,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 1.28,
+  "wallSeconds": 6.449,
+  "loudness": {
+    "input_i": "-24.69",
+    "input_tp": "-9.73",
+    "input_lra": "0.00",
+    "input_thresh": "-34.69",
+    "output_i": "-20.00",
+    "output_tp": "-5.04",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-print--002/raw.wav",
+      "bytes": 122960,
+      "sha256": "a76bbef18c8538112242f1d9d5a7736c8a2139670dd23d22e57696cb031f15c8"
+    },
+    "master": {
+      "path": "healing-c3-print--002/master.wav",
+      "bytes": 61518,
+      "sha256": "b0566143b0f581c620e051edb9636db731df7bca0e2e71a0ab20b28460a98cee"
+    },
+    "runtime": {
+      "path": "healing-c3-print--002/runtime.ogg",
+      "bytes": 12875,
+      "sha256": "d41b606e8a68a973902a65024b371a27eebbaddd38806d7a4a6a2ce6a93eefae"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

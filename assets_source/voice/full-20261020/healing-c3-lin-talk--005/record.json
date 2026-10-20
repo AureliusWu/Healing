@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-talk--005",
+  "sceneId": "c3-lin-talk",
+  "lineId": "c3-lin-talk--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "想让它是你给我的那本。不只是搬过的二十份里面随便一本。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1163264163,
+  "textSha256": "d2dad545dedb11b5e4c3c9782b82ab015a707580185fce12ec8d764801938276",
+  "medium": "spoken",
+  "requestSha256": "08051cce334e596b12fd204e2e15834550f45d6d7818fec93e88abecdbf6df97",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "小人家是你给我的那本不只是搬过的二十份里面随便一本",
+    "cer": 0.12,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.88,
+  "wallSeconds": 214.819,
+  "loudness": {
+    "input_i": "-26.47",
+    "input_tp": "-5.74",
+    "input_lra": "0.30",
+    "input_thresh": "-37.14",
+    "output_i": "-20.25",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.74",
+    "normalization_type": "dynamic",
+    "target_offset": "0.25"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-talk--005/raw.wav",
+      "bytes": 468560,
+      "sha256": "af9f08f0d0467c8a6a356f3f4c94c924c588bc4ce3be92f1461a1415393e2c8a"
+    },
+    "master": {
+      "path": "healing-c3-lin-talk--005/master.wav",
+      "bytes": 234318,
+      "sha256": "67663c8c030fb669e247f3103b7c6a2aaa9b4604695a6df9454886a101fdbf8e"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-talk--005/runtime.ogg",
+      "bytes": 40706,
+      "sha256": "27f0e9932f5619d0825cd8498b1c52adc0be03908e6341066f7db37200d20125"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

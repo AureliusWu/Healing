@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-talk--008",
+  "sceneId": "c3-lin-talk",
+  "lineId": "c3-lin-talk--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "不拿。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1754399728,
+  "textSha256": "d36a0956f749d00a4f49c52ca7585b5a7a59d88e0b501cd84677e3539e21c59c",
+  "medium": "spoken",
+  "requestSha256": "2de12afc38cb9052f39f76e4a675afe23a67e7189cc6a2a8535c397c6091c3d5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不拿",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.64,
+  "wallSeconds": 3.748,
+  "loudness": {
+    "input_i": "-23.11",
+    "input_tp": "-6.69",
+    "input_lra": "0.00",
+    "input_thresh": "-33.11",
+    "output_i": "-19.97",
+    "output_tp": "-3.58",
+    "output_lra": "0.00",
+    "output_thresh": "-29.97",
+    "normalization_type": "linear",
+    "target_offset": "-0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-talk--008/raw.wav",
+      "bytes": 61520,
+      "sha256": "b5be211d2fc069753299b7d49a12816a6131eda70772b336bc2b8851d75e9818"
+    },
+    "master": {
+      "path": "healing-c3-lin-talk--008/master.wav",
+      "bytes": 30798,
+      "sha256": "04fbf157ec4add034f865083f394f421bd96baf5f08b3956b311d4b9157fc817"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-talk--008/runtime.ogg",
+      "bytes": 8219,
+      "sha256": "de25f71e2c9d4b241d2b02c81a9438d1891b794c7a5b86c3a3a9d87566f69b36"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

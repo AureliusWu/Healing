@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-together--003",
+  "sceneId": "end-together",
+  "lineId": "end-together--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "这句有点长。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1184213860,
+  "textSha256": "5c4f7a362f5d4b1ea8cb27eeee7c684574eacc7274aed0045397dc85daa64698",
+  "medium": "spoken",
+  "requestSha256": "9643a1bec8dfc1a9b63def586601dc3abe38e8ee01299e2e54e43fa48d295e8e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这句有点长",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 78.386,
+  "loudness": {
+    "input_i": "-24.18",
+    "input_tp": "-11.81",
+    "input_lra": "0.00",
+    "input_thresh": "-34.18",
+    "output_i": "-20.01",
+    "output_tp": "-7.62",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-together--003/raw.wav",
+      "bytes": 138320,
+      "sha256": "0e2548ae635527ca7a676ab12f8ded4aa9765e48f9d6d0a9e10aa1a66da418ed"
+    },
+    "master": {
+      "path": "healing-end-together--003/master.wav",
+      "bytes": 69198,
+      "sha256": "73d2d6c430bd2c25ee2f7e937d61daedd1810b0680505226eb02bc7b2497887c"
+    },
+    "runtime": {
+      "path": "healing-end-together--003/runtime.ogg",
+      "bytes": 13772,
+      "sha256": "9e89da308f9acd8909a7a905dc5e1364bf472971a16f15c094ef12c4f1d45b52"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

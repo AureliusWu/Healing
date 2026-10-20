@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-quiet--003",
+  "sceneId": "c2-from-quiet",
+  "lineId": "c2-from-quiet--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "来。上次没写完的，我带来了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1311883364,
+  "textSha256": "db5c0e51ea0a9bd8bf3862812cc2ab9612eb1dd69ff14320703999a006156b05",
+  "medium": "spoken",
+  "requestSha256": "47f2fdfbcc86598fb2b69995b07ba3724b72e5c4c7d690b3747c343ea88edcbc",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "来上次没写完的我带来了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.56,
+  "wallSeconds": 281.638,
+  "loudness": {
+    "input_i": "-24.32",
+    "input_tp": "-6.22",
+    "input_lra": "0.00",
+    "input_thresh": "-34.71",
+    "output_i": "-20.11",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.51",
+    "normalization_type": "linear",
+    "target_offset": "0.11"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-quiet--003/raw.wav",
+      "bytes": 245840,
+      "sha256": "459e3a6937923ea2a5eeecd08c6e8d2c85e1c72cd6852b8fa6c105bc019e4f61"
+    },
+    "master": {
+      "path": "healing-c2-from-quiet--003/master.wav",
+      "bytes": 122958,
+      "sha256": "7a396c8a39547d4ce09cc29d73a5c91c7e6d033f0c70b34eb017a225baadb49d"
+    },
+    "runtime": {
+      "path": "healing-c2-from-quiet--003/runtime.ogg",
+      "bytes": 23601,
+      "sha256": "3394f4b902a6b744cb153557d313167d46b31cceaf0aafdc378f5db4daf2b016"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

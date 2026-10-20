@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-help--009",
+  "sceneId": "desk-help",
+  "lineId": "desk-help--009",
+  "lineIndex": 8,
+  "speaker": "陈知遥",
+  "text": "谢谢。下午放学，三楼最里面那间教室。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1358634607,
+  "textSha256": "7ce579a20634a84b7ab682315bfcaf312ddcbf80ca42fea9756ab3a812f095f8",
+  "medium": "spoken",
+  "requestSha256": "04b2d4b7292753053b45d30f4e8c41a3d812dfb45689d5e31b597e8b0e488fce",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "謝謝 下午放學 三樓最裡面那間教室",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.4,
+  "wallSeconds": 142.325,
+  "loudness": {
+    "input_i": "-19.90",
+    "input_tp": "-4.43",
+    "input_lra": "1.20",
+    "input_thresh": "-30.28",
+    "output_i": "-18.67",
+    "output_tp": "-3.25",
+    "output_lra": "1.30",
+    "output_thresh": "-29.12",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.33"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-help--009/raw.wav",
+      "bytes": 422480,
+      "sha256": "09c28d9f597575185981a511b3ec70da69a045cd0817999ec73b0ab05602f1d1"
+    },
+    "master": {
+      "path": "healing-desk-help--009/master.wav",
+      "bytes": 211278,
+      "sha256": "6ed651d3da2d2ece60556a79673ddd290e28828c6d59e7e6041d7f11486c599d"
+    },
+    "runtime": {
+      "path": "healing-desk-help--009/runtime.ogg",
+      "bytes": 34809,
+      "sha256": "c63716892309bfe209fc7b15caf8ec3cb1f917303707423acfb3b13aaa205fc9"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-both--008",
+  "sceneId": "rain-both",
+  "lineId": "rain-both--008",
+  "lineIndex": 7,
+  "speaker": "林见夏",
+  "text": "我也会好好说，不用一句“我知道你是好意”把你挡回去。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 869143226,
+  "textSha256": "c9131888564220c1ffe852973799b162ab70ab48248b993a371d36a37372e228",
+  "medium": "spoken",
+  "requestSha256": "e16d63e5fd9b466ac16b0923ff42b43ecb5c77d8df9e585e0338dc03fc2c9397",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也會好好說,不用一句,我知道你是好意把你擋回去",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 209.653,
+  "loudness": {
+    "input_i": "-26.43",
+    "input_tp": "-9.43",
+    "input_lra": "1.50",
+    "input_thresh": "-36.43",
+    "output_i": "-20.70",
+    "output_tp": "-3.93",
+    "output_lra": "1.00",
+    "output_thresh": "-30.70",
+    "normalization_type": "dynamic",
+    "target_offset": "0.70"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-both--008/raw.wav",
+      "bytes": 414800,
+      "sha256": "4900dafef7bb3bc1ff18526d48d373b8a19aa0e6c22bc0763e7a7f0fd2e3b431"
+    },
+    "master": {
+      "path": "healing-rain-both--008/master.wav",
+      "bytes": 207438,
+      "sha256": "4cb150b8cedf69ec228c7ab3f2958fa3b096ed40da42b4ad90d10799af45b179"
+    },
+    "runtime": {
+      "path": "healing-rain-both--008/runtime.ogg",
+      "bytes": 34458,
+      "sha256": "b2629a9a3730081a2172b7ee2b94973127f926f71886088b98f2c3c923d7e2d6"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

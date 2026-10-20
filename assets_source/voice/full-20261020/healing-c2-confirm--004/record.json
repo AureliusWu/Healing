@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-confirm--004",
+  "sceneId": "c2-confirm",
+  "lineId": "c2-confirm--004",
+  "lineIndex": 3,
+  "speaker": "许棠",
+  "text": "可以。小一级，行距不改。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1524572182,
+  "textSha256": "ec66039b6665e802335e3c03274dbae423ea92a0b50a84dc7424adc57507e647",
+  "medium": "spoken",
+  "requestSha256": "bb77ed4d62012155ca23fc63d96d776ed7a84790e8fe9ceaab3c9d5af76d291e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以 小一級 行駿不改",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.72,
+  "wallSeconds": 12.781,
+  "loudness": {
+    "input_i": "-24.62",
+    "input_tp": "-7.44",
+    "input_lra": "0.00",
+    "input_thresh": "-34.99",
+    "output_i": "-20.00",
+    "output_tp": "-2.82",
+    "output_lra": "0.00",
+    "output_thresh": "-30.38",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-confirm--004/raw.wav",
+      "bytes": 261200,
+      "sha256": "e3701b8d41879a69a7884a4ee29abca408b5f0a7549bc4d99ae41144fde57e70"
+    },
+    "master": {
+      "path": "healing-c2-confirm--004/master.wav",
+      "bytes": 130638,
+      "sha256": "d56a47b080edf4d612508ce1b7c98ac3afa19462ee20863cf9ed856a23eceb1e"
+    },
+    "runtime": {
+      "path": "healing-c2-confirm--004/runtime.ogg",
+      "bytes": 22646,
+      "sha256": "0c934d6bb0e92fb0dad60c8479517cb4e24a9745d6d0bcafb71b0dc17e4add4a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-honest--008",
+  "sceneId": "desk-honest",
+  "lineId": "desk-honest--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "你怎么知道？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 260381764,
+  "textSha256": "5ed44a1f9b821447e7be187c1efc235478c1e6d6524c7a0297ff59bd949e3446",
+  "medium": "spoken",
+  "requestSha256": "a95c22a719fced2db46e83a17f93cf4c126e66f4bd288ba3870c403f127b7a30",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你怎么知道",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.96,
+  "wallSeconds": 41.774,
+  "loudness": {
+    "input_i": "-29.67",
+    "input_tp": "-12.41",
+    "input_lra": "0.00",
+    "input_thresh": "-39.67",
+    "output_i": "-20.03",
+    "output_tp": "-2.74",
+    "output_lra": "0.00",
+    "output_thresh": "-30.03",
+    "normalization_type": "linear",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-honest--008/raw.wav",
+      "bytes": 92240,
+      "sha256": "83cd767ac42382bf5dbd11600defb54d3acb9bb9cb0f081794ffe73694e7c53e"
+    },
+    "master": {
+      "path": "healing-desk-honest--008/master.wav",
+      "bytes": 46158,
+      "sha256": "bc52a5733dd93bc1b6c7ffd730d50e48735f9ead707d20b39a422be0047906fc"
+    },
+    "runtime": {
+      "path": "healing-desk-honest--008/runtime.ogg",
+      "bytes": 10831,
+      "sha256": "41ff6c9e211ab897f379d096e3385c6fd659276b9b0f09a9a39e7bad0f7d25eb"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

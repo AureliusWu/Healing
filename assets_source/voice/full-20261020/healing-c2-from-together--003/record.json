@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-together--003",
+  "sceneId": "c2-from-together",
+  "lineId": "c2-from-together--003",
+  "lineIndex": 2,
+  "speaker": "陈知遥",
+  "text": "我把编辑名单拆成了几栏。谁做什么就写谁，别只留一个联系人。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1387868688,
+  "textSha256": "c2b35db269d473087259b8aabcfffe34d7bede970dddf2d9b7ab76fd11d6f476",
+  "medium": "spoken",
+  "requestSha256": "5c99252adfb05115e706fca68655caddda34f5bf91e06efee9f95de2c3c8402e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我把編輯名單拆成了幾欄誰做什麼就寫誰別只留一個聯繫人",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.44,
+  "wallSeconds": 291.579,
+  "loudness": {
+    "input_i": "-20.01",
+    "input_tp": "-0.60",
+    "input_lra": "1.30",
+    "input_thresh": "-30.34",
+    "output_i": "-20.14",
+    "output_tp": "-2.00",
+    "output_lra": "2.60",
+    "output_thresh": "-30.50",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-together--003/raw.wav",
+      "bytes": 522320,
+      "sha256": "1f89f9251d56716d5b44c6b910df2c207eb6cb59bcbf436a38a13f5b274519bd"
+    },
+    "master": {
+      "path": "healing-c2-from-together--003/master.wav",
+      "bytes": 261198,
+      "sha256": "1600cf34a176c09292241458e36798d39168b2c25f063bbae62635779719c111"
+    },
+    "runtime": {
+      "path": "healing-c2-from-together--003/runtime.ogg",
+      "bytes": 41965,
+      "sha256": "205141f21ab93a419edcb7464e41e8e2921a6ffc9d4657d79b382cbeb88d2a0b"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

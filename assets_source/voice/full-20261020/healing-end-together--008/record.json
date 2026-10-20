@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-together--008",
+  "sceneId": "end-together",
+  "lineId": "end-together--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "我还没写好结尾。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1521549267,
+  "textSha256": "74810016c667704bc14e2f831444d0137ee07a0878914443c9a9d3bedbc44000",
+  "medium": "spoken",
+  "requestSha256": "0f0df4eefd5e1d77aa276ac8aef3860cc729322d246cf021fb7668e92885c5e9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我还没写好结尾",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.52,
+  "wallSeconds": 56.043,
+  "loudness": {
+    "input_i": "-25.37",
+    "input_tp": "-8.15",
+    "input_lra": "0.00",
+    "input_thresh": "-35.37",
+    "output_i": "-20.00",
+    "output_tp": "-2.78",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-together--008/raw.wav",
+      "bytes": 146000,
+      "sha256": "2ad5beb5f41dc1368c9e307fc5bbf9b7747d53e44d956d4108f28440d56fd64a"
+    },
+    "master": {
+      "path": "healing-end-together--008/master.wav",
+      "bytes": 73038,
+      "sha256": "4cb9ac7a3b4d33a7b46accbd2fa9c9857841ee7a5c55befb964147110e31a13e"
+    },
+    "runtime": {
+      "path": "healing-end-together--008/runtime.ogg",
+      "bytes": 15010,
+      "sha256": "e37bdca769860441837a7bdc71fad7c2e759b5b5b35be3ea47107e5a78c272c9"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

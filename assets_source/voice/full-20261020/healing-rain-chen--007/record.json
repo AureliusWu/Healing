@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-chen--007",
+  "sceneId": "rain-chen",
+  "lineId": "rain-chen--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "可能吧。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 593536345,
+  "textSha256": "84575b54a74a1cd7dcfe597a96a84a96460a8f1582bf54860cfde8289bd7e3fd",
+  "medium": "spoken",
+  "requestSha256": "a21474eebcc95347a25eec8c653e1d51a5ed05ed3395910e959318a403ea1ff8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可能吧",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.8,
+  "wallSeconds": 4.737,
+  "loudness": {
+    "input_i": "-27.28",
+    "input_tp": "-6.26",
+    "input_lra": "0.00",
+    "input_thresh": "-37.28",
+    "output_i": "-23.03",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-33.03",
+    "normalization_type": "linear",
+    "target_offset": "3.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-chen--007/raw.wav",
+      "bytes": 76880,
+      "sha256": "556d2bcdde470070bd95f855ef536ddef4459a01f2fb525cbf29d3a1a994c885"
+    },
+    "master": {
+      "path": "healing-rain-chen--007/master.wav",
+      "bytes": 38478,
+      "sha256": "ee542cdca3e94d5d21e0b574d33dc52ca792d0870d28508164ec5fcb6af234f8"
+    },
+    "runtime": {
+      "path": "healing-rain-chen--007/runtime.ogg",
+      "bytes": 9413,
+      "sha256": "54074c71a82498a02f676743cba9babc7bae1e7beb492c979347789d8c77eccd"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

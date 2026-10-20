@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-lin--014",
+  "sceneId": "rain-lin",
+  "lineId": "rain-lin--014",
+  "lineIndex": 13,
+  "speaker": "程屿",
+  "text": "好。明天我也把稿子带来。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 734895642,
+  "textSha256": "2b864233ad8eb173cb1a9846a18487b542e2c1f14dba35e491543b8e68387622",
+  "medium": "spoken",
+  "requestSha256": "0989ef09e5120ba3899653f3c98e03cfdd6fbb1ba2415c01c366bad2ec7497b0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "好 明天我也把稿子带来",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.24,
+  "wallSeconds": 14.145,
+  "loudness": {
+    "input_i": "-21.93",
+    "input_tp": "-5.40",
+    "input_lra": "0.00",
+    "input_thresh": "-32.40",
+    "output_i": "-20.00",
+    "output_tp": "-3.47",
+    "output_lra": "0.00",
+    "output_thresh": "-30.47",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-lin--014/raw.wav",
+      "bytes": 215120,
+      "sha256": "ab51816697ebc2808606d80733fa862e40494e081761485089073ad05753fb11"
+    },
+    "master": {
+      "path": "healing-rain-lin--014/master.wav",
+      "bytes": 107598,
+      "sha256": "eda1fc6da750d0bf21ef9936290fb1a8660889269b61db306a806eef4d3830d4"
+    },
+    "runtime": {
+      "path": "healing-rain-lin--014/runtime.ogg",
+      "bytes": 19820,
+      "sha256": "5d9cb9ca5dfabc019cd6aa8ba4895d46d4baf13e4d06ef704fb5da258f4a120b"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

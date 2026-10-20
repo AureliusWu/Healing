@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-talk--011",
+  "sceneId": "c3-tang-talk",
+  "lineId": "c3-tang-talk--011",
+  "lineIndex": 10,
+  "speaker": "许棠",
+  "text": "可以，站哪里？",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 529854185,
+  "textSha256": "4a536c258b3999a977f9e36c020ce320757143d706c6595c89fc36bdc1655f0a",
+  "medium": "spoken",
+  "requestSha256": "3fb5581b45c088648b7587266f9c0590d6d98d4ef455a1b61fd9515e40f87ad9",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以,在哪里?",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 10.476,
+  "loudness": {
+    "input_i": "-21.63",
+    "input_tp": "-5.91",
+    "input_lra": "0.00",
+    "input_thresh": "-31.97",
+    "output_i": "-19.96",
+    "output_tp": "-4.29",
+    "output_lra": "0.00",
+    "output_thresh": "-30.31",
+    "normalization_type": "linear",
+    "target_offset": "-0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-talk--011/raw.wav",
+      "bytes": 153680,
+      "sha256": "b913330ee08d7f98e273cc3d007423a92b6afe23c27ffd9e91cec66cb52ea7d0"
+    },
+    "master": {
+      "path": "healing-c3-tang-talk--011/master.wav",
+      "bytes": 76878,
+      "sha256": "2777f2373463be353f6e6f9d5aeaaf8e7b467eb1e8d052c200fb7179f1fedc49"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-talk--011/runtime.ogg",
+      "bytes": 14290,
+      "sha256": "9e941caf2b48ce58f6429b2fe8b03ca7e9e238a52462e2e89ee2fab1e326297a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

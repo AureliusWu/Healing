@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-together--017",
+  "sceneId": "end-together",
+  "lineId": "end-together--017",
+  "lineIndex": 16,
+  "speaker": "程屿",
+  "text": "嗯。窗关不严的话，你叫我。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 390310388,
+  "textSha256": "19457c1dc87933d55f8f3087db358f937fc7a63c18857271aaa623c87de3bf7f",
+  "medium": "spoken",
+  "requestSha256": "1db975cc567b5c2cb2d85be2536139014993540ec4380474b2f9e5d93f3a21de",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "嗯,窗观不言的话,你叫我?",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.44,
+  "wallSeconds": 145.895,
+  "loudness": {
+    "input_i": "-24.24",
+    "input_tp": "-8.30",
+    "input_lra": "0.60",
+    "input_thresh": "-34.91",
+    "output_i": "-18.65",
+    "output_tp": "-2.64",
+    "output_lra": "0.00",
+    "output_thresh": "-29.48",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.35"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-together--017/raw.wav",
+      "bytes": 330320,
+      "sha256": "69c447272923bdf54162335bf861cbcdb5c7c3707966fbf0a401af232419fc63"
+    },
+    "master": {
+      "path": "healing-end-together--017/master.wav",
+      "bytes": 165198,
+      "sha256": "dc65929c58b8ce37ac63eaa919d6b400f103416aacfdd28988f45ebff76a3996"
+    },
+    "runtime": {
+      "path": "healing-end-together--017/runtime.ogg",
+      "bytes": 26201,
+      "sha256": "199c8583ca687f6a1932fb91e185e04f272de8d27888cf3598725ff46a2edd44"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

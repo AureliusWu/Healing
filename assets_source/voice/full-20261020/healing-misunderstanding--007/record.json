@@ -1,0 +1,55 @@
+{
+  "id": "healing-misunderstanding--007",
+  "sceneId": "misunderstanding",
+  "lineId": "misunderstanding--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "你不愿意交稿也没事。我从来没有说一定要——",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 338023891,
+  "textSha256": "2fc3fc90705d85a1f242d19122ad362f6997d42f06146c914440fb446023c165",
+  "medium": "spoken",
+  "requestSha256": "051ea3b8d7f7756a9becbc1f0999b449ce5455e371b465d901fee422893dde07",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你不愿意交稿也没事我从来没有说一定要",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.84,
+  "wallSeconds": 385.976,
+  "loudness": {
+    "input_i": "-17.28",
+    "input_tp": "-2.76",
+    "input_lra": "0.40",
+    "input_thresh": "-27.71",
+    "output_i": "-18.95",
+    "output_tp": "-4.76",
+    "output_lra": "0.00",
+    "output_thresh": "-29.34",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.05"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-misunderstanding--007/raw.wav",
+      "bytes": 368720,
+      "sha256": "24781e1b833775f70d9ced5a1899d17d51a7614d817f50f200398a26e4a05bd4"
+    },
+    "master": {
+      "path": "healing-misunderstanding--007/master.wav",
+      "bytes": 184398,
+      "sha256": "cf9c887a57e3372b1838a76a14ea0bd0ea4c091ba3fa6c82c71663f52d0e86f2"
+    },
+    "runtime": {
+      "path": "healing-misunderstanding--007/runtime.ogg",
+      "bytes": 30805,
+      "sha256": "6ea3b24d5eae750573f1b52a15435ed733b753a14a46fd2871aae3721bde9d96"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

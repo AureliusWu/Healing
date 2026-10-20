@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-quiet--006",
+  "sceneId": "c2-from-quiet",
+  "lineId": "c2-from-quiet--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "先给你们看。但我怕你们看完以后，又觉得我一直在绕。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 91732077,
+  "textSha256": "55775e2ef2ba45bbf1e6a9ea69d78fefbcc40fde21bd6b99ca54a57cc43504ce",
+  "medium": "spoken",
+  "requestSha256": "41a0067fb8c05700d13e03c566df4bb3879206ccd8c52e3adb2a6a375ed74be8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先让你们看但我怕你们看完以后又觉得我一直在绕",
+    "cer": 0.045455,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 21.645,
+  "loudness": {
+    "input_i": "-30.33",
+    "input_tp": "-12.60",
+    "input_lra": "0.30",
+    "input_thresh": "-40.33",
+    "output_i": "-19.99",
+    "output_tp": "-2.37",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-quiet--006/raw.wav",
+      "bytes": 345680,
+      "sha256": "1d61215f6ce9f7dbb2542d40ef1a7814c8ed79e7eab3b93279c2e0d9d8225fae"
+    },
+    "master": {
+      "path": "healing-c2-from-quiet--006/master.wav",
+      "bytes": 172878,
+      "sha256": "0c916c14cea3d4e0d5721544bef851c0c934aa064b91ed4d55fbbef5243c5be2"
+    },
+    "runtime": {
+      "path": "healing-c2-from-quiet--006/runtime.ogg",
+      "bytes": 30053,
+      "sha256": "afc6b62cec1ba630762f5fba7b603d593bcdd93171775894a2a3057da5d0ff22"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

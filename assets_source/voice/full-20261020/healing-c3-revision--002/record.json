@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-revision--002",
+  "sceneId": "c3-revision",
+  "lineId": "c3-revision--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "标题也改吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1897310908,
+  "textSha256": "d2b4aebb28eefa1cca2fe9e6bcb45cf67377a3677a0a9802419ac0eacf512dc6",
+  "medium": "spoken",
+  "requestSha256": "8b2686c38c051fccf74e47f00bc4eff6b8d527ad4c0d41a3297902d9c1e58983",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "雕题也改吗",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.2,
+  "wallSeconds": 53.08,
+  "loudness": {
+    "input_i": "-24.28",
+    "input_tp": "-6.32",
+    "input_lra": "0.00",
+    "input_thresh": "-34.76",
+    "output_i": "-19.98",
+    "output_tp": "-2.04",
+    "output_lra": "0.00",
+    "output_thresh": "-30.46",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-revision--002/raw.wav",
+      "bytes": 115280,
+      "sha256": "685670e1835e1293475ea67ffa6102af54123570e28e3d8560331a1ca1feda7e"
+    },
+    "master": {
+      "path": "healing-c3-revision--002/master.wav",
+      "bytes": 57678,
+      "sha256": "3fc7a863540f6b27bcd5abed7bcdfbde8b14a58945f76587938ffbfb3e800cb5"
+    },
+    "runtime": {
+      "path": "healing-c3-revision--002/runtime.ogg",
+      "bytes": 12486,
+      "sha256": "06411ce5483c0e00d90abb323fa0cb2391d1bf439e68d405e3ce9a721ff68d01"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

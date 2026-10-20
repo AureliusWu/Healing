@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home--005",
+  "sceneId": "c2-home",
+  "lineId": "c2-home--005",
+  "lineIndex": 4,
+  "speaker": "妈妈",
+  "text": "数学这样，后面还能跟上吗？又忙这个，能有多少时间？",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1927319391,
+  "textSha256": "dadec168664ad850cd3fa8cd99ac0fbce643b605128e5e5f3e1d52945455face",
+  "medium": "spoken",
+  "requestSha256": "c5d8c08beacfaae9dbf40183534103555e1020c5bdd6eec35d79f10249bd321f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "數學這樣後面還能跟上嗎?又忙這個能有多少時間?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 167.789,
+  "loudness": {
+    "input_i": "-24.96",
+    "input_tp": "-5.55",
+    "input_lra": "1.80",
+    "input_thresh": "-34.96",
+    "output_i": "-20.37",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.37"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home--005/raw.wav",
+      "bytes": 361040,
+      "sha256": "41c6ae49b54551ef8e6ed37e08a1bfa62263523a51cba57ff3eea4878cad7c6c"
+    },
+    "master": {
+      "path": "healing-c2-home--005/master.wav",
+      "bytes": 180558,
+      "sha256": "8947d247bcc37b52b2c52c8db6e96cc7bbac31b835082f6403531e980f07d05c"
+    },
+    "runtime": {
+      "path": "healing-c2-home--005/runtime.ogg",
+      "bytes": 31470,
+      "sha256": "2538d401a224f331f236dcc48302640de35f613a686fc6fc12e0e3dc7eb21e88"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

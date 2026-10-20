@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-rest--008",
+  "sceneId": "c3-chen-rest",
+  "lineId": "c3-chen-rest--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "愿意，不是来帮你关窗。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1550983111,
+  "textSha256": "24d4a68cd156430ab4c28b40a382f593485f781a75ff31e0e1927983a3d034a5",
+  "medium": "spoken",
+  "requestSha256": "43c3bcc97722c8a74afed626b2dced3edd3dad5adc1977a26f3b5d50dd5d735b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "愿意不是来帮你关窗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.84,
+  "wallSeconds": 65.764,
+  "loudness": {
+    "input_i": "-26.01",
+    "input_tp": "-8.53",
+    "input_lra": "0.00",
+    "input_thresh": "-36.01",
+    "output_i": "-20.00",
+    "output_tp": "-2.52",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-rest--008/raw.wav",
+      "bytes": 176720,
+      "sha256": "bda151b05fef47c8a2da06f49586b60d59a1c806fe23530d3ceb10bbe045a930"
+    },
+    "master": {
+      "path": "healing-c3-chen-rest--008/master.wav",
+      "bytes": 88398,
+      "sha256": "fa47f68950c1e41ae70132839c3481e1250eea754ed62ce38af67ecb055c9544"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-rest--008/runtime.ogg",
+      "bytes": 17242,
+      "sha256": "da06c9b3c540fad35289648a46d48e3a9d6b0b091a57480df7925e1fee08c8f5"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

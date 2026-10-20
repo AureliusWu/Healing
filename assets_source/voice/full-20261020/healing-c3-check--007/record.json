@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-check--007",
+  "sceneId": "c3-check",
+  "lineId": "c3-check--007",
+  "lineIndex": 6,
+  "speaker": "林见夏",
+  "text": "可以，我看过。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1876313720,
+  "textSha256": "63c4568af9dd9d052ae2c55f8f86283cf68f55398e312f79c92df68c27f22ee4",
+  "medium": "spoken",
+  "requestSha256": "928fb32b2458b159a8374ebde9dc4923c456213aaf62ac98efaadd2df478528e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以,我看過",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 78.061,
+  "loudness": {
+    "input_i": "-27.75",
+    "input_tp": "-11.26",
+    "input_lra": "0.00",
+    "input_thresh": "-38.16",
+    "output_i": "-19.97",
+    "output_tp": "-3.51",
+    "output_lra": "0.00",
+    "output_thresh": "-30.39",
+    "normalization_type": "linear",
+    "target_offset": "-0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-check--007/raw.wav",
+      "bytes": 138320,
+      "sha256": "bbc8d8d39026a783f39c87267efb36398642afde4a0ce75e5b43119e6c4fe815"
+    },
+    "master": {
+      "path": "healing-c3-check--007/master.wav",
+      "bytes": 69198,
+      "sha256": "62c80fb45f7407b620c064995b1d63ddf6f9525138cd4f3412f61a4c5b1afbd4"
+    },
+    "runtime": {
+      "path": "healing-c3-check--007/runtime.ogg",
+      "bytes": 13807,
+      "sha256": "05adfa08aa63144f0ebdd5f234c39493b41a3c1ef62c7b8f478792e8fc95fa58"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

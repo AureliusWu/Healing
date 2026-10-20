@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-layout--003",
+  "sceneId": "c2-layout",
+  "lineId": "c2-layout--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "我能先拿一份吗？我想看看，写在纸上是什么感觉。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1621073958,
+  "textSha256": "7f66905cc252a1ae72f3c38251336fe2d231b695e8ba3cce8a4117f71dd4f5b1",
+  "medium": "spoken",
+  "requestSha256": "26ab7c7e689629922bb45c2b8168efbd761ac27af099ffdb718cd5734a73a2b5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我能先拿一份吗 我想看看写在纸上是什么感觉",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.44,
+  "wallSeconds": 24.999,
+  "loudness": {
+    "input_i": "-26.20",
+    "input_tp": "-11.02",
+    "input_lra": "1.40",
+    "input_thresh": "-36.72",
+    "output_i": "-19.18",
+    "output_tp": "-3.33",
+    "output_lra": "2.30",
+    "output_thresh": "-30.03",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.82"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-layout--003/raw.wav",
+      "bytes": 522320,
+      "sha256": "49d8e9b42e21cf74c3cec958b3085749557a992b5ba180ffb9d3924727dc7b12"
+    },
+    "master": {
+      "path": "healing-c2-layout--003/master.wav",
+      "bytes": 261198,
+      "sha256": "8368bdb8ace36023503842fb27fb710b167a91ade5070511ebcdba696bf80551"
+    },
+    "runtime": {
+      "path": "healing-c2-layout--003/runtime.ogg",
+      "bytes": 41145,
+      "sha256": "60e49af1d1f2cbed6f29311b8a504a431b1c4427cb47fe79a038714ade2b8653"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

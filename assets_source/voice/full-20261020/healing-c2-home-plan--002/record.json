@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home-plan--002",
+  "sceneId": "c2-home-plan",
+  "lineId": "c2-home-plan--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "先把日期补上，不要让天气替你背锅。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 353667387,
+  "textSha256": "142ec0c62cc0db0b5e552fd69974cc1b2354f247c37c8e5781f7af76fe2593bb",
+  "medium": "spoken",
+  "requestSha256": "2acd31f0a33f7c03e1e9c8733ab4078c2c1064b3f9d3e4f7a9f60de2db8f29b7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先把日期補上不要让天气替你背锅",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.88,
+  "wallSeconds": 215.057,
+  "loudness": {
+    "input_i": "-18.72",
+    "input_tp": "-5.34",
+    "input_lra": "2.90",
+    "input_thresh": "-29.73",
+    "output_i": "-17.32",
+    "output_tp": "-3.05",
+    "output_lra": "0.10",
+    "output_thresh": "-28.22",
+    "normalization_type": "dynamic",
+    "target_offset": "-2.68"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home-plan--002/raw.wav",
+      "bytes": 468560,
+      "sha256": "0609d57048ad3984d8e1c77adcefb1c5195c3db5f3dc708a8b01136c81661aab"
+    },
+    "master": {
+      "path": "healing-c2-home-plan--002/master.wav",
+      "bytes": 234318,
+      "sha256": "e6dc01b5d6fefd743158064620296da6a963ed52eedf2308d115f7dd1dd497d6"
+    },
+    "runtime": {
+      "path": "healing-c2-home-plan--002/runtime.ogg",
+      "bytes": 36395,
+      "sha256": "559a2ec4305e702d6b46a8891c91eb59e0cccb326a90a8737ea9b6d23cef1489"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

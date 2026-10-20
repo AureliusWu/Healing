@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--018",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--018",
+  "lineIndex": 17,
+  "speaker": "林见夏",
+  "text": "下午你也去文学社吗？知遥最近一直在替我留位置。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1769052273,
+  "textSha256": "60eb299e5b9dc59db81c545f3bd2f9375852ea5d90eef843c678d7f1ea7acf05",
+  "medium": "spoken",
+  "requestSha256": "19f1fd09b011b3b028c00206996dddcdb9f1a34a6ac36567884cec18ad2f56ef",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "下午你也娶文學社嗎?這要最近一直在替我留位置",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.04,
+  "wallSeconds": 29.818,
+  "loudness": {
+    "input_i": "-25.31",
+    "input_tp": "-8.54",
+    "input_lra": "0.20",
+    "input_thresh": "-35.43",
+    "output_i": "-19.78",
+    "output_tp": "-3.09",
+    "output_lra": "0.40",
+    "output_thresh": "-29.97",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.22"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--018/raw.wav",
+      "bytes": 483920,
+      "sha256": "8befd98478a74c44be31b1eb90f3ad3e8e15be0f766ee8456ad96f06de980a58"
+    },
+    "master": {
+      "path": "healing-lunch-lin--018/master.wav",
+      "bytes": 241998,
+      "sha256": "d5af248f79d43b24324ff160b01030d7d1eebd98fdc2b66c355d93e8ff12d0fb"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--018/runtime.ogg",
+      "bytes": 39235,
+      "sha256": "fceae4e4b74acbf23af48b6a17efdad450a48cfaf95b8b642b813db5e3b2f886"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

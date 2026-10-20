@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-chen-list--006",
+  "sceneId": "c2-chen-list",
+  "lineId": "c2-chen-list--006",
+  "lineIndex": 5,
+  "speaker": "陈知遥",
+  "text": "不写这句，我会一直担心。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1343420804,
+  "textSha256": "e3f61d6a1d706a5010bcc08825ebcc3461b6e4c0818feeafe65f44e17895c049",
+  "medium": "spoken",
+  "requestSha256": "bce462d1d1239289d2b8f8208e400132742700750fa2af605c989aaa0743721a",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不写这句 我会一直担心",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.64,
+  "wallSeconds": 12.83,
+  "loudness": {
+    "input_i": "-22.39",
+    "input_tp": "-8.41",
+    "input_lra": "0.00",
+    "input_thresh": "-33.04",
+    "output_i": "-20.01",
+    "output_tp": "-6.02",
+    "output_lra": "0.00",
+    "output_thresh": "-30.66",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-chen-list--006/raw.wav",
+      "bytes": 253520,
+      "sha256": "2e81d24d3a38bf37bc8df7c1cf189e555ed97c31dc1613503286cd6faf19b970"
+    },
+    "master": {
+      "path": "healing-c2-chen-list--006/master.wav",
+      "bytes": 126798,
+      "sha256": "ec146c33764766cabead2c40bf8b7f6e3e0cc5062bc748f98425cc3e2b0e27af"
+    },
+    "runtime": {
+      "path": "healing-c2-chen-list--006/runtime.ogg",
+      "bytes": 22130,
+      "sha256": "3cc37db9daf9a88654d3fb8d5210a3bd23f210116434c78030c09cd57e6e7642"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

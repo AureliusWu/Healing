@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parents--011",
+  "sceneId": "c2-parents",
+  "lineId": "c2-parents--011",
+  "lineIndex": 10,
+  "speaker": "林见夏",
+  "text": "我想等爸爸出来，把文章给他。别请老师替我说。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1703290895,
+  "textSha256": "ce0a5fbda6842d798bf40b703e46d0df6bcb52991fa33e6ef477c1ddd8ac226b",
+  "medium": "spoken",
+  "requestSha256": "b3903910d309849e32e6f9fe9b082f78fcf851c768196fa37d15b51b15faa12c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我想等爸爸出來把文章給他,別親老師替我說。",
+    "cer": 0.052632,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.56,
+  "wallSeconds": 21.045,
+  "loudness": {
+    "input_i": "-29.14",
+    "input_tp": "-13.63",
+    "input_lra": "0.70",
+    "input_thresh": "-39.28",
+    "output_i": "-19.16",
+    "output_tp": "-3.81",
+    "output_lra": "0.80",
+    "output_thresh": "-29.27",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.84"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parents--011/raw.wav",
+      "bytes": 437840,
+      "sha256": "447255b8977b0e033b4e1fb33eb59dbe25427cdd635fa3719ffcc04edf733ed1"
+    },
+    "master": {
+      "path": "healing-c2-parents--011/master.wav",
+      "bytes": 218958,
+      "sha256": "67248eda42a2a576f3e7ba330f62c5e4d3abc1ed2dbf28f9fec35a8b8a1639ee"
+    },
+    "runtime": {
+      "path": "healing-c2-parents--011/runtime.ogg",
+      "bytes": 36038,
+      "sha256": "c79ac9bbc440630352e9aa1683f095291bbaf15b261e71c5a75daecd985fbe81"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

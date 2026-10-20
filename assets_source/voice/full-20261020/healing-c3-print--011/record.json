@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-print--011",
+  "sceneId": "c3-print",
+  "lineId": "c3-print--011",
+  "lineIndex": 10,
+  "speaker": "程屿",
+  "text": "标题缩过，名字没有。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1132500759,
+  "textSha256": "95332f1c679930287572704894bc982bdbd212cca39091cc9cffb7999c329ff1",
+  "medium": "spoken",
+  "requestSha256": "7184b196493f5da16d25700eb581a768ac09c10a9876610a869ba1251002fdff",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "标题说过 您怎么要",
+    "cer": 0.625,
+    "polarityCountsMatch": false,
+    "passed": false
+  },
+  "duration": 2.0,
+  "wallSeconds": 70.209,
+  "loudness": {
+    "input_i": "-24.70",
+    "input_tp": "-5.74",
+    "input_lra": "0.00",
+    "input_thresh": "-34.70",
+    "output_i": "-20.97",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.97",
+    "normalization_type": "linear",
+    "target_offset": "0.97"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-print--011/raw.wav",
+      "bytes": 192080,
+      "sha256": "714a6ef45da108705ab1fa30a66aae81ec5387779134762550867c7224bdfd03"
+    },
+    "master": {
+      "path": "healing-c3-print--011/master.wav",
+      "bytes": 96078,
+      "sha256": "bf09b06ca115f5f2d8f85d19fe469caa969ead0b4bedeb6c7f6dd124b718a9ed"
+    },
+    "runtime": {
+      "path": "healing-c3-print--011/runtime.ogg",
+      "bytes": 17847,
+      "sha256": "1e9b4fa90705600f9343a5f9e1ba1bffd9a7c62c8fee7818c371c57973eb73c9"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

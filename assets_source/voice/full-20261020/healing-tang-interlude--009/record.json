@@ -1,0 +1,55 @@
+{
+  "id": "healing-tang-interlude--009",
+  "sceneId": "tang-interlude",
+  "lineId": "tang-interlude--009",
+  "lineIndex": 8,
+  "speaker": "许棠",
+  "text": "说要拍黑板上的错题。拍了，别的也拍了。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 902936224,
+  "textSha256": "abbc8f9ae703f64f6e69fee4af8183622dec5d809e5b885c13375dd84861a552",
+  "medium": "spoken",
+  "requestSha256": "337bfaafe3d4072a91eaee5fe9d5ea10d9e06237e57b232bf677bbceb3a2b365",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "說要拍黑板上的錯題拍了別的也拍了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.36,
+  "wallSeconds": 256.427,
+  "loudness": {
+    "input_i": "-22.56",
+    "input_tp": "-9.01",
+    "input_lra": "1.70",
+    "input_thresh": "-32.93",
+    "output_i": "-19.12",
+    "output_tp": "-5.46",
+    "output_lra": "2.60",
+    "output_thresh": "-29.48",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.88"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-tang-interlude--009/raw.wav",
+      "bytes": 706640,
+      "sha256": "16e6090dc7c230b1ae730dd9933078fe9e4c216a9c82585e1e7930f3c1cb7c6e"
+    },
+    "master": {
+      "path": "healing-tang-interlude--009/master.wav",
+      "bytes": 353358,
+      "sha256": "f35c9a59a877e9c0fb12e2ee7a909671d9e3f4964b3a1d6fd0b0634b8bc9bc4f"
+    },
+    "runtime": {
+      "path": "healing-tang-interlude--009/runtime.ogg",
+      "bytes": 51880,
+      "sha256": "72c1b113858952a5c14467de7c30afe2d094c70309f43a26b0a44abc73cc2bd1"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

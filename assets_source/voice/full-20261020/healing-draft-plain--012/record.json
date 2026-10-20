@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--012",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--012",
+  "lineIndex": 11,
+  "speaker": "程屿",
+  "text": "什么？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1036904455,
+  "textSha256": "12a3d75820fc4414b98f3d27daf9918f1ed7624f3f238be344ff606794b30ba3",
+  "medium": "spoken",
+  "requestSha256": "2728fc927dcbcbc2fe35640d2410e5eb2927d084e51cb9ecbcf76e6e7ca9fec5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "什么",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.48,
+  "wallSeconds": 3.238,
+  "loudness": {
+    "input_i": "-26.05",
+    "input_tp": "-11.44",
+    "input_lra": "0.00",
+    "input_thresh": "-36.05",
+    "output_i": "-19.95",
+    "output_tp": "-5.39",
+    "output_lra": "0.00",
+    "output_thresh": "-29.95",
+    "normalization_type": "linear",
+    "target_offset": "-0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--012/raw.wav",
+      "bytes": 46160,
+      "sha256": "4dc71b0e2a0515d9d317124394cb34086fd7446c3af7ead9a7d8c26f067c0773"
+    },
+    "master": {
+      "path": "healing-draft-plain--012/master.wav",
+      "bytes": 23118,
+      "sha256": "a85992c769c6ebdd1cc12474f7c09bcadb1a8775fabaaf6e71efcf7a17928fcc"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--012/runtime.ogg",
+      "bytes": 7198,
+      "sha256": "e35ee468687b0bbc37d86b7bce19570a1948b97eea84eab024f43ec9874e2030"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

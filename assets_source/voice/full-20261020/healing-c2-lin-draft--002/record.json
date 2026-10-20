@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-lin-draft--002",
+  "sceneId": "c2-lin-draft",
+  "lineId": "c2-lin-draft--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "你想认真吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 209032097,
+  "textSha256": "6d424240a60965f411d714455440aa63bae5b4abe5ac28b6cbd6457ba8e4bb89",
+  "medium": "spoken",
+  "requestSha256": "fcd1995193566318dad619db8f672b5fc901b7a09f18d27bb2928fa9423fb18d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你想认真吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 33.16,
+  "loudness": {
+    "input_i": "-25.22",
+    "input_tp": "-10.25",
+    "input_lra": "0.00",
+    "input_thresh": "-35.22",
+    "output_i": "-19.99",
+    "output_tp": "-5.03",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-lin-draft--002/raw.wav",
+      "bytes": 99920,
+      "sha256": "5f9909af2ac97848fad74b091bbd8456093cd38c5a9f766c354925220ffce17b"
+    },
+    "master": {
+      "path": "healing-c2-lin-draft--002/master.wav",
+      "bytes": 49998,
+      "sha256": "e3e6de9802d9449661fdeaeebab72a73f24d4d88c02dc9f4884eb8ba6e0c400c"
+    },
+    "runtime": {
+      "path": "healing-c2-lin-draft--002/runtime.ogg",
+      "bytes": 11470,
+      "sha256": "c73b8600dffcbc1aac749ea5f33fb0a5a0b0f642f91179227bb0b515796edb8b"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

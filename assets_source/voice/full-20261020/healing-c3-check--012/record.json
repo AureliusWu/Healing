@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-check--012",
+  "sceneId": "c3-check",
+  "lineId": "c3-check--012",
+  "lineIndex": 11,
+  "speaker": "林见夏",
+  "text": "还要等一遍试印。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1169977193,
+  "textSha256": "67a2062671e71688d76f9873b42bdfffaf67b76dd14a84c7cf969736b54cb3c7",
+  "medium": "spoken",
+  "requestSha256": "24a2f68df2e97d2a0861124fe4c037dd341eb0fcad7855de8345442868d385cc",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "还要等一遍试验",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 133.357,
+  "loudness": {
+    "input_i": "-25.42",
+    "input_tp": "-11.32",
+    "input_lra": "0.00",
+    "input_thresh": "-35.42",
+    "output_i": "-20.00",
+    "output_tp": "-5.90",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-check--012/raw.wav",
+      "bytes": 122960,
+      "sha256": "f2f7cd82687579d4a6e854dd722413e6700698332cf3be2ab4bb5f80ce0b85a0"
+    },
+    "master": {
+      "path": "healing-c3-check--012/master.wav",
+      "bytes": 61518,
+      "sha256": "7466dc77485b8035427c46b71f3504fab03cb80fb695a31b9dce534b6c8f9a41"
+    },
+    "runtime": {
+      "path": "healing-c3-check--012/runtime.ogg",
+      "bytes": 12700,
+      "sha256": "514e87332c88cd4f21bd6a4e7b0ac4f38c4502de9f3d7049db306e470af91667"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

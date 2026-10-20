@@ -1,0 +1,55 @@
+{
+  "id": "healing-evening--003",
+  "sceneId": "evening",
+  "lineId": "evening--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "去文学社搬书了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1939311381,
+  "textSha256": "27afbbfc1af79f506040fc099c288e2494d564d9b1a59e6c9773cba3c3cc3d48",
+  "medium": "spoken",
+  "requestSha256": "00a46809b35f98b3cc9761eefe69311f5be114280296afa11261c4a5f1500a37",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "去文学社搬书了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.68,
+  "wallSeconds": 61.953,
+  "loudness": {
+    "input_i": "-23.33",
+    "input_tp": "-8.38",
+    "input_lra": "0.00",
+    "input_thresh": "-33.33",
+    "output_i": "-20.01",
+    "output_tp": "-5.05",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-evening--003/raw.wav",
+      "bytes": 161360,
+      "sha256": "437aaa4476dcb0d0c588026099e59d74847b4070b009c456825d40d8e34e2a56"
+    },
+    "master": {
+      "path": "healing-evening--003/master.wav",
+      "bytes": 80718,
+      "sha256": "93428a64ddf97529864027ffcca028a54d416186b629404c822fe131dc5f5367"
+    },
+    "runtime": {
+      "path": "healing-evening--003/runtime.ogg",
+      "bytes": 15782,
+      "sha256": "f3e14e22faf479c5e70847eb971e8a9565bb6266ae03ca5bbe9bca2317192959"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

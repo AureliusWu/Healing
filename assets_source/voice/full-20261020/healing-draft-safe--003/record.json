@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-safe--003",
+  "sceneId": "draft-safe",
+  "lineId": "draft-safe--003",
+  "lineIndex": 2,
+  "speaker": "陈知遥",
+  "text": "字很够了。你自己喜欢吗？",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1754162887,
+  "textSha256": "16ec177e9a950a25cc0627bd7e9307beffb8f9f09afee3e7f7948c64c907e114",
+  "medium": "spoken",
+  "requestSha256": "de491e705ec95c8ff566b28f79baa37fee5b2bf3c8c60185dd3c1015d5a96846",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "字很夠了你自己喜歡嗎?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.48,
+  "wallSeconds": 71.987,
+  "loudness": {
+    "input_i": "-20.90",
+    "input_tp": "-4.75",
+    "input_lra": "0.00",
+    "input_thresh": "-31.10",
+    "output_i": "-20.00",
+    "output_tp": "-3.85",
+    "output_lra": "0.00",
+    "output_thresh": "-30.20",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-safe--003/raw.wav",
+      "bytes": 238160,
+      "sha256": "05f51a48d246c9b82d577a85f9f97097ca36fae10dc320df67e66844bb1049f9"
+    },
+    "master": {
+      "path": "healing-draft-safe--003/master.wav",
+      "bytes": 119118,
+      "sha256": "1c621a66bac81f3a670145e9670a80ef008b2b68bc4d8c29db551999b48139b1"
+    },
+    "runtime": {
+      "path": "healing-draft-safe--003/runtime.ogg",
+      "bytes": 20805,
+      "sha256": "d1f6eb9186c51e7d09d09be652449768c37448acc9cba75d174509bda7ecfb8a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

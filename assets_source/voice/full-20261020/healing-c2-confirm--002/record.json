@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-confirm--002",
+  "sceneId": "c2-confirm",
+  "lineId": "c2-confirm--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "你来了就来得及。迟到的话，你那页先空着。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 536541990,
+  "textSha256": "7641add5082138255e87ae5b39ed5903b3293604a5e29fbfeff4e21337b9ae9c",
+  "medium": "spoken",
+  "requestSha256": "85e638e10bda2cfd95893463119135dd2f7e2dfb30b23178d401d310ecb875b5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你来了就来得及迟到的话你那也先空着",
+    "cer": 0.058824,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 154.208,
+  "loudness": {
+    "input_i": "-18.29",
+    "input_tp": "-4.47",
+    "input_lra": "0.40",
+    "input_thresh": "-28.64",
+    "output_i": "-19.10",
+    "output_tp": "-5.23",
+    "output_lra": "0.30",
+    "output_thresh": "-29.34",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.90"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-confirm--002/raw.wav",
+      "bytes": 407120,
+      "sha256": "8d5e9a7b32b242de55cffbe22c974b0b8d8983f9873e6907b88ab9eacf4c8128"
+    },
+    "master": {
+      "path": "healing-c2-confirm--002/master.wav",
+      "bytes": 203598,
+      "sha256": "160f1ca19984ef3aaad751774415719c742384c8cdca755c827819a19103c2cc"
+    },
+    "runtime": {
+      "path": "healing-c2-confirm--002/runtime.ogg",
+      "bytes": 33996,
+      "sha256": "25c77bf08a1fa2b949add5d41c0a87b43aa23831386654c20b5b4d8b3852616e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

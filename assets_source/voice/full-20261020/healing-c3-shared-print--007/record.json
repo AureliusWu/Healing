@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-print--007",
+  "sceneId": "c3-shared-print",
+  "lineId": "c3-shared-print--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "先别叫永远的编辑部。下期想做普通作者，不包全部安排。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1468394992,
+  "textSha256": "1a01d08e8c4b03f2b65af7fa8b00b7a04c20cd730115037d5a57e0e67ff8bf59",
+  "medium": "spoken",
+  "requestSha256": "c0b38f7c5033f3a63a55427874eb1da044166da1498cf1f81576c4c2e4a40af1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先别叫永远的编辑部下期想做普通作者不包全部安排",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.24,
+  "wallSeconds": 306.804,
+  "loudness": {
+    "input_i": "-20.17",
+    "input_tp": "-4.32",
+    "input_lra": "1.50",
+    "input_thresh": "-30.47",
+    "output_i": "-19.21",
+    "output_tp": "-3.42",
+    "output_lra": "2.80",
+    "output_thresh": "-29.59",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.79"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-print--007/raw.wav",
+      "bytes": 599120,
+      "sha256": "512928f3b1d3aab927d2ca946fe13fdab9cc049da873007ed7f6877209dd104a"
+    },
+    "master": {
+      "path": "healing-c3-shared-print--007/master.wav",
+      "bytes": 299598,
+      "sha256": "7f63007aa36ae22e22cab4bec67fe7c82d61286e9d838a184c93671a7fd9ad97"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-print--007/runtime.ogg",
+      "bytes": 48249,
+      "sha256": "9508a1a59ceb246d0ba40110aa7c76c57ae987fb721a2dd3d0425d76a279fc38"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

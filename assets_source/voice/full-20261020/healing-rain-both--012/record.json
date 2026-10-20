@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-both--012",
+  "sceneId": "rain-both",
+  "lineId": "rain-both--012",
+  "lineIndex": 11,
+  "speaker": "程屿",
+  "text": "我们一起上去吧。三个人关，比一个人快。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 239072796,
+  "textSha256": "8296658bc01b8f567685c0f969f1a17b13d2cfce9536c050dbb39e746024b6ab",
+  "medium": "spoken",
+  "requestSha256": "cb8d34b318489c72076ed738fe0d51f496d3c0d2ca37b4b29e5d9a2439236c7c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我们一起上去吧三个人关比一个人快",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 28.211,
+  "loudness": {
+    "input_i": "-23.59",
+    "input_tp": "-5.49",
+    "input_lra": "0.10",
+    "input_thresh": "-33.88",
+    "output_i": "-19.63",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.92",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.37"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-both--012/raw.wav",
+      "bytes": 314960,
+      "sha256": "ce39e3bc7dd83b6edaf48c23fd92408ac72d46e01b5a3c68daa3c2705e677a3b"
+    },
+    "master": {
+      "path": "healing-rain-both--012/master.wav",
+      "bytes": 157518,
+      "sha256": "de010859c1553f9789ffe0cc68c4191918fddd115092a9e91c2d16447a627ddb"
+    },
+    "runtime": {
+      "path": "healing-rain-both--012/runtime.ogg",
+      "bytes": 27063,
+      "sha256": "69f98b0f9feac469b20c36f201a207cd4f9415eb5e10fc50c6b1a794896078bb"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

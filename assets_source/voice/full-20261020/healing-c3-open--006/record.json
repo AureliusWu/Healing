@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-open--006",
+  "sceneId": "c3-open",
+  "lineId": "c3-open--006",
+  "lineIndex": 5,
+  "speaker": "林见夏",
+  "text": "作业做完了吗？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 481224679,
+  "textSha256": "d0522f38d07820719d69ae1d78e7ea5552f2d3786a463fad09152a3ba3dbea06",
+  "medium": "spoken",
+  "requestSha256": "5ac2dc768f2cdf175d5f176fde700213b320377dfa1db2c27864a40abf06c3f3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "作业做完了吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 91.67,
+  "loudness": {
+    "input_i": "-24.36",
+    "input_tp": "-10.15",
+    "input_lra": "0.00",
+    "input_thresh": "-34.36",
+    "output_i": "-20.00",
+    "output_tp": "-5.78",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-open--006/raw.wav",
+      "bytes": 153680,
+      "sha256": "ff2ed4b1eac805a9082f8f992b221a2afaa1891d65906cbab03e91d76a963c40"
+    },
+    "master": {
+      "path": "healing-c3-open--006/master.wav",
+      "bytes": 76878,
+      "sha256": "a4ceca9c003cd11b507a88505ff2704c1f35458c0615358006dbe513e5727a42"
+    },
+    "runtime": {
+      "path": "healing-c3-open--006/runtime.ogg",
+      "bytes": 14544,
+      "sha256": "02464e79a8aef9ce85202502388bea4df82312b68a18f13962a083af6e517483"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

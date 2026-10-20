@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-ask--007",
+  "sceneId": "c2-ask",
+  "lineId": "c2-ask--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "靠硬币修的。那把硬币也算上。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1399457311,
+  "textSha256": "b3a9107db71df39702007edb2ce2f6b7ece441250b63aadd18287abbc52577c0",
+  "medium": "spoken",
+  "requestSha256": "a1dd90a66f6fdd236682484a152651b136dc58270f87ff698a1d1e04d6fc9a3a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "靠硬币修达,那把硬币也算上。",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 123.934,
+  "loudness": {
+    "input_i": "-22.54",
+    "input_tp": "-8.06",
+    "input_lra": "0.70",
+    "input_thresh": "-33.14",
+    "output_i": "-19.32",
+    "output_tp": "-4.92",
+    "output_lra": "0.00",
+    "output_thresh": "-29.87",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.68"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-ask--007/raw.wav",
+      "bytes": 361040,
+      "sha256": "50b2c2bff155be4c097d98b7cff9daaa020729bf953aa1a38ce49155ed367a53"
+    },
+    "master": {
+      "path": "healing-c2-ask--007/master.wav",
+      "bytes": 180558,
+      "sha256": "77271601d30360b4cca23548454c0c921a78f0de8ef8e18730af1adbd3392c43"
+    },
+    "runtime": {
+      "path": "healing-c2-ask--007/runtime.ogg",
+      "bytes": 29078,
+      "sha256": "6fe04c9cece9783c4c207adf457bf2b138fc46304e88949adad91a07eec4573b"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

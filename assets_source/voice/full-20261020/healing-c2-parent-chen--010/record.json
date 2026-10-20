@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-chen--010",
+  "sceneId": "c2-parent-chen",
+  "lineId": "c2-parent-chen--010",
+  "lineIndex": 9,
+  "speaker": "陈母",
+  "text": "那五点二十走？",
+  "actorId": "陈母",
+  "voice": "Serena",
+  "instruct": "中年母亲，普通话，平稳直接，谈家庭安排，不夸张不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 855565075,
+  "textSha256": "908a729f4a82e102cc9acde3263596d7eb1503744922df2b73f2abf13ff1f436",
+  "medium": "spoken",
+  "requestSha256": "8965a0bdd1890f8d31b94b2734ca731e316a07bd57db26cfe143b9123227c9e7",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "你5点20走",
+    "cer": 0.666667,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 1.84,
+  "wallSeconds": 65.324,
+  "loudness": {
+    "input_i": "-24.69",
+    "input_tp": "-6.73",
+    "input_lra": "0.00",
+    "input_thresh": "-34.97",
+    "output_i": "-19.99",
+    "output_tp": "-2.05",
+    "output_lra": "0.00",
+    "output_thresh": "-30.27",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-chen--010/raw.wav",
+      "bytes": 176720,
+      "sha256": "15613313796416eb1da070cc41daaefa2ce86456b2790e4e806167b4ffb0759d"
+    },
+    "master": {
+      "path": "healing-c2-parent-chen--010/master.wav",
+      "bytes": 88398,
+      "sha256": "fe31a5f544a9f1a10cca27bfe220a16f00eae8fb3a144789c83560dee9074796"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-chen--010/runtime.ogg",
+      "bytes": 16687,
+      "sha256": "14e8a4d8198044eff45b61b4d327ba6b8f38674045b47ff1bdf98ae1a56bab04"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-rest--004",
+  "sceneId": "c3-chen-rest",
+  "lineId": "c3-chen-rest--004",
+  "lineIndex": 3,
+  "speaker": "陈知遥",
+  "text": "我没想补。不过六点到了，还会走吧？我不想突然坐到六点半。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1150860999,
+  "textSha256": "fca07dee6af3246449d10c53cc86ccfd2f5017a4361cc3dda1fa17423e68c4ba",
+  "medium": "spoken",
+  "requestSha256": "607a0155959867f6d9a7b6e08b6a34f5ed7cb0db601d2386b5f3ba9bd14f8e3d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我没想补,不过6点到了还会走吧,我不想突然做到6点半。",
+    "cer": 0.125,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.16,
+  "wallSeconds": 35.765,
+  "loudness": {
+    "input_i": "-22.99",
+    "input_tp": "-8.31",
+    "input_lra": "1.90",
+    "input_thresh": "-33.28",
+    "output_i": "-19.50",
+    "output_tp": "-4.65",
+    "output_lra": "2.00",
+    "output_thresh": "-29.85",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.50"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-rest--004/raw.wav",
+      "bytes": 591440,
+      "sha256": "15c50d1c3d48ea0463b03bcd1a37a5f6df85a7cf2a8ab61805071864e1602002"
+    },
+    "master": {
+      "path": "healing-c3-chen-rest--004/master.wav",
+      "bytes": 295758,
+      "sha256": "c402caceebcfff7f5f44da4bb2ee64737215df0bd6fba6c4cd0b4c6f468f8aea"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-rest--004/runtime.ogg",
+      "bytes": 46346,
+      "sha256": "e7b337d81b8fae419a846e07cad269f8aecb816c846e5fd8acd4b93c86a528ba"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-help--001",
+  "sceneId": "desk-help",
+  "lineId": "desk-help--001",
+  "lineIndex": 0,
+  "speaker": "程屿",
+  "text": "搬书的话，我能帮上什么？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 238927080,
+  "textSha256": "9469837deb93e2b1544d75e1e3bd8afd572fac5f8ff6308604e875c6e93429ff",
+  "medium": "spoken",
+  "requestSha256": "9c411e3b2cfd92fe890bbfbfb24a1202247ae7d3403041e967b0404d6c0aa90a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "班输的话我能帮上什么",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.16,
+  "wallSeconds": 73.626,
+  "loudness": {
+    "input_i": "-25.17",
+    "input_tp": "-7.24",
+    "input_lra": "0.00",
+    "input_thresh": "-35.17",
+    "output_i": "-19.98",
+    "output_tp": "-2.07",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-help--001/raw.wav",
+      "bytes": 207440,
+      "sha256": "1313a9a1c572b0e105e47f711341963af4bf13125d7a908efc8e80847db0fc30"
+    },
+    "master": {
+      "path": "healing-desk-help--001/master.wav",
+      "bytes": 103758,
+      "sha256": "886fdffeba398696d22d2851300cb37ccd3e3155a2392d69e81428ac3b36f0ac"
+    },
+    "runtime": {
+      "path": "healing-desk-help--001/runtime.ogg",
+      "bytes": 18956,
+      "sha256": "a6cd96a446f600e96786aa0cdecb4abeb03b7eca06bc96db940d3762e91deb62"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-talk--014",
+  "sceneId": "c3-lin-talk",
+  "lineId": "c3-lin-talk--014",
+  "lineIndex": 13,
+  "speaker": "林见夏",
+  "text": "已经错过一次，我知道怎么圈出来。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 584749637,
+  "textSha256": "cab295469749b3c96ffa65c595658762c6f1a00f4e7bb7ff61d82be7b7cf7a05",
+  "medium": "spoken",
+  "requestSha256": "f35212f90aabc49621e2c80d719edad2ee4de0749639cfb0bfbf7d2d76b5eae0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "已经错过一次我知道怎么圈出来",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 90.603,
+  "loudness": {
+    "input_i": "-23.23",
+    "input_tp": "-6.73",
+    "input_lra": "0.10",
+    "input_thresh": "-33.52",
+    "output_i": "-19.59",
+    "output_tp": "-3.16",
+    "output_lra": "0.00",
+    "output_thresh": "-29.88",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.41"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-talk--014/raw.wav",
+      "bytes": 314960,
+      "sha256": "8570116447e6132deac0c0d29686d8156f563ad2bbce5c950b51fd2dafd59f25"
+    },
+    "master": {
+      "path": "healing-c3-lin-talk--014/master.wav",
+      "bytes": 157518,
+      "sha256": "2d8c12942964564ede87e0b15dfec2dcf566f37e2e120aaa893af1a6d537fe49"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-talk--014/runtime.ogg",
+      "bytes": 27274,
+      "sha256": "d2abd4ef2582e7b13950cb658d1af46acdd58ed6e15e7525d6d76dd1282bcef4"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

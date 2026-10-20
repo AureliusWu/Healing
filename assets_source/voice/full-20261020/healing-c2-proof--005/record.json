@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-proof--005",
+  "sceneId": "c2-proof",
+  "lineId": "c2-proof--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "我合稿拿错了版本。对不起，我换回来，再给你看。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 978743762,
+  "textSha256": "d048c5340e7b324b4c1995b57da80326f06dca951b896d2ad4cfabcd2c46e13e",
+  "medium": "spoken",
+  "requestSha256": "f1841f8044a76b2d5fa4740740477cfab7622ae101c479c6402bcfc4044bc4da",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我和稿拿出了版本对不起,我换回来再给你看",
+    "cer": 0.105263,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 250.221,
+  "loudness": {
+    "input_i": "-27.07",
+    "input_tp": "-8.24",
+    "input_lra": "0.90",
+    "input_thresh": "-37.19",
+    "output_i": "-20.01",
+    "output_tp": "-2.00",
+    "output_lra": "0.90",
+    "output_thresh": "-30.11",
+    "normalization_type": "dynamic",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-proof--005/raw.wav",
+      "bytes": 414800,
+      "sha256": "845778adcdd06c2c1857047fe04631af8da7bfe7fce40d3bd0933bc22a33b88c"
+    },
+    "master": {
+      "path": "healing-c2-proof--005/master.wav",
+      "bytes": 207438,
+      "sha256": "01b2967ccb7e34b72515cade848dc7b7b38cd5eb5eb2a49e7a881375abc188fa"
+    },
+    "runtime": {
+      "path": "healing-c2-proof--005/runtime.ogg",
+      "bytes": 37320,
+      "sha256": "c398e01ad8a0048fd35befa9baf0f2a90e5497281f7b21bf29d885c832cac9b5"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

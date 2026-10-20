@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-quiet--003",
+  "sceneId": "end-quiet",
+  "lineId": "end-quiet--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "伞我放你桌边了。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1382152801,
+  "textSha256": "85b783f7876155926815723033bd7107c740f2ec7f783b6eb4f32dd9460dec53",
+  "medium": "spoken",
+  "requestSha256": "93f4599318c1c0b595fd8036dde9c07fbed2ed66e22f997b8d89e774e223e14c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "想我放你桌边了",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.52,
+  "wallSeconds": 15.864,
+  "loudness": {
+    "input_i": "-23.91",
+    "input_tp": "-9.94",
+    "input_lra": "0.00",
+    "input_thresh": "-33.91",
+    "output_i": "-20.01",
+    "output_tp": "-6.03",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-quiet--003/raw.wav",
+      "bytes": 146000,
+      "sha256": "78395d5cb4ff9d9d979d8fe426903c3355320f52519c586b5546a0337ff982d8"
+    },
+    "master": {
+      "path": "healing-end-quiet--003/master.wav",
+      "bytes": 73038,
+      "sha256": "de73d4545d1bc05b945982474a880ee0627a667e8a3c3401befac2917eb62411"
+    },
+    "runtime": {
+      "path": "healing-end-quiet--003/runtime.ogg",
+      "bytes": 14683,
+      "sha256": "5b6fba29a820b782d56fca13d0fa0e0eea25452ab71e823534eb76af52abfcb2"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

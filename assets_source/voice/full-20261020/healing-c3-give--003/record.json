@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-give--003",
+  "sceneId": "c3-give",
+  "lineId": "c3-give--003",
+  "lineIndex": 2,
+  "speaker": "贺川",
+  "text": "没人翻我忘带伞那篇？写得比篮球的短。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1703174726,
+  "textSha256": "18dcd8d272e0b508fa084b9f9d73fbdbbd09e41b408e4a911abb8a71c6f6d088",
+  "medium": "spoken",
+  "requestSha256": "c65792f4becdb5b8b64bada0532666090919d2f1ab418b5018fd99144f7f8244",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "没人翻 我忘带散那篇 写的比篮球的短",
+    "cer": 0.125,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 264.312,
+  "loudness": {
+    "input_i": "-24.73",
+    "input_tp": "-7.44",
+    "input_lra": "2.50",
+    "input_thresh": "-35.11",
+    "output_i": "-19.88",
+    "output_tp": "-3.32",
+    "output_lra": "2.20",
+    "output_thresh": "-30.29",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-give--003/raw.wav",
+      "bytes": 445520,
+      "sha256": "01f277af58a7d7999d0805c95128c87f33458d0cb6bb7d2c2613a5953d06b04b"
+    },
+    "master": {
+      "path": "healing-c3-give--003/master.wav",
+      "bytes": 222798,
+      "sha256": "2a0a9e29490e08e9a1827986c7801e22f154ee9bde015fb5e344038717ca412f"
+    },
+    "runtime": {
+      "path": "healing-c3-give--003/runtime.ogg",
+      "bytes": 36132,
+      "sha256": "91d59b1171d04836fe949baef673196152c089f17037e1523208b2979a7e5d5e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

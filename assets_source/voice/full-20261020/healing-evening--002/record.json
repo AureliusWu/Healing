@@ -1,0 +1,55 @@
+{
+  "id": "healing-evening--002",
+  "sceneId": "evening",
+  "lineId": "evening--002",
+  "lineIndex": 1,
+  "speaker": "母亲",
+  "text": "今天怎么这么晚？",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1579053726,
+  "textSha256": "ec80db58dd9ee18b39fabf8cec125734008f643d12c518aeb9ff4fa4a8f00dba",
+  "medium": "spoken",
+  "requestSha256": "1b1e1a1c14d37a56be6b68c64fc75c2d8f02164e052d138f1e0dc05090e8ecb4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天怎么这么晚",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 124.928,
+  "loudness": {
+    "input_i": "-23.16",
+    "input_tp": "-9.22",
+    "input_lra": "0.00",
+    "input_thresh": "-33.16",
+    "output_i": "-20.03",
+    "output_tp": "-6.06",
+    "output_lra": "0.00",
+    "output_thresh": "-30.03",
+    "normalization_type": "linear",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-evening--002/raw.wav",
+      "bytes": 122960,
+      "sha256": "a4f3283b9922a5e892a66a90efe60538e608e1c29bb9ca67efeb846a066d08b8"
+    },
+    "master": {
+      "path": "healing-evening--002/master.wav",
+      "bytes": 61518,
+      "sha256": "e726d8246fee8f164b8623b655759c4714811a5cb2120be3ba42fde7b11c13c5"
+    },
+    "runtime": {
+      "path": "healing-evening--002/runtime.ogg",
+      "bytes": 12934,
+      "sha256": "69a02fa8579fecc3a4a3139e585bfaf56775144222d0884124eecae5428b132f"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-ask--002",
+  "sceneId": "c2-ask",
+  "lineId": "c2-ask--002",
+  "lineIndex": 1,
+  "speaker": "林见夏",
+  "text": "我没有不想交。这几个决定可以分开做。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 435844523,
+  "textSha256": "bb9d535860826548a9cb224a9bc62a18a033e0c1bbda5c26ae5515a76aaec0b8",
+  "medium": "spoken",
+  "requestSha256": "036b5067be3ea160b383a043c1956877534b0188cf1c209bf63e5d7c2ad5c5e5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我沒有不想教這幾個決定可以分開做",
+    "cer": 0.0625,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 207.7,
+  "loudness": {
+    "input_i": "-25.82",
+    "input_tp": "-8.36",
+    "input_lra": "2.60",
+    "input_thresh": "-35.97",
+    "output_i": "-20.25",
+    "output_tp": "-3.60",
+    "output_lra": "0.00",
+    "output_thresh": "-30.39",
+    "normalization_type": "dynamic",
+    "target_offset": "0.25"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-ask--002/raw.wav",
+      "bytes": 338000,
+      "sha256": "1262c689354691d5ea1971279fa3e7a4370058bd6c3a0b877599874e3bcf01ed"
+    },
+    "master": {
+      "path": "healing-c2-ask--002/master.wav",
+      "bytes": 169038,
+      "sha256": "e54ab0f0b093cdd6e630a4dc8417a97e90815570d939da0c9d7185eef7dde0d0"
+    },
+    "runtime": {
+      "path": "healing-c2-ask--002/runtime.ogg",
+      "bytes": 28948,
+      "sha256": "36d678b95aeba324681291c2c2b54ca0d22f179659a9eae6c5bee397585a91e0"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-tang-interlude--007",
+  "sceneId": "tang-interlude",
+  "lineId": "tang-interlude--007",
+  "lineIndex": 6,
+  "speaker": "许棠",
+  "text": "我妈也觉得拿相机是玩。昨天她把相机收进柜子，问我怎么没把拍照的认真劲用在数学上。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 560320369,
+  "textSha256": "ae2ce676013d3e56d0c24ff65a0a28094da5090441b65331742d4747ae8740c4",
+  "medium": "spoken",
+  "requestSha256": "553eaa54fe96c7c998d6472f54cc5288da2d151ffa507e1d820d40a90752f56a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我媽也覺得拿相機是玩,昨天她把相機收進櫃子,問我怎麼沒把拍照的認真鏡用在數學上。",
+    "cer": 0.027027,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.48,
+  "wallSeconds": 49.185,
+  "loudness": {
+    "input_i": "-19.09",
+    "input_tp": "-3.65",
+    "input_lra": "1.50",
+    "input_thresh": "-29.38",
+    "output_i": "-19.69",
+    "output_tp": "-4.04",
+    "output_lra": "1.10",
+    "output_thresh": "-30.09",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.31"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-tang-interlude--007/raw.wav",
+      "bytes": 814160,
+      "sha256": "95083f7b7a8e11b5749ec3846985e462de039ee33a7bcb1e1224a30483d75c21"
+    },
+    "master": {
+      "path": "healing-tang-interlude--007/master.wav",
+      "bytes": 407118,
+      "sha256": "1aab278ba4411f95530aa2eadb76b49364b8073896d2baac6a8e202f79453fde"
+    },
+    "runtime": {
+      "path": "healing-tang-interlude--007/runtime.ogg",
+      "bytes": 64313,
+      "sha256": "7d113c51b6b4c4a4ff55af3712891a727fe23eaeb6bc1b7ecb4fa890560b8f38"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

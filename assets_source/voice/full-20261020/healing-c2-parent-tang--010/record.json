@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-tang--010",
+  "sceneId": "c2-parent-tang",
+  "lineId": "c2-parent-tang--010",
+  "lineIndex": 9,
+  "speaker": "许棠",
+  "text": "可以。照片你可以问，我会说。别没问就拿去家长群。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1179874630,
+  "textSha256": "40c611f9e9862fd45bc62d674fbe4e4b0be35faa24f6e47a31e176c6986b6b64",
+  "medium": "spoken",
+  "requestSha256": "92c2309948cb78a349940b4f3565476fe4c21d24bf98780dcf14f32f187c3879",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以你可以問,我會說,別沒問,就拿去家長群。",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.64,
+  "wallSeconds": 183.88,
+  "loudness": {
+    "input_i": "-20.56",
+    "input_tp": "-4.37",
+    "input_lra": "4.00",
+    "input_thresh": "-31.37",
+    "output_i": "-18.29",
+    "output_tp": "-2.20",
+    "output_lra": "4.80",
+    "output_thresh": "-29.25",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.71"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-tang--010/raw.wav",
+      "bytes": 637520,
+      "sha256": "19c654f7460a15eea595ad20921f6de48d9b64efa4c857a453cf9f4e4fb46b89"
+    },
+    "master": {
+      "path": "healing-c2-parent-tang--010/master.wav",
+      "bytes": 318798,
+      "sha256": "1cc06576f5bf00d54f2cca8918500fe8a906f8b32c911c1ff01e8040ddadee72"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-tang--010/runtime.ogg",
+      "bytes": 48386,
+      "sha256": "0df96b8b5e001984bd17bad9f4cb68d5c6000c69eda078f48eabb1c45139db80"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

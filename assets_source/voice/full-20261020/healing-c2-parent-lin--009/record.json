@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-lin--009",
+  "sceneId": "c2-parent-lin",
+  "lineId": "c2-parent-lin--009",
+  "lineIndex": 8,
+  "speaker": "林父",
+  "text": "就一小时，手机别跟着带。",
+  "actorId": "林父",
+  "voice": "Uncle_Fu",
+  "instruct": "中年父亲，普通话，略严肃，慢一些，字句清楚，克制而不凶狠。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1217150501,
+  "textSha256": "73e1104d4faf2eb6ef36433309ccd4fa31052015720a722ebd628593aad71911",
+  "medium": "spoken",
+  "requestSha256": "60d43bbe72a7eb4e97c8793fb86eb958176c02e8a9068287a79a78fdfc6187f2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "九亿小时,手机别跟着带",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.04,
+  "wallSeconds": 167.766,
+  "loudness": {
+    "input_i": "-23.25",
+    "input_tp": "-6.11",
+    "input_lra": "0.00",
+    "input_thresh": "-33.40",
+    "output_i": "-19.75",
+    "output_tp": "-2.66",
+    "output_lra": "0.00",
+    "output_thresh": "-29.91",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.25"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-lin--009/raw.wav",
+      "bytes": 291920,
+      "sha256": "1c12f5eb6bcdd520421cc083c035509ed9e06f35dea550f5ae7bfa71f93c7578"
+    },
+    "master": {
+      "path": "healing-c2-parent-lin--009/master.wav",
+      "bytes": 145998,
+      "sha256": "f5bd4e7c5f95b7ac53c1401490bd80fcc667826a2463872fdf0846fd74c2ab3c"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-lin--009/runtime.ogg",
+      "bytes": 25814,
+      "sha256": "44946b86b1f37154cef01019684bed0bbe58e4c971058f02b506a00e68bee7dc"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-revision--006",
+  "sceneId": "c3-revision",
+  "lineId": "c3-revision--006",
+  "lineIndex": 5,
+  "speaker": "许棠",
+  "text": "印前能撤回。印过的可以停止再发，不能让已经拿到的人没看见。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 353168172,
+  "textSha256": "789fece0782d3495652a3161c0e9e07b68f4b4df37591f581cc5893c587f0a7b",
+  "medium": "spoken",
+  "requestSha256": "5c671890733f7f3379cf1c98f2339cfa946339682c87bdd04b9f35bb6a1b0118",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "隐前能撤回眼光的可以停止再发不能让已经拿到的人没看见",
+    "cer": 0.115385,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.24,
+  "wallSeconds": 226.305,
+  "loudness": {
+    "input_i": "-19.91",
+    "input_tp": "-2.32",
+    "input_lra": "3.60",
+    "input_thresh": "-30.98",
+    "output_i": "-19.33",
+    "output_tp": "-2.42",
+    "output_lra": "2.50",
+    "output_thresh": "-30.52",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.67"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-revision--006/raw.wav",
+      "bytes": 791120,
+      "sha256": "2fbaa395e56af633fc7a7ca1b907aa60511d16e1c57dd808cc3867273b684d63"
+    },
+    "master": {
+      "path": "healing-c3-revision--006/master.wav",
+      "bytes": 395598,
+      "sha256": "c9f71dd9c4af73adc2e26cd929628e40f832b8a648b1d4add8cbb171d239b7d6"
+    },
+    "runtime": {
+      "path": "healing-c3-revision--006/runtime.ogg",
+      "bytes": 59601,
+      "sha256": "50a35115592bb2b1ba26590199315833e13612c5691b82e3a27e0538325d16bf"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

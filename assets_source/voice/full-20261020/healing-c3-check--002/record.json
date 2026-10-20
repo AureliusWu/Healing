@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-check--002",
+  "sceneId": "c3-check",
+  "lineId": "c3-check--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "编辑名单拆成几栏。校对、搬书、核对文字也写各自名字。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1908953583,
+  "textSha256": "fecfee9daba69bda034572a251c8ce40c7388bc3bd67b8cceefb3e352d7c86d1",
+  "medium": "spoken",
+  "requestSha256": "f92b2924ae7c1b2502421e9befefa1da13feb818cb7e8d2923dcb88ea353c704",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "編輯名單拆成啟蘭校隊、班書、核對文字也寫各自名字",
+    "cer": 0.181818,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.48,
+  "wallSeconds": 401.318,
+  "loudness": {
+    "input_i": "-19.56",
+    "input_tp": "-6.11",
+    "input_lra": "1.20",
+    "input_thresh": "-30.10",
+    "output_i": "-19.49",
+    "output_tp": "-5.36",
+    "output_lra": "1.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.51"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-check--002/raw.wav",
+      "bytes": 814160,
+      "sha256": "e4bfefecf98273e0f0b6eaa6cfbee94d4635b1eeb014e7e9b29ce3c0be467587"
+    },
+    "master": {
+      "path": "healing-c3-check--002/master.wav",
+      "bytes": 407118,
+      "sha256": "0b97a2980169fc892b97999b83ef9d57d65fa5ba5d848767fb32277853ac2d3f"
+    },
+    "runtime": {
+      "path": "healing-c3-check--002/runtime.ogg",
+      "bytes": 60397,
+      "sha256": "8475ebc938c15df1d00299b8929ddfcf655455dd7cca85e7c4fb62069153e41d"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

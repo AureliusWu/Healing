@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-page--006",
+  "sceneId": "c3-lin-page",
+  "lineId": "c3-lin-page--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "想坐那里，和座位表刚好排在那里，还是有点不同。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 34648326,
+  "textSha256": "17361016e53755835bd48a8e7fac827d3715b008dd35e07a542a7b4037d11397",
+  "medium": "spoken",
+  "requestSha256": "0d2cb0aec5c6109ca820d4598f41c4e8937f31152158c2d920db2ca0b5989760",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "想坐那里和座位表刚好排在那里还是有点不同",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.56,
+  "wallSeconds": 147.044,
+  "loudness": {
+    "input_i": "-25.04",
+    "input_tp": "-6.75",
+    "input_lra": "2.90",
+    "input_thresh": "-35.47",
+    "output_i": "-20.11",
+    "output_tp": "-2.60",
+    "output_lra": "0.70",
+    "output_thresh": "-30.53",
+    "normalization_type": "dynamic",
+    "target_offset": "0.11"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-page--006/raw.wav",
+      "bytes": 437840,
+      "sha256": "cf538ae4508d663918592c8aa0f7cd2f5813ef44f6383b14c39119bd89051de6"
+    },
+    "master": {
+      "path": "healing-c3-lin-page--006/master.wav",
+      "bytes": 218958,
+      "sha256": "0bed7c3356e8394c9ae08b5989ea56ccbe271bf59fa442e78ca1c80862cedbef"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-page--006/runtime.ogg",
+      "bytes": 37470,
+      "sha256": "bff3adfcf33f24262236c900656816a628db216ea5595d5e459c4b0a500e42f6"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

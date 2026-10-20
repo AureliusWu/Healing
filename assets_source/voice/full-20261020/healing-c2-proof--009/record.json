@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-proof--009",
+  "sceneId": "c2-proof",
+  "lineId": "c2-proof--009",
+  "lineIndex": 8,
+  "speaker": "文印老师",
+  "text": "明天中午交也来得及。印纸快，别拿这个催作者。",
+  "actorId": "文印老师",
+  "voice": "Uncle_Fu",
+  "instruct": "中年男性教职工，普通话，平实耐心，清晰自然，日常工作交流。 只朗读给定台词，不添加词语或音效。",
+  "seed": 160141049,
+  "textSha256": "404d0eb38a80a9e48333a42b34797f35a7a60a6f1e3560f8d1a28f701098dfb6",
+  "medium": "spoken",
+  "requestSha256": "8cb268968a2e891f5b2ca23259809ce3d20ca1f88787abf6ed6908400be80ad6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "明天中午 教也来得及印志宽 别拿这个催作者",
+    "cer": 0.157895,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.96,
+  "wallSeconds": 235.324,
+  "loudness": {
+    "input_i": "-23.15",
+    "input_tp": "-5.31",
+    "input_lra": "2.80",
+    "input_thresh": "-33.51",
+    "output_i": "-18.56",
+    "output_tp": "-2.00",
+    "output_lra": "1.60",
+    "output_thresh": "-28.85",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.44"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-proof--009/raw.wav",
+      "bytes": 476240,
+      "sha256": "f6598524c55c01bed1e73ced2c5c2b15ec4d743beda892293bd2e0ac253f11bc"
+    },
+    "master": {
+      "path": "healing-c2-proof--009/master.wav",
+      "bytes": 238158,
+      "sha256": "7c5124b0419a04f5dfa58500a93a4528c7af72eda0aa26e6218a29cd027db1ff"
+    },
+    "runtime": {
+      "path": "healing-c2-proof--009/runtime.ogg",
+      "bytes": 39712,
+      "sha256": "d8c24513b025310705d935100cc5a82fcdbd53936b5571f3b84625003f8c669d"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

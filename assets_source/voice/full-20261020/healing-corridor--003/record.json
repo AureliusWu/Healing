@@ -1,0 +1,55 @@
+{
+  "id": "healing-corridor--003",
+  "sceneId": "corridor",
+  "lineId": "corridor--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "你退步了多少？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1419770341,
+  "textSha256": "6969f94f243b4fe7e6cee1ca91f3aad4f88fca4666943ed8f51eb5f003d604e7",
+  "medium": "spoken",
+  "requestSha256": "e46e1d1d0fabd68217950899339f449fb72a20bf3709f37999c5d8f4f7d8deb0",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你退步了多少",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 137.65,
+  "loudness": {
+    "input_i": "-24.06",
+    "input_tp": "-7.31",
+    "input_lra": "0.00",
+    "input_thresh": "-34.06",
+    "output_i": "-19.99",
+    "output_tp": "-3.25",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-corridor--003/raw.wav",
+      "bytes": 122960,
+      "sha256": "a100f7f2c9a82876c19201226b6b98439184588ed7c9a979916f61b8b611942c"
+    },
+    "master": {
+      "path": "healing-corridor--003/master.wav",
+      "bytes": 61518,
+      "sha256": "490a5f07ec42bd9b6ba7c27962cbf069c040b6450a7685c87e3d8310accc7de9"
+    },
+    "runtime": {
+      "path": "healing-corridor--003/runtime.ogg",
+      "bytes": 14128,
+      "sha256": "080ad518e174b5bb57d2dd7e67644398f670d0f9e736aad6735dc918ffab4b86"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-open--005",
+  "sceneId": "c2-open",
+  "lineId": "c2-open--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "照片有这么多？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 774146921,
+  "textSha256": "2d301a6fc7d22f85b23f92b8db2f5394921d9cca233bff8ac5537c0d135b1bfa",
+  "medium": "spoken",
+  "requestSha256": "8b8b8aff3c7411e510e73b26ef987d16baefe0337c37d7aba6bf892c4d2b0fdf",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "照片有这么多",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.52,
+  "wallSeconds": 45.667,
+  "loudness": {
+    "input_i": "-24.06",
+    "input_tp": "-7.35",
+    "input_lra": "0.00",
+    "input_thresh": "-34.06",
+    "output_i": "-19.99",
+    "output_tp": "-3.29",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-open--005/raw.wav",
+      "bytes": 146000,
+      "sha256": "fbe206e078554f1a46f2fdb399271bdeda945087ad254482ede89ebdcc5ab758"
+    },
+    "master": {
+      "path": "healing-c2-open--005/master.wav",
+      "bytes": 73038,
+      "sha256": "0b6fcbdcba630ab43ce042357aaefb11e86954e063e22b201a0bdbbc452fd9e5"
+    },
+    "runtime": {
+      "path": "healing-c2-open--005/runtime.ogg",
+      "bytes": 14292,
+      "sha256": "cb708141754e48efbebf29c7eaaa304ede7f398696a5291cb5f83e3543db34a5"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

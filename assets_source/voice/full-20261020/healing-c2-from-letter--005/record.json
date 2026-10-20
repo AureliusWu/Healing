@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-letter--005",
+  "sceneId": "c2-from-letter",
+  "lineId": "c2-from-letter--005",
+  "lineIndex": 4,
+  "speaker": "陈知遥",
+  "text": "家长会不用把整本样张摊开。老师确认过的目录可以看，作者没确认的文章先留着。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 539153251,
+  "textSha256": "99a2e0e01de9bf397aa5576ffd7317cfcf295dc1bfe3a7b5017823b72f577a18",
+  "medium": "spoken",
+  "requestSha256": "300d57aa263b9a79c3d1377d84de30e05061e568826696e053dd18f6ecf72e34",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "家长会不用把整本样章摊开老师确认过的目录可以看坐着没确认的文章先留着",
+    "cer": 0.088235,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 13.2,
+  "wallSeconds": 523.54,
+  "loudness": {
+    "input_i": "-23.96",
+    "input_tp": "-7.30",
+    "input_lra": "2.60",
+    "input_thresh": "-34.67",
+    "output_i": "-20.54",
+    "output_tp": "-4.32",
+    "output_lra": "2.60",
+    "output_thresh": "-31.38",
+    "normalization_type": "dynamic",
+    "target_offset": "0.54"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-letter--005/raw.wav",
+      "bytes": 1267280,
+      "sha256": "0381b03c636de070137e175931987fab3b1784520166fd5853293dea6e73ca36"
+    },
+    "master": {
+      "path": "healing-c2-from-letter--005/master.wav",
+      "bytes": 633678,
+      "sha256": "b2f1e45c5614c8deb434a68a9c69af9599070d2c463c66f5ce8181ec9ed0b159"
+    },
+    "runtime": {
+      "path": "healing-c2-from-letter--005/runtime.ogg",
+      "bytes": 92519,
+      "sha256": "18cb80f6f88fd9226be0f073962461f5c34defabed0fce2574a38596b4de096e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

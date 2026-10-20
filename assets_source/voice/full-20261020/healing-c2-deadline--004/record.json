@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-deadline--004",
+  "sceneId": "c2-deadline",
+  "lineId": "c2-deadline--004",
+  "lineIndex": 3,
+  "speaker": "许棠",
+  "text": "那我们别在五点四十四再发现有三页要重排。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1133771653,
+  "textSha256": "811f4a87289e840b4622c6672b912ae9b6960dbb537d064e927ac2a23336fd5c",
+  "medium": "spoken",
+  "requestSha256": "6863c6b2748b9808622c91eff08038bc361f071ab0295047f615e7941d09224c",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "那我們別再5.44再發現有三頁要重排",
+    "cer": 0.315789,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 4.24,
+  "wallSeconds": 34.446,
+  "loudness": {
+    "input_i": "-21.33",
+    "input_tp": "-7.50",
+    "input_lra": "1.70",
+    "input_thresh": "-31.33",
+    "output_i": "-18.95",
+    "output_tp": "-4.96",
+    "output_lra": "1.70",
+    "output_thresh": "-28.95",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.05"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-deadline--004/raw.wav",
+      "bytes": 407120,
+      "sha256": "4cfe15ed56f7ccc1da93568d1f732a1f79a0accd189d6a3a8b68995c3103552f"
+    },
+    "master": {
+      "path": "healing-c2-deadline--004/master.wav",
+      "bytes": 203598,
+      "sha256": "377281a8a872dbd3111cc7379fc3e6a37ff77730542b84a46c504cc37ef10b4f"
+    },
+    "runtime": {
+      "path": "healing-c2-deadline--004/runtime.ogg",
+      "bytes": 33817,
+      "sha256": "0b0c574f412d38ba6e4a60cdf33d55f7454357e2fa61207dbcd05333b476d245"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

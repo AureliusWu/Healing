@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--008",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--008",
+  "lineIndex": 7,
+  "speaker": "林见夏",
+  "text": "我没有回答好。我说，因为我想写。听起来很任性，对吧？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1673248106,
+  "textSha256": "d0b992be8490142c4132f8c9196e699ca74de815ddff2923277f614fb3b6cde9",
+  "medium": "spoken",
+  "requestSha256": "938a6b3b1ab9c0cd30d2c4fe854fcf344e9336cc77fe1fabceda64f59e2ebb41",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我沒有回答好,我說,因為我想寫,聽起來很任性對吧?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.0,
+  "wallSeconds": 26.593,
+  "loudness": {
+    "input_i": "-25.60",
+    "input_tp": "-11.91",
+    "input_lra": "1.00",
+    "input_thresh": "-36.18",
+    "output_i": "-19.67",
+    "output_tp": "-6.10",
+    "output_lra": "0.70",
+    "output_thresh": "-30.28",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.33"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--008/raw.wav",
+      "bytes": 576080,
+      "sha256": "c629c0032bbc22db5ac841a990b6d1b30a0516dd039236f2083fa6fadde7bf6d"
+    },
+    "master": {
+      "path": "healing-lunch-lin--008/master.wav",
+      "bytes": 288078,
+      "sha256": "8d2d505fb2003a4eb10a77e4156927cd5359de6e825f3325f56f9c5e1db53ff0"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--008/runtime.ogg",
+      "bytes": 43525,
+      "sha256": "8047803597ca6fdef0ad1b5da55ed7ea7b09339d7c629d6aeb3075ec99bfe93e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

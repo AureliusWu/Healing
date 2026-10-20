@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-honest--001",
+  "sceneId": "desk-honest",
+  "lineId": "desk-honest--001",
+  "lineIndex": 0,
+  "speaker": "程屿",
+  "text": "我其实……不太想让家里看到成绩。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 133881499,
+  "textSha256": "15ddf19789ee4fddf9d0cb128aa9a3b36f0bf0b0d74e3cf793959e951412dbc3",
+  "medium": "spoken",
+  "requestSha256": "eca8a521cae5d40569a8ae2bc708997b82aa314aba9115c10551ef928138fffb",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我其实不太想让家里看的成绩",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.32,
+  "wallSeconds": 67.091,
+  "loudness": {
+    "input_i": "-27.51",
+    "input_tp": "-7.53",
+    "input_lra": "0.00",
+    "input_thresh": "-38.17",
+    "output_i": "-21.98",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-32.65",
+    "normalization_type": "linear",
+    "target_offset": "1.98"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-honest--001/raw.wav",
+      "bytes": 222800,
+      "sha256": "be467b45c07fa3fd677442ac6ffdecb83143e924f4163cb6914da6ead2f1ab54"
+    },
+    "master": {
+      "path": "healing-desk-honest--001/master.wav",
+      "bytes": 111438,
+      "sha256": "7e74f36f391899c67117f3fbbb8e7001d66ac20ea1cc55b7af21480c28aa1044"
+    },
+    "runtime": {
+      "path": "healing-desk-honest--001/runtime.ogg",
+      "bytes": 21570,
+      "sha256": "4e90c4fd2501d53575a9b554840949ad57b53e0b0352af05e05ab579b3cae3d8"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

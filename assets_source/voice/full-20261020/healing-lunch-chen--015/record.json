@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--015",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--015",
+  "lineIndex": 14,
+  "speaker": "程屿",
+  "text": "那你也试一次。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1459017484,
+  "textSha256": "30b055cc4266117de37b4794b38df89a3d4814f6eb111b3fdb7a73b9226b7eff",
+  "medium": "spoken",
+  "requestSha256": "a5070ebfa5e89c1d396729c504fdbafa13a49ffa44ab204d907954745a893996",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那你也试一试",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 65.383,
+  "loudness": {
+    "input_i": "-24.21",
+    "input_tp": "-5.79",
+    "input_lra": "0.00",
+    "input_thresh": "-34.21",
+    "output_i": "-20.42",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.42",
+    "normalization_type": "linear",
+    "target_offset": "0.42"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--015/raw.wav",
+      "bytes": 107600,
+      "sha256": "48c2620bac2d01f008b381c4ab3134832412403d16bbf10c4b945ff1415485fa"
+    },
+    "master": {
+      "path": "healing-lunch-chen--015/master.wav",
+      "bytes": 53838,
+      "sha256": "a4d095967b2ff1a240c915c8546f5851207939cf99ea6a1d94c249ca140576d4"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--015/runtime.ogg",
+      "bytes": 12039,
+      "sha256": "8fc8d194b9a90eaa82fd009d61e45b8d095f8555ed31bac00fd9ce26626b7af0"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

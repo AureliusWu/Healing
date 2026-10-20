@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-revision--007",
+  "sceneId": "c3-revision",
+  "lineId": "c3-revision--007",
+  "lineIndex": 6,
+  "speaker": "林见夏",
+  "text": "我知道。文章里没有具体分数和地址，我想名字是我的，决定也由我做。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 799209904,
+  "textSha256": "6cc789cc62f12a38871287dd3524e46a83f84f8b8da1a0246fb4c4504d9feb31",
+  "medium": "spoken",
+  "requestSha256": "e4d48a64164344600d0bfab7bc6d43590c5e8da31e5161f0d6aa02d995b7350e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我知道,文章裡沒有具體分數和地址我想名字是我的,決定也有我做",
+    "cer": 0.035714,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.04,
+  "wallSeconds": 483.817,
+  "loudness": {
+    "input_i": "-24.33",
+    "input_tp": "-6.29",
+    "input_lra": "2.20",
+    "input_thresh": "-34.76",
+    "output_i": "-19.96",
+    "output_tp": "-2.00",
+    "output_lra": "2.40",
+    "output_thresh": "-30.37",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-revision--007/raw.wav",
+      "bytes": 675920,
+      "sha256": "839d33119ce76b12556da5fbae1c680a194616922b1c61ad463dfb6d1e4b93d4"
+    },
+    "master": {
+      "path": "healing-c3-revision--007/master.wav",
+      "bytes": 337998,
+      "sha256": "5568c515ea57d18fe10cc3959f9c7911cc94a8787e90504ceb664961d8608055"
+    },
+    "runtime": {
+      "path": "healing-c3-revision--007/runtime.ogg",
+      "bytes": 52092,
+      "sha256": "f6a3b5003bfcc3889c40eaeb417c78df3d59150f46abbb89412142bb88e30ec1"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

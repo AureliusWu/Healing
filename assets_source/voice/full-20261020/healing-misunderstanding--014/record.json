@@ -1,0 +1,55 @@
+{
+  "id": "healing-misunderstanding--014",
+  "sceneId": "misunderstanding",
+  "lineId": "misunderstanding--014",
+  "lineIndex": 13,
+  "speaker": "程屿",
+  "text": "要不，我们先把书搬完？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1993846345,
+  "textSha256": "8014d259d99b65e92f7a737ecfe9f1c325267b1318b3b9c1b91a4fd5ace2f19c",
+  "medium": "spoken",
+  "requestSha256": "c4b46fc018bf3635822c95ca89a6442f00e75ba5e6b730e1119facda66cbb88e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "要不我们先把书扳完",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.16,
+  "wallSeconds": 10.354,
+  "loudness": {
+    "input_i": "-22.09",
+    "input_tp": "-5.44",
+    "input_lra": "0.00",
+    "input_thresh": "-32.09",
+    "output_i": "-19.99",
+    "output_tp": "-3.35",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-misunderstanding--014/raw.wav",
+      "bytes": 207440,
+      "sha256": "69e4bd629512e04b672dcdf4bd08a3ee1af894d1368465017cbc7084dabe3c62"
+    },
+    "master": {
+      "path": "healing-misunderstanding--014/master.wav",
+      "bytes": 103758,
+      "sha256": "02e9ce36698a8843577c2804b424974a921adfa7bc12e876dc003c104b2d9afb"
+    },
+    "runtime": {
+      "path": "healing-misunderstanding--014/runtime.ogg",
+      "bytes": 19023,
+      "sha256": "b33dd8851bb682e88689428a7f204beb0856c6f0440c37b80962630ddc42b0f6"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

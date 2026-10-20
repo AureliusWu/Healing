@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-lin-draft--003",
+  "sceneId": "c2-lin-draft",
+  "lineId": "c2-lin-draft--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "想。但我以前一说想写，他们就问以后能做什么。我只好说只是试试，好像小一点的愿望比较容易过关。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 257486015,
+  "textSha256": "2c6169a9bff7e013cf4516f5253ef9f2dac9ca9c1453f664b86055adbedafca6",
+  "medium": "spoken",
+  "requestSha256": "d6e5d4c8ce8c3f9a0028b233e53c210f9229a131c66ba582beb3cbcc32d77daf",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "想但我以前一說想寫他們就問以後能做什麼我只好說只是試試好像想一點的願望比較容易過關",
+    "cer": 0.02439,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 12.0,
+  "wallSeconds": 587.762,
+  "loudness": {
+    "input_i": "-24.72",
+    "input_tp": "-7.62",
+    "input_lra": "0.90",
+    "input_thresh": "-35.27",
+    "output_i": "-20.20",
+    "output_tp": "-2.95",
+    "output_lra": "1.20",
+    "output_thresh": "-30.77",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-lin-draft--003/raw.wav",
+      "bytes": 1152080,
+      "sha256": "8bc72a460fc9af6bccc083f1cf9dcaaea86179b2500d00b8b1ed2047ea16a8f2"
+    },
+    "master": {
+      "path": "healing-c2-lin-draft--003/master.wav",
+      "bytes": 576078,
+      "sha256": "532d0e268507139c1414bbffbdadcd8c4aa6592f1d337d976045bda3d0c2026f"
+    },
+    "runtime": {
+      "path": "healing-c2-lin-draft--003/runtime.ogg",
+      "bytes": 85292,
+      "sha256": "864dc6edd6643d8cf842ef0969b2749655718ead19f2e0dc8ff4414c775168dd"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

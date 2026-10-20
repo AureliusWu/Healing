@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-both--001",
+  "sceneId": "rain-both",
+  "lineId": "rain-both--001",
+  "lineIndex": 0,
+  "speaker": "程屿",
+  "text": "我刚才说先搬书，是因为我不知道该怎么接。我怕我一开口，就得选一个人站。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 135218584,
+  "textSha256": "f1a632c02a288e7b17cab3533676aff71382515900593a66a5149c238f1e407a",
+  "medium": "spoken",
+  "requestSha256": "c70eaa394c61db1a3c9b726131d362fb36e092c8ef6242fbff366d759d55f1b7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我刚才说先搬书是因为我不知道该怎么接我怕我一开口就得选一个人站",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.8,
+  "wallSeconds": 30.889,
+  "loudness": {
+    "input_i": "-26.28",
+    "input_tp": "-8.42",
+    "input_lra": "1.80",
+    "input_thresh": "-36.51",
+    "output_i": "-20.40",
+    "output_tp": "-2.86",
+    "output_lra": "1.80",
+    "output_thresh": "-30.60",
+    "normalization_type": "dynamic",
+    "target_offset": "0.40"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-both--001/raw.wav",
+      "bytes": 652880,
+      "sha256": "c2d3a806d9598b9bcad0b94aafd4c9e54052a588663c1c9494d99d0c6c466bdf"
+    },
+    "master": {
+      "path": "healing-rain-both--001/master.wav",
+      "bytes": 326478,
+      "sha256": "10a4e028938247d783b83e992767d93dec5d127c3b82d9b244cd2e206fd3303c"
+    },
+    "runtime": {
+      "path": "healing-rain-both--001/runtime.ogg",
+      "bytes": 55845,
+      "sha256": "7614fe6ccdb6bea7344c0c8cddd480d40de28db2dfdcc0be5fb95076f2ad5274"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

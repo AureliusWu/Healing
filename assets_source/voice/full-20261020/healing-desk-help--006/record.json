@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-help--006",
+  "sceneId": "desk-help",
+  "lineId": "desk-help--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "这些全是你的？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1332282696,
+  "textSha256": "59b6ff09712fe7dd068eb25316c022963b1fe66b06e9e7b39a58b2ed72e5d23f",
+  "medium": "spoken",
+  "requestSha256": "29bd6b343757e42f2832b3193ab1517fa887f67ddb8104c02dc1aab6421c1d3f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这些全是你的",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.68,
+  "wallSeconds": 68.238,
+  "loudness": {
+    "input_i": "-26.56",
+    "input_tp": "-11.26",
+    "input_lra": "0.00",
+    "input_thresh": "-36.56",
+    "output_i": "-20.00",
+    "output_tp": "-4.70",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-help--006/raw.wav",
+      "bytes": 161360,
+      "sha256": "452bb9672bd6548df734a12bb9402cc635f330f88f6a57cc69bbf06f01a560f0"
+    },
+    "master": {
+      "path": "healing-desk-help--006/master.wav",
+      "bytes": 80718,
+      "sha256": "bdbe9f51bb2d4a80ec9c922b3aeb9e9029be401609257121740ff145b4562d29"
+    },
+    "runtime": {
+      "path": "healing-desk-help--006/runtime.ogg",
+      "bytes": 16940,
+      "sha256": "db165825c6db555897cc78c61a594ba627924e5dcede57997c2ed5a303d0cadf"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

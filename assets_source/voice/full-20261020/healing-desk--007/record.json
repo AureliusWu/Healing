@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk--007",
+  "sceneId": "desk",
+  "lineId": "desk--007",
+  "lineIndex": 6,
+  "speaker": "林见夏",
+  "text": "转班了。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1319286212,
+  "textSha256": "0bc10dcf69554b0d49ad269d157df22915b1b184becb5201b502f53a498c4dfc",
+  "medium": "spoken",
+  "requestSha256": "738b926afa7be82c7fa590898090717f23844c704e496f99663c657cdc407dc4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "轉班了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.8,
+  "wallSeconds": 5.28,
+  "loudness": {
+    "input_i": "-22.49",
+    "input_tp": "-9.15",
+    "input_lra": "0.00",
+    "input_thresh": "-32.49",
+    "output_i": "-20.01",
+    "output_tp": "-6.65",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk--007/raw.wav",
+      "bytes": 76880,
+      "sha256": "67a9a96c3ad39046d69865191326e1327d0ffb5ce9ca6256dd9d3c70fb37a283"
+    },
+    "master": {
+      "path": "healing-desk--007/master.wav",
+      "bytes": 38478,
+      "sha256": "a1076ddb258a86add0f379254f192f8fd18a1b98e481fcce1b8527e0b6f603ca"
+    },
+    "runtime": {
+      "path": "healing-desk--007/runtime.ogg",
+      "bytes": 9289,
+      "sha256": "9490501150bcd424165d5ca7a0ecdf75173e25fdc89e681cddd3e5aff8c06e57"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

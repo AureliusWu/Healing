@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-letter--008",
+  "sceneId": "end-letter",
+  "lineId": "end-letter--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "你什么时候看的？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 87682771,
+  "textSha256": "604269f000c45b3c02e29e1de4fe3a653897a378f0ac2dfc41378db18cdf9da2",
+  "medium": "spoken",
+  "requestSha256": "c5d2121ae322dcbd8abb46f82f9d22917f03900983d84b74d5c7544954983b2f",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你什么时候看的",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 36.077,
+  "loudness": {
+    "input_i": "-31.14",
+    "input_tp": "-10.99",
+    "input_lra": "0.00",
+    "input_thresh": "-41.14",
+    "output_i": "-22.14",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-32.14",
+    "normalization_type": "linear",
+    "target_offset": "2.14"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-letter--008/raw.wav",
+      "bytes": 107600,
+      "sha256": "b07a2f1b76b5d708f7604add19bc5f6edf3036a67c5c5ee8d7aad17f98df6ea1"
+    },
+    "master": {
+      "path": "healing-end-letter--008/master.wav",
+      "bytes": 53838,
+      "sha256": "88105eb123b5f9b945c6503a394845dd19efe0568f6e00a733a8cce9a74bed50"
+    },
+    "runtime": {
+      "path": "healing-end-letter--008/runtime.ogg",
+      "bytes": 11949,
+      "sha256": "9dde6081557c3e40134127a06f97e4065850d43fc6818e8c81f075decbe6d101"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-lin-draft--008",
+  "sceneId": "c2-lin-draft",
+  "lineId": "c2-lin-draft--008",
+  "lineIndex": 7,
+  "speaker": "林见夏",
+  "text": "这是我最想留下的。你核对的时候先看这一行。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1099438543,
+  "textSha256": "5120b88e27bfb2d55cc3e172afd53817ca75e3552e2ef9e53d17780bb91787a1",
+  "medium": "spoken",
+  "requestSha256": "d915fbde039e80068a392609167bfcf67af4e77f824845eabc6aa0af5157e114",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这是我最想留下的以核对的时候先看这一行",
+    "cer": 0.052632,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.84,
+  "wallSeconds": 399.838,
+  "loudness": {
+    "input_i": "-25.75",
+    "input_tp": "-8.41",
+    "input_lra": "0.90",
+    "input_thresh": "-35.87",
+    "output_i": "-19.61",
+    "output_tp": "-2.74",
+    "output_lra": "0.00",
+    "output_thresh": "-29.73",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.39"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-lin-draft--008/raw.wav",
+      "bytes": 368720,
+      "sha256": "cf5da5c0cf6e509907dcc76968268d051d2e6ae06881629081cc00457e5f00d8"
+    },
+    "master": {
+      "path": "healing-c2-lin-draft--008/master.wav",
+      "bytes": 184398,
+      "sha256": "2d06d19dcde79050e58807c6d22ef5ff957687bf6a4901cce738d1cf553d5dab"
+    },
+    "runtime": {
+      "path": "healing-c2-lin-draft--008/runtime.ogg",
+      "bytes": 31770,
+      "sha256": "e08a4265418c09d691feca51d032e468abf123ca88bdcec564cc26dfa7eccb3d"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

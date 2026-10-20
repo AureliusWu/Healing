@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-letter--004",
+  "sceneId": "c2-from-letter",
+  "lineId": "c2-from-letter--004",
+  "lineIndex": 3,
+  "speaker": "林见夏",
+  "text": "我也想过这件事。我爸不知道我具体写了哪些话，我不想让他第一次读到的时候，旁边站着一圈人。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 257290220,
+  "textSha256": "9dc05e66711daa60597b04af39d361b59e29e9f00f0550450172cbaaca94e81f",
+  "medium": "spoken",
+  "requestSha256": "98d25ba636003af30039beeb8e7f5cd6a6ed3cedd7cc66f13e72651b2df33ac7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也想过这件事我爸不知道我具体写了哪些话我不想让他第一次读到的时候旁边站着一圈人",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.32,
+  "wallSeconds": 561.64,
+  "loudness": {
+    "input_i": "-25.75",
+    "input_tp": "-10.01",
+    "input_lra": "1.00",
+    "input_thresh": "-35.95",
+    "output_i": "-20.25",
+    "output_tp": "-4.97",
+    "output_lra": "0.40",
+    "output_thresh": "-30.58",
+    "normalization_type": "dynamic",
+    "target_offset": "0.25"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-letter--004/raw.wav",
+      "bytes": 798800,
+      "sha256": "d566dbd8b3babbdf7c46386b1f182d070ac2b40b3cd8ec9b722b163b2333f2db"
+    },
+    "master": {
+      "path": "healing-c2-from-letter--004/master.wav",
+      "bytes": 399438,
+      "sha256": "e4e3add7846b57f7e11445cdc1677f6028788e8fd69679308f91a75d4881cccf"
+    },
+    "runtime": {
+      "path": "healing-c2-from-letter--004/runtime.ogg",
+      "bytes": 62391,
+      "sha256": "b6fc5f10304f55bd466e8a9a95d313c15e1e713b3d734942b443c1cd1d1d150c"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

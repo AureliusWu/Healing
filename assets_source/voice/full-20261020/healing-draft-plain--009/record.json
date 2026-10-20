@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--009",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--009",
+  "lineIndex": 8,
+  "speaker": "陈知遥",
+  "text": "因为他说的是状态。如果他说我已经用尽力气了，那我不知道要怎么补救。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1602830109,
+  "textSha256": "f8544536731a7e2af4d35a9a6d67222f67cac7d790551d5044f49b4765ae88c8",
+  "medium": "spoken",
+  "requestSha256": "e251c64809972b4131619eb4249cab1d17ad804bb41fd79dc00a2b4b01a2a66a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "因为他说的是状态如果他说我已经用尽力气了那我不知道要怎么补救",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.92,
+  "wallSeconds": 46.163,
+  "loudness": {
+    "input_i": "-21.44",
+    "input_tp": "-3.30",
+    "input_lra": "1.50",
+    "input_thresh": "-31.82",
+    "output_i": "-20.18",
+    "output_tp": "-2.61",
+    "output_lra": "1.90",
+    "output_thresh": "-30.60",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--009/raw.wav",
+      "bytes": 568400,
+      "sha256": "2567dc2a0fc98b0b44fa13b1e5670850c5440955a7058ac951a62663af4c00a0"
+    },
+    "master": {
+      "path": "healing-draft-plain--009/master.wav",
+      "bytes": 284238,
+      "sha256": "f8c3b871a1c94ff9bba356f9d8422ea8dd6d6bcc701452540f9fa12b2c0df9d3"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--009/runtime.ogg",
+      "bytes": 46000,
+      "sha256": "5f88aeb74c5dc0c8f9e47b6a5bd98e90bf9bb56181b3e19656018c830b638249"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

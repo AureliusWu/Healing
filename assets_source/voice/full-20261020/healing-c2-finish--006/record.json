@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-finish--006",
+  "sceneId": "c2-finish",
+  "lineId": "c2-finish--006",
+  "lineIndex": 5,
+  "speaker": "贺川",
+  "text": "程屿，下周记得还我直尺！",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1715385906,
+  "textSha256": "87c0ffffb37daef8db0a3bfcd659d35847e2ac359e25ac7d10ef5c7daa8802c3",
+  "medium": "spoken",
+  "requestSha256": "7099b27eb8d97fc40f880d318a2d7e101b5fc2417a986019cc73b69800c533b8",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "成语下周记得黄我支持",
+    "cer": 0.5,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 2.24,
+  "wallSeconds": 10.925,
+  "loudness": {
+    "input_i": "-22.37",
+    "input_tp": "-4.41",
+    "input_lra": "0.00",
+    "input_thresh": "-32.59",
+    "output_i": "-20.00",
+    "output_tp": "-2.04",
+    "output_lra": "0.00",
+    "output_thresh": "-30.22",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-finish--006/raw.wav",
+      "bytes": 215120,
+      "sha256": "c008dca4f37f75535eb387b4ef48082ad71e722911c07d54ee3aa04875e8443c"
+    },
+    "master": {
+      "path": "healing-c2-finish--006/master.wav",
+      "bytes": 107598,
+      "sha256": "e5709f2c8a058b483d0cb36604770730ddbddf1cdf4cac3121bdb706a13867d8"
+    },
+    "runtime": {
+      "path": "healing-c2-finish--006/runtime.ogg",
+      "bytes": 20411,
+      "sha256": "cc32c90a21ad25018203b5ba974161c17ce401bacabc79f07eaa272d319893cc"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

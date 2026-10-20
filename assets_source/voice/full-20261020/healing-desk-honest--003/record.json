@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-honest--003",
+  "sceneId": "desk-honest",
+  "lineId": "desk-honest--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "我的物理也不太好。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1066503394,
+  "textSha256": "af0b8b2cc7544d6b3ba41985b093b6e039bfdc5b8e11787584727ab270f3f9b3",
+  "medium": "spoken",
+  "requestSha256": "fc402ba28e8f8c3709a49a7675c6a5b88e46dd21aa0ac4cf9dacd184e1f213ff",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我的物理也不太好",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.4,
+  "wallSeconds": 122.093,
+  "loudness": {
+    "input_i": "-25.90",
+    "input_tp": "-9.77",
+    "input_lra": "0.00",
+    "input_thresh": "-35.90",
+    "output_i": "-19.99",
+    "output_tp": "-3.87",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-honest--003/raw.wav",
+      "bytes": 230480,
+      "sha256": "c23ff27670c28ab16897c61b6b411afb7402c5c5bb5ae1bbdad00771c00fd914"
+    },
+    "master": {
+      "path": "healing-desk-honest--003/master.wav",
+      "bytes": 115278,
+      "sha256": "5bf2c98c23009f6edef81fd41278be801f61a4acb5a624c34b94764d48c1bd1f"
+    },
+    "runtime": {
+      "path": "healing-desk-honest--003/runtime.ogg",
+      "bytes": 20017,
+      "sha256": "aafa9a25a6f86721b430257d5460ee191a7385024c5b336121c5bfcc2229ffc8"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

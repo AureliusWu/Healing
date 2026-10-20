@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--001",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--001",
+  "lineIndex": 0,
+  "speaker": "程屿",
+  "text": "我害怕他们看见，我已经很努力了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 714408590,
+  "textSha256": "a4b3274c4ca9027f705d08ef3c3116aa27520c87b14c1a25216813d1ca759f3b",
+  "medium": "spoken",
+  "requestSha256": "5697f169ff708ad1768456489509c4cbeeed0ea261b9d8841f1bbb1af838c8bd",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我害怕他们看见,我已经很努力了。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.04,
+  "wallSeconds": 154.685,
+  "loudness": {
+    "input_i": "-24.67",
+    "input_tp": "-5.10",
+    "input_lra": "0.50",
+    "input_thresh": "-34.67",
+    "output_i": "-20.01",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "dynamic",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--001/raw.wav",
+      "bytes": 291920,
+      "sha256": "8be58f91a1cabafda2d0dd9c52f6dd074c5c70b79d01e2f4149c833a0b6fdfe8"
+    },
+    "master": {
+      "path": "healing-draft-plain--001/master.wav",
+      "bytes": 145998,
+      "sha256": "7c526c2d031b61c048849572b3dc025d00e5d6fba88a2bb8216ff90187badce5"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--001/runtime.ogg",
+      "bytes": 26357,
+      "sha256": "91fd55e80320a9d1d5bf9fbee2ba485e378dda924b2caeae31d6bfa8062b67be"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

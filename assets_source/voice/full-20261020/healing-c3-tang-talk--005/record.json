@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-talk--005",
+  "sceneId": "c3-tang-talk",
+  "lineId": "c3-tang-talk--005",
+  "lineIndex": 4,
+  "speaker": "许棠",
+  "text": "没有，今天只是让我带伞。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1065714275,
+  "textSha256": "20525b355cfd6f75d4efbc21634824b23ea9276ee46b01dfb9e8378e5245eb53",
+  "medium": "spoken",
+  "requestSha256": "6064c96fa3dc3073783069dc5eebead66403484231aa7c82ae34eee8769c4d74",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "没有,今天只是让我带伞。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 109.337,
+  "loudness": {
+    "input_i": "-18.76",
+    "input_tp": "-5.69",
+    "input_lra": "1.60",
+    "input_thresh": "-29.15",
+    "output_i": "-18.81",
+    "output_tp": "-6.29",
+    "output_lra": "0.00",
+    "output_thresh": "-29.20",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.19"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-talk--005/raw.wav",
+      "bytes": 314960,
+      "sha256": "bd14f00456ffcbc71322f59ca4063e2150f11a7eb46d3145c83c5023ff11d336"
+    },
+    "master": {
+      "path": "healing-c3-tang-talk--005/master.wav",
+      "bytes": 157518,
+      "sha256": "86b7a02f75155d38781ef56660d63b16a1250083c927702bec04e4564be11d8e"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-talk--005/runtime.ogg",
+      "bytes": 24762,
+      "sha256": "2a6124f0cf129e2fda9a247807053974faf7aed690de09bd55ec18dceb00c053"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

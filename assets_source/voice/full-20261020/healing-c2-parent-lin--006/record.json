@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-lin--006",
+  "sceneId": "c2-parent-lin",
+  "lineId": "c2-parent-lin--006",
+  "lineIndex": 5,
+  "speaker": "林父",
+  "text": "不让你只想着这个，是怕以后没选择。",
+  "actorId": "林父",
+  "voice": "Uncle_Fu",
+  "instruct": "中年父亲，普通话，略严肃，慢一些，字句清楚，克制而不凶狠。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1996007829,
+  "textSha256": "c65c08f3aa597b96524c28cdab918cd560e13e1813c94085f14b4b6e7b019e8f",
+  "medium": "spoken",
+  "requestSha256": "dc3e1887fa37588d3bdca8122290e4973a6fc0966f254b2cb2102e53fedf1ada",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不让你只想着这个是怕以后没选择",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 99.472,
+  "loudness": {
+    "input_i": "-22.69",
+    "input_tp": "-3.66",
+    "input_lra": "0.40",
+    "input_thresh": "-32.83",
+    "output_i": "-19.60",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.73",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.40"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-lin--006/raw.wav",
+      "bytes": 345680,
+      "sha256": "dbf796aacaf3437a76c8400cbe620711a5a5ae83c1c8052265655546778e748d"
+    },
+    "master": {
+      "path": "healing-c2-parent-lin--006/master.wav",
+      "bytes": 172878,
+      "sha256": "9ad4e3f745b9fe4bdb16f83dd50044a2000a797931bd889bdc096f262c915b39"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-lin--006/runtime.ogg",
+      "bytes": 30571,
+      "sha256": "07501fdfd17cf26c56cd9cc71295013a6d7e51cceda6b5b1ce49176ff163ee09"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

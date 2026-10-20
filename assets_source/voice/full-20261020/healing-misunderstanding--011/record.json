@@ -1,0 +1,55 @@
+{
+  "id": "healing-misunderstanding--011",
+  "sceneId": "misunderstanding",
+  "lineId": "misunderstanding--011",
+  "lineIndex": 10,
+  "speaker": "陈知遥",
+  "text": "我以为，给你留着，你就不用一个人来。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 392279299,
+  "textSha256": "8541f16361d925dae59d3e5e06b7d45068b7921838472ea47da2320ee527eb48",
+  "medium": "spoken",
+  "requestSha256": "3de4a46f28308674cf8510f9dd58bb2badafc04b76a8f5864056e6588af24e85",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我以为 给你留着 你就不用一个人来",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 184.145,
+  "loudness": {
+    "input_i": "-17.80",
+    "input_tp": "-4.52",
+    "input_lra": "0.30",
+    "input_thresh": "-28.67",
+    "output_i": "-18.85",
+    "output_tp": "-5.44",
+    "output_lra": "0.00",
+    "output_thresh": "-29.76",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.15"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-misunderstanding--011/raw.wav",
+      "bytes": 338000,
+      "sha256": "043bd41bad9d0a8c7fe956736490efbb2af5eb2ea16f462e2d0961a2f36da94d"
+    },
+    "master": {
+      "path": "healing-misunderstanding--011/master.wav",
+      "bytes": 169038,
+      "sha256": "65c3222ca3ba9efbc733682d7c6664a46f6fa3831ab77d42a673e2378d12cfc4"
+    },
+    "runtime": {
+      "path": "healing-misunderstanding--011/runtime.ogg",
+      "bytes": 27183,
+      "sha256": "9f5c1e7a85662d50f6b45f924d4df41e9e001a166a8d33680fcf80248151863e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

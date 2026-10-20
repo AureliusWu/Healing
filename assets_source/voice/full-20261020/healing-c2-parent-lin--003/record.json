@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-lin--003",
+  "sceneId": "c2-parent-lin",
+  "lineId": "c2-parent-lin--003",
+  "lineIndex": 2,
+  "speaker": "林父",
+  "text": "数学还得多花时间。你又写什么？",
+  "actorId": "林父",
+  "voice": "Uncle_Fu",
+  "instruct": "中年父亲，普通话，略严肃，慢一些，字句清楚，克制而不凶狠。 只朗读给定台词，不添加词语或音效。",
+  "seed": 291784157,
+  "textSha256": "8020e648355b38d3c7cb31684c132f4df311c0874cb708735023a204ddecf280",
+  "medium": "spoken",
+  "requestSha256": "96f2d305a7bd62689654b906278f58a8464cc6ef861dbc8fea6d14ed1ed11e65",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "数学还得多花时间你有写什么",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.96,
+  "wallSeconds": 99.544,
+  "loudness": {
+    "input_i": "-19.87",
+    "input_tp": "-3.71",
+    "input_lra": "0.00",
+    "input_thresh": "-30.04",
+    "output_i": "-20.00",
+    "output_tp": "-3.83",
+    "output_lra": "0.00",
+    "output_thresh": "-30.17",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-lin--003/raw.wav",
+      "bytes": 284240,
+      "sha256": "52915d169248ef1a8e18250146169fc189cc838bcb18d5feabec6f20ecbc089d"
+    },
+    "master": {
+      "path": "healing-c2-parent-lin--003/master.wav",
+      "bytes": 142158,
+      "sha256": "ef090696e02444803b33f12c4278ab627ec5ee5f6b1f9a7634168c86481a9cdd"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-lin--003/runtime.ogg",
+      "bytes": 25469,
+      "sha256": "75e3f5345ffa56b364899e4aea843ccd12c07e0c1e2cca0791afa8a7b2226c2c"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

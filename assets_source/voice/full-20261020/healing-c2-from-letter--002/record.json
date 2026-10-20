@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-letter--002",
+  "sceneId": "c2-from-letter",
+  "lineId": "c2-from-letter--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "可以只留笔名吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 717911547,
+  "textSha256": "2c4a8797174dabe04d508201bfeaf523215140397ecad122747cdeeac765960c",
+  "medium": "spoken",
+  "requestSha256": "6e1a6063d23c8fe04801b442a5cf622e0ab65326f6d6f9ff2a9c8130ba1ea8bf",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以只留比名吗",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.52,
+  "wallSeconds": 7.728,
+  "loudness": {
+    "input_i": "-28.28",
+    "input_tp": "-12.61",
+    "input_lra": "0.00",
+    "input_thresh": "-38.28",
+    "output_i": "-20.01",
+    "output_tp": "-4.33",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-letter--002/raw.wav",
+      "bytes": 146000,
+      "sha256": "724ff6f11e6c5ffa9337da32a50023c504cfd5d49fcc0ffad3a7a513fffe7047"
+    },
+    "master": {
+      "path": "healing-c2-from-letter--002/master.wav",
+      "bytes": 73038,
+      "sha256": "d0b01150680c138884ac72728156a519db0edecdf47a2025b80e008f43563fa4"
+    },
+    "runtime": {
+      "path": "healing-c2-from-letter--002/runtime.ogg",
+      "bytes": 15238,
+      "sha256": "12476d0cd0718f0716cf6ee63b3408b42a837bb13a2b06ba0c52d2e295c2c419"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

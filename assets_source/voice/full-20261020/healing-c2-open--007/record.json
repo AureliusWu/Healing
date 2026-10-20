@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-open--007",
+  "sceneId": "c2-open",
+  "lineId": "c2-open--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "那今天先看能用的。别把“待确认”擦掉，我会以为已经问过。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1124266265,
+  "textSha256": "8ea7a2ef5c16b6f060a56b3653160c66cf2808a5370543658889627b1f70969f",
+  "medium": "spoken",
+  "requestSha256": "9e7815db31cda237f0ab075fd2e3096367acea5e59dc223e107c33bc028095a6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那今天先看能用的,别把带确认擦掉,我会以为已经问过。",
+    "cer": 0.043478,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.68,
+  "wallSeconds": 269.618,
+  "loudness": {
+    "input_i": "-19.75",
+    "input_tp": "-3.01",
+    "input_lra": "1.40",
+    "input_thresh": "-30.03",
+    "output_i": "-20.05",
+    "output_tp": "-3.74",
+    "output_lra": "1.70",
+    "output_thresh": "-30.41",
+    "normalization_type": "dynamic",
+    "target_offset": "0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-open--007/raw.wav",
+      "bytes": 545360,
+      "sha256": "a477c00d5daa912fbd9bcc4039d7165e7f384f4e7b31fab39047bc355033630d"
+    },
+    "master": {
+      "path": "healing-c2-open--007/master.wav",
+      "bytes": 272718,
+      "sha256": "f0cc59007b649161cb81ddbe5627d1b7b89c0aaf154aaf77fa9f8c763bb5f092"
+    },
+    "runtime": {
+      "path": "healing-c2-open--007/runtime.ogg",
+      "bytes": 42531,
+      "sha256": "bd8d6a1d77a2ae157e247a8a8348221f5a21856b7bfb2bcab9e52db3db5fc170"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

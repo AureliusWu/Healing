@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk--012",
+  "sceneId": "desk",
+  "lineId": "desk--012",
+  "lineIndex": 11,
+  "speaker": "林见夏",
+  "text": "如果没有，也可以先留白。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1207323705,
+  "textSha256": "88f046642aabbd9864d557301f6e16b32c975a48e4c75d24f2e864be0cde8f81",
+  "medium": "spoken",
+  "requestSha256": "5bedc23b8e9d1b856113be0d274dca052244d0e758b979f5c3502ac4fa022e75",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "如果没有,也可以先留白",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.24,
+  "wallSeconds": 85.755,
+  "loudness": {
+    "input_i": "-23.02",
+    "input_tp": "-4.99",
+    "input_lra": "0.00",
+    "input_thresh": "-33.25",
+    "output_i": "-20.05",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.28",
+    "normalization_type": "linear",
+    "target_offset": "0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk--012/raw.wav",
+      "bytes": 215120,
+      "sha256": "0726c5de57ac78b8de0405da5a64eedec489c72ef3474c3351f0a93281c9827a"
+    },
+    "master": {
+      "path": "healing-desk--012/master.wav",
+      "bytes": 107598,
+      "sha256": "b028285b52affe6b83aab63ef5178c55dc752820afb14e1d853ab748eebc9f18"
+    },
+    "runtime": {
+      "path": "healing-desk--012/runtime.ogg",
+      "bytes": 19487,
+      "sha256": "304bd737be3b8cf4b62e523445c5f8105a4d56374e4d1ff5603b768381e966ea"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

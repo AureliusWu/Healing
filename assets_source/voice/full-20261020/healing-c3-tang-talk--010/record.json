@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-talk--010",
+  "sceneId": "c3-tang-talk",
+  "lineId": "c3-tang-talk--010",
+  "lineIndex": 9,
+  "speaker": "程屿",
+  "text": "先拍，看过再决定。我也想拍你，可以吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 880077848,
+  "textSha256": "b9c895260ec769e49c268a2d365534cae96aaec46e3637a5917bf497a9c5a203",
+  "medium": "spoken",
+  "requestSha256": "f8568093e27bd92d31cc507dadba933a6e21af3e1480f4aa77f68b0e23a813da",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先拍,看过再决定我也想拍你,可以吗?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 233.564,
+  "loudness": {
+    "input_i": "-23.01",
+    "input_tp": "-2.86",
+    "input_lra": "0.70",
+    "input_thresh": "-33.20",
+    "output_i": "-20.17",
+    "output_tp": "-2.00",
+    "output_lra": "0.10",
+    "output_thresh": "-30.40",
+    "normalization_type": "dynamic",
+    "target_offset": "0.17"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-talk--010/raw.wav",
+      "bytes": 384080,
+      "sha256": "8d516b55d4496915dd31d3d72f8e76b3ea1e8abd43eb873f6edf3f427d5c77ca"
+    },
+    "master": {
+      "path": "healing-c3-tang-talk--010/master.wav",
+      "bytes": 192078,
+      "sha256": "2b9b2e43944edef198f85207cd27c1d5d294cd32f6924396ef76aa29fde19b16"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-talk--010/runtime.ogg",
+      "bytes": 31987,
+      "sha256": "1a0f4d2af84ee0670b554c33f963e0e7bbb0f5422e6d941eb3f2c9c33a51b726"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

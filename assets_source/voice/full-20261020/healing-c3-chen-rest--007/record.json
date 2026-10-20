@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-rest--007",
+  "sceneId": "c3-chen-rest",
+  "lineId": "c3-chen-rest--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "下周五如果不用留班里，你还来吗？",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 883430695,
+  "textSha256": "3b7fcc67dce799ad979f5b456428e8da4ed406e89c423fcd61803ee85531bc17",
+  "medium": "spoken",
+  "requestSha256": "c5d30213cb4af009da18e03d29c41ae4ef284c680d86988b672e75ebfd9ad08e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "下周五,如果不用留班裡,你還來嗎?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.44,
+  "wallSeconds": 95.321,
+  "loudness": {
+    "input_i": "-19.66",
+    "input_tp": "-5.17",
+    "input_lra": "0.30",
+    "input_thresh": "-30.00",
+    "output_i": "-18.86",
+    "output_tp": "-4.42",
+    "output_lra": "0.00",
+    "output_thresh": "-29.19",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.14"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-rest--007/raw.wav",
+      "bytes": 330320,
+      "sha256": "6daa45c5de0121c799278274928c442a01985f9b31e37295601af8af1fbf1d65"
+    },
+    "master": {
+      "path": "healing-c3-chen-rest--007/master.wav",
+      "bytes": 165198,
+      "sha256": "cf6553dcc58aaa357b996dbca9709449f5e11090fb22b1ba292a3583518574f6"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-rest--007/runtime.ogg",
+      "bytes": 26362,
+      "sha256": "95f7bd0db161aa3fbcf4e34a9298974f3751ff060dd7637d6af2fb969747f1db"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

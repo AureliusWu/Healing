@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-chen--010",
+  "sceneId": "rain-chen",
+  "lineId": "rain-chen--010",
+  "lineIndex": 9,
+  "speaker": "陈知遥",
+  "text": "算了。今天先别想了。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1149415509,
+  "textSha256": "a2e8b68fdfdf21ecbf12edd1c7f28783aec5617e6a30273114ac36e9b1277c84",
+  "medium": "spoken",
+  "requestSha256": "e84d01907ed572cbb868065feaffd1e5f0979b6f5225d33700bd3aa45e211c14",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "算了 今天先别想了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 103.781,
+  "loudness": {
+    "input_i": "-21.12",
+    "input_tp": "-7.30",
+    "input_lra": "0.10",
+    "input_thresh": "-31.81",
+    "output_i": "-18.88",
+    "output_tp": "-5.08",
+    "output_lra": "0.00",
+    "output_thresh": "-29.59",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.12"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-chen--010/raw.wav",
+      "bytes": 299600,
+      "sha256": "d62267526b9fc526f2a3d35f0bfd99a0d6a9f05981b2a5514cfb36c401d77ecc"
+    },
+    "master": {
+      "path": "healing-rain-chen--010/master.wav",
+      "bytes": 149838,
+      "sha256": "26fee3fdb1c30d3337c3955ed17e701bdc85b330e3952190f3edefddbec8c74b"
+    },
+    "runtime": {
+      "path": "healing-rain-chen--010/runtime.ogg",
+      "bytes": 24348,
+      "sha256": "0c78883ef1a5bab776a641b90c6733566ccbcf947d4cdfd66618ca88a4985835"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

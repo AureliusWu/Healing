@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-chen--011",
+  "sceneId": "c2-parent-chen",
+  "lineId": "c2-parent-chen--011",
+  "lineIndex": 10,
+  "speaker": "陈知遥",
+  "text": "嗯。门口买个烤红薯，这个不用赶。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1754617540,
+  "textSha256": "b0a5cc6219c7e3c86916d2dc66adee7b02ec30a82288e9dbb2a4aa13f123db76",
+  "medium": "spoken",
+  "requestSha256": "462291431a25a068d81718f357fed8666244449c070ec099d01416b0ab6eeaf0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "嗯,门口买个烤红薯,这个不用感",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.16,
+  "wallSeconds": 177.281,
+  "loudness": {
+    "input_i": "-21.99",
+    "input_tp": "-7.39",
+    "input_lra": "1.30",
+    "input_thresh": "-32.63",
+    "output_i": "-18.67",
+    "output_tp": "-3.84",
+    "output_lra": "1.30",
+    "output_thresh": "-29.56",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.33"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-chen--011/raw.wav",
+      "bytes": 399440,
+      "sha256": "eb7c256c32b972c34ac4b0dca40cfb1540ba27bef00dddb2497cb2a63f8bd2e4"
+    },
+    "master": {
+      "path": "healing-c2-parent-chen--011/master.wav",
+      "bytes": 199758,
+      "sha256": "76914935a0f23a8a8ff81ba81aead2dc89ea6b7cc7115c62a4343f1cdc9c44ab"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-chen--011/runtime.ogg",
+      "bytes": 30994,
+      "sha256": "bb1aa138ae6cdcd251484f143146c161d71a7055e2803481357cb263527ac944"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

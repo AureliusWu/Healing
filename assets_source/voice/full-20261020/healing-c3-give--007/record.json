@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-give--007",
+  "sceneId": "c3-give",
+  "lineId": "c3-give--007",
+  "lineIndex": 6,
+  "speaker": "林见夏",
+  "text": "爸爸要我带一本。他把上次样张折太厉害，放不了书架。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1223139128,
+  "textSha256": "2c133ea39beea32c234ab6efcbc57b06595dd669f2238cff5c607aa84572eb28",
+  "medium": "spoken",
+  "requestSha256": "6638f51fdf858168b44a3d2cb2e7d30eec363fbca6f1db7af5f93ef886804cc0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "爸爸要我带一本他把上次杨争之太厉害放不了书架",
+    "cer": 0.136364,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.88,
+  "wallSeconds": 21.781,
+  "loudness": {
+    "input_i": "-26.32",
+    "input_tp": "-7.83",
+    "input_lra": "4.60",
+    "input_thresh": "-36.88",
+    "output_i": "-19.35",
+    "output_tp": "-2.00",
+    "output_lra": "4.80",
+    "output_thresh": "-30.10",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.65"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-give--007/raw.wav",
+      "bytes": 468560,
+      "sha256": "130615914dd648f8963e5f54c507bc1f22cf6e24bb8d25ffbe2d704f05d03ad6"
+    },
+    "master": {
+      "path": "healing-c3-give--007/master.wav",
+      "bytes": 234318,
+      "sha256": "b832609f933f12e4379e2a33a6642b8cc7b20116831e16090cc5d712bdd45561"
+    },
+    "runtime": {
+      "path": "healing-c3-give--007/runtime.ogg",
+      "bytes": 38047,
+      "sha256": "6512b3a70e508a62a2ae479fcd833f0c2bc3243c7e834a0d01e3d9b75423b6e0"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

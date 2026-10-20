@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-return--002",
+  "sceneId": "c3-return",
+  "lineId": "c3-return--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "五十是这期的份数，不是再找五十个人投稿。老师把我们几页放进这一期。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1462118375,
+  "textSha256": "500abfff3687832786db9df7a315ed3f5243210ff4512df1cc8c4f52a45c57cf",
+  "medium": "spoken",
+  "requestSha256": "775baef6f7e11ab59574ce5e7801940b3de9365f69f9eb2cbc68aa406211cc9c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "50是这期的分数,不是再找50个人投稿,老是把我们几页放进这一期。",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.28,
+  "wallSeconds": 32.969,
+  "loudness": {
+    "input_i": "-20.33",
+    "input_tp": "-5.62",
+    "input_lra": "2.20",
+    "input_thresh": "-31.15",
+    "output_i": "-19.97",
+    "output_tp": "-5.61",
+    "output_lra": "2.40",
+    "output_thresh": "-30.72",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-return--002/raw.wav",
+      "bytes": 698960,
+      "sha256": "df49a8f5f427ca756352352088ea68e278d1a2cdd50f2cb3ba3f842eb7283a91"
+    },
+    "master": {
+      "path": "healing-c3-return--002/master.wav",
+      "bytes": 349518,
+      "sha256": "0ed6d80a724d638599c11cea7f1589f8d922195f0ef168b390e05765d8a19f87"
+    },
+    "runtime": {
+      "path": "healing-c3-return--002/runtime.ogg",
+      "bytes": 54343,
+      "sha256": "613642dbd449bfa34527f0af6a62fddb15fe12a7cfa14c22bc005c52ada33245"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

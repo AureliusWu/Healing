@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-quiet--008",
+  "sceneId": "end-quiet",
+  "lineId": "end-quiet--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "你怎么天天买两个？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1740946161,
+  "textSha256": "ce607336bbd135c3565d3b0357b1c5a85cb632b4a3b70ed2153491ec3bfedc8b",
+  "medium": "spoken",
+  "requestSha256": "415b32e7a9977701c4fe55c94b0a7dfc64316db015ba294ff431b8657b38280f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你怎么天天买两啊",
+    "cer": 0.125,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.92,
+  "wallSeconds": 9.216,
+  "loudness": {
+    "input_i": "-23.46",
+    "input_tp": "-8.32",
+    "input_lra": "0.00",
+    "input_thresh": "-33.73",
+    "output_i": "-20.01",
+    "output_tp": "-4.86",
+    "output_lra": "0.00",
+    "output_thresh": "-30.28",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-quiet--008/raw.wav",
+      "bytes": 184400,
+      "sha256": "ecb14c84645d63e0acd8fb60ad9eadb5b6f17c3e6c93e6e35e47690d9b37c4cb"
+    },
+    "master": {
+      "path": "healing-end-quiet--008/master.wav",
+      "bytes": 92238,
+      "sha256": "55fc0194d25f7bd4a7b4dc8d7d361de69cd869d2c4981cc4a0c40fca52fcab2a"
+    },
+    "runtime": {
+      "path": "healing-end-quiet--008/runtime.ogg",
+      "bytes": 17038,
+      "sha256": "3356d713befaf8e953fe31c59aa4d8dabe600eca25a4672576358327f9c3b048"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

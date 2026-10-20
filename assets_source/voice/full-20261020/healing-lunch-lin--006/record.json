@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--006",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--006",
+  "lineIndex": 5,
+  "speaker": "林见夏",
+  "text": "我说不能。她就问，那你为什么写。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 809415164,
+  "textSha256": "9235be8d7531903782def9057ddb3d700252417fd53927d3b5573a9b28a913a3",
+  "medium": "spoken",
+  "requestSha256": "de9ad72e577032e567b32f822128b29c780f6cae39672adb95e05ad202c7e1d4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我說不能,他就問那你為什麼寫。",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 19.19,
+  "loudness": {
+    "input_i": "-24.91",
+    "input_tp": "-10.19",
+    "input_lra": "0.30",
+    "input_thresh": "-35.18",
+    "output_i": "-19.62",
+    "output_tp": "-4.90",
+    "output_lra": "0.00",
+    "output_thresh": "-29.86",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.38"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--006/raw.wav",
+      "bytes": 384080,
+      "sha256": "b440af1928bc412d7b25d631b7a554e5c9dd4f987ed6c1117d38da2775913632"
+    },
+    "master": {
+      "path": "healing-lunch-lin--006/master.wav",
+      "bytes": 192078,
+      "sha256": "a6d342b9d33324f25452fdd87c1f6e92fe0256b90181a86fc60dbc049e28ba1d"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--006/runtime.ogg",
+      "bytes": 31371,
+      "sha256": "6d64d0e4fb29dff2ec048bccfc25f2d42971b3a0bf071db4db8790572ece286e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

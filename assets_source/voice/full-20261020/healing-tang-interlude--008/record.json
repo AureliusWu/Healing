@@ -1,0 +1,55 @@
+{
+  "id": "healing-tang-interlude--008",
+  "sceneId": "tang-interlude",
+  "lineId": "tang-interlude--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "那你今天怎么带出来的？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1787977017,
+  "textSha256": "d55028b70f9b2dc4140ef930be26b0ea86246b20084b56491b9269ecc260f711",
+  "medium": "spoken",
+  "requestSha256": "e968fff10cacf5717a858881d8ecae0a7033b1053e1671be554d0525d83a08b6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那你今天怎么带出来的",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 92.208,
+  "loudness": {
+    "input_i": "-28.17",
+    "input_tp": "-10.78",
+    "input_lra": "0.00",
+    "input_thresh": "-38.49",
+    "output_i": "-20.00",
+    "output_tp": "-2.61",
+    "output_lra": "0.00",
+    "output_thresh": "-30.32",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-tang-interlude--008/raw.wav",
+      "bytes": 153680,
+      "sha256": "e17676de2589e4bfe33bf5dce487b3e24c4c5bb3237f0ac73c9ed3506a78953b"
+    },
+    "master": {
+      "path": "healing-tang-interlude--008/master.wav",
+      "bytes": 76878,
+      "sha256": "e55d3a0ee2ba62384ba2a2fac08c3a02285f1c7846120cd316a57bf52cd9910b"
+    },
+    "runtime": {
+      "path": "healing-tang-interlude--008/runtime.ogg",
+      "bytes": 16037,
+      "sha256": "99b8259cffa2299a45dd54e99fa9cd6735325ef0e62fb4c945346e3fb7bcfd5d"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

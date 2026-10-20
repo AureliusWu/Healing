@@ -1,0 +1,55 @@
+{
+  "id": "healing-corridor--007",
+  "sceneId": "corridor",
+  "lineId": "corridor--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "都有吧。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1777470802,
+  "textSha256": "2aebf39be4ad8b7c0f1798977ef6ac0bb88cbcfe1479251bb48d36f77f6f1eb8",
+  "medium": "spoken",
+  "requestSha256": "fab8b4d5117f1f4f2f42fcca2e1b69235274431da55682aad6e555bbd5a20676",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "都有吧",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.72,
+  "wallSeconds": 30.731,
+  "loudness": {
+    "input_i": "-26.81",
+    "input_tp": "-11.25",
+    "input_lra": "0.00",
+    "input_thresh": "-36.81",
+    "output_i": "-20.01",
+    "output_tp": "-4.44",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-corridor--007/raw.wav",
+      "bytes": 69200,
+      "sha256": "2a91e918e7fa24f04deb315b7fcd9d184ff58cebfd009eeb0490991bfd7d6b27"
+    },
+    "master": {
+      "path": "healing-corridor--007/master.wav",
+      "bytes": 34638,
+      "sha256": "6474930f174ad945f252d4391cc5c39679c2ee68f924ec49a00efeb9103b5b7b"
+    },
+    "runtime": {
+      "path": "healing-corridor--007/runtime.ogg",
+      "bytes": 9256,
+      "sha256": "ce7f01c781cca913dd8a2ae24b7ba189e40eb72468b9f46dcce526da1a1b61c0"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home--008",
+  "sceneId": "c2-home",
+  "lineId": "c2-home--008",
+  "lineIndex": 7,
+  "speaker": "妈妈",
+  "text": "两题就够了？",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1619657029,
+  "textSha256": "7581b70d21f72245bd1da32c229a2b0de40ac432a2a375f73cc86df7ec00466e",
+  "medium": "spoken",
+  "requestSha256": "f64e2d06e36e155121c95aa74db0d39b09bfb64749521eb538977a84a3573a8b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "两题就够了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 60.099,
+  "loudness": {
+    "input_i": "-27.46",
+    "input_tp": "-10.84",
+    "input_lra": "0.00",
+    "input_thresh": "-37.46",
+    "output_i": "-19.98",
+    "output_tp": "-3.38",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home--008/raw.wav",
+      "bytes": 107600,
+      "sha256": "b923f326ca1df232e3c221da6d613d3d8be6006414b96317e2190a94827db549"
+    },
+    "master": {
+      "path": "healing-c2-home--008/master.wav",
+      "bytes": 53838,
+      "sha256": "b1443820e9b3895068b746f2ab1765bc250382259300214670d526e6228b14cc"
+    },
+    "runtime": {
+      "path": "healing-c2-home--008/runtime.ogg",
+      "bytes": 11793,
+      "sha256": "4c9db53c412f49e84acf81104710beb702453ac75ec1f503f9f53d8d4c467a16"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

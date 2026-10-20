@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-contact--002",
+  "sceneId": "c3-contact",
+  "lineId": "c3-contact--002",
+  "lineIndex": 1,
+  "speaker": "许棠",
+  "text": "想再拍一张。但新漆是今天的，不能拿它补成那天。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 293563748,
+  "textSha256": "d704765ec3d2693d3cd726e0ae0f8503d27c8fcc3b034e2594d22dd22a483098",
+  "medium": "spoken",
+  "requestSha256": "2d9bdb0d29c9a315226eabf03b11b915caacc178a08ad6042fc4bf38490f388e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "想再拍一张但星期是今天的不能拿她补成那天",
+    "cer": 0.15,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.76,
+  "wallSeconds": 25.773,
+  "loudness": {
+    "input_i": "-20.48",
+    "input_tp": "-2.80",
+    "input_lra": "2.20",
+    "input_thresh": "-30.93",
+    "output_i": "-19.21",
+    "output_tp": "-2.00",
+    "output_lra": "2.10",
+    "output_thresh": "-29.82",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.79"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-contact--002/raw.wav",
+      "bytes": 553040,
+      "sha256": "8cbf8eedc2e911118b2a3372e8a06a04c71d4bb4e4a2debd92d29272fd9fcdb6"
+    },
+    "master": {
+      "path": "healing-c3-contact--002/master.wav",
+      "bytes": 276558,
+      "sha256": "44d94c4b465f50d84f9cfa868f75e11eca4d00342280e069d2447f67d6177fcd"
+    },
+    "runtime": {
+      "path": "healing-c3-contact--002/runtime.ogg",
+      "bytes": 43991,
+      "sha256": "d7bbd84ea7e39cc57b5a4cc29077b7d4c398eea8a789adb6d1c6e04a6d9a1b76"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--010",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--010",
+  "lineIndex": 9,
+  "speaker": "程屿",
+  "text": "你可以不把这些全接下来。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1828861357,
+  "textSha256": "48436fcb25ff4be40ffe5ff3340e0f1671eadc120d8a2612be04705cf50f7c7c",
+  "medium": "spoken",
+  "requestSha256": "ce861cc7ffcf72408f9279520215783b6695139b1395b7ce88dc31e2426154e6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你可以不把这些全接下来",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.84,
+  "wallSeconds": 63.427,
+  "loudness": {
+    "input_i": "-25.46",
+    "input_tp": "-7.53",
+    "input_lra": "0.00",
+    "input_thresh": "-35.46",
+    "output_i": "-19.98",
+    "output_tp": "-2.07",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--010/raw.wav",
+      "bytes": 176720,
+      "sha256": "83ceb8f30d2701de4e306f9ef216c94a730a0503992a76a8f9d15a75cb6b3829"
+    },
+    "master": {
+      "path": "healing-lunch-chen--010/master.wav",
+      "bytes": 88398,
+      "sha256": "eb06e7bd427a4bc62fad61cff278c464b5166184e03fb0cf3a8d6b17eb5a5712"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--010/runtime.ogg",
+      "bytes": 18448,
+      "sha256": "897dcb09e5b7a57c6da968901ff24dc02b51eec08b9d6e676904e7db4aad9200"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

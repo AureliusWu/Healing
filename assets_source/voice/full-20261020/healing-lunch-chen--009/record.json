@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--009",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--009",
+  "lineIndex": 8,
+  "speaker": "陈知遥",
+  "text": "别看我当班长就觉得我很能撑。我困的时候，也会对着黑板睁着眼睡觉。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 6789574,
+  "textSha256": "8a6b73a4afd3b730e9514daf37afe4e4bb8ae60d5e1dbbec0d1aafa321a58eb3",
+  "medium": "spoken",
+  "requestSha256": "c8a3f4f9e5def30a210637e2487e477df4cb72eed67a14f54e0f1b583351229e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "別看我當班長就覺得我很能撐我困的時候也會對著黑板爭著眼睡覺",
+    "cer": 0.103448,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.2,
+  "wallSeconds": 341.994,
+  "loudness": {
+    "input_i": "-19.39",
+    "input_tp": "-2.92",
+    "input_lra": "2.90",
+    "input_thresh": "-29.86",
+    "output_i": "-20.73",
+    "output_tp": "-4.23",
+    "output_lra": "4.00",
+    "output_thresh": "-31.20",
+    "normalization_type": "dynamic",
+    "target_offset": "0.73"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--009/raw.wav",
+      "bytes": 691280,
+      "sha256": "da776b5d895fda57a7fb27078c3c36a470263eb6a35c3d3decb6d80de6b8aed2"
+    },
+    "master": {
+      "path": "healing-lunch-chen--009/master.wav",
+      "bytes": 345678,
+      "sha256": "6aa079335da0bcc437f0d7dccb747ba6397998c0b7cbefb96581ed69da37c2fe"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--009/runtime.ogg",
+      "bytes": 53373,
+      "sha256": "88e57da1953e584ac96cf4e485382f23e6a222fc4900c848193984de42a348c3"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

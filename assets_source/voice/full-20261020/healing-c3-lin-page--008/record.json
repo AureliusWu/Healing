@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-page--008",
+  "sceneId": "c3-lin-page",
+  "lineId": "c3-lin-page--008",
+  "lineIndex": 7,
+  "speaker": "林见夏",
+  "text": "那早点来，椅子会擦干净。不是只擦你的。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1635508367,
+  "textSha256": "861b4f1bdadab6ba32897121e1e597a73a0e6f2d8d8ec5c15fbb1ba28de3bc68",
+  "medium": "spoken",
+  "requestSha256": "d3f9fc2eefc6fde5640e1052b9679c95f97d9b4d4e1724c3aead0d2c22149de8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那早點來,椅子會擦乾淨,不是只擦你的",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.4,
+  "wallSeconds": 122.895,
+  "loudness": {
+    "input_i": "-27.40",
+    "input_tp": "-10.45",
+    "input_lra": "1.60",
+    "input_thresh": "-37.78",
+    "output_i": "-19.78",
+    "output_tp": "-3.45",
+    "output_lra": "1.30",
+    "output_thresh": "-30.32",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.22"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-page--008/raw.wav",
+      "bytes": 422480,
+      "sha256": "373315890e29b6cff0cad8dd264669f10d1dc5f3e986467b8301c10d8ff93084"
+    },
+    "master": {
+      "path": "healing-c3-lin-page--008/master.wav",
+      "bytes": 211278,
+      "sha256": "34b96f5e478285a33ae1374055998fc02992d8f352764222c2245f02ae521635"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-page--008/runtime.ogg",
+      "bytes": 35020,
+      "sha256": "5abc2d9b948ac8b82082dd20ae131324014502aa231c3022d2781153d131c121"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

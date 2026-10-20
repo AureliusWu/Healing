@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-print--007",
+  "sceneId": "c3-print",
+  "lineId": "c3-print--007",
+  "lineIndex": 6,
+  "speaker": "贺川",
+  "text": "那我在照顾刚出炉的书。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 754073360,
+  "textSha256": "d4d2cf2f95f1ff3a22f8615e2c42f0188aef248fb6c3cf13a3616fd18838f0f1",
+  "medium": "spoken",
+  "requestSha256": "52311f2ff77aeb3ca621005e6311a37bb91a8f50c3c9136dfafc05a871b4c27a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那,我再照顾刚出炉的书。",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.68,
+  "wallSeconds": 21.612,
+  "loudness": {
+    "input_i": "-21.48",
+    "input_tp": "-3.55",
+    "input_lra": "1.00",
+    "input_thresh": "-31.75",
+    "output_i": "-19.95",
+    "output_tp": "-2.28",
+    "output_lra": "0.00",
+    "output_thresh": "-30.20",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.05"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-print--007/raw.wav",
+      "bytes": 353360,
+      "sha256": "03db99bb36a406f89e277ddd99608102f3678a8d773ba11d5a1b08fa9adf8807"
+    },
+    "master": {
+      "path": "healing-c3-print--007/master.wav",
+      "bytes": 176718,
+      "sha256": "8bde0e500ff6b619c7d117a82745133c91d1d4b01e06e66fa073478d3b65008d"
+    },
+    "runtime": {
+      "path": "healing-c3-print--007/runtime.ogg",
+      "bytes": 30902,
+      "sha256": "b294569f6b64462875dc53d5d76fdd8221db57f3afbb2f8a1cc38cf8f9cebd47"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

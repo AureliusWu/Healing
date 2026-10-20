@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-open--010",
+  "sceneId": "c2-open",
+  "lineId": "c2-open--010",
+  "lineIndex": 9,
+  "speaker": "许棠",
+  "text": "可以。送到机器里以前，都能改。送进去以后，也得知道哪一版用了什么。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1478878739,
+  "textSha256": "588252d5d79822c41e4bd5972c163397aa6d25a4453cd4a28b743df81e0bfefb",
+  "medium": "spoken",
+  "requestSha256": "af057db246c985f5f9a9679870904c6f7ce4c8085968433dc473eac85fef43f9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以,送到机器里以前都能改,送进去以后也得知道哪一版用了什么。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.48,
+  "wallSeconds": 414.208,
+  "loudness": {
+    "input_i": "-19.09",
+    "input_tp": "-4.36",
+    "input_lra": "0.60",
+    "input_thresh": "-29.48",
+    "output_i": "-19.79",
+    "output_tp": "-5.14",
+    "output_lra": "0.70",
+    "output_thresh": "-30.15",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.21"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-open--010/raw.wav",
+      "bytes": 814160,
+      "sha256": "9d747771a52fe7b02e8df05211277c4542c25b69d6bbc2cf8487d32ca507c113"
+    },
+    "master": {
+      "path": "healing-c2-open--010/master.wav",
+      "bytes": 407118,
+      "sha256": "bec76f9b654f353657acd38a53c484e1f6d1c8a95b69c8e498ffb6dc888696d3"
+    },
+    "runtime": {
+      "path": "healing-c2-open--010/runtime.ogg",
+      "bytes": 60673,
+      "sha256": "278ec4a4efb9edf5309c9713bd6c50dc2414228cb952d9cc0028c1ccfccf3978"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

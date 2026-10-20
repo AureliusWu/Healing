@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-chen--008",
+  "sceneId": "c2-parent-chen",
+  "lineId": "c2-parent-chen--008",
+  "lineIndex": 7,
+  "speaker": "陈知遥",
+  "text": "以前做完，就没有时间睡觉。我没把这些告诉你。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1400747283,
+  "textSha256": "7300cb526b6008ad63142c7f60bc0302ae454ac8b9aaf6899ecdffc0b052605d",
+  "medium": "spoken",
+  "requestSha256": "943dd29ae8250f8530ce977f37605edd344bf8b66fdadc8ac38b6267d67a5147",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以前做完 就沒有時間睡覺 我沒把這些告訴你",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.6,
+  "wallSeconds": 25.257,
+  "loudness": {
+    "input_i": "-18.38",
+    "input_tp": "-4.75",
+    "input_lra": "0.80",
+    "input_thresh": "-28.79",
+    "output_i": "-19.19",
+    "output_tp": "-5.26",
+    "output_lra": "2.10",
+    "output_thresh": "-29.59",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.81"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-chen--008/raw.wav",
+      "bytes": 537680,
+      "sha256": "bdd2d3c803bda4067f5c4ef77bb4d2350e75b82da03fae0ed02ab288469e8571"
+    },
+    "master": {
+      "path": "healing-c2-parent-chen--008/master.wav",
+      "bytes": 268878,
+      "sha256": "4d55f191ece3a78d22c837a7c9a5e184b9291f67903f9475344750c166cba37d"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-chen--008/runtime.ogg",
+      "bytes": 41373,
+      "sha256": "0f4a227ebc7a36fd3bc0e2ef1aa95e843d657dd70c18a209e894527c33065c53"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

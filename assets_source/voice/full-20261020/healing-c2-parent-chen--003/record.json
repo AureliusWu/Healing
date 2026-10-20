@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-chen--003",
+  "sceneId": "c2-parent-chen",
+  "lineId": "c2-parent-chen--003",
+  "lineIndex": 2,
+  "speaker": "陈知遥",
+  "text": "负责也得有人接手。今天想五点二十出校门。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1803934831,
+  "textSha256": "af990f6aa2b718b6e14f5c1c89b7bc528d762f681e5ed7d946605341f3d53659",
+  "medium": "spoken",
+  "requestSha256": "37a1fc1de13cfbe7e05c50fa7fd648762169ffc38ce8cb360177dec893c584e9",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "負責也得有人接手今天想5點20出校門",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.88,
+  "wallSeconds": 158.942,
+  "loudness": {
+    "input_i": "-18.59",
+    "input_tp": "-4.02",
+    "input_lra": "2.10",
+    "input_thresh": "-29.15",
+    "output_i": "-17.77",
+    "output_tp": "-3.59",
+    "output_lra": "1.20",
+    "output_thresh": "-28.22",
+    "normalization_type": "dynamic",
+    "target_offset": "-2.23"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-chen--003/raw.wav",
+      "bytes": 468560,
+      "sha256": "fb180386c4c6d5f54bbd8b1748092d12ed243170b45b87c6d2b5bcd789db40bd"
+    },
+    "master": {
+      "path": "healing-c2-parent-chen--003/master.wav",
+      "bytes": 234318,
+      "sha256": "e88bc3ae791d7d3273a0f18a88965f546f77d5d2a4c914470739215ba4436e01"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-chen--003/runtime.ogg",
+      "bytes": 36912,
+      "sha256": "291ccb2994f16d628fa7ef592e473008010da602c5f71d099a4528bfeb18a24a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-honest--012",
+  "sceneId": "desk-honest",
+  "lineId": "desk-honest--012",
+  "lineIndex": 11,
+  "speaker": "林见夏",
+  "text": "先承认今天很累。剩下的……我还在学。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 104242127,
+  "textSha256": "e8cae0f4e8986a96a54ba1628611c19807a35702bc8e50e094ea8efeac969ead",
+  "medium": "spoken",
+  "requestSha256": "91f263fbc65dfefc49e95fecf383bb0222baf659586e3b2d7f4a64cb65750b8e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先承认今天很累剩下的我还在学",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.64,
+  "wallSeconds": 307.138,
+  "loudness": {
+    "input_i": "-27.52",
+    "input_tp": "-11.14",
+    "input_lra": "4.50",
+    "input_thresh": "-37.76",
+    "output_i": "-20.28",
+    "output_tp": "-4.85",
+    "output_lra": "4.50",
+    "output_thresh": "-30.86",
+    "normalization_type": "dynamic",
+    "target_offset": "0.28"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-honest--012/raw.wav",
+      "bytes": 637520,
+      "sha256": "3a4153397acd86ca482210fa226e1c1d1acb23cebf6de91f26ae4c98eac1f8eb"
+    },
+    "master": {
+      "path": "healing-desk-honest--012/master.wav",
+      "bytes": 318798,
+      "sha256": "65660e78ca17410ccb081de9afc9c6106d97178081389b92b90cccbaf5aa40e7"
+    },
+    "runtime": {
+      "path": "healing-desk-honest--012/runtime.ogg",
+      "bytes": 47226,
+      "sha256": "0cf7428702bab73dadc37f5ed8636666bd9e23e4b6d3a99d99fee2b1b306ca81"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

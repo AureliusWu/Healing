@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-chen--013",
+  "sceneId": "rain-chen",
+  "lineId": "rain-chen--013",
+  "lineIndex": 12,
+  "speaker": "陈知遥",
+  "text": "谢谢你陪我。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1069472265,
+  "textSha256": "ffa76ba70b3b8321ad7ee6a10766f255dfded8eeec6daaa59a47eac7285b2a3e",
+  "medium": "spoken",
+  "requestSha256": "e86024f1be27be343ccae364c6be522f8d8347246acd4512146ed5b85c4ca259",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "謝謝你陪我",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 38.313,
+  "loudness": {
+    "input_i": "-16.64",
+    "input_tp": "-5.87",
+    "input_lra": "0.00",
+    "input_thresh": "-26.64",
+    "output_i": "-20.01",
+    "output_tp": "-9.23",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-chen--013/raw.wav",
+      "bytes": 99920,
+      "sha256": "a68b921b6717f2e4f22c4897126332a799b7e4cfe948045ede73edbb424d5e6b"
+    },
+    "master": {
+      "path": "healing-rain-chen--013/master.wav",
+      "bytes": 49998,
+      "sha256": "a92d8857590d3aeae8fdf4618f30e07e3bcbd89eaebf85fe2358230cfcfa94af"
+    },
+    "runtime": {
+      "path": "healing-rain-chen--013/runtime.ogg",
+      "bytes": 11099,
+      "sha256": "666eb09f742482e9aa3a2be9758c35a76e6d348e294e34220c726199411e8195"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

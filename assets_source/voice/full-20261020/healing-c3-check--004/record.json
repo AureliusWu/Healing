@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-check--004",
+  "sceneId": "c3-check",
+  "lineId": "c3-check--004",
+  "lineIndex": 3,
+  "speaker": "陈知遥",
+  "text": "是你做过的。写名字没要求先做得无可挑剔。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 891132058,
+  "textSha256": "ac7b70237ad61344686fe7e22179a6fe36ba98d21c40eb4cee657a2b8004e550",
+  "medium": "spoken",
+  "requestSha256": "bc33d4f8dcf9e9df4fc0cd313967065d37a7a7b55ee49ec541a7574c8f4094f2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "是你做过的写名字没要求先做的无可挑剔",
+    "cer": 0.055556,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.88,
+  "wallSeconds": 157.912,
+  "loudness": {
+    "input_i": "-22.10",
+    "input_tp": "-6.43",
+    "input_lra": "0.60",
+    "input_thresh": "-32.71",
+    "output_i": "-19.93",
+    "output_tp": "-4.40",
+    "output_lra": "0.20",
+    "output_thresh": "-30.66",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.07"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-check--004/raw.wav",
+      "bytes": 468560,
+      "sha256": "1b54cf75eeffdbeaceab28de50f534b258c9e2b2e7ca20c4390e8c8159fffa88"
+    },
+    "master": {
+      "path": "healing-c3-check--004/master.wav",
+      "bytes": 234318,
+      "sha256": "ba0f1d4ee4d4196be9925ae9981ff425c9fcf8487000ce320d99c1d417bbbeb1"
+    },
+    "runtime": {
+      "path": "healing-c3-check--004/runtime.ogg",
+      "bytes": 38065,
+      "sha256": "0436f56f66a3def6c18422a223995a16859764933050d34c9846f8c45afc1039"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

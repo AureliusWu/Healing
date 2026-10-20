@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-safe--006",
+  "sceneId": "draft-safe",
+  "lineId": "draft-safe--006",
+  "lineIndex": 5,
+  "speaker": "林见夏",
+  "text": "这条走廊写得很好。你在里面吗？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1615375943,
+  "textSha256": "e7dfc0dc30b56903be93300506c81bcc2581668dcd30f75470e3b8112af9b174",
+  "medium": "spoken",
+  "requestSha256": "180115d70ed09955ca9b8299f68f61445eb7c47e4abe84bf4431cdff8c257d46",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这条走廊洗得很好你在里面吗",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.2,
+  "wallSeconds": 213.684,
+  "loudness": {
+    "input_i": "-23.79",
+    "input_tp": "-10.25",
+    "input_lra": "0.20",
+    "input_thresh": "-34.11",
+    "output_i": "-19.38",
+    "output_tp": "-5.88",
+    "output_lra": "0.00",
+    "output_thresh": "-29.86",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.62"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-safe--006/raw.wav",
+      "bytes": 307280,
+      "sha256": "ae76eb610819000a98037da09a4a9069e3389b6a70b71ff9ca4b8450f9a25138"
+    },
+    "master": {
+      "path": "healing-draft-safe--006/master.wav",
+      "bytes": 153678,
+      "sha256": "418795ff453500add2103703459eae71640de8fc60d85a00abf7f4009952d85f"
+    },
+    "runtime": {
+      "path": "healing-draft-safe--006/runtime.ogg",
+      "bytes": 25734,
+      "sha256": "e3bf3ad95ab91b87b6e773c1350ea014fafffcdd3b3e23e326818623d97f5d7c"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

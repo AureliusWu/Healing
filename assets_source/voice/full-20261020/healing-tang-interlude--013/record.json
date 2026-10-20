@@ -1,0 +1,55 @@
+{
+  "id": "healing-tang-interlude--013",
+  "sceneId": "tang-interlude",
+  "lineId": "tang-interlude--013",
+  "lineIndex": 12,
+  "speaker": "许棠",
+  "text": "那我明天自己问她。今天这张先不动。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1547015285,
+  "textSha256": "51d7f6ad1c3118d7dbcd86bb9dc33cbebd3a0c11f261da09508be5c221ffbd09",
+  "medium": "spoken",
+  "requestSha256": "e4c793066dc80eede2c069ffd58160e409e44293b86a539aa5dc9b2698332ef9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那我明天自己問他,今天這張先不動",
+    "cer": 0.066667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 134.829,
+  "loudness": {
+    "input_i": "-17.58",
+    "input_tp": "-4.29",
+    "input_lra": "0.30",
+    "input_thresh": "-28.05",
+    "output_i": "-19.40",
+    "output_tp": "-6.20",
+    "output_lra": "0.00",
+    "output_thresh": "-29.87",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.60"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-tang-interlude--013/raw.wav",
+      "bytes": 299600,
+      "sha256": "02221bff67166055f33329cadcd588f9d46cb40ced46c378cca8590c264f753b"
+    },
+    "master": {
+      "path": "healing-tang-interlude--013/master.wav",
+      "bytes": 149838,
+      "sha256": "b9f6dca7635aa910ad8aa4c7ee59ad95ed204901acee21cfdee68cc7f5433572"
+    },
+    "runtime": {
+      "path": "healing-tang-interlude--013/runtime.ogg",
+      "bytes": 25325,
+      "sha256": "0a58ecab33cc76c138f10e430f97c29fabafaed4a2075bb2f359d0129d19948f"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

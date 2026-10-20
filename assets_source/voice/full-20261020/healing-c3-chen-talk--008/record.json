@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-talk--008",
+  "sceneId": "c3-chen-talk",
+  "lineId": "c3-chen-talk--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "陪你到六点。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 346428335,
+  "textSha256": "d321b4d9661b3bc696d3e0ff494091d16a26120176a4470e91eb3671ca6a7ee7",
+  "medium": "spoken",
+  "requestSha256": "99a0de5a5ff493d9feec598413ad08b2bb6e8a593da64fe1665b8e8fa546c28f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "陪你到6点",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 38.259,
+  "loudness": {
+    "input_i": "-24.68",
+    "input_tp": "-9.18",
+    "input_lra": "0.00",
+    "input_thresh": "-34.68",
+    "output_i": "-20.00",
+    "output_tp": "-4.49",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-talk--008/raw.wav",
+      "bytes": 99920,
+      "sha256": "86e209e2e4dde9ab6e1d2dec99e71fefe6b7672ccc7b20ce66f28f229ee71a45"
+    },
+    "master": {
+      "path": "healing-c3-chen-talk--008/master.wav",
+      "bytes": 49998,
+      "sha256": "6ec083a597ead5ae884e59966e1efaf899446c69a69fd91b64561160940f2950"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-talk--008/runtime.ogg",
+      "bytes": 12636,
+      "sha256": "78c9c0a3f9b430bfb110a8663d7c8c352df7282abb9b859e6a441473ccfcead1"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

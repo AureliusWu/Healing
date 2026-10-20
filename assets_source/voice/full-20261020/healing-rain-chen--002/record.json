@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-chen--002",
+  "sceneId": "rain-chen",
+  "lineId": "rain-chen--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "你不赶车吗？",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 6046289,
+  "textSha256": "4762ea84e3c15af68eed1542e0d3b592ce82b7cf1aff8a1ab2a168e2983c9e86",
+  "medium": "spoken",
+  "requestSha256": "983e2adc44010877d536278c2f707bd9ae606bd51807274e185cd09a6ff6dee6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你不敢車嗎?",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.96,
+  "wallSeconds": 60.151,
+  "loudness": {
+    "input_i": "-17.20",
+    "input_tp": "-2.86",
+    "input_lra": "0.00",
+    "input_thresh": "-27.20",
+    "output_i": "-20.00",
+    "output_tp": "-5.66",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-chen--002/raw.wav",
+      "bytes": 92240,
+      "sha256": "1b6d168e8abc31f2367c5cdd445cedc9b837404e39fabba980bc20bb2f95215b"
+    },
+    "master": {
+      "path": "healing-rain-chen--002/master.wav",
+      "bytes": 46158,
+      "sha256": "704041df0ae6a301820b72c1a2bed8da6765f7004fe6251d128c36e9d5b22bf0"
+    },
+    "runtime": {
+      "path": "healing-rain-chen--002/runtime.ogg",
+      "bytes": 10381,
+      "sha256": "290abdd87aca960eb1a0b2959ce79824abccd815a801415cad14fc196d8d58ac"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

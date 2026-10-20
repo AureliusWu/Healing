@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-open--007",
+  "sceneId": "c3-open",
+  "lineId": "c3-open--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "两道没做出来，圈好了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1823223372,
+  "textSha256": "b43d29a46cbefafa60537303191cf679a739897ddadaca26bff716d21aa0ab1b",
+  "medium": "spoken",
+  "requestSha256": "8cd37948d3c589b0e09eb680a053dabec69dfc98732428fc6dcfef95578b5448",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "两道没做出来穿好了",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.16,
+  "wallSeconds": 13.29,
+  "loudness": {
+    "input_i": "-22.91",
+    "input_tp": "-4.36",
+    "input_lra": "0.00",
+    "input_thresh": "-32.91",
+    "output_i": "-20.53",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.53",
+    "normalization_type": "linear",
+    "target_offset": "0.53"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-open--007/raw.wav",
+      "bytes": 207440,
+      "sha256": "cc56f07bf0a380da5eb6e5fae4943606aa3ae99793c1b5c8e9fd9a1d78ad0a29"
+    },
+    "master": {
+      "path": "healing-c3-open--007/master.wav",
+      "bytes": 103758,
+      "sha256": "f26b6b8f1936cb274ea5d71385729d7580536bd8f51b84c994c857f0c3af6f84"
+    },
+    "runtime": {
+      "path": "healing-c3-open--007/runtime.ogg",
+      "bytes": 21131,
+      "sha256": "ff7becbfdf7d8aa699c0dbd6e2bdf28b892cc9dd0510d12e40a47630c1810384"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

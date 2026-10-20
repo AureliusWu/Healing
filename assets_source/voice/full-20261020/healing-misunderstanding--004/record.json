@@ -1,0 +1,55 @@
+{
+  "id": "healing-misunderstanding--004",
+  "sceneId": "misunderstanding",
+  "lineId": "misunderstanding--004",
+  "lineIndex": 3,
+  "speaker": "陈知遥",
+  "text": "我没看。我只是……",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 869424719,
+  "textSha256": "cd461df53eb3d6ca3531af45c9b309192503c7a18e99125639a9fb66b2f564dc",
+  "medium": "spoken",
+  "requestSha256": "8f345e18d862e4d4e8d6044cc9fd10b9ce25d6ac5570fb725a87b1826a04397b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我没看,我只是……",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.24,
+  "wallSeconds": 127.77,
+  "loudness": {
+    "input_i": "-18.49",
+    "input_tp": "-3.78",
+    "input_lra": "0.00",
+    "input_thresh": "-29.57",
+    "output_i": "-20.00",
+    "output_tp": "-5.30",
+    "output_lra": "0.00",
+    "output_thresh": "-31.09",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-misunderstanding--004/raw.wav",
+      "bytes": 215120,
+      "sha256": "1752bb02e6d39d792fc5a95782bfacbe601954fdaa3571c7b96e3430955e06a0"
+    },
+    "master": {
+      "path": "healing-misunderstanding--004/master.wav",
+      "bytes": 107598,
+      "sha256": "420407d5abfa92b0605b29ac1fb5d604058ccfafa6b78bb9457ae4e59e93c4c4"
+    },
+    "runtime": {
+      "path": "healing-misunderstanding--004/runtime.ogg",
+      "bytes": 18683,
+      "sha256": "a973daf556db4983c3726aded3f11a01d416a4735ee6d741b06ab98716968c39"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

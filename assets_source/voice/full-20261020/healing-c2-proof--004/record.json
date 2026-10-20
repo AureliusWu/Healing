@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-proof--004",
+  "sceneId": "c2-proof",
+  "lineId": "c2-proof--004",
+  "lineIndex": 3,
+  "speaker": "林见夏",
+  "text": "这里少了一句。“我想继续写”，后面还有“不是只想试一次”。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 49632238,
+  "textSha256": "724114b029ec665f922806d2db3e454933f68de013637cd4022cd7c5dca24196",
+  "medium": "spoken",
+  "requestSha256": "5683f76d6c5546e3252e950a5b11341217e9a9b608e75c414745e106a22f4f4d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这里赏了一句,我想继续写,后面还有,不是只想试一次。",
+    "cer": 0.045455,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.24,
+  "wallSeconds": 47.867,
+  "loudness": {
+    "input_i": "-27.25",
+    "input_tp": "-10.61",
+    "input_lra": "0.90",
+    "input_thresh": "-37.66",
+    "output_i": "-19.80",
+    "output_tp": "-3.14",
+    "output_lra": "0.60",
+    "output_thresh": "-30.26",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.20"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-proof--004/raw.wav",
+      "bytes": 599120,
+      "sha256": "d761f6fbbce0fef75a227753b3ae368cd1dfcb4f460076f0ccc8ad5efa93d126"
+    },
+    "master": {
+      "path": "healing-c2-proof--004/master.wav",
+      "bytes": 299598,
+      "sha256": "cea803a2b009c3df20d74db5cbcd71d918185dff1cf19f1a39f04e910eb46a56"
+    },
+    "runtime": {
+      "path": "healing-c2-proof--004/runtime.ogg",
+      "bytes": 47021,
+      "sha256": "ec032099aab6db472c981e71d86de3c317683f3bfe24629233ebfb1dc23fafdf"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

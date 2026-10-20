@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-revision--009",
+  "sceneId": "c3-revision",
+  "lineId": "c3-revision--009",
+  "lineIndex": 8,
+  "speaker": "程屿",
+  "text": "我想给自己那页加一句，后来圈出了没做完的题。我没有全部完成，但说了还差哪一步。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 474996485,
+  "textSha256": "f547113c560008610d1eccbac069add73b9351172098a29e7d5df80bbb9e7133",
+  "medium": "spoken",
+  "requestSha256": "90682aa8177ec0ec8137fbdff44624d82cad68f11ccea5b56af28b71d5e67ad1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我想给自己那页加一句,后来圈出了没做完的题,我没有全部完成,但说了还差哪一步。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.76,
+  "wallSeconds": 74.208,
+  "loudness": {
+    "input_i": "-28.02",
+    "input_tp": "-8.91",
+    "input_lra": "2.70",
+    "input_thresh": "-38.74",
+    "output_i": "-19.87",
+    "output_tp": "-2.00",
+    "output_lra": "2.80",
+    "output_thresh": "-30.83",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.13"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-revision--009/raw.wav",
+      "bytes": 937040,
+      "sha256": "2fd1e802d0f9c42e841d0b651c0b3c7f1b8720d938d776b572bd0f60ec930ec5"
+    },
+    "master": {
+      "path": "healing-c3-revision--009/master.wav",
+      "bytes": 468558,
+      "sha256": "6411d7ba63de089110eab6b1c5d0614a00e8be1695e1267565636185482dc711"
+    },
+    "runtime": {
+      "path": "healing-c3-revision--009/runtime.ogg",
+      "bytes": 71768,
+      "sha256": "1af154da28e3b9131f48c05075a6eeb5dd12a42c571cc29e41b3434fd7844f7f"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

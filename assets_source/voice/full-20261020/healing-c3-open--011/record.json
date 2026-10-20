@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-open--011",
+  "sceneId": "c3-open",
+  "lineId": "c3-open--011",
+  "lineIndex": 10,
+  "speaker": "林见夏",
+  "text": "第二周去外婆家，没有留出来。我没在车上把一小时抢回来。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 163566838,
+  "textSha256": "d0c331550b8b7ec02293b34d73bee0770e8c867b37a9442bfd550e14dc5db2cf",
+  "medium": "spoken",
+  "requestSha256": "17d3b2077736c3484f6d1de0847d6b780a8056d0a6ad32d71fb514cc2a5e8c79",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "第二周去外婆家 没有留出来我没在车上 把一小时抢回来",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.28,
+  "wallSeconds": 260.811,
+  "loudness": {
+    "input_i": "-27.83",
+    "input_tp": "-11.15",
+    "input_lra": "1.10",
+    "input_thresh": "-38.13",
+    "output_i": "-19.82",
+    "output_tp": "-3.80",
+    "output_lra": "2.00",
+    "output_thresh": "-30.11",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-open--011/raw.wav",
+      "bytes": 506960,
+      "sha256": "aef566901d474feacdda4579a45b2375a0816fdaf6a09040267cc2515a32ded4"
+    },
+    "master": {
+      "path": "healing-c3-open--011/master.wav",
+      "bytes": 253518,
+      "sha256": "9d56983d589cf028eb5621743c4f5638f57bd1b77ddc41c998dc0fb5a590a1fd"
+    },
+    "runtime": {
+      "path": "healing-c3-open--011/runtime.ogg",
+      "bytes": 41298,
+      "sha256": "aff796627ad94360a9cc9bbbe5b4d43ccde73cec3fe4afe44c61309f8f657c98"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

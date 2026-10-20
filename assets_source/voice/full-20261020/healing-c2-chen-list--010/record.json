@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-chen-list--010",
+  "sceneId": "c2-chen-list",
+  "lineId": "c2-chen-list--010",
+  "lineIndex": 9,
+  "speaker": "陈知遥",
+  "text": "五点五十还是走。你别因为我删了两项，又替我找两项更有用的。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 500051232,
+  "textSha256": "779d652fd89fc5e4bf3a03772ae682c1835f079593bc832d2ef76a5567012c59",
+  "medium": "spoken",
+  "requestSha256": "22cdccc6d1e9a2593bd68b33ea7cfae1945900b9524e5f92cc378a28c8a20265",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我点五十还是走你别因为我删了两项又替我找两项更有用的",
+    "cer": 0.038462,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.0,
+  "wallSeconds": 228.021,
+  "loudness": {
+    "input_i": "-19.58",
+    "input_tp": "-2.66",
+    "input_lra": "2.20",
+    "input_thresh": "-30.02",
+    "output_i": "-18.90",
+    "output_tp": "-2.19",
+    "output_lra": "1.80",
+    "output_thresh": "-29.41",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.10"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-chen-list--010/raw.wav",
+      "bytes": 576080,
+      "sha256": "619047e333a70f2edc379ab154f9f0059fa58c5a971862b0fbe3db26262ec3bc"
+    },
+    "master": {
+      "path": "healing-c2-chen-list--010/master.wav",
+      "bytes": 288078,
+      "sha256": "ff97345d6dd9e60f504cb5a918d5c99d2befc60aae8fec42b9c934611f4eded8"
+    },
+    "runtime": {
+      "path": "healing-c2-chen-list--010/runtime.ogg",
+      "bytes": 44584,
+      "sha256": "b1ef70aa9e32044bc34d9fad3402c3fbf678aa9c11307b64e52115147916068b"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

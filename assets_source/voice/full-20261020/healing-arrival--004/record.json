@@ -1,0 +1,55 @@
+{
+  "id": "healing-arrival--004",
+  "sceneId": "arrival",
+  "lineId": "arrival--004",
+  "lineIndex": 3,
+  "speaker": "贺川",
+  "text": "你先把这个愿望留给数学老师。他昨天嗓子哑了，照样给我们讲完了两张卷子。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 315927144,
+  "textSha256": "0917824e38782f739d2e7d44ddd26c41a0bb5220abd34e7664f2ad898fa5b85d",
+  "medium": "spoken",
+  "requestSha256": "db0c49676e08ac03a657b01ee28f0f898aa64a6ed45541278a9bd4681cdfa0e4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "呵呵,你先把这个愿望留给数学老师他昨天嗓子哑了照样给我们讲完了两张卷子",
+    "cer": 0.0625,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 10.08,
+  "wallSeconds": 610.386,
+  "loudness": {
+    "input_i": "-24.94",
+    "input_tp": "-6.19",
+    "input_lra": "2.10",
+    "input_thresh": "-35.69",
+    "output_i": "-20.57",
+    "output_tp": "-2.00",
+    "output_lra": "1.60",
+    "output_thresh": "-31.39",
+    "normalization_type": "dynamic",
+    "target_offset": "0.57"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-arrival--004/raw.wav",
+      "bytes": 967760,
+      "sha256": "07f622e9ad97eee7b4cfe2e8e913b3082cf50bac50aa682651019fb8eb34c0ca"
+    },
+    "master": {
+      "path": "healing-arrival--004/master.wav",
+      "bytes": 483918,
+      "sha256": "30c288d8816fec0c6418c3b22f071ec6a17d2fe7023259c7b6ae01bf12b06069"
+    },
+    "runtime": {
+      "path": "healing-arrival--004/runtime.ogg",
+      "bytes": 71685,
+      "sha256": "75b781d3cfa259cda03aad50a5d2412ced38d37ef187e8c172173577b83823d5"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

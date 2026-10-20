@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk--010",
+  "sceneId": "desk",
+  "lineId": "desk--010",
+  "lineIndex": 9,
+  "speaker": "林见夏",
+  "text": "校刊征稿的题目。还没想好。你有想写的东西吗？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 930169389,
+  "textSha256": "04e5db0ff3701b3805eb50fdbb717699481f5070369dc6fcedef304a8890b67a",
+  "medium": "spoken",
+  "requestSha256": "46f312539ac53237c8e60627b2cd417f20ed4405c99e9151d5d85aa0eae63776",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "《笑刊真告》的题目还没想好你有想写的东西吗?",
+    "cer": 0.157895,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 189.764,
+  "loudness": {
+    "input_i": "-26.84",
+    "input_tp": "-11.49",
+    "input_lra": "0.60",
+    "input_thresh": "-37.13",
+    "output_i": "-18.75",
+    "output_tp": "-3.44",
+    "output_lra": "0.40",
+    "output_thresh": "-29.13",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.25"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk--010/raw.wav",
+      "bytes": 384080,
+      "sha256": "18b5b8a35b82f765882bdd4d47ec4cb68444a55978d01e5a2c40d7c85c24e9b9"
+    },
+    "master": {
+      "path": "healing-desk--010/master.wav",
+      "bytes": 192078,
+      "sha256": "d04377bbdf4334414f4e4d0fa268c6f75d71f6150127a0922503f3b68ad2bcbd"
+    },
+    "runtime": {
+      "path": "healing-desk--010/runtime.ogg",
+      "bytes": 32181,
+      "sha256": "7a8f63f624c8eabada27da50c1420eaf347911b3a3bae20e907d15fb47e8228a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-chen-list--008",
+  "sceneId": "c2-chen-list",
+  "lineId": "c2-chen-list--008",
+  "lineIndex": 7,
+  "speaker": "陈知遥",
+  "text": "那我只确认一次。搬完也自己告诉我，别等我去问。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1111721259,
+  "textSha256": "b7f2dbb9950775dbc838192f4348af3f01a21b894f74f0506e1a3cd5228f1f84",
+  "medium": "spoken",
+  "requestSha256": "d8df6c0c7c797ab6e1335dec27ade9f8bbb02d82fbe41378d1eab08a41fe0ee6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那我只確認一次班婉也自己告訴我別等我去問",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.04,
+  "wallSeconds": 162.823,
+  "loudness": {
+    "input_i": "-19.71",
+    "input_tp": "-5.46",
+    "input_lra": "2.40",
+    "input_thresh": "-30.24",
+    "output_i": "-19.46",
+    "output_tp": "-4.86",
+    "output_lra": "2.70",
+    "output_thresh": "-29.91",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.54"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-chen-list--008/raw.wav",
+      "bytes": 483920,
+      "sha256": "108956f0703bee38e0208feaf6404854661bee5e31ab1382aa32bd876d92cf31"
+    },
+    "master": {
+      "path": "healing-c2-chen-list--008/master.wav",
+      "bytes": 241998,
+      "sha256": "1dcbbf121a19dc85d048051f5d4bb8c445c72040ea54ea541aaefa6dc7979183"
+    },
+    "runtime": {
+      "path": "healing-c2-chen-list--008/runtime.ogg",
+      "bytes": 37131,
+      "sha256": "af8bb486eec9bfb8b47807a51ce263ece855b5af8ef7e2ba5d64a01838fd4b1e"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

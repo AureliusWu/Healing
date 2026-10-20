@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-talk--003",
+  "sceneId": "c3-chen-talk",
+  "lineId": "c3-chen-talk--003",
+  "lineIndex": 2,
+  "speaker": "陈知遥",
+  "text": "是从教室出来，没有先问别人需不需要我。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1612478995,
+  "textSha256": "a82ca881e01e1e5f861a178bfc29c6ac56fe55c0f0ade33e789b23c1cfd28b8c",
+  "medium": "spoken",
+  "requestSha256": "523beff2a84a75cc41c0e28706b733bb7ae26a93958625a3b7e9691c063549b2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "是从教室出来,没有先问别人需不需要我",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 17.738,
+  "loudness": {
+    "input_i": "-19.46",
+    "input_tp": "-6.31",
+    "input_lra": "0.60",
+    "input_thresh": "-29.90",
+    "output_i": "-19.53",
+    "output_tp": "-6.56",
+    "output_lra": "0.00",
+    "output_thresh": "-29.93",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.47"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-talk--003/raw.wav",
+      "bytes": 361040,
+      "sha256": "5632635d55ec6c08c6b5d2584026d3185e1193a40af3e4b7b669b413c1d585b3"
+    },
+    "master": {
+      "path": "healing-c3-chen-talk--003/master.wav",
+      "bytes": 180558,
+      "sha256": "0959462edd0dc02671c3592518f186806a8556201ed65f811c4a3c65363dce90"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-talk--003/runtime.ogg",
+      "bytes": 29745,
+      "sha256": "006e31989efe270ef4b8c427f476f2dd6bf02301262b718f913601a6b21d7d32"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

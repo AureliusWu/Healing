@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--012",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--012",
+  "lineIndex": 11,
+  "speaker": "程屿",
+  "text": "如果真得全部做好，很多人可能一辈子都没资格。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1755247452,
+  "textSha256": "839f26409012920d30870b18f210c9ed4211211499dc685ca149943856de15f7",
+  "medium": "spoken",
+  "requestSha256": "7f679d77753568fda0410450c9dae0c433bb9a3063260fcb6467496e789dd9eb",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "如果真得全部做好很多人可能一辈子都没资格",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 16.462,
+  "loudness": {
+    "input_i": "-27.63",
+    "input_tp": "-9.90",
+    "input_lra": "1.60",
+    "input_thresh": "-37.63",
+    "output_i": "-20.36",
+    "output_tp": "-3.15",
+    "output_lra": "0.00",
+    "output_thresh": "-30.36",
+    "normalization_type": "dynamic",
+    "target_offset": "0.36"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--012/raw.wav",
+      "bytes": 345680,
+      "sha256": "1d9da5884204ccac85586fc210db91de7c7f0bf7fd4f6077953aa9cb02deba34"
+    },
+    "master": {
+      "path": "healing-lunch-lin--012/master.wav",
+      "bytes": 172878,
+      "sha256": "8408d7eeab327b8d52802351b10e84ebc9d8138c05bdc4f6cab25bd1346db2e9"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--012/runtime.ogg",
+      "bytes": 32385,
+      "sha256": "8555e83fd704839a067ee4a8d95f6d02b8a69fdb676798e2dba8745cedd4559b"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

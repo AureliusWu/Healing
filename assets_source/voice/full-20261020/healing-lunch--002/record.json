@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch--002",
+  "sceneId": "lunch",
+  "lineId": "lunch--002",
+  "lineIndex": 1,
+  "speaker": "母亲",
+  "text": "晚上给我打个电话。",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 16617533,
+  "textSha256": "d33a19942db48b0a6a765bd08eab6758049f71c05c3ec533917a0ea87e7f7db4",
+  "medium": "spoken",
+  "requestSha256": "808e9115af82b64fb27af1f5dad04521dbcaa8a9d4fb72bf46c1c26ce846d7c7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "晚上给我打的电话",
+    "cer": 0.125,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.36,
+  "wallSeconds": 9.57,
+  "loudness": {
+    "input_i": "-21.72",
+    "input_tp": "-7.47",
+    "input_lra": "0.00",
+    "input_thresh": "-31.72",
+    "output_i": "-20.00",
+    "output_tp": "-5.74",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch--002/raw.wav",
+      "bytes": 130640,
+      "sha256": "b8cb2b57c461b5c10bbacbf16898dbca1653f731621bea20c0b1e8b4500f26ea"
+    },
+    "master": {
+      "path": "healing-lunch--002/master.wav",
+      "bytes": 65358,
+      "sha256": "1229949ed6e05365715bc5af3dac1c2ebfcc0cd8b02698892a10aa5e8dfd9922"
+    },
+    "runtime": {
+      "path": "healing-lunch--002/runtime.ogg",
+      "bytes": 14183,
+      "sha256": "ca800280da17468a0d201f16d61dab270312bd9fe2a14630dbdf14fe15432380"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

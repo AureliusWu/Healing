@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-give--009",
+  "sceneId": "c3-give",
+  "lineId": "c3-give--009",
+  "lineIndex": 8,
+  "speaker": "林见夏",
+  "text": "问过，他说名字已经印了。我只好签旁边。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1757915393,
+  "textSha256": "0f3e37665b2cb81aec51598d7fa83133c920dc06cddd4f8a3046807c817f3251",
+  "medium": "spoken",
+  "requestSha256": "e5ddce5c4b087d7cbf01add237c2906baf9f56722452a822ee2fd7fe7012666b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "問過,她說名字已經硬了,我只好前旁邊",
+    "cer": 0.1875,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.72,
+  "wallSeconds": 176.174,
+  "loudness": {
+    "input_i": "-25.62",
+    "input_tp": "-6.91",
+    "input_lra": "1.80",
+    "input_thresh": "-36.28",
+    "output_i": "-20.06",
+    "output_tp": "-2.00",
+    "output_lra": "0.60",
+    "output_thresh": "-30.92",
+    "normalization_type": "dynamic",
+    "target_offset": "0.06"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-give--009/raw.wav",
+      "bytes": 453200,
+      "sha256": "58742a1485ae15ab792486bf298e1468ac36eb711000583fc7853f7f63cd5168"
+    },
+    "master": {
+      "path": "healing-c3-give--009/master.wav",
+      "bytes": 226638,
+      "sha256": "0f1a23380825a58b9a78d0dd6849d7627a79150f888c8eeb7a05ff16f5a7cff2"
+    },
+    "runtime": {
+      "path": "healing-c3-give--009/runtime.ogg",
+      "bytes": 36010,
+      "sha256": "68d00e7d54c1afe065401c59a21117f2a618dc492de49a6776efee4fffbcabe9"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

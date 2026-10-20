@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-permission--002",
+  "sceneId": "c2-permission",
+  "lineId": "c2-permission--002",
+  "lineIndex": 1,
+  "speaker": "许棠",
+  "text": "当时觉得只有封面应该没事。你不想用，我换一张。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1150399279,
+  "textSha256": "fb31e5a67c14ed280ee9412bf13120d9afff442c68e1556c521610fda43167d3",
+  "medium": "spoken",
+  "requestSha256": "14d756aced37c83565cd8bf267728ecfa3a063d589f9f03799429a66e3a9df58",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "当时觉得,只有封面应该没事,你不想用,我换一张",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.92,
+  "wallSeconds": 26.102,
+  "loudness": {
+    "input_i": "-18.77",
+    "input_tp": "-2.87",
+    "input_lra": "2.30",
+    "input_thresh": "-29.23",
+    "output_i": "-19.93",
+    "output_tp": "-4.29",
+    "output_lra": "1.80",
+    "output_thresh": "-30.39",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.07"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-permission--002/raw.wav",
+      "bytes": 568400,
+      "sha256": "ca5c6e7d08fb45de9b1ad628d917b990bf30ec22da7f34ad16083634520029e1"
+    },
+    "master": {
+      "path": "healing-c2-permission--002/master.wav",
+      "bytes": 284238,
+      "sha256": "8fc6b88cbff8852614df50193fd018004c870761cfc3303b179b7c564e2102c0"
+    },
+    "runtime": {
+      "path": "healing-c2-permission--002/runtime.ogg",
+      "bytes": 42277,
+      "sha256": "60e4008275bd4a0708f4a9d1bf2fe06cd4c71760f3ec27af4050b3b8c9d3c1b4"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

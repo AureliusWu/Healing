@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-confirm--008",
+  "sceneId": "c2-confirm",
+  "lineId": "c2-confirm--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "我先问一题，八点二十以前送去，行吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 47799427,
+  "textSha256": "0b82cf1ed7e9f6d2972f71197c189afb491d0c264a29b3b3192617f7729a4f20",
+  "medium": "spoken",
+  "requestSha256": "d60dfd64b9b065ac4cd9db44206845879685bd5aa308a36f506b06b3234ea4b1",
+  "attempt": 2,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "我先问一题 8.20 以前送去 行吗",
+    "cer": 0.266667,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 3.28,
+  "wallSeconds": 112.773,
+  "loudness": {
+    "input_i": "-25.72",
+    "input_tp": "-6.85",
+    "input_lra": "0.20",
+    "input_thresh": "-36.69",
+    "output_i": "-18.98",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.95",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-confirm--008/raw.wav",
+      "bytes": 314960,
+      "sha256": "1efe02671a22aa640a56c1c87f293dfc08ae11a151a510413e64e0b4b5982ed0"
+    },
+    "master": {
+      "path": "healing-c2-confirm--008/master.wav",
+      "bytes": 157518,
+      "sha256": "81e0a40b73529f0af0b577aec12a9ba31b107ddb078d540a641132056e948d60"
+    },
+    "runtime": {
+      "path": "healing-c2-confirm--008/runtime.ogg",
+      "bytes": 27306,
+      "sha256": "769688214ae964664b2ff1c8bfa83edc28b5bf9ab0068c1fa9c9eeb2e9b29991"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--017",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--017",
+  "lineIndex": 16,
+  "speaker": "陈知遥",
+  "text": "发出去了。居然没有人立刻骂我。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 468259516,
+  "textSha256": "af288a0fe2f858bb405721ddd51a2efcadd697ab4127c539e4434d0b9b842675",
+  "medium": "spoken",
+  "requestSha256": "873b9e941d86208b73bec35c6a6769030c70030f252f791a165907f999fff150",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "发出去了居然没有人立刻骂我",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.92,
+  "wallSeconds": 23.366,
+  "loudness": {
+    "input_i": "-19.19",
+    "input_tp": "-5.76",
+    "input_lra": "0.70",
+    "input_thresh": "-30.26",
+    "output_i": "-17.99",
+    "output_tp": "-4.45",
+    "output_lra": "0.00",
+    "output_thresh": "-29.01",
+    "normalization_type": "dynamic",
+    "target_offset": "-2.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--017/raw.wav",
+      "bytes": 376400,
+      "sha256": "5f6bfd1f58ded4456bec5b81589369442cebfa29eca88dc6c669b2748b5a6e01"
+    },
+    "master": {
+      "path": "healing-lunch-chen--017/master.wav",
+      "bytes": 188238,
+      "sha256": "83b15bf24ff4d71cec57bbeff1cec4678f32e7ae7298c3a85987c9ecb7504328"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--017/runtime.ogg",
+      "bytes": 29093,
+      "sha256": "8f181f34ccc527147318b3f08362c488befbedd3ff3f08a633843125b2a057a1"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

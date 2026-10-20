@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-help--004",
+  "sceneId": "desk-help",
+  "lineId": "desk-help--004",
+  "lineIndex": 3,
+  "speaker": "陈知遥",
+  "text": "对。缺一个能把“班长你顺便做了吧”这句话收回去的人。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 258322453,
+  "textSha256": "93932a2acdc46270cd0874acaf3e59ac765257020c8b4e0d6c1c260616b06cf5",
+  "medium": "spoken",
+  "requestSha256": "296dbe7ffc1c458ab765d7f7b6a8de3a2d2fb7e1bd6e1be86000f95f84504a11",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "對 缺一個能把班長你順便做了吧 這句話收回去的人",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.12,
+  "wallSeconds": 849.524,
+  "loudness": {
+    "input_i": "-18.84",
+    "input_tp": "-2.54",
+    "input_lra": "1.90",
+    "input_thresh": "-28.95",
+    "output_i": "-20.60",
+    "output_tp": "-4.59",
+    "output_lra": "1.60",
+    "output_thresh": "-30.79",
+    "normalization_type": "dynamic",
+    "target_offset": "0.60"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-help--004/raw.wav",
+      "bytes": 491600,
+      "sha256": "0e01089d03d13a4ca39823867a90037b86c946e5f5956bcd4629b0681e32beb0"
+    },
+    "master": {
+      "path": "healing-desk-help--004/master.wav",
+      "bytes": 245838,
+      "sha256": "0505fbd1203a5983971cbe70f32f0cd4d696b0346d85a33a26298e58a45ee9da"
+    },
+    "runtime": {
+      "path": "healing-desk-help--004/runtime.ogg",
+      "bytes": 39761,
+      "sha256": "414252d4d8d526e3b093bb3e264a24783522367574938bbf0ab84b03b855e373"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

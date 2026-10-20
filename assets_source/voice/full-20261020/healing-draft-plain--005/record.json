@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--005",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "可我已经认真了。认真之后还是只有七十二，那是不是说明，我就只能到这里？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 883191111,
+  "textSha256": "4f004a695b67214a3a63cffd5d23ccf75cb493d6a6f618abd66427a7c8ba5bbf",
+  "medium": "spoken",
+  "requestSha256": "ddaa085fc2dbd8f2e61f4e29a293df23baba5e05ebe4336b064adbda96ed720a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可我已经认真了认真之后还是只有72那是不是说明我就只能到这里",
+    "cer": 0.096774,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.64,
+  "wallSeconds": 210.913,
+  "loudness": {
+    "input_i": "-25.08",
+    "input_tp": "-8.83",
+    "input_lra": "1.40",
+    "input_thresh": "-35.37",
+    "output_i": "-20.12",
+    "output_tp": "-3.81",
+    "output_lra": "2.00",
+    "output_thresh": "-30.40",
+    "normalization_type": "dynamic",
+    "target_offset": "0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--005/raw.wav",
+      "bytes": 637520,
+      "sha256": "6dac173f545071ea3d4f196f63ea7d95dd58e53377c54c4866a85006593c209d"
+    },
+    "master": {
+      "path": "healing-draft-plain--005/master.wav",
+      "bytes": 318798,
+      "sha256": "066e7695a19b5db97f9ff21c2515c967ccaea073d2e1c00b2926fb425a2ff2ce"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--005/runtime.ogg",
+      "bytes": 50821,
+      "sha256": "7e3de620f7271fa8507c9e31522f317b894c659dc83dae8990870808300af6ed"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

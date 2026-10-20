@@ -1,0 +1,55 @@
+{
+  "id": "healing-storm--005",
+  "sceneId": "storm",
+  "lineId": "storm--005",
+  "lineIndex": 4,
+  "speaker": "林见夏",
+  "text": "我等雨小一点。你们先走吧。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1271526456,
+  "textSha256": "5dc3a49db73a6f4aa54e47a8ebe6d38a066db9c70fdfe93824286c1cb3945a91",
+  "medium": "spoken",
+  "requestSha256": "93af97c5a55ba1c65f3e839596033e6597a7f560fd57ff267ce225829a29cdbd",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我等於想一點,你們先走吧",
+    "cer": 0.181818,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.16,
+  "wallSeconds": 10.514,
+  "loudness": {
+    "input_i": "-23.56",
+    "input_tp": "-11.43",
+    "input_lra": "0.00",
+    "input_thresh": "-33.78",
+    "output_i": "-20.02",
+    "output_tp": "-7.87",
+    "output_lra": "0.00",
+    "output_thresh": "-30.24",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-storm--005/raw.wav",
+      "bytes": 207440,
+      "sha256": "758eab1fa80d5d8b702ce7a205941e201d347047e0ad0da97366389de0cd270d"
+    },
+    "master": {
+      "path": "healing-storm--005/master.wav",
+      "bytes": 103758,
+      "sha256": "2d955a15a56d4a3401ef9790bdf499d1bae483223370de6f8d73572ab27c3094"
+    },
+    "runtime": {
+      "path": "healing-storm--005/runtime.ogg",
+      "bytes": 19444,
+      "sha256": "abfec1eeefff91c67aff128d0efda4365bba6a53d34745135fa6a715d90060ea"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-return--009",
+  "sceneId": "c3-return",
+  "lineId": "c3-return--009",
+  "lineIndex": 8,
+  "speaker": "许棠",
+  "text": "我妈上周问三次为什么周四还留下。每次都拿同一张表给她看，第三遍特别想发火。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1970145360,
+  "textSha256": "04889ae4a5f5fd877fe2303dbea0e2308f51a8f918458d71abf5202dfbf049be",
+  "medium": "spoken",
+  "requestSha256": "f5b3ae60a81d0507eb285d44bbccacda73eb133eb86ab04fbbb0f2c83acb49fc",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我妈上周问三次为什么周四还留下每次都拿同一张表给她看第三遍特别想发火",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.72,
+  "wallSeconds": 38.935,
+  "loudness": {
+    "input_i": "-19.93",
+    "input_tp": "-6.03",
+    "input_lra": "3.10",
+    "input_thresh": "-30.71",
+    "output_i": "-20.50",
+    "output_tp": "-7.01",
+    "output_lra": "2.70",
+    "output_thresh": "-31.10",
+    "normalization_type": "dynamic",
+    "target_offset": "0.50"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-return--009/raw.wav",
+      "bytes": 837200,
+      "sha256": "3f34203f8b3873d57a27d5d136a4ae00a3b1400cd1e2c55ea1c010f3d6ef18f6"
+    },
+    "master": {
+      "path": "healing-c3-return--009/master.wav",
+      "bytes": 418638,
+      "sha256": "dac64f0a2f12cb1b25a59ebf0527e71526c5cea6cd865b6198138f743bf2d453"
+    },
+    "runtime": {
+      "path": "healing-c3-return--009/runtime.ogg",
+      "bytes": 65125,
+      "sha256": "3c2055ae3a1d4fc29d7e155f5319b8ecdd267c3e9bc930b918b876ab741f888d"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-misunderstanding--005",
+  "sceneId": "misunderstanding",
+  "lineId": "misunderstanding--005",
+  "lineIndex": 4,
+  "speaker": "林见夏",
+  "text": "我知道你是好意。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1940979173,
+  "textSha256": "519daf0a8ad55d377ebf06cd4ce808625a8bc2106d3833291c30ee74503abff1",
+  "medium": "spoken",
+  "requestSha256": "a21cde2dba9330139a65cbd01b188334d0685b8985d98ef45d05150604211e24",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我知道你是好意",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 16.168,
+  "loudness": {
+    "input_i": "-23.02",
+    "input_tp": "-8.04",
+    "input_lra": "0.00",
+    "input_thresh": "-33.02",
+    "output_i": "-19.98",
+    "output_tp": "-5.01",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-misunderstanding--005/raw.wav",
+      "bytes": 153680,
+      "sha256": "095dd6fe710da8b2171ae950ef40bd07b070a4f8dc9e385df19c0b7546bb21c3"
+    },
+    "master": {
+      "path": "healing-misunderstanding--005/master.wav",
+      "bytes": 76878,
+      "sha256": "2c873ff8c0d09ef1ce91322ceb86e249ede2ae1946020af06ba1a7bc7444f6f4"
+    },
+    "runtime": {
+      "path": "healing-misunderstanding--005/runtime.ogg",
+      "bytes": 14946,
+      "sha256": "0820301046d14d10c1ca8b86b299ad819ae4fcfce0fd9d6c6799e5e10202051a"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-talk--010",
+  "sceneId": "c3-chen-talk",
+  "lineId": "c3-chen-talk--010",
+  "lineIndex": 9,
+  "speaker": "程屿",
+  "text": "现在没有别的事，我想坐你旁边。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1419788215,
+  "textSha256": "4d3a32d7867a18a06f5f9c09639f65f9dc6e7aab241eb6a413c3f1857f8b507d",
+  "medium": "spoken",
+  "requestSha256": "0ed9be1a0a63219492ff303031bc78c391e7d263211975e1e6b5d19a4cf03bd3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "現在沒有別的事我想做你旁邊",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.72,
+  "wallSeconds": 12.686,
+  "loudness": {
+    "input_i": "-26.37",
+    "input_tp": "-9.91",
+    "input_lra": "0.00",
+    "input_thresh": "-36.73",
+    "output_i": "-19.99",
+    "output_tp": "-3.54",
+    "output_lra": "0.00",
+    "output_thresh": "-30.35",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-talk--010/raw.wav",
+      "bytes": 261200,
+      "sha256": "b87cc442e084a8205e991cf321b928110d38b1efb9240db9a602225513ba39d1"
+    },
+    "master": {
+      "path": "healing-c3-chen-talk--010/master.wav",
+      "bytes": 130638,
+      "sha256": "5e9e78e3648c3f51c232699d186c368a91b7535040dd88cb49f097a2d70f2111"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-talk--010/runtime.ogg",
+      "bytes": 24082,
+      "sha256": "b7cd34d79afcc05d64a25bf69e1d9c0dd31a2f33fb5b9beb3f858e79ac4783c3"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

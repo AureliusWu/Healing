@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-tang-photo--005",
+  "sceneId": "c2-tang-photo",
+  "lineId": "c2-tang-photo--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "版面会空吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1715365983,
+  "textSha256": "4f0c0855c718374b7e504b8644d7084f3e7dfdc9f4d6c156913bac3f968c63f1",
+  "medium": "spoken",
+  "requestSha256": "af0968e8893236cec6efd19ae5e98d4f392533451f714eaaf4a43483aff98014",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "版面会空吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 136.794,
+  "loudness": {
+    "input_i": "-24.06",
+    "input_tp": "-7.05",
+    "input_lra": "0.00",
+    "input_thresh": "-34.06",
+    "output_i": "-20.03",
+    "output_tp": "-2.98",
+    "output_lra": "0.00",
+    "output_thresh": "-30.03",
+    "normalization_type": "linear",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-tang-photo--005/raw.wav",
+      "bytes": 122960,
+      "sha256": "afe6d9bb696c3f56196e29832e2c13a81963cd9f4b1655e44aba0a49c12c8a9b"
+    },
+    "master": {
+      "path": "healing-c2-tang-photo--005/master.wav",
+      "bytes": 61518,
+      "sha256": "c1790196734682f5327d67d2aac37b2794ef17ba22be2403b54062e7328abd61"
+    },
+    "runtime": {
+      "path": "healing-c2-tang-photo--005/runtime.ogg",
+      "bytes": 13111,
+      "sha256": "771971f82b708335a46dd671d06ca9ae6a7d5fe59729c2a267e70c8a3a152bb1"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

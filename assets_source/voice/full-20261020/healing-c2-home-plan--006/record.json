@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home-plan--006",
+  "sceneId": "c2-home-plan",
+  "lineId": "c2-home-plan--006",
+  "lineIndex": 5,
+  "speaker": "妈妈",
+  "text": "不是说改完两题？",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1580500874,
+  "textSha256": "5612c8f95806781fa1b6395693ee633970503999ce8fee52d211254d76e0fbfd",
+  "medium": "spoken",
+  "requestSha256": "4abbccc33b403c3f4b45f1326b1bf1065c0f63f5f1eb175b8b01d2242980a0eb",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不是說改完兩題",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.52,
+  "wallSeconds": 7.536,
+  "loudness": {
+    "input_i": "-21.69",
+    "input_tp": "-6.97",
+    "input_lra": "0.00",
+    "input_thresh": "-31.69",
+    "output_i": "-19.99",
+    "output_tp": "-5.28",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home-plan--006/raw.wav",
+      "bytes": 146000,
+      "sha256": "c1559b7fe38265eeacb388e8f88397e1af22d4731f8bcf01794c9b5ce4b7ac0d"
+    },
+    "master": {
+      "path": "healing-c2-home-plan--006/master.wav",
+      "bytes": 73038,
+      "sha256": "47b60778819161d7c57fcc1f365b144072e679319ad64e084b5482004b57cd55"
+    },
+    "runtime": {
+      "path": "healing-c2-home-plan--006/runtime.ogg",
+      "bytes": 14224,
+      "sha256": "a819cf95181cae70ea71537d22a0ace46e4668e04798860547a32de593cc2b5f"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

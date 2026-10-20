@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-lin-draft--005",
+  "sceneId": "c2-lin-draft",
+  "lineId": "c2-lin-draft--005",
+  "lineIndex": 4,
+  "speaker": "林见夏",
+  "text": "这两段放在一起，会不会很奇怪？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1505797276,
+  "textSha256": "e061b7127c7ce3af6e2806cd6828830edd177e5a067d7613310b76f1ba0f100f",
+  "medium": "spoken",
+  "requestSha256": "568e334e30967d2072e7c79b222fdb7bb15884edd1dcc985d9c33a44f421a9fb",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这两段放在一起会不会很奇怪",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.88,
+  "wallSeconds": 170.179,
+  "loudness": {
+    "input_i": "-25.29",
+    "input_tp": "-8.26",
+    "input_lra": "0.00",
+    "input_thresh": "-35.29",
+    "output_i": "-20.00",
+    "output_tp": "-2.97",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-lin-draft--005/raw.wav",
+      "bytes": 276560,
+      "sha256": "adb070d946195a99d34a7afd970b87cc1b8a562443b09d968bb2d22efa3bd3a2"
+    },
+    "master": {
+      "path": "healing-c2-lin-draft--005/master.wav",
+      "bytes": 138318,
+      "sha256": "347f23a91106dbfbe4cfb33f9c9a29134277a3ace7c306bffb9ea3276fe0059d"
+    },
+    "runtime": {
+      "path": "healing-c2-lin-draft--005/runtime.ogg",
+      "bytes": 24478,
+      "sha256": "e008801ba0cf56ec2a8f894bdf1575e6628a1dc8838825705efdb1afca6dc426"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}

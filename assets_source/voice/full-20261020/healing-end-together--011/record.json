@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-together--011",
+  "sceneId": "end-together",
+  "lineId": "end-together--011",
+  "lineIndex": 10,
+  "speaker": "陈知遥",
+  "text": "专题有名字了吗？",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 9970079,
+  "textSha256": "6b5f6ad3ea867939d5d39df858f8f62d7cf21ea906628d639db254b1efef695f",
+  "medium": "spoken",
+  "requestSha256": "4d273afd6a9b9d508dfe830b11ef7463fdad03e22a5f63d0c32981f3296b0584",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "专题有名字了吗?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.32,
+  "wallSeconds": 11.328,
+  "loudness": {
+    "input_i": "-20.39",
+    "input_tp": "-5.12",
+    "input_lra": "0.00",
+    "input_thresh": "-30.83",
+    "output_i": "-20.00",
+    "output_tp": "-4.73",
+    "output_lra": "0.00",
+    "output_thresh": "-30.44",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-together--011/raw.wav",
+      "bytes": 222800,
+      "sha256": "8d25a3efbc55cf9e07a269a1d52a91f357ee2d83ac6606508198458b9008e1b0"
+    },
+    "master": {
+      "path": "healing-end-together--011/master.wav",
+      "bytes": 111438,
+      "sha256": "5d8720bc913d53ab98b372820c94ca0f375dbaa36c60a86baef2766f07b0d1f2"
+    },
+    "runtime": {
+      "path": "healing-end-together--011/runtime.ogg",
+      "bytes": 19231,
+      "sha256": "dbf8288ea79d540f39f196d1072914dd0e028d5b511f10097f1f30547c33b354"
+    }
+  },
+  "recoveredFromRun": 39386271240
+}
