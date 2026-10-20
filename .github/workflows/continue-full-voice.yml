@@ -1,0 +1,121 @@
+name: Continue only missing or rejected dialogue
+on:
+  push:
+    branches: [main]
+    paths: ['docs/production/full-media/resume-batch.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: continue-full-dialogue-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    outputs:
+      shards: ${{ steps.matrix.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify unchanged-take preservation
+        run: python -m unittest discover -s tools/production -p 'test_*.py'
+      - name: Compute bounded retry partitions
+        id: matrix
+        run: |
+          python - <<'PYCODE'
+          import json,math,os
+          from pathlib import Path
+          import sys
+          sys.path.insert(0,'tools/production')
+          from render_full_voice import validate_plan,request_hash
+          plan=json.loads(Path('docs/production/full-media/dialogue-plan.json').read_text())
+          archive=json.loads(Path('assets_source/voice/full-20261020/manifest.json').read_text())
+          validate_plan(plan)
+          accepted={r['id']:r for r in archive['records'] if r['status']=='accepted'}
+          pending=[r for r in plan['lines'] if not r.get('replayOf') and
+              (r['id'] not in accepted or accepted[r['id']]['requestSha256']!=request_hash(plan,r))]
+          count=min(4,max(1,math.ceil(len(pending)/8)))
+          with open(os.environ['GITHUB_OUTPUT'],'a') as output:
+              output.write('shards='+json.dumps({'shard':list(range(count)),'shardCount':[count]})+'\n')
+          print('Target',len(plan['lines']),'retained',len(accepted),'to synthesize',len(pending))
+          PYCODE
+  record:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix: ${{ fromJSON(needs.plan.outputs.shards) }}
+    env:
+      PYTHONUNBUFFERED: '1'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      DO_NOT_TRACK: '1'
+      ORT_DISABLE_TELEMETRY: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reuse byte-verified accepted requests without synthesis
+        run: python tools/production/seed_verified_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/full-20261020 --output reports/continued/part-${{ matrix.shard }} --shard-index ${{ matrix.shard }} --shard-count ${{ matrix.shardCount }}
+      - name: Install author-side speech tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg sox libseccomp2
+          python -m pip install torch==2.9.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install qwen-tts==0.1.1 faster-whisper==1.2.1 opencc-python-reimplemented==0.1.7 soundfile
+      - uses: actions/cache/restore@v4
+        with:
+          path: .runtime/full-voice-models
+          key: full-voice-qwen-0c0e3051-asr-536b066-v1
+          fail-on-cache-miss: true
+      - name: Retry remaining requests with new seeds and unchanged ASR gates
+        run: python tools/production/render_full_voice.py render --plan docs/production/full-media/dialogue-plan.json --model-dir .runtime/full-voice-models/tts --asr-dir .runtime/full-voice-models/asr --output reports/continued/part-${{ matrix.shard }} --shard-index ${{ matrix.shard }} --shard-count ${{ matrix.shardCount }} --threads 4 --attempt-offset $((3*${{ github.run_attempt }}))
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: continued-voice-${{ matrix.shard }}-${{ github.sha }}-${{ github.run_attempt }}
+          path: reports/continued/part-${{ matrix.shard }}/
+          retention-days: 30
+          if-no-files-found: error
+  collect:
+    needs: [plan, record]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: continued-voice-*-${{ github.sha }}-${{ github.run_attempt }}
+          path: reports/continued-parts
+      - name: Preserve verified results and exact remaining list even if incomplete
+        run: python tools/production/recover_voice.py --plan docs/production/full-media/dialogue-plan.json --parts reports/continued-parts --output assets_source/voice/continued-20261020 --report docs/production/full-media/resume-report.json --run-id ${{ github.run_id }}
+      - name: Commit this continuation checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets_source/voice/continued-20261020 docs/production/full-media/resume-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'production: preserve continued dialogue and exact unresolved takes [skip ci]'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+      - name: Require every binding and exact replay before calling the bundle complete
+        run: python tools/production/render_full_voice.py merge --plan docs/production/full-media/dialogue-plan.json --parts reports/continued-parts --output reports/full-voice-complete
+      - uses: actions/upload-artifact@v4
+        with:
+          name: full-dialogue-complete-${{ github.sha }}-${{ github.run_attempt }}
+          path: reports/full-voice-complete/
+          retention-days: 30
+          if-no-files-found: error
+

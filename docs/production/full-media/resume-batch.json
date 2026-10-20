@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "batch": "20261020-continue-verified-01",
+  "count": 427,
+  "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
+  "attemptOffset": 3,
+  "reuse": "byte-verified accepted takes only",
+  "humanListening": false
+}
