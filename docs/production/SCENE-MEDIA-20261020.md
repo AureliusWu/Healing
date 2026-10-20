@@ -1,4 +1,4 @@
-# 场景美术与音乐 · 2026-10-20
+# 场景美术与音乐 · v1.2.0已发布 · 2026-10-20
 
 c2-confirm 使用清晨样张CG与专曲，按实际阅读解锁。六张CG、七首配乐沿用现有回忆与备份结构。
 
@@ -17,3 +17,7 @@ c2-confirm 使用清晨样张CG与专曲，按实际阅读解锁。六张CG、�
 ## 可复用办法
 
 SceneLoop把本地OGG接到已有音乐总线，异步解码结束后重新核对场景与上下文，避免旧场景迟到开播；同一曲目不重复启动。按作品保留独立编配与CG，只交流工具及制作方法。新增OGG要同时核对实际缓存清单，图片只在对应物品出现后显示，收走后恢复场景。
+
+## 本版发布回读
+
+[本版Build](https://github.com/AureliusWu/Healing/actions/runs/39370279598) 与[公开PWA](https://github.com/AureliusWu/Healing/actions/runs/39370842536) 均成功；源码与实际Windows包检查通过。[v1.2.0下载](https://github.com/AureliusWu/Healing/releases/tag/v1.2.0) 已公开。独立下载PWA ZIP后，SHA-256与GitHub摘要相同，ZIP CRC通过，新增CG和OGG逐字节匹配已测源。较早“本地未执行”保留为本地环境边界；本段是当前CI实际结果。真人试听与最终美术选择仍待体验。

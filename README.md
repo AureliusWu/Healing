@@ -1,3 +1,5 @@
+> 2026-10-20：**v1.2.0已发布**，新增《七点四十》CG与原创场景配乐。双端构建与公开PWA通过，下载ZIP及新资源字节已回读。[本版凭据](docs/production/SCENE-MEDIA-20261020.json) · [下载](https://github.com/AureliusWu/Healing/releases/tag/v1.2.0)。
+
 > 2026-10-19：**v1.1.1 已发布**。已读章节筛选与关键词、说话人交叉检索已完成；本次 Windows 实际运行、公开 PWA 三屏断网与字节核验通过。[发布凭据](docs/production/PUBLISHED-v1.1.1.json) · [下载](https://github.com/AureliusWu/Healing/releases/tag/v1.1.1)。
 
 > 2026-10-18：**v1.1.0 版本已发布，双端 CI 与公开 PWA 验证通过。** [本轮发布回读](docs/production/RELEASE-CLOSURE-20261018.md)。实体设备体验、真人阅读审阅保持独立待办。

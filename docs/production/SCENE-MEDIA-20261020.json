@@ -2,19 +2,28 @@
   "date": "2026-10-20",
   "project": "Healing",
   "version": "1.2.0",
-  "status": "candidate_pending_current_CI",
+  "status": "published_and_pwa_verified",
   "cgManifest": "docs/art/confirmed-proof-manifest.json",
   "musicManifest": "docs/audio/proof-confirmed-score-manifest.json",
   "tests": {
     "local_logic_or_python": 74,
     "passed": true,
-    "browser": "not executed locally: browser archive download was truncated",
-    "windows": "not executed locally; current CI required",
+    "browser": "passed in current CI",
+    "windows": "source and packaged EXE passed in current CI",
     "humanListening": "pending",
     "artFinalChoice": "pending"
   },
   "compatibility": "Stable scene/line IDs, choices, recorded lines and save identity retained",
   "limits": "Earlier release evidence is historical, not validation for this candidate.",
   "build": "passed",
-  "newCgAndMusicPrecached": true
+  "newCgAndMusicPrecached": true,
+  "runtimeCommit": "4f9a18cebbaabd7fae92ab6fb7dad65b93f7d181",
+  "buildRun": 39370279598,
+  "pagesRun": 39370842536,
+  "release": "https://github.com/AureliusWu/Healing/releases/tag/v1.2.0",
+  "publicPwaDownload": {
+    "sha256": "006cea12f0fadf0a2952f12d65d7b47ea22dd48404c3f13cd44f54fbf10c468a",
+    "zipCRC": "passed",
+    "newCgAndMusicBytes": "exact match to tested source assets"
+  }
 }
