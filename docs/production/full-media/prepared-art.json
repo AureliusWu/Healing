@@ -1,0 +1,1402 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "status": "all_active_images_decoded_and_checked",
+  "count": 16,
+  "assets": [
+    {
+      "id": "hechuan",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/hechuan-expressions-v3.png",
+      "sourceBytes": 1592893,
+      "gitBlobSha": "f1f5f619b3e883f56b5ca35bbb1ece2557f519cc",
+      "prompt": "Use case: identity-preserve. Asset: six-expression transparent visual novel character atlas. Correct the LAYOUT ONLY of image 1, keeping exactly the same boy, facial anatomy, navy backpack, basketball zipper charm, ivory-and-forest-green school jacket, white shirt, navy long trousers with double side stripes and ivory shoes. ALL SIX existing drawings must shrink substantially, to about 80% of their current height, and be placed on a roomier consistent 3-by-2 layout. Every figure must be exactly the SAME HEIGHT AND SCALE as every other figure. Use image 2 ONLY as a reference for the broad transparent gutters and same-sized complete full bodies; do not copy that adult man's identity or outfit. Top-row six figures? Precisely THREE in each row, total SIX, same expressions as image 1: neutral, smile, surprised; worried, hurt, shy. Every head and both shoes must remain fully inside its own cell, with a broad transparent gap above and below each full figure. A full empty horizontal gutter about 90px high separates the two rows. Outer transparent margins at least 35px. No body parts or shoes touch the outer image borders. Keep thin clean cel-shaded line art. True transparent RGBA background; no extra people, no text, no labels, no frame lines, no shadows, no glow.",
+      "tool": "image_gen",
+      "sourceSha256": "97e3e95d67102a63e29eb420b7c916d0a451ded2c891944097769a47eb787f23",
+      "referenceHashes": [
+        {
+          "path": "assets_source/characters/full-20261020/hechuan-expressions.png",
+          "sha256": "034084d7af25be898fe0f569184d2b09756df06d698cd0b5371ae7a895dd648f"
+        },
+        {
+          "path": "assets_source/references/full-20261020/luheng-layout-only.png",
+          "sha256": "6b2945e4ca11012a53d6b6aeee12ed9e99ffad0701646aae2d1b667eae680cec"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.7987,
+        "alphaBounds": [
+          151,
+          28,
+          1466,
+          1002
+        ],
+        "solidAlphaBounds": [
+          231,
+          55,
+          1329,
+          992
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 531,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            232,
+            55,
+            416,
+            502
+          ],
+          [
+            690,
+            56,
+            873,
+            501
+          ],
+          [
+            1147,
+            55,
+            1329,
+            501
+          ],
+          [
+            231,
+            562,
+            416,
+            992
+          ],
+          [
+            690,
+            561,
+            873,
+            992
+          ],
+          [
+            1146,
+            561,
+            1329,
+            992
+          ]
+        ],
+        "frames": [
+          [
+            216,
+            49,
+            217,
+            459
+          ],
+          [
+            673,
+            50,
+            217,
+            459
+          ],
+          [
+            1130,
+            49,
+            217,
+            459
+          ],
+          [
+            215,
+            556,
+            217,
+            459
+          ],
+          [
+            673,
+            555,
+            217,
+            459
+          ],
+          [
+            1129,
+            555,
+            217,
+            459
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/hechuan-expressions.webp",
+        "bytes": 1041510,
+        "sha256": "e3e5b519f9c2342cddd7728ee9ce40fd2ce1261e48d32213ce14c2f1d7ddb3a4"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "teacher",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/teacher-expressions.png",
+      "sourceBytes": 1528634,
+      "gitBlobSha": "75a4eb139ae760e15d035b1f197b850aa3f96dce",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. The homeroom teacher, a Chinese middle-aged adult man, about forty, short neat black hair with slightly receding temples, thin rectangular glasses, dark brown eyes, ordinary mature face with light smile lines. Light blue long-sleeve collared shirt, charcoal trousers, black simple leather shoes. Shirt sleeves down, relaxed professional posture, holding a thin plain attendance folder against his torso in his left hand. No badges, insignia, logos or new story text. Facial emotions are adult professional: replace shy with mild apologetic embarrassment, no romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "806187ceda493ee3ad0304dc4a139ef2a96cc3447e48fe6574b45b1a1c2cf96f",
+      "referenceHashes": [
+        {
+          "path": "public/art/lin.webp",
+          "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+        },
+        {
+          "path": "assets_source/characters/full-20261020/hechuan-expressions-v3.png",
+          "sha256": "97e3e95d67102a63e29eb420b7c916d0a451ded2c891944097769a47eb787f23"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.7916,
+        "alphaBounds": [
+          19,
+          15,
+          1490,
+          1024
+        ],
+        "solidAlphaBounds": [
+          236,
+          19,
+          1325,
+          1014
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 516,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            236,
+            19,
+            394,
+            501
+          ],
+          [
+            690,
+            19,
+            848,
+            502
+          ],
+          [
+            1154,
+            19,
+            1312,
+            502
+          ],
+          [
+            237,
+            532,
+            394,
+            1014
+          ],
+          [
+            690,
+            532,
+            849,
+            1014
+          ],
+          [
+            1154,
+            531,
+            1325,
+            1013
+          ]
+        ],
+        "frames": [
+          [
+            214,
+            13,
+            203,
+            495
+          ],
+          [
+            668,
+            13,
+            203,
+            495
+          ],
+          [
+            1132,
+            13,
+            203,
+            495
+          ],
+          [
+            214,
+            526,
+            203,
+            495
+          ],
+          [
+            668,
+            526,
+            203,
+            495
+          ],
+          [
+            1138,
+            525,
+            203,
+            495
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/teacher-expressions.webp",
+        "bytes": 978958,
+        "sha256": "047dbcb631b36345ea3e6dc6943575ced8952586b9afb8fa6498a4444c50a2c5"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "mother",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/mother-expressions.png",
+      "sourceBytes": 1441632,
+      "gitBlobSha": "c943cba6d103a75d05ec8dd3cb07bdca33ed5c33",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. Cheng Yu's mother, a Chinese middle-aged adult woman, about forty-two, short dark brown bob tucked behind both ears, brown eyes, subtle natural smile lines and a practical tired-but-caring expression. Plain muted dusty-blue cardigan, ivory cotton blouse, dark gray straight trousers, low comfortable black flats. Hands loosely folded near her waist, no props, no apron, no jewelry or logos. Normal modest everyday clothing. Expression six should be mildly embarrassed/apologetic, never romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "5d505d2620aea35cc08e8eea233bf1ff7faceded3de78d677df13851360dd062",
+      "referenceHashes": [
+        {
+          "path": "public/art/lin.webp",
+          "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+        },
+        {
+          "path": "assets_source/characters/full-20261020/hechuan-expressions-v3.png",
+          "sha256": "97e3e95d67102a63e29eb420b7c916d0a451ded2c891944097769a47eb787f23"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.8107,
+        "alphaBounds": [
+          169,
+          0,
+          1406,
+          1024
+        ],
+        "solidAlphaBounds": [
+          253,
+          9,
+          1281,
+          1019
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 513,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            253,
+            9,
+            382,
+            507
+          ],
+          [
+            703,
+            9,
+            832,
+            507
+          ],
+          [
+            1149,
+            9,
+            1278,
+            507
+          ],
+          [
+            254,
+            521,
+            383,
+            1019
+          ],
+          [
+            701,
+            521,
+            830,
+            1019
+          ],
+          [
+            1152,
+            522,
+            1281,
+            1019
+          ]
+        ],
+        "frames": [
+          [
+            237,
+            3,
+            161,
+            510
+          ],
+          [
+            687,
+            3,
+            161,
+            510
+          ],
+          [
+            1133,
+            3,
+            161,
+            510
+          ],
+          [
+            238,
+            514,
+            161,
+            510
+          ],
+          [
+            685,
+            514,
+            161,
+            510
+          ],
+          [
+            1136,
+            514,
+            161,
+            510
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/mother-expressions.webp",
+        "bytes": 922232,
+        "sha256": "7d1a9dd07cd2a08ee46ad11c99d1fc884214383e25a3052b5f290faadce60522"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "printteacher",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/printteacher-expressions.png",
+      "sourceBytes": 1556713,
+      "gitBlobSha": "896f12b34fa8f4f75ddb601d599bde1e97cb3b3d",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. The school's print-room teacher, an ordinary Chinese adult man around fifty, short salt-and-pepper hair, rectangular reading glasses, sturdy average build, warm practical face and mild smile lines. Muted gray-green work cardigan over a cream collared shirt, navy straight trousers, plain brown comfortable shoes. Hold a small neat stack of blank off-white paper against the left side of his torso, right hand relaxed. No words or logos. Professional mild expressions, no romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "479a647f19ebf9df0a60bdef889da8b8fc76693e78fcc064a1bbc8243e9e08c3",
+      "referenceHashes": [
+        {
+          "path": "public/art/lin.webp",
+          "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+        },
+        {
+          "path": "assets_source/characters/full-20261020/hechuan-expressions-v3.png",
+          "sha256": "97e3e95d67102a63e29eb420b7c916d0a451ded2c891944097769a47eb787f23"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.7719,
+        "alphaBounds": [
+          97,
+          3,
+          1490,
+          1024
+        ],
+        "solidAlphaBounds": [
+          192,
+          15,
+          1354,
+          1009
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 510,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            192,
+            15,
+            375,
+            496
+          ],
+          [
+            678,
+            16,
+            860,
+            496
+          ],
+          [
+            1172,
+            15,
+            1353,
+            496
+          ],
+          [
+            192,
+            526,
+            375,
+            1008
+          ],
+          [
+            679,
+            527,
+            862,
+            1009
+          ],
+          [
+            1173,
+            528,
+            1354,
+            1009
+          ]
+        ],
+        "frames": [
+          [
+            176,
+            9,
+            215,
+            494
+          ],
+          [
+            662,
+            10,
+            215,
+            494
+          ],
+          [
+            1155,
+            9,
+            215,
+            494
+          ],
+          [
+            176,
+            520,
+            215,
+            494
+          ],
+          [
+            663,
+            521,
+            215,
+            494
+          ],
+          [
+            1156,
+            522,
+            215,
+            494
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/printteacher-expressions.webp",
+        "bytes": 1003284,
+        "sha256": "023dc815e8823487aad777116e4f5e8017c1867e0587b115f6767a685c70b156"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "linfather",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/linfather-expressions.png",
+      "sourceBytes": 1440987,
+      "gitBlobSha": "fe59b2b9cc3982efa9a134f565e3797382a934cb",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. Lin Jianxia's father, an ordinary middle-aged Chinese man around forty-five. Short dark brown hair with a firm side part, dark brown eyes, a somewhat narrow mature face with straight eyebrows, average build. Plain dark navy unbranded casual jacket open over a light gray collared shirt, charcoal trousers, black comfortable shoes. Hands relaxed, no props, no jewelry, no logos. Six expressions remain restrained adult family-conversation emotions; no romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "58c572cb616e4f4f82e756bad311c663be26945bd466a094671f2577e5b6fb10",
+      "referenceHashes": [
+        {
+          "path": "public/art/lin.webp",
+          "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+        },
+        {
+          "path": "assets_source/characters/full-20261020/hechuan-expressions-v3.png",
+          "sha256": "97e3e95d67102a63e29eb420b7c916d0a451ded2c891944097769a47eb787f23"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.7879,
+        "alphaBounds": [
+          65,
+          0,
+          1522,
+          1012
+        ],
+        "solidAlphaBounds": [
+          231,
+          12,
+          1331,
+          1008
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 509,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            231,
+            13,
+            403,
+            499
+          ],
+          [
+            684,
+            13,
+            856,
+            498
+          ],
+          [
+            1159,
+            12,
+            1330,
+            498
+          ],
+          [
+            231,
+            522,
+            403,
+            1008
+          ],
+          [
+            684,
+            522,
+            856,
+            1008
+          ],
+          [
+            1159,
+            522,
+            1331,
+            1008
+          ]
+        ],
+        "frames": [
+          [
+            215,
+            7,
+            204,
+            498
+          ],
+          [
+            668,
+            7,
+            204,
+            498
+          ],
+          [
+            1142,
+            6,
+            204,
+            498
+          ],
+          [
+            215,
+            516,
+            204,
+            498
+          ],
+          [
+            668,
+            516,
+            204,
+            498
+          ],
+          [
+            1143,
+            516,
+            204,
+            498
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/linfather-expressions.webp",
+        "bytes": 913216,
+        "sha256": "660c434d42fa3254ac0b73040714a4c7ab0a1341be35b8852e3c928c6a79e988"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "chenmother",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/chenmother-expressions.png",
+      "sourceBytes": 1496686,
+      "gitBlobSha": "8a36a96d4a7d707476c2f186a10fdc3dc11ecc65",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. Chen Zhiyao's mother, an ordinary middle-aged Chinese adult woman around forty-three. Chestnut-brown hair tied in a practical mid-height ponytail, brown eyes, an oval mature face with subtle smile lines, average build. Plain beige cardigan over a muted lavender blouse, navy straight trousers and comfortable dark brown flats. Hands relaxed together, no props, no jewelry or logos. Restrained adult family-conversation emotions, never romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "96d30d4275103cb6c035fc8cb45bfb51e37dec58ae2c8a20e99cdac16ad7cd74",
+      "referenceHashes": [
+        {
+          "path": "public/art/lin.webp",
+          "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+        },
+        {
+          "path": "assets_source/characters/full-20261020/hechuan-expressions-v3.png",
+          "sha256": "97e3e95d67102a63e29eb420b7c916d0a451ded2c891944097769a47eb787f23"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.8013,
+        "alphaBounds": [
+          43,
+          5,
+          1442,
+          1024
+        ],
+        "solidAlphaBounds": [
+          222,
+          13,
+          1311,
+          1019
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 515,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            222,
+            13,
+            351,
+            507
+          ],
+          [
+            702,
+            13,
+            831,
+            507
+          ],
+          [
+            1182,
+            13,
+            1311,
+            507
+          ],
+          [
+            222,
+            524,
+            351,
+            1019
+          ],
+          [
+            702,
+            524,
+            831,
+            1019
+          ],
+          [
+            1182,
+            524,
+            1311,
+            1019
+          ]
+        ],
+        "frames": [
+          [
+            206,
+            7,
+            161,
+            507
+          ],
+          [
+            686,
+            7,
+            161,
+            507
+          ],
+          [
+            1166,
+            7,
+            161,
+            507
+          ],
+          [
+            206,
+            517,
+            161,
+            507
+          ],
+          [
+            686,
+            517,
+            161,
+            507
+          ],
+          [
+            1166,
+            517,
+            161,
+            507
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/chenmother-expressions.webp",
+        "bytes": 965528,
+        "sha256": "6fd02b2e1e152a16390be320abdfe12f53fc20555d1ae961f67b8722991d45a4"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "xumother",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/xumother-expressions.png",
+      "sourceBytes": 1387325,
+      "gitBlobSha": "87fb2bc647c09e967113df7a55f124e952cbf088",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. Xu Tang's mother, an ordinary middle-aged Chinese adult woman around forty-three. Dark brown shoulder-length hair tied into a low bun, brown eyes, a longer mature face with fine smile lines, average build. Plain muted olive long-sleeve cardigan over an off-white blouse, dark charcoal straight trousers, simple black flat shoes. Hands naturally relaxed, no camera or new props, no jewelry or logos. Restrained family-conversation emotions, no romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "d4a51d94e7add6dda5ead9323015be03bb5e8c1cfef2ed14eba2aefbd4901b2c",
+      "referenceHashes": [
+        {
+          "path": "public/art/lin.webp",
+          "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+        },
+        {
+          "path": "assets_source/characters/full-20261020/hechuan-expressions-v3.png",
+          "sha256": "97e3e95d67102a63e29eb420b7c916d0a451ded2c891944097769a47eb787f23"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.8193,
+        "alphaBounds": [
+          35,
+          0,
+          1452,
+          1024
+        ],
+        "solidAlphaBounds": [
+          277,
+          9,
+          1266,
+          1012
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 510,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            277,
+            9,
+            403,
+            499
+          ],
+          [
+            703,
+            10,
+            829,
+            500
+          ],
+          [
+            1137,
+            10,
+            1263,
+            500
+          ],
+          [
+            277,
+            521,
+            403,
+            1012
+          ],
+          [
+            704,
+            521,
+            829,
+            1012
+          ],
+          [
+            1139,
+            522,
+            1266,
+            1012
+          ]
+        ],
+        "frames": [
+          [
+            260,
+            3,
+            159,
+            503
+          ],
+          [
+            686,
+            4,
+            159,
+            503
+          ],
+          [
+            1120,
+            4,
+            159,
+            503
+          ],
+          [
+            260,
+            515,
+            159,
+            503
+          ],
+          [
+            687,
+            515,
+            159,
+            503
+          ],
+          [
+            1123,
+            516,
+            159,
+            503
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/xumother-expressions.webp",
+        "bytes": 886182,
+        "sha256": "ac2b8d0423453bc56c78992b0a0182ae92df8955941751865e2f953f32f6fe42"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "chengyu",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/chengyu-expressions-v2.png",
+      "sourceBytes": 1597032,
+      "gitBlobSha": "49e48b387e97d6557c12fc131a4c80a45a938a5a",
+      "prompt": "Edit the supplied transparent six-expression atlas of Cheng Yu, the seventeen-year-old Chinese male first-person school character. Across ALL SIX figures change ONLY his hairstyle and a small amount of facial identity: neat DARK CHESTNUT short hair with a clear left side part and gently flattened swept fringe exposing part of the forehead, no fluffy black spikes or long central wisps; slightly narrower face and straighter eyebrows. He must be visibly distinct from the tousled-haired character He Chuan. Preserve all six existing facial emotions, eyes open in the sixth expression, exact body pose, height, positions, shoes, modest ivory/dark-green sports school uniform, hands, spacing and true RGBA transparency. Keep the 1536x1024 3x2 atlas with the same full-body figures and complete shoes; do not enlarge or crop. Fine established linework and two-level cel shading. No background, haze, halo, new props, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "5522d64c75001616e8818440d4aacc40fb917361183360c052de2f030df4f8b1",
+      "referenceHashes": [
+        {
+          "path": "assets_source/characters/full-20261020/chengyu-expressions.png",
+          "sha256": "40c74ef66aa7683323b91186b045c7d967dc88f3a2cca123e02480a82abdd3a5"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.7873,
+        "alphaBounds": [
+          137,
+          13,
+          1402,
+          1009
+        ],
+        "solidAlphaBounds": [
+          236,
+          17,
+          1320,
+          998
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 506,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            237,
+            17,
+            404,
+            487
+          ],
+          [
+            691,
+            17,
+            860,
+            487
+          ],
+          [
+            1147,
+            17,
+            1316,
+            487
+          ],
+          [
+            236,
+            526,
+            404,
+            998
+          ],
+          [
+            691,
+            526,
+            860,
+            998
+          ],
+          [
+            1151,
+            526,
+            1320,
+            998
+          ]
+        ],
+        "frames": [
+          [
+            220,
+            11,
+            201,
+            484
+          ],
+          [
+            675,
+            11,
+            201,
+            484
+          ],
+          [
+            1131,
+            11,
+            201,
+            484
+          ],
+          [
+            220,
+            520,
+            201,
+            484
+          ],
+          [
+            675,
+            520,
+            201,
+            484
+          ],
+          [
+            1135,
+            520,
+            201,
+            484
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/chengyu-expressions.webp",
+        "bytes": 1042658,
+        "sha256": "f338732947fb449da50af24056c5195cc17876c7ab919fc36997f33ee132160f"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "classmate",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/classmate-expressions-v2.png",
+      "sourceBytes": 1618408,
+      "gitBlobSha": "9de9810aec60f97f6a27e5ff4d7559f2e5ddeb91",
+      "prompt": "Edit the supplied transparent six-expression atlas of an unnamed seventeen-year-old male Chinese school classmate. Across ALL SIX figures change ONLY the hair and facial identity so he is visibly distinct from He Chuan and Cheng Yu: a SHORT CLOSE CREW CUT, dark brown-black hair cropped above both ears, a clean straight low fringe showing most of the forehead, a visibly rounder youthful face, soft straight eyebrows. No fluffy long fringe or spikes. Preserve all six existing facial emotions, exact body pose, height, positions, complete shoes, modest ivory/dark-green sports school uniform, all hands, atlas spacing and true RGBA transparency. Keep the 1536x1024 3x2 atlas with six small full-body figures, no enlargement or edge crop. Fine established linework and two-level cel shading. No scenery, haze, halo, extra props, labels or text.",
+      "tool": "image_gen",
+      "sourceSha256": "936c8b1c21afb5cb8f48ff73a19a039317456049fe118df2d375d23c03a84215",
+      "referenceHashes": [
+        {
+          "path": "assets_source/characters/full-20261020/classmate-expressions.png",
+          "sha256": "a95dd674697fbfa91037d6ab415711c5bb473449abbcf980d3740456f4162f90"
+        }
+      ],
+      "qa": {
+        "kind": "atlas",
+        "width": 1536,
+        "height": 1024,
+        "transparentFraction": 0.7752,
+        "alphaBounds": [
+          87,
+          0,
+          1484,
+          1024
+        ],
+        "solidAlphaBounds": [
+          227,
+          9,
+          1333,
+          1015
+        ],
+        "columns": 3,
+        "rows": 2,
+        "rowSeparator": 511,
+        "expressions": [
+          "neutral",
+          "smile",
+          "surprised",
+          "worried",
+          "hurt",
+          "shy"
+        ],
+        "figureBounds": [
+          [
+            227,
+            10,
+            405,
+            502
+          ],
+          [
+            687,
+            10,
+            865,
+            502
+          ],
+          [
+            1155,
+            9,
+            1333,
+            502
+          ],
+          [
+            227,
+            522,
+            405,
+            1015
+          ],
+          [
+            687,
+            522,
+            865,
+            1015
+          ],
+          [
+            1155,
+            522,
+            1333,
+            1015
+          ]
+        ],
+        "frames": [
+          [
+            211,
+            4,
+            210,
+            505
+          ],
+          [
+            671,
+            4,
+            210,
+            505
+          ],
+          [
+            1139,
+            3,
+            210,
+            505
+          ],
+          [
+            211,
+            516,
+            210,
+            505
+          ],
+          [
+            671,
+            516,
+            210,
+            505
+          ],
+          [
+            1139,
+            516,
+            210,
+            505
+          ]
+        ],
+        "path": "assets_source/full-media-prepared/classmate-expressions.webp",
+        "bytes": 1055504,
+        "sha256": "872cde07ea9b67b50d0c19850e715297f89f0daa718a4badf0a32f801756d8c7"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "window-open",
+      "kind": "cg",
+      "title": "窗还开着",
+      "active": true,
+      "binding": {
+        "sceneId": "end-together",
+        "lineIndex": 9
+      },
+      "source": "assets_source/scenes/full-20261020/cg-window-open.png",
+      "sourceBytes": 2373774,
+      "gitBlobSha": "79caafb30782214d008a7be1881cbeff7fcea187",
+      "prompt": "Use case: illustration-story. Create one new original event/background illustration for the established Chinese school visual novel Moist Healing. In the school literature club the next afternoon, Lin Jianxia has opened her manuscript herself and Chen Zhiyao has asked before reading. First-person seated view across a wooden desk toward exactly TWO seventeen-year-old Chinese schoolgirls: Lin on the left with shoulder-length dark brown hair, her own left mint-green rectangular hair clip and brown eyes; Chen on the right with a chestnut high ponytail, ivory scrunchie and brown eyes. Both wear the exact ivory and dark green zip sports uniform with twin sleeve stripes, white T-shirts and navy trousers, matching their identity references. Three loose manuscript pages and one open beige notebook lie between them. Lin's hand is withdrawing from the page, just touching the edge of the viewer's ivory-green uniform sleeve in the lower foreground; a fleeting quietly surprised look, restrained first mutual affection, no grabbing or romantic pose. Chen is naturally studying the manuscript, a binder clip beside her hand. A narrow open window and soft afternoon sun behind, damp desk corner, the same old green bookcase. No third girl, no extra foreground face. Keep faces, hands and manuscript above the lower 25% reading area. Landscape 16:9 composition filling the whole canvas. Important subjects within the central 85% with comfortable margins, bottom quarter relatively quiet. Clean fine linework, restrained 2D cel coloring and natural perspective matching the supplied references. No UI, panels, captions, logos, watermarks, legible text or border. Ordinary age-appropriate school life.",
+      "tool": "image_gen",
+      "sourceSha256": "23c85f7a7f0294df6127fac3ccec7964e2f7eb5b0cc5799489b9e4f775f7f17d",
+      "referenceHashes": [
+        {
+          "path": "public/art/lin.webp",
+          "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+        },
+        {
+          "path": "public/art/chen.webp",
+          "sha256": "1af71b2d3dfce1ae4fc8275b447f559544dbae86826f6f120adae2438a8f766f"
+        },
+        {
+          "path": "public/art/clubroom.webp",
+          "sha256": "86f8d0bdd72ceca45cd00ccef0dcb1f94be4bd54c4463bbdbdbbf8f60014fb4e"
+        }
+      ],
+      "qa": {
+        "kind": "background",
+        "width": 1672,
+        "height": 941,
+        "path": "assets_source/full-media-prepared/cg-window-open.webp",
+        "bytes": 340014,
+        "sha256": "09362d8c63af7ada9ce7ae75446f5b793d1a7af8a93456b3fc829fd0470beb5b"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "unsigned-letter",
+      "kind": "cg",
+      "title": "一封没有署名的信",
+      "active": true,
+      "binding": {
+        "sceneId": "end-letter",
+        "lineIndex": 11
+      },
+      "source": "assets_source/scenes/full-20261020/cg-unsigned-letter.png",
+      "sourceBytes": 2297631,
+      "gitBlobSha": "4e9f990c3424eb213c9b952001476d4f42204013",
+      "prompt": "Use case: illustration-story. Create one new original event/background illustration for the established Chinese school visual novel Moist Healing. Intimate but ordinary school desk scene in a Chinese high-school classroom, late September morning. First-person view from Cheng Yu's seat. Exactly one seventeen-year-old girl Lin Jianxia sits by the open window on the opposite left: shoulder-length dark brown hair, her own left mint-green rectangular hair clip, brown eyes, ivory and dark green school sports jacket with twin sleeve stripes, white T-shirt and navy trousers. She looks down with a small unforced smile toward a folded sheet that has just been pushed to the middle of the desk. Two hands with school-uniform sleeves in the near foreground stop short of the sheet; no touching bodies. Soft green ink-like short marks on the sheet, deliberately no readable wording. The paper is the main subject at mid-height; a report card is tucked under a beige notebook, muted classroom desks in the background, warm gray daylight after rain, quiet shy friendship, no heart symbols or romantic staging. Preserve the exact face, hair clip side and uniform from reference 1; reference 2 gives only the drawing and room-material style. Landscape 16:9 composition filling the whole canvas. Important subjects within the central 85% with comfortable margins, bottom quarter relatively quiet. Clean fine linework, restrained 2D cel coloring and natural perspective matching the supplied references. No UI, panels, captions, logos, watermarks, legible text or border. Ordinary age-appropriate school life.",
+      "tool": "image_gen",
+      "sourceSha256": "82e3ce0eda39622e60fa6f514a3a7e3045101231d39f01878720f490c92c3e45",
+      "referenceHashes": [
+        {
+          "path": "public/art/lin.webp",
+          "sha256": "f348c1a161ababd39b9d5fe5653a935cf9fb5cbebae09c95eff9de934785d548"
+        },
+        {
+          "path": "public/art/clubroom.webp",
+          "sha256": "86f8d0bdd72ceca45cd00ccef0dcb1f94be4bd54c4463bbdbdbbf8f60014fb4e"
+        }
+      ],
+      "qa": {
+        "kind": "background",
+        "width": 1672,
+        "height": 941,
+        "path": "assets_source/full-media-prepared/cg-unsigned-letter.webp",
+        "bytes": 310886,
+        "sha256": "121de162fccb9f928ca6df06853d64e1dc14d19fd0d88b37170a46bba97cedac"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "blank-page",
+      "kind": "cg",
+      "title": "留白",
+      "active": true,
+      "binding": {
+        "sceneId": "end-quiet",
+        "lineIndex": 11
+      },
+      "source": "assets_source/scenes/full-20261020/cg-blank-page.png",
+      "sourceBytes": 2100670,
+      "gitBlobSha": "d949e21afd4ce6435013d9faa197a962df87e838",
+      "prompt": "Use case: illustration-story. Create one new original event/background illustration for the established Chinese school visual novel Moist Healing. A new still-life event illustration, early-morning desk in an ordinary Chinese high-school classroom after rain. First-person close view of a math textbook opened beside a manuscript sheet turned to its mostly blank reverse. There is just ONE small short line of indistinct gray handwriting near the top; leave the rest of the page empty, no readable words. A warm rice ball in a simple unbranded clear bag rests at the right beside the desk, an umbrella leans at the left edge, and the window behind is open a little. Far classroom background is soft and empty, no visible people, no faces or portraits. Slight rain haze outside, gentle morning green-gray light, a quiet unresolved but caring mood. The paper, rice ball and the open window should each be readable, above the lower reading area. Use only the provided image's clean linework, flat colors and simple cel shadows, not its characters or actual arrangement. Landscape 16:9 composition filling the whole canvas. Important subjects within the central 85% with comfortable margins, bottom quarter relatively quiet. Clean fine linework, restrained 2D cel coloring and natural perspective matching the supplied references. No UI, panels, captions, logos, watermarks, legible text or border. Ordinary age-appropriate school life.",
+      "tool": "image_gen",
+      "sourceSha256": "396e4dfd39ff6c9693f394517d6c4af13b2a7c57c6cd9f3dfa9ba2a3ccd6384b",
+      "referenceHashes": [
+        {
+          "path": "public/art/cg-shared-print.webp",
+          "sha256": "c89562bd61fa251f5571dcdd0d43944256edd0c46e32c67ed66af007b5252123"
+        }
+      ],
+      "qa": {
+        "kind": "background",
+        "width": 1672,
+        "height": 941,
+        "path": "assets_source/full-media-prepared/cg-blank-page.webp",
+        "bytes": 268208,
+        "sha256": "ef6933a8d49347ecc3814a33fcfa2aeb046f5b0157ff4577fbfe577925ad1d6a"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "corridor",
+      "kind": "background",
+      "title": "走廊里的排名",
+      "active": true,
+      "source": "assets_source/scenes/full-20261020/corridor.png",
+      "sourceBytes": 2531161,
+      "gitBlobSha": "4c4a3b601bb5f055fb3c335dda0ec6a8472b7a3c",
+      "prompt": "Use case: illustration-story. Create one new original event/background illustration for the established Chinese school visual novel Moist Healing. Empty interior corridor in Jiangcheng Seventh High School, a contemporary ordinary Chinese public high school in September after rain. Fixed eye-level medium-wide view along the third-floor teaching corridor: ivory walls, dark mint green lower wall paint, gray terrazzo floor, tall classroom windows on one side and a notice board on the other with plain white ranking sheets pinned neatly behind clear glass. Sheets contain only tiny indistinct gray rows, no readable names, grades or numbers. A damp cloth rests on a low bucket beside the board, classroom door and muted camphor trees through windows, cool overcast recess daylight, real modest school architecture rather than fantasy academy. Leave a broad uncluttered center and lower quarter for transparent character sprites and the dialogue UI. Absolutely no people or human silhouettes. Match the existing illustrated room's thin clear lines, flat painted color blocks and restrained simple shadows, no photorealism. Landscape 16:9 composition filling the whole canvas. Important subjects within the central 85% with comfortable margins, bottom quarter relatively quiet. Clean fine linework, restrained 2D cel coloring and natural perspective matching the supplied references. No UI, panels, captions, logos, watermarks, legible text or border. Ordinary age-appropriate school life.",
+      "tool": "image_gen",
+      "sourceSha256": "0df8a5fa016c33f9f5d399483e768390ad8348bd89f8ac73c6067d1510a80a13",
+      "referenceHashes": [
+        {
+          "path": "public/art/clubroom.webp",
+          "sha256": "86f8d0bdd72ceca45cd00ccef0dcb1f94be4bd54c4463bbdbdbbf8f60014fb4e"
+        }
+      ],
+      "qa": {
+        "kind": "background",
+        "width": 1672,
+        "height": 941,
+        "path": "assets_source/full-media-prepared/corridor.webp",
+        "bytes": 346356,
+        "sha256": "7ea95948df7c70a68103ae7faf95ad391ca5f3fa87aaa63a25a1c8ed2f3e5077"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "rain-eaves",
+      "kind": "background",
+      "title": "雨檐下",
+      "active": true,
+      "source": "assets_source/scenes/full-20261020/rain-eaves.png",
+      "sourceBytes": 2479400,
+      "gitBlobSha": "98dc815462f080a513fbd19d66926403ad1b885a",
+      "prompt": "Use case: illustration-story. Create one original new 16:9 background for the Chinese school visual novel Moist Healing. An empty teaching-building entrance and broad covered rain eaves at Jiangcheng Seventh High School in September at dusk. Eye-level view from the dry shelter: simple gray concrete columns, cream walls with a dark mint-green lower band, closed metal classroom stairwell door to one side, thin rain pouring from a plain corrugated canopy beyond. Wet gray paving and camphor trees in the school courtyard, subdued orange-gray evening sky, a shallow puddle outside the dry line, no people. The foreground shelter is wide enough for three ordinary students to stand; keep center and lower quarter open for character sprites and reading UI. Ordinary contemporary Chinese public-school architecture, no grand fantasy campus. Match only the supplied image's thin clean linework, flat colors and restrained simple cel shadows. Full landscape canvas, no border, UI, caption, watermark, photorealism or detailed extra characters.",
+      "tool": "image_gen",
+      "sourceSha256": "a760c339aec2dd81b4f13a65fe454fab83a7995ef652a6c4a1d023ddea67fa4e",
+      "referenceHashes": [
+        {
+          "path": "public/art/clubroom.webp",
+          "sha256": "86f8d0bdd72ceca45cd00ccef0dcb1f94be4bd54c4463bbdbdbbf8f60014fb4e"
+        }
+      ],
+      "qa": {
+        "kind": "background",
+        "width": 1672,
+        "height": 941,
+        "path": "assets_source/full-media-prepared/rain-eaves.webp",
+        "bytes": 364620,
+        "sha256": "3127e820b5686dd7cd05a080cdb81697a1372d71426b587fac0e2194a1af56f2"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "bus-stop",
+      "kind": "background",
+      "title": "回家的电话",
+      "active": true,
+      "source": "assets_source/scenes/full-20261020/bus-stop.png",
+      "sourceBytes": 2761475,
+      "gitBlobSha": "e285eb4c3d8bb9d1623aef14bb171c221ca06913",
+      "prompt": "Use case: illustration-story. Create one original new 16:9 background for the Chinese school visual novel Moist Healing. An empty ordinary Chinese city bus stop outside a modest high-school gate after rain at 19:05 in late September. First-person eye level from under a simple glass-and-metal shelter: rain-specked transparent panel, narrow dry metal bench, a route panel with only indistinct gray rows and absolutely no readable characters or numbers. Wet road beyond, muted warm streetlights, a few distant apartment windows and camphor trees, school gate visible to one side without any text sign. Cool blue early-night atmosphere with a gentle warm shelter light, no people, buses, cars or human silhouettes. Leave the center and bottom quarter calm for a sprite and dialogue UI. Match only the supplied image's thin clean linework, flat colors and restrained simple cel shadows. Full landscape canvas, no border, UI, caption, watermark, photorealism or detailed extra characters.",
+      "tool": "image_gen",
+      "sourceSha256": "9dce50a9632a72704aae17096ec232af5f465ba681bdad34da4be691acd4dc49",
+      "referenceHashes": [
+        {
+          "path": "public/art/clubroom.webp",
+          "sha256": "86f8d0bdd72ceca45cd00ccef0dcb1f94be4bd54c4463bbdbdbbf8f60014fb4e"
+        }
+      ],
+      "qa": {
+        "kind": "background",
+        "width": 1672,
+        "height": 941,
+        "path": "assets_source/full-media-prepared/bus-stop.webp",
+        "bytes": 454912,
+        "sha256": "1e965cf3cd46f0ffb0fd59456090b47f9a449b715f0e4affb5e65abb94e8b3e1"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    },
+    {
+      "id": "bus-interior",
+      "kind": "background",
+      "title": "后排的车窗",
+      "active": true,
+      "source": "assets_source/scenes/full-20261020/bus-interior.png",
+      "sourceBytes": 2183530,
+      "gitBlobSha": "33110a9ed179f85171beb0098114e9232a4cade9",
+      "prompt": "Use case: illustration-story. Create one original new 16:9 background for the Chinese school visual novel Moist Healing. Inside an ordinary Chinese city bus at rainy early night, viewed naturally from a seated passenger near the back. Empty blue-gray molded bus seats, yellow grab rails, a large rain-specked side window reflecting only the dim interior, distant warm road lights beyond glass. A simple unbranded dark school backpack rests on the near seat edge, no other props or visible people and no floating face in the glass. The bus has already closed its doors, quiet thoughtful ride home, cool blue-gray light and soft amber reflections, believable proportions and hand-drawn perspective. Avoid any advertisements, readable route names, logos, writing or display numbers. The lower quarter is low-detail for reading UI. Match only the supplied image's thin clean linework, flat colors and restrained simple cel shadows. Full landscape canvas, no border, UI, caption, watermark, photorealism or detailed extra characters.",
+      "tool": "image_gen",
+      "sourceSha256": "d64bd6276a284ca2fc0e13b0e29f7565e32d25cb90823352f98d263c2ea14099",
+      "referenceHashes": [
+        {
+          "path": "public/art/clubroom.webp",
+          "sha256": "86f8d0bdd72ceca45cd00ccef0dcb1f94be4bd54c4463bbdbdbbf8f60014fb4e"
+        }
+      ],
+      "qa": {
+        "kind": "background",
+        "width": 1672,
+        "height": 941,
+        "path": "assets_source/full-media-prepared/bus-interior.webp",
+        "bytes": 286462,
+        "sha256": "3fce0f3788e5c9f9ea9fc73d38bccd9a76ef7ccfa69bef4fb1a3487e99d9d7cc"
+      },
+      "status": "decoded_and_alpha_or_scene_checked",
+      "runtimeIntegration": "pending"
+    }
+  ],
+  "humanVisualApproval": false,
+  "runtimeIntegration": "pending",
+  "release": "not_published"
+}
