@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-after-school--003",
+  "sceneId": "c3-after-school",
+  "lineId": "c3-after-school--003",
+  "lineIndex": 2,
+  "speaker": "贺川",
+  "text": "我在食堂等我爸，他下班路过。今天不会坐到隔壁班找我了。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1748404487,
+  "textSha256": "d4fd381defc7e91d9669fbe484f9a70e4225031c53f770739de66fa4b144e3cd",
+  "medium": "spoken",
+  "requestSha256": "e12b44e5a35a45cd302b914c9cd42948dbf41cfa43cef50ff902cc9c3a8829bd",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我在食堂等我爸,他下班路過,今天不會坐到隔壁班找我了。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.56,
+  "wallSeconds": 389.761,
+  "loudness": {
+    "input_i": "-21.22",
+    "input_tp": "-3.55",
+    "input_lra": "1.10",
+    "input_thresh": "-31.60",
+    "output_i": "-19.87",
+    "output_tp": "-2.48",
+    "output_lra": "2.60",
+    "output_thresh": "-30.37",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.13"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-after-school--003/raw.wav",
+      "bytes": 629840,
+      "sha256": "7d5c531890a5e2454ba5a153da816f2f8838926f51400db3790e9fdfe4384e75"
+    },
+    "master": {
+      "path": "healing-c3-after-school--003/master.wav",
+      "bytes": 314958,
+      "sha256": "78ae7f0fcbeecfb234c1e3a1a4079d62b0d8ec144dc5ca0db011d5bcdf2e8e9f"
+    },
+    "runtime": {
+      "path": "healing-c3-after-school--003/runtime.ogg",
+      "bytes": 51449,
+      "sha256": "a06747a316478a9816248b35d1d145ff26c177f30ae7ad0e5650f4e5de1c4ca0"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

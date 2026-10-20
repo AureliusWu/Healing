@@ -1,0 +1,55 @@
+{
+  "id": "healing-arrival--006",
+  "sceneId": "arrival",
+  "lineId": "arrival--006",
+  "lineIndex": 5,
+  "speaker": "贺川",
+  "text": "吃。你从车站走到这里，一直在盯着手机。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 516460924,
+  "textSha256": "edda59825cd2a3e1b7156ea6a4bff34db49aeecb26045e3c7662a34e57f217b2",
+  "medium": "spoken",
+  "requestSha256": "e36012605769f50c597223c8723dd3bce21daf0ecff700198317057482e41d34",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "吃你從車站走到這裡一直在盯著手機",
+    "cer": 0.0625,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.92,
+  "wallSeconds": 22.488,
+  "loudness": {
+    "input_i": "-22.76",
+    "input_tp": "-4.25",
+    "input_lra": "1.20",
+    "input_thresh": "-33.03",
+    "output_i": "-19.47",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.73",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.53"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-arrival--006/raw.wav",
+      "bytes": 376400,
+      "sha256": "8d6b8d692c07f4a3d85b5d47e9ca793a66933e89c478c08cd72eadb345565709"
+    },
+    "master": {
+      "path": "healing-arrival--006/master.wav",
+      "bytes": 188238,
+      "sha256": "ae02ba36e8c21e7e1d5e3a67b44629907af46ac5801cc2412ffe67e13714acad"
+    },
+    "runtime": {
+      "path": "healing-arrival--006/runtime.ogg",
+      "bytes": 33020,
+      "sha256": "7cf555798e889b86b20076d092355a83985fd6abdc885c357102ca5505c860aa"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

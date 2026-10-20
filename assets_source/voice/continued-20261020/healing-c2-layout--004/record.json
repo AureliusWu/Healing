@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-layout--004",
+  "sceneId": "c2-layout",
+  "lineId": "c2-layout--004",
+  "lineIndex": 3,
+  "speaker": "许棠",
+  "text": "给你。我再排一版不带笔记本的。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1579984350,
+  "textSha256": "c55180db3efba420feefe2faee1132a03c31afc6de7a8f9779ced67f5c8d7da8",
+  "medium": "spoken",
+  "requestSha256": "9305d8e5b966a7bd8cc7d54c166b1bca6d27949927fd9552ef0c207d74417efe",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "给你,我再排一版不带笔记本的。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 16.143,
+  "loudness": {
+    "input_i": "-22.05",
+    "input_tp": "-6.41",
+    "input_lra": "0.60",
+    "input_thresh": "-32.52",
+    "output_i": "-19.23",
+    "output_tp": "-3.86",
+    "output_lra": "0.00",
+    "output_thresh": "-29.68",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.77"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-layout--004/raw.wav",
+      "bytes": 338000,
+      "sha256": "6adc3161e2923ed7314de70ac04dd5708ebca4b68758b45d9e7890a94cb8a14c"
+    },
+    "master": {
+      "path": "healing-c2-layout--004/master.wav",
+      "bytes": 169038,
+      "sha256": "4e2704db7685a9b932df092f75e79639ad71640b50c2088cfe9a8a5bde6a86e3"
+    },
+    "runtime": {
+      "path": "healing-c2-layout--004/runtime.ogg",
+      "bytes": 28505,
+      "sha256": "425988d84e4935e8ed5d75ecc140be090f3b4daa2432f9c64f2a038dd558c02a"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

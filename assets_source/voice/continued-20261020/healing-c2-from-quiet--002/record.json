@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-quiet--002",
+  "sceneId": "c2-from-quiet",
+  "lineId": "c2-from-quiet--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "你还来吗？我们给你的那页留了位置，没替你交。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1270035578,
+  "textSha256": "c243bee1a22c2e29749d239aea98d19e12ea083c3c45552c75c9ca9bd60f12ca",
+  "medium": "spoken",
+  "requestSha256": "5fe435beb9abf64f13da7064f9ad32cd7b494807f51b91a98e243d3effc6877a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你還來嗎?我們給你的那頁留了位置,沒替你交",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.16,
+  "wallSeconds": 154.423,
+  "loudness": {
+    "input_i": "-16.31",
+    "input_tp": "-3.61",
+    "input_lra": "0.40",
+    "input_thresh": "-26.58",
+    "output_i": "-19.63",
+    "output_tp": "-7.02",
+    "output_lra": "0.30",
+    "output_thresh": "-29.89",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.37"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-quiet--002/raw.wav",
+      "bytes": 399440,
+      "sha256": "70b3cdae81044460b740867cef0176de2b747c4bd29e51934c91929e1c6508dc"
+    },
+    "master": {
+      "path": "healing-c2-from-quiet--002/master.wav",
+      "bytes": 199758,
+      "sha256": "68a023b9a0f6c22634e1b1a0ee51ec8b2e0f3c4cc77023f0411edbf95d6da85b"
+    },
+    "runtime": {
+      "path": "healing-c2-from-quiet--002/runtime.ogg",
+      "bytes": 31270,
+      "sha256": "7c81b1e45221efdaf8c0a409732736568ab14bd608058c87a1a80177c272d90c"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

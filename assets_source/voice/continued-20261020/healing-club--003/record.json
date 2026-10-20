@@ -1,0 +1,55 @@
+{
+  "id": "healing-club--003",
+  "sceneId": "club",
+  "lineId": "club--003",
+  "lineIndex": 2,
+  "speaker": "陈知遥",
+  "text": "我们以前一学期能出两期。现在老师说，只有凑够稿子，才给印刷。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1132109755,
+  "textSha256": "8edf7a9b92cce3ca20db90047ddd5ac73b6efb3cc08fffaac90b424f0f996c89",
+  "medium": "spoken",
+  "requestSha256": "02515cbe60dfb1c93d04950b16d5072355978aa22dc64fdfe895348b570d5e3e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我們以前醫學期能出兩期現在老師說只有錯過稿子才給印刷",
+    "cer": 0.115385,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.4,
+  "wallSeconds": 652.351,
+  "loudness": {
+    "input_i": "-19.19",
+    "input_tp": "-3.19",
+    "input_lra": "1.10",
+    "input_thresh": "-29.43",
+    "output_i": "-20.21",
+    "output_tp": "-4.46",
+    "output_lra": "1.20",
+    "output_thresh": "-30.49",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-club--003/raw.wav",
+      "bytes": 614480,
+      "sha256": "3ddec0de923e8bab42b22bf83c94f75a8d34df6d7c7993c9c39539a1e1ca2640"
+    },
+    "master": {
+      "path": "healing-club--003/master.wav",
+      "bytes": 307278,
+      "sha256": "5267e33405855a38d86e2fd06c0b333ab9af1af9b5f3b6d7a4343854f50faaa0"
+    },
+    "runtime": {
+      "path": "healing-club--003/runtime.ogg",
+      "bytes": 48484,
+      "sha256": "59bbea6a4363c635395483f28118afa75f099101bdc143cd788b0d09ab76ad0b"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch--008",
+  "sceneId": "lunch",
+  "lineId": "lunch--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "总不能一直站在这里。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1681753188,
+  "textSha256": "19c05f7f2816dba733e8323abca6e92b9e5d375e5f7343f1ba40c1c885b9c5a4",
+  "medium": "spoken",
+  "requestSha256": "eeb60e90505e6f90c6cfb106bd2bc37d8b864864db90de992a35f45fcf9ee376",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "总不能一直站在这里",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.92,
+  "wallSeconds": 134.452,
+  "loudness": {
+    "input_i": "-25.62",
+    "input_tp": "-8.89",
+    "input_lra": "0.00",
+    "input_thresh": "-35.62",
+    "output_i": "-19.99",
+    "output_tp": "-3.27",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch--008/raw.wav",
+      "bytes": 184400,
+      "sha256": "8deed1feed8f90cfd2010d896b984d2a255b2324f4907f31f6684d2caaf14fdd"
+    },
+    "master": {
+      "path": "healing-lunch--008/master.wav",
+      "bytes": 92238,
+      "sha256": "c9229cf0b3360b0983748eb4db55f309e0d8cd695465685e7f0a9aeabed0ab9f"
+    },
+    "runtime": {
+      "path": "healing-lunch--008/runtime.ogg",
+      "bytes": 19582,
+      "sha256": "2ab2e532568409ecc98ee1639971b0257e3bd0c966135ba8cf52b69df88b3893"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

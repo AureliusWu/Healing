@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home--003",
+  "sceneId": "c2-home",
+  "lineId": "c2-home--003",
+  "lineIndex": 2,
+  "speaker": "妈妈",
+  "text": "发个消息也行。你爸今天晚班，我以为老师又留人讲题。",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1851327135,
+  "textSha256": "77ee2e3ae9155316a5a0b83b65ec2c8fa4900cba9ec360df6a0c27edcd7a96ad",
+  "medium": "spoken",
+  "requestSha256": "4c5874bf73a513da9828c07df18c366a2b4837fd81fdbcb94ae2682297043403",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "發個消息也行你爸今天晚班我以為老師又流人講題",
+    "cer": 0.045455,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.24,
+  "wallSeconds": 309.824,
+  "loudness": {
+    "input_i": "-25.62",
+    "input_tp": "-10.10",
+    "input_lra": "1.10",
+    "input_thresh": "-36.56",
+    "output_i": "-19.74",
+    "output_tp": "-3.64",
+    "output_lra": "2.10",
+    "output_thresh": "-30.87",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.26"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home--003/raw.wav",
+      "bytes": 599120,
+      "sha256": "45924f8d7a7bd308b28d0ff2ff52de2f2701d6cd791e5a3bed8c2398bc9c7924"
+    },
+    "master": {
+      "path": "healing-c2-home--003/master.wav",
+      "bytes": 299598,
+      "sha256": "ff15f284ce7a67ad92d6d2d8349f07c1764d6d4db08002398f5c5d6cb1937dbf"
+    },
+    "runtime": {
+      "path": "healing-c2-home--003/runtime.ogg",
+      "bytes": 45806,
+      "sha256": "ff4a210f6af5e8f167f8de0708bbe1481663feaa29e51ec59b6b395dc2ea969c"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

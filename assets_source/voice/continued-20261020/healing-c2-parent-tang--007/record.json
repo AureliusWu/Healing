@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-tang--007",
+  "sceneId": "c2-parent-tang",
+  "lineId": "c2-parent-tang--007",
+  "lineIndex": 6,
+  "speaker": "许棠",
+  "text": "所以把时间说清楚。周四到六点，其余晚自习照常。借相机先告诉你，周末也不一直拿着。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1652946235,
+  "textSha256": "a34bd9f0d132516b267d1a58c9fdcebeacb8033c51eca3a21821f8d1f08cc00c",
+  "medium": "spoken",
+  "requestSha256": "8043fc98448bf399dc9c09a7bed8a474c95ebcf19c5dbe151a25e69ead0908c5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "所以把時間說清楚,週四到六點,其餘晚自習照常,借相機先告訴你,週末也不一直拿照。",
+    "cer": 0.028571,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.92,
+  "wallSeconds": 55.364,
+  "loudness": {
+    "input_i": "-22.63",
+    "input_tp": "-5.88",
+    "input_lra": "2.60",
+    "input_thresh": "-33.13",
+    "output_i": "-19.17",
+    "output_tp": "-2.64",
+    "output_lra": "1.50",
+    "output_thresh": "-29.67",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.83"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-tang--007/raw.wav",
+      "bytes": 952400,
+      "sha256": "a941676cfbedf0524d64aa75267fd47088e3a2869b3007a2c9bfcf4f193033c9"
+    },
+    "master": {
+      "path": "healing-c2-parent-tang--007/master.wav",
+      "bytes": 476238,
+      "sha256": "96bb49714b0a139f071cb432007d275ea10028192fdbb0da57dccbb2b5fb9308"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-tang--007/runtime.ogg",
+      "bytes": 71717,
+      "sha256": "181d7f9fc607a41679b4363461c2db7da6972eb72d3e2f3470494c56a4b300e9"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

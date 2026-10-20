@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parents--008",
+  "sceneId": "c2-parents",
+  "lineId": "c2-parents--008",
+  "lineIndex": 7,
+  "speaker": "许棠",
+  "text": "我妈问，我给她看同意给她看的两页。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 622163205,
+  "textSha256": "feab960a8d8737f10009a572ff28e78a699863046ebdac1f8a198e15abbeeb2f",
+  "medium": "spoken",
+  "requestSha256": "1b5a495bf27db67ca97c6b6de3b633bdc4ea9eae23bdf6b73d1007d9e6d1eef1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我妈问,我给她看,同意给她看的两页。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.84,
+  "wallSeconds": 31.605,
+  "loudness": {
+    "input_i": "-22.59",
+    "input_tp": "-8.23",
+    "input_lra": "0.30",
+    "input_thresh": "-32.66",
+    "output_i": "-19.51",
+    "output_tp": "-5.37",
+    "output_lra": "0.00",
+    "output_thresh": "-29.65",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.49"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parents--008/raw.wav",
+      "bytes": 368720,
+      "sha256": "1e53924de66c5a57377e65a4b67efcb76f6e971448cf7b93baf53fed85b7b9aa"
+    },
+    "master": {
+      "path": "healing-c2-parents--008/master.wav",
+      "bytes": 184398,
+      "sha256": "06b1723a5ebf29e7d55ee3a7ad48a598938d249ecb10b5500ec91c24c1bfb060"
+    },
+    "runtime": {
+      "path": "healing-c2-parents--008/runtime.ogg",
+      "bytes": 29820,
+      "sha256": "453f3bd199da4450745628fa70101d20e74ed3e6aa856174dc9fc3bfeac830c9"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-corridor--006",
+  "sceneId": "corridor",
+  "lineId": "corridor--006",
+  "lineIndex": 5,
+  "speaker": "贺川",
+  "text": "你觉得他们看到的是我们，还是旁边那个数字？",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 18040620,
+  "textSha256": "1457d537d3e11cd4566961b5d2793cb3f0f7e011a0207a3a822bd66132c513c3",
+  "medium": "spoken",
+  "requestSha256": "98ff472e2c074fa39101e3ce5500e26b85b4a287d725c47722f0484e9a9678b0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你觉得他们看到的是我们还是旁边那个数字",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.48,
+  "wallSeconds": 20.553,
+  "loudness": {
+    "input_i": "-23.06",
+    "input_tp": "-4.15",
+    "input_lra": "3.60",
+    "input_thresh": "-33.43",
+    "output_i": "-20.58",
+    "output_tp": "-2.48",
+    "output_lra": "2.60",
+    "output_thresh": "-30.89",
+    "normalization_type": "dynamic",
+    "target_offset": "0.58"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-corridor--006/raw.wav",
+      "bytes": 430160,
+      "sha256": "fb0eefa368b5aaf7120305bacc6bfdf9914aa6e7f0cfbc737a59caa6244e6a64"
+    },
+    "master": {
+      "path": "healing-corridor--006/master.wav",
+      "bytes": 215118,
+      "sha256": "1b91310477d13937b8fb131592d560e30a99ddc1cf493ad7aeed3d4fcbdcf00e"
+    },
+    "runtime": {
+      "path": "healing-corridor--006/runtime.ogg",
+      "bytes": 37544,
+      "sha256": "83d5acf614de5dd7be7a99d0f7c9d566b74a2aa7f2130fce3bb007e1ccfafb7b"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-help--011",
+  "sceneId": "desk-help",
+  "lineId": "desk-help--011",
+  "lineIndex": 10,
+  "speaker": "陈知遥",
+  "text": "那我帮你留钥匙。搬书不用考满分才能来。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 40810487,
+  "textSha256": "3920820985ee073589be854c96a663e6826f359d7610de1492ef2c0b48bcb7b3",
+  "medium": "spoken",
+  "requestSha256": "675dc2b8319c3bd5ebda7fae510a868d306abfc2433c6eb9c5dedbbc5ff983c4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那我帮你留钥匙班淑不用考满分才能来",
+    "cer": 0.117647,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.92,
+  "wallSeconds": 128.59,
+  "loudness": {
+    "input_i": "-20.64",
+    "input_tp": "-6.57",
+    "input_lra": "1.70",
+    "input_thresh": "-30.93",
+    "output_i": "-19.62",
+    "output_tp": "-6.16",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.38"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-help--011/raw.wav",
+      "bytes": 376400,
+      "sha256": "f451287d828aab84d047d3183a09c40ea8b078a8b5a74c3265ae47ee6552ed77"
+    },
+    "master": {
+      "path": "healing-desk-help--011/master.wav",
+      "bytes": 188238,
+      "sha256": "434767292e5c6a5e6ea21c29eea509ee5138f02d6f066ebfea7e6173f7a77a03"
+    },
+    "runtime": {
+      "path": "healing-desk-help--011/runtime.ogg",
+      "bytes": 31090,
+      "sha256": "e4719cf0cb15364d9c01df0c298191ad8966ea971e228ee898ba72b2f84d107f"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--007",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "上周我把排班弄错了。老师说我最近状态不好，我当时还挺高兴。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 422289929,
+  "textSha256": "a04955be8863b559805ea4ab237beda157df3ab0eb6ac92fec222dd51fb83835",
+  "medium": "spoken",
+  "requestSha256": "034b83e936480246730e740f0df033df286c6dc7584acfabc140a276b7817b32",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "上週我把排班弄錯了老師說我最近狀態不好我當時還挺高興",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.28,
+  "wallSeconds": 202.069,
+  "loudness": {
+    "input_i": "-24.32",
+    "input_tp": "-8.97",
+    "input_lra": "0.60",
+    "input_thresh": "-34.61",
+    "output_i": "-19.61",
+    "output_tp": "-4.72",
+    "output_lra": "1.50",
+    "output_thresh": "-29.96",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.39"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--007/raw.wav",
+      "bytes": 698960,
+      "sha256": "13bfbe492a0f7e7e99721298e294435b864fff9a4d189f84e24b1499ff8d576a"
+    },
+    "master": {
+      "path": "healing-draft-plain--007/master.wav",
+      "bytes": 349518,
+      "sha256": "42e50b680f42d5a70741de807ec5fff09066c1c9e3a1d0945943a4aea831ea0d"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--007/runtime.ogg",
+      "bytes": 54243,
+      "sha256": "27ff42fb1576da28ad6309794833d7caaab866560588dd1c572e2dc5cf6d9dc8"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

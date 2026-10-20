@@ -1,0 +1,55 @@
+{
+  "id": "healing-tang-interlude--011",
+  "sceneId": "tang-interlude",
+  "lineId": "tang-interlude--011",
+  "lineIndex": 10,
+  "speaker": "许棠",
+  "text": "她们两个都走了？我还想问问见夏，愿不愿意把文章放在封面后面。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 768749935,
+  "textSha256": "9827ac68b4a2bc9067607a523157be368dd217827f40151bdf1d04d9615029ad",
+  "medium": "spoken",
+  "requestSha256": "f14c36fe93b38deebb568e6f517550bcc4851a419602f842d2892d4952ebd296",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "他们两个都走了我还想问问剑下愿不愿意把文章放在封面后面",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.64,
+  "wallSeconds": 212.818,
+  "loudness": {
+    "input_i": "-17.05",
+    "input_tp": "-3.20",
+    "input_lra": "1.30",
+    "input_thresh": "-27.76",
+    "output_i": "-19.83",
+    "output_tp": "-5.39",
+    "output_lra": "2.80",
+    "output_thresh": "-30.76",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.17"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-tang-interlude--011/raw.wav",
+      "bytes": 637520,
+      "sha256": "40113e81d03b24d09f1461bf24d9b39d1345af84940562ef4c93e1b38ac32126"
+    },
+    "master": {
+      "path": "healing-tang-interlude--011/master.wav",
+      "bytes": 318798,
+      "sha256": "f8e8c2874676c9ac9ff7015c2a15cfb3b18375c3414e28643ae05f6a29383c70"
+    },
+    "runtime": {
+      "path": "healing-tang-interlude--011/runtime.ogg",
+      "bytes": 47764,
+      "sha256": "c9134156be26eedf5735e5c52e5448322f6e47e693dd47c946918038a4d72b64"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

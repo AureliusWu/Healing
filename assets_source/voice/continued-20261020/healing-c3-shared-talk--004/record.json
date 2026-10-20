@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-talk--004",
+  "sceneId": "c3-shared-talk",
+  "lineId": "c3-shared-talk--004",
+  "lineIndex": 3,
+  "speaker": "陈知遥",
+  "text": "我也是。不给班群，要给别人看先问。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1392040487,
+  "textSha256": "597e650d2f89341fa16fde73ddceceecd53a2d0c622475aef9ff4cac9559ea70",
+  "medium": "spoken",
+  "requestSha256": "a3657946112e2184269dffa171d50995a87a7f9bb7fe79d304da55495612f332",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也是,不給班群,要給別人看先問",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.56,
+  "wallSeconds": 20.418,
+  "loudness": {
+    "input_i": "-23.01",
+    "input_tp": "-9.28",
+    "input_lra": "2.30",
+    "input_thresh": "-33.58",
+    "output_i": "-17.84",
+    "output_tp": "-4.04",
+    "output_lra": "0.30",
+    "output_thresh": "-28.48",
+    "normalization_type": "dynamic",
+    "target_offset": "-2.16"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-talk--004/raw.wav",
+      "bytes": 437840,
+      "sha256": "2f0c6e4f8ec1a5c7c84268755c9fc754d351cd9ce602d441fd42fd250236c078"
+    },
+    "master": {
+      "path": "healing-c3-shared-talk--004/master.wav",
+      "bytes": 218958,
+      "sha256": "5449f4c810c4cc65a8765bd9d79f71c35c41ee21cf2cf63cb155afba04bd77b6"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-talk--004/runtime.ogg",
+      "bytes": 33937,
+      "sha256": "7ca2955a610829c48d6a9393a12262d402becb555d4556f65f3e12dcc3594668"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

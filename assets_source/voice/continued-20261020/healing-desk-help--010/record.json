@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-help--010",
+  "sceneId": "desk-help",
+  "lineId": "desk-help--010",
+  "lineIndex": 9,
+  "speaker": "程屿",
+  "text": "我数学考砸了。要是老师留我讲题，可能会晚一点。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 728597516,
+  "textSha256": "c59ab0de761abfbfedc0cf5d72303f1219756d8dca4bc8e36b19dfca88b58d53",
+  "medium": "spoken",
+  "requestSha256": "ab8dca300896ec85cc7899ac101b2733584b416164f2b0512de9031cf8c65d80",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我数学考杂了要是老师留我讲题可能会晚一点",
+    "cer": 0.05,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.48,
+  "wallSeconds": 315.552,
+  "loudness": {
+    "input_i": "-26.57",
+    "input_tp": "-8.88",
+    "input_lra": "0.50",
+    "input_thresh": "-36.69",
+    "output_i": "-20.18",
+    "output_tp": "-2.57",
+    "output_lra": "0.40",
+    "output_thresh": "-30.39",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-help--010/raw.wav",
+      "bytes": 430160,
+      "sha256": "02391918aaa786d63b134b6eddf4541b02ab2c4fe0ada6066aef20f648d5923a"
+    },
+    "master": {
+      "path": "healing-desk-help--010/master.wav",
+      "bytes": 215118,
+      "sha256": "3e1e41f5f22d17bd0cec7339b7d3e11d08618008fb748b5434187d612932e7ee"
+    },
+    "runtime": {
+      "path": "healing-desk-help--010/runtime.ogg",
+      "bytes": 37237,
+      "sha256": "b65f64b184f11705ade9ccc7dc6e4bfc96935a225aaa4232e63e9b51134e322a"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

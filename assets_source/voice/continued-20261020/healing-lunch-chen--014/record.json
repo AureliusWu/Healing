@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--014",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--014",
+  "lineIndex": 13,
+  "speaker": "陈知遥",
+  "text": "如果别人这么跟我说，我会说够。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1992455283,
+  "textSha256": "ded8c63eb844bbb4aa50fee1b5051b700282dfadc3b04d34f79f134278e97f3d",
+  "medium": "spoken",
+  "requestSha256": "2e12cabf71f140f3b9491311c4a4609127b066d2f610ac24d8f0199eafa9ffb8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "如果別人這麼跟我說,我會說夠",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.36,
+  "wallSeconds": 168.051,
+  "loudness": {
+    "input_i": "-19.47",
+    "input_tp": "-6.02",
+    "input_lra": "0.40",
+    "input_thresh": "-29.84",
+    "output_i": "-18.82",
+    "output_tp": "-5.46",
+    "output_lra": "0.00",
+    "output_thresh": "-29.17",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.18"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--014/raw.wav",
+      "bytes": 322640,
+      "sha256": "32e66f75138dd1fc5d8e8f2da9b3ae46f744773d2245c44d83609cb425976203"
+    },
+    "master": {
+      "path": "healing-lunch-chen--014/master.wav",
+      "bytes": 161358,
+      "sha256": "53187c2cc68e675e3e07f2d8dc9d01c25af203faa7480411950750fdcedf9b9c"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--014/runtime.ogg",
+      "bytes": 26294,
+      "sha256": "843ae6f3b5aa69c68009c0f1bc45059c336b86333b1db0ac0fce1c271fb896c0"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

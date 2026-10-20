@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-chen--007",
+  "sceneId": "c2-parent-chen",
+  "lineId": "c2-parent-chen--007",
+  "lineIndex": 6,
+  "speaker": "陈母",
+  "text": "以前都能做完。",
+  "actorId": "陈母",
+  "voice": "Serena",
+  "instruct": "中年母亲，普通话，平稳直接，谈家庭安排，不夸张不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1649272225,
+  "textSha256": "b58db0214de40bafd1e67ad3c9244b981453859b15b724146ef410e36a4fc306",
+  "medium": "spoken",
+  "requestSha256": "7f1afa74986cfcce4af9ec50878862cf10000ca07243e03549a0a1ca00eda60b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以前都能做完",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.08,
+  "wallSeconds": 10.169,
+  "loudness": {
+    "input_i": "-24.80",
+    "input_tp": "-10.19",
+    "input_lra": "0.00",
+    "input_thresh": "-35.05",
+    "output_i": "-20.00",
+    "output_tp": "-5.39",
+    "output_lra": "0.00",
+    "output_thresh": "-30.25",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-chen--007/raw.wav",
+      "bytes": 199760,
+      "sha256": "1437023d5f5b5d5a5d31e48062cdb7f5abf2bf38ee36580999dfa5223e8b672b"
+    },
+    "master": {
+      "path": "healing-c2-parent-chen--007/master.wav",
+      "bytes": 99918,
+      "sha256": "e32c8b377be6f56b1b62d16fc328d0c0d5d94aa5dc93f8c0a60c94bda792c296"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-chen--007/runtime.ogg",
+      "bytes": 17754,
+      "sha256": "2a3b4a76a88a4aeb1a5a0b1b3a9ee1754bc6c2fee3a6b05b59da26e80ab4b397"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

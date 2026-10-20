@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-proof--002",
+  "sceneId": "c2-proof",
+  "lineId": "c2-proof--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "往里挪一点。纸上真的有钉子。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 613536262,
+  "textSha256": "8b07bfb82a2e7e569232bafcab19f054547364036e248cb8b52f67c33caa8391",
+  "medium": "spoken",
+  "requestSha256": "c18121866303161ff928c68b46a37ca67ab8e043e1647b1b734b9e60afcfd3af",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "往里挪一點 紙上真的有釘子",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 109.141,
+  "loudness": {
+    "input_i": "-18.82",
+    "input_tp": "-7.25",
+    "input_lra": "0.80",
+    "input_thresh": "-29.13",
+    "output_i": "-19.56",
+    "output_tp": "-8.33",
+    "output_lra": "0.00",
+    "output_thresh": "-29.88",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.44"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-proof--002/raw.wav",
+      "bytes": 314960,
+      "sha256": "02d3b8775e9f63ade9f917467d22b0bfc7eb8f066553bdabaca4f1a152b7122a"
+    },
+    "master": {
+      "path": "healing-c2-proof--002/master.wav",
+      "bytes": 157518,
+      "sha256": "0aa0e8dad9819277c41c79a41b1b9f79417b9ff2ac72ea9ee33a33c51ae93115"
+    },
+    "runtime": {
+      "path": "healing-c2-proof--002/runtime.ogg",
+      "bytes": 26115,
+      "sha256": "82d48aa52ba96c579afdb217f44ee2e13469752477557246153c0a197be7a852"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

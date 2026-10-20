@@ -1,0 +1,55 @@
+{
+  "id": "healing-misunderstanding--012",
+  "sceneId": "misunderstanding",
+  "lineId": "misunderstanding--012",
+  "lineIndex": 11,
+  "speaker": "林见夏",
+  "text": "我不是说你做错了。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 333306557,
+  "textSha256": "0dc6c4cafa913ffcbeb8982557298e2f9b09e444220b8c70776434c02e7f219c",
+  "medium": "spoken",
+  "requestSha256": "027bfa1cf86b756c7ff80370e90c2df638f4c2c57bca0588c2e9a342a5c91825",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我不是說你做錯了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.68,
+  "wallSeconds": 59.608,
+  "loudness": {
+    "input_i": "-22.17",
+    "input_tp": "-6.61",
+    "input_lra": "0.00",
+    "input_thresh": "-32.17",
+    "output_i": "-20.01",
+    "output_tp": "-4.44",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-misunderstanding--012/raw.wav",
+      "bytes": 161360,
+      "sha256": "87743d590a896817b4c7b212af9e8b40f52bae899b27f65bccccc16d320fcf64"
+    },
+    "master": {
+      "path": "healing-misunderstanding--012/master.wav",
+      "bytes": 80718,
+      "sha256": "1a5d7e08832e1c810676a1f0dfd0f60ad625995693baf92dfc6f58cdb6e1e4d2"
+    },
+    "runtime": {
+      "path": "healing-misunderstanding--012/runtime.ogg",
+      "bytes": 15402,
+      "sha256": "f354930f534dc1e0e0dff3c52d12dfb142c037492246ec8f967f710db5060c00"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

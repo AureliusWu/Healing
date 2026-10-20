@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-tang-final--003",
+  "sceneId": "end-tang-final",
+  "lineId": "end-tang-final--003",
+  "lineIndex": 2,
+  "speaker": "许棠",
+  "text": "妈妈还是觉得分心。昨天问空长椅在哪，我没有觉得所有争论就结束了。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 762768884,
+  "textSha256": "7d1cdb5115a31f0783546819c9e97f8521dd60f9d443250f2432b01879602dab",
+  "medium": "spoken",
+  "requestSha256": "17f98061cac44781508ea979bd462c29706e35b3cd70e1dd77c71cbdcf709022",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "媽媽還是覺得分心昨天問空腸椅在哪或沒有覺得所有爭論就結束了",
+    "cer": 0.068966,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 11.2,
+  "wallSeconds": 49.049,
+  "loudness": {
+    "input_i": "-19.33",
+    "input_tp": "-6.01",
+    "input_lra": "3.20",
+    "input_thresh": "-30.19",
+    "output_i": "-20.12",
+    "output_tp": "-6.54",
+    "output_lra": "3.80",
+    "output_thresh": "-30.89",
+    "normalization_type": "dynamic",
+    "target_offset": "0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-tang-final--003/raw.wav",
+      "bytes": 1075280,
+      "sha256": "4ca3991a501c9c881315bf005557e2f81367265a89963699795f48383dc740ac"
+    },
+    "master": {
+      "path": "healing-end-tang-final--003/master.wav",
+      "bytes": 537678,
+      "sha256": "ac4f3b6f0a35d04f597f340910f2811fbb25d63e71463ee3165ebc6272d87a61"
+    },
+    "runtime": {
+      "path": "healing-end-tang-final--003/runtime.ogg",
+      "bytes": 76757,
+      "sha256": "3a8563161667ac7ea30395d1c3d3297d706b1e1e6b388dd4c0d2bea9151368ef"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-after-school--009",
+  "sceneId": "c3-after-school",
+  "lineId": "c3-after-school--009",
+  "lineIndex": 8,
+  "speaker": "程屿",
+  "text": "那我今天……",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1060941253,
+  "textSha256": "faecd4d74cd5c4c8f186544b5fd13231597a0e80e92564e4e1e70179d7e79e72",
+  "medium": "spoken",
+  "requestSha256": "ac232db5debfdacdcd82b70320aeae10fe6797ff7e779e93561d09569c7d788a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那我今天",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.2,
+  "wallSeconds": 37.093,
+  "loudness": {
+    "input_i": "-27.58",
+    "input_tp": "-10.28",
+    "input_lra": "0.00",
+    "input_thresh": "-37.58",
+    "output_i": "-19.98",
+    "output_tp": "-2.70",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-after-school--009/raw.wav",
+      "bytes": 115280,
+      "sha256": "8d69840bf9e9b64788a1b60cd6d1f3b87e0a7d1b5154f9c7964831103c2bc166"
+    },
+    "master": {
+      "path": "healing-c3-after-school--009/master.wav",
+      "bytes": 57678,
+      "sha256": "55f01d3b62c8766c649df9e943afd9fd601b32df8034d817f583476d5d87f68b"
+    },
+    "runtime": {
+      "path": "healing-c3-after-school--009/runtime.ogg",
+      "bytes": 12171,
+      "sha256": "9410693cf0761ade7333f751570f0598b724a7067b29f6e53595cd71303ba9a3"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

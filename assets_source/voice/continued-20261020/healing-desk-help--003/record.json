@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-help--003",
+  "sceneId": "desk-help",
+  "lineId": "desk-help--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "你不是说缺一个人吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1226830094,
+  "textSha256": "9d3223fdb225759b3f4bb4b23b5bd9ea3baee251688c21d420e04daaa75c597a",
+  "medium": "spoken",
+  "requestSha256": "4fe24d30fbd2a868855025ba40b57ea616c6745fe1ea1a6a5e9f38b0e4146119",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你不是说缺一个人吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 55.658,
+  "loudness": {
+    "input_i": "-27.39",
+    "input_tp": "-10.38",
+    "input_lra": "0.00",
+    "input_thresh": "-37.39",
+    "output_i": "-20.02",
+    "output_tp": "-2.99",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-help--003/raw.wav",
+      "bytes": 169040,
+      "sha256": "9c909eb774c851117fb739eec6d9a883ed862567042eaad23d59010f7e7f2345"
+    },
+    "master": {
+      "path": "healing-desk-help--003/master.wav",
+      "bytes": 84558,
+      "sha256": "023cda7adb7b02622948e4104f4a5b1c53c3a6fc3715db1f6ac9f1f9e483b31c"
+    },
+    "runtime": {
+      "path": "healing-desk-help--003/runtime.ogg",
+      "bytes": 15840,
+      "sha256": "e5717c5bb252b2959adcaa06334141b16d8bf26e2398268551e86df69fd59951"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

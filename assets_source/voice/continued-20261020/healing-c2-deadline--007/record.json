@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-deadline--007",
+  "sceneId": "c2-deadline",
+  "lineId": "c2-deadline--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "等贺川下课，我问他明天有没有空。没空就找老师重新安排。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1900580016,
+  "textSha256": "d717a581ba45a699c703de2bb00bd2258b7f672dee225266995beff15c06e803",
+  "medium": "spoken",
+  "requestSha256": "236aa9f52b2ead28757fce7725f47c2fd0857383a79b9a37c061d4da508b161d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "等赫川下课我问他明天有没有空没空就找老师重新安排",
+    "cer": 0.041667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.8,
+  "wallSeconds": 22.623,
+  "loudness": {
+    "input_i": "-25.46",
+    "input_tp": "-5.95",
+    "input_lra": "1.80",
+    "input_thresh": "-35.58",
+    "output_i": "-20.34",
+    "output_tp": "-2.00",
+    "output_lra": "0.90",
+    "output_thresh": "-30.44",
+    "normalization_type": "dynamic",
+    "target_offset": "0.34"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-deadline--007/raw.wav",
+      "bytes": 460880,
+      "sha256": "a44e815fae8910a20fecd605ac995550dc61392f028a38119390ff7c4dc81c9d"
+    },
+    "master": {
+      "path": "healing-c2-deadline--007/master.wav",
+      "bytes": 230478,
+      "sha256": "ed09e670a435f42fc1a8e57b455fd0c5ebd66fa30cdb2ba41bf90f8cbd8680b9"
+    },
+    "runtime": {
+      "path": "healing-c2-deadline--007/runtime.ogg",
+      "bytes": 41041,
+      "sha256": "b10596f55c075d755ae23de111c162623b909dbb9255bd7d5fbd432cc47ee5e6"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

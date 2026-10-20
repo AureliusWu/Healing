@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-rest--002",
+  "sceneId": "c3-chen-rest",
+  "lineId": "c3-chen-rest--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "以前一坐下就想，十分钟能做几道题。现在跟你说这个，用了两分钟。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 297027669,
+  "textSha256": "967d82fa1e507f6c09212d89e7033e5e22dc6a0a7f45f98e96a7a8cd4516388e",
+  "medium": "spoken",
+  "requestSha256": "e7acd333861509539e5d3ae92df5306b2681dd49f3138c4d567c0775f6fa39d9",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以前一坐下就想10分鐘能做幾道題現在跟你說這個用了2分鐘",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.92,
+  "wallSeconds": 35.896,
+  "loudness": {
+    "input_i": "-19.80",
+    "input_tp": "-3.54",
+    "input_lra": "2.80",
+    "input_thresh": "-29.89",
+    "output_i": "-20.50",
+    "output_tp": "-4.62",
+    "output_lra": "2.90",
+    "output_thresh": "-30.63",
+    "normalization_type": "dynamic",
+    "target_offset": "0.50"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-rest--002/raw.wav",
+      "bytes": 760400,
+      "sha256": "604174d7abcc0133c7fddc6cd971339988ce24ce110920af2fff99844604c295"
+    },
+    "master": {
+      "path": "healing-c3-chen-rest--002/master.wav",
+      "bytes": 380238,
+      "sha256": "7fab445cff4077d947107cd0409822db3f6b74bfe74b8134fe49b8f6c98ef4bb"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-rest--002/runtime.ogg",
+      "bytes": 59303,
+      "sha256": "2d1c63c22b76c42e7f5b090c82e15346a268fd0c038bd495af457545743302eb"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

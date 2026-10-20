@@ -1,0 +1,55 @@
+{
+  "id": "healing-evening--010",
+  "sceneId": "evening",
+  "lineId": "evening--010",
+  "lineIndex": 9,
+  "speaker": "母亲",
+  "text": "饭给你留着。成绩……回来再看看。",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1913429529,
+  "textSha256": "b2c66c19593c95699e21cc98360ca3df300401bde5ac47734d91326a9ae24875",
+  "medium": "spoken",
+  "requestSha256": "e3f7ba02cf1793f47eb28e088ef0c25ae8176901c7b363724b3c8ca51a0fc394",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "断给你留着成绩回来再看看",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.68,
+  "wallSeconds": 181.015,
+  "loudness": {
+    "input_i": "-25.88",
+    "input_tp": "-9.15",
+    "input_lra": "1.10",
+    "input_thresh": "-36.52",
+    "output_i": "-18.92",
+    "output_tp": "-2.72",
+    "output_lra": "0.00",
+    "output_thresh": "-29.66",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.08"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-evening--010/raw.wav",
+      "bytes": 353360,
+      "sha256": "65d0cd4e1f0ba32f2080917fee2a5769819ca00de85d0a8192273e8fe2403c5e"
+    },
+    "master": {
+      "path": "healing-evening--010/master.wav",
+      "bytes": 176718,
+      "sha256": "ffce552640b46f8655aaa69d9a75270eb513cb44bb89b9a633d3d438da2fd99d"
+    },
+    "runtime": {
+      "path": "healing-evening--010/runtime.ogg",
+      "bytes": 28812,
+      "sha256": "3c3e894b69e962c7263cf1e6be41a21bf0a7db3d16653da2c776cc0b8dc7980f"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

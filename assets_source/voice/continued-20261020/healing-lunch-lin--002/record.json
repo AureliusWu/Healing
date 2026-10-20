@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--002",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--002",
+  "lineIndex": 1,
+  "speaker": "林见夏",
+  "text": "写到第二页了，题目还是待定。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1348996650,
+  "textSha256": "b9f52064cc9d3a010ea5c9f5ab54650b52a476ece6c8b5770e225fa85a086748",
+  "medium": "spoken",
+  "requestSha256": "c261f6a2d3fe4a7bb0cbb422248f88d3f99490187bb61860134cf9e5e6421ac2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "寫到第二頁了題目還是帶定",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 183.101,
+  "loudness": {
+    "input_i": "-29.37",
+    "input_tp": "-9.31",
+    "input_lra": "0.40",
+    "input_thresh": "-40.01",
+    "output_i": "-19.27",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.73"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--002/raw.wav",
+      "bytes": 338000,
+      "sha256": "6b3aea1c4cfc748c169068fc3c5e64f5ff76a40f4e82328c055d481309135542"
+    },
+    "master": {
+      "path": "healing-lunch-lin--002/master.wav",
+      "bytes": 169038,
+      "sha256": "f8d0b727482dc09ad49f31ad4f2355a868253fc183539ee4342bb64e3490eb28"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--002/runtime.ogg",
+      "bytes": 28149,
+      "sha256": "026804e991997b00c39a7051409574fa9942a1c75b517351628f7f7c1b94c25e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

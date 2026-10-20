@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-lin--002",
+  "sceneId": "rain-lin",
+  "lineId": "rain-lin--002",
+  "lineIndex": 1,
+  "speaker": "林见夏",
+  "text": "那知遥呢？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1869280004,
+  "textSha256": "b510fc81f600b2df0e5792f4a6c5862387c3fa8879ce78ed97203f0b9649004d",
+  "medium": "spoken",
+  "requestSha256": "5a9f543ccd22cf4826e90729c8490dfc2a76753db04741c5683e9a360eaf03ae",
+  "attempt": 5,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "那只要呢?",
+    "cer": 0.5,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 0.96,
+  "wallSeconds": 56.655,
+  "loudness": {
+    "input_i": "-24.27",
+    "input_tp": "-12.10",
+    "input_lra": "0.00",
+    "input_thresh": "-34.27",
+    "output_i": "-20.02",
+    "output_tp": "-7.84",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-lin--002/raw.wav",
+      "bytes": 92240,
+      "sha256": "06b371ac392d2d4b59ad6092b6bd687571462de744cf9cc086105990461a9e7a"
+    },
+    "master": {
+      "path": "healing-rain-lin--002/master.wav",
+      "bytes": 46158,
+      "sha256": "676b0a947291f9232c8aa775ee3f12f2bb2a4fbfd9321802155f731b0af259b3"
+    },
+    "runtime": {
+      "path": "healing-rain-lin--002/runtime.ogg",
+      "bytes": 10461,
+      "sha256": "ba88d7deb672c31a8414b6b9a9a2b5d0f022d9219c6b3021d1a5efe49835ee84"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

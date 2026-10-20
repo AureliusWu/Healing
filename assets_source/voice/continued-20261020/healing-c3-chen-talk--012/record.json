@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-talk--012",
+  "sceneId": "c3-chen-talk",
+  "lineId": "c3-chen-talk--012",
+  "lineIndex": 11,
+  "speaker": "陈知遥",
+  "text": "其实不爱做统计表，只是做得快。我会挑食，红薯不能太干，跳绳很差，也没想练到第一。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1391443021,
+  "textSha256": "db63f9695478d83af2830ebf8ce344ec0f03d37ff11ad35b7a7cbc828e691755",
+  "medium": "spoken",
+  "requestSha256": "ce2136eaadd7b90e013339154cec2085c2c9e45eef051b21b956049d5783e4c6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "其实不爱做统计表,只是做得快,我会挑食,红薯不能太干,跳绳很差,也没想练到第一。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.52,
+  "wallSeconds": 266.926,
+  "loudness": {
+    "input_i": "-20.03",
+    "input_tp": "-5.75",
+    "input_lra": "1.50",
+    "input_thresh": "-30.72",
+    "output_i": "-19.55",
+    "output_tp": "-4.92",
+    "output_lra": "1.10",
+    "output_thresh": "-30.26",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.45"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-talk--012/raw.wav",
+      "bytes": 914000,
+      "sha256": "ec899b07da8bee8b3b137de082af0f7be428a0d39bcededfd21e6eb0d2d3af59"
+    },
+    "master": {
+      "path": "healing-c3-chen-talk--012/master.wav",
+      "bytes": 457038,
+      "sha256": "1d230d43ae0143f6586e7f427f4450a848aa84e2118a4aa12fb607f2cfe135b4"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-talk--012/runtime.ogg",
+      "bytes": 67940,
+      "sha256": "2c99e84167dd716a62e3c4a42cf80b2caf18bc462b094b818304cb0906b3fec7"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

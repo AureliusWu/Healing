@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-give--008",
+  "sceneId": "c3-give",
+  "lineId": "c3-give--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "签名吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 639110690,
+  "textSha256": "c335bf3260f04f94243f648d5e7313c29047daef6ba16a435e044a26782e4e7c",
+  "medium": "spoken",
+  "requestSha256": "0f6edc2e01405e44091ed564cb1f3f0598eb561bafe5b50588f2347346b78db3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "签名吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.88,
+  "wallSeconds": 35.761,
+  "loudness": {
+    "input_i": "-25.36",
+    "input_tp": "-12.67",
+    "input_lra": "0.00",
+    "input_thresh": "-35.36",
+    "output_i": "-19.98",
+    "output_tp": "-7.31",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-give--008/raw.wav",
+      "bytes": 84560,
+      "sha256": "11069119777dcb25fe7d51aeeaeaea49df9137906085f9b64f780d85227bde0a"
+    },
+    "master": {
+      "path": "healing-c3-give--008/master.wav",
+      "bytes": 42318,
+      "sha256": "54469b1b1384ecf1e4b553908c6eee13ac902014a740c41b460a5550146849cb"
+    },
+    "runtime": {
+      "path": "healing-c3-give--008/runtime.ogg",
+      "bytes": 9781,
+      "sha256": "09acf4c5f94214f41342b462222e7ea5aed769aacc379c5bd2c5aaa9393a4626"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

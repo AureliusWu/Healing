@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-check--010",
+  "sceneId": "c3-check",
+  "lineId": "c3-check--010",
+  "lineIndex": 9,
+  "speaker": "许棠",
+  "text": "你问，我才能告诉你目录页码错了。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1172611876,
+  "textSha256": "ffe5737eba37a42d13b9a22771c47b6f795526335de7ca8edf233993dfedeeab",
+  "medium": "spoken",
+  "requestSha256": "601776f87f0dfb7306e35fca45de8f9e8ebd7d42cb0c47d090089b2cbe826419",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你問,我才能告訴你,目錄頁碼錯了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.92,
+  "wallSeconds": 17.596,
+  "loudness": {
+    "input_i": "-20.24",
+    "input_tp": "-6.56",
+    "input_lra": "1.00",
+    "input_thresh": "-30.53",
+    "output_i": "-19.03",
+    "output_tp": "-5.34",
+    "output_lra": "0.00",
+    "output_thresh": "-29.45",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.97"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-check--010/raw.wav",
+      "bytes": 376400,
+      "sha256": "14d4759f87138052c935579137392b884590373794c6944317a0d98769299a34"
+    },
+    "master": {
+      "path": "healing-c3-check--010/master.wav",
+      "bytes": 188238,
+      "sha256": "f7b77582e56c2b4782548473fa20f3e6c36c014c503860022a05020b099b1805"
+    },
+    "runtime": {
+      "path": "healing-c3-check--010/runtime.ogg",
+      "bytes": 29250,
+      "sha256": "90bc4d37fe02ab1df058e712950c1421521a0fd847df67fee68bf4115ea2e10e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

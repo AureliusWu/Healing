@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-open--003",
+  "sceneId": "c3-open",
+  "lineId": "c3-open--003",
+  "lineIndex": 2,
+  "speaker": "贺川",
+  "text": "带了？我都准备第二次催你了。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1807387519,
+  "textSha256": "c936753b6cdc49de76d4d4d6c8a7689b9593bc145d3b333758329f6321e5f6e6",
+  "medium": "spoken",
+  "requestSha256": "5e0ac3536c0895162ea134430490d2d97a6b5717b426d4c9415328408dddba64",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "太辣我都准备第二次催你了",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.04,
+  "wallSeconds": 86.983,
+  "loudness": {
+    "input_i": "-26.25",
+    "input_tp": "-10.35",
+    "input_lra": "0.30",
+    "input_thresh": "-36.94",
+    "output_i": "-19.15",
+    "output_tp": "-3.29",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.85"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-open--003/raw.wav",
+      "bytes": 291920,
+      "sha256": "8c53a17816b7cdb0177c0d57f216c037d2fe6ac0c85fea277fa25b941b42b307"
+    },
+    "master": {
+      "path": "healing-c3-open--003/master.wav",
+      "bytes": 145998,
+      "sha256": "ce36a45ac83c9860c54554ece8c3c04125dec421cf3f3f0131b72bc856e04040"
+    },
+    "runtime": {
+      "path": "healing-c3-open--003/runtime.ogg",
+      "bytes": 24365,
+      "sha256": "7ed54d1f8845b572410e1c1d8761be1e0dc1de0e62fcb1cf8d5b7dee8eab4da7"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

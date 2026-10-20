@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-together--016",
+  "sceneId": "end-together",
+  "lineId": "end-together--016",
+  "lineIndex": 15,
+  "speaker": "林见夏",
+  "text": "明天，你还坐窗边吗？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 33510514,
+  "textSha256": "c27ddc17844794b647d89681490829a3502f28fb2ab02ade0badf0bfa1bdee78",
+  "medium": "spoken",
+  "requestSha256": "4db4f9e31da719fc972c820feb0214fe636115f6ef87944838cb7c4835afb6fd",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "明天你还做窗边吗",
+    "cer": 0.125,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.0,
+  "wallSeconds": 70.733,
+  "loudness": {
+    "input_i": "-25.60",
+    "input_tp": "-10.99",
+    "input_lra": "0.00",
+    "input_thresh": "-35.60",
+    "output_i": "-20.00",
+    "output_tp": "-5.38",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-together--016/raw.wav",
+      "bytes": 192080,
+      "sha256": "bee64d3d38d3a5f02b4db1298f7cec7910739b6f8491bf2039c923b3d32fa60d"
+    },
+    "master": {
+      "path": "healing-end-together--016/master.wav",
+      "bytes": 96078,
+      "sha256": "afc526d062b5c6c6e78b7a3533ec8e8b7ccbad1386cb8f01438d81a087f0deea"
+    },
+    "runtime": {
+      "path": "healing-end-together--016/runtime.ogg",
+      "bytes": 18022,
+      "sha256": "c471ba6229a604e67159f048e40404a84ed3ef636608de9292f94cfac53fd245"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

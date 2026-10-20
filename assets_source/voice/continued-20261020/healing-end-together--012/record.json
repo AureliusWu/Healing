@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-together--012",
+  "sceneId": "end-together",
+  "lineId": "end-together--012",
+  "lineIndex": 11,
+  "speaker": "程屿",
+  "text": "生长痛。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 358070231,
+  "textSha256": "87f6bad86f8098f7625396783ef44b4f51ff06620535c0a1881b721d2e4f01e5",
+  "medium": "spoken",
+  "requestSha256": "dfdd68c7e5a2d67dc977e4ee03dd779b120e5285dd0fc29dde40c7e853d7e695",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "生长痛",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 32.956,
+  "loudness": {
+    "input_i": "-29.72",
+    "input_tp": "-12.64",
+    "input_lra": "0.00",
+    "input_thresh": "-39.72",
+    "output_i": "-19.99",
+    "output_tp": "-2.92",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-together--012/raw.wav",
+      "bytes": 99920,
+      "sha256": "39f959022f723a468c793dcf9ff6cc577b9dde519dc385e790d2edb53db789db"
+    },
+    "master": {
+      "path": "healing-end-together--012/master.wav",
+      "bytes": 49998,
+      "sha256": "9a164747a25251000457f30095f049c44ba995b33a1617bf6dee0edf4e95922c"
+    },
+    "runtime": {
+      "path": "healing-end-together--012/runtime.ogg",
+      "bytes": 11301,
+      "sha256": "f7522f300c13608f06899cadb8309bd66e2a7ebb44315e4221c74d5a8db49231"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

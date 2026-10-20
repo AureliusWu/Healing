@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-page--005",
+  "sceneId": "c3-lin-page",
+  "lineId": "c3-lin-page--005",
+  "lineIndex": 4,
+  "speaker": "林见夏",
+  "text": "本来就是邻座。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1461483195,
+  "textSha256": "cd98eb971a97d4e4da610079e5dcfef452de37cc88d41542b505db65aecec79c",
+  "medium": "spoken",
+  "requestSha256": "31afc9c054cfeec465d4724612771995b5d89a33ac04d01e9debb77388716ec2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "本来就是零座",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 10.694,
+  "loudness": {
+    "input_i": "-25.15",
+    "input_tp": "-12.86",
+    "input_lra": "0.00",
+    "input_thresh": "-35.15",
+    "output_i": "-19.99",
+    "output_tp": "-7.71",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-page--005/raw.wav",
+      "bytes": 153680,
+      "sha256": "6c27c8fea6d5726edd09a7d22e1b4e1ce7656a44222d1605ed11204563419fc0"
+    },
+    "master": {
+      "path": "healing-c3-lin-page--005/master.wav",
+      "bytes": 76878,
+      "sha256": "38bf2d6369e08ea67de7dc1b76666df4dd70d9378d915e70927632d22e240add"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-page--005/runtime.ogg",
+      "bytes": 14920,
+      "sha256": "309c6502841e6d9cf0d85735bae95a25cae8ae0914bba8fa1224add000a38493"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

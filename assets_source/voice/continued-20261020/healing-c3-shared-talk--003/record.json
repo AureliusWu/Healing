@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-talk--003",
+  "sceneId": "c3-shared-talk",
+  "lineId": "c3-shared-talk--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "我答应，别让我举书站直，像发奖。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 970433348,
+  "textSha256": "3022aea3ad0f615c6aa46c1d37acc94364054365004cbb261c90cec1c8e943bd",
+  "medium": "spoken",
+  "requestSha256": "40fe1f63d76f8570793c69842a8c2b8f5f948016e4afed5057dbcf8a692a6334",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我答应 别让我举书站直 向发奖",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 120.117,
+  "loudness": {
+    "input_i": "-27.94",
+    "input_tp": "-11.73",
+    "input_lra": "1.20",
+    "input_thresh": "-37.94",
+    "output_i": "-19.87",
+    "output_tp": "-4.16",
+    "output_lra": "0.00",
+    "output_thresh": "-29.87",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.13"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-talk--003/raw.wav",
+      "bytes": 345680,
+      "sha256": "26639fa1493e0b51ceb6a436e64c9059027bbd6ee1cc3a5f713f42b1fb1e30c4"
+    },
+    "master": {
+      "path": "healing-c3-shared-talk--003/master.wav",
+      "bytes": 172878,
+      "sha256": "b3b298e2fbb7fb8ef3f814ded267a4b75291719f353ec6df33cd48f6bef9ba91"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-talk--003/runtime.ogg",
+      "bytes": 29511,
+      "sha256": "4219ba2d554df37fd3aba24e8139ae6bf579f38fa6b38d4fc8cfbff213c1207e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

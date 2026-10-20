@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-layout--002",
+  "sceneId": "c2-layout",
+  "lineId": "c2-layout--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "我们自己带回。明早确认好，再送。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1389062969,
+  "textSha256": "b73cab01c1106d6b7e0b6af752f3ca0b2b542c20445cb6494106e6038030ffaa",
+  "medium": "spoken",
+  "requestSha256": "cab768c5d30d8e7d7f70113eb1b43aeec5a9447ed49e196bdc5a9d033b32539c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我们自己带回,明早确认好,再送。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.04,
+  "wallSeconds": 167.233,
+  "loudness": {
+    "input_i": "-24.16",
+    "input_tp": "-5.24",
+    "input_lra": "0.60",
+    "input_thresh": "-34.31",
+    "output_i": "-19.90",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.07",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.10"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-layout--002/raw.wav",
+      "bytes": 291920,
+      "sha256": "35257881c26021861a9f84fcf227b258cb0a5914ee102ce26a4c7b93ba53da12"
+    },
+    "master": {
+      "path": "healing-c2-layout--002/master.wav",
+      "bytes": 145998,
+      "sha256": "e598523d7393f04b301b469f16c58c4820089fbb0a3c1b8b5ba3d946ba44417b"
+    },
+    "runtime": {
+      "path": "healing-c2-layout--002/runtime.ogg",
+      "bytes": 26044,
+      "sha256": "9335866e995e66e92aea4ca1f7e69d96d2ec7d07108d63b390038ea6769c0d70"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

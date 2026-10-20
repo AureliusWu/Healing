@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-proof--011",
+  "sceneId": "c2-proof",
+  "lineId": "c2-proof--011",
+  "lineIndex": 10,
+  "speaker": "陈知遥",
+  "text": "今晚不在群里继续催。明早问一次，没答应的先不上。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 37282198,
+  "textSha256": "75dd5b9a6dd5b79fc8fff0e3a0360a3275fa64c90f86b5bce2b4ba1d54462490",
+  "medium": "spoken",
+  "requestSha256": "91fcaba97c1ccf93aa1ec0a0201a82eac0b2b1d9e009b70c0ef322fcd9c0e2d0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今晚不再全力继续催凌早问一次没答应的先不上",
+    "cer": 0.190476,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.88,
+  "wallSeconds": 185.088,
+  "loudness": {
+    "input_i": "-18.23",
+    "input_tp": "-4.70",
+    "input_lra": "0.30",
+    "input_thresh": "-28.42",
+    "output_i": "-19.40",
+    "output_tp": "-5.97",
+    "output_lra": "0.10",
+    "output_thresh": "-29.61",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.60"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-proof--011/raw.wav",
+      "bytes": 468560,
+      "sha256": "3ab41148c4ea46b62d8706e6b6b29c7642f071a71bf5b0e2b4641439729cc5f4"
+    },
+    "master": {
+      "path": "healing-c2-proof--011/master.wav",
+      "bytes": 234318,
+      "sha256": "306e663e1680d110b41c8c5df6d93c84a06752fce3f356711c44a41579e71c1a"
+    },
+    "runtime": {
+      "path": "healing-c2-proof--011/runtime.ogg",
+      "bytes": 37359,
+      "sha256": "bb8c335ce0035254be2bff457a74c7f15b47de29d90915abe0ceffeafe921b1e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

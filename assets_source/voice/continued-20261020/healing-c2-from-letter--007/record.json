@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-letter--007",
+  "sceneId": "c2-from-letter",
+  "lineId": "c2-from-letter--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "我想换掉具体排名，其他的先保留。正式送印之前再让我看一遍。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 549792861,
+  "textSha256": "0a31da71f607580e0e79d92a325efb21a3864cd0a0d6959d6be204d419e06d93",
+  "medium": "spoken",
+  "requestSha256": "7162de7f65d4aa60ace936d2d157739f8dab871de3d9b54830f53ae4154bb25f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我想换掉具体排名其他的先保留正是松印之前再让我看一遍",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.44,
+  "wallSeconds": 24.795,
+  "loudness": {
+    "input_i": "-25.97",
+    "input_tp": "-5.27",
+    "input_lra": "0.70",
+    "input_thresh": "-36.08",
+    "output_i": "-20.22",
+    "output_tp": "-2.00",
+    "output_lra": "0.80",
+    "output_thresh": "-30.39",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-letter--007/raw.wav",
+      "bytes": 522320,
+      "sha256": "dacc49a6d7398ae06ee6b5aca3a62d038783669f3e6d9c12f0eb4c5764728849"
+    },
+    "master": {
+      "path": "healing-c2-from-letter--007/master.wav",
+      "bytes": 261198,
+      "sha256": "2e703f97b18ae531da81edc6e385744e12799fcc4bcfcd920660b7411a83cc4c"
+    },
+    "runtime": {
+      "path": "healing-c2-from-letter--007/runtime.ogg",
+      "bytes": 45955,
+      "sha256": "466cbfe746e5709f5b6efc1fdc13d7735e3d4a20261cacd6c4a2cdd4c32fc394"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

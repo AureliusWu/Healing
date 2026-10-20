@@ -1,0 +1,55 @@
+{
+  "id": "healing-corridor--015",
+  "sceneId": "corridor",
+  "lineId": "corridor--015",
+  "lineIndex": 14,
+  "speaker": "程屿",
+  "text": "今天没太阳。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1037553929,
+  "textSha256": "6fec1bdecbdefad50873f2dc56738ff4f15fedd4f8c9bef85482cfff3e7d8903",
+  "medium": "spoken",
+  "requestSha256": "cfdca372956565a7618494959f1fe300d0df27829cd5aa8b4552c8f8222eeba6",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天沒太陽",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.2,
+  "wallSeconds": 49.114,
+  "loudness": {
+    "input_i": "-22.66",
+    "input_tp": "-6.59",
+    "input_lra": "0.00",
+    "input_thresh": "-32.66",
+    "output_i": "-20.01",
+    "output_tp": "-3.93",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-corridor--015/raw.wav",
+      "bytes": 115280,
+      "sha256": "ae80c2347b868333e83a54b692f06f986d19d6d1b0e08ccac26b97e78df20f68"
+    },
+    "master": {
+      "path": "healing-corridor--015/master.wav",
+      "bytes": 57678,
+      "sha256": "e7c07ed27c1ebe4101cea5b75bba08f324c5db2496926293688ae9c19d8f12fc"
+    },
+    "runtime": {
+      "path": "healing-corridor--015/runtime.ogg",
+      "bytes": 12069,
+      "sha256": "e96f76cb10043c3b9b82f85027e254411c26e8b9b90b5ec301c756f109575000"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

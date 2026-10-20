@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-give--011",
+  "sceneId": "c3-give",
+  "lineId": "c3-give--011",
+  "lineIndex": 10,
+  "speaker": "程屿",
+  "text": "我也想请你写一句。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 890766522,
+  "textSha256": "47b5aac36ada3ef8e1190e3cd31f6857fd601807779ff2e7ccd2ba670a6fda5f",
+  "medium": "spoken",
+  "requestSha256": "c36053cbe656d8a006267250f0a7a4ee96cdd341403c738628cfb959218b4318",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也想请你写一句",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.52,
+  "wallSeconds": 7.608,
+  "loudness": {
+    "input_i": "-25.73",
+    "input_tp": "-8.94",
+    "input_lra": "0.00",
+    "input_thresh": "-36.07",
+    "output_i": "-19.99",
+    "output_tp": "-3.21",
+    "output_lra": "0.00",
+    "output_thresh": "-30.34",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-give--011/raw.wav",
+      "bytes": 146000,
+      "sha256": "6cefbb271406c9ec01de47072982ee03dee4045b463c5d4961335e0b74ca85e4"
+    },
+    "master": {
+      "path": "healing-c3-give--011/master.wav",
+      "bytes": 73038,
+      "sha256": "adee13b905f49fd2845e9e62873354f59bd6b239913da392bdb937bae79eb197"
+    },
+    "runtime": {
+      "path": "healing-c3-give--011/runtime.ogg",
+      "bytes": 14831,
+      "sha256": "cf4fa9367a4705ce2b8bd20d587281e2d854121e3252d89f5436a1fe0149a67a"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

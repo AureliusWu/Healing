@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-finish--004",
+  "sceneId": "c2-finish",
+  "lineId": "c2-finish--004",
+  "lineIndex": 3,
+  "speaker": "妈妈",
+  "text": "回去讲。今天买了排骨。",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1853371939,
+  "textSha256": "8ebf698eb8aba28603574f988d7ba3e1eb11685042fa32c09016daaf63d8877c",
+  "medium": "spoken",
+  "requestSha256": "980bf24012a0ca21f3ecbe30b86e58550a537c6f1bcf32ec81b01337eba248c9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "回去讲,今天买了排骨。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.64,
+  "wallSeconds": 87.995,
+  "loudness": {
+    "input_i": "-25.95",
+    "input_tp": "-8.07",
+    "input_lra": "0.00",
+    "input_thresh": "-35.95",
+    "output_i": "-20.01",
+    "output_tp": "-2.12",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-finish--004/raw.wav",
+      "bytes": 253520,
+      "sha256": "395a59bb5b1a44950f68b85cd6e30f817cf0682817826043cbe16513bc76e992"
+    },
+    "master": {
+      "path": "healing-c2-finish--004/master.wav",
+      "bytes": 126798,
+      "sha256": "8628ac1d98c29445dac291a857d68d2453bb46bc88f42470f620bfd9a72e80a4"
+    },
+    "runtime": {
+      "path": "healing-c2-finish--004/runtime.ogg",
+      "bytes": 22084,
+      "sha256": "e8dcd388ea7a00b7db675e8e54b8fbfd6f4077e3f2f2d1e50cd3e6876f1166bf"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

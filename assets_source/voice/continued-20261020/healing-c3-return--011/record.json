@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-return--011",
+  "sceneId": "c3-return",
+  "lineId": "c3-return--011",
+  "lineIndex": 10,
+  "speaker": "许棠",
+  "text": "对。借用登记也写完，不能只说别人不理解。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1487033310,
+  "textSha256": "a2f5c2fb622519ded7f90e5c4178a56e9ba554d9bb60bc64a23c28911ca1bb94",
+  "medium": "spoken",
+  "requestSha256": "cc2e8273836008e5a46ff96a90fd1a00791bfb1297cbd6373b1ec44cf2419b7e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "对 借用登记也写完 不能只说别人不理解",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.36,
+  "wallSeconds": 172.562,
+  "loudness": {
+    "input_i": "-20.97",
+    "input_tp": "-6.12",
+    "input_lra": "1.50",
+    "input_thresh": "-31.23",
+    "output_i": "-19.53",
+    "output_tp": "-4.60",
+    "output_lra": "1.20",
+    "output_thresh": "-29.94",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.47"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-return--011/raw.wav",
+      "bytes": 514640,
+      "sha256": "666fe3485a2d45707a7e66a03f3b4010dfb978fa024f2e03a2777dad7bab4c95"
+    },
+    "master": {
+      "path": "healing-c3-return--011/master.wav",
+      "bytes": 257358,
+      "sha256": "7cb9579d364c9ce3f73751b630d8d364cfc09aebf3d950bfa9f3351f7515a079"
+    },
+    "runtime": {
+      "path": "healing-c3-return--011/runtime.ogg",
+      "bytes": 39752,
+      "sha256": "f66a9a4c0a724180161c3f80cf12b321d985840c9e4458f4613fbfefedf226ff"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

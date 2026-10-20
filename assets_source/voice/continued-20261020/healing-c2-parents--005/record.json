@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parents--005",
+  "sceneId": "c2-parents",
+  "lineId": "c2-parents--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "没告诉他哪排？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 5865150,
+  "textSha256": "88a978836612bc69b26518b355e525b996b7c75570781ddc5d5402abc52824f0",
+  "medium": "spoken",
+  "requestSha256": "549e12bc84d646cd222a378982dd303411118b6921c677534f9cd9de4508ff01",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "没告诉他哪牌",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.36,
+  "wallSeconds": 54.501,
+  "loudness": {
+    "input_i": "-25.85",
+    "input_tp": "-6.08",
+    "input_lra": "0.00",
+    "input_thresh": "-35.85",
+    "output_i": "-21.77",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.77",
+    "normalization_type": "linear",
+    "target_offset": "1.77"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parents--005/raw.wav",
+      "bytes": 130640,
+      "sha256": "eb1da3045210cb7ec4369fefa2e887c0569027b13b6a9dc3287f18ae3966b46c"
+    },
+    "master": {
+      "path": "healing-c2-parents--005/master.wav",
+      "bytes": 65358,
+      "sha256": "00a989c66161f34fc3c01cc4d58f311bca6315d79971603959c5ebb1d50d37be"
+    },
+    "runtime": {
+      "path": "healing-c2-parents--005/runtime.ogg",
+      "bytes": 15034,
+      "sha256": "457ce0335e4b5991a73e42e8cf50a131cd67a2b918257cc1d3be8fa68c2170a8"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--017",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--017",
+  "lineIndex": 16,
+  "speaker": "林见夏",
+  "text": "如果愿意，明天我可以帮你读一遍。只看句子通不通，不看你够不够好。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1580358432,
+  "textSha256": "65bf6dab3becdcd204dbd148a07248dd25bff21efd4880c93d7c190e4e34e905",
+  "medium": "spoken",
+  "requestSha256": "ce87a54f4631c2559f4a99a7d4a50314129487acb75762afc4eae78ae8696d55",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "如果愿意,明天我可以帮你读一遍只看句子通不通,不看你够不够好",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.08,
+  "wallSeconds": 268.287,
+  "loudness": {
+    "input_i": "-26.96",
+    "input_tp": "-10.02",
+    "input_lra": "1.80",
+    "input_thresh": "-37.11",
+    "output_i": "-20.23",
+    "output_tp": "-3.47",
+    "output_lra": "2.20",
+    "output_thresh": "-30.46",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--017/raw.wav",
+      "bytes": 583760,
+      "sha256": "2a8909c73a31c80c2d206f8a59ca5266c6f8a631bc231afd6728edfee10da322"
+    },
+    "master": {
+      "path": "healing-draft-plain--017/master.wav",
+      "bytes": 291918,
+      "sha256": "b635fd0bee67e20906cfac8634e9303beefd53787b6ebeed5392f0fdf3078db7"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--017/runtime.ogg",
+      "bytes": 46886,
+      "sha256": "6593ef4ef08827bab6749364af5baa6bc835f70da6d7f047990732c196391274"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

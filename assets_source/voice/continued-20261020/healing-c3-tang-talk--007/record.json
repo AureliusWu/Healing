@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-talk--007",
+  "sceneId": "c3-tang-talk",
+  "lineId": "c3-tang-talk--007",
+  "lineIndex": 6,
+  "speaker": "许棠",
+  "text": "想给你拍一张，不进校刊，不放征集。可以拒绝。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1573655414,
+  "textSha256": "5eaf6d06a34b5559ea6687071fb6c2ae57c928ffe4af8f3e5e043a2dd508a8c8",
+  "medium": "spoken",
+  "requestSha256": "1cad84f422a9b7c835087dc2cafc52e8c14e5fbd2ff463ff68d8c1737516d704",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "想给你拍一张不敬笑刊,不放征集,可以拒绝",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.96,
+  "wallSeconds": 22.164,
+  "loudness": {
+    "input_i": "-18.23",
+    "input_tp": "-5.60",
+    "input_lra": "1.40",
+    "input_thresh": "-28.85",
+    "output_i": "-19.82",
+    "output_tp": "-7.56",
+    "output_lra": "1.00",
+    "output_thresh": "-30.32",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-talk--007/raw.wav",
+      "bytes": 476240,
+      "sha256": "74cc8f862ee21c21a0c6fa6c91ecc8d6e66614a8776fafb063578af6c5c1c99a"
+    },
+    "master": {
+      "path": "healing-c3-tang-talk--007/master.wav",
+      "bytes": 238158,
+      "sha256": "ef625dcfe683f349c2ac470bca8831929630cc0860633b85d0e189f3d3e62680"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-talk--007/runtime.ogg",
+      "bytes": 38088,
+      "sha256": "eaaada698828804156bde00ba764092575944860eb9d51d1aa529e4bcfa9d388"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

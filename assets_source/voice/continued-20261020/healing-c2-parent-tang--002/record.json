@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-tang--002",
+  "sceneId": "c2-parent-tang",
+  "lineId": "c2-parent-tang--002",
+  "lineIndex": 1,
+  "speaker": "许母",
+  "text": "这次没进步，还有空拿这个到处跑？你说拍错题，我才让你带回家。",
+  "actorId": "许母",
+  "voice": "Vivian",
+  "instruct": "中年母亲，普通话，语气认真克制，日常家庭交谈，不撒娇。 只朗读给定台词，不添加词语或音效。",
+  "seed": 494668469,
+  "textSha256": "50a50403e2a08a7fdff8666af64ac30413fb48df0b0c7de353c490038b36761d",
+  "medium": "spoken",
+  "requestSha256": "c658b4d7c3a3dfe633e3ccefa9a9d2ea2f71f6fa02ef72554fe655fe776d054e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "這次沒進步很有空拿這個到處跑你說拍錯題我才讓你帶回家",
+    "cer": 0.038462,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.8,
+  "wallSeconds": 30.577,
+  "loudness": {
+    "input_i": "-19.59",
+    "input_tp": "-2.50",
+    "input_lra": "2.90",
+    "input_thresh": "-30.35",
+    "output_i": "-18.99",
+    "output_tp": "-2.00",
+    "output_lra": "2.50",
+    "output_thresh": "-29.72",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-tang--002/raw.wav",
+      "bytes": 652880,
+      "sha256": "9ea11d478ae960b9ffb7b0c618cbf8e38008a53ea06cc207c407d8bd8b08e579"
+    },
+    "master": {
+      "path": "healing-c2-parent-tang--002/master.wav",
+      "bytes": 326478,
+      "sha256": "8da9670552e3ee2531e11290c9259a5921a71e8b4e10513d43168903f101a316"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-tang--002/runtime.ogg",
+      "bytes": 49656,
+      "sha256": "3ecbd4b03ae2f20b8d63e59bb19d859d556daa652f3e84f94fce8e1b2b9b911e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

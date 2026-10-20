@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-print--006",
+  "sceneId": "c3-print",
+  "lineId": "c3-print--006",
+  "lineIndex": 5,
+  "speaker": "文印老师",
+  "text": "刚过机器。放一会儿再扎。",
+  "actorId": "文印老师",
+  "voice": "Uncle_Fu",
+  "instruct": "中年男性教职工，普通话，平实耐心，清晰自然，日常工作交流。 只朗读给定台词，不添加词语或音效。",
+  "seed": 835815764,
+  "textSha256": "fbae68629d5a19d38c9383e1c8ba84ba9e63d8f654dfb7df194074cc1b4a022c",
+  "medium": "spoken",
+  "requestSha256": "c18e9414510e92ae4eaac910b6f06c40858def60e2099d2a46c4eb044d9d323a",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "刚过机器放一会儿再扎",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.24,
+  "wallSeconds": 129.26,
+  "loudness": {
+    "input_i": "-25.48",
+    "input_tp": "-9.32",
+    "input_lra": "0.00",
+    "input_thresh": "-35.71",
+    "output_i": "-20.02",
+    "output_tp": "-3.84",
+    "output_lra": "0.00",
+    "output_thresh": "-30.25",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-print--006/raw.wav",
+      "bytes": 215120,
+      "sha256": "e07dea97227ec1e983505e5779c124a1688de3c7157f65450a6b87e3114fc022"
+    },
+    "master": {
+      "path": "healing-c3-print--006/master.wav",
+      "bytes": 107598,
+      "sha256": "b318cf187adf30bd0cca66044fbf51e59517e203201c75ff9dc50a7b9a00c23e"
+    },
+    "runtime": {
+      "path": "healing-c3-print--006/runtime.ogg",
+      "bytes": 20681,
+      "sha256": "42babcf716b9de42d9eadae3e471a5686cf127e619c061018412a512e5bc2b38"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

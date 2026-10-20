@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home--009",
+  "sceneId": "c2-home",
+  "lineId": "c2-home--009",
+  "lineIndex": 8,
+  "speaker": "程屿",
+  "text": "今天先做这些。不会的明天问。我不想说今晚全部补完，再躲到屋里不出来。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 766756003,
+  "textSha256": "869fc69c1e9a330b7dda23a606d5eae0aef07b0d3836b0a0a2234ca2a2bb87f3",
+  "medium": "spoken",
+  "requestSha256": "8dd75c50fbd67c4376acc9b078061033900b7bb341b1fc953d8654817264b30b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "今天先做这些,不会的明天问,我不想说今晚全部补完,在躲的屋里不出来。",
+    "cer": 0.066667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.92,
+  "wallSeconds": 224.934,
+  "loudness": {
+    "input_i": "-28.09",
+    "input_tp": "-8.64",
+    "input_lra": "1.60",
+    "input_thresh": "-38.18",
+    "output_i": "-20.54",
+    "output_tp": "-2.00",
+    "output_lra": "1.50",
+    "output_thresh": "-30.86",
+    "normalization_type": "dynamic",
+    "target_offset": "0.54"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home--009/raw.wav",
+      "bytes": 760400,
+      "sha256": "dc7915483d4ef708fdc61d4928934e3915149b0ca1041dc2d9a318041e2b9b75"
+    },
+    "master": {
+      "path": "healing-c2-home--009/master.wav",
+      "bytes": 380238,
+      "sha256": "9b50629467b534d097ed3054749e078debc121e41524da58dc97c9b907e91ad2"
+    },
+    "runtime": {
+      "path": "healing-c2-home--009/runtime.ogg",
+      "bytes": 60539,
+      "sha256": "012a178a32abdfd7a173df8aefc054406ab601639fd19cbf5ffd3a646b00eeb8"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

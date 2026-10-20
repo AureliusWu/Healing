@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk--014",
+  "sceneId": "desk",
+  "lineId": "desk--014",
+  "lineIndex": 13,
+  "speaker": "陈知遥",
+  "text": "下午文学社整理旧刊，缺一个人。可以只搬书，不用写东西。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 186393378,
+  "textSha256": "249ce2909472b13cfbbed34c7ebd99c96bd598d2016b893c68d5aa055ef8990b",
+  "medium": "spoken",
+  "requestSha256": "7b03b23df878f5f7133f0cf8edca4ec903bd21561dbf34d6ba187c880d3e8ffc",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "下午文学社整理就看,缺一个人,可以只办书,不用写东西。",
+    "cer": 0.130435,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.96,
+  "wallSeconds": 31.709,
+  "loudness": {
+    "input_i": "-20.66",
+    "input_tp": "-4.06",
+    "input_lra": "2.50",
+    "input_thresh": "-31.23",
+    "output_i": "-19.67",
+    "output_tp": "-2.97",
+    "output_lra": "3.30",
+    "output_thresh": "-30.11",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.33"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk--014/raw.wav",
+      "bytes": 668240,
+      "sha256": "3c395e40dd768790b739d1460357d20281532fc5cb1c15f5482091ff85757734"
+    },
+    "master": {
+      "path": "healing-desk--014/master.wav",
+      "bytes": 334158,
+      "sha256": "a0f71a1c8aa4da2a67a6c0dbe5685a8c15e157285076acf0262830efb49f8adc"
+    },
+    "runtime": {
+      "path": "healing-desk--014/runtime.ogg",
+      "bytes": 50511,
+      "sha256": "411068956aa6b85cc9a0e8e16d9a10be6e8f879c13a047b6ef9a8dbf52aa7c03"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

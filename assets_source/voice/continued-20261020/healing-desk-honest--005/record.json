@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-honest--005",
+  "sceneId": "desk-honest",
+  "lineId": "desk-honest--005",
+  "lineIndex": 4,
+  "speaker": "林见夏",
+  "text": "不是拿来比的。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1602919721,
+  "textSha256": "50674ba42cfd8825922147c1714127c810ad1889d72691a62cd15c41f01ec597",
+  "medium": "spoken",
+  "requestSha256": "69e738dcb5c829df4657ff0b7153326065f6e03fdafa0bbb5a5452f9cac884a7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不是拿來比的",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.36,
+  "wallSeconds": 9.596,
+  "loudness": {
+    "input_i": "-29.80",
+    "input_tp": "-16.99",
+    "input_lra": "0.00",
+    "input_thresh": "-39.80",
+    "output_i": "-20.00",
+    "output_tp": "-7.18",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-honest--005/raw.wav",
+      "bytes": 130640,
+      "sha256": "2d3d50cb115a2dacd1759b76383994309acd5beeac0e9f50b755d5117c468e24"
+    },
+    "master": {
+      "path": "healing-desk-honest--005/master.wav",
+      "bytes": 65358,
+      "sha256": "0c73a83fda19b35593dc9da3265b99f060c5ebaf7d7cc73ab65f93d7847ffa21"
+    },
+    "runtime": {
+      "path": "healing-desk-honest--005/runtime.ogg",
+      "bytes": 13664,
+      "sha256": "1bf9a36ac9d0faf7d5b10ba34e42400d2779b5f442672fb6b77a5c2934b5f8ea"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parents--003",
+  "sceneId": "c2-parents",
+  "lineId": "c2-parents--003",
+  "lineIndex": 2,
+  "speaker": "班主任",
+  "text": "这次考试检查哪里跟不上。家长也留一点时间，听孩子怎么说。",
+  "actorId": "班主任",
+  "voice": "Uncle_Fu",
+  "instruct": "中年男性教师，普通话，平静直接，日常交谈，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 181965649,
+  "textSha256": "af769aa00f54bc8bbf3ecab7cb6a8f33eb4d8670fbc600f6477df620cc9bb2e2",
+  "medium": "spoken",
+  "requestSha256": "5c898cb1ae63406997d40adf6b9f6c8585a24d2102bc625940fd6019599410e4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这次考试检查哪里跟不上家长也留一点时间听孩子怎么说",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.64,
+  "wallSeconds": 37.806,
+  "loudness": {
+    "input_i": "-23.58",
+    "input_tp": "-5.87",
+    "input_lra": "1.80",
+    "input_thresh": "-33.86",
+    "output_i": "-20.41",
+    "output_tp": "-3.09",
+    "output_lra": "1.20",
+    "output_thresh": "-30.69",
+    "normalization_type": "dynamic",
+    "target_offset": "0.41"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parents--003/raw.wav",
+      "bytes": 637520,
+      "sha256": "355366472de0f46c5e8d0a4eefdb5e6f966897a63e2f79b63ba992cece9e3897"
+    },
+    "master": {
+      "path": "healing-c2-parents--003/master.wav",
+      "bytes": 318798,
+      "sha256": "59f8bac16d310af8a653db32d070f3e9d07d0476ab31272d15c0ab2d084c73c7"
+    },
+    "runtime": {
+      "path": "healing-c2-parents--003/runtime.ogg",
+      "bytes": 51379,
+      "sha256": "15dbfaa01880f29595a799692627009a400cf46e1be03ef2af6d2079eb0e217e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-after-school--005",
+  "sceneId": "c3-after-school",
+  "lineId": "c3-after-school--005",
+  "lineIndex": 4,
+  "speaker": "贺川",
+  "text": "发了。食堂没第几排，总能找对一次。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 192993084,
+  "textSha256": "bb6ebdf97a4008199bedfab9a874e08c59e0a545f2bba3df35cb8adb2da1c58e",
+  "medium": "spoken",
+  "requestSha256": "bcfd3541b86655331d12bcd59a52d7a303dbd716db2d2474cdb2d39ba7d909e7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "罢了,食堂没第几排总能找对一次。",
+    "cer": 0.071429,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.08,
+  "wallSeconds": 131.469,
+  "loudness": {
+    "input_i": "-23.61",
+    "input_tp": "-4.88",
+    "input_lra": "0.90",
+    "input_thresh": "-34.58",
+    "output_i": "-19.98",
+    "output_tp": "-2.00",
+    "output_lra": "1.00",
+    "output_thresh": "-31.22",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-after-school--005/raw.wav",
+      "bytes": 391760,
+      "sha256": "656b4e9fb5960c7708ce75c8bd4679ee8441ac3ddec0a12d903729e9c6fb363c"
+    },
+    "master": {
+      "path": "healing-c3-after-school--005/master.wav",
+      "bytes": 195918,
+      "sha256": "84579cb787012a60ec79e07832deef4d9f8b6831db4cc622ec16cbf7c582a3ef"
+    },
+    "runtime": {
+      "path": "healing-c3-after-school--005/runtime.ogg",
+      "bytes": 33179,
+      "sha256": "2f0819eda48dc2a8750cc3e712849bb65b40cb3eb252528e196056e355cfb77e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

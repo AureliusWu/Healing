@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-both--007",
+  "sceneId": "rain-both",
+  "lineId": "rain-both--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "那能不能下次先问一声？一个人说还没准备好，另一个人就先把位置留空。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 189457659,
+  "textSha256": "cc2c5b95e4533f19a93609eddf9aad8f7d5980ef3f1922b3ed9dd5a00fad3be5",
+  "medium": "spoken",
+  "requestSha256": "13b84ffd1ac9dc1fdf6aa894b8df014ff70a7ff4b3230b9619b8e643e16395aa",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那能不能下次先问一声一个人说还没准备好另一个人就先把位置留空",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.4,
+  "wallSeconds": 37.187,
+  "loudness": {
+    "input_i": "-26.98",
+    "input_tp": "-7.51",
+    "input_lra": "2.60",
+    "input_thresh": "-37.42",
+    "output_i": "-20.75",
+    "output_tp": "-2.00",
+    "output_lra": "2.40",
+    "output_thresh": "-31.35",
+    "normalization_type": "dynamic",
+    "target_offset": "0.75"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-both--007/raw.wav",
+      "bytes": 614480,
+      "sha256": "a228555179f19137db37b4a64f9d7bad7a345c13f79bf95785e6196791b2e331"
+    },
+    "master": {
+      "path": "healing-rain-both--007/master.wav",
+      "bytes": 307278,
+      "sha256": "e94aa9ffb34655efb90588777ed8427ebe397de5b8d9ce817126c5df2de0aa0a"
+    },
+    "runtime": {
+      "path": "healing-rain-both--007/runtime.ogg",
+      "bytes": 49867,
+      "sha256": "0853ed9274b97b98d91e3cc650c61a51af01861ed14117ea7d079af8d8e0c8b1"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

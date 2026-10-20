@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--005",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "然后呢？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1343511536,
+  "textSha256": "343f6e4d80a373cec80d608efc3a2d5e417095014083b566779ca539dd02ddbf",
+  "medium": "spoken",
+  "requestSha256": "4bd9fb11bb297aac68d9d040a3dcd65faac1f3b251bbd33cdc18ef21d3284c49",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "然后呢",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.8,
+  "wallSeconds": 47.795,
+  "loudness": {
+    "input_i": "-23.06",
+    "input_tp": "-8.08",
+    "input_lra": "0.00",
+    "input_thresh": "-33.06",
+    "output_i": "-20.03",
+    "output_tp": "-5.02",
+    "output_lra": "0.00",
+    "output_thresh": "-30.03",
+    "normalization_type": "linear",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--005/raw.wav",
+      "bytes": 76880,
+      "sha256": "16e45f71f89d89e0766385d6fef117085a4ca3242c17d7951717c7048fa54d1f"
+    },
+    "master": {
+      "path": "healing-lunch-lin--005/master.wav",
+      "bytes": 38478,
+      "sha256": "786f38bbc747fa4e7f99c764ee7d54bcca7cb78e7584c06c4d409ddb9775dfb5"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--005/runtime.ogg",
+      "bytes": 9702,
+      "sha256": "dff9447ce16bf9d2d45e77897d11f9eb893180c64ff5d52b70738c9d1b297005"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

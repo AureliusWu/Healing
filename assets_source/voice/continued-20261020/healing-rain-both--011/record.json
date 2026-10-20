@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-both--011",
+  "sceneId": "rain-both",
+  "lineId": "rain-both--011",
+  "lineIndex": 10,
+  "speaker": "林见夏",
+  "text": "愿意。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1598240486,
+  "textSha256": "ddbc0ca8e164c277a0acb279947acd7c3244089074160717edae00c4370b06e3",
+  "medium": "spoken",
+  "requestSha256": "9eb10b603c081812456f04bcdefed629731bfb318c8028c0f0db0481acb333d7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "愿意",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.64,
+  "wallSeconds": 50.758,
+  "loudness": {
+    "input_i": "-27.23",
+    "input_tp": "-11.11",
+    "input_lra": "0.00",
+    "input_thresh": "-37.23",
+    "output_i": "-20.03",
+    "output_tp": "-3.88",
+    "output_lra": "0.00",
+    "output_thresh": "-30.03",
+    "normalization_type": "linear",
+    "target_offset": "0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-both--011/raw.wav",
+      "bytes": 61520,
+      "sha256": "afabf8a3d49f7e98d9047898b92158b21b12838c23731cb6a9b1721328c04eee"
+    },
+    "master": {
+      "path": "healing-rain-both--011/master.wav",
+      "bytes": 30798,
+      "sha256": "500d1deec20b66433a8f7b1d6442b559fc06c4625e9c9b2622889d8a5f29c747"
+    },
+    "runtime": {
+      "path": "healing-rain-both--011/runtime.ogg",
+      "bytes": 8345,
+      "sha256": "101df228a47785c541a9cd5c5094238df7ebccd10f80986af875cbd8904f51c1"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

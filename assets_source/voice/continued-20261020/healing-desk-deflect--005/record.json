@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-deflect--005",
+  "sceneId": "desk-deflect",
+  "lineId": "desk-deflect--005",
+  "lineIndex": 4,
+  "speaker": "陈知遥",
+  "text": "搬书的报名表留这里，你想去就写名字。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 349794875,
+  "textSha256": "59262a89cb63737d64ac35385e6d4624d36aee472e573a914627f543d2c9b813",
+  "medium": "spoken",
+  "requestSha256": "eebc4f7f5909605f05fdd662eeb6abd94d843e95edf1f4303bfc960d95de1847",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "班淑的报名表留这里你想去就写名字",
+    "cer": 0.125,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.16,
+  "wallSeconds": 213.566,
+  "loudness": {
+    "input_i": "-17.83",
+    "input_tp": "-3.01",
+    "input_lra": "0.40",
+    "input_thresh": "-28.53",
+    "output_i": "-18.48",
+    "output_tp": "-3.88",
+    "output_lra": "0.50",
+    "output_thresh": "-29.09",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.52"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-deflect--005/raw.wav",
+      "bytes": 399440,
+      "sha256": "14638e15648e8627a3d7b99a787e700df6b4c91314f1aa7238c38a41b784e070"
+    },
+    "master": {
+      "path": "healing-desk-deflect--005/master.wav",
+      "bytes": 199758,
+      "sha256": "cfa5656a802791d4b6d6682bf942ccb9776dc8921e269a45b547233c68c48e46"
+    },
+    "runtime": {
+      "path": "healing-desk-deflect--005/runtime.ogg",
+      "bytes": 33485,
+      "sha256": "f9f987802614881435a1c54a8fb62557701438e9455f21bfbfea67a707a1570a"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

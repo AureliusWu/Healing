@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-return--006",
+  "sceneId": "c3-return",
+  "lineId": "c3-return--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "联络表呢？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1936866254,
+  "textSha256": "32e2c97ec5b8fe24c940abd14f754c8d23edea150819c75fb08cfe93111ea965",
+  "medium": "spoken",
+  "requestSha256": "e4282fdba598bb2f6b046e7c5a41797130bd81c181b2e6a395cdd659c7c50ef2",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "联络表呢?",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 40.797,
+  "loudness": {
+    "input_i": "-24.25",
+    "input_tp": "-7.69",
+    "input_lra": "0.00",
+    "input_thresh": "-34.25",
+    "output_i": "-19.97",
+    "output_tp": "-3.44",
+    "output_lra": "0.00",
+    "output_thresh": "-29.97",
+    "normalization_type": "linear",
+    "target_offset": "-0.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-return--006/raw.wav",
+      "bytes": 99920,
+      "sha256": "f1f7fa67d3bd2f90b1ea3bbffef374639eecde203abab14f63db0381c2b91cca"
+    },
+    "master": {
+      "path": "healing-c3-return--006/master.wav",
+      "bytes": 49998,
+      "sha256": "c9fc136bc9327201d92402cd2493aabecc7557e515b82b6e782bcdba63d92c96"
+    },
+    "runtime": {
+      "path": "healing-c3-return--006/runtime.ogg",
+      "bytes": 11695,
+      "sha256": "4b6b8d990301bad86d0d710ad2378af372832d2672101c1a674b87c38c3e7c8f"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

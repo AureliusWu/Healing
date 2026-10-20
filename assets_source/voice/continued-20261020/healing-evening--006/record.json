@@ -1,0 +1,55 @@
+{
+  "id": "healing-evening--006",
+  "sceneId": "evening",
+  "lineId": "evening--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "数学七十二。其他科目还没发。我先告诉你，晚上就不用一进门问了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1850216402,
+  "textSha256": "88a749d4a713ee34ac84477140ce660d694fc66a27ebe9a99be17251863326d0",
+  "medium": "spoken",
+  "requestSha256": "ec3c74f4e5c8bcd7b4bf0f1cd1f6ca6b0942316eeb81af343dceb1bedbe48537",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "数学72,其他科目还没发我先告诉你,晚上就不用一进门问了",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.68,
+  "wallSeconds": 33.243,
+  "loudness": {
+    "input_i": "-24.12",
+    "input_tp": "-6.00",
+    "input_lra": "2.10",
+    "input_thresh": "-34.27",
+    "output_i": "-20.60",
+    "output_tp": "-2.82",
+    "output_lra": "2.20",
+    "output_thresh": "-30.84",
+    "normalization_type": "dynamic",
+    "target_offset": "0.60"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-evening--006/raw.wav",
+      "bytes": 545360,
+      "sha256": "e74668f7c94081f855f722f90df3859189692b3ee31257de4fd12b30b84b8fb4"
+    },
+    "master": {
+      "path": "healing-evening--006/master.wav",
+      "bytes": 272718,
+      "sha256": "85b45b0bb64af7b5f6ed64309f1b564225352ab9be192df05c240ab071a12753"
+    },
+    "runtime": {
+      "path": "healing-evening--006/runtime.ogg",
+      "bytes": 47028,
+      "sha256": "940d5e7b00cf83cb6b52b89ae083d781fa459c43bfcbf0111cbecb76d19c4ce0"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

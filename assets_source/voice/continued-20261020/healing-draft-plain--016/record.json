@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--016",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--016",
+  "lineIndex": 15,
+  "speaker": "陈知遥",
+  "text": "不用现在交。也不用今天让谁看。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 200000456,
+  "textSha256": "1ee4d48e766231d9314050fb9cf7e5c2fb6a6d42f949a455450184bea625bdc7",
+  "medium": "spoken",
+  "requestSha256": "bf3143f18ebbb71cc1e0b3eb432b772f72699cedea0b2f3b31064f4bf90eb015",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不用現在教也不用今天讓誰看",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.44,
+  "wallSeconds": 113.946,
+  "loudness": {
+    "input_i": "-21.58",
+    "input_tp": "-4.07",
+    "input_lra": "0.40",
+    "input_thresh": "-32.20",
+    "output_i": "-19.46",
+    "output_tp": "-2.01",
+    "output_lra": "0.00",
+    "output_thresh": "-30.06",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.54"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--016/raw.wav",
+      "bytes": 330320,
+      "sha256": "38aa7fc0f44a070be968c63294eee299971b26850b63ceb75653c24017405a5e"
+    },
+    "master": {
+      "path": "healing-draft-plain--016/master.wav",
+      "bytes": 165198,
+      "sha256": "bb24af666032ef77becf3b2e513b4f79eae7c2795206e85f652110170088023f"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--016/runtime.ogg",
+      "bytes": 27784,
+      "sha256": "259f2dff5af8c920dcac29aca771179792710ead68b7b3361ca093aa3c549dfe"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

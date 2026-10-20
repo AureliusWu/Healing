@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-talk--008",
+  "sceneId": "c3-shared-talk",
+  "lineId": "c3-shared-talk--008",
+  "lineIndex": 7,
+  "speaker": "许棠",
+  "text": "对。今天照片没他，校刊里有，不用每件事都凑成所有人合影。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 866940240,
+  "textSha256": "670698992050387a192a35160bc5636766a0e72a6149593d629610d263d01094",
+  "medium": "spoken",
+  "requestSha256": "6e4110bad461ebbe51b3fda754ee671a4d1f619dc4f5e0a2949b7a310208968d",
+  "attempt": 5,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "对,今天照片没她,笑看理由不用每件事都凑成所有人合影。",
+    "cer": 0.208333,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 7.12,
+  "wallSeconds": 31.639,
+  "loudness": {
+    "input_i": "-18.58",
+    "input_tp": "-5.00",
+    "input_lra": "0.60",
+    "input_thresh": "-28.82",
+    "output_i": "-19.47",
+    "output_tp": "-5.41",
+    "output_lra": "1.20",
+    "output_thresh": "-29.83",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.53"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-talk--008/raw.wav",
+      "bytes": 683600,
+      "sha256": "1ed372e1235013f8e38823a9b4f60202fb2adbc943c57d89427d75438be86ae5"
+    },
+    "master": {
+      "path": "healing-c3-shared-talk--008/master.wav",
+      "bytes": 341838,
+      "sha256": "b57a0376b4abe72a99086736a390045a5293462ea251e3f7efbde33e069dd993"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-talk--008/runtime.ogg",
+      "bytes": 51725,
+      "sha256": "83afc976feff492d2bf30a05031bd9ab8c0b5c8f7ae4b59de129f0492ec13a8c"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-chen--006",
+  "sceneId": "rain-chen",
+  "lineId": "rain-chen--006",
+  "lineIndex": 5,
+  "speaker": "陈知遥",
+  "text": "你说，别人不需要我的时候，我是不是反而会轻松一点？",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 591612658,
+  "textSha256": "d37ac9f5ac34348b40883b48a99e7b5b86884ed5b8bff70a572c24bdfb50606e",
+  "medium": "spoken",
+  "requestSha256": "16ac8e3bd6202a69dfdfbc02724ad4fd52bc79f03f358f49b07f32fbb3aeb05a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你說 別人不需要我的時候 我是不是反而會輕鬆一點",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.48,
+  "wallSeconds": 300.031,
+  "loudness": {
+    "input_i": "-17.33",
+    "input_tp": "-3.42",
+    "input_lra": "1.60",
+    "input_thresh": "-28.42",
+    "output_i": "-19.57",
+    "output_tp": "-5.73",
+    "output_lra": "2.00",
+    "output_thresh": "-30.59",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.43"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-chen--006/raw.wav",
+      "bytes": 622160,
+      "sha256": "8a001b5fb69d7a66c9f12c4e40de814f047803e1c009fafe560f213aca927982"
+    },
+    "master": {
+      "path": "healing-rain-chen--006/master.wav",
+      "bytes": 311118,
+      "sha256": "3bbd8510f23259d5c3d5b130c4c25cea4184a700bed142fea35a80f3da4b3e19"
+    },
+    "runtime": {
+      "path": "healing-rain-chen--006/runtime.ogg",
+      "bytes": 45634,
+      "sha256": "a4e4d6a9b97e2e8988adae15ede81d8e7eaba0196651f15991212b8c39179ce9"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

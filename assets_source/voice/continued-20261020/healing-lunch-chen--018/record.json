@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--018",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--018",
+  "lineIndex": 17,
+  "speaker": "程屿",
+  "text": "可能大家也在午睡。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1828173253,
+  "textSha256": "3c9f790b1d46ec8011dab007a9837f3fc221e15915ee3adff11c14b755417d8c",
+  "medium": "spoken",
+  "requestSha256": "379f07e4244eae341aad1372c582121ca46691eaf792323a56da687345992f93",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可能大家也在午睡",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.92,
+  "wallSeconds": 134.981,
+  "loudness": {
+    "input_i": "-25.32",
+    "input_tp": "-6.54",
+    "input_lra": "0.00",
+    "input_thresh": "-35.58",
+    "output_i": "-20.76",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.02",
+    "normalization_type": "linear",
+    "target_offset": "0.76"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--018/raw.wav",
+      "bytes": 184400,
+      "sha256": "f43fe54f5b08162613725dcdfad001162f433207a1625aaf57155f1b13627572"
+    },
+    "master": {
+      "path": "healing-lunch-chen--018/master.wav",
+      "bytes": 92238,
+      "sha256": "15ea606dcda7349b7aa4caefb65184a82c31e7092ba24d114b6649c5f90b0533"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--018/runtime.ogg",
+      "bytes": 19112,
+      "sha256": "5dec4cd42733461b5b97780ed9b1b1a1a8de927ca201290f36caa15ab5064c97"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

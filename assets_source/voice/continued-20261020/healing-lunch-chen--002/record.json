@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--002",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "你这么一说，我还真有点希望它们会走路。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 527448155,
+  "textSha256": "2f529c5c34b8b956e65f720c3c20f67881ada0ea16e7d0475f8f84362f9f512e",
+  "medium": "spoken",
+  "requestSha256": "3b00c90669f0c9d1a245cc43e9b26ae194c9abb3346d9a93d5e15819d550c2cb",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你这么一说,我还真有点希望他们会走路",
+    "cer": 0.058824,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.92,
+  "wallSeconds": 133.201,
+  "loudness": {
+    "input_i": "-17.77",
+    "input_tp": "-5.05",
+    "input_lra": "1.90",
+    "input_thresh": "-28.03",
+    "output_i": "-20.21",
+    "output_tp": "-7.94",
+    "output_lra": "0.00",
+    "output_thresh": "-30.32",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--002/raw.wav",
+      "bytes": 376400,
+      "sha256": "0735fb6fd66ce071af0b1675fcb1fa784a3b657505960d49d73dda324c37c97b"
+    },
+    "master": {
+      "path": "healing-lunch-chen--002/master.wav",
+      "bytes": 188238,
+      "sha256": "69994701b8e3eee81f04c4bcfeb17eb452333eada69059e3b991126feeb3bf3d"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--002/runtime.ogg",
+      "bytes": 31001,
+      "sha256": "b3bb4991e65e05354871aaa217ae3e60c0f240a326f7ef5ff443fa6318cb711b"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-light--002",
+  "sceneId": "c3-tang-light",
+  "lineId": "c3-tang-light--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "想。手僵一点，但就是刚才的我。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 192082535,
+  "textSha256": "ef1af1dc5b35b9d7fb89de63b4e8794e6c24197429b777c1776bf9f7e9de92b9",
+  "medium": "spoken",
+  "requestSha256": "aa638161c836ec8568b1ee5876a513ad8310d6dec38953bf7aef24f8994c5f74",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "抢了,手僵一点,但就是刚才的我",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 209.41,
+  "loudness": {
+    "input_i": "-25.04",
+    "input_tp": "-6.69",
+    "input_lra": "0.40",
+    "input_thresh": "-35.69",
+    "output_i": "-19.43",
+    "output_tp": "-2.00",
+    "output_lra": "0.10",
+    "output_thresh": "-30.11",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.57"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-light--002/raw.wav",
+      "bytes": 414800,
+      "sha256": "5186b144b29b9e4abac9fa0eee8a70174c928c1dca2a9c59b44682f0bd7ff5df"
+    },
+    "master": {
+      "path": "healing-c3-tang-light--002/master.wav",
+      "bytes": 207438,
+      "sha256": "4d26e371036cbc9408d1063eeafde643c4bf21461723fcf08d02feaeaac7d4db"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-light--002/runtime.ogg",
+      "bytes": 35482,
+      "sha256": "8e097730cabb590ce3c2075cc496de688c81a2977aa39f6c212d8dd8c53866c8"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

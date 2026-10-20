@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-lin-draft--009",
+  "sceneId": "c2-lin-draft",
+  "lineId": "c2-lin-draft--009",
+  "lineIndex": 8,
+  "speaker": "程屿",
+  "text": "我记在这里，不凭记性。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1649553067,
+  "textSha256": "b63b6b47b3bb7a09566930512a3c30650a8b343c0265efba80e1baef5f1e3908",
+  "medium": "spoken",
+  "requestSha256": "b4db8239c9ef8b5b1cba8a89cbe95cd17851b5b204128a1af6095101406c81b9",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我记在这里不凭记性",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.08,
+  "wallSeconds": 113.888,
+  "loudness": {
+    "input_i": "-28.85",
+    "input_tp": "-12.02",
+    "input_lra": "0.00",
+    "input_thresh": "-38.85",
+    "output_i": "-19.99",
+    "output_tp": "-3.17",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-lin-draft--009/raw.wav",
+      "bytes": 199760,
+      "sha256": "654faac516648dab36ac2c0d2b4356431f75b64c53ac94a7a29c11117ba1cb6d"
+    },
+    "master": {
+      "path": "healing-c2-lin-draft--009/master.wav",
+      "bytes": 99918,
+      "sha256": "6edcd3beb3e56439589a208ed1dc63ae40152f9c88a4be06f2e0ae0134155654"
+    },
+    "runtime": {
+      "path": "healing-c2-lin-draft--009/runtime.ogg",
+      "bytes": 20391,
+      "sha256": "4432bbbec3e7aba657f67a2a56354c2fe6dce1555a849e3d02b2ad2dbfbb34ef"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

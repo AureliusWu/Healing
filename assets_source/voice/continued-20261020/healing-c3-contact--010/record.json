@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-contact--010",
+  "sceneId": "c3-contact",
+  "lineId": "c3-contact--010",
+  "lineIndex": 9,
+  "speaker": "程屿",
+  "text": "下次拍什么？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 587032079,
+  "textSha256": "0c131f35b8f2d96d2e95413b3464379679edffa7f0eaf192d340fab2dfd0eca4",
+  "medium": "spoken",
+  "requestSha256": "992763c660eec2ec92579ef7de39e7a1573728ad9d078bbfd8fe41dc5bf9e78b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "下次拍什么",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 45.648,
+  "loudness": {
+    "input_i": "-22.53",
+    "input_tp": "-5.80",
+    "input_lra": "0.00",
+    "input_thresh": "-32.53",
+    "output_i": "-20.01",
+    "output_tp": "-3.27",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-contact--010/raw.wav",
+      "bytes": 99920,
+      "sha256": "3cba44483cb82d7e88377c85d4f5c2424f88ba9e207cff4b1faeeda93ee342a4"
+    },
+    "master": {
+      "path": "healing-c3-contact--010/master.wav",
+      "bytes": 49998,
+      "sha256": "b53fb27dd4d368ea16722d67b7acf98a38a91e04cac5b0216b8acbf61b4c456b"
+    },
+    "runtime": {
+      "path": "healing-c3-contact--010/runtime.ogg",
+      "bytes": 11360,
+      "sha256": "07603f604f24f6a788a5388bd3c76f2bdc752d679b665abb12dafbc36510e036"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

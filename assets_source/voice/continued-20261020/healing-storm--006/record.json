@@ -1,0 +1,55 @@
+{
+  "id": "healing-storm--006",
+  "sceneId": "storm",
+  "lineId": "storm--006",
+  "lineIndex": 5,
+  "speaker": "陈知遥",
+  "text": "我还要回去检查窗户。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 506769672,
+  "textSha256": "46e8a36a4444efb1141ec60687373716d1ae429b389c30744b48002225183183",
+  "medium": "spoken",
+  "requestSha256": "fb88a381d2270f4878283a9902928baf7b236583de62efb5a870c44f1d96d3b9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我还要回去检查窗户",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.32,
+  "wallSeconds": 82.601,
+  "loudness": {
+    "input_i": "-19.03",
+    "input_tp": "-5.33",
+    "input_lra": "0.00",
+    "input_thresh": "-29.03",
+    "output_i": "-20.02",
+    "output_tp": "-6.30",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-storm--006/raw.wav",
+      "bytes": 222800,
+      "sha256": "a4c251c4678b0247b73daf82fff820fc8429a3e6640bf605f728ad4a29004611"
+    },
+    "master": {
+      "path": "healing-storm--006/master.wav",
+      "bytes": 111438,
+      "sha256": "eb9cd1242e160add0795d76bc054b78d220028bcc4c989c231c0945b7b372515"
+    },
+    "runtime": {
+      "path": "healing-storm--006/runtime.ogg",
+      "bytes": 19526,
+      "sha256": "8149ca8ad0f6977920a5c42e8694c01468470577dfe853b2a2e0e16b1f0b201e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

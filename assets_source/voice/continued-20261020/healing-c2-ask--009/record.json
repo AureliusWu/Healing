@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-ask--009",
+  "sceneId": "c2-ask",
+  "lineId": "c2-ask--009",
+  "lineIndex": 8,
+  "speaker": "林见夏",
+  "text": "这一版，我看得明白。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1616754033,
+  "textSha256": "702dd97420272754a4e45bd3d0333747340e66814b20e85da5dcebbe6f69aa97",
+  "medium": "spoken",
+  "requestSha256": "2cb9f0023272a0f7cd84fc3edafe696dd3328c288d7bb32442add41348553c4e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这一版,我看得明白",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.04,
+  "wallSeconds": 25.845,
+  "loudness": {
+    "input_i": "-26.53",
+    "input_tp": "-9.87",
+    "input_lra": "0.50",
+    "input_thresh": "-37.26",
+    "output_i": "-18.86",
+    "output_tp": "-2.37",
+    "output_lra": "0.00",
+    "output_thresh": "-29.62",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.14"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-ask--009/raw.wav",
+      "bytes": 291920,
+      "sha256": "cdace6c21e5dfe0f515a946fcd650d15f5f32460860e78f48c5c175cf90a7791"
+    },
+    "master": {
+      "path": "healing-c2-ask--009/master.wav",
+      "bytes": 145998,
+      "sha256": "26fe22b01afff6968d65517968b8b02c8a7ae124cf0ab2197cca2fac8f2e1313"
+    },
+    "runtime": {
+      "path": "healing-c2-ask--009/runtime.ogg",
+      "bytes": 23400,
+      "sha256": "9570a855c064c023ad2a8d56e38f413185cbb00d8ec08d123f5dcf8210e40a8d"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

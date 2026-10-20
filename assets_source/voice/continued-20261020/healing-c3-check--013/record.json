@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-check--013",
+  "sceneId": "c3-check",
+  "lineId": "c3-check--013",
+  "lineIndex": 12,
+  "speaker": "许棠",
+  "text": "嗯，纸上确认没问题，才印正式份数。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 920260942,
+  "textSha256": "d187caea59438f2eb69ac4df64bce2c0ea33db8dbbb48f40e1bf3c1ccdfc6783",
+  "medium": "spoken",
+  "requestSha256": "f52a6ee2cf4d282e4c1e3d21f916b9910a55e6d263abe2b786ac98730571c093",
+  "attempt": 4,
+  "status": "accepted",
+  "asr": {
+    "transcript": "嗯,紙上確認沒問題,才應正式分數",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.04,
+  "wallSeconds": 27.911,
+  "loudness": {
+    "input_i": "-20.22",
+    "input_tp": "-6.36",
+    "input_lra": "1.60",
+    "input_thresh": "-30.62",
+    "output_i": "-20.06",
+    "output_tp": "-6.54",
+    "output_lra": "1.00",
+    "output_thresh": "-30.43",
+    "normalization_type": "dynamic",
+    "target_offset": "0.06"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-check--013/raw.wav",
+      "bytes": 483920,
+      "sha256": "9bd2cab99a4bc76cc6ef2911f3d2eafa84385494e9cd7d2829138e02adac5f2b"
+    },
+    "master": {
+      "path": "healing-c3-check--013/master.wav",
+      "bytes": 241998,
+      "sha256": "7b7941a3ecde67eb7d4a087fb880b5d502453cbba16189f5c05204d81641a0b4"
+    },
+    "runtime": {
+      "path": "healing-c3-check--013/runtime.ogg",
+      "bytes": 37445,
+      "sha256": "de80c9a22b0ba1f9e53d55db01c0ad09721ad559ffd9739f109ddb3de44b349a"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

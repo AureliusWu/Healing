@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--004",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--004",
+  "lineIndex": 3,
+  "speaker": "程屿",
+  "text": "这些下午再拿也行吧？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1733931054,
+  "textSha256": "86cf154af89f7bdf932b89bfe97b26a7efae21781fad0e764e661081e2ec5781",
+  "medium": "spoken",
+  "requestSha256": "d9450e43872d436da9e5bd53327d35c46bf6392c7b1e67f69af19e7913a9af26",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这些下午再打也行吧",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.4,
+  "wallSeconds": 21.526,
+  "loudness": {
+    "input_i": "-25.64",
+    "input_tp": "-8.48",
+    "input_lra": "0.00",
+    "input_thresh": "-35.83",
+    "output_i": "-19.99",
+    "output_tp": "-2.84",
+    "output_lra": "0.00",
+    "output_thresh": "-30.19",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--004/raw.wav",
+      "bytes": 230480,
+      "sha256": "522f5ce237ad9d4dec9c2631cd0be4eaaf64bda641949a232b474169071364f9"
+    },
+    "master": {
+      "path": "healing-lunch-chen--004/master.wav",
+      "bytes": 115278,
+      "sha256": "1c235b5ea8404434394000c2e7f78272091c7eeb1a9c7279fc6d0c3cad3dcf4c"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--004/runtime.ogg",
+      "bytes": 20881,
+      "sha256": "f53af09721fe420192edc81bed020360d2d9ac4f9d063befe3f386d914f4a9fd"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

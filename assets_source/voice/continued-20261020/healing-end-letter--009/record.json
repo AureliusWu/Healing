@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-letter--009",
+  "sceneId": "end-letter",
+  "lineId": "end-letter--009",
+  "lineIndex": 8,
+  "speaker": "林见夏",
+  "text": "你推过来的时候。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 699089184,
+  "textSha256": "b894b3c6d253ffe3859cb72dd4f3b8e50f71ad0480fe5bef3b6cd7ee13ed3aa8",
+  "medium": "spoken",
+  "requestSha256": "67454bd57e257abe25e796bba0611cd4d5576b67fd790ec15f93bdaa21435da4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你推过来的时候",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 90.457,
+  "loudness": {
+    "input_i": "-31.88",
+    "input_tp": "-16.18",
+    "input_lra": "0.00",
+    "input_thresh": "-41.88",
+    "output_i": "-19.99",
+    "output_tp": "-4.30",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-letter--009/raw.wav",
+      "bytes": 169040,
+      "sha256": "0b605b648f9ef19062ca33d498a690e4c23714af07601724eed53d31369007e5"
+    },
+    "master": {
+      "path": "healing-end-letter--009/master.wav",
+      "bytes": 84558,
+      "sha256": "62aab1fdb29c873e1103f6370c967fe0fdb2efdebcab924fcb310bf1aadfac9d"
+    },
+    "runtime": {
+      "path": "healing-end-letter--009/runtime.ogg",
+      "bytes": 15744,
+      "sha256": "9deac9e6b9aca7ee95c8d3767e5fa196161deb5faaba554450b075e397aef55f"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

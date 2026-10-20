@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-after-school--004",
+  "sceneId": "c3-after-school",
+  "lineId": "c3-after-school--004",
+  "lineIndex": 3,
+  "speaker": "陈知遥",
+  "text": "发准确位置。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1184696600,
+  "textSha256": "39207c0fa6fda9ed0f3ab1885ba14cfca750ab3aa837c3cbe6a186d51145ea75",
+  "medium": "spoken",
+  "requestSha256": "80eed2fc68fc8a6cb19e59c53de637d6d81f341d28cafdcb76f47469614eb62d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "发准去位置",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 8.808,
+  "loudness": {
+    "input_i": "-19.49",
+    "input_tp": "-3.58",
+    "input_lra": "0.00",
+    "input_thresh": "-29.49",
+    "output_i": "-19.99",
+    "output_tp": "-4.09",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-after-school--004/raw.wav",
+      "bytes": 122960,
+      "sha256": "abe1a1d407c005984b378bd46c74a36031b8998cd4beb46b033891e056e48743"
+    },
+    "master": {
+      "path": "healing-c3-after-school--004/master.wav",
+      "bytes": 61518,
+      "sha256": "22b0455607e024d9e31bfbd369537762e736ef2572ec3a13dfaea897c7db7acf"
+    },
+    "runtime": {
+      "path": "healing-c3-after-school--004/runtime.ogg",
+      "bytes": 13474,
+      "sha256": "7c8e1ba0a685d17ca4d83eba85edde5562c8cfe93c2bfb0f62a44e82c3eb136c"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

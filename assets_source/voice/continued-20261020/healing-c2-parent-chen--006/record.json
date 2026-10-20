@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-chen--006",
+  "sceneId": "c2-parent-chen",
+  "lineId": "c2-parent-chen--006",
+  "lineIndex": 5,
+  "speaker": "班主任",
+  "text": "周一吧，明天我也不在学校。",
+  "actorId": "班主任",
+  "voice": "Uncle_Fu",
+  "instruct": "中年男性教师，普通话，平静直接，日常交谈，清楚自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 105373262,
+  "textSha256": "86667d2f22820ec082aaa3a4611a4648ac10c5ba6972241b316a4d1721c9d976",
+  "medium": "spoken",
+  "requestSha256": "035cd16a07d68bcb815b750ff446635a6fd7fd928769b5cc7ef28c6fcd5a5b90",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "抽一吧 明天我也不在學校",
+    "cer": 0.090909,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 135.316,
+  "loudness": {
+    "input_i": "-21.82",
+    "input_tp": "-5.17",
+    "input_lra": "0.30",
+    "input_thresh": "-32.27",
+    "output_i": "-19.44",
+    "output_tp": "-2.88",
+    "output_lra": "0.00",
+    "output_thresh": "-29.89",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.56"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-chen--006/raw.wav",
+      "bytes": 314960,
+      "sha256": "7c7f3b7b2c7355c03efebcd72d7fd9d3de7aafb907ece0b4843507b765fc99fb"
+    },
+    "master": {
+      "path": "healing-c2-parent-chen--006/master.wav",
+      "bytes": 157518,
+      "sha256": "a79adc63793b0fc010d953480a5ea604c2fe65a8d6f218742b5dce45169bf3d8"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-chen--006/runtime.ogg",
+      "bytes": 27088,
+      "sha256": "a70209c903d8d586e85cb15ee1894a2763ace9f56490b3cd257b3f67375085e4"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-tang-photo--003",
+  "sceneId": "c2-tang-photo",
+  "lineId": "c2-tang-photo--003",
+  "lineIndex": 2,
+  "speaker": "同学",
+  "text": "给我就行。你留着也可以，但别发。",
+  "actorId": "同学",
+  "voice": "Dylan",
+  "instruct": "高中男同学，普通话，平常交流，克制而清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1858861024,
+  "textSha256": "d81cbdf98867851eed6b2c3bd76344ea572c4cc820524f83c916ebf09be85301",
+  "medium": "spoken",
+  "requestSha256": "cf51e6033054c48808a9600a7b5b5019c260078329af41ed272e50711090df44",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "给我就行你留着可以但别发",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.8,
+  "wallSeconds": 78.046,
+  "loudness": {
+    "input_i": "-26.12",
+    "input_tp": "-7.74",
+    "input_lra": "0.00",
+    "input_thresh": "-36.12",
+    "output_i": "-20.38",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.38",
+    "normalization_type": "linear",
+    "target_offset": "0.38"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-tang-photo--003/raw.wav",
+      "bytes": 268880,
+      "sha256": "53d8cc951b511e052b8a6e53577858278689535100d7407f9ab3fd03523d063f"
+    },
+    "master": {
+      "path": "healing-c2-tang-photo--003/master.wav",
+      "bytes": 134478,
+      "sha256": "585278ef4e78eab15d1ccec5c8fd7abf59d609be170f0579cd03edc0afb9b615"
+    },
+    "runtime": {
+      "path": "healing-c2-tang-photo--003/runtime.ogg",
+      "bytes": 26362,
+      "sha256": "9312813aa7410961c041bd5d71e6aff0c4b9bd6a4e04f50b964897dade35a598"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

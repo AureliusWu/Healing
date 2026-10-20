@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-safe--008",
+  "sceneId": "draft-safe",
+  "lineId": "draft-safe--008",
+  "lineIndex": 7,
+  "speaker": "林见夏",
+  "text": "嗯。那先留着。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 482499174,
+  "textSha256": "a550bd8fe696f0a9bf2f398cf521fbec0098518b42f54affe9ed460ca6244440",
+  "medium": "spoken",
+  "requestSha256": "ef5f068063114c8c7cffa7851b2590646b74ce57e2ed041f0953e385f5dd3f66",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "嗯,那先留着",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.92,
+  "wallSeconds": 134.312,
+  "loudness": {
+    "input_i": "-25.98",
+    "input_tp": "-12.72",
+    "input_lra": "0.00",
+    "input_thresh": "-36.28",
+    "output_i": "-19.99",
+    "output_tp": "-6.74",
+    "output_lra": "0.00",
+    "output_thresh": "-30.59",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-safe--008/raw.wav",
+      "bytes": 184400,
+      "sha256": "a4ece4785b159e59d5575498c325e672b8c74c9b4d5b1ce50c00a92805d7ab50"
+    },
+    "master": {
+      "path": "healing-draft-safe--008/master.wav",
+      "bytes": 92238,
+      "sha256": "6097fd9d1b3f6f89aad0026b5bb8930405f2c720c2b036fc7e130ea77530d301"
+    },
+    "runtime": {
+      "path": "healing-draft-safe--008/runtime.ogg",
+      "bytes": 16823,
+      "sha256": "ba95eec7d8aaf5579c158d06ae9ecda330517b7191f4a129540d22517cb0aa68"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

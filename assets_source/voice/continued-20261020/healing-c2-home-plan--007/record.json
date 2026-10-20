@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home-plan--007",
+  "sceneId": "c2-home-plan",
+  "lineId": "c2-home-plan--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "我估少了。改完一题，另一题到这里。明天早读问老师，再给你看答案。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 505278690,
+  "textSha256": "706349c659da04df65058743fde96526ab3e80ab882404111686aea00b224f3d",
+  "medium": "spoken",
+  "requestSha256": "069178683017ec2085b404fe436ce6290125344a508d9a964147bd41d4d48af7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我估少了,改完一题,另一题到这里明天早读问老师,再给你看答案",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.08,
+  "wallSeconds": 306.08,
+  "loudness": {
+    "input_i": "-26.88",
+    "input_tp": "-4.81",
+    "input_lra": "0.30",
+    "input_thresh": "-36.99",
+    "output_i": "-20.34",
+    "output_tp": "-2.00",
+    "output_lra": "1.10",
+    "output_thresh": "-30.42",
+    "normalization_type": "dynamic",
+    "target_offset": "0.34"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home-plan--007/raw.wav",
+      "bytes": 583760,
+      "sha256": "5b60302e9cde5fa1b3b6308c51f04097caf7976c91c7a42a80ce18f8f7180791"
+    },
+    "master": {
+      "path": "healing-c2-home-plan--007/master.wav",
+      "bytes": 291918,
+      "sha256": "13bad4093a99e3223edcad07cd71fe3a0a0d599a5fe82713cf4cbf207c05490e"
+    },
+    "runtime": {
+      "path": "healing-c2-home-plan--007/runtime.ogg",
+      "bytes": 49762,
+      "sha256": "b57b4080e698ac484e5b76a7f268a32895086f15f43903406a27230bf4226c54"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

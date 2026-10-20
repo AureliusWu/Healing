@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-quiet--009",
+  "sceneId": "end-quiet",
+  "lineId": "end-quiet--009",
+  "lineIndex": 8,
+  "speaker": "贺川",
+  "text": "习惯了。你不吃，我就吃双份。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 90262235,
+  "textSha256": "d7df088e509f72a4a7bf630daaa62ce78c91ad4c1ba2d0e175c7c74ded59fa0a",
+  "medium": "spoken",
+  "requestSha256": "10df25378d9568ddf07fc6b52943ca4fcbdb05a329bae59107a521d8a0cc1aae",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "习惯了,你不吃,我就吃双粉。",
+    "cer": 0.090909,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.68,
+  "wallSeconds": 179.489,
+  "loudness": {
+    "input_i": "-22.13",
+    "input_tp": "-5.54",
+    "input_lra": "0.40",
+    "input_thresh": "-32.13",
+    "output_i": "-19.45",
+    "output_tp": "-3.12",
+    "output_lra": "0.00",
+    "output_thresh": "-29.45",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.55"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-quiet--009/raw.wav",
+      "bytes": 353360,
+      "sha256": "9f65177dfd6c18f9fc6f76d7777296561f8369fb5b09ce674d0135e413f76619"
+    },
+    "master": {
+      "path": "healing-end-quiet--009/master.wav",
+      "bytes": 176718,
+      "sha256": "26c37cf480edc1b94fe7ec3a13d4dd3cb07f540ce9443ee63180a01f2f3156f0"
+    },
+    "runtime": {
+      "path": "healing-end-quiet--009/runtime.ogg",
+      "bytes": 30512,
+      "sha256": "0b63059711a14645c7328a7c6a18bb01f46524c4e0e5868c2441316309e189f3"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

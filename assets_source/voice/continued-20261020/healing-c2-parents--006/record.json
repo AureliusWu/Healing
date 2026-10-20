@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parents--006",
+  "sceneId": "c2-parents",
+  "lineId": "c2-parents--006",
+  "lineIndex": 5,
+  "speaker": "贺川",
+  "text": "告诉了。他把靠门的当第一列。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1200777590,
+  "textSha256": "fbd9cbba53f769f8b5513fee6864d96ec0d26ceefa3e19eac2705c87a9c36e9c",
+  "medium": "spoken",
+  "requestSha256": "1ffc503a8fcee1b4c89cd95d4b24257350f6d146016d0365899115468fc97ff1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "告訴了他把靠門的當第一列",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.88,
+  "wallSeconds": 157.367,
+  "loudness": {
+    "input_i": "-25.07",
+    "input_tp": "-5.00",
+    "input_lra": "2.80",
+    "input_thresh": "-35.75",
+    "output_i": "-20.69",
+    "output_tp": "-2.00",
+    "output_lra": "2.60",
+    "output_thresh": "-31.63",
+    "normalization_type": "dynamic",
+    "target_offset": "0.69"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parents--006/raw.wav",
+      "bytes": 468560,
+      "sha256": "6203291add0533bd248900e7725651663831cbdc9ad3c8c99242e8b403ee9a54"
+    },
+    "master": {
+      "path": "healing-c2-parents--006/master.wav",
+      "bytes": 234318,
+      "sha256": "979451d50ae01a03d9de42a4fbac3f4fc12f65dd874ae81402386fe678fa2fbf"
+    },
+    "runtime": {
+      "path": "healing-c2-parents--006/runtime.ogg",
+      "bytes": 36540,
+      "sha256": "0a8b57ea38c5a1744696b31d10827b04f1593c2543bf9e21cc503b701bd1c82d"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

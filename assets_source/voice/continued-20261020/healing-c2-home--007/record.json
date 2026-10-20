@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home--007",
+  "sceneId": "c2-home",
+  "lineId": "c2-home--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "有两题我知道错在哪，最后那道还不会。今晚核对两页，还要四十分钟，然后改两题，十一点停。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1263558263,
+  "textSha256": "b82ee9b9f20bdd7fb4517c5d36288d1305fafc780d2c094fff6d3ed21946c247",
+  "medium": "spoken",
+  "requestSha256": "1d84d7dfc4542573bfb3ec01695004e479a47d062d8f6300f585ebe4c37b1acb",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "有两题我只是错在哪儿最后那道还不会今晚核对两页还要40分钟然后改两题11点停",
+    "cer": 0.189189,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 10.56,
+  "wallSeconds": 59.775,
+  "loudness": {
+    "input_i": "-25.88",
+    "input_tp": "-6.88",
+    "input_lra": "4.60",
+    "input_thresh": "-36.64",
+    "output_i": "-20.86",
+    "output_tp": "-2.00",
+    "output_lra": "2.90",
+    "output_thresh": "-31.47",
+    "normalization_type": "dynamic",
+    "target_offset": "0.86"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home--007/raw.wav",
+      "bytes": 1013840,
+      "sha256": "7ae38a4b553fc85d742dc15c55c70c8c9d38f3fa89b59df3dcb94b809e87c291"
+    },
+    "master": {
+      "path": "healing-c2-home--007/master.wav",
+      "bytes": 506958,
+      "sha256": "57b26c4768308f68338436442337a0c8ca4d22db414ad89f9c099faf4813bc03"
+    },
+    "runtime": {
+      "path": "healing-c2-home--007/runtime.ogg",
+      "bytes": 78852,
+      "sha256": "170dee74383ae671e47a7bafce10de9507f8c81b9927b60d65a6331a00144dbb"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-corridor--016",
+  "sceneId": "corridor",
+  "lineId": "corridor--016",
+  "lineIndex": 15,
+  "speaker": "贺川",
+  "text": "那你就先把窗留着。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 976460428,
+  "textSha256": "eced74cb0131d06251bc178a58b1c0e28544158c314f8d5e8a71d53090de45a1",
+  "medium": "spoken",
+  "requestSha256": "3e9f2e9b1097479b2549ab79665ea4c02a5d706ef4fa1f50509be7e2f854ffba",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那你就先把窗留着",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.92,
+  "wallSeconds": 133.555,
+  "loudness": {
+    "input_i": "-27.30",
+    "input_tp": "-13.24",
+    "input_lra": "0.00",
+    "input_thresh": "-37.30",
+    "output_i": "-19.99",
+    "output_tp": "-5.94",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-corridor--016/raw.wav",
+      "bytes": 184400,
+      "sha256": "ad90edebcc5182e83b338c463371d548e2d435ce79118ca60078433f052d8a51"
+    },
+    "master": {
+      "path": "healing-corridor--016/master.wav",
+      "bytes": 92238,
+      "sha256": "bb38ceac71fcc1b604f9902494ffb34356232e565d66fbcabcc252f5b1a7d45d"
+    },
+    "runtime": {
+      "path": "healing-corridor--016/runtime.ogg",
+      "bytes": 18311,
+      "sha256": "0c8a53cf07a4a09ba734ef50d5c5e732c2c814cdbf72cca9fbd18f8e329fd3ed"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

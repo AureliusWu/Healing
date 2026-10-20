@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-lin--001",
+  "sceneId": "rain-lin",
+  "lineId": "rain-lin--001",
+  "lineIndex": 0,
+  "speaker": "程屿",
+  "text": "拿着吧。我陪你到车站。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 902266715,
+  "textSha256": "ff97e0732d0386b72fba8364e4588e79840e5200d366b72da4c07ed7e85736bc",
+  "medium": "spoken",
+  "requestSha256": "8e138f43b07ede7de4900aa8e8f15e9e4649d059fee4fc7bc9bcc40e532da56a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "拿着吧我陪你到车站",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.68,
+  "wallSeconds": 67.465,
+  "loudness": {
+    "input_i": "-25.83",
+    "input_tp": "-8.46",
+    "input_lra": "0.00",
+    "input_thresh": "-35.83",
+    "output_i": "-19.99",
+    "output_tp": "-2.63",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-lin--001/raw.wav",
+      "bytes": 161360,
+      "sha256": "69bb9d77f17c1a08a6acfca6d7c6fb6fc51e94693f491c4b0202256d2348a8b4"
+    },
+    "master": {
+      "path": "healing-rain-lin--001/master.wav",
+      "bytes": 80718,
+      "sha256": "274318671b3943fd47a2634b5c456148d07b962320a8b6a15d2f981e2a7cf905"
+    },
+    "runtime": {
+      "path": "healing-rain-lin--001/runtime.ogg",
+      "bytes": 16907,
+      "sha256": "4754c9da134f861d4d28101689a895ebec01541b042cce4dfdb4c6b11c40dec1"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

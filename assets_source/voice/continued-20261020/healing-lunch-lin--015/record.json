@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--015",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--015",
+  "lineIndex": 14,
+  "speaker": "程屿",
+  "text": "别写我的名字。有点丢人。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1822465614,
+  "textSha256": "dd3aa76a38d1a64019a77c40f253ee17d2feaa43d68826cfc744b0cc9ceb220e",
+  "medium": "spoken",
+  "requestSha256": "8689c156812454aae7e9e7efd1aeb1adbe90b538428f26c06f363707c178a3f5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "别写我的名字有点丢人",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.08,
+  "wallSeconds": 110.604,
+  "loudness": {
+    "input_i": "-26.52",
+    "input_tp": "-9.78",
+    "input_lra": "0.00",
+    "input_thresh": "-36.52",
+    "output_i": "-20.00",
+    "output_tp": "-3.25",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--015/raw.wav",
+      "bytes": 199760,
+      "sha256": "7378db2e84a5ab18b2640d617565c6ae835f509ac7538019ccc8fbed698cfd08"
+    },
+    "master": {
+      "path": "healing-lunch-lin--015/master.wav",
+      "bytes": 99918,
+      "sha256": "ea583066dc34d64aa0ffe3e923dd612e7a75e640c9845673c6538e2ea4cd75cc"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--015/runtime.ogg",
+      "bytes": 21751,
+      "sha256": "a10931a431145434396389127b086e6319d4afdb3cc44a144f2686a5418c7248"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

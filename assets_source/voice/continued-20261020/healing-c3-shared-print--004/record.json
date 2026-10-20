@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-print--004",
+  "sceneId": "c3-shared-print",
+  "lineId": "c3-shared-print--004",
+  "lineIndex": 3,
+  "speaker": "林见夏",
+  "text": "我也是。稿纸正面能看，背面没露出来。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1712390407,
+  "textSha256": "717d793f4091d70df0d5a8efcda26cc4167f2759b6bb3322f2df203a6b2c6dc8",
+  "medium": "spoken",
+  "requestSha256": "bed5ed61a99507591e44009b6950910940c471d1320a84ad43bb7143c950d65d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也是 搞只正面能看 背面没露出来",
+    "cer": 0.133333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.16,
+  "wallSeconds": 218.845,
+  "loudness": {
+    "input_i": "-29.99",
+    "input_tp": "-13.15",
+    "input_lra": "0.90",
+    "input_thresh": "-40.27",
+    "output_i": "-18.82",
+    "output_tp": "-2.01",
+    "output_lra": "0.70",
+    "output_thresh": "-29.20",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.18"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-print--004/raw.wav",
+      "bytes": 399440,
+      "sha256": "144a64d31dcb105350c3327c0c6b71bc28287edc1d1c2656d9e930891dc6f926"
+    },
+    "master": {
+      "path": "healing-c3-shared-print--004/master.wav",
+      "bytes": 199758,
+      "sha256": "8165d3ede3f6c44e8cec3c4c386a79381b36ec11cb452f47b00fe217cbfda0ef"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-print--004/runtime.ogg",
+      "bytes": 32240,
+      "sha256": "3db021f372529251febcc6dd3efa2ab8eb3762bc5ed6e0d52a19d2b3b9012016"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

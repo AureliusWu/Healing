@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home-plan--005",
+  "sceneId": "c2-home-plan",
+  "lineId": "c2-home-plan--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "妈，第二题还差一步。我圈在这里，明天接着做。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 383853216,
+  "textSha256": "4554d33d9646cfbc36987d9846fe650e38ce25c85618d7ce01a6e87e6ffdaa84",
+  "medium": "spoken",
+  "requestSha256": "ab57b0fd567bc848abae369079083e325e2700c99eb085a9a739f2c1530d929e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "妈 第二题还差一步我圈在这里明天接着做",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.24,
+  "wallSeconds": 19.766,
+  "loudness": {
+    "input_i": "-28.54",
+    "input_tp": "-10.88",
+    "input_lra": "1.40",
+    "input_thresh": "-39.06",
+    "output_i": "-20.04",
+    "output_tp": "-2.58",
+    "output_lra": "1.00",
+    "output_thresh": "-30.49",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home-plan--005/raw.wav",
+      "bytes": 407120,
+      "sha256": "d20dc05412516e90c447d25271eea24458cf79e1ae19d9df411efcdcd0b7b1b2"
+    },
+    "master": {
+      "path": "healing-c2-home-plan--005/master.wav",
+      "bytes": 203598,
+      "sha256": "58a56449ae1c5669532a0fa247dc4e6300ba83bfa29bd25ad357534114048dd1"
+    },
+    "runtime": {
+      "path": "healing-c2-home-plan--005/runtime.ogg",
+      "bytes": 35122,
+      "sha256": "ed4db9bea2ec2d8b29baaba9ef53b9857edfbfd0cceb7b8d7622e1a7f8b539a7"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

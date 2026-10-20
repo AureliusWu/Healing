@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-honest--011",
+  "sceneId": "desk-honest",
+  "lineId": "desk-honest--011",
+  "lineIndex": 10,
+  "speaker": "程屿",
+  "text": "那你一般怎么办？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1670186105,
+  "textSha256": "037c6fec96ae3e649d73de5eb18747d45f8401b027655d00e31b00a6c36ad75f",
+  "medium": "spoken",
+  "requestSha256": "8efcf08c875f0784790f25ca0bb453de6188012a5cd38dbdba52a4d103279392",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那你一般怎么办",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.28,
+  "wallSeconds": 13.943,
+  "loudness": {
+    "input_i": "-30.99",
+    "input_tp": "-12.09",
+    "input_lra": "0.00",
+    "input_thresh": "-40.99",
+    "output_i": "-20.89",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.89",
+    "normalization_type": "linear",
+    "target_offset": "0.89"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-honest--011/raw.wav",
+      "bytes": 122960,
+      "sha256": "5f2f9310f070f569f922b4e0fc8533ac4b65bf6a4a0701756d2323bc3969714b"
+    },
+    "master": {
+      "path": "healing-desk-honest--011/master.wav",
+      "bytes": 61518,
+      "sha256": "7b2011df5927caac3171d6236ef65ae24f1f1b218e2e6ce82b1e4b643f97c993"
+    },
+    "runtime": {
+      "path": "healing-desk-honest--011/runtime.ogg",
+      "bytes": 13886,
+      "sha256": "70d8de4579f3d717551c446ed3cb9875c8e861ce19214ac9bd7b5895313f7ed7"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

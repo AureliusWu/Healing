@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-lin--007",
+  "sceneId": "c2-parent-lin",
+  "lineId": "c2-parent-lin--007",
+  "lineIndex": 6,
+  "speaker": "林见夏",
+  "text": "我知道。但每次这样说，我现在想做的事已经被选掉了。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1223379240,
+  "textSha256": "bbe81694c2879a26b771681805b9329da9881129160051ce06b979d1e022c2e5",
+  "medium": "spoken",
+  "requestSha256": "0c557964bf1847b9b31afa69e6cdc0e1d60f3ab9e2d5557c09edc481d8cfe272",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我知道,但每次這樣說,我現在想做的事已經被選掉了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.36,
+  "wallSeconds": 174.995,
+  "loudness": {
+    "input_i": "-26.04",
+    "input_tp": "-10.36",
+    "input_lra": "0.50",
+    "input_thresh": "-36.26",
+    "output_i": "-19.54",
+    "output_tp": "-3.48",
+    "output_lra": "0.40",
+    "output_thresh": "-29.81",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.46"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-lin--007/raw.wav",
+      "bytes": 514640,
+      "sha256": "2188f631ed7741f0fa40b039bad16e789cdea18ce2d26bbef1ef3837910d8e5d"
+    },
+    "master": {
+      "path": "healing-c2-parent-lin--007/master.wav",
+      "bytes": 257358,
+      "sha256": "c5c145e3169ebea00c7f8be03434468ec28ab6770b949b9d3adace60d55f7736"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-lin--007/runtime.ogg",
+      "bytes": 40897,
+      "sha256": "1b02b298d5501927e7191421e9ce94120e35ec7347e75fc7e76cdf7ed79c0e50"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

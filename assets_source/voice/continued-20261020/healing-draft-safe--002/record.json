@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-safe--002",
+  "sceneId": "draft-safe",
+  "lineId": "draft-safe--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "这样可以吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 60913634,
+  "textSha256": "beb19c5c33942a7ffeac4cd5b6ecf91dc2294ef76cce0219ec4aa623649c48bf",
+  "medium": "spoken",
+  "requestSha256": "3208867b6618ead4f4700e2459e06b906f515acd1064ff4190b7b43f2a0af345",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这样可以吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 5.757,
+  "loudness": {
+    "input_i": "-22.20",
+    "input_tp": "-6.39",
+    "input_lra": "0.00",
+    "input_thresh": "-32.20",
+    "output_i": "-19.98",
+    "output_tp": "-4.18",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-safe--002/raw.wav",
+      "bytes": 99920,
+      "sha256": "1b6b6cc5618d2c8fd3e4f0ec0e63b54a5dc1b3fdd23ec7a9c735c2f8b16875d9"
+    },
+    "master": {
+      "path": "healing-draft-safe--002/master.wav",
+      "bytes": 49998,
+      "sha256": "b33c2e9b48cdb0dc024de11e4f75901a4e7fcc827b73115b165c61bbdcd5c510"
+    },
+    "runtime": {
+      "path": "healing-draft-safe--002/runtime.ogg",
+      "bytes": 11220,
+      "sha256": "d035622f6a637e4c6f5f500a613db0a86b4c965afdf5a8ecb7c8c95ecdf469cb"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

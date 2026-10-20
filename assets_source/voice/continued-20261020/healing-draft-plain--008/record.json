@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--008",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "为什么？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1281889,
+  "textSha256": "ee2173408f9f3044b3996b0f491f0a70b47af8fe6cce559c323310bfdbe996bd",
+  "medium": "spoken",
+  "requestSha256": "f25889c9afa63e18cef00df32bd703b4467a445fb1615c49101eb3db77aac483",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "为什么",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.8,
+  "wallSeconds": 48.206,
+  "loudness": {
+    "input_i": "-24.74",
+    "input_tp": "-10.07",
+    "input_lra": "0.00",
+    "input_thresh": "-34.74",
+    "output_i": "-19.98",
+    "output_tp": "-5.33",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--008/raw.wav",
+      "bytes": 76880,
+      "sha256": "91d90c44a308346a06b4cbf9ce0e74b8d5416c0daa2c596010641d3bb1a9697a"
+    },
+    "master": {
+      "path": "healing-draft-plain--008/master.wav",
+      "bytes": 38478,
+      "sha256": "98507a19f5d1c1c62e8e63d5bf3769c50382be59edf6679ace4233df5df83765"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--008/runtime.ogg",
+      "bytes": 9919,
+      "sha256": "050b16e6ca0a5e072489addfa59b7cf9edb278257f37ea2ef0b6ad19c9e971d7"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

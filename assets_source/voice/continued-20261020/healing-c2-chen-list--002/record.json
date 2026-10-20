@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-chen-list--002",
+  "sceneId": "c2-chen-list",
+  "lineId": "c2-chen-list--002",
+  "lineIndex": 1,
+  "speaker": "贺川",
+  "text": "十本就是十本？别搬到一半变成两箱。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 10106262,
+  "textSha256": "a50cfb99ab057ada468373937363218809587407c8576bb4b13d0c30b43d2d3c",
+  "medium": "spoken",
+  "requestSha256": "ae926f7a9294b8f7f85daf0d750b7258a5bb229b9a9d5f0bd2338d2676998bc4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "十笨就是十笨别搬到一半变成两箱",
+    "cer": 0.133333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.2,
+  "wallSeconds": 168.913,
+  "loudness": {
+    "input_i": "-25.75",
+    "input_tp": "-6.48",
+    "input_lra": "1.80",
+    "input_thresh": "-37.01",
+    "output_i": "-18.83",
+    "output_tp": "-2.00",
+    "output_lra": "1.60",
+    "output_thresh": "-29.93",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.17"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-chen-list--002/raw.wav",
+      "bytes": 499280,
+      "sha256": "b3a27428a22e86ebc8ad44a4ef3c22f343060b052b5c72f94957bf47f65ea28d"
+    },
+    "master": {
+      "path": "healing-c2-chen-list--002/master.wav",
+      "bytes": 249678,
+      "sha256": "98ef922c47f6275ac6cfe598c7f0e38098c8dc93c1a523e7a8cabcd1ca931a05"
+    },
+    "runtime": {
+      "path": "healing-c2-chen-list--002/runtime.ogg",
+      "bytes": 39807,
+      "sha256": "672f3b06886a07d444e4ef7b4f977cb4ce8aded6d51cc4f2606480ff787ba3a4"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

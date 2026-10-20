@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-tang--006",
+  "sceneId": "c2-parent-tang",
+  "lineId": "c2-parent-tang--006",
+  "lineIndex": 5,
+  "speaker": "许母",
+  "text": "花的都是时间。",
+  "actorId": "许母",
+  "voice": "Vivian",
+  "instruct": "中年母亲，普通话，语气认真克制，日常家庭交谈，不撒娇。 只朗读给定台词，不添加词语或音效。",
+  "seed": 464586526,
+  "textSha256": "ae985f480018d01f0bcd76f8fc71b45117e98a40ac5fb5dc9701dcf63e3dc4cc",
+  "medium": "spoken",
+  "requestSha256": "2198e16bc3bbad44069c917e0a638a264d3e6c223db71bc8ef21a66e0756bb5a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "花的都是时间",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.48,
+  "wallSeconds": 103.427,
+  "loudness": {
+    "input_i": "-19.12",
+    "input_tp": "-5.45",
+    "input_lra": "0.00",
+    "input_thresh": "-29.78",
+    "output_i": "-19.98",
+    "output_tp": "-6.33",
+    "output_lra": "0.00",
+    "output_thresh": "-30.64",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-tang--006/raw.wav",
+      "bytes": 238160,
+      "sha256": "895d62b617d6890525675a72af6b324b247e3b5c1316c3ef7cb6979f26169864"
+    },
+    "master": {
+      "path": "healing-c2-parent-tang--006/master.wav",
+      "bytes": 119118,
+      "sha256": "31971703ba6f6be07cc3ff181042479673c8422100c2330909bab3b8a5c75ed9"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-tang--006/runtime.ogg",
+      "bytes": 20131,
+      "sha256": "d0a4a5703d39129d3c869fc5f0a7c58ce98b20968d915d963a9b42f889662c33"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

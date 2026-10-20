@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-stitch--008",
+  "sceneId": "c2-stitch",
+  "lineId": "c2-stitch--008",
+  "lineIndex": 7,
+  "speaker": "许棠",
+  "text": "那下去说四分钟。不能因为两分钟听着好，就继续说两分钟。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 147655131,
+  "textSha256": "eae603f18c6a87f1e308bebc9b9f99cf622cc2eba6ccbd26d4a3d504e11e6a5f",
+  "medium": "spoken",
+  "requestSha256": "a0172bf32c488ce863671a54e37acdf5e947dd0effdb9bde30c1770f558a0415",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那下去说四分钟不能因为两分钟听着好就继续说两分钟",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.2,
+  "wallSeconds": 24.233,
+  "loudness": {
+    "input_i": "-22.74",
+    "input_tp": "-5.52",
+    "input_lra": "0.40",
+    "input_thresh": "-33.40",
+    "output_i": "-20.00",
+    "output_tp": "-2.94",
+    "output_lra": "1.30",
+    "output_thresh": "-30.79",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-stitch--008/raw.wav",
+      "bytes": 499280,
+      "sha256": "71af6f97ffbf71e158d8014fd82711ed89f6c5373b506a3129b9bb80a71f9f79"
+    },
+    "master": {
+      "path": "healing-c2-stitch--008/master.wav",
+      "bytes": 249678,
+      "sha256": "09a1039bae5018c93923afc0840f096f2f98e407f09d742b7e5eecc42ecf37f6"
+    },
+    "runtime": {
+      "path": "healing-c2-stitch--008/runtime.ogg",
+      "bytes": 40680,
+      "sha256": "3f95a28fe50655f594e4a2767c5f8d809544eb17906131e2405d1f35f01efd9d"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

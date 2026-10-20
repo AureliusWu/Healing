@@ -1,0 +1,55 @@
+{
+  "id": "healing-club--008",
+  "sceneId": "club",
+  "lineId": "club--008",
+  "lineIndex": 7,
+  "speaker": "程屿",
+  "text": "会不会太……",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1823619591,
+  "textSha256": "c0403373de77a454ae65b8cb1fdf9babe166000eb72c6b328997b3bee788abaa",
+  "medium": "spoken",
+  "requestSha256": "715bfc3de230623195ef954a697627144267de55c52a5291d58caca90accb89c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "会不会太",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 8.467,
+  "loudness": {
+    "input_i": "-22.80",
+    "input_tp": "-7.41",
+    "input_lra": "0.00",
+    "input_thresh": "-33.44",
+    "output_i": "-20.00",
+    "output_tp": "-4.62",
+    "output_lra": "0.00",
+    "output_thresh": "-30.64",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-club--008/raw.wav",
+      "bytes": 169040,
+      "sha256": "b8b1f3ddd2f8bab1c4aa6cf7bb1f710e873b3bbb042ee150e435eb59d6f6e4bc"
+    },
+    "master": {
+      "path": "healing-club--008/master.wav",
+      "bytes": 84558,
+      "sha256": "17fb7fff04fd77038e7d71fa00068a2b18640c3e0643c2d1160aceb9246882a2"
+    },
+    "runtime": {
+      "path": "healing-club--008/runtime.ogg",
+      "bytes": 16422,
+      "sha256": "6579cbed86d0c8ccc382065fda81cdcf4eb8ded7a209148ef465a194ac062486"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

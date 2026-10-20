@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-deadline--006",
+  "sceneId": "c2-deadline",
+  "lineId": "c2-deadline--006",
+  "lineIndex": 5,
+  "speaker": "陈知遥",
+  "text": "我刚才差点写自己。总觉得空着就是我没安排好。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 85389554,
+  "textSha256": "60b9f1bb21f201377ac4e40c44104859ca7c68ac9371a58374b4585a3c37012a",
+  "medium": "spoken",
+  "requestSha256": "7055e5a617d55014b300d61f3474298b89854725ff6d25603df08759e2d41d54",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我刚才差点写自己总觉得空着就是我没安排好",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.96,
+  "wallSeconds": 358.474,
+  "loudness": {
+    "input_i": "-18.76",
+    "input_tp": "-3.25",
+    "input_lra": "2.00",
+    "input_thresh": "-29.19",
+    "output_i": "-19.30",
+    "output_tp": "-2.78",
+    "output_lra": "1.80",
+    "output_thresh": "-29.86",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.70"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-deadline--006/raw.wav",
+      "bytes": 668240,
+      "sha256": "986ed3b39a6cc85ad95cbe47d991e11ae3cdab462683fd7848c237a5dacd64f0"
+    },
+    "master": {
+      "path": "healing-c2-deadline--006/master.wav",
+      "bytes": 334158,
+      "sha256": "2bd8afbd91a0797121d97facf1e44b8fa0e3b39ee537b34c6b6aeba662bab499"
+    },
+    "runtime": {
+      "path": "healing-c2-deadline--006/runtime.ogg",
+      "bytes": 50877,
+      "sha256": "33b6c6f849545c1736095063f06925ebe38a60178fc6cce1874c79288b217eb9"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-contact--007",
+  "sceneId": "c3-contact",
+  "lineId": "c3-contact--007",
+  "lineIndex": 6,
+  "speaker": "许棠",
+  "text": "能，站这里。你让一下，没邀请你出镜。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1153521435,
+  "textSha256": "12179b477ab568624ef6bbedf158d873a3411af78c8af809e277ea8b276b4e65",
+  "medium": "spoken",
+  "requestSha256": "bb25295709ba08bafd9dad49d7c1f9df584fa39083c7942902b3b5f7163d717d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "能,站这里,你让一下,没邀请你出舰",
+    "cer": 0.071429,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.4,
+  "wallSeconds": 121.783,
+  "loudness": {
+    "input_i": "-17.85",
+    "input_tp": "-3.93",
+    "input_lra": "0.40",
+    "input_thresh": "-28.57",
+    "output_i": "-18.68",
+    "output_tp": "-4.83",
+    "output_lra": "0.20",
+    "output_thresh": "-29.50",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.32"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-contact--007/raw.wav",
+      "bytes": 422480,
+      "sha256": "6d62adf16e94248af6b9e09bfeaec310df506b072cf4e6d3ba9434ae8458128e"
+    },
+    "master": {
+      "path": "healing-c3-contact--007/master.wav",
+      "bytes": 211278,
+      "sha256": "0d7d022641ec4120c34a87ffdb613df989c777f3543cd2adc3f16f7cb7b3de7b"
+    },
+    "runtime": {
+      "path": "healing-c3-contact--007/runtime.ogg",
+      "bytes": 31088,
+      "sha256": "6ff8e82548a0447e1f1172198b715c7bfcb12b3879f202fc364a3c33c7b742f3"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-chen-final--003",
+  "sceneId": "end-chen-final",
+  "lineId": "end-chen-final--003",
+  "lineIndex": 2,
+  "speaker": "陈知遥",
+  "text": "不知道可以问我，名字得是你的。上次交给你，也不是等你忘了再由我做。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1121072698,
+  "textSha256": "d63ae5dce8b0b871501a6f0dab5808b05738749c346b343b330f0eca71171ca0",
+  "medium": "spoken",
+  "requestSha256": "065f0b01856c84b1caf75cdc0489053752cb28a2315a2fc449fc4e64c9888a92",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不知道可以问我 名字得是你的上次交给你 也不是等你忘了再由我做",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.2,
+  "wallSeconds": 471.403,
+  "loudness": {
+    "input_i": "-17.13",
+    "input_tp": "-3.11",
+    "input_lra": "2.30",
+    "input_thresh": "-28.27",
+    "output_i": "-19.46",
+    "output_tp": "-5.87",
+    "output_lra": "2.20",
+    "output_thresh": "-30.53",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.54"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-chen-final--003/raw.wav",
+      "bytes": 883280,
+      "sha256": "203bf3361861c1fb658ba157d03dd8caa62727cd9a495625f46a0ed6cb6609a1"
+    },
+    "master": {
+      "path": "healing-end-chen-final--003/master.wav",
+      "bytes": 441678,
+      "sha256": "05fde8d35d067aead2f8b4a947df9491fc8e2034a2e5e3871ac2ece197a24c9d"
+    },
+    "runtime": {
+      "path": "healing-end-chen-final--003/runtime.ogg",
+      "bytes": 64031,
+      "sha256": "6e4f56aa05f045b42a96a256116da9724a1cc7d059c74b5323699e5f7d21e75c"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-ask--003",
+  "sceneId": "c2-ask",
+  "lineId": "c2-ask--003",
+  "lineIndex": 2,
+  "speaker": "许棠",
+  "text": "可以。照片换成长椅，署名照你的圈改。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1037622434,
+  "textSha256": "3faf838dd3a71b8b48922f782bdb10f5364aa936a05c7e478977a4e2135748da",
+  "medium": "spoken",
+  "requestSha256": "80f9d81970c59fa267a4835de0d1a97274468600c80c03aaaf33bb22180b3858",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以 照片換成長椅 署名照你的牽蓋",
+    "cer": 0.133333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.32,
+  "wallSeconds": 35.662,
+  "loudness": {
+    "input_i": "-20.56",
+    "input_tp": "-5.15",
+    "input_lra": "2.20",
+    "input_thresh": "-31.41",
+    "output_i": "-20.41",
+    "output_tp": "-5.78",
+    "output_lra": "2.80",
+    "output_thresh": "-31.29",
+    "normalization_type": "dynamic",
+    "target_offset": "0.41"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-ask--003/raw.wav",
+      "bytes": 606800,
+      "sha256": "92484d0b995dba06a211a5063da5a5ec815e6eebe4a766f6d5325d59220aa683"
+    },
+    "master": {
+      "path": "healing-c2-ask--003/master.wav",
+      "bytes": 303438,
+      "sha256": "981f9bf7afa03edfbc75e131c6427b5f83a3445b0bd7c8983a2efaf2f80b74a0"
+    },
+    "runtime": {
+      "path": "healing-c2-ask--003/runtime.ogg",
+      "bytes": 45427,
+      "sha256": "db002f253f376491239ccb2983d5352d7c44fde3eab864cd8282dcce4e1419af"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

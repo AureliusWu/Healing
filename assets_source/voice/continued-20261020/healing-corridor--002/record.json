@@ -1,0 +1,55 @@
+{
+  "id": "healing-corridor--002",
+  "sceneId": "corridor",
+  "lineId": "corridor--002",
+  "lineIndex": 1,
+  "speaker": "贺川",
+  "text": "看不见就别挤了。我一米八都只看见三十个后脑勺。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1264548140,
+  "textSha256": "daefed58de5d220cd608ff2efa47db3222ef63c7d41f84db048eee14adbbcde9",
+  "medium": "spoken",
+  "requestSha256": "48d4d21aa98482dcfc232c7c305145b0f158c8b6a687324f3ff8cf55a62d3cf7",
+  "attempt": 5,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "看不見就別計了我1米8都只看見30個後腦勺",
+    "cer": 0.238095,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 4.08,
+  "wallSeconds": 197.242,
+  "loudness": {
+    "input_i": "-24.99",
+    "input_tp": "-7.24",
+    "input_lra": "0.20",
+    "input_thresh": "-35.60",
+    "output_i": "-19.43",
+    "output_tp": "-2.00",
+    "output_lra": "0.10",
+    "output_thresh": "-29.91",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.57"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-corridor--002/raw.wav",
+      "bytes": 391760,
+      "sha256": "38252476c6648a5e229026a21e7e96f42230d528c5c35941a4ad26a72aea250a"
+    },
+    "master": {
+      "path": "healing-corridor--002/master.wav",
+      "bytes": 195918,
+      "sha256": "8932a885805714e93b2b89d14fe01104dcb53fa819c68a3caa519394a5c5d7d6"
+    },
+    "runtime": {
+      "path": "healing-corridor--002/runtime.ogg",
+      "bytes": 37210,
+      "sha256": "18293f0f01f92bbb87a0249aa0c3c5ed9b9849ef7b7cf198c8843bb6fea7969a"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

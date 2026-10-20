@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-safe--004",
+  "sceneId": "draft-safe",
+  "lineId": "draft-safe--004",
+  "lineIndex": 3,
+  "speaker": "程屿",
+  "text": "应该还行吧。看起来挺像校刊的。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 115087068,
+  "textSha256": "bea0b3e88ee460d6958b0e4d0b2c87b4a77d0296e74101cbe9dc03dbf3dae780",
+  "medium": "spoken",
+  "requestSha256": "60b2957a645f34eefcb5eba1d22774493394f8577ab461fc2084e7449eff4063",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "应该还行吧看起来挺像小看的",
+    "cer": 0.153846,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.96,
+  "wallSeconds": 100.693,
+  "loudness": {
+    "input_i": "-25.41",
+    "input_tp": "-6.67",
+    "input_lra": "0.00",
+    "input_thresh": "-35.57",
+    "output_i": "-20.72",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.88",
+    "normalization_type": "linear",
+    "target_offset": "0.72"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-safe--004/raw.wav",
+      "bytes": 284240,
+      "sha256": "ee70bf4ddb018a970d5e46dbc6aa03eb17c02c7d901af729df8f221262a01e08"
+    },
+    "master": {
+      "path": "healing-draft-safe--004/master.wav",
+      "bytes": 142158,
+      "sha256": "d0d01fc7d41103e1db8d17eb47598c42b23fa4f020eb27f8b9652c50a1e03507"
+    },
+    "runtime": {
+      "path": "healing-draft-safe--004/runtime.ogg",
+      "bytes": 25265,
+      "sha256": "3162015dbe85fa5571c61b11a5cf8de065b700ba106e85258b7e5637419abb4f"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

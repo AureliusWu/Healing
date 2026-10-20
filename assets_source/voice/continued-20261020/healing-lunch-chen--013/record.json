@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--013",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--013",
+  "lineIndex": 12,
+  "speaker": "程屿",
+  "text": "“我要午睡”够不够重要？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1952385543,
+  "textSha256": "a8aed09beac176c1558df1ab22eaa34a85a4dbba568db8366a7f8aff5600e04c",
+  "medium": "spoken",
+  "requestSha256": "6cb6ebac53d8fb5d73beb2ec777a7578b8e2f564446294f563eeb222b98580d3",
+  "attempt": 5,
+  "status": "needs_review",
+  "asr": {
+    "transcript": "我要5岁 够不够重要",
+    "cer": 0.222222,
+    "polarityCountsMatch": true,
+    "passed": false
+  },
+  "duration": 2.0,
+  "wallSeconds": 76.244,
+  "loudness": {
+    "input_i": "-25.39",
+    "input_tp": "-9.22",
+    "input_lra": "0.00",
+    "input_thresh": "-35.39",
+    "output_i": "-20.00",
+    "output_tp": "-3.83",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--013/raw.wav",
+      "bytes": 192080,
+      "sha256": "710def7cc62dd55d7e9a33a28a8b8becdef33cf532d5b3fa301cc0db77ff944d"
+    },
+    "master": {
+      "path": "healing-lunch-chen--013/master.wav",
+      "bytes": 96078,
+      "sha256": "29589a487b8fa32160d68a3dead8346bb4253fe0897a42457673c443f77dc790"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--013/runtime.ogg",
+      "bytes": 20158,
+      "sha256": "cad237482fc6b316bbbf2d3eac7c25481772450b800e8374973697eb37b84f80"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

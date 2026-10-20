@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-safe--007",
+  "sceneId": "draft-safe",
+  "lineId": "draft-safe--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "我……就是路过。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1337890706,
+  "textSha256": "035141ed68268090238dbe674bb130d69a316169740090f1abb18b6e19167cd9",
+  "medium": "spoken",
+  "requestSha256": "65f75f3472e14d3817e5ce08079fe4e5e461a2ff0ba1363a32dcd8b0a6f140f9",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我,就是路過。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.88,
+  "wallSeconds": 17.577,
+  "loudness": {
+    "input_i": "-29.20",
+    "input_tp": "-10.91",
+    "input_lra": "0.00",
+    "input_thresh": "-39.70",
+    "output_i": "-20.28",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.45",
+    "normalization_type": "linear",
+    "target_offset": "0.28"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-safe--007/raw.wav",
+      "bytes": 276560,
+      "sha256": "b7885303af05d1c53910cdab59f229d5f5060a6db480c877d1e6320a92d5f0e5"
+    },
+    "master": {
+      "path": "healing-draft-safe--007/master.wav",
+      "bytes": 138318,
+      "sha256": "242aa5a47afa2cd3aebacd5475266e7e59eae8655d107088d44e64d3f5ab50a6"
+    },
+    "runtime": {
+      "path": "healing-draft-safe--007/runtime.ogg",
+      "bytes": 21308,
+      "sha256": "75477da7ff0d6bb0398a41fde38bc37fd4616a3220aa910d1c4f569e8424c4b5"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

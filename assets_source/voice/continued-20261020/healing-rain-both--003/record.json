@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-both--003",
+  "sceneId": "rain-both",
+  "lineId": "rain-both--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "可我觉得，你们刚才都没有把想说的话说完。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 401272115,
+  "textSha256": "84f134bcb5038d14630216a8a7ec96907db925e3f4fbe23d5b3c150a1de5b35c",
+  "medium": "spoken",
+  "requestSha256": "129bfd0ae45f759ba1c100bbfd12df52d9c18079cd59028193df212e831148cc",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可我觉得,你们刚才都没有把想说的话说完",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.36,
+  "wallSeconds": 95.398,
+  "loudness": {
+    "input_i": "-24.33",
+    "input_tp": "-7.39",
+    "input_lra": "0.40",
+    "input_thresh": "-34.33",
+    "output_i": "-19.92",
+    "output_tp": "-3.15",
+    "output_lra": "0.00",
+    "output_thresh": "-29.92",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.08"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-both--003/raw.wav",
+      "bytes": 322640,
+      "sha256": "5525f9ed10195d66f9d80c87a4230b3c577628c4119c8e1cd12697e6c64ed842"
+    },
+    "master": {
+      "path": "healing-rain-both--003/master.wav",
+      "bytes": 161358,
+      "sha256": "c7e946c9dbef1f650d4655dbbe93a983e40418836d741cf469208d423d419537"
+    },
+    "runtime": {
+      "path": "healing-rain-both--003/runtime.ogg",
+      "bytes": 28390,
+      "sha256": "453d0d35a8c9c89072f612ffef0551cce91986239db31c4503417cf7af492628"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

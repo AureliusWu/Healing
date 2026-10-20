@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-open--003",
+  "sceneId": "c2-open",
+  "lineId": "c2-open--003",
+  "lineIndex": 2,
+  "speaker": "许棠",
+  "text": "先别钉。老师说，家长会那天只要样张。正式这一期，要等大家确认好才能印。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 836304313,
+  "textSha256": "bcee4f89251f9526de97bf80fe691c0b60456289e464a61a922faf201de5d21b",
+  "medium": "spoken",
+  "requestSha256": "bb1f496eb78f46400b188caab783060c29a7808bdc9995aef55599bd216b725e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先别盯 老师说家长会那天只要样张正是这一期 要等大家确认好才能印",
+    "cer": 0.066667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.4,
+  "wallSeconds": 37.717,
+  "loudness": {
+    "input_i": "-19.48",
+    "input_tp": "-3.46",
+    "input_lra": "3.10",
+    "input_thresh": "-29.88",
+    "output_i": "-20.70",
+    "output_tp": "-5.19",
+    "output_lra": "1.50",
+    "output_thresh": "-31.03",
+    "normalization_type": "dynamic",
+    "target_offset": "0.70"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-open--003/raw.wav",
+      "bytes": 806480,
+      "sha256": "2759d3b10a8c51e5684cb9ed7118b9526395a5f628af0c31597aba140eabe2f2"
+    },
+    "master": {
+      "path": "healing-c2-open--003/master.wav",
+      "bytes": 403278,
+      "sha256": "93d903827a225448d92f990a634e775e744f9e36c6c540385dfd13c6dc313514"
+    },
+    "runtime": {
+      "path": "healing-c2-open--003/runtime.ogg",
+      "bytes": 62355,
+      "sha256": "d46eb1b78e2e5732f79d782d649ba653a21b98b45b3e5fadf3c9efacb1ae0236"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

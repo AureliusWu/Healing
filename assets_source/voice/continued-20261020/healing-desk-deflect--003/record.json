@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-deflect--003",
+  "sceneId": "desk-deflect",
+  "lineId": "desk-deflect--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "嗯。那窗边别吹太久。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 403459535,
+  "textSha256": "ff899302630d5bc6503caea53b503f0290a970959987d1aa9dd71430a1eddb21",
+  "medium": "spoken",
+  "requestSha256": "93c5d88d5f5e664420c4fdf5bf5b8ebd5ed59d7d39fb60ac99eb4517bfe1b840",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "嗯 那窗邊別吹太久",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.56,
+  "wallSeconds": 12.011,
+  "loudness": {
+    "input_i": "-27.23",
+    "input_tp": "-12.89",
+    "input_lra": "0.00",
+    "input_thresh": "-37.85",
+    "output_i": "-19.98",
+    "output_tp": "-5.66",
+    "output_lra": "0.00",
+    "output_thresh": "-30.60",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-deflect--003/raw.wav",
+      "bytes": 245840,
+      "sha256": "d59430e4437e7abdd4d3540b36e651b554a2f7c4c26e24190e0b5561dc81aec8"
+    },
+    "master": {
+      "path": "healing-desk-deflect--003/master.wav",
+      "bytes": 122958,
+      "sha256": "2f66154a62bcd83bbaaf748a1e912ea0dbbce80192fe3927ad90996e3861f2aa"
+    },
+    "runtime": {
+      "path": "healing-desk-deflect--003/runtime.ogg",
+      "bytes": 21561,
+      "sha256": "2cc3d07794a4681ff84e779fab75addd34d64313618e245709bc898e02830155"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--003",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--003",
+  "lineIndex": 2,
+  "speaker": "林见夏",
+  "text": "为什么害怕这个？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1790973284,
+  "textSha256": "340abf0dd28cbef5ec17ba1573431a62d73a46e352c4a1e8d9cc1dace05354e5",
+  "medium": "spoken",
+  "requestSha256": "609424a55dee93e553df363749947be485a218f3c618893cbce1acd092b76cc6",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "為什麼害怕這個",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.2,
+  "wallSeconds": 51.414,
+  "loudness": {
+    "input_i": "-26.89",
+    "input_tp": "-12.99",
+    "input_lra": "0.00",
+    "input_thresh": "-36.89",
+    "output_i": "-20.00",
+    "output_tp": "-6.11",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--003/raw.wav",
+      "bytes": 115280,
+      "sha256": "9b1e38702ddd6a7461f835bc55a144f5624dd4f881e87713664ea29ade81ebf9"
+    },
+    "master": {
+      "path": "healing-draft-plain--003/master.wav",
+      "bytes": 57678,
+      "sha256": "6509df18e79695433084982a4891f75a7121a73820faadfab1eb459ac4af7929"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--003/runtime.ogg",
+      "bytes": 12641,
+      "sha256": "303bbc129f29883b93a95db46180efcb2e3eb82f7ae2013ace506a871e334be1"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home--002",
+  "sceneId": "c2-home",
+  "lineId": "c2-home--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "核对校刊，六点关门，校门等了一班车。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 744670050,
+  "textSha256": "65a3ec61a5c38762dba78f8be6856a0dd68e5140168bf9947dee0adff40d4d05",
+  "medium": "spoken",
+  "requestSha256": "03dbb296091a07d3e9c549ca3b2451e24454de7b16dc4a1ecef841842bae6eaf",
+  "attempt": 5,
+  "status": "accepted",
+  "asr": {
+    "transcript": "河队校刊6点关门校门等了一班车",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.92,
+  "wallSeconds": 22.374,
+  "loudness": {
+    "input_i": "-22.68",
+    "input_tp": "-5.45",
+    "input_lra": "1.00",
+    "input_thresh": "-32.97",
+    "output_i": "-19.66",
+    "output_tp": "-2.66",
+    "output_lra": "0.00",
+    "output_thresh": "-30.17",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.34"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home--002/raw.wav",
+      "bytes": 376400,
+      "sha256": "77325cc2084b3970c96108d4a05acca00a45b4c0babcf5e677e7e434300386d2"
+    },
+    "master": {
+      "path": "healing-c2-home--002/master.wav",
+      "bytes": 188238,
+      "sha256": "7f4e8ee40a1468a0553c1159773d596d49360d87708dbd58d7c2c148d67976ee"
+    },
+    "runtime": {
+      "path": "healing-c2-home--002/runtime.ogg",
+      "bytes": 32069,
+      "sha256": "0b1daf89caf268acb469bd383d4d1afbbfc5d3bcb4586334df003e7b5383a5c6"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-talk--002",
+  "sceneId": "c3-tang-talk",
+  "lineId": "c3-tang-talk--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "几分钟？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1271256267,
+  "textSha256": "7c97a11cb885a19b1a6b2b104fec9094752dc761237a5a00179af85eb07c78d3",
+  "medium": "spoken",
+  "requestSha256": "e555cb768a77821b913c503ade8ed36bea3a7a2dabb4d9da056a8423a3c3b44d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "几分钟",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.04,
+  "wallSeconds": 5.322,
+  "loudness": {
+    "input_i": "-25.83",
+    "input_tp": "-9.05",
+    "input_lra": "0.00",
+    "input_thresh": "-35.83",
+    "output_i": "-20.00",
+    "output_tp": "-3.22",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-talk--002/raw.wav",
+      "bytes": 99920,
+      "sha256": "6c44267db15c6b21ae8fad104cb98cda7acabc7d6d75a5891941988a9800d764"
+    },
+    "master": {
+      "path": "healing-c3-tang-talk--002/master.wav",
+      "bytes": 49998,
+      "sha256": "566246b8e217b07f9d1b69afc105d6d749c81abbc9e7b73c445cceeb0760c752"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-talk--002/runtime.ogg",
+      "bytes": 10962,
+      "sha256": "18d2fba6ff5b3960475c28de89841d1a9a254a27a0e4dda37fe75165d10a35c2"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

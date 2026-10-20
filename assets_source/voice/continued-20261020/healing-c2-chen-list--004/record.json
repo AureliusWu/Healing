@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-chen-list--004",
+  "sceneId": "c2-chen-list",
+  "lineId": "c2-chen-list--004",
+  "lineIndex": 3,
+  "speaker": "贺川",
+  "text": "有。五点到楼梯口，别让我找你们。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 6834178,
+  "textSha256": "fbdd9a089f17e0f57f9b89ce09b37db11400c1bd1ef955bec5cc0beb73a7310a",
+  "medium": "spoken",
+  "requestSha256": "60464988a81e53786e514f324c7e98069408c6e5f66402fad12d0f147324eb82",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "有5点到楼梯口别让我找你们",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.44,
+  "wallSeconds": 142.654,
+  "loudness": {
+    "input_i": "-21.70",
+    "input_tp": "-4.99",
+    "input_lra": "1.30",
+    "input_thresh": "-32.62",
+    "output_i": "-18.75",
+    "output_tp": "-2.46",
+    "output_lra": "0.00",
+    "output_thresh": "-29.81",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.25"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-chen-list--004/raw.wav",
+      "bytes": 330320,
+      "sha256": "3aa8e37d96be37251d42dd77ade34cc223e3dbddd5fca8a1cc2d071f4d2c3217"
+    },
+    "master": {
+      "path": "healing-c2-chen-list--004/master.wav",
+      "bytes": 165198,
+      "sha256": "56988a930b3b4b5dae16aea8cdb02b1f847ec30f51e5a0c5ffde2e415cee2523"
+    },
+    "runtime": {
+      "path": "healing-c2-chen-list--004/runtime.ogg",
+      "bytes": 27714,
+      "sha256": "e39c1dec8ba334758dd2190692830343818901a6210e0879d56f617588e6083a"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

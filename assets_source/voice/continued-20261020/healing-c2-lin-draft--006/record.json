@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-lin-draft--006",
+  "sceneId": "c2-lin-draft",
+  "lineId": "c2-lin-draft--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "我读得明白。你要我改哪一个字，我才改。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1231539091,
+  "textSha256": "a33f4b1243c4649bb1564f101b65113ab95dd8e840ca7c64b1e3536f23c58f95",
+  "medium": "spoken",
+  "requestSha256": "83802a5cecfc204722846948bd3c6154d2948e5520dbd8d1ac8ca81c38a089fd",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我读得明白你要我改哪一个字我才敢",
+    "cer": 0.0625,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.68,
+  "wallSeconds": 21.832,
+  "loudness": {
+    "input_i": "-26.76",
+    "input_tp": "-7.62",
+    "input_lra": "0.60",
+    "input_thresh": "-37.19",
+    "output_i": "-19.87",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.27",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.13"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-lin-draft--006/raw.wav",
+      "bytes": 353360,
+      "sha256": "84e8baa6744d52d0c722e79bdf59e5fb0589998b584e60abb38d5b2753d19bc5"
+    },
+    "master": {
+      "path": "healing-c2-lin-draft--006/master.wav",
+      "bytes": 176718,
+      "sha256": "067bcef0d378dfc44c52cc998171c1b08603fc432635145190870be6ef42796d"
+    },
+    "runtime": {
+      "path": "healing-c2-lin-draft--006/runtime.ogg",
+      "bytes": 31788,
+      "sha256": "05bc8b3c5511270ac125b95cd3f9b40f2612497bc828188d17778c3083876d65"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

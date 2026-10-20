@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-chen-list--007",
+  "sceneId": "c2-chen-list",
+  "lineId": "c2-chen-list--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "我们没来，先打电话。再决定怎么做，不用提前把所有后果留给自己。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 763947151,
+  "textSha256": "0ab445d60ed178d0f349f2ececbd02b0b56fb798050fe76100115ef10f9fd3c1",
+  "medium": "spoken",
+  "requestSha256": "4663ed0c7e7b74fec3fcb95cedf9f91d0ce7d26179374b7e4465a952526c0f7c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我们没来,先打电话,再决定怎么做,不用提前把所有后果留给自己",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.8,
+  "wallSeconds": 31.139,
+  "loudness": {
+    "input_i": "-26.03",
+    "input_tp": "-7.59",
+    "input_lra": "1.20",
+    "input_thresh": "-36.36",
+    "output_i": "-20.22",
+    "output_tp": "-2.00",
+    "output_lra": "1.30",
+    "output_thresh": "-30.63",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-chen-list--007/raw.wav",
+      "bytes": 652880,
+      "sha256": "44ca4c54fb3b8c07953b4fb6287a147805a0c89aa4e5cdf358743774092a02a6"
+    },
+    "master": {
+      "path": "healing-c2-chen-list--007/master.wav",
+      "bytes": 326478,
+      "sha256": "9de33859210cd2c0f34d15ad22144ba9fa0a272c41789b51b11d87c8dbb8246d"
+    },
+    "runtime": {
+      "path": "healing-c2-chen-list--007/runtime.ogg",
+      "bytes": 56098,
+      "sha256": "5ccb613d8b58b6c34aa3be8844a5822ea665ebe292a128fb21076a48c8252586"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

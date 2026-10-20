@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-finish--003",
+  "sceneId": "c2-finish",
+  "lineId": "c2-finish--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "问过。能给你讲没想到的那一步，得先画图。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1993205477,
+  "textSha256": "f8f5c4a79bd80fe0f12d461c1bf0f2200146cf41500a1a9c0429f7e14190ba0d",
+  "medium": "spoken",
+  "requestSha256": "2e87069720ebbafefbb5e058964856f5918e5a3d037f24cee73ade4c5acfe86c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "问过,能给你讲没想到的那一步,得先画图。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 193.541,
+  "loudness": {
+    "input_i": "-24.51",
+    "input_tp": "-4.82",
+    "input_lra": "0.80",
+    "input_thresh": "-34.57",
+    "output_i": "-20.58",
+    "output_tp": "-2.00",
+    "output_lra": "0.60",
+    "output_thresh": "-30.69",
+    "normalization_type": "dynamic",
+    "target_offset": "0.58"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-finish--003/raw.wav",
+      "bytes": 384080,
+      "sha256": "6b9c6ac585c475b5622f50eac887442d1e1e718099c5ddc55817bbe787e9ea6c"
+    },
+    "master": {
+      "path": "healing-c2-finish--003/master.wav",
+      "bytes": 192078,
+      "sha256": "648d197c0dbed7b55484d57d02a8b8b6348436c998a144fdc11ad1815778c2f2"
+    },
+    "runtime": {
+      "path": "healing-c2-finish--003/runtime.ogg",
+      "bytes": 32953,
+      "sha256": "b8c4eb3a499cd4de44d7b5c08d5536c7a61aa3c0e2cef5ac696b0a68923251e4"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

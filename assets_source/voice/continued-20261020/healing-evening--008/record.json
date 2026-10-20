@@ -1,0 +1,55 @@
+{
+  "id": "healing-evening--008",
+  "sceneId": "evening",
+  "lineId": "evening--008",
+  "lineIndex": 7,
+  "speaker": "母亲",
+  "text": "我本来是想问你，校服外套干没干。昨天忘在阳台了。",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1184081294,
+  "textSha256": "c4ad30fb8c2afa93f4f04087323d0db79a8163bbb80ae260f3b5b5b31f71068f",
+  "medium": "spoken",
+  "requestSha256": "9ed8ed1d5c1ce69da4e88e5b2049552ebd8673b29dc0596725c7ff364f9eed5b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我本来是想问你校服外套干没干昨天忘在阳台了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.04,
+  "wallSeconds": 164.451,
+  "loudness": {
+    "input_i": "-23.28",
+    "input_tp": "-7.30",
+    "input_lra": "2.50",
+    "input_thresh": "-33.83",
+    "output_i": "-18.92",
+    "output_tp": "-2.82",
+    "output_lra": "2.40",
+    "output_thresh": "-29.58",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.08"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-evening--008/raw.wav",
+      "bytes": 483920,
+      "sha256": "8761961d295e09b44b145746a5b17002b682656692663e840151d046daac86ec"
+    },
+    "master": {
+      "path": "healing-evening--008/master.wav",
+      "bytes": 241998,
+      "sha256": "0b8486c60c1d26f08e75faa92d35cd3a9a1a9daa3f9b18f188a65d5c21fd0665"
+    },
+    "runtime": {
+      "path": "healing-evening--008/runtime.ogg",
+      "bytes": 37609,
+      "sha256": "e2ac01222ea8bdf75cab500eef76f4e6ff087f097096ffc4eed745ef1486b265"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

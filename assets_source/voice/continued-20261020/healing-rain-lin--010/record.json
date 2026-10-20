@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-lin--010",
+  "sceneId": "rain-lin",
+  "lineId": "rain-lin--010",
+  "lineIndex": 9,
+  "speaker": "程屿",
+  "text": "你不想别人翻笔记本，应该能直接说。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1532090615,
+  "textSha256": "9dda8b0e88f5a398b4590e103e480a0f35e959a546d04b19b37e9ab15cf0d4fd",
+  "medium": "spoken",
+  "requestSha256": "39a641a826fb3d037a371c698d180240ded77d5eb8a47a36f238a53767ba5d62",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你不想别人翻笔记本应该能直接说",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.12,
+  "wallSeconds": 87.026,
+  "loudness": {
+    "input_i": "-26.66",
+    "input_tp": "-8.84",
+    "input_lra": "0.30",
+    "input_thresh": "-36.80",
+    "output_i": "-19.65",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.80",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.35"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-lin--010/raw.wav",
+      "bytes": 299600,
+      "sha256": "d27950f63f06640dee32aec7165a297c38729bf2dedaad8acbfe3b1cfd5c962e"
+    },
+    "master": {
+      "path": "healing-rain-lin--010/master.wav",
+      "bytes": 149838,
+      "sha256": "4daa8bcdabcd0b58284e6aec041278192d35c23c336a97a170f284347a00b2a9"
+    },
+    "runtime": {
+      "path": "healing-rain-lin--010/runtime.ogg",
+      "bytes": 28658,
+      "sha256": "5032f14b5a612c51d5d49c16b5e4a9d4ac8c6a6cb024f4e4d3035add086fcc48"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-together--004",
+  "sceneId": "c2-from-together",
+  "lineId": "c2-from-together--004",
+  "lineIndex": 3,
+  "speaker": "程屿",
+  "text": "我的那页你们看过了。我还想留着第一人称。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 152028288,
+  "textSha256": "27dcff5a851e555e2e7dcdd55f444fbfbc240b71b0d0a1dc9f4ec8309288a7c7",
+  "medium": "spoken",
+  "requestSha256": "bc57ee9aa627f114794d889efff37c743da33e86625836e8fa7d89fb59cbf309",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我的那页你们看过了我还想留着第一人称",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 30.713,
+  "loudness": {
+    "input_i": "-25.38",
+    "input_tp": "-6.75",
+    "input_lra": "0.20",
+    "input_thresh": "-35.66",
+    "output_i": "-19.48",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.74",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.52"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-together--004/raw.wav",
+      "bytes": 345680,
+      "sha256": "613f1eb43137811291eddbdd8800a044223aba8da5685b6c451d5ca29601e632"
+    },
+    "master": {
+      "path": "healing-c2-from-together--004/master.wav",
+      "bytes": 172878,
+      "sha256": "481db2de13fe02308ea06848f97369086a363dfca935e9e497a7c28151a3e702"
+    },
+    "runtime": {
+      "path": "healing-c2-from-together--004/runtime.ogg",
+      "bytes": 29518,
+      "sha256": "eb23ea014a62e986e224d4c16c20054cd796a3cde83870fcb7300b563d7ef536"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

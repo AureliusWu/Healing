@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-home--012",
+  "sceneId": "c2-home",
+  "lineId": "c2-home--012",
+  "lineIndex": 11,
+  "speaker": "妈妈",
+  "text": "先吃。你爸那份别动，等下放冰箱。",
+  "actorId": "母亲",
+  "voice": "Serena",
+  "instruct": "中年女性家长，普通话，日常家庭交流，沉稳自然，不撒娇不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 881075709,
+  "textSha256": "297480997534b1d5dd11e25d897dc93277c67f0256be53834035afeb846f9e66",
+  "medium": "spoken",
+  "requestSha256": "4bf75b71deef03cf140c10599b060648138b702752a1096109a1bb1ca38c0738",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先吃你把那份别动等下放冰箱",
+    "cer": 0.076923,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.44,
+  "wallSeconds": 29.229,
+  "loudness": {
+    "input_i": "-27.76",
+    "input_tp": "-6.96",
+    "input_lra": "2.80",
+    "input_thresh": "-39.10",
+    "output_i": "-19.65",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.76",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.35"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-home--012/raw.wav",
+      "bytes": 330320,
+      "sha256": "8fcb00f5c3afddb9d8eb44e78186bc0208f9764b4aaceb60768b8d06b2d2f089"
+    },
+    "master": {
+      "path": "healing-c2-home--012/master.wav",
+      "bytes": 165198,
+      "sha256": "f8892060529cbcffa4fefb34872ffa24bcd4f808d85bed55ddd028351aa6080a"
+    },
+    "runtime": {
+      "path": "healing-c2-home--012/runtime.ogg",
+      "bytes": 27167,
+      "sha256": "c4e1643e56e85faae67319a1d58bea5c14a68e61ae35ee0460bd6cf7ecfb6c32"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

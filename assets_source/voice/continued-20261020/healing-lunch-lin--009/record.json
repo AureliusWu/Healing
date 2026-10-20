@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--009",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--009",
+  "lineIndex": 8,
+  "speaker": "程屿",
+  "text": "我不觉得。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 127385286,
+  "textSha256": "bee5635329e541681d2989ae6f9fc76b9e680839ea8c2929fd7dbb5c8cbf3000",
+  "medium": "spoken",
+  "requestSha256": "d686b079db0935ce706647825c7cf9c1dcb172d7542938c6a6bbc0dae9975314",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我不觉得",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.72,
+  "wallSeconds": 30.715,
+  "loudness": {
+    "input_i": "-30.14",
+    "input_tp": "-12.97",
+    "input_lra": "0.00",
+    "input_thresh": "-40.14",
+    "output_i": "-20.02",
+    "output_tp": "-2.83",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--009/raw.wav",
+      "bytes": 69200,
+      "sha256": "7267e80ab58724f3e3d58ec6c1b1eba04b951507195c2128700dddb44d4e432b"
+    },
+    "master": {
+      "path": "healing-lunch-lin--009/master.wav",
+      "bytes": 34638,
+      "sha256": "4a1fb8abacd17e97f657c4e5c09e11e0dacc1748c0550730fe52dd37a92e0367"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--009/runtime.ogg",
+      "bytes": 10025,
+      "sha256": "8f36cce99a985558f406f7eab2b84fd5c99d345b7d7155c582ca09ab0e49d8c5"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

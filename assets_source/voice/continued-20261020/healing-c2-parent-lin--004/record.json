@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-lin--004",
+  "sceneId": "c2-parent-lin",
+  "lineId": "c2-parent-lin--004",
+  "lineIndex": 3,
+  "speaker": "林见夏",
+  "text": "文章。你先读完，好不好？等车的时候也能读。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1595371251,
+  "textSha256": "b6a071a77edeacc52ca6e7eb8ee294ce12827808d90da811b1206a25d4fee265",
+  "medium": "spoken",
+  "requestSha256": "2e010b21f8a3287a97e5dc1679c46d970e98808bb0f7034a4fe4523211330b2c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "文章,你先读完好不好等车的时候也能读",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.92,
+  "wallSeconds": 17.843,
+  "loudness": {
+    "input_i": "-24.33",
+    "input_tp": "-6.41",
+    "input_lra": "0.50",
+    "input_thresh": "-34.46",
+    "output_i": "-19.71",
+    "output_tp": "-2.01",
+    "output_lra": "0.00",
+    "output_thresh": "-29.83",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.29"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-lin--004/raw.wav",
+      "bytes": 376400,
+      "sha256": "68aa374633741a1d406af6c8d0926fc83942cbba8b8794b6832c6eec6b1965d2"
+    },
+    "master": {
+      "path": "healing-c2-parent-lin--004/master.wav",
+      "bytes": 188238,
+      "sha256": "9a2c9b57f243c3a3cfadc3f05e0c92c0c8d6a176d70589649f496be0b2875a39"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-lin--004/runtime.ogg",
+      "bytes": 31058,
+      "sha256": "d2ec8ba64aefb39dacac7ce047a77680766c27ea8c9c749a58835d9f4e323ee8"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

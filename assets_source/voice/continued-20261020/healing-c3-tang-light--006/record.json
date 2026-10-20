@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-light--006",
+  "sceneId": "c3-tang-light",
+  "lineId": "c3-tang-light--006",
+  "lineIndex": 5,
+  "speaker": "许棠",
+  "text": "我也一样。下次想发别处，重新问。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1809459332,
+  "textSha256": "09bd60a54f3a9ba5d0348addd8c84300702412fd96f5f06568ec18cd2cd566b0",
+  "medium": "spoken",
+  "requestSha256": "09f9f48e5590de1353a00b5d688ed3192657c8f9c09f84e0f82122b8e9464c3d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我也一樣下次想法別做重新問",
+    "cer": 0.153846,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.48,
+  "wallSeconds": 35.719,
+  "loudness": {
+    "input_i": "-21.75",
+    "input_tp": "-5.44",
+    "input_lra": "1.20",
+    "input_thresh": "-32.71",
+    "output_i": "-18.97",
+    "output_tp": "-2.71",
+    "output_lra": "0.50",
+    "output_thresh": "-30.17",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.03"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-light--006/raw.wav",
+      "bytes": 430160,
+      "sha256": "d9c775cb0689e0473a09ad88cc159c99a6a331e2af7e29359e5b16fd4f050d73"
+    },
+    "master": {
+      "path": "healing-c3-tang-light--006/master.wav",
+      "bytes": 215118,
+      "sha256": "a9f1347b70364920a096620f4e9d1820e8fd80933eb7a7868b9e733f1cb74304"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-light--006/runtime.ogg",
+      "bytes": 33732,
+      "sha256": "a93384d6a136f26ddaf8c95073a9937ff3f1e6010fc0b0d8af35e4ae9148aa50"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

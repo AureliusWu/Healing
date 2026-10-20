@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-chen--008",
+  "sceneId": "rain-chen",
+  "lineId": "rain-chen--008",
+  "lineIndex": 7,
+  "speaker": "陈知遥",
+  "text": "那为什么我刚才一点也不觉得轻松？",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 967012692,
+  "textSha256": "673cce9c89d384329b8140338fc64df899c1c5b11530f9b5f672668209c86ec7",
+  "medium": "spoken",
+  "requestSha256": "a41c0e081a76f3a0453ace33bd9a70ea43b054c57ad40a841a0f00cbaa20e68d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那为什么我刚才一点也不觉得轻松",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.92,
+  "wallSeconds": 17.697,
+  "loudness": {
+    "input_i": "-16.40",
+    "input_tp": "-5.66",
+    "input_lra": "1.60",
+    "input_thresh": "-26.40",
+    "output_i": "-20.04",
+    "output_tp": "-9.86",
+    "output_lra": "0.00",
+    "output_thresh": "-30.04",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-chen--008/raw.wav",
+      "bytes": 376400,
+      "sha256": "7cf77ba3864728e21bfd2270def7c34dc6d8cd883df829050d49e226a7dde25f"
+    },
+    "master": {
+      "path": "healing-rain-chen--008/master.wav",
+      "bytes": 188238,
+      "sha256": "635ac62e5bfdd826cfb52044e1bfd5ec1d1d0315ef52a0c014e06481278158eb"
+    },
+    "runtime": {
+      "path": "healing-rain-chen--008/runtime.ogg",
+      "bytes": 30695,
+      "sha256": "1cf759847985d85e467fc932762560c03e576f43c546f2ab9bf71737bc240a4f"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-open--009",
+  "sceneId": "c2-open",
+  "lineId": "c2-open--009",
+  "lineIndex": 8,
+  "speaker": "林见夏",
+  "text": "文章排出来以后，还可以改吗？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1810889717,
+  "textSha256": "0d6dec33b4e070c82c4d8f14b06f44d538935ddc990b5ab685fb29a798161a78",
+  "medium": "spoken",
+  "requestSha256": "05b2c74c9151977c2868959debae33263475534c0edd443f6bbde9f1068f8afe",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "文章排出来以后还可以改吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.48,
+  "wallSeconds": 15.621,
+  "loudness": {
+    "input_i": "-24.64",
+    "input_tp": "-7.25",
+    "input_lra": "0.00",
+    "input_thresh": "-34.64",
+    "output_i": "-19.98",
+    "output_tp": "-2.62",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-open--009/raw.wav",
+      "bytes": 238160,
+      "sha256": "972f4d6e87bc009be2e1e5b815ec2bad7295aab488dccffc8ad5fd35748e2960"
+    },
+    "master": {
+      "path": "healing-c2-open--009/master.wav",
+      "bytes": 119118,
+      "sha256": "58998e156dce8cab5780c59b1dcc02940392141f9dd54fc3bd4a7c17dc8c3b2e"
+    },
+    "runtime": {
+      "path": "healing-c2-open--009/runtime.ogg",
+      "bytes": 21229,
+      "sha256": "bc7578d3490a6f564428191fb615ca59b224f7bb10492568c6270fd9ee22f64c"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

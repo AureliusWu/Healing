@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-chen--002",
+  "sceneId": "c2-parent-chen",
+  "lineId": "c2-parent-chen--002",
+  "lineIndex": 1,
+  "speaker": "陈母",
+  "text": "班长还是要负责，老师信任你才让你管。",
+  "actorId": "陈母",
+  "voice": "Serena",
+  "instruct": "中年母亲，普通话，平稳直接，谈家庭安排，不夸张不朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 285980145,
+  "textSha256": "63cbebfe9b3687eb4dc64139b2e9ce395c518e773a689e8653e79a0ec1a4210e",
+  "medium": "spoken",
+  "requestSha256": "6b6775e255166dc9c86d64123a4ae5eb15f7bf7234dd39cef5029f3149b96d6a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "班长还是要负责老是信任你才让你管",
+    "cer": 0.0625,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 102.558,
+  "loudness": {
+    "input_i": "-25.07",
+    "input_tp": "-7.90",
+    "input_lra": "0.80",
+    "input_thresh": "-35.36",
+    "output_i": "-20.18",
+    "output_tp": "-3.12",
+    "output_lra": "0.00",
+    "output_thresh": "-30.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-chen--002/raw.wav",
+      "bytes": 345680,
+      "sha256": "6a6ddff9bf48d0d6a9d0f690e8f6298ad702f7bb7b20105e9fa78ca41f01d365"
+    },
+    "master": {
+      "path": "healing-c2-parent-chen--002/master.wav",
+      "bytes": 172878,
+      "sha256": "eb1e741bcccf409e86c2f160a5cf396864959b973f2eff0ae99dab653c5cd0a9"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-chen--002/runtime.ogg",
+      "bytes": 29070,
+      "sha256": "f49f490c3f81af912b62ae32506bd693a60275071811e013058c50f48acc833c"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

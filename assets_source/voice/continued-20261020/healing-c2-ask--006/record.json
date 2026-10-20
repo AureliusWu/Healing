@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-ask--006",
+  "sceneId": "c2-ask",
+  "lineId": "c2-ask--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "你还修好了订书机。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1691444418,
+  "textSha256": "366270fa68010b328fd96c5d8fdefadc5a46e16784a7a87aa7664ee658a097da",
+  "medium": "spoken",
+  "requestSha256": "c673d4910392e3a4cde1af6277cfdab33b6a8f2af6e21e7a985f4c801aa8f141",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你还修好了订书机",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 45.197,
+  "loudness": {
+    "input_i": "-27.18",
+    "input_tp": "-9.73",
+    "input_lra": "0.00",
+    "input_thresh": "-37.18",
+    "output_i": "-20.00",
+    "output_tp": "-2.55",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-ask--006/raw.wav",
+      "bytes": 138320,
+      "sha256": "87474cb27998d4b624fc128b9c9d764492673a51344a0f8ca54780ba3b2027a1"
+    },
+    "master": {
+      "path": "healing-c2-ask--006/master.wav",
+      "bytes": 69198,
+      "sha256": "805fb18395cbf125f3f7c016dcaaca0651fd252ea9497088bee3f83b9054f8a8"
+    },
+    "runtime": {
+      "path": "healing-c2-ask--006/runtime.ogg",
+      "bytes": 14821,
+      "sha256": "d62e3cd1a052d5d6b1bfee5888dd598b8cfbbe6be57ffae0dca3f6926a5d030b"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

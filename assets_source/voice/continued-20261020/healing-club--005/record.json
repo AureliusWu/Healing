@@ -1,0 +1,55 @@
+{
+  "id": "healing-club--005",
+  "sceneId": "club",
+  "lineId": "club--005",
+  "lineIndex": 4,
+  "speaker": "林见夏",
+  "text": "三篇。如果算上我那篇，是两篇。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 48371642,
+  "textSha256": "de19bcde6b84cbc16b8aa63c265efb05e5312eb26e6cf8377c379cbe31ccac7b",
+  "medium": "spoken",
+  "requestSha256": "abaa1b5626c22c48e431e4292f21bf1d07006d7a99c021bdfc25f4ac984d394c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "三篇,如果算上我那篇,是兩篇。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.08,
+  "wallSeconds": 393.492,
+  "loudness": {
+    "input_i": "-25.45",
+    "input_tp": "-8.59",
+    "input_lra": "1.30",
+    "input_thresh": "-36.13",
+    "output_i": "-20.07",
+    "output_tp": "-2.81",
+    "output_lra": "2.10",
+    "output_thresh": "-30.70",
+    "normalization_type": "dynamic",
+    "target_offset": "0.07"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-club--005/raw.wav",
+      "bytes": 775760,
+      "sha256": "32b72c4681aff0eee24e1715d34c3113f93e34c15c5033d080447c87702f7d8d"
+    },
+    "master": {
+      "path": "healing-club--005/master.wav",
+      "bytes": 387918,
+      "sha256": "50fa860dcd56cf748c831640bf82fc95923d20717e125d251bd4ce1fdd283dbd"
+    },
+    "runtime": {
+      "path": "healing-club--005/runtime.ogg",
+      "bytes": 57036,
+      "sha256": "703c131d94f0ac648160d29e0452d24219d1ed7e8f81ceb66b1c3b3da49bedca"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

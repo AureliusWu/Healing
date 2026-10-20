@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-task--004",
+  "sceneId": "c2-task",
+  "lineId": "c2-task--004",
+  "lineIndex": 3,
+  "speaker": "许棠",
+  "text": "我要去问照片里的同学。你可以跟我去，但别替她回答。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1312691922,
+  "textSha256": "a3d4af24b149cb1fabe546706944572e08b3c0bf2f7b61595abe825dcba30976",
+  "medium": "spoken",
+  "requestSha256": "dcc675bcf71da61a903eba19aed8a2d77ced1f541aa9321a8708c037ca5a2f23",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我要去問照片裡的同學。你可以跟我去,但別替她回答。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.12,
+  "wallSeconds": 31.355,
+  "loudness": {
+    "input_i": "-19.16",
+    "input_tp": "-5.54",
+    "input_lra": "1.10",
+    "input_thresh": "-29.38",
+    "output_i": "-19.92",
+    "output_tp": "-5.91",
+    "output_lra": "2.00",
+    "output_thresh": "-30.15",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.08"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-task--004/raw.wav",
+      "bytes": 683600,
+      "sha256": "f0472691160d86db2d947bc252fd565c5b8c33d58bc4ebc2ec2f6faa544ea708"
+    },
+    "master": {
+      "path": "healing-c2-task--004/master.wav",
+      "bytes": 341838,
+      "sha256": "3899b19d8f1f4dcb7bad4669a6c151519b2a60ca0f557a8278fc3c491a00729b"
+    },
+    "runtime": {
+      "path": "healing-c2-task--004/runtime.ogg",
+      "bytes": 51643,
+      "sha256": "03e39784b421fb250ce21a320d762ad2fb8b59e97423dcb791a83fe23a79506b"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

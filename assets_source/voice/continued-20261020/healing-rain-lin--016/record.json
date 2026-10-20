@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-lin--016",
+  "sceneId": "rain-lin",
+  "lineId": "rain-lin--016",
+  "lineIndex": 15,
+  "speaker": "林见夏",
+  "text": "程屿，今天坐在你旁边，我没有觉得很吵。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1350954379,
+  "textSha256": "8603286fea52c69a286cd91d956c55ebe3ac6ff20697ee26b371b28b46d9d6af",
+  "medium": "spoken",
+  "requestSha256": "3e196b0c252d0f713780d31deb9379032922282167715d5b81d40794819ee39e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "承宇 今天坐在你旁边 我没有觉得很吵",
+    "cer": 0.125,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.96,
+  "wallSeconds": 249.034,
+  "loudness": {
+    "input_i": "-27.78",
+    "input_tp": "-11.49",
+    "input_lra": "3.50",
+    "input_thresh": "-38.08",
+    "output_i": "-20.78",
+    "output_tp": "-5.24",
+    "output_lra": "1.90",
+    "output_thresh": "-31.37",
+    "normalization_type": "dynamic",
+    "target_offset": "0.78"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-lin--016/raw.wav",
+      "bytes": 476240,
+      "sha256": "c233f4b7fa60a8ac760b455747b93614594e177452c58e517a4d4959e70b4af6"
+    },
+    "master": {
+      "path": "healing-rain-lin--016/master.wav",
+      "bytes": 238158,
+      "sha256": "25ad4983569a4611c46aa85ad77c905e71d5ff41f78e2c1b75dc9dd4200f1417"
+    },
+    "runtime": {
+      "path": "healing-rain-lin--016/runtime.ogg",
+      "bytes": 37747,
+      "sha256": "71034297300968d84a67b12232ade70ab789b7c01c66589ba42eeb341b334095"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

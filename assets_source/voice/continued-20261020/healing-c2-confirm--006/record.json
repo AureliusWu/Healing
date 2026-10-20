@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-confirm--006",
+  "sceneId": "c2-confirm",
+  "lineId": "c2-confirm--006",
+  "lineIndex": 5,
+  "speaker": "林见夏",
+  "text": "这一版，我确认了。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 158706795,
+  "textSha256": "6ed115d796cd6c43af02f5b2504490fe274942e8bda15bfe168232f02857daf5",
+  "medium": "spoken",
+  "requestSha256": "9231ff16adf2ec8d00c60c53b9089a32b5949730ef4830eb0b78abda36c27ef3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这版我确认了",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.44,
+  "wallSeconds": 44.441,
+  "loudness": {
+    "input_i": "-25.85",
+    "input_tp": "-14.32",
+    "input_lra": "0.00",
+    "input_thresh": "-35.85",
+    "output_i": "-19.98",
+    "output_tp": "-8.46",
+    "output_lra": "0.00",
+    "output_thresh": "-29.98",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-confirm--006/raw.wav",
+      "bytes": 138320,
+      "sha256": "608e2621f8e1476e597499a99fe6337bfc739487d6b0459ed18c34a272bb5c29"
+    },
+    "master": {
+      "path": "healing-c2-confirm--006/master.wav",
+      "bytes": 69198,
+      "sha256": "67625fd9ef278c12c7ac08e20fe200d0dfe5113d25d29eb4f274b97d5d3a4833"
+    },
+    "runtime": {
+      "path": "healing-c2-confirm--006/runtime.ogg",
+      "bytes": 13801,
+      "sha256": "d97740f518a5d717fc8f7c51634e5e74650e1bede410987a45e94d6237232611"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

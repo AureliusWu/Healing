@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-page--004",
+  "sceneId": "c3-lin-page",
+  "lineId": "c3-lin-page--004",
+  "lineIndex": 3,
+  "speaker": "程屿",
+  "text": "周一带来，想坐你旁边看。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 131487103,
+  "textSha256": "a18fa3bedef2ea3216ffe136447ffae298dc028cc73a2de209d20eff6aecac4f",
+  "medium": "spoken",
+  "requestSha256": "d857e334c3bbfc975d4e9135a54a8802eb11886fa7ead88b44f894d1aead9e7c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "周一帶來想做你旁邊看",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.32,
+  "wallSeconds": 113.748,
+  "loudness": {
+    "input_i": "-26.24",
+    "input_tp": "-3.50",
+    "input_lra": "0.00",
+    "input_thresh": "-36.24",
+    "output_i": "-24.74",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-34.74",
+    "normalization_type": "linear",
+    "target_offset": "4.74"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-page--004/raw.wav",
+      "bytes": 222800,
+      "sha256": "a493085395cc4e1a0b5e2d2f444d3ce346a3b43305d2c022dda1c4571108cff1"
+    },
+    "master": {
+      "path": "healing-c3-lin-page--004/master.wav",
+      "bytes": 111438,
+      "sha256": "42c44ecc42ba87cfefdb9879fa34042445ce00f06c56d9b4ddadfd25d6795b5e"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-page--004/runtime.ogg",
+      "bytes": 20861,
+      "sha256": "97222d0935aa0e309ad30a998b86ed56e71376d55dfa65bc2b05f56cef4c813e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-talk--012",
+  "sceneId": "c3-lin-talk",
+  "lineId": "c3-lin-talk--012",
+  "lineIndex": 11,
+  "speaker": "林见夏",
+  "text": "不一定每句话都说得好，有一些我想先跟你说。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 167565317,
+  "textSha256": "081f71b9e97844547e5f465f978afa8693247ab6c2d60f00a93b9f1984582054",
+  "medium": "spoken",
+  "requestSha256": "35a577b00a435aa7439cd6ed754da2bf5c68d9bd7c0da9b6bb84d408b4caaf9f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不一定每句話都說的好有一些我想先跟你說",
+    "cer": 0.052632,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.44,
+  "wallSeconds": 118.196,
+  "loudness": {
+    "input_i": "-23.75",
+    "input_tp": "-6.70",
+    "input_lra": "0.40",
+    "input_thresh": "-33.89",
+    "output_i": "-19.86",
+    "output_tp": "-2.99",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.14"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-talk--012/raw.wav",
+      "bytes": 330320,
+      "sha256": "3f34e0231690a7cab8188fbbcbd41882ad771c2fb3a408741bdefc90f1b4cf19"
+    },
+    "master": {
+      "path": "healing-c3-lin-talk--012/master.wav",
+      "bytes": 165198,
+      "sha256": "480b5a151df86c895e4d879d65a90daf4b49162649713cc1fed96f6bda686aae"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-talk--012/runtime.ogg",
+      "bytes": 29000,
+      "sha256": "ce6e88560a79df31c2fdcaddb2d6f90cf4d13eb622c79ceae271da1481ca0a91"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

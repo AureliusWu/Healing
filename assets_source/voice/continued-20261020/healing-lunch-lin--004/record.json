@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--004",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--004",
+  "lineIndex": 3,
+  "speaker": "林见夏",
+  "text": "我写了一篇东西，想放进校刊。昨天给我妈看，她说，这些话能让你高考多得几分？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 920613008,
+  "textSha256": "d34672e3e367e0e7ae766bbfe823b64ad93a9f9684ec27f90d3d465834897f2d",
+  "medium": "spoken",
+  "requestSha256": "fd31e5d1620e31692b6345e24f37987e2dffb46128af4fad8966adad040bf5a4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "呃 我写了一篇东西 想放进笑刊昨天给我妈看 她说 这些话能让你高考多的几分",
+    "cer": 0.09375,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 8.0,
+  "wallSeconds": 61.315,
+  "loudness": {
+    "input_i": "-25.24",
+    "input_tp": "-6.08",
+    "input_lra": "2.90",
+    "input_thresh": "-35.49",
+    "output_i": "-19.18",
+    "output_tp": "-2.00",
+    "output_lra": "2.30",
+    "output_thresh": "-29.46",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.82"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--004/raw.wav",
+      "bytes": 768080,
+      "sha256": "e9c84928f6f589a2c411e8d2529ee5caca234fb3ad2c7b3a313b149d0da83c25"
+    },
+    "master": {
+      "path": "healing-lunch-lin--004/master.wav",
+      "bytes": 384078,
+      "sha256": "c9303d6c3227d3a70a0af4e79b19bef2e5da6b953d24834d89fe25cb5caeafd3"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--004/runtime.ogg",
+      "bytes": 60161,
+      "sha256": "d328f392124ebcc6798fcefca95bdeda1b6ba9abc1ec3c8cfbff72bdd5f45dae"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

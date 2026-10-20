@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-talk--007",
+  "sceneId": "c3-lin-talk",
+  "lineId": "c3-lin-talk--007",
+  "lineIndex": 6,
+  "speaker": "林见夏",
+  "text": "不要拿给贺川猜。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1538987377,
+  "textSha256": "bc7e42802c40ca3224ee6b778633745f780c2686ba01c7075388775cc7447df4",
+  "medium": "spoken",
+  "requestSha256": "1812fbd7faf5fafc39a26aaa2ef0cf947dd378cd8c3f938850b277b4149f5f17",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不要拿給賀川財",
+    "cer": 0.142857,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.52,
+  "wallSeconds": 7.854,
+  "loudness": {
+    "input_i": "-25.52",
+    "input_tp": "-12.53",
+    "input_lra": "0.00",
+    "input_thresh": "-35.52",
+    "output_i": "-20.02",
+    "output_tp": "-7.01",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-talk--007/raw.wav",
+      "bytes": 146000,
+      "sha256": "8e99c4c43faa5209459051b28e1d465d3365940fd5c9b5077a97201acfa0f6dd"
+    },
+    "master": {
+      "path": "healing-c3-lin-talk--007/master.wav",
+      "bytes": 73038,
+      "sha256": "e23f142dc52d09fc8d641fa5b9c50931c822a982f1811961a763c1acd9b85c28"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-talk--007/runtime.ogg",
+      "bytes": 15112,
+      "sha256": "f5a6e9cf44d16ce181eefb757a1d7b865a8e2b0dcf8807fa9d50d6be7943b2e4"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

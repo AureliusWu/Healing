@@ -1,0 +1,55 @@
+{
+  "id": "healing-evening--012",
+  "sceneId": "evening",
+  "lineId": "evening--012",
+  "lineIndex": 11,
+  "speaker": "程屿",
+  "text": "我最近是有点跟不上。你先听我说完，再想办法行吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 505288236,
+  "textSha256": "a1fb9c4e8b999c7970f5f7dcd37c7da459344889474468e5950c442fda65197f",
+  "medium": "spoken",
+  "requestSha256": "24fcd82b4067dfa91ea013f1763a30086b415188efe976f1deb24f5eb2bf3f6c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我最近是有点跟不上你先听我说完再想办法行吗",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 35.69,
+  "loudness": {
+    "input_i": "-24.67",
+    "input_tp": "-5.45",
+    "input_lra": "0.70",
+    "input_thresh": "-35.18",
+    "output_i": "-19.84",
+    "output_tp": "-2.00",
+    "output_lra": "0.50",
+    "output_thresh": "-30.28",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.16"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-evening--012/raw.wav",
+      "bytes": 414800,
+      "sha256": "be5ac75c1d95ddd1cafb55449fa8032bf4ce2a8d2f3e768722fb4d0551c76de3"
+    },
+    "master": {
+      "path": "healing-evening--012/master.wav",
+      "bytes": 207438,
+      "sha256": "e1807de130bd6b6a93a3902b34aac3382f82e47844ad719a51e5141f27845263"
+    },
+    "runtime": {
+      "path": "healing-evening--012/runtime.ogg",
+      "bytes": 35844,
+      "sha256": "a969c836db1fdd10cec366b2ec467d519c10c35187012c3cfe0c120c572bc30d"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

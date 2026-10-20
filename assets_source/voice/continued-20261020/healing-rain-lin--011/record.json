@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-lin--011",
+  "sceneId": "rain-lin",
+  "lineId": "rain-lin--011",
+  "lineIndex": 10,
+  "speaker": "林见夏",
+  "text": "可我把以前没说的那些，全部挤在了同一句话里。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 279985938,
+  "textSha256": "44ceaf995d19e7e64f2d5ed3c9d7844c115f76926cd05fd0e2447a9bf5e3bf7c",
+  "medium": "spoken",
+  "requestSha256": "1621c6a84d238de3ef5645dc1109ea76f26698b3acf9e75d69f4114f48cf2d5a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可我把以前没说的那些全部挤在了同一句话里",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.48,
+  "wallSeconds": 312.677,
+  "loudness": {
+    "input_i": "-26.29",
+    "input_tp": "-8.46",
+    "input_lra": "2.40",
+    "input_thresh": "-36.68",
+    "output_i": "-18.24",
+    "output_tp": "-2.00",
+    "output_lra": "2.00",
+    "output_thresh": "-28.57",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.76"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-lin--011/raw.wav",
+      "bytes": 430160,
+      "sha256": "fb96ee35672a9c27198cc0eb333c13e06bc25397ab591da4d75fa4118d1af409"
+    },
+    "master": {
+      "path": "healing-rain-lin--011/master.wav",
+      "bytes": 215118,
+      "sha256": "0f5171070c06d19e3b8a915bb76de4b66acb9bb349d89c27e0acf520d7ec6546"
+    },
+    "runtime": {
+      "path": "healing-rain-lin--011/runtime.ogg",
+      "bytes": 35637,
+      "sha256": "e4c5bd17ea1867a58bb34fa24ca03e60293260384349dca9345245e0a6fb2795"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

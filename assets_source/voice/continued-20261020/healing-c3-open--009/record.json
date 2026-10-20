@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-open--009",
+  "sceneId": "c3-open",
+  "lineId": "c3-open--009",
+  "lineIndex": 8,
+  "speaker": "程屿",
+  "text": "别把错题也做成比赛。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1089553121,
+  "textSha256": "914c536c51f6b6d32281b7d7d9db30f5a222a4910303c87b39bf525cc68f89bf",
+  "medium": "spoken",
+  "requestSha256": "26a1588f531554153176eb21bb9c596e84a7319854f2df54ea70b33ff3059c5f",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "别把错题也做成比赛",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.76,
+  "wallSeconds": 53.086,
+  "loudness": {
+    "input_i": "-24.70",
+    "input_tp": "-5.48",
+    "input_lra": "0.00",
+    "input_thresh": "-34.70",
+    "output_i": "-21.20",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.20",
+    "normalization_type": "linear",
+    "target_offset": "1.20"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-open--009/raw.wav",
+      "bytes": 169040,
+      "sha256": "f93b2796bb273453c7e15488b85c3d8c07d25ef3fa7827a91c6a3ece4e015ec7"
+    },
+    "master": {
+      "path": "healing-c3-open--009/master.wav",
+      "bytes": 84558,
+      "sha256": "79a4150d8c644c6807e6c6edbc5acbc8caa6ed6334e3d5dea6e7df8b4791e509"
+    },
+    "runtime": {
+      "path": "healing-c3-open--009/runtime.ogg",
+      "bytes": 16656,
+      "sha256": "f6fba399f2f0cd7719a86f56a9287ff7d95aae11df7ff33237f063b3599ed687"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

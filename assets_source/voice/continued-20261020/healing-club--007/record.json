@@ -1,0 +1,55 @@
+{
+  "id": "healing-club--007",
+  "sceneId": "club",
+  "lineId": "club--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "这期想做一个专题。关于我们这个年纪，有什么话老是说不出口。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1864359368,
+  "textSha256": "4158a8ac9d9bff0990b66e1cfc05d54ff4d26e7ceebc356ba4575aa6e653699e",
+  "medium": "spoken",
+  "requestSha256": "02387bc43680df62eb33adaaafa5cd3bf60b5e57d0bccc52b48aedb8413c708e",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这期想做一个专题关于我们这个年纪有什么话老是说不出口",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.12,
+  "wallSeconds": 33.337,
+  "loudness": {
+    "input_i": "-28.09",
+    "input_tp": "-8.78",
+    "input_lra": "2.60",
+    "input_thresh": "-38.50",
+    "output_i": "-20.48",
+    "output_tp": "-2.00",
+    "output_lra": "3.10",
+    "output_thresh": "-30.84",
+    "normalization_type": "dynamic",
+    "target_offset": "0.48"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-club--007/raw.wav",
+      "bytes": 683600,
+      "sha256": "55c1c8e78143375bb321b44d60c5707ac1bf570e6d2340b4b57aad8b7b399fe2"
+    },
+    "master": {
+      "path": "healing-club--007/master.wav",
+      "bytes": 341838,
+      "sha256": "555161077d220f96231787025697c64918304d09318427d51da5d11eb584a2c1"
+    },
+    "runtime": {
+      "path": "healing-club--007/runtime.ogg",
+      "bytes": 53126,
+      "sha256": "bc2250e730e6f222df2dee0f1f95ab81f9d4680ddbb74499bb1d860b26e472f3"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

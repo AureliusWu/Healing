@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-chen--001",
+  "sceneId": "rain-chen",
+  "lineId": "rain-chen--001",
+  "lineIndex": 0,
+  "speaker": "程屿",
+  "text": "我跟你上去吧。最后一扇窗不好关。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1754461816,
+  "textSha256": "fecc3004b24c16437cf17aeb84a95dd2e036e4ef64aaeaef6c78d3e58382fb76",
+  "medium": "spoken",
+  "requestSha256": "5085ca59a836fde8a10ef8b6930388954e14f012d37c2845dad647b61bebd44c",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我跟你上去吧最後一扇窗不好關",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.04,
+  "wallSeconds": 88.099,
+  "loudness": {
+    "input_i": "-26.74",
+    "input_tp": "-8.99",
+    "input_lra": "0.10",
+    "input_thresh": "-37.39",
+    "output_i": "-19.12",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-29.80",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.88"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-chen--001/raw.wav",
+      "bytes": 291920,
+      "sha256": "b511a95a416d67040f693e45395016329dc325a6fdf8de8df4a2579a216e85bb"
+    },
+    "master": {
+      "path": "healing-rain-chen--001/master.wav",
+      "bytes": 145998,
+      "sha256": "e48c5e0c919b7af0fe7f095e56032b7a78d2958494f370a392da64004d693e2a"
+    },
+    "runtime": {
+      "path": "healing-rain-chen--001/runtime.ogg",
+      "bytes": 26226,
+      "sha256": "d38e87c91d46184c826d1c2b8e0a7e331a2fd2e42b0ec9494ef7f987492a8153"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk--005",
+  "sceneId": "desk",
+  "lineId": "desk--005",
+  "lineIndex": 4,
+  "speaker": "林见夏",
+  "text": "这里的窗户关不严。下雨的时候，你的练习册最好往右放。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1523982771,
+  "textSha256": "3448df752e3a7770044c867bd10bb19967928159bdeb41293bbffa70b92dbbe0",
+  "medium": "spoken",
+  "requestSha256": "00bc6f38046e715e1c2e9c84b98ab02a2784cdcbf65a54bca1f7567aab1f49e4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "这里的窗户关不严下雨的时候你的练习测最好往右放",
+    "cer": 0.043478,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.72,
+  "wallSeconds": 36.759,
+  "loudness": {
+    "input_i": "-23.86",
+    "input_tp": "-7.68",
+    "input_lra": "2.10",
+    "input_thresh": "-33.97",
+    "output_i": "-19.00",
+    "output_tp": "-2.55",
+    "output_lra": "0.50",
+    "output_thresh": "-29.19",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk--005/raw.wav",
+      "bytes": 453200,
+      "sha256": "5955e9bb067f28206755137f40dd557c67eee430d29d8e15e65a698a3839d976"
+    },
+    "master": {
+      "path": "healing-desk--005/master.wav",
+      "bytes": 226638,
+      "sha256": "613d3726df8a2b2c68e56b98693d6f635b23b3e40e5ecbabd58d3fd6c3a2ac75"
+    },
+    "runtime": {
+      "path": "healing-desk--005/runtime.ogg",
+      "bytes": 37392,
+      "sha256": "ee0eb5428e9b8b7762acf3a52a285ad77b90936ec9b6a0d35a86fdaa635fd512"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

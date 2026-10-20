@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-light--003",
+  "sceneId": "c3-tang-light",
+  "lineId": "c3-tang-light--003",
+  "lineIndex": 2,
+  "speaker": "许棠",
+  "text": "你拍我的也想留。我一直笑你怎么举那么高。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 987254552,
+  "textSha256": "8d08e1965885cebb8f3b251e7aeeb4bf76a1931623d664265bb7e8eccf95d716",
+  "medium": "spoken",
+  "requestSha256": "b37abace0341026649cb63193822a915ec71063d253de265ff3fefdd9d4f00a4",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你拍我的也想留我一直笑你怎麼舉那麼高",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.8,
+  "wallSeconds": 168.644,
+  "loudness": {
+    "input_i": "-18.83",
+    "input_tp": "-3.18",
+    "input_lra": "2.90",
+    "input_thresh": "-29.38",
+    "output_i": "-18.85",
+    "output_tp": "-3.08",
+    "output_lra": "1.50",
+    "output_thresh": "-29.35",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.15"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-light--003/raw.wav",
+      "bytes": 460880,
+      "sha256": "2646ff9263a9a18736cf77cf74f686a536a1fbe418d9fb6c4fe26053db2efbc2"
+    },
+    "master": {
+      "path": "healing-c3-tang-light--003/master.wav",
+      "bytes": 230478,
+      "sha256": "af62b392b533dd09056c94ee23595ba533940f9f280993a56b67b43d437bf439"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-light--003/runtime.ogg",
+      "bytes": 36857,
+      "sha256": "a14789964a0d63c214a2d3bdfd3df2221738ec62aad1ec74847da0f85593c38c"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

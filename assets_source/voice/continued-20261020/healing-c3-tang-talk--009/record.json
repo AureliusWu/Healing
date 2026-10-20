@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-tang-talk--009",
+  "sceneId": "c3-tang-talk",
+  "lineId": "c3-tang-talk--009",
+  "lineIndex": 8,
+  "speaker": "许棠",
+  "text": "栏杆这边，袖子有光。正脸、不写班级，你看过愿意才留，只在我和你的相册。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1645876512,
+  "textSha256": "a620402fb3c5f2a5b01de7498575024befd9dda491013a80e60835a06ec91ef2",
+  "medium": "spoken",
+  "requestSha256": "e2bdcfc01886c4f658d68e72b41577cde5f870f50cea4330e08c90019ff5776a",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "蓝干这边,袖子有光,正脸不写班级,你看过愿意才留,只在我和你的相册。",
+    "cer": 0.068966,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.12,
+  "wallSeconds": 564.411,
+  "loudness": {
+    "input_i": "-19.26",
+    "input_tp": "-5.19",
+    "input_lra": "1.90",
+    "input_thresh": "-29.60",
+    "output_i": "-19.84",
+    "output_tp": "-5.65",
+    "output_lra": "2.00",
+    "output_thresh": "-30.20",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.16"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-tang-talk--009/raw.wav",
+      "bytes": 875600,
+      "sha256": "a0e1e89d5c79281526643d68a65dbe66859f468c268a34688d26d5d6e94c8126"
+    },
+    "master": {
+      "path": "healing-c3-tang-talk--009/master.wav",
+      "bytes": 437838,
+      "sha256": "888d8c52087df8490576e030a6fd31be7036169eb46491570d8364a9f8818dd7"
+    },
+    "runtime": {
+      "path": "healing-c3-tang-talk--009/runtime.ogg",
+      "bytes": 65126,
+      "sha256": "25c9378ce9a4554a5f0dcd41fc9b1aac780554c3a48de12c074ad5db6f224e28"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

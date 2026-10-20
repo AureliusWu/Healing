@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-rest--009",
+  "sceneId": "c3-chen-rest",
+  "lineId": "c3-chen-rest--009",
+  "lineIndex": 8,
+  "speaker": "陈知遥",
+  "text": "也不用帮我把问题都想出办法。今天只是想告诉你，这样坐着很高兴。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1425870220,
+  "textSha256": "a81d1d38b578d439fb33b0ffec940b0a31ed6ad129f76d5c4d8fbf18527a0893",
+  "medium": "spoken",
+  "requestSha256": "88f372a728ba3ae5943c56f015c74e4fa90f82281b3c8ba4145a330059aa6f51",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "也不用帮我把问题都想出办法今天只是想告诉你这样做着很高兴",
+    "cer": 0.035714,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.52,
+  "wallSeconds": 57.183,
+  "loudness": {
+    "input_i": "-20.64",
+    "input_tp": "-3.95",
+    "input_lra": "0.80",
+    "input_thresh": "-31.11",
+    "output_i": "-19.83",
+    "output_tp": "-2.78",
+    "output_lra": "2.40",
+    "output_thresh": "-30.44",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.17"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-rest--009/raw.wav",
+      "bytes": 722000,
+      "sha256": "2c4071b137074ba471e61a574af04b35b82d845b7ff178b92140275c23003fad"
+    },
+    "master": {
+      "path": "healing-c3-chen-rest--009/master.wav",
+      "bytes": 361038,
+      "sha256": "a93ebaa167f468fffc08bce5b759f59630054e12fa2413e34ec00400ad3bb9aa"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-rest--009/runtime.ogg",
+      "bytes": 55572,
+      "sha256": "616476d35b141673e4cf5464e6a1ba7fbf386c152634e55b0f40f31b3cb428f5"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

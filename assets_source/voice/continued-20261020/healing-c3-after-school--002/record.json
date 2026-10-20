@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-after-school--002",
+  "sceneId": "c3-after-school",
+  "lineId": "c3-after-school--002",
+  "lineIndex": 1,
+  "speaker": "林见夏",
+  "text": "那句想让我写的话，还算数吗？旧刊室有纸。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 198316899,
+  "textSha256": "a0bccb3d16edca854704856cf8bafdf6395a3fc99a17f4e413b28adb5479e174",
+  "medium": "spoken",
+  "requestSha256": "20c901dcdf6f7f8a811b9c978a7f6f46fae9e37696d41c965d9bb7db8015f681",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那句想讓我寫的話,還算數嗎?就看是有紙",
+    "cer": 0.176471,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.16,
+  "wallSeconds": 28.171,
+  "loudness": {
+    "input_i": "-24.41",
+    "input_tp": "-10.58",
+    "input_lra": "1.90",
+    "input_thresh": "-34.97",
+    "output_i": "-19.69",
+    "output_tp": "-5.75",
+    "output_lra": "3.10",
+    "output_thresh": "-30.49",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.31"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-after-school--002/raw.wav",
+      "bytes": 591440,
+      "sha256": "2aa61c531dba0df510ccf8f087ee544aad0a85204eaeb716500865bab88d1b34"
+    },
+    "master": {
+      "path": "healing-c3-after-school--002/master.wav",
+      "bytes": 295758,
+      "sha256": "254defebe50288a404b6d55aa2e7a39bb7c90c21d042a12889dbd97d05c7ca0f"
+    },
+    "runtime": {
+      "path": "healing-c3-after-school--002/runtime.ogg",
+      "bytes": 44679,
+      "sha256": "97d44111b72ba8df21bde3e0f686507508e8bfacc947302cc0480e91627df286"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

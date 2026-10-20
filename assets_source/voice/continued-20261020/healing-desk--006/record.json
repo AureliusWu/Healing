@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk--006",
+  "sceneId": "desk",
+  "lineId": "desk--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "你之前的同桌呢？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1041526069,
+  "textSha256": "07adcc58b096dd04b35203376e031d53aa8557d767b585dea0a0a14bf3809c11",
+  "medium": "spoken",
+  "requestSha256": "bab6ebbd425c0a946311c883b786ea0fdec3bb776b6a92d5167fd7e64823c471",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你之前的同桌呢",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.6,
+  "wallSeconds": 89.553,
+  "loudness": {
+    "input_i": "-24.66",
+    "input_tp": "-8.83",
+    "input_lra": "0.00",
+    "input_thresh": "-34.66",
+    "output_i": "-20.00",
+    "output_tp": "-4.18",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk--006/raw.wav",
+      "bytes": 153680,
+      "sha256": "9d53dee4420469bbfae1d29e534ab12a08a06da1170df36a10cc95a0b8d9bd27"
+    },
+    "master": {
+      "path": "healing-desk--006/master.wav",
+      "bytes": 76878,
+      "sha256": "2d81051005f3220bde5f22b4a72c0e962f322d74aa4046d6c708549266500e42"
+    },
+    "runtime": {
+      "path": "healing-desk--006/runtime.ogg",
+      "bytes": 15672,
+      "sha256": "4cd918fa7d86a6a096c64a988d1ffd1cb41c32611e9e098d5ffb2345fe114f4a"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

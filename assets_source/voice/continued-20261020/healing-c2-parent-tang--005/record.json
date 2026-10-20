@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-tang--005",
+  "sceneId": "c2-parent-tang",
+  "lineId": "c2-parent-tang--005",
+  "lineIndex": 4,
+  "speaker": "许棠",
+  "text": "我想拍下成绩以外的学校。也不是照片交出去，就可以不用学习。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 123556441,
+  "textSha256": "b0bcac8c6a982db11c67695ef228459271a605c77d5aa50817248b3464fc28e3",
+  "medium": "spoken",
+  "requestSha256": "1dc617f6d1ea6b455ed7e71bf0ddfbab3289040250a84d2d82433a8a4fb8d286",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我想拍下成绩以外的学校也不是照片交出去就可以不用学习",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.0,
+  "wallSeconds": 193.068,
+  "loudness": {
+    "input_i": "-20.83",
+    "input_tp": "-7.86",
+    "input_lra": "0.60",
+    "input_thresh": "-31.21",
+    "output_i": "-19.58",
+    "output_tp": "-7.01",
+    "output_lra": "3.10",
+    "output_thresh": "-29.99",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.42"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-tang--005/raw.wav",
+      "bytes": 576080,
+      "sha256": "2a4d28881159548c8e5301c0fbef3cf0b1436e66b6122ecc08448be85d5c6e49"
+    },
+    "master": {
+      "path": "healing-c2-parent-tang--005/master.wav",
+      "bytes": 288078,
+      "sha256": "410fd271e5f6030350056269fdb402e96e9d3b5e90b28663820febdecd8a4847"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-tang--005/runtime.ogg",
+      "bytes": 46565,
+      "sha256": "7964d6cdaf7175271360cfa4f1b7c01f886dd83f83d146f92fedf9048c74edba"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

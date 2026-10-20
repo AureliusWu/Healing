@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-alone--003",
+  "sceneId": "lunch-alone",
+  "lineId": "lunch-alone--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "晚上的事，晚上再说。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 283839811,
+  "textSha256": "59d931dab53561d7d880a843b18016a47999c06b271cebfc1668aa9c0ae0cb57",
+  "medium": "spoken",
+  "requestSha256": "1540a66a613956a7c38846e9c0f3b444799849713cddf2f02a9dba7e3fd81907",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "晚上的事,晚上再说",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.84,
+  "wallSeconds": 54.317,
+  "loudness": {
+    "input_i": "-26.84",
+    "input_tp": "-8.33",
+    "input_lra": "0.00",
+    "input_thresh": "-36.84",
+    "output_i": "-20.50",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.50",
+    "normalization_type": "linear",
+    "target_offset": "0.50"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-alone--003/raw.wav",
+      "bytes": 176720,
+      "sha256": "3c0619647116c44ebf0737b4555b66c9054af094602cb4ddb218587ae08f80a2"
+    },
+    "master": {
+      "path": "healing-lunch-alone--003/master.wav",
+      "bytes": 88398,
+      "sha256": "0b0eb23c12ce111b8a84ffe2c638e92f597bbd0728a4b890e196e3059fe7930f"
+    },
+    "runtime": {
+      "path": "healing-lunch-alone--003/runtime.ogg",
+      "bytes": 18196,
+      "sha256": "37f84068d136ad863d5f9900a25fb2e55beeb95341bb4f04f0a69c2229885399"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

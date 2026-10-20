@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-layout--006",
+  "sceneId": "c2-layout",
+  "lineId": "c2-layout--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "我去送最后文件。没确认的不送。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1791162671,
+  "textSha256": "99c6271e9a77c51a5916c9d38c574ab8d3c0db19fc8c8b2e0a88687c8777cece",
+  "medium": "spoken",
+  "requestSha256": "29ae2f3144711019b0b6237e0f0cbfa2a3b9117088f5dba408305a65476fdd76",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我去送最後文件沒確認的不送",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.72,
+  "wallSeconds": 134.319,
+  "loudness": {
+    "input_i": "-26.95",
+    "input_tp": "-8.95",
+    "input_lra": "0.00",
+    "input_thresh": "-37.13",
+    "output_i": "-20.00",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.18",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-layout--006/raw.wav",
+      "bytes": 261200,
+      "sha256": "935526584a9fddda83d3e28b8db95a6fd108bd07602c9a6816b66f47e3465966"
+    },
+    "master": {
+      "path": "healing-c2-layout--006/master.wav",
+      "bytes": 130638,
+      "sha256": "9edc27f267d9f8277ed3d8e5938e908962ecfb396aa9fd58a686d688164e28f4"
+    },
+    "runtime": {
+      "path": "healing-c2-layout--006/runtime.ogg",
+      "bytes": 23196,
+      "sha256": "b225cb4fccf2593917551fd753815c8c89065920ab885f32f2a052ede7e9eb1c"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-chen-talk--007",
+  "sceneId": "c3-chen-talk",
+  "lineId": "c3-chen-talk--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "到六点，车来得及，家里说好了。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1380739983,
+  "textSha256": "d65280d46a2a09cdc5fe1b8a49b26f9ff455397f5700c3118f101c74cde72fb7",
+  "medium": "spoken",
+  "requestSha256": "3d696737085314d959c2db1afc9bcb0b3cd70934b59ed31322a25dfe3810b1b8",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "到6點 車來得及 家裡說好了",
+    "cer": 0.083333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 123.462,
+  "loudness": {
+    "input_i": "-22.53",
+    "input_tp": "-6.52",
+    "input_lra": "1.10",
+    "input_thresh": "-33.06",
+    "output_i": "-19.68",
+    "output_tp": "-3.81",
+    "output_lra": "0.00",
+    "output_thresh": "-30.08",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.32"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-chen-talk--007/raw.wav",
+      "bytes": 361040,
+      "sha256": "7b7430c8486e3affe4e9480302d9c0bab8e620bd0ca5ca45d5f9bc680735198b"
+    },
+    "master": {
+      "path": "healing-c3-chen-talk--007/master.wav",
+      "bytes": 180558,
+      "sha256": "6e9742c93926c78ae76d3b44451a36cedbb13c253ee5c25ef3652ec4d796b59b"
+    },
+    "runtime": {
+      "path": "healing-c3-chen-talk--007/runtime.ogg",
+      "bytes": 28720,
+      "sha256": "feea0a132557afc3a9a9422012ab22fd1a4b6b349a7fd7d598998123ce79b144"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

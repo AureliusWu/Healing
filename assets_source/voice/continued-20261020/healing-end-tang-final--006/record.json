@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-tang-final--006",
+  "sceneId": "end-tang-final",
+  "lineId": "end-tang-final--006",
+  "lineIndex": 5,
+  "speaker": "程屿",
+  "text": "走。今天不一定带一张照片回去。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1563438066,
+  "textSha256": "0f0afbd65cdde99704c98a9025535bb63b4fe84e0b2da39879e813e9275ac4d9",
+  "medium": "spoken",
+  "requestSha256": "20e374e3977a4d9a1f116e6e16bb5d31f1c6b6a0c748f678b622611331a3e110",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "走,今天不一定带一张照片回去",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.96,
+  "wallSeconds": 13.372,
+  "loudness": {
+    "input_i": "-27.08",
+    "input_tp": "-9.68",
+    "input_lra": "0.00",
+    "input_thresh": "-37.26",
+    "output_i": "-19.99",
+    "output_tp": "-2.60",
+    "output_lra": "0.00",
+    "output_thresh": "-30.34",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-tang-final--006/raw.wav",
+      "bytes": 284240,
+      "sha256": "fb7e1e1f3a1a446d8e553429d5152d1e618397ce1a14b29694c6815268ebe281"
+    },
+    "master": {
+      "path": "healing-end-tang-final--006/master.wav",
+      "bytes": 142158,
+      "sha256": "560a2032fe10941b7a67e8d581387bc8ca20bebdd3764cff28689e71020dd7ce"
+    },
+    "runtime": {
+      "path": "healing-end-tang-final--006/runtime.ogg",
+      "bytes": 25840,
+      "sha256": "e24088a4599cd0c637ae94feee808b74dfddbe3d3830ef0dc3e339d37692efdb"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

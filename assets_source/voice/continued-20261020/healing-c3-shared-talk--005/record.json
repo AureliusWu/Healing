@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-talk--005",
+  "sceneId": "c3-shared-talk",
+  "lineId": "c3-shared-talk--005",
+  "lineIndex": 4,
+  "speaker": "许棠",
+  "text": "定时，每个人先看画面，想挪就挪。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 233930930,
+  "textSha256": "48459eef95b5b165a1765afe813297a0eaa809661abcb6db5abf0a1a4bf401a2",
+  "medium": "spoken",
+  "requestSha256": "d010d61932c4b564b9090ae2a221c43f2b52e9e7bd4d1fe45f5a360aa293f385",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "定时每个人先看画面,想挪就挪。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.6,
+  "wallSeconds": 629.92,
+  "loudness": {
+    "input_i": "-21.89",
+    "input_tp": "-9.63",
+    "input_lra": "1.30",
+    "input_thresh": "-32.35",
+    "output_i": "-20.02",
+    "output_tp": "-7.62",
+    "output_lra": "1.60",
+    "output_thresh": "-30.52",
+    "normalization_type": "dynamic",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-talk--005/raw.wav",
+      "bytes": 921680,
+      "sha256": "d6cbc6bd9927d0140ab83e62d3b466c864b2f9668e9dbaa7d27276ceb4fcf5fd"
+    },
+    "master": {
+      "path": "healing-c3-shared-talk--005/master.wav",
+      "bytes": 460878,
+      "sha256": "194b59f021d1af6862f6513580aa6c12dbc806b8bdf8bcedc5916a8475772596"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-talk--005/runtime.ogg",
+      "bytes": 64301,
+      "sha256": "86544b66164371cb684334a3e27616c9d9680569159eb38704d86924a8909e08"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

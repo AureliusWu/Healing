@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--001",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--001",
+  "lineIndex": 0,
+  "speaker": "程屿",
+  "text": "给我一半吧。再走两步，它们就要自己下楼了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 319500322,
+  "textSha256": "017380a13fbc9d1ab602f85fec723b382de7ff871e5bcd625b4f23d91e008a1a",
+  "medium": "spoken",
+  "requestSha256": "ba040fedacafc9ce10d1e28aa0fdc8dcda08d914c3446bfdbcb23b91d3c321c7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "给我一半吧再走两步他们就要自己下楼了",
+    "cer": 0.055556,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.2,
+  "wallSeconds": 197.276,
+  "loudness": {
+    "input_i": "-22.37",
+    "input_tp": "-4.85",
+    "input_lra": "0.60",
+    "input_thresh": "-32.51",
+    "output_i": "-19.92",
+    "output_tp": "-2.58",
+    "output_lra": "0.00",
+    "output_thresh": "-30.06",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.08"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--001/raw.wav",
+      "bytes": 307280,
+      "sha256": "1177e021f52e4735212f7669aa4a8317c3a29b8bb50d6a0c0037c6c59e7c8394"
+    },
+    "master": {
+      "path": "healing-lunch-chen--001/master.wav",
+      "bytes": 153678,
+      "sha256": "0c39f350af8e969785e309c991f43701c64cb2d93c2272da35ca94fb92ea7ccc"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--001/runtime.ogg",
+      "bytes": 28490,
+      "sha256": "109010931e868424b59dfcae05c3b242831bad0821d9549092c62325369e60e8"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

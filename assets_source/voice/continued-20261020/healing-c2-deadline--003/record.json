@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-deadline--003",
+  "sceneId": "c2-deadline",
+  "lineId": "c2-deadline--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "我五点四十五以前得送完。回家晚一点，我会发消息。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1433004876,
+  "textSha256": "4ed89596c17e89f46d8de3c02ef69d2dd64bc1a9b1b466307d5cb833a1a4ad26",
+  "medium": "spoken",
+  "requestSha256": "ae730c0e91786ddcd53b834d06955f4b1b678576a0fbba38635d772cf6ee5fbf",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我5点45以前得送完回家晚一点我会发消息",
+    "cer": 0.190476,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.4,
+  "wallSeconds": 144.746,
+  "loudness": {
+    "input_i": "-25.35",
+    "input_tp": "-4.62",
+    "input_lra": "1.10",
+    "input_thresh": "-35.86",
+    "output_i": "-19.88",
+    "output_tp": "-2.00",
+    "output_lra": "1.00",
+    "output_thresh": "-30.31",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-deadline--003/raw.wav",
+      "bytes": 422480,
+      "sha256": "faaece558a99bbfa14538d1c0983329a71e85c3ce43f2cb42b08a37ec6d331d8"
+    },
+    "master": {
+      "path": "healing-c2-deadline--003/master.wav",
+      "bytes": 211278,
+      "sha256": "c84820595edbf90b6f93bbd1f25de6fa2e40c771b1c469b4df75a3c3c6015d1e"
+    },
+    "runtime": {
+      "path": "healing-c2-deadline--003/runtime.ogg",
+      "bytes": 39046,
+      "sha256": "147fc6330a33936f3cccda5e76e93225d9a2a01aec7f50608ca92ab3c4ba40a0"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

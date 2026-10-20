@@ -1,0 +1,55 @@
+{
+  "id": "healing-club--009",
+  "sceneId": "club",
+  "lineId": "club--009",
+  "lineIndex": 8,
+  "speaker": "林见夏",
+  "text": "太矫情？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1423091184,
+  "textSha256": "2b6159b941d15bc2b257eeec80d369ae6e17d706ef84e808b00f1f58cb2eb59c",
+  "medium": "spoken",
+  "requestSha256": "fd04e8c3ad7358e209fc4122434a220db82460762ba9906eb7f5c294d251e2d4",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "太矯情!",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.12,
+  "wallSeconds": 60.688,
+  "loudness": {
+    "input_i": "-23.74",
+    "input_tp": "-11.34",
+    "input_lra": "0.00",
+    "input_thresh": "-33.74",
+    "output_i": "-20.02",
+    "output_tp": "-7.61",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-club--009/raw.wav",
+      "bytes": 107600,
+      "sha256": "05778e9e213e691efdf9ca3ed837ad0af8b23b920943ddac7361eb684588c8db"
+    },
+    "master": {
+      "path": "healing-club--009/master.wav",
+      "bytes": 53838,
+      "sha256": "d2cba4cec0c96c40bbdaa69ba5f41d46227931752d36c96e0823a771c05f7dbe"
+    },
+    "runtime": {
+      "path": "healing-club--009/runtime.ogg",
+      "bytes": 11559,
+      "sha256": "b4778c10ced27fb867d110fb1759be012c2f68dc56fa9c6594f69024c761a9de"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

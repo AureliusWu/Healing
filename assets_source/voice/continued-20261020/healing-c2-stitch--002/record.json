@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-stitch--002",
+  "sceneId": "c2-stitch",
+  "lineId": "c2-stitch--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "留给我。我拿错的版本。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1024443511,
+  "textSha256": "00f87680e473ae65ed7b70b54c1474b15838e304169e52d78796e46048a70cb8",
+  "medium": "spoken",
+  "requestSha256": "49d28e2071f48b452ca63aded7528a11968dc1f86134f1c0a989ba153b837324",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "留给我 我拿错的版本",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.84,
+  "wallSeconds": 65.336,
+  "loudness": {
+    "input_i": "-27.45",
+    "input_tp": "-8.01",
+    "input_lra": "0.00",
+    "input_thresh": "-37.45",
+    "output_i": "-21.44",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.44",
+    "normalization_type": "linear",
+    "target_offset": "1.44"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-stitch--002/raw.wav",
+      "bytes": 176720,
+      "sha256": "6fe278708235011200eeb5eb13ce6ef319e1bc53c223a3aa843e7ae11a62b1e0"
+    },
+    "master": {
+      "path": "healing-c2-stitch--002/master.wav",
+      "bytes": 88398,
+      "sha256": "a80e98432a1e2f9f11cd6ceed0b2bb826791a1b2ca8b1822cd37f14f96bee76b"
+    },
+    "runtime": {
+      "path": "healing-c2-stitch--002/runtime.ogg",
+      "bytes": 18977,
+      "sha256": "2fcf4f6c683b3ae09e5ddbae4edb6721e9801dc9c1304002b288d9e83df8464f"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

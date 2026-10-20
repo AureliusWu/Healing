@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-chen--005",
+  "sceneId": "lunch-chen",
+  "lineId": "lunch-chen--005",
+  "lineIndex": 4,
+  "speaker": "陈知遥",
+  "text": "社团老师午后有课。柜子钥匙现在能借出来。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 833427129,
+  "textSha256": "a55828dd822591a7bb3a0602a575c89ee2540706c11c9e31c1336009bb1201e6",
+  "medium": "spoken",
+  "requestSha256": "6f379c88fcdb2bbdd5437dedfc04cf4b6e7e56d810a7fdeb9d83dec64047e951",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "社團老師午後有課櫃子要是現在能借出來",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.64,
+  "wallSeconds": 266.092,
+  "loudness": {
+    "input_i": "-19.71",
+    "input_tp": "-4.40",
+    "input_lra": "1.10",
+    "input_thresh": "-29.92",
+    "output_i": "-18.50",
+    "output_tp": "-3.27",
+    "output_lra": "0.60",
+    "output_thresh": "-28.72",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.50"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-chen--005/raw.wav",
+      "bytes": 445520,
+      "sha256": "62b3e2217e95b6d5d84260e857b3448b91f907464f0904a4c86887f8ac3b8cdb"
+    },
+    "master": {
+      "path": "healing-lunch-chen--005/master.wav",
+      "bytes": 222798,
+      "sha256": "f88665b7aa18b3c34c0ec7464788d0f3f164a20bb85a10af16105498b669ddfb"
+    },
+    "runtime": {
+      "path": "healing-lunch-chen--005/runtime.ogg",
+      "bytes": 35004,
+      "sha256": "ee4179db61e9e924cd443097e600c20d307f2cdb8706db138d60135ea36c09d0"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-corridor--008",
+  "sceneId": "corridor",
+  "lineId": "corridor--008",
+  "lineIndex": 7,
+  "speaker": "贺川",
+  "text": "那我得在名字旁边再加一行：会修自行车，饭量大，给朋友带早饭不收钱。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1591828781,
+  "textSha256": "75a72718c7208b5746f58d853f02285d2d347b327056dd63f9fc10aefa7417c0",
+  "medium": "spoken",
+  "requestSha256": "93795909645feef3e50e93e3b7fc2e5eaa746ecc9a4de8069322725abf3dbe26",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那我得在名字旁边再加一行汇修自行车 饭量大给朋友带早饭不收钱",
+    "cer": 0.034483,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.32,
+  "wallSeconds": 243.288,
+  "loudness": {
+    "input_i": "-24.38",
+    "input_tp": "-5.55",
+    "input_lra": "1.40",
+    "input_thresh": "-34.93",
+    "output_i": "-19.73",
+    "output_tp": "-2.00",
+    "output_lra": "1.30",
+    "output_thresh": "-30.33",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.27"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-corridor--008/raw.wav",
+      "bytes": 606800,
+      "sha256": "86a96e02706f94cca8f29ddcf16a5b513bd50f7b7f14af07d05ea8466399023f"
+    },
+    "master": {
+      "path": "healing-corridor--008/master.wav",
+      "bytes": 303438,
+      "sha256": "3ecee833b8a6b0617cbc6577e914f5a2c8f20a170f18b2f2667fec0c021e7aa8"
+    },
+    "runtime": {
+      "path": "healing-corridor--008/runtime.ogg",
+      "bytes": 52573,
+      "sha256": "67b2ada82e6d27dd4541123d2b25f62d3e6c8708308f3e7fef4e5e01b95cb8be"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

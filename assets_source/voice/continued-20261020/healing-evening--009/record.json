@@ -1,0 +1,55 @@
+{
+  "id": "healing-evening--009",
+  "sceneId": "evening",
+  "lineId": "evening--009",
+  "lineIndex": 8,
+  "speaker": "程屿",
+  "text": "干了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 101215393,
+  "textSha256": "94f67a9f25ecd3c44e8af1be79c5729688488a10a8a8e314e42ea2b2a6e6a2ef",
+  "medium": "spoken",
+  "requestSha256": "a6694f5970fcee55b8ccd2e5ffebdc395470b4d0efdae6e2186912063d8f7b7b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "干了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.56,
+  "wallSeconds": 21.012,
+  "loudness": {
+    "input_i": "-19.65",
+    "input_tp": "-6.00",
+    "input_lra": "0.00",
+    "input_thresh": "-29.65",
+    "output_i": "-20.00",
+    "output_tp": "-6.35",
+    "output_lra": "0.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-evening--009/raw.wav",
+      "bytes": 53840,
+      "sha256": "309cec166392dea8b31536a95347db47f20be3a592c4322a8c90f97df1c07aac"
+    },
+    "master": {
+      "path": "healing-evening--009/master.wav",
+      "bytes": 26958,
+      "sha256": "00f9af584140fff5b3ef82ccb1ca18406e13c979d1cc94cc62c653b76f9cca20"
+    },
+    "runtime": {
+      "path": "healing-evening--009/runtime.ogg",
+      "bytes": 7391,
+      "sha256": "5edf4a4eb41005b2cd1507570f5a312f1dfbcf08953d6205a252c23f62e45171"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

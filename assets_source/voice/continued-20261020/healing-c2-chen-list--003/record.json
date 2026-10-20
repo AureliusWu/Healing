@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-chen-list--003",
+  "sceneId": "c2-chen-list",
+  "lineId": "c2-chen-list--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "十本，我和你一人一头。你明天有空吗？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1069830417,
+  "textSha256": "0e5be48c537f0091bd91018bda9290c563cf9cb9b642b393358d0806accadf11",
+  "medium": "spoken",
+  "requestSha256": "8b5078c641ffb309c46f102dcb512538e32ff15ddab1a64187df619236a33404",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "石板我和你一人一头你明天有空吗",
+    "cer": 0.133333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.2,
+  "wallSeconds": 27.764,
+  "loudness": {
+    "input_i": "-27.20",
+    "input_tp": "-5.79",
+    "input_lra": "0.60",
+    "input_thresh": "-37.50",
+    "output_i": "-20.12",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.42",
+    "normalization_type": "dynamic",
+    "target_offset": "0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-chen-list--003/raw.wav",
+      "bytes": 307280,
+      "sha256": "6f4f269631a7af4a5dd94b44cd3895f1e0f47485ffc3b3e5576b41509bbeee8e"
+    },
+    "master": {
+      "path": "healing-c2-chen-list--003/master.wav",
+      "bytes": 153678,
+      "sha256": "c4c0546366f904564127a37432847e682391d99ccce3be4ca2a35b5c23ea7d7d"
+    },
+    "runtime": {
+      "path": "healing-c2-chen-list--003/runtime.ogg",
+      "bytes": 26896,
+      "sha256": "d710d237e5cf3bbf633ab98b05c3b9eea0dd699cbab6195d38a986469de4fc07"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

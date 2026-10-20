@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-talk--013",
+  "sceneId": "c3-lin-talk",
+  "lineId": "c3-lin-talk--013",
+  "lineIndex": 12,
+  "speaker": "程屿",
+  "text": "我听。听错要再告诉我。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 105112013,
+  "textSha256": "8b8f48504db06796d9f4449bdf232d3a159fa9cd907637e0ae52dc4cd7c23ef1",
+  "medium": "spoken",
+  "requestSha256": "69dcc4da7cdfe0bc92a634e9d6e47faefde0798a8192fd1effb2871a87fc238d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我听 听错要再告诉我",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.4,
+  "wallSeconds": 11.232,
+  "loudness": {
+    "input_i": "-22.37",
+    "input_tp": "-6.66",
+    "input_lra": "0.00",
+    "input_thresh": "-32.79",
+    "output_i": "-19.98",
+    "output_tp": "-4.29",
+    "output_lra": "0.00",
+    "output_thresh": "-30.41",
+    "normalization_type": "linear",
+    "target_offset": "-0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-talk--013/raw.wav",
+      "bytes": 230480,
+      "sha256": "15dbe218af97cacbfc7e2e34ebc3f01c755ad646f0dc8349cafa6a64b2ab03ca"
+    },
+    "master": {
+      "path": "healing-c3-lin-talk--013/master.wav",
+      "bytes": 115278,
+      "sha256": "3080931db115b664648f59107dddb055537c4a6aacc2173204e4724f319a0971"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-talk--013/runtime.ogg",
+      "bytes": 20693,
+      "sha256": "2fd0c4c87d5a8482405f862f6397b35cc3682c5316d66fd8809a8a01d7355667"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

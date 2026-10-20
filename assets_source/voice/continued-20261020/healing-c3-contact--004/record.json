@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-contact--004",
+  "sceneId": "c3-contact",
+  "lineId": "c3-contact--004",
+  "lineIndex": 3,
+  "speaker": "许棠",
+  "text": "看太多遍，总觉得应该更好。长椅有点歪，光也不够。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 766196907,
+  "textSha256": "8c904ba72858e89eaabeb3f691f00f57614f187c24086d073644fc98079abd31",
+  "medium": "spoken",
+  "requestSha256": "948f4d663a5b9bb6cf7a904aa4a22ba60c1687d73616513e1d047b4118549b53",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "看太多变,总觉得应该更好长也有点歪,光也不够",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.72,
+  "wallSeconds": 294.804,
+  "loudness": {
+    "input_i": "-20.75",
+    "input_tp": "-7.78",
+    "input_lra": "2.40",
+    "input_thresh": "-31.76",
+    "output_i": "-19.58",
+    "output_tp": "-5.86",
+    "output_lra": "3.40",
+    "output_thresh": "-30.76",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.42"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-contact--004/raw.wav",
+      "bytes": 645200,
+      "sha256": "61df950add9ed8f850555f836138ed60fe213b3c5d330f12fb946eaece268508"
+    },
+    "master": {
+      "path": "healing-c3-contact--004/master.wav",
+      "bytes": 322638,
+      "sha256": "7adb6b6fb26cdba7a12e3f3249507c0c279a462d13de70f971b444e9d2d606b2"
+    },
+    "runtime": {
+      "path": "healing-c3-contact--004/runtime.ogg",
+      "bytes": 46896,
+      "sha256": "cfc201e98f02c110542d8b36ddb52ee876a2f8db2d276a7d8292b917987f5031"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

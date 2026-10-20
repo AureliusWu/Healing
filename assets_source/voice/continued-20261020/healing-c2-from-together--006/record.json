@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-together--006",
+  "sceneId": "c2-from-together",
+  "lineId": "c2-from-together--006",
+  "lineIndex": 5,
+  "speaker": "许棠",
+  "text": "夹过的才是这一版。没夹的，我不往最后文件里放。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 493400900,
+  "textSha256": "8f8eadac229229a374bfaef22a88ce508f1432ccfee21ce034f1c1250999de23",
+  "medium": "spoken",
+  "requestSha256": "76b6b5acccb1200b1c2ed8f852e1ec4695578bcf91df1f3cf0454d15ee4a6266",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先阿过的才是这一版没夹的我不往最后文件里放",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.88,
+  "wallSeconds": 214.929,
+  "loudness": {
+    "input_i": "-23.50",
+    "input_tp": "-4.88",
+    "input_lra": "2.10",
+    "input_thresh": "-34.23",
+    "output_i": "-19.05",
+    "output_tp": "-2.00",
+    "output_lra": "2.20",
+    "output_thresh": "-29.78",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.95"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-together--006/raw.wav",
+      "bytes": 468560,
+      "sha256": "12d91e7a9ffb8a6561ddf8e058dcb4f9e49511f58ea30b7d792b1a6dbab0b95d"
+    },
+    "master": {
+      "path": "healing-c2-from-together--006/master.wav",
+      "bytes": 234318,
+      "sha256": "625ed2b2e4e0825b92c16fd3b2d5fa658dbac0d980dc3298db69fe205edae7e2"
+    },
+    "runtime": {
+      "path": "healing-c2-from-together--006/runtime.ogg",
+      "bytes": 36583,
+      "sha256": "c57d21d742a63a1f04e828a638e4ff9b3e9decaad4d792093d4f728305f699b6"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

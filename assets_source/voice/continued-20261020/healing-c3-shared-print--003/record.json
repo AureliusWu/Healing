@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-print--003",
+  "sceneId": "c3-shared-print",
+  "lineId": "c3-shared-print--003",
+  "lineIndex": 2,
+  "speaker": "陈知遥",
+  "text": "留我们相册，不放社团宣传。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 275718170,
+  "textSha256": "80a387d04811882ac46f6da59036d5ee12d8fe46ee3eb5a9e0e5044bbdcf5ef3",
+  "medium": "spoken",
+  "requestSha256": "8e04c2084e405366731c9bdecfe194b58dfb4abc449aa30a70bf72265064cd8d",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "留我們向側,不放社團宣傳",
+    "cer": 0.181818,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.64,
+  "wallSeconds": 16.421,
+  "loudness": {
+    "input_i": "-23.70",
+    "input_tp": "-8.57",
+    "input_lra": "0.00",
+    "input_thresh": "-33.90",
+    "output_i": "-20.00",
+    "output_tp": "-4.86",
+    "output_lra": "0.00",
+    "output_thresh": "-30.19",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-print--003/raw.wav",
+      "bytes": 253520,
+      "sha256": "70945a2a8ee87ee33dc607205d46f373459545b8453dc596e7eadcf80b52cce9"
+    },
+    "master": {
+      "path": "healing-c3-shared-print--003/master.wav",
+      "bytes": 126798,
+      "sha256": "486e4f42dec16ff9ada1021f1eec464332548bfb47d89d8ccab98df6df1ea536"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-print--003/runtime.ogg",
+      "bytes": 22887,
+      "sha256": "fd99f6bf91c80b976f2084fd404429cd0149e1e4519f66efe801dba142b3948d"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

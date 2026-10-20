@@ -1,0 +1,55 @@
+{
+  "id": "healing-lunch-lin--001",
+  "sceneId": "lunch-lin",
+  "lineId": "lunch-lin--001",
+  "lineIndex": 0,
+  "speaker": "程屿",
+  "text": "你还在写那个“待定”？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1424129661,
+  "textSha256": "ad0f22e29c5ec6bba82e74e19cb5fa8e3e9d5acd5c10a162f6960e2f052a4645",
+  "medium": "spoken",
+  "requestSha256": "cedbdeffe49d21733bbd115d7cca128e68071020c1855c77044ff776f64875f3",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你还在写那个带定",
+    "cer": 0.125,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.08,
+  "wallSeconds": 60.937,
+  "loudness": {
+    "input_i": "-29.03",
+    "input_tp": "-10.35",
+    "input_lra": "0.00",
+    "input_thresh": "-39.54",
+    "output_i": "-20.71",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.21",
+    "normalization_type": "linear",
+    "target_offset": "0.71"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-lunch-lin--001/raw.wav",
+      "bytes": 199760,
+      "sha256": "39377e6ba192ac0ca512b4c76be8c92df250f8ca31ba7325a6969b2927a22fc7"
+    },
+    "master": {
+      "path": "healing-lunch-lin--001/master.wav",
+      "bytes": 99918,
+      "sha256": "c88a85aac248ee64fbacaf81fe59d9d4c23f7d0eb0188f2b93a2437617322b73"
+    },
+    "runtime": {
+      "path": "healing-lunch-lin--001/runtime.ogg",
+      "bytes": 20272,
+      "sha256": "81601c36c98f8672d1c62cbdcbc7cba3ee4261a222f5266c307a29173fcfb18e"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-deflect--001",
+  "sceneId": "desk-deflect",
+  "lineId": "desk-deflect--001",
+  "lineIndex": 0,
+  "speaker": "程屿",
+  "text": "没事，就是没睡醒。昨晚打游戏太晚了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 125530903,
+  "textSha256": "e101eb09096ad8c5bfdfa710d0e267b048498d4b86baa853aea7fd73db71caed",
+  "medium": "spoken",
+  "requestSha256": "1a9963a4446178dda604ed8d24fe7c66f5c32d1e69ee892391ef7194591658ee",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "没事就是没睡醒昨晚打游戏太晚了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 17.704,
+  "loudness": {
+    "input_i": "-25.56",
+    "input_tp": "-7.38",
+    "input_lra": "0.50",
+    "input_thresh": "-35.70",
+    "output_i": "-20.04",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.17",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-deflect--001/raw.wav",
+      "bytes": 345680,
+      "sha256": "70237f8ea21f42ab3d9c3863836018cda5ce5ebf9e56fc17161ba962972518f1"
+    },
+    "master": {
+      "path": "healing-desk-deflect--001/master.wav",
+      "bytes": 172878,
+      "sha256": "758f3c740c3d493f9c168c8e208304f8b51c24a4fa0c78f3f1d9f37afb8eb364"
+    },
+    "runtime": {
+      "path": "healing-desk-deflect--001/runtime.ogg",
+      "bytes": 30665,
+      "sha256": "1771564177c51b4cd5a73caec6f14ece8203e8cbe13c38db0cda392f6535830b"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

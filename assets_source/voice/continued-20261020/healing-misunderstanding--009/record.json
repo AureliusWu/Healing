@@ -1,0 +1,55 @@
+{
+  "id": "healing-misunderstanding--009",
+  "sceneId": "misunderstanding",
+  "lineId": "misunderstanding--009",
+  "lineIndex": 8,
+  "speaker": "林见夏",
+  "text": "我每次想说我还没准备好，都觉得这样很对不起你。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1154012166,
+  "textSha256": "68abde1df84d3e410ae92b123668e250bba66508949908968ee311e6dc2be934",
+  "medium": "spoken",
+  "requestSha256": "572f162f3a5e4fd50e5466ae84b349d04f1f2dfa190b8fb88ffbad0ba603a776",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我每次想说我还没准备好都觉得这样很对不起你",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.2,
+  "wallSeconds": 23.378,
+  "loudness": {
+    "input_i": "-25.89",
+    "input_tp": "-6.17",
+    "input_lra": "0.20",
+    "input_thresh": "-36.23",
+    "output_i": "-18.35",
+    "output_tp": "-2.00",
+    "output_lra": "2.00",
+    "output_thresh": "-28.52",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.65"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-misunderstanding--009/raw.wav",
+      "bytes": 499280,
+      "sha256": "d0cbfd31c1f7a81e131325245a86d87a5ce234a861c0a0a7167a8077b34deeb1"
+    },
+    "master": {
+      "path": "healing-misunderstanding--009/master.wav",
+      "bytes": 249678,
+      "sha256": "9f3923fec212162f8ac12f65e35baab10d3fc4522735c077a26ab98a7b720edc"
+    },
+    "runtime": {
+      "path": "healing-misunderstanding--009/runtime.ogg",
+      "bytes": 40544,
+      "sha256": "e322b58c368e1220aa4d07f3e37acdbdfd8267dbb4af033b9a959dde985d2658"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

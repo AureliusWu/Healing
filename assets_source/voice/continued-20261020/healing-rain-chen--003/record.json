@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-chen--003",
+  "sceneId": "rain-chen",
+  "lineId": "rain-chen--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "下一班也能回去。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 583347699,
+  "textSha256": "681701da85f40fe0409a200d90f8aa8b29e5d9be3fa453e73d2ba0fd011482d6",
+  "medium": "spoken",
+  "requestSha256": "9574127e8d2916b316696c55f13a9307b6ab56015e841d21bc5f1e81a34b149a",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "下一班也能回去",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.2,
+  "wallSeconds": 13.563,
+  "loudness": {
+    "input_i": "-23.29",
+    "input_tp": "-4.67",
+    "input_lra": "0.00",
+    "input_thresh": "-33.76",
+    "output_i": "-20.63",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-31.10",
+    "normalization_type": "linear",
+    "target_offset": "0.63"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-chen--003/raw.wav",
+      "bytes": 115280,
+      "sha256": "e55b64b4f54b0cbac4bdc1b66da1ededd4772eb6faf957e3e8491e2d1e4d4353"
+    },
+    "master": {
+      "path": "healing-rain-chen--003/master.wav",
+      "bytes": 57678,
+      "sha256": "89d1554423f78b09b98c42f19d2b233ba3e9e95d64292b42abca5e0935dc5602"
+    },
+    "runtime": {
+      "path": "healing-rain-chen--003/runtime.ogg",
+      "bytes": 12926,
+      "sha256": "16edb217626afda5d2bfe0cb60243bc207ea29ddb92e23fc82b9eada16dfe3ce"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

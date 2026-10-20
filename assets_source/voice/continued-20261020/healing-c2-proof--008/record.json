@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-proof--008",
+  "sceneId": "c2-proof",
+  "lineId": "c2-proof--008",
+  "lineIndex": 7,
+  "speaker": "许棠",
+  "text": "我标成待确认。旧的保留，不往正式文件里放。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1866419989,
+  "textSha256": "8e75dc230f25f5af61c7737151896736a4ec05f27554ed30ce51787755df2b63",
+  "medium": "spoken",
+  "requestSha256": "5269b45e0d3e4d79ba1948062730669396de383f821f1dc040feb032c196859a",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我标诚待确认旧的保留不网正式文件里放",
+    "cer": 0.111111,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.32,
+  "wallSeconds": 19.676,
+  "loudness": {
+    "input_i": "-19.76",
+    "input_tp": "-4.53",
+    "input_lra": "0.50",
+    "input_thresh": "-30.03",
+    "output_i": "-19.15",
+    "output_tp": "-4.00",
+    "output_lra": "0.40",
+    "output_thresh": "-29.50",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.85"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-proof--008/raw.wav",
+      "bytes": 414800,
+      "sha256": "5a2034569ea8fac2cd46035ca7e48ed3e42fdc95ddcb6b151790fe2566f39dba"
+    },
+    "master": {
+      "path": "healing-c2-proof--008/master.wav",
+      "bytes": 207438,
+      "sha256": "d171ffc0a13633ac48ac701a098a3ded5459c399282e458c198097e8eb0f8253"
+    },
+    "runtime": {
+      "path": "healing-c2-proof--008/runtime.ogg",
+      "bytes": 33627,
+      "sha256": "bc3a322a765accf5b37d7bd2b720f13c2a882a7a4e7b3b96b5f29d3a7368e402"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-rain-lin--003",
+  "sceneId": "rain-lin",
+  "lineId": "rain-lin--003",
+  "lineIndex": 2,
+  "speaker": "陈知遥",
+  "text": "我先上去。你们不用等，车次快到了。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 39847785,
+  "textSha256": "491c78a37c2c0762d939ad89017ab4e63a884d4e1451aef77d8fe3d3cc519bc0",
+  "medium": "spoken",
+  "requestSha256": "e3b1f5595f99756d53070aad34656be84ff09e8f1b160bac8f63316389669136",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我先上去你们不用等车次快到了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.84,
+  "wallSeconds": 17.277,
+  "loudness": {
+    "input_i": "-20.25",
+    "input_tp": "-4.43",
+    "input_lra": "0.50",
+    "input_thresh": "-30.66",
+    "output_i": "-19.27",
+    "output_tp": "-3.64",
+    "output_lra": "0.00",
+    "output_thresh": "-29.53",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.73"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-rain-lin--003/raw.wav",
+      "bytes": 368720,
+      "sha256": "b4c86376d99dc580fc3a4bc4fc359d28e29a19c54c1d8f453d82caf54e776e90"
+    },
+    "master": {
+      "path": "healing-rain-lin--003/master.wav",
+      "bytes": 184398,
+      "sha256": "cc394a87e4c788d605876d183b34ee48d301cac73697ba10121a88e0ab2d3983"
+    },
+    "runtime": {
+      "path": "healing-rain-lin--003/runtime.ogg",
+      "bytes": 30544,
+      "sha256": "a7da7267ee59ebce1ae93abf1a9969ab7f0db9d8cc7eb8e3ecfacc9b54fa6286"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

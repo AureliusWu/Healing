@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-print--002",
+  "sceneId": "c3-shared-print",
+  "lineId": "c3-shared-print--002",
+  "lineIndex": 1,
+  "speaker": "许棠",
+  "text": "先别发。给你们原图，各自看。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 26155923,
+  "textSha256": "5ac6d2eb1b3e97bdf9b397b1565d0a35885cd933d8f33f2b7da9af367fd022df",
+  "medium": "spoken",
+  "requestSha256": "30c39bd0c6ff585d2e19e1502053798ed2268baa94ae28242149db6e3f50ec53",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "先别发,给你们圆图,各自看",
+    "cer": 0.090909,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.4,
+  "wallSeconds": 196.943,
+  "loudness": {
+    "input_i": "-22.33",
+    "input_tp": "-6.73",
+    "input_lra": "2.60",
+    "input_thresh": "-32.95",
+    "output_i": "-19.67",
+    "output_tp": "-4.33",
+    "output_lra": "2.60",
+    "output_thresh": "-30.21",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.33"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-print--002/raw.wav",
+      "bytes": 422480,
+      "sha256": "25562020d186dabd251d36f37d91f806b88f7d861a2dd72989d747d387d9079d"
+    },
+    "master": {
+      "path": "healing-c3-shared-print--002/master.wav",
+      "bytes": 211278,
+      "sha256": "2787c2723fbae8ec7c5c06d87001cf32a5bb6dbb18e7e5bdab73f77d999c51df"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-print--002/runtime.ogg",
+      "bytes": 31954,
+      "sha256": "5542d8f92cbbf2f4459d3267240eff97784b18e56f6994771066a091d2b2e832"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

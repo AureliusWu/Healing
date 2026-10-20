@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-print--005",
+  "sceneId": "c3-shared-print",
+  "lineId": "c3-shared-print--005",
+  "lineIndex": 4,
+  "speaker": "程屿",
+  "text": "包没拉好也留着，下次提醒。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 852517308,
+  "textSha256": "99034f1f9518230566e584e3fe803dcab0639f4c5f87993cf012b06b04c348e0",
+  "medium": "spoken",
+  "requestSha256": "cdb59efc1f57129aab4a9f28346173ffb17f8eab2d8933e043d7d8ca4afa1229",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "包没拉好也留着下次提醒",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.56,
+  "wallSeconds": 298.261,
+  "loudness": {
+    "input_i": "-23.64",
+    "input_tp": "-7.75",
+    "input_lra": "0.00",
+    "input_thresh": "-34.23",
+    "output_i": "-20.00",
+    "output_tp": "-4.12",
+    "output_lra": "0.00",
+    "output_thresh": "-30.60",
+    "normalization_type": "linear",
+    "target_offset": "-0.00"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-print--005/raw.wav",
+      "bytes": 245840,
+      "sha256": "415fdbe77a3ec649e479d29082a536472bb9efd0d09d38c44fbcc572e2e91c2f"
+    },
+    "master": {
+      "path": "healing-c3-shared-print--005/master.wav",
+      "bytes": 122958,
+      "sha256": "749feea0500170a22895025cd8dd4cab481c6b7cef685e940c3b102bb1de5a7b"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-print--005/runtime.ogg",
+      "bytes": 21657,
+      "sha256": "690873dabf341df391e5e43645ca6d33c5aeff32c9ee12a683d464c5ff3aa865"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

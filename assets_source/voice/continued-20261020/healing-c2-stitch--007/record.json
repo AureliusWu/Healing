@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-stitch--007",
+  "sceneId": "c2-stitch",
+  "lineId": "c2-stitch--007",
+  "lineIndex": 6,
+  "speaker": "程屿",
+  "text": "已经超过你说的两分钟了。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 385175035,
+  "textSha256": "d2c1ad0be939e8ea876cb821f88555c95a096b65497adce0df384ba846e827f4",
+  "medium": "spoken",
+  "requestSha256": "5eb146741b1cc9251847c5f0e6fadb635cddb09fb858fdb5362aeeff2306de5b",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "已经超过你说的两分钟了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.16,
+  "wallSeconds": 82.37,
+  "loudness": {
+    "input_i": "-25.63",
+    "input_tp": "-9.28",
+    "input_lra": "0.00",
+    "input_thresh": "-35.63",
+    "output_i": "-20.02",
+    "output_tp": "-3.64",
+    "output_lra": "0.00",
+    "output_thresh": "-30.02",
+    "normalization_type": "linear",
+    "target_offset": "0.02"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-stitch--007/raw.wav",
+      "bytes": 207440,
+      "sha256": "55fc7860a4d8bfae43a4e4ae0e731b8a0d20aa3e1155ea03b73e609c34464c0f"
+    },
+    "master": {
+      "path": "healing-c2-stitch--007/master.wav",
+      "bytes": 103758,
+      "sha256": "c6ca4e7fe3d0e60d23b0d550deb162a81389f359b4305e67baff59c4cec172fe"
+    },
+    "runtime": {
+      "path": "healing-c2-stitch--007/runtime.ogg",
+      "bytes": 20175,
+      "sha256": "d864f7b80c51f3fb6b6eac32eb8f4a529943e3b4b3cb4381380dd6e2bbeacdde"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

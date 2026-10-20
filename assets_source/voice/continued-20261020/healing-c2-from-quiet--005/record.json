@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-quiet--005",
+  "sceneId": "c2-from-quiet",
+  "lineId": "c2-from-quiet--005",
+  "lineIndex": 4,
+  "speaker": "林见夏",
+  "text": "你想给我们看，还是先自己改？",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1740746913,
+  "textSha256": "1f36b7b20fc23946e56bd6512859fe38c9bca3b2919722e47857f2b7a79af8cd",
+  "medium": "spoken",
+  "requestSha256": "c4bcc0a62bf55e17f32fd21aa71265ad054311532820fe125b7c094596e96ead",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你想給我們看還是先自己改",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 2.56,
+  "wallSeconds": 299.764,
+  "loudness": {
+    "input_i": "-23.29",
+    "input_tp": "-4.82",
+    "input_lra": "0.00",
+    "input_thresh": "-33.29",
+    "output_i": "-20.49",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.49",
+    "normalization_type": "linear",
+    "target_offset": "0.49"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-quiet--005/raw.wav",
+      "bytes": 245840,
+      "sha256": "7b794615a4e56f9a6fbb2829827906e147a8a233dbcbb240f33ed9be087bf55d"
+    },
+    "master": {
+      "path": "healing-c2-from-quiet--005/master.wav",
+      "bytes": 122958,
+      "sha256": "d05a874cbcc79f98b003c5b59cb69fabd3d00305463aa7d4b1575dc2df7cfbae"
+    },
+    "runtime": {
+      "path": "healing-c2-from-quiet--005/runtime.ogg",
+      "bytes": 22714,
+      "sha256": "77c82c180813760e0e11b553f51758af97ca5b7665adba2b80fe68d081c5e423"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

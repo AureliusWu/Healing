@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-check--006",
+  "sceneId": "c3-check",
+  "lineId": "c3-check--006",
+  "lineIndex": 5,
+  "speaker": "许棠",
+  "text": "见夏，今天的文字、全名，封底空长椅，这些都可以吗？",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 101006721,
+  "textSha256": "c1ec24ad622c3fddef5034a9ad971e0d8a44a9a62e486f14b3b1009748da99f7",
+  "medium": "spoken",
+  "requestSha256": "720cbf94fbcc490a2c6c2a9b332782627d1d5f3b65b896c8bc77d3b137cc5b9e",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "借下今天的文字 全名 封底空长矣这些都可以吗?",
+    "cer": 0.15,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.36,
+  "wallSeconds": 42.565,
+  "loudness": {
+    "input_i": "-19.57",
+    "input_tp": "-4.53",
+    "input_lra": "2.90",
+    "input_thresh": "-30.20",
+    "output_i": "-20.04",
+    "output_tp": "-5.83",
+    "output_lra": "3.50",
+    "output_thresh": "-30.63",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-check--006/raw.wav",
+      "bytes": 514640,
+      "sha256": "698eab0402763aecac1506cb817345c18ad76a6ac03e2df582663a9c48459c1c"
+    },
+    "master": {
+      "path": "healing-c3-check--006/master.wav",
+      "bytes": 257358,
+      "sha256": "0a7c1cd05fccdd7597744a1a224d19c3f7fc52cf9799047ef5346f044c75db6f"
+    },
+    "runtime": {
+      "path": "healing-c3-check--006/runtime.ogg",
+      "bytes": 40171,
+      "sha256": "f5c82218868ef0fca084172f69887bed2b9b38e43d1ec249b44e22bffcd2b404"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

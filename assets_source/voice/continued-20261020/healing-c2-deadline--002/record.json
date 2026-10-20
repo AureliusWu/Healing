@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-deadline--002",
+  "sceneId": "c2-deadline",
+  "lineId": "c2-deadline--002",
+  "lineIndex": 1,
+  "speaker": "陈知遥",
+  "text": "文印老师六点关门。许棠要还相机，见夏要赶车，我五点五十走。谁说来得及，就得把时间说清楚。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1061530252,
+  "textSha256": "c30ee5fcf3fd118d97dbe7dba08322e604c3c88aacfa3df79835d72e5546911c",
+  "medium": "spoken",
+  "requestSha256": "48233666ccb75a4bb2bf54863f092b78eb5a5b68a62904399d0d81365773dbab",
+  "attempt": 1,
+  "status": "accepted",
+  "asr": {
+    "transcript": "文英老師六點關門,許唐要還相機,建下要趕車,我五點五十走。誰說來得及,就得把時間說清楚。",
+    "cer": 0.105263,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.28,
+  "wallSeconds": 349.092,
+  "loudness": {
+    "input_i": "-22.54",
+    "input_tp": "-6.41",
+    "input_lra": "1.70",
+    "input_thresh": "-32.91",
+    "output_i": "-20.13",
+    "output_tp": "-4.06",
+    "output_lra": "1.60",
+    "output_thresh": "-30.59",
+    "normalization_type": "dynamic",
+    "target_offset": "0.13"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-deadline--002/raw.wav",
+      "bytes": 890960,
+      "sha256": "1f640159f2d35a4725481b8d817f641a939587aa1ea8a196a6f6027ca9c30808"
+    },
+    "master": {
+      "path": "healing-c2-deadline--002/master.wav",
+      "bytes": 445518,
+      "sha256": "17a69f1b6e391cf6aa82c03768e774bebaa262e04f43307a4e76606501cdb6cc"
+    },
+    "runtime": {
+      "path": "healing-c2-deadline--002/runtime.ogg",
+      "bytes": 69224,
+      "sha256": "902af8e728cec87c871aafcabe4c9b04122c0fec5e0c98df34b8438bf97ad1f4"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

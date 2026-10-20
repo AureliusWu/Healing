@@ -1,0 +1,55 @@
+{
+  "id": "healing-tang-interlude--012",
+  "sceneId": "tang-interlude",
+  "lineId": "tang-interlude--012",
+  "lineIndex": 11,
+  "speaker": "程屿",
+  "text": "嗯。话没说完。笔记本的事。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1635001038,
+  "textSha256": "94c14a1f0d07c044cd0157f7a2b72b437f4dc0785b14e6e84b88b8a9f56ba96c",
+  "medium": "spoken",
+  "requestSha256": "36c1efcce291e56c052b96e5c54b794d236ccffb69b3c6e0b580010a21fa0274",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "嗯 话没说完笔记本的事儿",
+    "cer": 0.1,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.0,
+  "wallSeconds": 32.687,
+  "loudness": {
+    "input_i": "-27.02",
+    "input_tp": "-8.53",
+    "input_lra": "2.00",
+    "input_thresh": "-37.32",
+    "output_i": "-17.80",
+    "output_tp": "-2.00",
+    "output_lra": "1.20",
+    "output_thresh": "-28.77",
+    "normalization_type": "dynamic",
+    "target_offset": "-2.20"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-tang-interlude--012/raw.wav",
+      "bytes": 384080,
+      "sha256": "c0cf4a2c4d2aa4f4959561a89b80534a6532961b7843b65196f88b19457b9f6e"
+    },
+    "master": {
+      "path": "healing-tang-interlude--012/master.wav",
+      "bytes": 192078,
+      "sha256": "15f8d3a8e8e34ab56c2ce1b495b4e7a5421754521db587283b241018a91cb5df"
+    },
+    "runtime": {
+      "path": "healing-tang-interlude--012/runtime.ogg",
+      "bytes": 29477,
+      "sha256": "2ca0d078e49b62141e1a80802428e4f3fd825d6a3c8e435f346444bc56a3bfe2"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

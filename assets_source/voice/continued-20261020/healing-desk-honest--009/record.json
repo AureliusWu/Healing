@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-honest--009",
+  "sceneId": "desk-honest",
+  "lineId": "desk-honest--009",
+  "lineIndex": 8,
+  "speaker": "林见夏",
+  "text": "因为我也会看天花板。一直看到闹钟响。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 780931062,
+  "textSha256": "2ac413996c6d322d61ed7f60f815dd0a82a9f89b6fcb8e683469dd8632119ec2",
+  "medium": "spoken",
+  "requestSha256": "0db6d27bca49840a3dd1939e7dd54cdbeb080ac49c8ed7479b5b7b7c6a0bf693",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "因為我也會看天花板 一直看到鬧鐘響",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.68,
+  "wallSeconds": 179.169,
+  "loudness": {
+    "input_i": "-25.69",
+    "input_tp": "-9.47",
+    "input_lra": "1.10",
+    "input_thresh": "-35.69",
+    "output_i": "-20.19",
+    "output_tp": "-4.33",
+    "output_lra": "0.00",
+    "output_thresh": "-30.19",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-honest--009/raw.wav",
+      "bytes": 353360,
+      "sha256": "c0f47e41800b949d1bfb4394982c956b52006a78ce701a371c9690784c1cf32f"
+    },
+    "master": {
+      "path": "healing-desk-honest--009/master.wav",
+      "bytes": 176718,
+      "sha256": "f9b6bc4ef04d654380439ecd0a7334744ae5f8bdba5c885c62801ef8cbf8793e"
+    },
+    "runtime": {
+      "path": "healing-desk-honest--009/runtime.ogg",
+      "bytes": 29761,
+      "sha256": "a27c9c687038fb51705dc5f8e199ec89761fd2b37b89832f2bffd39631231122"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

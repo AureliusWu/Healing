@@ -1,0 +1,55 @@
+{
+  "id": "healing-draft-plain--013",
+  "sceneId": "draft-plain",
+  "lineId": "draft-plain--013",
+  "lineIndex": 12,
+  "speaker": "林见夏",
+  "text": "写的时候，别为了显得有道理，就把“我”改成“所有人”。你现在是在讲自己的事。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1866835619,
+  "textSha256": "1d673c280e3c27320010c76970990d7fd4cdba6116822a2689e8c5621c2fbc62",
+  "medium": "spoken",
+  "requestSha256": "6aa5276eca9d6777ece3024c6160b5d8961b05b02d8639ab91558836b521a6b0",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "写的时候,别为了显得有道理,就把我改成所有人,你现在是在讲自己的事。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.88,
+  "wallSeconds": 30.164,
+  "loudness": {
+    "input_i": "-26.84",
+    "input_tp": "-11.52",
+    "input_lra": "1.20",
+    "input_thresh": "-37.23",
+    "output_i": "-19.65",
+    "output_tp": "-4.38",
+    "output_lra": "1.30",
+    "output_thresh": "-30.07",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.35"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-draft-plain--013/raw.wav",
+      "bytes": 660560,
+      "sha256": "0c631abe1f32060552bef264c7793f489eb5f062b2077be511ec66358a89a310"
+    },
+    "master": {
+      "path": "healing-draft-plain--013/master.wav",
+      "bytes": 330318,
+      "sha256": "48235e5b6a368d6854ddcb96bd4b68756ae7180c8c8bb88d4d717b483d05c30e"
+    },
+    "runtime": {
+      "path": "healing-draft-plain--013/runtime.ogg",
+      "bytes": 52234,
+      "sha256": "637bbb50b192fc32a870fda98047067e882cd10de8a02772e3be8a656b1027d9"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

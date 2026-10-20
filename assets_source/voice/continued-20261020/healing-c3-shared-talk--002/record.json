@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-talk--002",
+  "sceneId": "c3-shared-talk",
+  "lineId": "c3-shared-talk--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "不用都答应。少一个人，也能留今天有的东西。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1749303175,
+  "textSha256": "d390d6861bd4975d30f9bcbac40e49c0ac29a2887acdeb25440c20a023bfa240",
+  "medium": "spoken",
+  "requestSha256": "6c098b77954e248dccbfdf700eacb5a6b5e4fadd7293713b4c6e5a3fbe10df05",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "不用都答应少一个人也能留今天有的东西",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 119.455,
+  "loudness": {
+    "input_i": "-24.19",
+    "input_tp": "-6.87",
+    "input_lra": "1.20",
+    "input_thresh": "-34.47",
+    "output_i": "-20.20",
+    "output_tp": "-3.15",
+    "output_lra": "0.00",
+    "output_thresh": "-30.46",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-talk--002/raw.wav",
+      "bytes": 345680,
+      "sha256": "38cfba7de41f1100a8c3a533d3e70f5d915e4476f9d7fa4104f033906aa53bc9"
+    },
+    "master": {
+      "path": "healing-c3-shared-talk--002/master.wav",
+      "bytes": 172878,
+      "sha256": "206bbd196434da325232be030ede38cd2c0c0718e5f3b3f177cfdf19afecc78b"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-talk--002/runtime.ogg",
+      "bytes": 31965,
+      "sha256": "0cc3130313126e34d0260d8504e106dbfa7e0b4d2e0f25f3b62d49408341b540"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

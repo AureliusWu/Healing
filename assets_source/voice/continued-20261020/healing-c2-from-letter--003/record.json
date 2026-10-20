@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-from-letter--003",
+  "sceneId": "c2-from-letter",
+  "lineId": "c2-from-letter--003",
+  "lineIndex": 2,
+  "speaker": "许棠",
+  "text": "可以。但同班的人看见内容，也可能认出你。笔名不能保证别人什么都猜不到。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1481463572,
+  "textSha256": "d05861ab6fa8883cf0434c954897564af164dfbb85810bffe1fce817d5d02145",
+  "medium": "spoken",
+  "requestSha256": "951422b9d6879256cfe7df3e9bdaf9cb93ce42bf10cce4bfb63c188344f4f564",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "咳咳点,可以在同班的人看见内容,也可能认出你。比名不能保证别人什么都猜不到。",
+    "cer": 0.16129,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 9.44,
+  "wallSeconds": 41.817,
+  "loudness": {
+    "input_i": "-18.31",
+    "input_tp": "-3.71",
+    "input_lra": "0.90",
+    "input_thresh": "-28.53",
+    "output_i": "-19.54",
+    "output_tp": "-5.28",
+    "output_lra": "1.30",
+    "output_thresh": "-29.84",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.46"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-from-letter--003/raw.wav",
+      "bytes": 906320,
+      "sha256": "5bfc6007171db97d5258de21df89e2ddea132b895aa60ab228fdf6affd49ff27"
+    },
+    "master": {
+      "path": "healing-c2-from-letter--003/master.wav",
+      "bytes": 453198,
+      "sha256": "bf319c3fa5283120fd68a7ce46d448a09db048d5412d72c51ccce71211297ebc"
+    },
+    "runtime": {
+      "path": "healing-c2-from-letter--003/runtime.ogg",
+      "bytes": 69217,
+      "sha256": "cf22a80b730e32204c32d0ad4347b5b60381e2132989a405346381256cf5cbe1"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

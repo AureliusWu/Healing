@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-talk--002",
+  "sceneId": "c3-lin-talk",
+  "lineId": "c3-lin-talk--002",
+  "lineIndex": 1,
+  "speaker": "程屿",
+  "text": "本来想写明天继续，后来想起明天周六，不一定来学校。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 310395227,
+  "textSha256": "fd8e06fe9f2a9c78c064b1bfcb99f8c365cf2cb7876f1d46bd873107d0bdf109",
+  "medium": "spoken",
+  "requestSha256": "081938735fb9b7703898315d3bc07b3f881719d57063de8b015b384047f68237",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "本来想写明天继续后来想起明天周六不一定来学校",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 4.48,
+  "wallSeconds": 314.976,
+  "loudness": {
+    "input_i": "-27.33",
+    "input_tp": "-9.37",
+    "input_lra": "2.70",
+    "input_thresh": "-37.33",
+    "output_i": "-20.87",
+    "output_tp": "-3.54",
+    "output_lra": "2.20",
+    "output_thresh": "-30.87",
+    "normalization_type": "dynamic",
+    "target_offset": "0.87"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-talk--002/raw.wav",
+      "bytes": 430160,
+      "sha256": "843e60a7dd7bbf1f8780e8267f720b298c23f85abff07e7e06f6fe2a414164de"
+    },
+    "master": {
+      "path": "healing-c3-lin-talk--002/master.wav",
+      "bytes": 215118,
+      "sha256": "837078b4f8a8d209bf6add263baf000245cdb196e9e9f9cc0be6526e4227f409"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-talk--002/runtime.ogg",
+      "bytes": 37576,
+      "sha256": "d0c2f249706ea5355ea264be110bf888977d2e42bd8591d6cee0222507c79534"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

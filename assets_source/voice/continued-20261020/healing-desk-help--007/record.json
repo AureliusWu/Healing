@@ -1,0 +1,55 @@
+{
+  "id": "healing-desk-help--007",
+  "sceneId": "desk-help",
+  "lineId": "desk-help--007",
+  "lineIndex": 6,
+  "speaker": "陈知遥",
+  "text": "以前不是。每次有人说来不及，我就接一下。接到现在，好像就一直是我的了。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 542125252,
+  "textSha256": "0881648f6a743544b52e37eb92f5d4d75cd65555b6c7860e653dc48c37441009",
+  "medium": "spoken",
+  "requestSha256": "fdc1d61369c9545a542eafea2312687b1772a1d90546260f5000c5adf533b170",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以前不是,每次有人說來不及,我就接一下接到現在,好像就一直是我的了",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.76,
+  "wallSeconds": 44.896,
+  "loudness": {
+    "input_i": "-21.44",
+    "input_tp": "-3.40",
+    "input_lra": "2.30",
+    "input_thresh": "-32.16",
+    "output_i": "-20.20",
+    "output_tp": "-2.47",
+    "output_lra": "2.40",
+    "output_thresh": "-31.02",
+    "normalization_type": "dynamic",
+    "target_offset": "0.20"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-desk-help--007/raw.wav",
+      "bytes": 745040,
+      "sha256": "80036a98c362d6c46bf3a74516cddebfda56c362c84d65c98514ae7d913b23d4"
+    },
+    "master": {
+      "path": "healing-desk-help--007/master.wav",
+      "bytes": 372558,
+      "sha256": "d07288d6e69a94dc37489babb2c6c3c2f214b853b5fa3c70866fec27038ae8b3"
+    },
+    "runtime": {
+      "path": "healing-desk-help--007/runtime.ogg",
+      "bytes": 56303,
+      "sha256": "91572e27eae74398d9eb7cbf23bfe4a50b6dfa9bbe6e6c986fe6a1466fbfb809"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

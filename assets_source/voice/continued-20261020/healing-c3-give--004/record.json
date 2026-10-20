@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-give--004",
+  "sceneId": "c3-give",
+  "lineId": "c3-give--004",
+  "lineIndex": 3,
+  "speaker": "陈知遥",
+  "text": "我翻了，确实短。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1552937431,
+  "textSha256": "459e354f2c3e9a2034ec29d11ecf9cfb112b989701a62d114f2dcf08cc6a0904",
+  "medium": "spoken",
+  "requestSha256": "ffa8829715c4300ea2590bbb97a2c322fb72167aa6b7836035c297f47bfa6fed",
+  "attempt": 2,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我分了确实短",
+    "cer": 0.166667,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.6,
+  "wallSeconds": 16.823,
+  "loudness": {
+    "input_i": "-20.24",
+    "input_tp": "-1.54",
+    "input_lra": "3.00",
+    "input_thresh": "-31.22",
+    "output_i": "-19.57",
+    "output_tp": "-2.00",
+    "output_lra": "0.00",
+    "output_thresh": "-30.49",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.43"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-give--004/raw.wav",
+      "bytes": 345680,
+      "sha256": "a39ff617f61f4398c91b95211fba3ee08f3c877293f6b5c64cd6683edba9e5c4"
+    },
+    "master": {
+      "path": "healing-c3-give--004/master.wav",
+      "bytes": 172878,
+      "sha256": "879aa2c9d1e93b69a10f41c0206ea299b801cbdadaddc61ede4e1c3865ab7009"
+    },
+    "runtime": {
+      "path": "healing-c3-give--004/runtime.ogg",
+      "bytes": 26758,
+      "sha256": "572e8fa2aa295551029a35af3326f3bb41d3116ebb537292d9c4e3f2a1c94146"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

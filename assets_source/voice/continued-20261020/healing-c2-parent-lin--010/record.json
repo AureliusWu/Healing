@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-parent-lin--010",
+  "sceneId": "c2-parent-lin",
+  "lineId": "c2-parent-lin--010",
+  "lineIndex": 9,
+  "speaker": "林见夏",
+  "text": "手机放客厅。到点自己出来，但别十分钟进来问一次有什么用。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 69986265,
+  "textSha256": "93ce211aa48d1956567f95eae01a81269c43584818007aebd8d9096f723b2205",
+  "medium": "spoken",
+  "requestSha256": "f0da4fe59f4c3b7576f51d0d06fd790aabc1fd1ed9889bf7e12ecc7992d6e914",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "手机放客厅倒点自己出来但别十分钟进来问一次有什么用",
+    "cer": 0.04,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.76,
+  "wallSeconds": 33.222,
+  "loudness": {
+    "input_i": "-26.68",
+    "input_tp": "-5.47",
+    "input_lra": "3.00",
+    "input_thresh": "-36.92",
+    "output_i": "-21.16",
+    "output_tp": "-2.00",
+    "output_lra": "1.10",
+    "output_thresh": "-31.53",
+    "normalization_type": "dynamic",
+    "target_offset": "1.16"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-parent-lin--010/raw.wav",
+      "bytes": 553040,
+      "sha256": "d2dcf1b2ac985379d7b0cdab3c5e4600854afc2d29668676ee97d70a4249b663"
+    },
+    "master": {
+      "path": "healing-c2-parent-lin--010/master.wav",
+      "bytes": 276558,
+      "sha256": "ba0a0c3c0479bca2cbb620b94506c3dbf6a620b6ad01375ab9d3e53cd5ade150"
+    },
+    "runtime": {
+      "path": "healing-c2-parent-lin--010/runtime.ogg",
+      "bytes": 43442,
+      "sha256": "56163436895ec4058c9ba273bc985994824e70272282fe7edde7dc72b8a1d7d2"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

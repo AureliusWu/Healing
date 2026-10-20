@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-return--010",
+  "sceneId": "c3-return",
+  "lineId": "c3-return--010",
+  "lineIndex": 9,
+  "speaker": "林见夏",
+  "text": "有时候要说很多遍。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 432175962,
+  "textSha256": "2ab3d5a859e7a76848caf5862e3c983617b4f34221ffdc27894186b74b9e5c0a",
+  "medium": "spoken",
+  "requestSha256": "2ac9a2c74cd9fd557edd8ea63b2a259d97d25770c0dad7acc0b16fe07d5cec93",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "有时候,要说很多遍。",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 90.369,
+  "loudness": {
+    "input_i": "-22.79",
+    "input_tp": "-7.85",
+    "input_lra": "0.30",
+    "input_thresh": "-32.93",
+    "output_i": "-19.77",
+    "output_tp": "-4.93",
+    "output_lra": "0.00",
+    "output_thresh": "-29.92",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.23"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-return--010/raw.wav",
+      "bytes": 314960,
+      "sha256": "e9b9b32c1076a52675d0cf3aaf310cb3d76f3df1529fc231c6fca9bf90cdb4b4"
+    },
+    "master": {
+      "path": "healing-c3-return--010/master.wav",
+      "bytes": 157518,
+      "sha256": "1bd63d50afa921204969ea088fb698bf4dbb4bf2ae1d70a2258f9c11e50d5887"
+    },
+    "runtime": {
+      "path": "healing-c3-return--010/runtime.ogg",
+      "bytes": 25897,
+      "sha256": "eb3b01c235d26091008ca67f64ad881c5645296cd9daeb12286a937bbef18709"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

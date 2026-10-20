@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-task--003",
+  "sceneId": "c2-task",
+  "lineId": "c2-task--003",
+  "lineIndex": 2,
+  "speaker": "陈知遥",
+  "text": "我需要一个人把搬书的具体时间问清楚。别只带回来“他应该能来”。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 907348194,
+  "textSha256": "bafd5d54b81afb590ed74467a1567101781a7e6e750d8346ff6ee07d0fe52ef8",
+  "medium": "spoken",
+  "requestSha256": "7014a89b1382cb034c342e8029b8a139c5901d329748c4516b29ec624276de48",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "我需要一個人把班淑的具體時間問清楚別只帶回來他應該能來",
+    "cer": 0.074074,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.28,
+  "wallSeconds": 310.044,
+  "loudness": {
+    "input_i": "-19.22",
+    "input_tp": "-6.21",
+    "input_lra": "0.40",
+    "input_thresh": "-30.24",
+    "output_i": "-18.88",
+    "output_tp": "-6.28",
+    "output_lra": "0.90",
+    "output_thresh": "-29.85",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.12"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-task--003/raw.wav",
+      "bytes": 698960,
+      "sha256": "05107417b50bb6fde250678a64f91cb053069e4946ddae29ea9af054acfa7b25"
+    },
+    "master": {
+      "path": "healing-c2-task--003/master.wav",
+      "bytes": 349518,
+      "sha256": "aaf02ad388990daf85e0867ae99dca1fb06470c2f9e27a20b1ccd2f0aee0812b"
+    },
+    "runtime": {
+      "path": "healing-c2-task--003/runtime.ogg",
+      "bytes": 52566,
+      "sha256": "dd5f929035540b4de682d0accc3af8242207ad0ce9d5a7b224e78742400f5d85"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

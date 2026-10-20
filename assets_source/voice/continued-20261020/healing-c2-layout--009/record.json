@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-layout--009",
+  "sceneId": "c2-layout",
+  "lineId": "c2-layout--009",
+  "lineIndex": 8,
+  "speaker": "林见夏",
+  "text": "那就提前留一个能拆的位置。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 197998187,
+  "textSha256": "39205344fac10c335408415cf7484fe30859614d26eddf7edf17f3e6f49804f6",
+  "medium": "spoken",
+  "requestSha256": "7078325ffcdb9c49f97838f43b54358f92db36a12cea0c4090b132fbe97731d5",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "那就提前留一個能拆的位置",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.28,
+  "wallSeconds": 15.063,
+  "loudness": {
+    "input_i": "-27.59",
+    "input_tp": "-11.77",
+    "input_lra": "0.10",
+    "input_thresh": "-37.59",
+    "output_i": "-19.88",
+    "output_tp": "-4.09",
+    "output_lra": "0.00",
+    "output_thresh": "-29.88",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.12"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-layout--009/raw.wav",
+      "bytes": 314960,
+      "sha256": "2360b3e1653d0876ae0de7bd345794a4c0ad8cd7638030affe293da84f5bba89"
+    },
+    "master": {
+      "path": "healing-c2-layout--009/master.wav",
+      "bytes": 157518,
+      "sha256": "ec5c25f4dde417cfc2ba65ccd667a6d7051caba7ced92524c1eb8c7eb452569c"
+    },
+    "runtime": {
+      "path": "healing-c2-layout--009/runtime.ogg",
+      "bytes": 26964,
+      "sha256": "074c0d0dfb2cfa6919c8b9aa9ae4e6896ad4f08a8745e52e9bd13fe4fdeb9143"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

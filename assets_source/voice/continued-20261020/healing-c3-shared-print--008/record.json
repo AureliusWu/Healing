@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-shared-print--008",
+  "sceneId": "c3-shared-print",
+  "lineId": "c3-shared-print--008",
+  "lineIndex": 7,
+  "speaker": "林见夏",
+  "text": "叫这一页吧。有没有下一页，到时再说。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 773652077,
+  "textSha256": "0ac55500f024bc865fd96ced8019302d9b3239b054004391e9212f9440b3e62c",
+  "medium": "spoken",
+  "requestSha256": "0add8ea850129db7b5fd4d829a90d679f0c58d65da74e9ffb88bbfe74edb8a2d",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "叫这一页吧有没有下一页倒是再说",
+    "cer": 0.133333,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.52,
+  "wallSeconds": 29.573,
+  "loudness": {
+    "input_i": "-25.98",
+    "input_tp": "-9.73",
+    "input_lra": "0.70",
+    "input_thresh": "-36.43",
+    "output_i": "-19.55",
+    "output_tp": "-3.59",
+    "output_lra": "0.00",
+    "output_thresh": "-29.97",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.45"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-shared-print--008/raw.wav",
+      "bytes": 338000,
+      "sha256": "ffdac831ae18d0283185188853c1f909627fb851f7dbc056ed8d6657843b7086"
+    },
+    "master": {
+      "path": "healing-c3-shared-print--008/master.wav",
+      "bytes": 169038,
+      "sha256": "deef09d9e8713bacc325f117b8fd31beb1bc0c3083407fd3052400f16964642a"
+    },
+    "runtime": {
+      "path": "healing-c3-shared-print--008/runtime.ogg",
+      "bytes": 28910,
+      "sha256": "e92e014d9f7cb575a44f2005f85daf30921ab2c2deaa50aa7adfe6a9f39e065f"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

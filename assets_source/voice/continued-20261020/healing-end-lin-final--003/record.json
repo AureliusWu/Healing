@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-lin-final--003",
+  "sceneId": "end-lin-final",
+  "lineId": "end-lin-final--003",
+  "lineIndex": 2,
+  "speaker": "程屿",
+  "text": "以前不知道怎么说，现在也不是每次都知道。",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1655267992,
+  "textSha256": "0863854c6b772d661fbd699d3d241d876f71dba4db87369903d5991b2e60843d",
+  "medium": "spoken",
+  "requestSha256": "470eff935bc211851067033fd299a999fb599345ee419707d3beb8934f90a528",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "以前不知道怎么说现在不是每次都知道",
+    "cer": 0.055556,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.04,
+  "wallSeconds": 155.556,
+  "loudness": {
+    "input_i": "-27.37",
+    "input_tp": "-10.25",
+    "input_lra": "0.10",
+    "input_thresh": "-37.37",
+    "output_i": "-19.67",
+    "output_tp": "-2.65",
+    "output_lra": "0.00",
+    "output_thresh": "-29.67",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.33"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-lin-final--003/raw.wav",
+      "bytes": 291920,
+      "sha256": "943539007c1801324cdf209096c5bafa80be091f32c306d024ee8b8852640a47"
+    },
+    "master": {
+      "path": "healing-end-lin-final--003/master.wav",
+      "bytes": 145998,
+      "sha256": "4fab889540325abad1c92d9d8843b6840aa6d5038139b5d4610edf00c3d538fa"
+    },
+    "runtime": {
+      "path": "healing-end-lin-final--003/runtime.ogg",
+      "bytes": 27731,
+      "sha256": "35c9e5949a2c4a06f14a03494e5cf500ca8203a7a6fa67f39f8f3325aaf3ba06"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

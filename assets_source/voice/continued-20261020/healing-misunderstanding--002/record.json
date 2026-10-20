@@ -1,0 +1,55 @@
+{
+  "id": "healing-misunderstanding--002",
+  "sceneId": "misunderstanding",
+  "lineId": "misunderstanding--002",
+  "lineIndex": 1,
+  "speaker": "林见夏",
+  "text": "别翻那个。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 957471949,
+  "textSha256": "d49c771eed3565c640950f2506be2cb9879220b2446e711f8b214a74551d3904",
+  "medium": "spoken",
+  "requestSha256": "dbd6a478fb0a1e4f6303e7c1e566a387529325999567f1c16959bbcb3d49e145",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "别翻那个",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 0.96,
+  "wallSeconds": 39.098,
+  "loudness": {
+    "input_i": "-22.12",
+    "input_tp": "-11.77",
+    "input_lra": "0.00",
+    "input_thresh": "-32.12",
+    "output_i": "-19.99",
+    "output_tp": "-9.65",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-misunderstanding--002/raw.wav",
+      "bytes": 92240,
+      "sha256": "28c296c8ff14c283964263704dc1b1e6bd7a431db1d9889fff5333f129ef97cd"
+    },
+    "master": {
+      "path": "healing-misunderstanding--002/master.wav",
+      "bytes": 46158,
+      "sha256": "7c94122243779d637ed83e4689c0fce3236c09b460106acceb2046aef39b2bb2"
+    },
+    "runtime": {
+      "path": "healing-misunderstanding--002/runtime.ogg",
+      "bytes": 10637,
+      "sha256": "785177c5ee90223e1cacf5a5cecf209afb12826dd5e341363450542e44eaf653"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

@@ -1,0 +1,55 @@
+{
+  "id": "healing-c2-open--006",
+  "sceneId": "c2-open",
+  "lineId": "c2-open--006",
+  "lineIndex": 5,
+  "speaker": "许棠",
+  "text": "能选的只有两张。其他几张还没问过照片里的人，还有一张要撤下。",
+  "actorId": "许棠",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，安静直接的高中女生，声音清亮，语气自然。 只朗读给定台词，不添加词语或音效。",
+  "seed": 282469990,
+  "textSha256": "70307f37fcdac8fa3954763642f4c1f162e82464cf6992f2199079011ae4b5ec",
+  "medium": "spoken",
+  "requestSha256": "cf95453b4c36bf7360d46a099c6d6775954d5d95c0d07ba2a8ae4f61318e5708",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "能选的只有两张其他几张还没问过照片里的人还有一张要撤下",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.68,
+  "wallSeconds": 183.897,
+  "loudness": {
+    "input_i": "-18.62",
+    "input_tp": "-2.29",
+    "input_lra": "0.40",
+    "input_thresh": "-28.78",
+    "output_i": "-19.66",
+    "output_tp": "-3.62",
+    "output_lra": "1.00",
+    "output_thresh": "-29.83",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.34"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c2-open--006/raw.wav",
+      "bytes": 545360,
+      "sha256": "578b5df2efd92fa021e7dd1767187bb4687c08dc760f37a7bd9fe74e855ebe8b"
+    },
+    "master": {
+      "path": "healing-c2-open--006/master.wav",
+      "bytes": 272718,
+      "sha256": "c0d1f986837134630210f1bc884867466a14911602d7ea0b54f6b34ad73eef04"
+    },
+    "runtime": {
+      "path": "healing-c2-open--006/runtime.ogg",
+      "bytes": 44325,
+      "sha256": "8f77fafbebd20dd8e475a0747526161fcb3b29cf702d9441f49c827958aa87be"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

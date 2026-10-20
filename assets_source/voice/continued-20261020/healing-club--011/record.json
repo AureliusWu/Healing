@@ -1,0 +1,55 @@
+{
+  "id": "healing-club--011",
+  "sceneId": "club",
+  "lineId": "club--011",
+  "lineIndex": 10,
+  "speaker": "陈知遥",
+  "text": "可以很短。四百字也行。署名可以用笔名。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1381852007,
+  "textSha256": "fd77ce5dd716abeb8144f1b0b16ea1d3a15e4fd4b7eef88b2532e82c9c7ed07c",
+  "medium": "spoken",
+  "requestSha256": "6a2c3510e6ad41818f7413c975effd5462897a529c675d58f3704d8bfb490b58",
+  "attempt": 4,
+  "status": "accepted",
+  "asr": {
+    "transcript": "可以很短,400字也行,署名可以用笔名。",
+    "cer": 0.1875,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.28,
+  "wallSeconds": 264.096,
+  "loudness": {
+    "input_i": "-21.61",
+    "input_tp": "-7.27",
+    "input_lra": "1.30",
+    "input_thresh": "-32.03",
+    "output_i": "-18.23",
+    "output_tp": "-3.54",
+    "output_lra": "2.20",
+    "output_thresh": "-28.72",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.77"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-club--011/raw.wav",
+      "bytes": 506960,
+      "sha256": "cad6c0b1be902594927a2228445698d6d8d2bbc3507904508852ca5bdd164ae6"
+    },
+    "master": {
+      "path": "healing-club--011/master.wav",
+      "bytes": 253518,
+      "sha256": "38ddcbe5306aab4fd11a7443b76d72905c70566ed8845d54cb62bf7a02eb0abd"
+    },
+    "runtime": {
+      "path": "healing-club--011/runtime.ogg",
+      "bytes": 38307,
+      "sha256": "93e31211dfef57b843f4ac304016b70684fe505bd40612b277c571e874544fa4"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

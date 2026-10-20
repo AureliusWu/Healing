@@ -1,0 +1,55 @@
+{
+  "id": "healing-tang-interlude--004",
+  "sceneId": "tang-interlude",
+  "lineId": "tang-interlude--004",
+  "lineIndex": 3,
+  "speaker": "程屿",
+  "text": "你怎么现在才回来？",
+  "actorId": "程屿",
+  "voice": "Dylan",
+  "instruct": "十七岁少年男声，普通话，略显拘谨的高中男生，自然口语，清楚适中。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1481600287,
+  "textSha256": "5288dac3c527c0e4e2e118954f38a812d2822d21141ce09e52094c6a64b9b24f",
+  "medium": "spoken",
+  "requestSha256": "2144f642e2158e1c5b9f2340d0e281b3678a5d43a4f2e8c7ed63810b89b5f7ff",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你怎么现在才回来",
+    "cer": 0.0,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 1.52,
+  "wallSeconds": 56.386,
+  "loudness": {
+    "input_i": "-21.68",
+    "input_tp": "-4.76",
+    "input_lra": "0.00",
+    "input_thresh": "-31.68",
+    "output_i": "-20.01",
+    "output_tp": "-3.08",
+    "output_lra": "0.00",
+    "output_thresh": "-30.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-tang-interlude--004/raw.wav",
+      "bytes": 146000,
+      "sha256": "a60891ec6f515043dcee55dc5a7bee81e617e87f58cf1dd7c7936db39242815e"
+    },
+    "master": {
+      "path": "healing-tang-interlude--004/master.wav",
+      "bytes": 73038,
+      "sha256": "73fe3836a0077c64477daa82aa4fee3766638537fe9394aad2e6be5aa1ac43cb"
+    },
+    "runtime": {
+      "path": "healing-tang-interlude--004/runtime.ogg",
+      "bytes": 15295,
+      "sha256": "80b1c5a9a1fc2436dd36001d27a40e24b2bbd6479a7233ba50912f9a8ba7be0f"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

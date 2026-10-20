@@ -1,0 +1,55 @@
+{
+  "id": "healing-end-letter--004",
+  "sceneId": "end-letter",
+  "lineId": "end-letter--004",
+  "lineIndex": 3,
+  "speaker": "林见夏",
+  "text": "如果一句话暂时说不出口，可以先写在纸上。写完以后，交不交都由你。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1014992738,
+  "textSha256": "65f12400564ec41df8946c5a9acfbab04dac485d897b9432dfd5f10fa0b693e1",
+  "medium": "spoken",
+  "requestSha256": "57f2d858ab474f450bf9da94598707864511a6275a69cb98c8b61e56c809f5aa",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "如果一句話暫時說不出口可以先寫在紙上寫完以後教不教都有你",
+    "cer": 0.107143,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 7.76,
+  "wallSeconds": 45.117,
+  "loudness": {
+    "input_i": "-24.50",
+    "input_tp": "-5.80",
+    "input_lra": "1.60",
+    "input_thresh": "-35.25",
+    "output_i": "-19.45",
+    "output_tp": "-2.00",
+    "output_lra": "1.20",
+    "output_thresh": "-30.18",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.55"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-end-letter--004/raw.wav",
+      "bytes": 745040,
+      "sha256": "616cd5a3e420200b73adb7f73b7092c54a14ad0d994138dcf8fc1459b05f7056"
+    },
+    "master": {
+      "path": "healing-end-letter--004/master.wav",
+      "bytes": 372558,
+      "sha256": "b0ae9ad36cf626374e26b0dfd55c83737fa9d84080b1204333700b05cbb6eb1e"
+    },
+    "runtime": {
+      "path": "healing-end-letter--004/runtime.ogg",
+      "bytes": 55764,
+      "sha256": "ad65e1afea8ff9dd6485788eb49095800c1d036c7ccb2eca5deb93aaa9047a90"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

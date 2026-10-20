@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-lin-page--002",
+  "sceneId": "c3-lin-page",
+  "lineId": "c3-lin-page--002",
+  "lineIndex": 1,
+  "speaker": "林见夏",
+  "text": "帮我看这一段？不必今天看完，意见写旁边，别替我改。",
+  "actorId": "林见夏",
+  "voice": "Serena",
+  "instruct": "十七岁少女声，普通话，内敛轻柔的高中女生，自然平静，字句清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 897015632,
+  "textSha256": "05bbbf04b94480f7871a20e5bd6c3c30a59781bca14974cb742b7dd3e9ee9c8f",
+  "medium": "spoken",
+  "requestSha256": "ae0bac282d3d5cacad52486ea7c241f815337dbdc797219b2a6cbdd6e5292a43",
+  "attempt": 3,
+  "status": "accepted",
+  "asr": {
+    "transcript": "帮我看这一端不必今天看完,易剑雪旁边,别替我改",
+    "cer": 0.190476,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 5.04,
+  "wallSeconds": 246.406,
+  "loudness": {
+    "input_i": "-29.28",
+    "input_tp": "-12.59",
+    "input_lra": "1.80",
+    "input_thresh": "-39.47",
+    "output_i": "-20.16",
+    "output_tp": "-3.46",
+    "output_lra": "2.10",
+    "output_thresh": "-30.48",
+    "normalization_type": "dynamic",
+    "target_offset": "0.16"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-lin-page--002/raw.wav",
+      "bytes": 483920,
+      "sha256": "629adeb384508c55398a71c14b40d5e70161f9b9f02933956ecccaa9e210235d"
+    },
+    "master": {
+      "path": "healing-c3-lin-page--002/master.wav",
+      "bytes": 241998,
+      "sha256": "987738c049ed09c2f6e806846daea2d28d30ed4cb1eff0d7f623e9e5ffef7ef4"
+    },
+    "runtime": {
+      "path": "healing-c3-lin-page--002/runtime.ogg",
+      "bytes": 38476,
+      "sha256": "03fd78fa7d9d7c95d2a346eaa638eec601be18de78c5a508febdeb6af20225b2"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

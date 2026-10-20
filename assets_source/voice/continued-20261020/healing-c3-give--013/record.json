@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-give--013",
+  "sceneId": "c3-give",
+  "lineId": "c3-give--013",
+  "lineIndex": 12,
+  "speaker": "陈知遥",
+  "text": "登记放这儿。今天到五点十，剩下的下周自己写。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1004723590,
+  "textSha256": "5a8190f673d99551de3785bc6624c827c1cb9b4ba7d1427a3bcb91cd8e328179",
+  "medium": "spoken",
+  "requestSha256": "9f390bdc9a76aab496d8f940305e867432abf92af2d4627179b7a0af52b597b1",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "登记放这儿今天到五点时剩下的下周自己写",
+    "cer": 0.052632,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.64,
+  "wallSeconds": 183.535,
+  "loudness": {
+    "input_i": "-24.56",
+    "input_tp": "-9.63",
+    "input_lra": "1.80",
+    "input_thresh": "-35.25",
+    "output_i": "-19.40",
+    "output_tp": "-4.56",
+    "output_lra": "2.00",
+    "output_thresh": "-30.00",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.60"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-give--013/raw.wav",
+      "bytes": 637520,
+      "sha256": "248a7771d7af9ffab8e1289291edf12c8462537692f03937c6bf0b507187c497"
+    },
+    "master": {
+      "path": "healing-c3-give--013/master.wav",
+      "bytes": 318798,
+      "sha256": "84c324cf59729e991a49b53f7b40015b98d5cbcd14e4416a2a9b4e7b4c6fc228"
+    },
+    "runtime": {
+      "path": "healing-c3-give--013/runtime.ogg",
+      "bytes": 47764,
+      "sha256": "951066e9cf4c0ff165720ee023122fbd8257bc0b437ac7dcb81022058bf7c446"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

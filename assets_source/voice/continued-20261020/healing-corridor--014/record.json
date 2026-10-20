@@ -1,0 +1,55 @@
+{
+  "id": "healing-corridor--014",
+  "sceneId": "corridor",
+  "lineId": "corridor--014",
+  "lineIndex": 13,
+  "speaker": "贺川",
+  "text": "你新座位挺好，太阳好的时候能晒着。",
+  "actorId": "贺川",
+  "voice": "Ryan",
+  "instruct": "十七岁少年男声，普通话，自然爽朗的高中男同学，轻松真诚，不要朗诵。 只朗读给定台词，不添加词语或音效。",
+  "seed": 1760801785,
+  "textSha256": "518427a5c3adffc0860b3670854e8a761dadbf3696c028be0cd75b7c0fb2eef4",
+  "medium": "spoken",
+  "requestSha256": "42aab45ba1733c5aca998899a5b95f42aa222e792c31c8175024afe1608537a3",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "你心作为挺好,太阳好的时候能晒着。",
+    "cer": 0.2,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 3.76,
+  "wallSeconds": 105.691,
+  "loudness": {
+    "input_i": "-22.22",
+    "input_tp": "-5.55",
+    "input_lra": "1.40",
+    "input_thresh": "-32.79",
+    "output_i": "-19.46",
+    "output_tp": "-3.29",
+    "output_lra": "0.00",
+    "output_thresh": "-29.99",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.54"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-corridor--014/raw.wav",
+      "bytes": 361040,
+      "sha256": "37c90742e402f995703c10f6933614e632c53b0e0c51de4b16a2a9f8e6f9b28d"
+    },
+    "master": {
+      "path": "healing-corridor--014/master.wav",
+      "bytes": 180558,
+      "sha256": "2cda35640029d3bc53569e870e6c40ba85555bacf9e586b1eb9ed023395d2d75"
+    },
+    "runtime": {
+      "path": "healing-corridor--014/runtime.ogg",
+      "bytes": 30982,
+      "sha256": "785f08df73e98c7291ee7443ac724be0b129c0e3766c3e85341960fd66966f14"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}

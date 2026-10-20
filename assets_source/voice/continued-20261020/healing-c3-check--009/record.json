@@ -1,0 +1,55 @@
+{
+  "id": "healing-c3-check--009",
+  "sceneId": "c3-check",
+  "lineId": "c3-check--009",
+  "lineIndex": 8,
+  "speaker": "陈知遥",
+  "text": "刚才差点一次全填了，因为都在这里，觉得再问多余。",
+  "actorId": "陈知遥",
+  "voice": "Vivian",
+  "instruct": "十七岁少女声，普通话，高中女生，做事利落，关心同学，自然清楚。 只朗读给定台词，不添加词语或音效。",
+  "seed": 104467435,
+  "textSha256": "64d72de09d6e1963f446912b87bc22adfd3bd8514713705d25a431ff04259e59",
+  "medium": "spoken",
+  "requestSha256": "bac0d24b94fe93cd03a1632da1fac433cc27000af521d5a9f110f448f30c79e7",
+  "attempt": 0,
+  "status": "accepted",
+  "asr": {
+    "transcript": "刚才差点一次全舔了因为都在这里觉得再问多余",
+    "cer": 0.047619,
+    "polarityCountsMatch": true,
+    "passed": true
+  },
+  "duration": 6.96,
+  "wallSeconds": 31.672,
+  "loudness": {
+    "input_i": "-22.40",
+    "input_tp": "-5.86",
+    "input_lra": "1.80",
+    "input_thresh": "-32.71",
+    "output_i": "-19.77",
+    "output_tp": "-3.33",
+    "output_lra": "1.90",
+    "output_thresh": "-30.08",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.23"
+  },
+  "files": {
+    "raw": {
+      "path": "healing-c3-check--009/raw.wav",
+      "bytes": 668240,
+      "sha256": "95f7e430c75ad3c814474eaf40b09c29406e10e6b686aa7f1b64bc2f6f765174"
+    },
+    "master": {
+      "path": "healing-c3-check--009/master.wav",
+      "bytes": 334158,
+      "sha256": "8364a53f92223b7918f34c16d5a389bad94f1286cff330f4f554488d12d75864"
+    },
+    "runtime": {
+      "path": "healing-c3-check--009/runtime.ogg",
+      "bytes": 50790,
+      "sha256": "5b8e6c076ec9c4930d8be1f471e140f198fb5ef749419d27836bf9ecc1ccfa9d"
+    }
+  },
+  "recoveredFromRun": 39436524426
+}
