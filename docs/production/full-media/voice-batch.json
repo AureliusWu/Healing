@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "batch": "20261020-full-dialogue-01",
+  "project": "Healing",
+  "count": 427,
+  "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
+  "scope": "All characters and branches, including written dialogue; narration excluded.",
+  "humanListening": false
+}

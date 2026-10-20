@@ -1,0 +1,134 @@
+name: Produce complete offline dialogue recordings
+on:
+  push:
+    branches: [main]
+    paths: ['docs/production/full-media/voice-batch.json']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: full-voice-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    outputs:
+      shards: ${{ steps.matrix.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate authoring contracts
+        run: python -m unittest discover -s tools/production -p 'test_*.py'
+      - name: Prepare source exporter
+        run: npm ci --ignore-scripts
+      - name: Check the exact current dialogue snapshot
+        run: |
+          node tools/production/export_dialogue.mjs /tmp/current-dialogue.json
+          python - <<'PYCODE'
+          import json
+          from pathlib import Path
+          old=json.loads(Path('docs/production/full-media/dialogue-plan.json').read_text())
+          current=json.loads(Path('/tmp/current-dialogue.json').read_text())
+          assert old['semanticSha256']==current['semanticSha256']
+          assert old['lines']==current['lines'] and old['actors']==current['actors']
+          batch=json.loads(Path('docs/production/full-media/voice-batch.json').read_text())
+          assert batch['semanticSha256']==old['semanticSha256'] and batch['count']==len(old['lines'])
+          print('Exact all-branch dialogue:',len(old['lines']))
+          PYCODE
+      - name: Resolve bounded production shards
+        id: matrix
+        run: |
+          python - <<'PYCODE'
+          import json,math,os
+          from pathlib import Path
+          plan=json.loads(Path('docs/production/full-media/dialogue-plan.json').read_text())
+          count=math.ceil(len(plan['lines'])/32)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as output:
+              output.write('shards='+json.dumps({'shard':list(range(count)),'shardCount':[count]})+'\n')
+          PYCODE
+      - uses: actions/cache@v4
+        with:
+          path: .runtime/full-voice-models
+          key: full-voice-qwen-0c0e3051-asr-536b066-v1
+      - name: Download the pinned public models before offline rendering
+        env:
+          HF_HUB_DISABLE_TELEMETRY: '1'
+          DO_NOT_TRACK: '1'
+        run: |
+          python -m pip install 'huggingface_hub<1'
+          python - <<'PYCODE'
+          import json
+          from pathlib import Path
+          from huggingface_hub import snapshot_download
+          model=json.loads(Path('docs/production/full-media/dialogue-plan.json').read_text())['model']
+          snapshot_download(model['id'],revision=model['revision'],allow_patterns=['*.json','*.txt','*.safetensors'],local_dir='.runtime/full-voice-models/tts',max_workers=3)
+          snapshot_download(model['asrModel'],revision=model['asrRevision'],allow_patterns=['config.json','model.bin','tokenizer.json','vocabulary.*'],local_dir='.runtime/full-voice-models/asr',max_workers=3)
+          PYCODE
+  record:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix: ${{ fromJSON(needs.plan.outputs.shards) }}
+    env:
+      PYTHONUNBUFFERED: '1'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      DO_NOT_TRACK: '1'
+      ORT_DISABLE_TELEMETRY: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install author-only speech tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg sox libseccomp2
+          python -m pip install torch==2.9.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install qwen-tts==0.1.1 faster-whisper==1.2.1 opencc-python-reimplemented==0.1.7 soundfile
+      - uses: actions/cache/restore@v4
+        with:
+          path: .runtime/full-voice-models
+          key: full-voice-qwen-0c0e3051-asr-536b066-v1
+          fail-on-cache-miss: true
+      - name: Render and independently transcribe every requested line offline
+        run: python tools/production/render_full_voice.py render --plan docs/production/full-media/dialogue-plan.json --model-dir .runtime/full-voice-models/tts --asr-dir .runtime/full-voice-models/asr --output reports/full-voice/part-${{ matrix.shard }} --shard-index ${{ matrix.shard }} --shard-count ${{ matrix.shardCount }} --threads 4 --attempt-offset $(((${{ github.run_attempt }}-1)*3))
+      - name: Preserve every generated take and exact source binding
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-voice-part-${{ matrix.shard }}-${{ github.sha }}-${{ github.run_attempt }}
+          path: reports/full-voice/part-${{ matrix.shard }}/
+          retention-days: 7
+          if-no-files-found: warn
+  collect:
+    needs: [plan, record]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: full-voice-part-*-${{ github.sha }}-${{ github.run_attempt }}
+          path: reports/full-voice-parts
+      - name: Refuse incomplete, stale, duplicate or modified dialogue recordings
+        run: python tools/production/render_full_voice.py merge --plan docs/production/full-media/dialogue-plan.json --parts reports/full-voice-parts --output reports/full-voice-complete
+      - name: Save the exact complete production bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-voice-complete-${{ github.sha }}-${{ github.run_attempt }}
+          path: reports/full-voice-complete/
+          retention-days: 30
+          if-no-files-found: error
