@@ -1,0 +1,19 @@
+{
+  "id": "proof-confirmed",
+  "title": "七点四十",
+  "generator": "original composition and additive program synthesis; no samples or music model",
+  "recipe": "docs/audio/proof-confirmed-score.json",
+  "recipe_sha256": "49ab0650ac7169a50279831f00ee1d3b10c3eda9db0cc4dda2cbf43f37e2b4d3",
+  "source": "assets_source/audio/scene-20261020/proof-confirmed.wav",
+  "source_sha256": "c2cb729489544f9d380d6c61d49b43dd0b0d87556f4f04aebfebf31b8fefc2c2",
+  "output": "public/audio/bgm/proof-confirmed.ogg",
+  "sha256": "ca6bdbedc44d573940c23008bf8645a792802bf3b754a7801e1e80c143a725e6",
+  "duration_seconds": 45.714292,
+  "sample_rate": 24000,
+  "channels": 2,
+  "peak": 0.269796,
+  "rms_dbfs": -23.997,
+  "loop_boundary_delta": 0.002537,
+  "human_listening_review": "pending",
+  "license": "Project-original composition, MIT code; no external recordings"
+}

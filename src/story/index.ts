@@ -18,6 +18,7 @@ export const endingInfo: Record<Ending, { label: string; subtitle: string; badge
 };
 export const finalEndingIds: Ending[] = ['lin-final', 'chen-final', 'tang-final', 'friends-final'];
 export const cgInfo = {
+  'confirmed-proof': { title: '七点四十', scene: 'c2-confirm', description: '清单逐项看过，U盘和确认后的样张一起装袋。' },
   'proof': { title: '纸上少了一句', scene: 'c2-proof', description: '两版样张并排，漏掉的那一行被铅笔圈出。' },
   'lin-page': { title: '写在页边', scene: 'c3-lin-page', description: '见夏递来稿纸，笔记和钢笔留在窗边。' },
   'chen-rest': { title: '轮到你休息', scene: 'c3-chen-rest', description: '长椅上的知遥，终于没有待办清单。' },

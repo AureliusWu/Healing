@@ -124,7 +124,7 @@ describe('validated chapter and memory checkpoints', () => {
     expect(readEnding('lin-final')).toBeNull();
     rememberProgress(state, true);
     expect(readEnding('lin-final')?.state.decisions).toEqual(state.decisions);
-    expect(readGallery()).toEqual(['proof', 'lin-page']);
+    expect(readGallery()).toEqual(['proof', 'confirmed-proof', 'lin-page']);
   });
   it('never unlocks future chapters from labels, fabricated targets or malformed checkpoints', () => {
     const values = storage();

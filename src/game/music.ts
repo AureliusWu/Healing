@@ -1,9 +1,11 @@
 import { scoreInfo } from './score';
+import { SceneLoop } from './sceneLoop';
 import type { MusicId, Settings } from './types';
 
 // One audio graph and one scheduler, unlocked by a gesture, suspended when hidden.
 export class Music {
   private context?: AudioContext;
+  private sceneLoop?: SceneLoop;
   private musicBus?: GainNode;
   private rainBus?: GainNode;
   private effectsBus?: GainNode;
@@ -19,13 +21,13 @@ export class Music {
 
   configure(options: Pick<Settings, 'music' | 'volume' | 'soundEffects' | 'ambience'>) {
     this.options = options; this.levels();
-    if (!options.music) { clearInterval(this.timer); this.timer = undefined; this.fade(); }
+    if (!options.music) { clearInterval(this.timer); this.timer = undefined; this.fade(); this.sceneLoop?.select(undefined); }
     if (!options.music && !options.soundEffects && !options.ambience) this.pause();
     else if (this.allowed && !document.hidden) void this.resume();
   }
   setScene(track: MusicId, rain = false) {
     this.raining = rain;
-    if (this.track !== track) { this.track = track; this.cursor = 0; this.fade(); this.nextBeat = this.context?.currentTime ?? 0; }
+    if (this.track !== track) { this.track = track; this.cursor = 0; this.fade(); this.sceneLoop?.select(undefined); this.nextBeat = this.context?.currentTime ?? 0; }
     this.levels();
     if (this.allowed && !document.hidden) void this.resume();
   }
@@ -42,6 +44,7 @@ export class Music {
         const context = new AudioContext(); this.context = context;
         const master = context.createGain(); master.gain.value = .75; master.connect(context.destination);
         this.musicBus = context.createGain(); this.musicBus.gain.value = 0; this.musicBus.connect(master);
+        this.sceneLoop = new SceneLoop(context, this.musicBus);
         this.rainBus = context.createGain(); this.rainBus.gain.value = 0; this.rainBus.connect(master);
         this.effectsBus = context.createGain(); this.effectsBus.gain.value = 0; this.effectsBus.connect(master);
         const buffer = context.createBuffer(1, context.sampleRate * 4, context.sampleRate);
@@ -54,6 +57,8 @@ export class Music {
       await this.context.resume();
       if (document.hidden) { this.pause(); return; }
       this.levels();
+      const file = scoreInfo[this.track].file;
+      this.sceneLoop?.select(this.options.music && file ? import.meta.env.BASE_URL + file : undefined);
       if (this.options.music && !this.timer) {
         this.nextBeat = this.context.currentTime; this.schedule(); this.timer = setInterval(() => this.schedule(), 100);
       }
@@ -90,7 +95,7 @@ export class Music {
     oscillator.onended = () => { this.voices.delete(gain); oscillator.disconnect(); gain.disconnect(); };
   }
   private schedule() {
-    if (!this.context || !this.options.music || this.context.state !== 'running') return;
+    if (!this.context || !this.options.music || this.context.state !== 'running' || scoreInfo[this.track].file) return;
     const score = scoreInfo[this.track];
     if (this.nextBeat < this.context.currentTime - .5) this.nextBeat = this.context.currentTime;
     while (this.nextBeat < this.context.currentTime + .18) {

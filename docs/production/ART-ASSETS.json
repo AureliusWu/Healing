@@ -450,6 +450,24 @@
       "promptRegistry": "docs/production/complete-art/cg-proof.json",
       "generator": "built-in imagegen",
       "approval": "agent integration review"
+    },
+    {
+      "id": "cg-confirmed-proof",
+      "path": "public/art/cg-confirmed-proof.webp",
+      "source": "assets_source/cg/scene-20261020/confirmed-proof.png",
+      "sourceSha256": "edb98ee18e20259772c73d556709512d7019ce56e8b4966c6cdc11bf05d90819",
+      "sha256": "041156a43f4d94495ad978acdf1ea43fa25df72e231122ee6d4e35c5c4d8c161",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 268434,
+      "alpha": false,
+      "promptRegistry": "docs/art/confirmed-proof-prompt.json",
+      "generator": "built-in image_gen",
+      "approval": "agent integration review; user final visual choice pending"
     }
   ]
 }

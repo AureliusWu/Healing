@@ -23,13 +23,13 @@ function allFinals(state = newGame(), found = new Map<string, GameState>()): Map
   }
   throw Error('unterminated');
 }
-it('round-trips every slot, three chapter starts, four final endings and all five illustrations', () => {
+it('round-trips every slot, three chapter starts, four final endings and all six illustrations', () => {
   const finals = [...allFinals().values()]; expect(finals).toHaveLength(4);
   for (const state of finals) rememberProgress(state, true);
   for (const [index, slot] of slots.entries()) writeSave(slot, finals[index]);
   const backup = createReadingBackup();
   expect(Object.keys(backup.slots)).toHaveLength(4); expect(Object.keys(backup.chapters)).toHaveLength(3);
-  expect(backup.memories.endings).toHaveLength(4); expect(backup.memories.gallery).toHaveLength(5);
+  expect(backup.memories.endings).toHaveLength(4); expect(backup.memories.gallery).toHaveLength(6);
   const imported = decodeProgressFile(JSON.stringify(backup)); values.clear(); applyProgressImport(imported);
   for (const [index, slot] of slots.entries()) expect(readSave(slot)?.state).toEqual(finals[index]);
   expect(createReadingBackup().memories).toEqual(backup.memories);

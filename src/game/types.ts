@@ -1,8 +1,8 @@
 export type Character = 'lin' | 'chen' | 'tang';
 export type Expression = 'neutral' | 'smile' | 'surprised' | 'worried' | 'hurt' | 'shy';
 export type Background = 'classroom' | 'campus' | 'clubroom' | 'home' | 'printshop' | 'riverbank';
-export type CgId = 'lin-page' | 'chen-rest' | 'tang-light' | 'shared-print' | 'proof';
-export type MusicId = 'rain' | 'window' | 'workshop' | 'distance' | 'evening' | 'after-rain';
+export type CgId = 'confirmed-proof' | 'lin-page' | 'chen-rest' | 'tang-light' | 'shared-print' | 'proof';
+export type MusicId = 'rain' | 'window' | 'workshop' | 'distance' | 'evening' | 'after-rain' | 'proof-confirmed';
 export type Ending = 'together' | 'letter' | 'quiet' | 'lin-final' | 'chen-final' | 'tang-final' | 'friends-final';
 export type Stats = { honesty: number; lin: number; chen: number };
 export type Line = { speaker: string; text: string; expression?: Expression };

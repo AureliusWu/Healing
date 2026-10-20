@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-20",
+  "project": "Healing",
+  "version": "1.2.0",
+  "status": "candidate_pending_current_CI",
+  "cgManifest": "docs/art/confirmed-proof-manifest.json",
+  "musicManifest": "docs/audio/proof-confirmed-score-manifest.json",
+  "tests": {
+    "local_logic_or_python": 74,
+    "passed": true,
+    "browser": "not executed locally: browser archive download was truncated",
+    "windows": "not executed locally; current CI required",
+    "humanListening": "pending",
+    "artFinalChoice": "pending"
+  },
+  "compatibility": "Stable scene/line IDs, choices, recorded lines and save identity retained",
+  "limits": "Earlier release evidence is historical, not validation for this candidate.",
+  "build": "passed",
+  "newCgAndMusicPrecached": true
+}

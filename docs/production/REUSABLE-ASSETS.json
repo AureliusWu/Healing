@@ -191,7 +191,7 @@
       "id": "procedural-web-audio",
       "kind": "tool",
       "reuse": "recipe",
-      "origin": "Original project melody/chord/WebAudio synthesis; adapt scene IDs, UI store and browser audio unlock",
+      "origin": "Original project scores, WebAudio and local OGG loop lifecycle; adapt scene IDs and provide/render the project-only OGG before integration",
       "sourceStatus": "not-applicable",
       "license": {
         "name": "MIT — original project code only",
@@ -207,19 +207,31 @@
           "role": "recipe",
           "path": "src/game/score.ts",
           "encoding": "text-lf",
-          "sha256": "ea32ee35a67c9bfee2b35ef3d3da382704500f0950108a37059811d621ac32c4"
+          "sha256": "bcbd3bd16d18e3d85997b8c80414a3b1aa58ce4af4e50703de074feb45eadce4"
         },
         {
           "role": "recipe",
           "path": "src/game/music.ts",
           "encoding": "text-lf",
-          "sha256": "28e22c08cfcfd1630c78ca240edce439d9ab73d266892706e877d4f7fe8793f3"
+          "sha256": "74cae942482c0c3828e67e5ab98e9da7fe573bf4183bd985ddd414ad05eaa5bc"
         },
         {
           "role": "recipe",
           "path": "src/game/types.ts",
           "encoding": "text-lf",
-          "sha256": "1701102db77dc99af4f0fc98342df7bd997378f1af55bb908385bbb9f31b7e67"
+          "sha256": "2f56a939e7dbbb2ace5079ae706d6f774c7465990f2f2290424e4bb3e4dee177"
+        },
+        {
+          "role": "recipe",
+          "path": "src/game/sceneLoop.ts",
+          "encoding": "text-lf",
+          "sha256": "eca0391a912f5e9d27e16f3c3f1d8c2aa9d92b2f793fe7b34e1a96ef929e9872"
+        },
+        {
+          "role": "recipe",
+          "path": "tools/audio/render_scene_score.py",
+          "encoding": "text-lf",
+          "sha256": "7423fb45f6e2a61f840859dd83ff1eda21e1484c73cb736ac82700127aa22cd0"
         }
       ]
     },
@@ -1046,6 +1058,70 @@
           "path": "src/history-search.css",
           "encoding": "text-lf",
           "sha256": "36f9ef9eaac0a463dbadf21a68ebd85ceed268f566ceacc0b937fe23921a3b1b"
+        }
+      ]
+    },
+    {
+      "id": "cg-confirmed-proof",
+      "kind": "art",
+      "reuse": "project-only",
+      "origin": "Built-in image_gen; exact request and project-owned reference saved",
+      "sourceStatus": "present",
+      "licenseNote": "AI-generated project-only artwork; platform output terms apply",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/art/cg-confirmed-proof.webp",
+          "encoding": "binary",
+          "sha256": "041156a43f4d94495ad978acdf1ea43fa25df72e231122ee6d4e35c5c4d8c161"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/cg/scene-20261020/confirmed-proof.png",
+          "encoding": "binary",
+          "sha256": "edb98ee18e20259772c73d556709512d7019ce56e8b4966c6cdc11bf05d90819"
+        },
+        {
+          "role": "prompt",
+          "path": "docs/art/confirmed-proof-prompt.json",
+          "encoding": "text-lf",
+          "sha256": "b27589274e28f7a111f66f045e6264b9043c310f565af4db5e87be64f68d2107"
+        }
+      ],
+      "formatMetadata": {
+        "dimensions": [
+          1672,
+          941
+        ],
+        "bytes": 268434,
+        "alpha": false
+      }
+    },
+    {
+      "id": "scene-score-proof-confirmed",
+      "kind": "audio",
+      "reuse": "project-only",
+      "origin": "Original program composition with versioned note recipe; no music model or sampled recording",
+      "sourceStatus": "present",
+      "licenseNote": "Project-original score; listening review pending",
+      "files": [
+        {
+          "role": "runtime",
+          "path": "public/audio/bgm/proof-confirmed.ogg",
+          "encoding": "binary",
+          "sha256": "ca6bdbedc44d573940c23008bf8645a792802bf3b754a7801e1e80c143a725e6"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/audio/scene-20261020/proof-confirmed.wav",
+          "encoding": "binary",
+          "sha256": "c2cb729489544f9d380d6c61d49b43dd0b0d87556f4f04aebfebf31b8fefc2c2"
+        },
+        {
+          "role": "recipe",
+          "path": "docs/audio/proof-confirmed-score.json",
+          "encoding": "text-lf",
+          "sha256": "49ab0650ac7169a50279831f00ee1d3b10c3eda9db0cc4dda2cbf43f37e2b4d3"
         }
       ]
     }

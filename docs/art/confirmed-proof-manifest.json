@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "confirmed-proof",
+  "source": "assets_source/cg/scene-20261020/confirmed-proof.png",
+  "sourceSha256": "edb98ee18e20259772c73d556709512d7019ce56e8b4966c6cdc11bf05d90819",
+  "sourceDimensions": [
+    1672,
+    941
+  ],
+  "output": "public/art/cg-confirmed-proof.webp",
+  "sha256": "041156a43f4d94495ad978acdf1ea43fa25df72e231122ee6d4e35c5c4d8c161",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "bytes": 268434,
+  "prompt": "docs/art/confirmed-proof-prompt.json",
+  "promptSha256": "b27589274e28f7a111f66f045e6264b9043c310f565af4db5e87be64f68d2107",
+  "references": [
+    {
+      "path": "public/art/cg-proof.webp",
+      "sha256": "7d4dd8cb72158374254288275417f6619a65d52240b3c8b079f43264e39cbbcf"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "license": "AI-generated project-only artwork; platform output terms apply",
+  "integrationReview": "full generated image inspected; scene and UI cropping pending",
+  "humanApproval": "pending",
+  "processing": "RGB encoding; preserve original dimensions"
+}

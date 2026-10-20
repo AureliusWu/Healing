@@ -70,7 +70,7 @@ test('all four final illustrations, ending rereads and offline memories retain a
   }
   await page.getByRole('button', { name: '回忆', exact: true }).click();
   await expect(page.locator('.edition-memories')).toContainText('最终结局 4 / 4');
-  await expect(page.locator('.cg-card:enabled')).toHaveCount(5);
+  await expect(page.locator('.cg-card:enabled')).toHaveCount(6);
   await page.locator('.cg-card').first().click();
   await expect.poll(() => page.locator('.cg-view img').evaluate((image: HTMLImageElement) => image.naturalWidth >= 1600)).toBe(true);
   await page.getByRole('button', { name: '返回回忆手册' }).click();
@@ -85,7 +85,7 @@ test('fresh devices keep chapters, final memories and pictures locked', async ({
   await expect(page.locator('.chapter-card:disabled')).toHaveCount(2);
   await page.getByRole('button', { name: '关闭', exact: true }).click();
   await page.getByRole('button', { name: '回忆', exact: true }).click();
-  await expect(page.locator('.cg-card:disabled')).toHaveCount(5);
+  await expect(page.locator('.cg-card:disabled')).toHaveCount(6);
   await expect(page.locator('.memory-replay')).toHaveCount(0);
   await expect(page.locator('.score-card:enabled')).toHaveCount(1);
 });
@@ -106,7 +106,7 @@ test('portrait and short landscape ending controls fit and hiding UI never advan
   await expect(button).toBeInViewport();
 });
 
-test('six scores produce bounded audible output in one context and audition restores settings', async ({ page }) => {
+test('seven scores produce bounded audible output in one context and audition restores settings', async ({ page }) => {
   await page.addInitScript(() => {
     const Native = window.AudioContext;
     const contexts: AudioContext[] = [], meters: AnalyserNode[] = [];
@@ -126,7 +126,7 @@ test('six scores produce bounded audible output in one context and audition rest
   await seed(page, replay([...earlierChoices, { sceneId: 'c3-after-school', choiceId: 'chen' }], 'end-chen-final', 0));
   await page.getByRole('button', { name: '返回标题', exact: true }).click();
   await page.getByRole('button', { name: '回忆', exact: true }).click();
-  await expect(page.locator('.score-card:enabled')).toHaveCount(6);
+  await expect(page.locator('.score-card:enabled')).toHaveCount(7);
   for (const button of await page.locator('.score-card').all()) {
     await button.click();
     await expect(button).toHaveAttribute('aria-pressed', 'true');
@@ -141,4 +141,36 @@ test('six scores produce bounded audible output in one context and audition rest
   await page.getByRole('button', { name: '关闭', exact: true }).click();
   await expect.poll(() => page.evaluate(() => (window as unknown as { editionAudio: { contexts: AudioContext[] } }).editionAudio.contexts[0].state)).toBe('suspended');
   expect(await page.evaluate(() => JSON.parse(localStorage.getItem('moist-healing:v1:settings')!).music)).toBe(false);
+});
+
+test('confirmed proof stays in its exact scene through rotation and an offline reload', async ({ page, context }, info) => {
+  const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
+  let confirmed = newGame();
+  while (confirmed.sceneId !== 'c2-confirm') {
+    const scene = getScene(confirmed);
+    confirmed = scene.choices && confirmed.line === scene.lines.length - 1 ? choose(confirmed, scene.choices[0].id)
+      : scene.continuation && confirmed.line === scene.lines.length - 1 ? continueStory(confirmed) : advance(confirmed);
+  }
+  await seed(page, confirmed);
+  await expect(page.locator('.scene-event')).toHaveAttribute('data-cg', 'confirmed-proof');
+  await expect(page.locator('.scene-character')).toHaveCount(0);
+  for (const [width, height] of [[1440, 900], [412, 915], [568, 320], [640, 360], [844, 390], [915, 412]]) {
+    await page.setViewportSize({ width, height });
+    await expect(page.locator('.scene-event')).toHaveJSProperty('naturalWidth', 1672);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  await expect.poll(() => page.evaluate(() => !!navigator.serviceWorker.controller)).toBe(true);
+  await context.setOffline(true); await page.reload();
+  await page.getByRole('button', { name: '继续上次的故事', exact: true }).click();
+  await expect(page.locator('.game-screen')).toHaveAttribute('data-scene', 'c2-confirm');
+  await expect(page.locator('.scene-event')).toHaveAttribute('data-cg', 'confirmed-proof');
+  const duration = await page.evaluate(async () => {
+    const audio = new AudioContext();
+    try { return (await audio.decodeAudioData(await (await fetch('./audio/bgm/proof-confirmed.ogg')).arrayBuffer())).duration; }
+    finally { await audio.close(); }
+  });
+  expect(duration).toBeGreaterThan(45); expect(duration).toBeLessThan(47);
+  await mkdir('test-results/previews', { recursive: true });
+  await page.screenshot({ path: `test-results/previews/confirmed-proof-offline-${info.project.name}.png` });
+  expect(errors).toEqual([]); await context.setOffline(false);
 });

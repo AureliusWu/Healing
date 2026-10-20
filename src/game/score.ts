@@ -1,7 +1,8 @@
 import type { MusicId } from './types';
 
-// Six original MIDI motifs and harmonic progressions; no external recordings.
-export const scoreInfo: Record<MusicId, { title: string; description: string; beat: number; melody: number[]; chords: number[][] }> = {
+// Original procedural motifs plus a rendered project-owned scene score.
+export const scoreInfo: Record<MusicId, { title: string; description: string; beat: number; melody: number[]; chords: number[][]; file?: string }> = {
+  'proof-confirmed': { title: '七点四十', description: '清晨逐项看过，才把这一份样张送出。', beat: .7, melody: [], chords: [], file: 'audio/bgm/proof-confirmed.ogg' },
   rain: { title: '九月的雨', description: '慢一点，让没说完的话停在窗边。', beat: .8, melody: [62,69,66,73,71,66,64,69,62,66,69,74,73,69,66,64], chords: [[50,57,62,66],[47,54,59,62],[43,50,55,59],[45,52,57,61]] },
   window: { title: '靠窗的空位', description: '钢笔、书页，与邻座小声的回应。', beat: .68, melody: [67,71,74,0,76,74,71,69,67,0,69,71,74,71,69,0], chords: [[43,55,59,62],[40,52,55,59],[48,55,60,64],[50,57,62,66]] },
   workshop: { title: '一起把纸折好', description: '一段轻快节拍，留给旧刊室的下午。', beat: .48, melody: [72,76,79,76,74,0,71,74,69,72,76,0,67,71,74,0], chords: [[48,55,60,64],[43,55,59,62],[45,57,60,64],[41,53,57,60]] },

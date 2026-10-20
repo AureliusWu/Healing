@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "tool": "built-in image_gen",
+  "intent": "new event CG using project style reference",
+  "prompt": "Use case: illustration-story. Asset type: full-screen 16:9 event CG for Chinese school visual novel Healing. Reference image 1 establishes this game's detailed clean 2D linework, cream paper, muted mint green and warm daylight. New event: final proof approval on a classroom desk at 07:40 in the morning. A folded school magazine proof opened on a mint green desktop, beside a short handwritten checklist represented ONLY by simple horizontal line marks and empty/checked boxes, a pencil, and a small USB drive partially placed into a plain kraft paper bag. Show one white-and-dark-green school jacket cuff and a single anatomically correct relaxed hand holding down the proof at its edge, no faces. Do not reproduce the old missing-line double proof: this is a newly checked version ready to send. Soft clean morning light with window shadows, not sunset, no printer machinery. Main paper, checklist and USB in upper middle 60 percent, calm lower quarter for dialogue UI. Clear thin anime lines, flat colors, restrained two-level cel shading, everyday realistic desk perspective. No readable text, no titles, no logos, no UI. Wide 16:9.",
+  "references": [
+    "public/art/cg-proof.webp"
+  ],
+  "humanApproval": "pending"
+}
