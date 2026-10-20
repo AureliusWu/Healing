@@ -1,0 +1,340 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "date": "2026-10-20",
+  "status": "raw_sources_saved_runtime_integration_pending",
+  "newCharacterCount": 9,
+  "newCgCount": 3,
+  "newBackgroundCount": 4,
+  "assets": [
+    {
+      "id": "luheng-layout-only",
+      "kind": "reference",
+      "active": false,
+      "source": "assets_source/references/full-20261020/luheng-layout-only.png",
+      "sourceBytes": 1538008,
+      "gitBlobSha": "13a03325f7b41fb073b1a3765d7c20bcf696a12c",
+      "prompt": "Layout reference only; original NetLove Lu Heng generation is preserved in that project's source manifest.",
+      "references": [],
+      "tool": "image_gen",
+      "status": "superseded_or_reference_source_preserved"
+    },
+    {
+      "id": "hechuan-draft-v1",
+      "kind": "atlas",
+      "active": false,
+      "source": "assets_source/characters/full-20261020/hechuan-expressions-v1.png",
+      "sourceBytes": 1744888,
+      "gitBlobSha": "28b85ddc555c6b09fd3e64a29cd8baa66c2cab16",
+      "prompt": "Use case: illustration-story. Asset type: original visual novel transparent character expression atlas. The input image is ONLY a visual style and school-uniform reference; create a DIFFERENT male character, not that girl. Create He Chuan, the male classmate and friend of the 17-year-old player character Cheng Yu in the original Chinese school visual novel Moist Healing. Same age group as the high-school cast, ordinary teen boy proportions, short slightly untidy black hair, dark brown eyes, broad friendly eyebrows, relaxed athletic shoulders. Keep the school's EXACT casual uniform visual system from the reference: roomy ivory and forest-green zip-front athletic jacket with two slim white sleeve stripes, plain white crewneck shirt, navy long athletic trousers with two slim light side stripes, plain ivory sneakers. A plain navy backpack with a tiny worn basketball-shaped zipper charm hangs on one shoulder. Hands naturally relaxed; no basketball or other new prop. ONE 3-column by 2-row atlas of SIX clearly separated FULL BODY drawings of the SAME boy, identical pose, outfit, scale and lighting. Top row: neutral, warm casual smile, surprised. Bottom row: worried, quietly hurt/disappointed, slightly shy with both eyes open. Thin clean linework, flat colors, two-level cel shading matching the existing heroine reference; no painterly texture or glossy 3D. Complete heads, hands, trouser hems and both shoes inside each cell, generous transparent margins and broad transparent row/column gutters. True transparent RGBA background, no floor, shadows, glow, checkerboard, frame lines, text or labels. Landscape canvas approximately 2160 by 1440 pixels. Normal modest school clothing, nonsexual.",
+      "references": [
+        "public/art/lin.webp"
+      ],
+      "tool": "image_gen",
+      "status": "superseded_or_reference_source_preserved"
+    },
+    {
+      "id": "hechuan-draft-v2",
+      "kind": "atlas",
+      "active": false,
+      "source": "assets_source/characters/full-20261020/hechuan-expressions.png",
+      "sourceBytes": 1656613,
+      "gitBlobSha": "d498907fcf46446ef6a4b208fa07e3fff736c78e",
+      "prompt": "Use case: illustration-story. Asset type: original visual novel transparent character expression atlas. The input image is ONLY a visual style and school-uniform reference; create a DIFFERENT male character, not that girl. Create He Chuan, the male classmate and friend of the 17-year-old player character Cheng Yu in the original Chinese school visual novel Moist Healing. Same age group as the high-school cast, ordinary teen boy proportions, short slightly untidy black hair, dark brown eyes, broad friendly eyebrows, relaxed athletic shoulders. Keep the school's EXACT casual uniform visual system from the reference: roomy ivory and forest-green zip-front athletic jacket with two slim white sleeve stripes, plain white crewneck shirt, navy long athletic trousers with two slim light side stripes, plain ivory sneakers. A plain navy backpack with a tiny worn basketball-shaped zipper charm hangs on one shoulder. Hands naturally relaxed; no basketball or other new prop. ONE 3-column by 2-row atlas of SIX clearly separated FULL BODY drawings of the SAME boy, identical pose, outfit, scale and lighting. Top row: neutral, warm casual smile, surprised. Bottom row: worried, quietly hurt/disappointed, slightly shy with both eyes open. Thin clean linework, flat colors, two-level cel shading matching the existing heroine reference; no painterly texture or glossy 3D. Complete heads, hands, trouser hems and both shoes inside each cell, generous transparent margins and broad transparent row/column gutters. True transparent RGBA background, no floor, shadows, glow, checkerboard, frame lines, text or labels. Landscape canvas approximately 2160 by 1440 pixels. Normal modest school clothing, nonsexual. CRITICAL LAYOUT CORRECTION: Preserve exactly this new boy's identity and uniform from the generated six-figure reference. The previous atlas cropped the entire lower row's legs. Recompose all six figures MUCH SMALLER, each no more than 410 pixels tall on a roomy 1536x1024 canvas. Top-row heads below y=30 and feet above y=470; bottom-row heads below y=560 and feet above y=980. Include complete trousers and both sneakers for EVERY bottom-row figure. At least 25px transparent margins above all hair and below every shoe. No body part touches the outer canvas. Six equal-sized full-body figures, identical scale and stance. Keep real alpha and do not add glows.",
+      "references": [
+        "public/art/lin.webp",
+        "assets_source/characters/full-20261020/hechuan-expressions-v1.png"
+      ],
+      "tool": "image_gen",
+      "status": "superseded_or_reference_source_preserved"
+    },
+    {
+      "id": "hechuan",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/hechuan-expressions-v3.png",
+      "sourceBytes": 1592893,
+      "gitBlobSha": "f1f5f619b3e883f56b5ca35bbb1ece2557f519cc",
+      "prompt": "Use case: identity-preserve. Asset: six-expression transparent visual novel character atlas. Correct the LAYOUT ONLY of image 1, keeping exactly the same boy, facial anatomy, navy backpack, basketball zipper charm, ivory-and-forest-green school jacket, white shirt, navy long trousers with double side stripes and ivory shoes. ALL SIX existing drawings must shrink substantially, to about 80% of their current height, and be placed on a roomier consistent 3-by-2 layout. Every figure must be exactly the SAME HEIGHT AND SCALE as every other figure. Use image 2 ONLY as a reference for the broad transparent gutters and same-sized complete full bodies; do not copy that adult man's identity or outfit. Top-row six figures? Precisely THREE in each row, total SIX, same expressions as image 1: neutral, smile, surprised; worried, hurt, shy. Every head and both shoes must remain fully inside its own cell, with a broad transparent gap above and below each full figure. A full empty horizontal gutter about 90px high separates the two rows. Outer transparent margins at least 35px. No body parts or shoes touch the outer image borders. Keep thin clean cel-shaded line art. True transparent RGBA background; no extra people, no text, no labels, no frame lines, no shadows, no glow.",
+      "references": [
+        "assets_source/characters/full-20261020/hechuan-expressions.png",
+        "assets_source/references/full-20261020/luheng-layout-only.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "chengyu-draft-v1",
+      "kind": "atlas",
+      "active": false,
+      "source": "assets_source/characters/full-20261020/chengyu-expressions.png",
+      "sourceBytes": 1597591,
+      "gitBlobSha": "1a7df27ca69393c2767f30bec3aacc61ff27c5da",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. Cheng Yu, the 17-year-old male high-school player character. Different from He Chuan: neat dark chestnut short hair with a side fringe, brown eyes, slim ordinary high-school-boy proportions, reserved face. Exact school uniform: ivory and forest-green loose zip-front sports jacket with two thin white sleeve stripes, white crewneck T-shirt, navy long sports trousers with two pale side stripes, plain ivory sneakers. No hair clip, no jewelry, no bag or props, hands naturally relaxed. Normal modest school clothing, nonsexual. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, slightly shy with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/lin.webp",
+        "assets_source/characters/full-20261020/hechuan-expressions-v3.png"
+      ],
+      "tool": "image_gen",
+      "status": "superseded_or_reference_source_preserved"
+    },
+    {
+      "id": "teacher",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/teacher-expressions.png",
+      "sourceBytes": 1528634,
+      "gitBlobSha": "75a4eb139ae760e15d035b1f197b850aa3f96dce",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. The homeroom teacher, a Chinese middle-aged adult man, about forty, short neat black hair with slightly receding temples, thin rectangular glasses, dark brown eyes, ordinary mature face with light smile lines. Light blue long-sleeve collared shirt, charcoal trousers, black simple leather shoes. Shirt sleeves down, relaxed professional posture, holding a thin plain attendance folder against his torso in his left hand. No badges, insignia, logos or new story text. Facial emotions are adult professional: replace shy with mild apologetic embarrassment, no romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/lin.webp",
+        "assets_source/characters/full-20261020/hechuan-expressions-v3.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "classmate-draft-v1",
+      "kind": "atlas",
+      "active": false,
+      "source": "assets_source/characters/full-20261020/classmate-expressions.png",
+      "sourceBytes": 1616734,
+      "gitBlobSha": "2dd3033756a8ea5a0d9c394aa9ed878364f91f49",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. An unnamed male classmate, an ordinary 17-year-old Chinese high-school boy. Distinct from He Chuan and Cheng Yu: short straight black crew cut, a rounder friendly face, dark brown eyes, average teen build. The exact ivory-and-forest-green loose school sports jacket with two white sleeve stripes, white crewneck shirt, navy long sports trousers with twin pale side stripes, ivory sneakers. Both hands relaxed, no bags or props, no name printed. Normal modest everyday school clothing, nonsexual. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, slightly shy with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/lin.webp",
+        "assets_source/characters/full-20261020/hechuan-expressions-v3.png"
+      ],
+      "tool": "image_gen",
+      "status": "superseded_or_reference_source_preserved"
+    },
+    {
+      "id": "mother",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/mother-expressions.png",
+      "sourceBytes": 1441632,
+      "gitBlobSha": "c943cba6d103a75d05ec8dd3cb07bdca33ed5c33",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. Cheng Yu's mother, a Chinese middle-aged adult woman, about forty-two, short dark brown bob tucked behind both ears, brown eyes, subtle natural smile lines and a practical tired-but-caring expression. Plain muted dusty-blue cardigan, ivory cotton blouse, dark gray straight trousers, low comfortable black flats. Hands loosely folded near her waist, no props, no apron, no jewelry or logos. Normal modest everyday clothing. Expression six should be mildly embarrassed/apologetic, never romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/lin.webp",
+        "assets_source/characters/full-20261020/hechuan-expressions-v3.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "printteacher",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/printteacher-expressions.png",
+      "sourceBytes": 1556713,
+      "gitBlobSha": "896f12b34fa8f4f75ddb601d599bde1e97cb3b3d",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. The school's print-room teacher, an ordinary Chinese adult man around fifty, short salt-and-pepper hair, rectangular reading glasses, sturdy average build, warm practical face and mild smile lines. Muted gray-green work cardigan over a cream collared shirt, navy straight trousers, plain brown comfortable shoes. Hold a small neat stack of blank off-white paper against the left side of his torso, right hand relaxed. No words or logos. Professional mild expressions, no romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/lin.webp",
+        "assets_source/characters/full-20261020/hechuan-expressions-v3.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "linfather",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/linfather-expressions.png",
+      "sourceBytes": 1440987,
+      "gitBlobSha": "fe59b2b9cc3982efa9a134f565e3797382a934cb",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. Lin Jianxia's father, an ordinary middle-aged Chinese man around forty-five. Short dark brown hair with a firm side part, dark brown eyes, a somewhat narrow mature face with straight eyebrows, average build. Plain dark navy unbranded casual jacket open over a light gray collared shirt, charcoal trousers, black comfortable shoes. Hands relaxed, no props, no jewelry, no logos. Six expressions remain restrained adult family-conversation emotions; no romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/lin.webp",
+        "assets_source/characters/full-20261020/hechuan-expressions-v3.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "chenmother",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/chenmother-expressions.png",
+      "sourceBytes": 1496686,
+      "gitBlobSha": "8a36a96d4a7d707476c2f186a10fdc3dc11ecc65",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. Chen Zhiyao's mother, an ordinary middle-aged Chinese adult woman around forty-three. Chestnut-brown hair tied in a practical mid-height ponytail, brown eyes, an oval mature face with subtle smile lines, average build. Plain beige cardigan over a muted lavender blouse, navy straight trousers and comfortable dark brown flats. Hands relaxed together, no props, no jewelry or logos. Restrained adult family-conversation emotions, never romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/lin.webp",
+        "assets_source/characters/full-20261020/hechuan-expressions-v3.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "xumother",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/xumother-expressions.png",
+      "sourceBytes": 1387325,
+      "gitBlobSha": "87fb2bc647c09e967113df7a55f124e952cbf088",
+      "prompt": "Use case: illustration-story. Create a new original supporting character for the existing Chinese school visual novel Moist Healing. Image 1 provides ONLY the established thin clean linework, flat colors, simple two-level cel shading and school-uniform construction, not the new person's face. Xu Tang's mother, an ordinary middle-aged Chinese adult woman around forty-three. Dark brown shoulder-length hair tied into a low bun, brown eyes, a longer mature face with fine smile lines, average build. Plain muted olive long-sleeve cardigan over an off-white blouse, dark charcoal straight trousers, simple black flat shoes. Hands naturally relaxed, no camera or new props, no jewelry or logos. Restrained family-conversation emotions, no romantic blush. ONE 3-column by 2-row expression atlas with exactly SIX separate, equal-sized, SMALL full-body standing figures of the SAME person in exactly the same pose/outfit/scale. All head, hands, legs and both complete shoes visible. Top row neutral, smile, surprised; bottom row worried, quietly hurt/disappointed, mildly apologetic/embarrassed with eyes open. Landscape 1536x1024 composition, figures no taller than about 420px, large empty transparent gutter about 85px between the rows and 45px outer margins. No body touches a canvas edge. Match the clear full-body layout of the second reference only; never copy that person's identity or clothing. True transparent RGBA everywhere behind the figures; no floor, glow, cast shadow, gradient, frame, grid, labels or text.",
+      "references": [
+        "public/art/lin.webp",
+        "assets_source/characters/full-20261020/hechuan-expressions-v3.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "chengyu",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/chengyu-expressions-v2.png",
+      "sourceBytes": 1597032,
+      "gitBlobSha": "49e48b387e97d6557c12fc131a4c80a45a938a5a",
+      "prompt": "Edit the supplied transparent six-expression atlas of Cheng Yu, the seventeen-year-old Chinese male first-person school character. Across ALL SIX figures change ONLY his hairstyle and a small amount of facial identity: neat DARK CHESTNUT short hair with a clear left side part and gently flattened swept fringe exposing part of the forehead, no fluffy black spikes or long central wisps; slightly narrower face and straighter eyebrows. He must be visibly distinct from the tousled-haired character He Chuan. Preserve all six existing facial emotions, eyes open in the sixth expression, exact body pose, height, positions, shoes, modest ivory/dark-green sports school uniform, hands, spacing and true RGBA transparency. Keep the 1536x1024 3x2 atlas with the same full-body figures and complete shoes; do not enlarge or crop. Fine established linework and two-level cel shading. No background, haze, halo, new props, labels or text.",
+      "references": [
+        "assets_source/characters/full-20261020/chengyu-expressions.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "classmate",
+      "kind": "atlas",
+      "active": true,
+      "source": "assets_source/characters/full-20261020/classmate-expressions-v2.png",
+      "sourceBytes": 1618408,
+      "gitBlobSha": "9de9810aec60f97f6a27e5ff4d7559f2e5ddeb91",
+      "prompt": "Edit the supplied transparent six-expression atlas of an unnamed seventeen-year-old male Chinese school classmate. Across ALL SIX figures change ONLY the hair and facial identity so he is visibly distinct from He Chuan and Cheng Yu: a SHORT CLOSE CREW CUT, dark brown-black hair cropped above both ears, a clean straight low fringe showing most of the forehead, a visibly rounder youthful face, soft straight eyebrows. No fluffy long fringe or spikes. Preserve all six existing facial emotions, exact body pose, height, positions, complete shoes, modest ivory/dark-green sports school uniform, all hands, atlas spacing and true RGBA transparency. Keep the 1536x1024 3x2 atlas with six small full-body figures, no enlargement or edge crop. Fine established linework and two-level cel shading. No scenery, haze, halo, extra props, labels or text.",
+      "references": [
+        "assets_source/characters/full-20261020/classmate-expressions.png"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "window-open",
+      "kind": "cg",
+      "title": "窗还开着",
+      "active": true,
+      "binding": {
+        "sceneId": "end-together",
+        "lineIndex": 9
+      },
+      "source": "assets_source/scenes/full-20261020/cg-window-open.png",
+      "sourceBytes": 2373774,
+      "gitBlobSha": "79caafb30782214d008a7be1881cbeff7fcea187",
+      "prompt": "Use case: illustration-story. Create one new original event/background illustration for the established Chinese school visual novel Moist Healing. In the school literature club the next afternoon, Lin Jianxia has opened her manuscript herself and Chen Zhiyao has asked before reading. First-person seated view across a wooden desk toward exactly TWO seventeen-year-old Chinese schoolgirls: Lin on the left with shoulder-length dark brown hair, her own left mint-green rectangular hair clip and brown eyes; Chen on the right with a chestnut high ponytail, ivory scrunchie and brown eyes. Both wear the exact ivory and dark green zip sports uniform with twin sleeve stripes, white T-shirts and navy trousers, matching their identity references. Three loose manuscript pages and one open beige notebook lie between them. Lin's hand is withdrawing from the page, just touching the edge of the viewer's ivory-green uniform sleeve in the lower foreground; a fleeting quietly surprised look, restrained first mutual affection, no grabbing or romantic pose. Chen is naturally studying the manuscript, a binder clip beside her hand. A narrow open window and soft afternoon sun behind, damp desk corner, the same old green bookcase. No third girl, no extra foreground face. Keep faces, hands and manuscript above the lower 25% reading area. Landscape 16:9 composition filling the whole canvas. Important subjects within the central 85% with comfortable margins, bottom quarter relatively quiet. Clean fine linework, restrained 2D cel coloring and natural perspective matching the supplied references. No UI, panels, captions, logos, watermarks, legible text or border. Ordinary age-appropriate school life.",
+      "references": [
+        "public/art/lin.webp",
+        "public/art/chen.webp",
+        "public/art/clubroom.webp"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "unsigned-letter",
+      "kind": "cg",
+      "title": "一封没有署名的信",
+      "active": true,
+      "binding": {
+        "sceneId": "end-letter",
+        "lineIndex": 11
+      },
+      "source": "assets_source/scenes/full-20261020/cg-unsigned-letter.png",
+      "sourceBytes": 2297631,
+      "gitBlobSha": "4e9f990c3424eb213c9b952001476d4f42204013",
+      "prompt": "Use case: illustration-story. Create one new original event/background illustration for the established Chinese school visual novel Moist Healing. Intimate but ordinary school desk scene in a Chinese high-school classroom, late September morning. First-person view from Cheng Yu's seat. Exactly one seventeen-year-old girl Lin Jianxia sits by the open window on the opposite left: shoulder-length dark brown hair, her own left mint-green rectangular hair clip, brown eyes, ivory and dark green school sports jacket with twin sleeve stripes, white T-shirt and navy trousers. She looks down with a small unforced smile toward a folded sheet that has just been pushed to the middle of the desk. Two hands with school-uniform sleeves in the near foreground stop short of the sheet; no touching bodies. Soft green ink-like short marks on the sheet, deliberately no readable wording. The paper is the main subject at mid-height; a report card is tucked under a beige notebook, muted classroom desks in the background, warm gray daylight after rain, quiet shy friendship, no heart symbols or romantic staging. Preserve the exact face, hair clip side and uniform from reference 1; reference 2 gives only the drawing and room-material style. Landscape 16:9 composition filling the whole canvas. Important subjects within the central 85% with comfortable margins, bottom quarter relatively quiet. Clean fine linework, restrained 2D cel coloring and natural perspective matching the supplied references. No UI, panels, captions, logos, watermarks, legible text or border. Ordinary age-appropriate school life.",
+      "references": [
+        "public/art/lin.webp",
+        "public/art/clubroom.webp"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "blank-page",
+      "kind": "cg",
+      "title": "留白",
+      "active": true,
+      "binding": {
+        "sceneId": "end-quiet",
+        "lineIndex": 11
+      },
+      "source": "assets_source/scenes/full-20261020/cg-blank-page.png",
+      "sourceBytes": 2100670,
+      "gitBlobSha": "d949e21afd4ce6435013d9faa197a962df87e838",
+      "prompt": "Use case: illustration-story. Create one new original event/background illustration for the established Chinese school visual novel Moist Healing. A new still-life event illustration, early-morning desk in an ordinary Chinese high-school classroom after rain. First-person close view of a math textbook opened beside a manuscript sheet turned to its mostly blank reverse. There is just ONE small short line of indistinct gray handwriting near the top; leave the rest of the page empty, no readable words. A warm rice ball in a simple unbranded clear bag rests at the right beside the desk, an umbrella leans at the left edge, and the window behind is open a little. Far classroom background is soft and empty, no visible people, no faces or portraits. Slight rain haze outside, gentle morning green-gray light, a quiet unresolved but caring mood. The paper, rice ball and the open window should each be readable, above the lower reading area. Use only the provided image's clean linework, flat colors and simple cel shadows, not its characters or actual arrangement. Landscape 16:9 composition filling the whole canvas. Important subjects within the central 85% with comfortable margins, bottom quarter relatively quiet. Clean fine linework, restrained 2D cel coloring and natural perspective matching the supplied references. No UI, panels, captions, logos, watermarks, legible text or border. Ordinary age-appropriate school life.",
+      "references": [
+        "public/art/cg-shared-print.webp"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "corridor",
+      "kind": "background",
+      "title": "走廊里的排名",
+      "active": true,
+      "source": "assets_source/scenes/full-20261020/corridor.png",
+      "sourceBytes": 2531161,
+      "gitBlobSha": "4c4a3b601bb5f055fb3c335dda0ec6a8472b7a3c",
+      "prompt": "Use case: illustration-story. Create one new original event/background illustration for the established Chinese school visual novel Moist Healing. Empty interior corridor in Jiangcheng Seventh High School, a contemporary ordinary Chinese public high school in September after rain. Fixed eye-level medium-wide view along the third-floor teaching corridor: ivory walls, dark mint green lower wall paint, gray terrazzo floor, tall classroom windows on one side and a notice board on the other with plain white ranking sheets pinned neatly behind clear glass. Sheets contain only tiny indistinct gray rows, no readable names, grades or numbers. A damp cloth rests on a low bucket beside the board, classroom door and muted camphor trees through windows, cool overcast recess daylight, real modest school architecture rather than fantasy academy. Leave a broad uncluttered center and lower quarter for transparent character sprites and the dialogue UI. Absolutely no people or human silhouettes. Match the existing illustrated room's thin clear lines, flat painted color blocks and restrained simple shadows, no photorealism. Landscape 16:9 composition filling the whole canvas. Important subjects within the central 85% with comfortable margins, bottom quarter relatively quiet. Clean fine linework, restrained 2D cel coloring and natural perspective matching the supplied references. No UI, panels, captions, logos, watermarks, legible text or border. Ordinary age-appropriate school life.",
+      "references": [
+        "public/art/clubroom.webp"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "rain-eaves",
+      "kind": "background",
+      "title": "雨檐下",
+      "active": true,
+      "source": "assets_source/scenes/full-20261020/rain-eaves.png",
+      "sourceBytes": 2479400,
+      "gitBlobSha": "98dc815462f080a513fbd19d66926403ad1b885a",
+      "prompt": "Use case: illustration-story. Create one original new 16:9 background for the Chinese school visual novel Moist Healing. An empty teaching-building entrance and broad covered rain eaves at Jiangcheng Seventh High School in September at dusk. Eye-level view from the dry shelter: simple gray concrete columns, cream walls with a dark mint-green lower band, closed metal classroom stairwell door to one side, thin rain pouring from a plain corrugated canopy beyond. Wet gray paving and camphor trees in the school courtyard, subdued orange-gray evening sky, a shallow puddle outside the dry line, no people. The foreground shelter is wide enough for three ordinary students to stand; keep center and lower quarter open for character sprites and reading UI. Ordinary contemporary Chinese public-school architecture, no grand fantasy campus. Match only the supplied image's thin clean linework, flat colors and restrained simple cel shadows. Full landscape canvas, no border, UI, caption, watermark, photorealism or detailed extra characters.",
+      "references": [
+        "public/art/clubroom.webp"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "bus-stop",
+      "kind": "background",
+      "title": "回家的电话",
+      "active": true,
+      "source": "assets_source/scenes/full-20261020/bus-stop.png",
+      "sourceBytes": 2761475,
+      "gitBlobSha": "e285eb4c3d8bb9d1623aef14bb171c221ca06913",
+      "prompt": "Use case: illustration-story. Create one original new 16:9 background for the Chinese school visual novel Moist Healing. An empty ordinary Chinese city bus stop outside a modest high-school gate after rain at 19:05 in late September. First-person eye level from under a simple glass-and-metal shelter: rain-specked transparent panel, narrow dry metal bench, a route panel with only indistinct gray rows and absolutely no readable characters or numbers. Wet road beyond, muted warm streetlights, a few distant apartment windows and camphor trees, school gate visible to one side without any text sign. Cool blue early-night atmosphere with a gentle warm shelter light, no people, buses, cars or human silhouettes. Leave the center and bottom quarter calm for a sprite and dialogue UI. Match only the supplied image's thin clean linework, flat colors and restrained simple cel shadows. Full landscape canvas, no border, UI, caption, watermark, photorealism or detailed extra characters.",
+      "references": [
+        "public/art/clubroom.webp"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    },
+    {
+      "id": "bus-interior",
+      "kind": "background",
+      "title": "后排的车窗",
+      "active": true,
+      "source": "assets_source/scenes/full-20261020/bus-interior.png",
+      "sourceBytes": 2183530,
+      "gitBlobSha": "33110a9ed179f85171beb0098114e9232a4cade9",
+      "prompt": "Use case: illustration-story. Create one original new 16:9 background for the Chinese school visual novel Moist Healing. Inside an ordinary Chinese city bus at rainy early night, viewed naturally from a seated passenger near the back. Empty blue-gray molded bus seats, yellow grab rails, a large rain-specked side window reflecting only the dim interior, distant warm road lights beyond glass. A simple unbranded dark school backpack rests on the near seat edge, no other props or visible people and no floating face in the glass. The bus has already closed its doors, quiet thoughtful ride home, cool blue-gray light and soft amber reflections, believable proportions and hand-drawn perspective. Avoid any advertisements, readable route names, logos, writing or display numbers. The lower quarter is low-detail for reading UI. Match only the supplied image's thin clean linework, flat colors and restrained simple cel shadows. Full landscape canvas, no border, UI, caption, watermark, photorealism or detailed extra characters.",
+      "references": [
+        "public/art/clubroom.webp"
+      ],
+      "tool": "image_gen",
+      "status": "source_saved_runtime_integration_pending"
+    }
+  ],
+  "limitations": [
+    "Local integration was interrupted by the disconnected authoring environment; its successful final build and next-version release are not claimed.",
+    "Three student leads retain their established assets; these files fill the other nine human roles.",
+    "Revised Cheng Yu and classmate identities are distinct. The first-person player sprite remains gallery-only. Phone/chat contacts must not appear physically."
+  ]
+}
