@@ -2,7 +2,7 @@ import { replay, sceneMap } from './engine';
 import type { Decision, GameState, Save, Settings } from './types';
 import { endingInfo } from '../story';
 
-export const DEFAULT_SETTINGS: Settings = { textSpeed: 32, autoDelay: 2200, music: true, volume: 0.2, reducedMotion: false, soundEffects: true, ambience: true };
+export const DEFAULT_SETTINGS: Settings = { voiceEnabled: true, voiceVolume: .8, textSpeed: 32, autoDelay: 2200, music: true, volume: 0.2, reducedMotion: false, soundEffects: true, ambience: true };
 export const KEY = 'moist-healing:v1';
 export const slots = ['auto', '1', '2', '3'] as const;
 export type Slot = typeof slots[number];
@@ -43,7 +43,7 @@ export function readSettings(): Settings {
     const value: unknown = raw ? JSON.parse(raw) : null;
     if (!object(value)) return DEFAULT_SETTINGS;
     const number = (key: string, fallback: number, min: number, max: number) => typeof value[key] === 'number' && Number.isFinite(value[key]) ? Math.max(min, Math.min(max, value[key] as number)) : fallback;
-    return { textSpeed: number('textSpeed', 32, 0, 80), autoDelay: number('autoDelay', 2200, 800, 6000), volume: number('volume', 0.2, 0, 1), music: typeof value.music === 'boolean' ? value.music : true, reducedMotion: typeof value.reducedMotion === 'boolean' ? value.reducedMotion : false, soundEffects: typeof value.soundEffects === 'boolean' ? value.soundEffects : true, ambience: typeof value.ambience === 'boolean' ? value.ambience : true };
+    return { voiceEnabled: typeof value.voiceEnabled === 'boolean' ? value.voiceEnabled : true, voiceVolume: number('voiceVolume', .8, 0, 1), textSpeed: number('textSpeed', 32, 0, 80), autoDelay: number('autoDelay', 2200, 800, 6000), volume: number('volume', 0.2, 0, 1), music: typeof value.music === 'boolean' ? value.music : true, reducedMotion: typeof value.reducedMotion === 'boolean' ? value.reducedMotion : false, soundEffects: typeof value.soundEffects === 'boolean' ? value.soundEffects : true, ambience: typeof value.ambience === 'boolean' ? value.ambience : true };
   } catch { return DEFAULT_SETTINGS; }
 }
 export function readEndings(): string[] {

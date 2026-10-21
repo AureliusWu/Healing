@@ -1,0 +1,3852 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "target": 427,
+  "accepted": 427,
+  "complete": true,
+  "clips": [
+    {
+      "id": "healing-arrival--003",
+      "lineId": "arrival--003",
+      "sceneId": "arrival",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "要是雨再大一点，今天是不是就能不上学？",
+      "src": "audio/voice/full-20261021/healing-arrival--003.ogg"
+    },
+    {
+      "id": "healing-arrival--004",
+      "lineId": "arrival--004",
+      "sceneId": "arrival",
+      "lineIndex": 3,
+      "speaker": "贺川",
+      "text": "你先把这个愿望留给数学老师。他昨天嗓子哑了，照样给我们讲完了两张卷子。",
+      "src": "audio/voice/full-20261021/healing-arrival--004.ogg"
+    },
+    {
+      "id": "healing-arrival--006",
+      "lineId": "arrival--006",
+      "sceneId": "arrival",
+      "lineIndex": 5,
+      "speaker": "贺川",
+      "text": "吃。你从车站走到这里，一直在盯着手机。",
+      "src": "audio/voice/full-20261021/healing-arrival--006.ogg"
+    },
+    {
+      "id": "healing-arrival--008",
+      "lineId": "arrival--008",
+      "sceneId": "arrival",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "没什么，公交又堵了。",
+      "src": "audio/voice/full-20261021/healing-arrival--008.ogg"
+    },
+    {
+      "id": "healing-arrival--009",
+      "lineId": "arrival--009",
+      "sceneId": "arrival",
+      "lineIndex": 8,
+      "speaker": "贺川",
+      "text": "那就先不说。下次想编理由，别挑一个我也坐的公交。",
+      "src": "audio/voice/full-20261021/healing-arrival--009.ogg"
+    },
+    {
+      "id": "healing-desk--002",
+      "lineId": "desk--002",
+      "sceneId": "desk",
+      "lineIndex": 1,
+      "speaker": "班主任",
+      "text": "换个位置，换个状态。成绩单下午发，有问题单独来找我。",
+      "src": "audio/voice/full-20261021/healing-desk--002.ogg"
+    },
+    {
+      "id": "healing-desk--005",
+      "lineId": "desk--005",
+      "sceneId": "desk",
+      "lineIndex": 4,
+      "speaker": "林见夏",
+      "text": "这里的窗户关不严。下雨的时候，你的练习册最好往右放。",
+      "src": "audio/voice/full-20261021/healing-desk--005.ogg"
+    },
+    {
+      "id": "healing-desk--006",
+      "lineId": "desk--006",
+      "sceneId": "desk",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "你之前的同桌呢？",
+      "src": "audio/voice/full-20261021/healing-desk--006.ogg"
+    },
+    {
+      "id": "healing-desk--007",
+      "lineId": "desk--007",
+      "sceneId": "desk",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "转班了。",
+      "src": "audio/voice/full-20261021/healing-desk--007.ogg"
+    },
+    {
+      "id": "healing-desk--009",
+      "lineId": "desk--009",
+      "sceneId": "desk",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "这是作业？",
+      "src": "audio/voice/full-20261021/healing-desk--009.ogg"
+    },
+    {
+      "id": "healing-desk--010",
+      "lineId": "desk--010",
+      "sceneId": "desk",
+      "lineIndex": 9,
+      "speaker": "林见夏",
+      "text": "校刊征稿的题目。还没想好。你有想写的东西吗？",
+      "src": "audio/voice/full-20261021/healing-desk--010.ogg"
+    },
+    {
+      "id": "healing-desk--012",
+      "lineId": "desk--012",
+      "sceneId": "desk",
+      "lineIndex": 11,
+      "speaker": "林见夏",
+      "text": "如果没有，也可以先留白。",
+      "src": "audio/voice/full-20261021/healing-desk--012.ogg"
+    },
+    {
+      "id": "healing-desk--014",
+      "lineId": "desk--014",
+      "sceneId": "desk",
+      "lineIndex": 13,
+      "speaker": "陈知遥",
+      "text": "下午文学社整理旧刊，缺一个人。可以只搬书，不用写东西。",
+      "src": "audio/voice/full-20261021/healing-desk--014.ogg"
+    },
+    {
+      "id": "healing-desk-honest--001",
+      "lineId": "desk-honest--001",
+      "sceneId": "desk-honest",
+      "lineIndex": 0,
+      "speaker": "程屿",
+      "text": "我其实……不太想让家里看到成绩。",
+      "src": "audio/voice/full-20261021/healing-desk-honest--001.ogg"
+    },
+    {
+      "id": "healing-desk-honest--003",
+      "lineId": "desk-honest--003",
+      "sceneId": "desk-honest",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "我的物理也不太好。",
+      "src": "audio/voice/full-20261021/healing-desk-honest--003.ogg"
+    },
+    {
+      "id": "healing-desk-honest--004",
+      "lineId": "desk-honest--004",
+      "sceneId": "desk-honest",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "你这叫不太好？",
+      "src": "audio/voice/full-20261021/healing-desk-honest--004.ogg"
+    },
+    {
+      "id": "healing-desk-honest--005",
+      "lineId": "desk-honest--005",
+      "sceneId": "desk-honest",
+      "lineIndex": 4,
+      "speaker": "林见夏",
+      "text": "不是拿来比的。",
+      "src": "audio/voice/full-20261021/healing-desk-honest--005.ogg"
+    },
+    {
+      "id": "healing-desk-honest--007",
+      "lineId": "desk-honest--007",
+      "sceneId": "desk-honest",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "有时候大家只问我们为什么没做好，没有人问那个晚上到底有没有睡着。",
+      "src": "audio/voice/full-20261021/healing-desk-honest--007.ogg"
+    },
+    {
+      "id": "healing-desk-honest--008",
+      "lineId": "desk-honest--008",
+      "sceneId": "desk-honest",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "你怎么知道？",
+      "src": "audio/voice/full-20261021/healing-desk-honest--008.ogg"
+    },
+    {
+      "id": "healing-desk-honest--009",
+      "lineId": "desk-honest--009",
+      "sceneId": "desk-honest",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "因为我也会看天花板。一直看到闹钟响。",
+      "src": "audio/voice/full-20261021/healing-desk-honest--009.ogg"
+    },
+    {
+      "id": "healing-desk-honest--011",
+      "lineId": "desk-honest--011",
+      "sceneId": "desk-honest",
+      "lineIndex": 10,
+      "speaker": "程屿",
+      "text": "那你一般怎么办？",
+      "src": "audio/voice/full-20261021/healing-desk-honest--011.ogg"
+    },
+    {
+      "id": "healing-desk-honest--012",
+      "lineId": "desk-honest--012",
+      "sceneId": "desk-honest",
+      "lineIndex": 11,
+      "speaker": "林见夏",
+      "text": "先承认今天很累。剩下的……我还在学。",
+      "src": "audio/voice/full-20261021/healing-desk-honest--012.ogg"
+    },
+    {
+      "id": "healing-desk-deflect--001",
+      "lineId": "desk-deflect--001",
+      "sceneId": "desk-deflect",
+      "lineIndex": 0,
+      "speaker": "程屿",
+      "text": "没事，就是没睡醒。昨晚打游戏太晚了。",
+      "src": "audio/voice/full-20261021/healing-desk-deflect--001.ogg"
+    },
+    {
+      "id": "healing-desk-deflect--003",
+      "lineId": "desk-deflect--003",
+      "sceneId": "desk-deflect",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "嗯。那窗边别吹太久。",
+      "src": "audio/voice/full-20261021/healing-desk-deflect--003.ogg"
+    },
+    {
+      "id": "healing-desk-deflect--005",
+      "lineId": "desk-deflect--005",
+      "sceneId": "desk-deflect",
+      "lineIndex": 4,
+      "speaker": "陈知遥",
+      "text": "搬书的报名表留这里，你想去就写名字。",
+      "src": "audio/voice/full-20261021/healing-desk-deflect--005.ogg"
+    },
+    {
+      "id": "healing-desk-help--001",
+      "lineId": "desk-help--001",
+      "sceneId": "desk-help",
+      "lineIndex": 0,
+      "speaker": "程屿",
+      "text": "搬书的话，我能帮上什么？",
+      "src": "audio/voice/full-20261021/healing-desk-help--001.ogg"
+    },
+    {
+      "id": "healing-desk-help--002",
+      "lineId": "desk-help--002",
+      "sceneId": "desk-help",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "旧刊按年份放到柜子里。柜子上面那层我够不着。",
+      "src": "audio/voice/full-20261021/healing-desk-help--002.ogg"
+    },
+    {
+      "id": "healing-desk-help--003",
+      "lineId": "desk-help--003",
+      "sceneId": "desk-help",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "你不是说缺一个人吗？",
+      "src": "audio/voice/full-20261021/healing-desk-help--003.ogg"
+    },
+    {
+      "id": "healing-desk-help--004",
+      "lineId": "desk-help--004",
+      "sceneId": "desk-help",
+      "lineIndex": 3,
+      "speaker": "陈知遥",
+      "text": "对。缺一个能把“班长你顺便做了吧”这句话收回去的人。",
+      "src": "audio/voice/full-20261021/healing-desk-help--004.ogg"
+    },
+    {
+      "id": "healing-desk-help--006",
+      "lineId": "desk-help--006",
+      "sceneId": "desk-help",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "这些全是你的？",
+      "src": "audio/voice/full-20261021/healing-desk-help--006.ogg"
+    },
+    {
+      "id": "healing-desk-help--007",
+      "lineId": "desk-help--007",
+      "sceneId": "desk-help",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "以前不是。每次有人说来不及，我就接一下。接到现在，好像就一直是我的了。",
+      "src": "audio/voice/full-20261021/healing-desk-help--007.ogg"
+    },
+    {
+      "id": "healing-desk-help--009",
+      "lineId": "desk-help--009",
+      "sceneId": "desk-help",
+      "lineIndex": 8,
+      "speaker": "陈知遥",
+      "text": "谢谢。下午放学，三楼最里面那间教室。",
+      "src": "audio/voice/full-20261021/healing-desk-help--009.ogg"
+    },
+    {
+      "id": "healing-desk-help--010",
+      "lineId": "desk-help--010",
+      "sceneId": "desk-help",
+      "lineIndex": 9,
+      "speaker": "程屿",
+      "text": "我数学考砸了。要是老师留我讲题，可能会晚一点。",
+      "src": "audio/voice/full-20261021/healing-desk-help--010.ogg"
+    },
+    {
+      "id": "healing-desk-help--011",
+      "lineId": "desk-help--011",
+      "sceneId": "desk-help",
+      "lineIndex": 10,
+      "speaker": "陈知遥",
+      "text": "那我帮你留钥匙。搬书不用考满分才能来。",
+      "src": "audio/voice/full-20261021/healing-desk-help--011.ogg"
+    },
+    {
+      "id": "healing-corridor--002",
+      "lineId": "corridor--002",
+      "sceneId": "corridor",
+      "lineIndex": 1,
+      "speaker": "贺川",
+      "text": "看不见就别挤了。我一米八都只看见三十个后脑勺。",
+      "src": "audio/voice/full-20261021/healing-corridor--002.ogg"
+    },
+    {
+      "id": "healing-corridor--003",
+      "lineId": "corridor--003",
+      "sceneId": "corridor",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "你退步了多少？",
+      "src": "audio/voice/full-20261021/healing-corridor--003.ogg"
+    },
+    {
+      "id": "healing-corridor--004",
+      "lineId": "corridor--004",
+      "sceneId": "corridor",
+      "lineIndex": 3,
+      "speaker": "贺川",
+      "text": "十二名。回家要被念十二遍，算起来很合理。",
+      "src": "audio/voice/full-20261021/healing-corridor--004.ogg"
+    },
+    {
+      "id": "healing-corridor--006",
+      "lineId": "corridor--006",
+      "sceneId": "corridor",
+      "lineIndex": 5,
+      "speaker": "贺川",
+      "text": "你觉得他们看到的是我们，还是旁边那个数字？",
+      "src": "audio/voice/full-20261021/healing-corridor--006.ogg"
+    },
+    {
+      "id": "healing-corridor--007",
+      "lineId": "corridor--007",
+      "sceneId": "corridor",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "都有吧。",
+      "src": "audio/voice/full-20261021/healing-corridor--007.ogg"
+    },
+    {
+      "id": "healing-corridor--008",
+      "lineId": "corridor--008",
+      "sceneId": "corridor",
+      "lineIndex": 7,
+      "speaker": "贺川",
+      "text": "那我得在名字旁边再加一行：会修自行车，饭量大，给朋友带早饭不收钱。",
+      "src": "audio/voice/full-20261021/healing-corridor--008.ogg"
+    },
+    {
+      "id": "healing-corridor--011",
+      "lineId": "corridor--011",
+      "sceneId": "corridor",
+      "lineIndex": 10,
+      "speaker": "同学",
+      "text": "她家里不是不让她写那些东西吗？",
+      "src": "audio/voice/full-20261021/healing-corridor--011.ogg"
+    },
+    {
+      "id": "healing-corridor--014",
+      "lineId": "corridor--014",
+      "sceneId": "corridor",
+      "lineIndex": 13,
+      "speaker": "贺川",
+      "text": "你新座位挺好，太阳好的时候能晒着。",
+      "src": "audio/voice/full-20261021/healing-corridor--014.ogg"
+    },
+    {
+      "id": "healing-corridor--015",
+      "lineId": "corridor--015",
+      "sceneId": "corridor",
+      "lineIndex": 14,
+      "speaker": "程屿",
+      "text": "今天没太阳。",
+      "src": "audio/voice/full-20261021/healing-corridor--015.ogg"
+    },
+    {
+      "id": "healing-corridor--016",
+      "lineId": "corridor--016",
+      "sceneId": "corridor",
+      "lineIndex": 15,
+      "speaker": "贺川",
+      "text": "那你就先把窗留着。",
+      "src": "audio/voice/full-20261021/healing-corridor--016.ogg"
+    },
+    {
+      "id": "healing-lunch--002",
+      "lineId": "lunch--002",
+      "sceneId": "lunch",
+      "lineIndex": 1,
+      "speaker": "母亲",
+      "text": "晚上给我打个电话。",
+      "src": "audio/voice/full-20261021/healing-lunch--002.ogg"
+    },
+    {
+      "id": "healing-lunch--008",
+      "lineId": "lunch--008",
+      "sceneId": "lunch",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "总不能一直站在这里。",
+      "src": "audio/voice/full-20261021/healing-lunch--008.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--001",
+      "lineId": "lunch-lin--001",
+      "sceneId": "lunch-lin",
+      "lineIndex": 0,
+      "speaker": "程屿",
+      "text": "你还在写那个“待定”？",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--001.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--002",
+      "lineId": "lunch-lin--002",
+      "sceneId": "lunch-lin",
+      "lineIndex": 1,
+      "speaker": "林见夏",
+      "text": "写到第二页了，题目还是待定。",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--002.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--004",
+      "lineId": "lunch-lin--004",
+      "sceneId": "lunch-lin",
+      "lineIndex": 3,
+      "speaker": "林见夏",
+      "text": "我写了一篇东西，想放进校刊。昨天给我妈看，她说，这些话能让你高考多得几分？",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--004.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--005",
+      "lineId": "lunch-lin--005",
+      "sceneId": "lunch-lin",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "然后呢？",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--005.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--006",
+      "lineId": "lunch-lin--006",
+      "sceneId": "lunch-lin",
+      "lineIndex": 5,
+      "speaker": "林见夏",
+      "text": "我说不能。她就问，那你为什么写。",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--006.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--008",
+      "lineId": "lunch-lin--008",
+      "sceneId": "lunch-lin",
+      "lineIndex": 7,
+      "speaker": "林见夏",
+      "text": "我没有回答好。我说，因为我想写。听起来很任性，对吧？",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--008.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--009",
+      "lineId": "lunch-lin--009",
+      "sceneId": "lunch-lin",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "我不觉得。",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--009.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--010",
+      "lineId": "lunch-lin--010",
+      "sceneId": "lunch-lin",
+      "lineIndex": 9,
+      "speaker": "林见夏",
+      "text": "那你觉得，想做一件没用的事，要先把有用的事全部做好吗？",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--010.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--012",
+      "lineId": "lunch-lin--012",
+      "sceneId": "lunch-lin",
+      "lineIndex": 11,
+      "speaker": "程屿",
+      "text": "如果真得全部做好，很多人可能一辈子都没资格。",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--012.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--014",
+      "lineId": "lunch-lin--014",
+      "sceneId": "lunch-lin",
+      "lineIndex": 13,
+      "speaker": "林见夏",
+      "text": "这句我可以记下来吗？",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--014.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--015",
+      "lineId": "lunch-lin--015",
+      "sceneId": "lunch-lin",
+      "lineIndex": 14,
+      "speaker": "程屿",
+      "text": "别写我的名字。有点丢人。",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--015.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--016",
+      "lineId": "lunch-lin--016",
+      "sceneId": "lunch-lin",
+      "lineIndex": 15,
+      "speaker": "林见夏",
+      "text": "那我写“靠窗的同学”。",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--016.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--018",
+      "lineId": "lunch-lin--018",
+      "sceneId": "lunch-lin",
+      "lineIndex": 17,
+      "speaker": "林见夏",
+      "text": "下午你也去文学社吗？知遥最近一直在替我留位置。",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--018.ogg"
+    },
+    {
+      "id": "healing-lunch-lin--019",
+      "lineId": "lunch-lin--019",
+      "sceneId": "lunch-lin",
+      "lineIndex": 18,
+      "speaker": "程屿",
+      "text": "去。我至少会搬书。",
+      "src": "audio/voice/full-20261021/healing-lunch-lin--019.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--001",
+      "lineId": "lunch-chen--001",
+      "sceneId": "lunch-chen",
+      "lineIndex": 0,
+      "speaker": "程屿",
+      "text": "给我一半吧。再走两步，它们就要自己下楼了。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--001.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--002",
+      "lineId": "lunch-chen--002",
+      "sceneId": "lunch-chen",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "你这么一说，我还真有点希望它们会走路。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--002.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--004",
+      "lineId": "lunch-chen--004",
+      "sceneId": "lunch-chen",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "这些下午再拿也行吧？",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--004.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--005",
+      "lineId": "lunch-chen--005",
+      "sceneId": "lunch-chen",
+      "lineIndex": 4,
+      "speaker": "陈知遥",
+      "text": "社团老师午后有课。柜子钥匙现在能借出来。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--005.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--006",
+      "lineId": "lunch-chen--006",
+      "sceneId": "lunch-chen",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "午休还剩几分钟？",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--006.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--007",
+      "lineId": "lunch-chen--007",
+      "sceneId": "lunch-chen",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "不知道。我昨天也没睡。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--007.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--009",
+      "lineId": "lunch-chen--009",
+      "sceneId": "lunch-chen",
+      "lineIndex": 8,
+      "speaker": "陈知遥",
+      "text": "别看我当班长就觉得我很能撑。我困的时候，也会对着黑板睁着眼睡觉。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--009.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--010",
+      "lineId": "lunch-chen--010",
+      "sceneId": "lunch-chen",
+      "lineIndex": 9,
+      "speaker": "程屿",
+      "text": "你可以不把这些全接下来。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--010.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--011",
+      "lineId": "lunch-chen--011",
+      "sceneId": "lunch-chen",
+      "lineIndex": 10,
+      "speaker": "陈知遥",
+      "text": "我知道。可是每次说“我没空”，都觉得下一句要交代一个足够重要的理由。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--011.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--013",
+      "lineId": "lunch-chen--013",
+      "sceneId": "lunch-chen",
+      "lineIndex": 12,
+      "speaker": "程屿",
+      "text": "“我要午睡”够不够重要？",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--013.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--014",
+      "lineId": "lunch-chen--014",
+      "sceneId": "lunch-chen",
+      "lineIndex": 13,
+      "speaker": "陈知遥",
+      "text": "如果别人这么跟我说，我会说够。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--014.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--015",
+      "lineId": "lunch-chen--015",
+      "sceneId": "lunch-chen",
+      "lineIndex": 14,
+      "speaker": "程屿",
+      "text": "那你也试一次。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--015.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--017",
+      "lineId": "lunch-chen--017",
+      "sceneId": "lunch-chen",
+      "lineIndex": 16,
+      "speaker": "陈知遥",
+      "text": "发出去了。居然没有人立刻骂我。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--017.ogg"
+    },
+    {
+      "id": "healing-lunch-chen--018",
+      "lineId": "lunch-chen--018",
+      "sceneId": "lunch-chen",
+      "lineIndex": 17,
+      "speaker": "程屿",
+      "text": "可能大家也在午睡。",
+      "src": "audio/voice/full-20261021/healing-lunch-chen--018.ogg"
+    },
+    {
+      "id": "healing-lunch-alone--003",
+      "lineId": "lunch-alone--003",
+      "sceneId": "lunch-alone",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "晚上的事，晚上再说。",
+      "src": "audio/voice/full-20261021/healing-lunch-alone--003.ogg"
+    },
+    {
+      "id": "healing-club--003",
+      "lineId": "club--003",
+      "sceneId": "club",
+      "lineIndex": 2,
+      "speaker": "陈知遥",
+      "text": "我们以前一学期能出两期。现在老师说，只有凑够稿子，才给印刷。",
+      "src": "audio/voice/full-20261021/healing-club--003.ogg"
+    },
+    {
+      "id": "healing-club--004",
+      "lineId": "club--004",
+      "sceneId": "club",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "还差多少？",
+      "src": "audio/voice/full-20261021/healing-club--004.ogg"
+    },
+    {
+      "id": "healing-club--005",
+      "lineId": "club--005",
+      "sceneId": "club",
+      "lineIndex": 4,
+      "speaker": "林见夏",
+      "text": "三篇。如果算上我那篇，是两篇。",
+      "src": "audio/voice/full-20261021/healing-club--005.ogg"
+    },
+    {
+      "id": "healing-club--007",
+      "lineId": "club--007",
+      "sceneId": "club",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "这期想做一个专题。关于我们这个年纪，有什么话老是说不出口。",
+      "src": "audio/voice/full-20261021/healing-club--007.ogg"
+    },
+    {
+      "id": "healing-club--008",
+      "lineId": "club--008",
+      "sceneId": "club",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "会不会太……",
+      "src": "audio/voice/full-20261021/healing-club--008.ogg"
+    },
+    {
+      "id": "healing-club--009",
+      "lineId": "club--009",
+      "sceneId": "club",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "太矫情？",
+      "src": "audio/voice/full-20261021/healing-club--009.ogg"
+    },
+    {
+      "id": "healing-club--011",
+      "lineId": "club--011",
+      "sceneId": "club",
+      "lineIndex": 10,
+      "speaker": "陈知遥",
+      "text": "可以很短。四百字也行。署名可以用笔名。",
+      "src": "audio/voice/full-20261021/healing-club--011.ogg"
+    },
+    {
+      "id": "healing-club--014",
+      "lineId": "club--014",
+      "sceneId": "club",
+      "lineIndex": 13,
+      "speaker": "林见夏",
+      "text": "你要是想写，今天可以只写一句。",
+      "src": "audio/voice/full-20261021/healing-club--014.ogg"
+    },
+    {
+      "id": "healing-club--016",
+      "lineId": "club--016",
+      "sceneId": "club",
+      "lineIndex": 15,
+      "speaker": "陈知遥",
+      "text": "我们不是来给稿子打分的。",
+      "src": "audio/voice/full-20261021/healing-club--016.ogg"
+    },
+    {
+      "id": "healing-draft-plain--001",
+      "lineId": "draft-plain--001",
+      "sceneId": "draft-plain",
+      "lineIndex": 0,
+      "speaker": "程屿",
+      "text": "我害怕他们看见，我已经很努力了。",
+      "src": "audio/voice/full-20261021/healing-draft-plain--001.ogg"
+    },
+    {
+      "id": "healing-draft-plain--003",
+      "lineId": "draft-plain--003",
+      "sceneId": "draft-plain",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "为什么害怕这个？",
+      "src": "audio/voice/full-20261021/healing-draft-plain--003.ogg"
+    },
+    {
+      "id": "healing-draft-plain--004",
+      "lineId": "draft-plain--004",
+      "sceneId": "draft-plain",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "如果他们觉得我没努力，那我还有一种解释。等我认真起来，就会变好。",
+      "src": "audio/voice/full-20261021/healing-draft-plain--004.ogg"
+    },
+    {
+      "id": "healing-draft-plain--005",
+      "lineId": "draft-plain--005",
+      "sceneId": "draft-plain",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "可我已经认真了。认真之后还是只有七十二，那是不是说明，我就只能到这里？",
+      "src": "audio/voice/full-20261021/healing-draft-plain--005.ogg"
+    },
+    {
+      "id": "healing-draft-plain--007",
+      "lineId": "draft-plain--007",
+      "sceneId": "draft-plain",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "上周我把排班弄错了。老师说我最近状态不好，我当时还挺高兴。",
+      "src": "audio/voice/full-20261021/healing-draft-plain--007.ogg"
+    },
+    {
+      "id": "healing-draft-plain--008",
+      "lineId": "draft-plain--008",
+      "sceneId": "draft-plain",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "为什么？",
+      "src": "audio/voice/full-20261021/healing-draft-plain--008.ogg"
+    },
+    {
+      "id": "healing-draft-plain--009",
+      "lineId": "draft-plain--009",
+      "sceneId": "draft-plain",
+      "lineIndex": 8,
+      "speaker": "陈知遥",
+      "text": "因为他说的是状态。如果他说我已经用尽力气了，那我不知道要怎么补救。",
+      "src": "audio/voice/full-20261021/healing-draft-plain--009.ogg"
+    },
+    {
+      "id": "healing-draft-plain--011",
+      "lineId": "draft-plain--011",
+      "sceneId": "draft-plain",
+      "lineIndex": 10,
+      "speaker": "林见夏",
+      "text": "我想把“我”留下来。",
+      "src": "audio/voice/full-20261021/healing-draft-plain--011.ogg"
+    },
+    {
+      "id": "healing-draft-plain--012",
+      "lineId": "draft-plain--012",
+      "sceneId": "draft-plain",
+      "lineIndex": 11,
+      "speaker": "程屿",
+      "text": "什么？",
+      "src": "audio/voice/full-20261021/healing-draft-plain--012.ogg"
+    },
+    {
+      "id": "healing-draft-plain--013",
+      "lineId": "draft-plain--013",
+      "sceneId": "draft-plain",
+      "lineIndex": 12,
+      "speaker": "林见夏",
+      "text": "写的时候，别为了显得有道理，就把“我”改成“所有人”。你现在是在讲自己的事。",
+      "src": "audio/voice/full-20261021/healing-draft-plain--013.ogg"
+    },
+    {
+      "id": "healing-draft-plain--016",
+      "lineId": "draft-plain--016",
+      "sceneId": "draft-plain",
+      "lineIndex": 15,
+      "speaker": "陈知遥",
+      "text": "不用现在交。也不用今天让谁看。",
+      "src": "audio/voice/full-20261021/healing-draft-plain--016.ogg"
+    },
+    {
+      "id": "healing-draft-plain--017",
+      "lineId": "draft-plain--017",
+      "sceneId": "draft-plain",
+      "lineIndex": 16,
+      "speaker": "林见夏",
+      "text": "如果愿意，明天我可以帮你读一遍。只看句子通不通，不看你够不够好。",
+      "src": "audio/voice/full-20261021/healing-draft-plain--017.ogg"
+    },
+    {
+      "id": "healing-draft-safe--002",
+      "lineId": "draft-safe--002",
+      "sceneId": "draft-safe",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "这样可以吗？",
+      "src": "audio/voice/full-20261021/healing-draft-safe--002.ogg"
+    },
+    {
+      "id": "healing-draft-safe--003",
+      "lineId": "draft-safe--003",
+      "sceneId": "draft-safe",
+      "lineIndex": 2,
+      "speaker": "陈知遥",
+      "text": "字很够了。你自己喜欢吗？",
+      "src": "audio/voice/full-20261021/healing-draft-safe--003.ogg"
+    },
+    {
+      "id": "healing-draft-safe--004",
+      "lineId": "draft-safe--004",
+      "sceneId": "draft-safe",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "应该还行吧。看起来挺像校刊的。",
+      "src": "audio/voice/full-20261021/healing-draft-safe--004.ogg"
+    },
+    {
+      "id": "healing-draft-safe--006",
+      "lineId": "draft-safe--006",
+      "sceneId": "draft-safe",
+      "lineIndex": 5,
+      "speaker": "林见夏",
+      "text": "这条走廊写得很好。你在里面吗？",
+      "src": "audio/voice/full-20261021/healing-draft-safe--006.ogg"
+    },
+    {
+      "id": "healing-draft-safe--007",
+      "lineId": "draft-safe--007",
+      "sceneId": "draft-safe",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "我……就是路过。",
+      "src": "audio/voice/full-20261021/healing-draft-safe--007.ogg"
+    },
+    {
+      "id": "healing-draft-safe--008",
+      "lineId": "draft-safe--008",
+      "sceneId": "draft-safe",
+      "lineIndex": 7,
+      "speaker": "林见夏",
+      "text": "嗯。那先留着。",
+      "src": "audio/voice/full-20261021/healing-draft-safe--008.ogg"
+    },
+    {
+      "id": "healing-misunderstanding--002",
+      "lineId": "misunderstanding--002",
+      "sceneId": "misunderstanding",
+      "lineIndex": 1,
+      "speaker": "林见夏",
+      "text": "别翻那个。",
+      "src": "audio/voice/full-20261021/healing-misunderstanding--002.ogg"
+    },
+    {
+      "id": "healing-misunderstanding--004",
+      "lineId": "misunderstanding--004",
+      "sceneId": "misunderstanding",
+      "lineIndex": 3,
+      "speaker": "陈知遥",
+      "text": "我没看。我只是……",
+      "src": "audio/voice/full-20261021/healing-misunderstanding--004.ogg"
+    },
+    {
+      "id": "healing-misunderstanding--005",
+      "lineId": "misunderstanding--005",
+      "sceneId": "misunderstanding",
+      "lineIndex": 4,
+      "speaker": "林见夏",
+      "text": "我知道你是好意。",
+      "src": "audio/voice/full-20261021/healing-misunderstanding--005.ogg"
+    },
+    {
+      "id": "healing-misunderstanding--007",
+      "lineId": "misunderstanding--007",
+      "sceneId": "misunderstanding",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "你不愿意交稿也没事。我从来没有说一定要——",
+      "src": "audio/voice/full-20261021/healing-misunderstanding--007.ogg"
+    },
+    {
+      "id": "healing-misunderstanding--008",
+      "lineId": "misunderstanding--008",
+      "sceneId": "misunderstanding",
+      "lineIndex": 7,
+      "speaker": "林见夏",
+      "text": "我知道。可是你一直帮我留位置，帮我跟老师解释，帮我把报名表放在桌上。",
+      "src": "audio/voice/full-20261021/healing-misunderstanding--008.ogg"
+    },
+    {
+      "id": "healing-misunderstanding--009",
+      "lineId": "misunderstanding--009",
+      "sceneId": "misunderstanding",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "我每次想说我还没准备好，都觉得这样很对不起你。",
+      "src": "audio/voice/full-20261021/healing-misunderstanding--009.ogg"
+    },
+    {
+      "id": "healing-misunderstanding--011",
+      "lineId": "misunderstanding--011",
+      "sceneId": "misunderstanding",
+      "lineIndex": 10,
+      "speaker": "陈知遥",
+      "text": "我以为，给你留着，你就不用一个人来。",
+      "src": "audio/voice/full-20261021/healing-misunderstanding--011.ogg"
+    },
+    {
+      "id": "healing-misunderstanding--012",
+      "lineId": "misunderstanding--012",
+      "sceneId": "misunderstanding",
+      "lineIndex": 11,
+      "speaker": "林见夏",
+      "text": "我不是说你做错了。",
+      "src": "audio/voice/full-20261021/healing-misunderstanding--012.ogg"
+    },
+    {
+      "id": "healing-misunderstanding--014",
+      "lineId": "misunderstanding--014",
+      "sceneId": "misunderstanding",
+      "lineIndex": 13,
+      "speaker": "程屿",
+      "text": "要不，我们先把书搬完？",
+      "src": "audio/voice/full-20261021/healing-misunderstanding--014.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--002",
+      "lineId": "tang-interlude--002",
+      "sceneId": "tang-interlude",
+      "lineIndex": 1,
+      "speaker": "许棠",
+      "text": "我是不是回来得不是时候？",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--002.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--004",
+      "lineId": "tang-interlude--004",
+      "sceneId": "tang-interlude",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "你怎么现在才回来？",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--004.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--005",
+      "lineId": "tang-interlude--005",
+      "sceneId": "tang-interlude",
+      "lineIndex": 4,
+      "speaker": "许棠",
+      "text": "班主任让我把摄影征集改到月考以后。她说家长会快到了，别让大家分心。",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--005.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--007",
+      "lineId": "tang-interlude--007",
+      "sceneId": "tang-interlude",
+      "lineIndex": 6,
+      "speaker": "许棠",
+      "text": "我妈也觉得拿相机是玩。昨天她把相机收进柜子，问我怎么没把拍照的认真劲用在数学上。",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--007.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--008",
+      "lineId": "tang-interlude--008",
+      "sceneId": "tang-interlude",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "那你今天怎么带出来的？",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--008.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--009",
+      "lineId": "tang-interlude--009",
+      "sceneId": "tang-interlude",
+      "lineIndex": 8,
+      "speaker": "许棠",
+      "text": "说要拍黑板上的错题。拍了，别的也拍了。",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--009.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--011",
+      "lineId": "tang-interlude--011",
+      "sceneId": "tang-interlude",
+      "lineIndex": 10,
+      "speaker": "许棠",
+      "text": "她们两个都走了？我还想问问见夏，愿不愿意把文章放在封面后面。",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--011.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--012",
+      "lineId": "tang-interlude--012",
+      "sceneId": "tang-interlude",
+      "lineIndex": 11,
+      "speaker": "程屿",
+      "text": "嗯。话没说完。笔记本的事。",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--012.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--013",
+      "lineId": "tang-interlude--013",
+      "sceneId": "tang-interlude",
+      "lineIndex": 12,
+      "speaker": "许棠",
+      "text": "那我明天自己问她。今天这张先不动。",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--013.ogg"
+    },
+    {
+      "id": "healing-tang-interlude--015",
+      "lineId": "tang-interlude--015",
+      "sceneId": "tang-interlude",
+      "lineIndex": 14,
+      "speaker": "许棠",
+      "text": "走吧。再晚一点，门卫真要来赶人了。",
+      "src": "audio/voice/full-20261021/healing-tang-interlude--015.ogg"
+    },
+    {
+      "id": "healing-storm--005",
+      "lineId": "storm--005",
+      "sceneId": "storm",
+      "lineIndex": 4,
+      "speaker": "林见夏",
+      "text": "我等雨小一点。你们先走吧。",
+      "src": "audio/voice/full-20261021/healing-storm--005.ogg"
+    },
+    {
+      "id": "healing-storm--006",
+      "lineId": "storm--006",
+      "sceneId": "storm",
+      "lineIndex": 5,
+      "speaker": "陈知遥",
+      "text": "我还要回去检查窗户。",
+      "src": "audio/voice/full-20261021/healing-storm--006.ogg"
+    },
+    {
+      "id": "healing-storm--009",
+      "lineId": "storm--009",
+      "sceneId": "storm",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "等一下。",
+      "src": "audio/voice/full-20261021/healing-storm--009.ogg"
+    },
+    {
+      "id": "healing-rain-both--001",
+      "lineId": "rain-both--001",
+      "sceneId": "rain-both",
+      "lineIndex": 0,
+      "speaker": "程屿",
+      "text": "我刚才说先搬书，是因为我不知道该怎么接。我怕我一开口，就得选一个人站。",
+      "src": "audio/voice/full-20261021/healing-rain-both--001.ogg"
+    },
+    {
+      "id": "healing-rain-both--003",
+      "lineId": "rain-both--003",
+      "sceneId": "rain-both",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "可我觉得，你们刚才都没有把想说的话说完。",
+      "src": "audio/voice/full-20261021/healing-rain-both--003.ogg"
+    },
+    {
+      "id": "healing-rain-both--004",
+      "lineId": "rain-both--004",
+      "sceneId": "rain-both",
+      "lineIndex": 3,
+      "speaker": "林见夏",
+      "text": "我不是不想来。我只是……不想每次还没想好，就已经欠下一句谢谢。",
+      "src": "audio/voice/full-20261021/healing-rain-both--004.ogg"
+    },
+    {
+      "id": "healing-rain-both--005",
+      "lineId": "rain-both--005",
+      "sceneId": "rain-both",
+      "lineIndex": 4,
+      "speaker": "陈知遥",
+      "text": "我也不是想替你决定。我不知道，除了帮忙，还能怎么让别人知道我在乎。",
+      "src": "audio/voice/full-20261021/healing-rain-both--005.ogg"
+    },
+    {
+      "id": "healing-rain-both--007",
+      "lineId": "rain-both--007",
+      "sceneId": "rain-both",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "那能不能下次先问一声？一个人说还没准备好，另一个人就先把位置留空。",
+      "src": "audio/voice/full-20261021/healing-rain-both--007.ogg"
+    },
+    {
+      "id": "healing-rain-both--008",
+      "lineId": "rain-both--008",
+      "sceneId": "rain-both",
+      "lineIndex": 7,
+      "speaker": "林见夏",
+      "text": "我也会好好说，不用一句“我知道你是好意”把你挡回去。",
+      "src": "audio/voice/full-20261021/healing-rain-both--008.ogg"
+    },
+    {
+      "id": "healing-rain-both--010",
+      "lineId": "rain-both--010",
+      "sceneId": "rain-both",
+      "lineIndex": 9,
+      "speaker": "陈知遥",
+      "text": "那现在可以问吗？我回去关窗，你们愿意等我五分钟吗？",
+      "src": "audio/voice/full-20261021/healing-rain-both--010.ogg"
+    },
+    {
+      "id": "healing-rain-both--011",
+      "lineId": "rain-both--011",
+      "sceneId": "rain-both",
+      "lineIndex": 10,
+      "speaker": "林见夏",
+      "text": "愿意。",
+      "src": "audio/voice/full-20261021/healing-rain-both--011.ogg"
+    },
+    {
+      "id": "healing-rain-both--012",
+      "lineId": "rain-both--012",
+      "sceneId": "rain-both",
+      "lineIndex": 11,
+      "speaker": "程屿",
+      "text": "我们一起上去吧。三个人关，比一个人快。",
+      "src": "audio/voice/full-20261021/healing-rain-both--012.ogg"
+    },
+    {
+      "id": "healing-rain-lin--001",
+      "lineId": "rain-lin--001",
+      "sceneId": "rain-lin",
+      "lineIndex": 0,
+      "speaker": "程屿",
+      "text": "拿着吧。我陪你到车站。",
+      "src": "audio/voice/full-20261021/healing-rain-lin--001.ogg"
+    },
+    {
+      "id": "healing-rain-lin--002",
+      "lineId": "rain-lin--002",
+      "sceneId": "rain-lin",
+      "lineIndex": 1,
+      "speaker": "林见夏",
+      "text": "那知遥呢？",
+      "src": "audio/voice/full-20261021/healing-rain-lin--002.ogg"
+    },
+    {
+      "id": "healing-rain-lin--003",
+      "lineId": "rain-lin--003",
+      "sceneId": "rain-lin",
+      "lineIndex": 2,
+      "speaker": "陈知遥",
+      "text": "我先上去。你们不用等，车次快到了。",
+      "src": "audio/voice/full-20261021/healing-rain-lin--003.ogg"
+    },
+    {
+      "id": "healing-rain-lin--006",
+      "lineId": "rain-lin--006",
+      "sceneId": "rain-lin",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "你自己都淋到了。",
+      "src": "audio/voice/full-20261021/healing-rain-lin--006.ogg"
+    },
+    {
+      "id": "healing-rain-lin--007",
+      "lineId": "rain-lin--007",
+      "sceneId": "rain-lin",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "以前我爸接我放学也这样。我妈每次都说他撑伞的水平很差。",
+      "src": "audio/voice/full-20261021/healing-rain-lin--007.ogg"
+    },
+    {
+      "id": "healing-rain-lin--009",
+      "lineId": "rain-lin--009",
+      "sceneId": "rain-lin",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "我刚才是不是很难相处？",
+      "src": "audio/voice/full-20261021/healing-rain-lin--009.ogg"
+    },
+    {
+      "id": "healing-rain-lin--010",
+      "lineId": "rain-lin--010",
+      "sceneId": "rain-lin",
+      "lineIndex": 9,
+      "speaker": "程屿",
+      "text": "你不想别人翻笔记本，应该能直接说。",
+      "src": "audio/voice/full-20261021/healing-rain-lin--010.ogg"
+    },
+    {
+      "id": "healing-rain-lin--011",
+      "lineId": "rain-lin--011",
+      "sceneId": "rain-lin",
+      "lineIndex": 10,
+      "speaker": "林见夏",
+      "text": "可我把以前没说的那些，全部挤在了同一句话里。",
+      "src": "audio/voice/full-20261021/healing-rain-lin--011.ogg"
+    },
+    {
+      "id": "healing-rain-lin--013",
+      "lineId": "rain-lin--013",
+      "sceneId": "rain-lin",
+      "lineIndex": 12,
+      "speaker": "林见夏",
+      "text": "我明天跟知遥说清楚。不让你当传话的人。",
+      "src": "audio/voice/full-20261021/healing-rain-lin--013.ogg"
+    },
+    {
+      "id": "healing-rain-lin--014",
+      "lineId": "rain-lin--014",
+      "sceneId": "rain-lin",
+      "lineIndex": 13,
+      "speaker": "程屿",
+      "text": "好。明天我也把稿子带来。",
+      "src": "audio/voice/full-20261021/healing-rain-lin--014.ogg"
+    },
+    {
+      "id": "healing-rain-lin--016",
+      "lineId": "rain-lin--016",
+      "sceneId": "rain-lin",
+      "lineIndex": 15,
+      "speaker": "林见夏",
+      "text": "程屿，今天坐在你旁边，我没有觉得很吵。",
+      "src": "audio/voice/full-20261021/healing-rain-lin--016.ogg"
+    },
+    {
+      "id": "healing-rain-chen--001",
+      "lineId": "rain-chen--001",
+      "sceneId": "rain-chen",
+      "lineIndex": 0,
+      "speaker": "程屿",
+      "text": "我跟你上去吧。最后一扇窗不好关。",
+      "src": "audio/voice/full-20261021/healing-rain-chen--001.ogg"
+    },
+    {
+      "id": "healing-rain-chen--002",
+      "lineId": "rain-chen--002",
+      "sceneId": "rain-chen",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "你不赶车吗？",
+      "src": "audio/voice/full-20261021/healing-rain-chen--002.ogg"
+    },
+    {
+      "id": "healing-rain-chen--003",
+      "lineId": "rain-chen--003",
+      "sceneId": "rain-chen",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "下一班也能回去。",
+      "src": "audio/voice/full-20261021/healing-rain-chen--003.ogg"
+    },
+    {
+      "id": "healing-rain-chen--006",
+      "lineId": "rain-chen--006",
+      "sceneId": "rain-chen",
+      "lineIndex": 5,
+      "speaker": "陈知遥",
+      "text": "你说，别人不需要我的时候，我是不是反而会轻松一点？",
+      "src": "audio/voice/full-20261021/healing-rain-chen--006.ogg"
+    },
+    {
+      "id": "healing-rain-chen--007",
+      "lineId": "rain-chen--007",
+      "sceneId": "rain-chen",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "可能吧。",
+      "src": "audio/voice/full-20261021/healing-rain-chen--007.ogg"
+    },
+    {
+      "id": "healing-rain-chen--008",
+      "lineId": "rain-chen--008",
+      "sceneId": "rain-chen",
+      "lineIndex": 7,
+      "speaker": "陈知遥",
+      "text": "那为什么我刚才一点也不觉得轻松？",
+      "src": "audio/voice/full-20261021/healing-rain-chen--008.ogg"
+    },
+    {
+      "id": "healing-rain-chen--010",
+      "lineId": "rain-chen--010",
+      "sceneId": "rain-chen",
+      "lineIndex": 9,
+      "speaker": "陈知遥",
+      "text": "算了。今天先别想了。",
+      "src": "audio/voice/full-20261021/healing-rain-chen--010.ogg"
+    },
+    {
+      "id": "healing-rain-chen--013",
+      "lineId": "rain-chen--013",
+      "sceneId": "rain-chen",
+      "lineIndex": 12,
+      "speaker": "陈知遥",
+      "text": "谢谢你陪我。",
+      "src": "audio/voice/full-20261021/healing-rain-chen--013.ogg"
+    },
+    {
+      "id": "healing-rain-chen--014",
+      "lineId": "rain-chen--014",
+      "sceneId": "rain-chen",
+      "lineIndex": 13,
+      "speaker": "程屿",
+      "text": "没事。",
+      "src": "audio/voice/full-20261021/healing-rain-chen--014.ogg"
+    },
+    {
+      "id": "healing-evening--002",
+      "lineId": "evening--002",
+      "sceneId": "evening",
+      "lineIndex": 1,
+      "speaker": "母亲",
+      "text": "今天怎么这么晚？",
+      "src": "audio/voice/full-20261021/healing-evening--002.ogg"
+    },
+    {
+      "id": "healing-evening--003",
+      "lineId": "evening--003",
+      "sceneId": "evening",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "去文学社搬书了。",
+      "src": "audio/voice/full-20261021/healing-evening--003.ogg"
+    },
+    {
+      "id": "healing-evening--004",
+      "lineId": "evening--004",
+      "sceneId": "evening",
+      "lineIndex": 3,
+      "speaker": "母亲",
+      "text": "你不是说最近没时间吗？作业又要写到半夜。",
+      "src": "audio/voice/full-20261021/healing-evening--004.ogg"
+    },
+    {
+      "id": "healing-evening--006",
+      "lineId": "evening--006",
+      "sceneId": "evening",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "数学七十二。其他科目还没发。我先告诉你，晚上就不用一进门问了。",
+      "src": "audio/voice/full-20261021/healing-evening--006.ogg"
+    },
+    {
+      "id": "healing-evening--008",
+      "lineId": "evening--008",
+      "sceneId": "evening",
+      "lineIndex": 7,
+      "speaker": "母亲",
+      "text": "我本来是想问你，校服外套干没干。昨天忘在阳台了。",
+      "src": "audio/voice/full-20261021/healing-evening--008.ogg"
+    },
+    {
+      "id": "healing-evening--009",
+      "lineId": "evening--009",
+      "sceneId": "evening",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "干了。",
+      "src": "audio/voice/full-20261021/healing-evening--009.ogg"
+    },
+    {
+      "id": "healing-evening--010",
+      "lineId": "evening--010",
+      "sceneId": "evening",
+      "lineIndex": 9,
+      "speaker": "母亲",
+      "text": "饭给你留着。成绩……回来再看看。",
+      "src": "audio/voice/full-20261021/healing-evening--010.ogg"
+    },
+    {
+      "id": "healing-evening--012",
+      "lineId": "evening--012",
+      "sceneId": "evening",
+      "lineIndex": 11,
+      "speaker": "程屿",
+      "text": "我最近是有点跟不上。你先听我说完，再想办法行吗？",
+      "src": "audio/voice/full-20261021/healing-evening--012.ogg"
+    },
+    {
+      "id": "healing-end-together--003",
+      "lineId": "end-together--003",
+      "sceneId": "end-together",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "这句有点长。",
+      "src": "audio/voice/full-20261021/healing-end-together--003.ogg"
+    },
+    {
+      "id": "healing-end-together--004",
+      "lineId": "end-together--004",
+      "sceneId": "end-together",
+      "lineIndex": 3,
+      "speaker": "陈知遥",
+      "text": "我试过删。每次删掉最后一句，都觉得少了点东西。",
+      "src": "audio/voice/full-20261021/healing-end-together--004.ogg"
+    },
+    {
+      "id": "healing-end-together--006",
+      "lineId": "end-together--006",
+      "sceneId": "end-together",
+      "lineIndex": 5,
+      "speaker": "林见夏",
+      "text": "我想交了。想改的地方，我会自己说。",
+      "src": "audio/voice/full-20261021/healing-end-together--006.ogg"
+    },
+    {
+      "id": "healing-end-together--008",
+      "lineId": "end-together--008",
+      "sceneId": "end-together",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "我还没写好结尾。",
+      "src": "audio/voice/full-20261021/healing-end-together--008.ogg"
+    },
+    {
+      "id": "healing-end-together--009",
+      "lineId": "end-together--009",
+      "sceneId": "end-together",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "不用今天就把一切写好。",
+      "src": "audio/voice/full-20261021/healing-end-together--009.ogg"
+    },
+    {
+      "id": "healing-end-together--011",
+      "lineId": "end-together--011",
+      "sceneId": "end-together",
+      "lineIndex": 10,
+      "speaker": "陈知遥",
+      "text": "专题有名字了吗？",
+      "src": "audio/voice/full-20261021/healing-end-together--011.ogg"
+    },
+    {
+      "id": "healing-end-together--012",
+      "lineId": "end-together--012",
+      "sceneId": "end-together",
+      "lineIndex": 11,
+      "speaker": "程屿",
+      "text": "生长痛。",
+      "src": "audio/voice/full-20261021/healing-end-together--012.ogg"
+    },
+    {
+      "id": "healing-end-together--016",
+      "lineId": "end-together--016",
+      "sceneId": "end-together",
+      "lineIndex": 15,
+      "speaker": "林见夏",
+      "text": "明天，你还坐窗边吗？",
+      "src": "audio/voice/full-20261021/healing-end-together--016.ogg"
+    },
+    {
+      "id": "healing-end-together--017",
+      "lineId": "end-together--017",
+      "sceneId": "end-together",
+      "lineIndex": 16,
+      "speaker": "程屿",
+      "text": "嗯。窗关不严的话，你叫我。",
+      "src": "audio/voice/full-20261021/healing-end-together--017.ogg"
+    },
+    {
+      "id": "healing-end-letter--004",
+      "lineId": "end-letter--004",
+      "sceneId": "end-letter",
+      "lineIndex": 3,
+      "speaker": "林见夏",
+      "text": "如果一句话暂时说不出口，可以先写在纸上。写完以后，交不交都由你。",
+      "src": "audio/voice/full-20261021/healing-end-letter--004.ogg"
+    },
+    {
+      "id": "healing-end-letter--007",
+      "lineId": "end-letter--007",
+      "sceneId": "end-letter",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "这句比“谢谢”具体。",
+      "src": "audio/voice/full-20261021/healing-end-letter--007.ogg"
+    },
+    {
+      "id": "healing-end-letter--008",
+      "lineId": "end-letter--008",
+      "sceneId": "end-letter",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "你什么时候看的？",
+      "src": "audio/voice/full-20261021/healing-end-letter--008.ogg"
+    },
+    {
+      "id": "healing-end-letter--009",
+      "lineId": "end-letter--009",
+      "sceneId": "end-letter",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "你推过来的时候。",
+      "src": "audio/voice/full-20261021/healing-end-letter--009.ogg"
+    },
+    {
+      "id": "healing-end-quiet--003",
+      "lineId": "end-quiet--003",
+      "sceneId": "end-quiet",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "伞我放你桌边了。",
+      "src": "audio/voice/full-20261021/healing-end-quiet--003.ogg"
+    },
+    {
+      "id": "healing-end-quiet--004",
+      "lineId": "end-quiet--004",
+      "sceneId": "end-quiet",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "好，谢谢。",
+      "src": "audio/voice/full-20261021/healing-end-quiet--004.ogg"
+    },
+    {
+      "id": "healing-end-quiet--007",
+      "lineId": "end-quiet--007",
+      "sceneId": "end-quiet",
+      "lineIndex": 6,
+      "speaker": "贺川",
+      "text": "饭团，今天没买辣的。",
+      "src": "audio/voice/full-20261021/healing-end-quiet--007.ogg"
+    },
+    {
+      "id": "healing-end-quiet--008",
+      "lineId": "end-quiet--008",
+      "sceneId": "end-quiet",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "你怎么天天买两个？",
+      "src": "audio/voice/full-20261021/healing-end-quiet--008.ogg"
+    },
+    {
+      "id": "healing-end-quiet--009",
+      "lineId": "end-quiet--009",
+      "sceneId": "end-quiet",
+      "lineIndex": 8,
+      "speaker": "贺川",
+      "text": "习惯了。你不吃，我就吃双份。",
+      "src": "audio/voice/full-20261021/healing-end-quiet--009.ogg"
+    },
+    {
+      "id": "healing-c2-open--002",
+      "lineId": "c2-open--002",
+      "sceneId": "c2-open",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "要是十份都这样，今天会一直听见它响。",
+      "src": "audio/voice/full-20261021/healing-c2-open--002.ogg"
+    },
+    {
+      "id": "healing-c2-open--003",
+      "lineId": "c2-open--003",
+      "sceneId": "c2-open",
+      "lineIndex": 2,
+      "speaker": "许棠",
+      "text": "先别钉。老师说，家长会那天只要样张。正式这一期，要等大家确认好才能印。",
+      "src": "audio/voice/full-20261021/healing-c2-open--003.ogg"
+    },
+    {
+      "id": "healing-c2-open--005",
+      "lineId": "c2-open--005",
+      "sceneId": "c2-open",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "照片有这么多？",
+      "src": "audio/voice/full-20261021/healing-c2-open--005.ogg"
+    },
+    {
+      "id": "healing-c2-open--006",
+      "lineId": "c2-open--006",
+      "sceneId": "c2-open",
+      "lineIndex": 5,
+      "speaker": "许棠",
+      "text": "能选的只有两张。其他几张还没问过照片里的人，还有一张要撤下。",
+      "src": "audio/voice/full-20261021/healing-c2-open--006.ogg"
+    },
+    {
+      "id": "healing-c2-open--007",
+      "lineId": "c2-open--007",
+      "sceneId": "c2-open",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "那今天先看能用的。别把“待确认”擦掉，我会以为已经问过。",
+      "src": "audio/voice/full-20261021/healing-c2-open--007.ogg"
+    },
+    {
+      "id": "healing-c2-open--009",
+      "lineId": "c2-open--009",
+      "sceneId": "c2-open",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "文章排出来以后，还可以改吗？",
+      "src": "audio/voice/full-20261021/healing-c2-open--009.ogg"
+    },
+    {
+      "id": "healing-c2-open--010",
+      "lineId": "c2-open--010",
+      "sceneId": "c2-open",
+      "lineIndex": 9,
+      "speaker": "许棠",
+      "text": "可以。送到机器里以前，都能改。送进去以后，也得知道哪一版用了什么。",
+      "src": "audio/voice/full-20261021/healing-c2-open--010.ogg"
+    },
+    {
+      "id": "healing-c2-from-together--002",
+      "lineId": "c2-from-together--002",
+      "sceneId": "c2-from-together",
+      "lineIndex": 1,
+      "speaker": "林见夏",
+      "text": "我改了最后一段。没有写“以后一定”，那句我自己都不敢保证。",
+      "src": "audio/voice/full-20261021/healing-c2-from-together--002.ogg"
+    },
+    {
+      "id": "healing-c2-from-together--003",
+      "lineId": "c2-from-together--003",
+      "sceneId": "c2-from-together",
+      "lineIndex": 2,
+      "speaker": "陈知遥",
+      "text": "我把编辑名单拆成了几栏。谁做什么就写谁，别只留一个联系人。",
+      "src": "audio/voice/full-20261021/healing-c2-from-together--003.ogg"
+    },
+    {
+      "id": "healing-c2-from-together--004",
+      "lineId": "c2-from-together--004",
+      "sceneId": "c2-from-together",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "我的那页你们看过了。我还想留着第一人称。",
+      "src": "audio/voice/full-20261021/healing-c2-from-together--004.ogg"
+    },
+    {
+      "id": "healing-c2-from-together--006",
+      "lineId": "c2-from-together--006",
+      "sceneId": "c2-from-together",
+      "lineIndex": 5,
+      "speaker": "许棠",
+      "text": "夹过的才是这一版。没夹的，我不往最后文件里放。",
+      "src": "audio/voice/full-20261021/healing-c2-from-together--006.ogg"
+    },
+    {
+      "id": "healing-c2-from-letter--002",
+      "lineId": "c2-from-letter--002",
+      "sceneId": "c2-from-letter",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "可以只留笔名吗？",
+      "src": "audio/voice/full-20261021/healing-c2-from-letter--002.ogg"
+    },
+    {
+      "id": "healing-c2-from-letter--003",
+      "lineId": "c2-from-letter--003",
+      "sceneId": "c2-from-letter",
+      "lineIndex": 2,
+      "speaker": "许棠",
+      "text": "可以。但同班的人看见内容，也可能认出你。笔名不能保证别人什么都猜不到。",
+      "src": "audio/voice/full-20261021/healing-c2-from-letter--003.ogg"
+    },
+    {
+      "id": "healing-c2-from-letter--004",
+      "lineId": "c2-from-letter--004",
+      "sceneId": "c2-from-letter",
+      "lineIndex": 3,
+      "speaker": "林见夏",
+      "text": "我也想过这件事。我爸不知道我具体写了哪些话，我不想让他第一次读到的时候，旁边站着一圈人。",
+      "src": "audio/voice/full-20261021/healing-c2-from-letter--004.ogg"
+    },
+    {
+      "id": "healing-c2-from-letter--005",
+      "lineId": "c2-from-letter--005",
+      "sceneId": "c2-from-letter",
+      "lineIndex": 4,
+      "speaker": "陈知遥",
+      "text": "家长会不用把整本样张摊开。老师确认过的目录可以看，作者没确认的文章先留着。",
+      "src": "audio/voice/full-20261021/healing-c2-from-letter--005.ogg"
+    },
+    {
+      "id": "healing-c2-from-letter--007",
+      "lineId": "c2-from-letter--007",
+      "sceneId": "c2-from-letter",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "我想换掉具体排名，其他的先保留。正式送印之前再让我看一遍。",
+      "src": "audio/voice/full-20261021/healing-c2-from-letter--007.ogg"
+    },
+    {
+      "id": "healing-c2-from-quiet--002",
+      "lineId": "c2-from-quiet--002",
+      "sceneId": "c2-from-quiet",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "你还来吗？我们给你的那页留了位置，没替你交。",
+      "src": "audio/voice/full-20261021/healing-c2-from-quiet--002.ogg"
+    },
+    {
+      "id": "healing-c2-from-quiet--003",
+      "lineId": "c2-from-quiet--003",
+      "sceneId": "c2-from-quiet",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "来。上次没写完的，我带来了。",
+      "src": "audio/voice/full-20261021/healing-c2-from-quiet--003.ogg"
+    },
+    {
+      "id": "healing-c2-from-quiet--005",
+      "lineId": "c2-from-quiet--005",
+      "sceneId": "c2-from-quiet",
+      "lineIndex": 4,
+      "speaker": "林见夏",
+      "text": "你想给我们看，还是先自己改？",
+      "src": "audio/voice/full-20261021/healing-c2-from-quiet--005.ogg"
+    },
+    {
+      "id": "healing-c2-from-quiet--006",
+      "lineId": "c2-from-quiet--006",
+      "sceneId": "c2-from-quiet",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "先给你们看。但我怕你们看完以后，又觉得我一直在绕。",
+      "src": "audio/voice/full-20261021/healing-c2-from-quiet--006.ogg"
+    },
+    {
+      "id": "healing-c2-from-quiet--007",
+      "lineId": "c2-from-quiet--007",
+      "sceneId": "c2-from-quiet",
+      "lineIndex": 6,
+      "speaker": "许棠",
+      "text": "绕的那句我们可以圈出来。要不要改、怎么改，还是你决定。",
+      "src": "audio/voice/full-20261021/healing-c2-from-quiet--007.ogg"
+    },
+    {
+      "id": "healing-c2-deadline--002",
+      "lineId": "c2-deadline--002",
+      "sceneId": "c2-deadline",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "文印老师六点关门。许棠要还相机，见夏要赶车，我五点五十走。谁说来得及，就得把时间说清楚。",
+      "src": "audio/voice/full-20261021/healing-c2-deadline--002.ogg"
+    },
+    {
+      "id": "healing-c2-deadline--003",
+      "lineId": "c2-deadline--003",
+      "sceneId": "c2-deadline",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "我五点四十五以前得送完。回家晚一点，我会发消息。",
+      "src": "audio/voice/full-20261021/healing-c2-deadline--003.ogg"
+    },
+    {
+      "id": "healing-c2-deadline--004",
+      "lineId": "c2-deadline--004",
+      "sceneId": "c2-deadline",
+      "lineIndex": 3,
+      "speaker": "许棠",
+      "text": "那我们别在五点四十四再发现有三页要重排。",
+      "src": "audio/voice/full-20261021/healing-c2-deadline--004.ogg"
+    },
+    {
+      "id": "healing-c2-deadline--006",
+      "lineId": "c2-deadline--006",
+      "sceneId": "c2-deadline",
+      "lineIndex": 5,
+      "speaker": "陈知遥",
+      "text": "我刚才差点写自己。总觉得空着就是我没安排好。",
+      "src": "audio/voice/full-20261021/healing-c2-deadline--006.ogg"
+    },
+    {
+      "id": "healing-c2-deadline--007",
+      "lineId": "c2-deadline--007",
+      "sceneId": "c2-deadline",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "等贺川下课，我问他明天有没有空。没空就找老师重新安排。",
+      "src": "audio/voice/full-20261021/healing-c2-deadline--007.ogg"
+    },
+    {
+      "id": "healing-c2-deadline--008",
+      "lineId": "c2-deadline--008",
+      "sceneId": "c2-deadline",
+      "lineIndex": 7,
+      "speaker": "林见夏",
+      "text": "今天改不完的文章，也先不上。不用把每个空位都塞满。",
+      "src": "audio/voice/full-20261021/healing-c2-deadline--008.ogg"
+    },
+    {
+      "id": "healing-c2-task--002",
+      "lineId": "c2-task--002",
+      "sceneId": "c2-task",
+      "lineIndex": 1,
+      "speaker": "林见夏",
+      "text": "我想保留这一句，但不知道会不会显得太直白。",
+      "src": "audio/voice/full-20261021/healing-c2-task--002.ogg"
+    },
+    {
+      "id": "healing-c2-task--003",
+      "lineId": "c2-task--003",
+      "sceneId": "c2-task",
+      "lineIndex": 2,
+      "speaker": "陈知遥",
+      "text": "我需要一个人把搬书的具体时间问清楚。别只带回来“他应该能来”。",
+      "src": "audio/voice/full-20261021/healing-c2-task--003.ogg"
+    },
+    {
+      "id": "healing-c2-task--004",
+      "lineId": "c2-task--004",
+      "sceneId": "c2-task",
+      "lineIndex": 3,
+      "speaker": "许棠",
+      "text": "我要去问照片里的同学。你可以跟我去，但别替她回答。",
+      "src": "audio/voice/full-20261021/healing-c2-task--004.ogg"
+    },
+    {
+      "id": "healing-c2-lin-draft--002",
+      "lineId": "c2-lin-draft--002",
+      "sceneId": "c2-lin-draft",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "你想认真吗？",
+      "src": "audio/voice/full-20261021/healing-c2-lin-draft--002.ogg"
+    },
+    {
+      "id": "healing-c2-lin-draft--003",
+      "lineId": "c2-lin-draft--003",
+      "sceneId": "c2-lin-draft",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "想。但我以前一说想写，他们就问以后能做什么。我只好说只是试试，好像小一点的愿望比较容易过关。",
+      "src": "audio/voice/full-20261021/healing-c2-lin-draft--003.ogg"
+    },
+    {
+      "id": "healing-c2-lin-draft--005",
+      "lineId": "c2-lin-draft--005",
+      "sceneId": "c2-lin-draft",
+      "lineIndex": 4,
+      "speaker": "林见夏",
+      "text": "这两段放在一起，会不会很奇怪？",
+      "src": "audio/voice/full-20261021/healing-c2-lin-draft--005.ogg"
+    },
+    {
+      "id": "healing-c2-lin-draft--006",
+      "lineId": "c2-lin-draft--006",
+      "sceneId": "c2-lin-draft",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "我读得明白。你要我改哪一个字，我才改。",
+      "src": "audio/voice/full-20261021/healing-c2-lin-draft--006.ogg"
+    },
+    {
+      "id": "healing-c2-lin-draft--008",
+      "lineId": "c2-lin-draft--008",
+      "sceneId": "c2-lin-draft",
+      "lineIndex": 7,
+      "speaker": "林见夏",
+      "text": "这是我最想留下的。你核对的时候先看这一行。",
+      "src": "audio/voice/full-20261021/healing-c2-lin-draft--008.ogg"
+    },
+    {
+      "id": "healing-c2-lin-draft--009",
+      "lineId": "c2-lin-draft--009",
+      "sceneId": "c2-lin-draft",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "我记在这里，不凭记性。",
+      "src": "audio/voice/full-20261021/healing-c2-lin-draft--009.ogg"
+    },
+    {
+      "id": "healing-c2-chen-list--002",
+      "lineId": "c2-chen-list--002",
+      "sceneId": "c2-chen-list",
+      "lineIndex": 1,
+      "speaker": "贺川",
+      "text": "十本就是十本？别搬到一半变成两箱。",
+      "src": "audio/voice/full-20261021/healing-c2-chen-list--002.ogg"
+    },
+    {
+      "id": "healing-c2-chen-list--003",
+      "lineId": "c2-chen-list--003",
+      "sceneId": "c2-chen-list",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "十本，我和你一人一头。你明天有空吗？",
+      "src": "audio/voice/full-20261021/healing-c2-chen-list--003.ogg"
+    },
+    {
+      "id": "healing-c2-chen-list--004",
+      "lineId": "c2-chen-list--004",
+      "sceneId": "c2-chen-list",
+      "lineIndex": 3,
+      "speaker": "贺川",
+      "text": "有。五点到楼梯口，别让我找你们。",
+      "src": "audio/voice/full-20261021/healing-c2-chen-list--004.ogg"
+    },
+    {
+      "id": "healing-c2-chen-list--006",
+      "lineId": "c2-chen-list--006",
+      "sceneId": "c2-chen-list",
+      "lineIndex": 5,
+      "speaker": "陈知遥",
+      "text": "不写这句，我会一直担心。",
+      "src": "audio/voice/full-20261021/healing-c2-chen-list--006.ogg"
+    },
+    {
+      "id": "healing-c2-chen-list--007",
+      "lineId": "c2-chen-list--007",
+      "sceneId": "c2-chen-list",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "我们没来，先打电话。再决定怎么做，不用提前把所有后果留给自己。",
+      "src": "audio/voice/full-20261021/healing-c2-chen-list--007.ogg"
+    },
+    {
+      "id": "healing-c2-chen-list--008",
+      "lineId": "c2-chen-list--008",
+      "sceneId": "c2-chen-list",
+      "lineIndex": 7,
+      "speaker": "陈知遥",
+      "text": "那我只确认一次。搬完也自己告诉我，别等我去问。",
+      "src": "audio/voice/full-20261021/healing-c2-chen-list--008.ogg"
+    },
+    {
+      "id": "healing-c2-chen-list--010",
+      "lineId": "c2-chen-list--010",
+      "sceneId": "c2-chen-list",
+      "lineIndex": 9,
+      "speaker": "陈知遥",
+      "text": "五点五十还是走。你别因为我删了两项，又替我找两项更有用的。",
+      "src": "audio/voice/full-20261021/healing-c2-chen-list--010.ogg"
+    },
+    {
+      "id": "healing-c2-tang-photo--002",
+      "lineId": "c2-tang-photo--002",
+      "sceneId": "c2-tang-photo",
+      "lineIndex": 1,
+      "speaker": "许棠",
+      "text": "好，这张撤下。原图你想要吗？我可以只给你，或者一起删掉。",
+      "src": "audio/voice/full-20261021/healing-c2-tang-photo--002.ogg"
+    },
+    {
+      "id": "healing-c2-tang-photo--003",
+      "lineId": "c2-tang-photo--003",
+      "sceneId": "c2-tang-photo",
+      "lineIndex": 2,
+      "speaker": "同学",
+      "text": "给我就行。你留着也可以，但别发。",
+      "src": "audio/voice/full-20261021/healing-c2-tang-photo--003.ogg"
+    },
+    {
+      "id": "healing-c2-tang-photo--005",
+      "lineId": "c2-tang-photo--005",
+      "sceneId": "c2-tang-photo",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "版面会空吗？",
+      "src": "audio/voice/full-20261021/healing-c2-tang-photo--005.ogg"
+    },
+    {
+      "id": "healing-c2-tang-photo--006",
+      "lineId": "c2-tang-photo--006",
+      "sceneId": "c2-tang-photo",
+      "lineIndex": 5,
+      "speaker": "许棠",
+      "text": "会。所以本来就留了能换的位置。用长椅那张，没有人。",
+      "src": "audio/voice/full-20261021/healing-c2-tang-photo--006.ogg"
+    },
+    {
+      "id": "healing-c2-tang-photo--008",
+      "lineId": "c2-tang-photo--008",
+      "sceneId": "c2-tang-photo",
+      "lineIndex": 7,
+      "speaker": "许棠",
+      "text": "我以前拿相机的时候，总想着抓住最好看的那一瞬间。拍下来了，就很难舍得不用。",
+      "src": "audio/voice/full-20261021/healing-c2-tang-photo--008.ogg"
+    },
+    {
+      "id": "healing-c2-tang-photo--009",
+      "lineId": "c2-tang-photo--009",
+      "sceneId": "c2-tang-photo",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "现在呢？",
+      "src": "audio/voice/full-20261021/healing-c2-tang-photo--009.ogg"
+    },
+    {
+      "id": "healing-c2-tang-photo--010",
+      "lineId": "c2-tang-photo--010",
+      "sceneId": "c2-tang-photo",
+      "lineIndex": 9,
+      "speaker": "许棠",
+      "text": "也舍不得。不过舍不得是我的事。给别人看之前，要由照片里的那个人决定。",
+      "src": "audio/voice/full-20261021/healing-c2-tang-photo--010.ogg"
+    },
+    {
+      "id": "healing-c2-proof--002",
+      "lineId": "c2-proof--002",
+      "sceneId": "c2-proof",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "往里挪一点。纸上真的有钉子。",
+      "src": "audio/voice/full-20261021/healing-c2-proof--002.ogg"
+    },
+    {
+      "id": "healing-c2-proof--004",
+      "lineId": "c2-proof--004",
+      "sceneId": "c2-proof",
+      "lineIndex": 3,
+      "speaker": "林见夏",
+      "text": "这里少了一句。“我想继续写”，后面还有“不是只想试一次”。",
+      "src": "audio/voice/full-20261021/healing-c2-proof--004.ogg"
+    },
+    {
+      "id": "healing-c2-proof--005",
+      "lineId": "c2-proof--005",
+      "sceneId": "c2-proof",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "我合稿拿错了版本。对不起，我换回来，再给你看。",
+      "src": "audio/voice/full-20261021/healing-c2-proof--005.ogg"
+    },
+    {
+      "id": "healing-c2-proof--007",
+      "lineId": "c2-proof--007",
+      "sceneId": "c2-proof",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "先别删旧稿。我想知道还有哪里不一样。",
+      "src": "audio/voice/full-20261021/healing-c2-proof--007.ogg"
+    },
+    {
+      "id": "healing-c2-proof--008",
+      "lineId": "c2-proof--008",
+      "sceneId": "c2-proof",
+      "lineIndex": 7,
+      "speaker": "许棠",
+      "text": "我标成待确认。旧的保留，不往正式文件里放。",
+      "src": "audio/voice/full-20261021/healing-c2-proof--008.ogg"
+    },
+    {
+      "id": "healing-c2-proof--009",
+      "lineId": "c2-proof--009",
+      "sceneId": "c2-proof",
+      "lineIndex": 8,
+      "speaker": "文印老师",
+      "text": "明天中午交也来得及。印纸快，别拿这个催作者。",
+      "src": "audio/voice/full-20261021/healing-c2-proof--009.ogg"
+    },
+    {
+      "id": "healing-c2-proof--011",
+      "lineId": "c2-proof--011",
+      "sceneId": "c2-proof",
+      "lineIndex": 10,
+      "speaker": "陈知遥",
+      "text": "今晚不在群里继续催。明早问一次，没答应的先不上。",
+      "src": "audio/voice/full-20261021/healing-c2-proof--011.ogg"
+    },
+    {
+      "id": "healing-c2-permission--002",
+      "lineId": "c2-permission--002",
+      "sceneId": "c2-permission",
+      "lineIndex": 1,
+      "speaker": "许棠",
+      "text": "当时觉得只有封面应该没事。你不想用，我换一张。",
+      "src": "audio/voice/full-20261021/healing-c2-permission--002.ogg"
+    },
+    {
+      "id": "healing-c2-permission--003",
+      "lineId": "c2-permission--003",
+      "sceneId": "c2-permission",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "我还想看看文章旁边的名字。名字、照片和文章，能分开决定吧？",
+      "src": "audio/voice/full-20261021/healing-c2-permission--003.ogg"
+    },
+    {
+      "id": "healing-c2-permission--004",
+      "lineId": "c2-permission--004",
+      "sceneId": "c2-permission",
+      "lineIndex": 3,
+      "speaker": "陈知遥",
+      "text": "能。你慢慢看，我不替你点头。",
+      "src": "audio/voice/full-20261021/healing-c2-permission--004.ogg"
+    },
+    {
+      "id": "healing-c2-ask--002",
+      "lineId": "c2-ask--002",
+      "sceneId": "c2-ask",
+      "lineIndex": 1,
+      "speaker": "林见夏",
+      "text": "我没有不想交。这几个决定可以分开做。",
+      "src": "audio/voice/full-20261021/healing-c2-ask--002.ogg"
+    },
+    {
+      "id": "healing-c2-ask--003",
+      "lineId": "c2-ask--003",
+      "sceneId": "c2-ask",
+      "lineIndex": 2,
+      "speaker": "许棠",
+      "text": "可以。照片换成长椅，署名照你的圈改。",
+      "src": "audio/voice/full-20261021/healing-c2-ask--003.ogg"
+    },
+    {
+      "id": "healing-c2-ask--005",
+      "lineId": "c2-ask--005",
+      "sceneId": "c2-ask",
+      "lineIndex": 4,
+      "speaker": "陈知遥",
+      "text": "每次都写班长，看起来像我没有别的事能做。",
+      "src": "audio/voice/full-20261021/healing-c2-ask--005.ogg"
+    },
+    {
+      "id": "healing-c2-ask--006",
+      "lineId": "c2-ask--006",
+      "sceneId": "c2-ask",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "你还修好了订书机。",
+      "src": "audio/voice/full-20261021/healing-c2-ask--006.ogg"
+    },
+    {
+      "id": "healing-c2-ask--007",
+      "lineId": "c2-ask--007",
+      "sceneId": "c2-ask",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "靠硬币修的。那把硬币也算上。",
+      "src": "audio/voice/full-20261021/healing-c2-ask--007.ogg"
+    },
+    {
+      "id": "healing-c2-ask--009",
+      "lineId": "c2-ask--009",
+      "sceneId": "c2-ask",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "这一版，我看得明白。",
+      "src": "audio/voice/full-20261021/healing-c2-ask--009.ogg"
+    },
+    {
+      "id": "healing-c2-layout--002",
+      "lineId": "c2-layout--002",
+      "sceneId": "c2-layout",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "我们自己带回。明早确认好，再送。",
+      "src": "audio/voice/full-20261021/healing-c2-layout--002.ogg"
+    },
+    {
+      "id": "healing-c2-layout--003",
+      "lineId": "c2-layout--003",
+      "sceneId": "c2-layout",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "我能先拿一份吗？我想看看，写在纸上是什么感觉。",
+      "src": "audio/voice/full-20261021/healing-c2-layout--003.ogg"
+    },
+    {
+      "id": "healing-c2-layout--004",
+      "lineId": "c2-layout--004",
+      "sceneId": "c2-layout",
+      "lineIndex": 3,
+      "speaker": "许棠",
+      "text": "给你。我再排一版不带笔记本的。",
+      "src": "audio/voice/full-20261021/healing-c2-layout--004.ogg"
+    },
+    {
+      "id": "healing-c2-layout--006",
+      "lineId": "c2-layout--006",
+      "sceneId": "c2-layout",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "我去送最后文件。没确认的不送。",
+      "src": "audio/voice/full-20261021/healing-c2-layout--006.ogg"
+    },
+    {
+      "id": "healing-c2-layout--008",
+      "lineId": "c2-layout--008",
+      "sceneId": "c2-layout",
+      "lineIndex": 7,
+      "speaker": "许棠",
+      "text": "我有时候为了不想拆版面，会觉得别人应该能接受。",
+      "src": "audio/voice/full-20261021/healing-c2-layout--008.ogg"
+    },
+    {
+      "id": "healing-c2-layout--009",
+      "lineId": "c2-layout--009",
+      "sceneId": "c2-layout",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "那就提前留一个能拆的位置。",
+      "src": "audio/voice/full-20261021/healing-c2-layout--009.ogg"
+    },
+    {
+      "id": "healing-c2-home--002",
+      "lineId": "c2-home--002",
+      "sceneId": "c2-home",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "核对校刊，六点关门，校门等了一班车。",
+      "src": "audio/voice/full-20261021/healing-c2-home--002.ogg"
+    },
+    {
+      "id": "healing-c2-home--003",
+      "lineId": "c2-home--003",
+      "sceneId": "c2-home",
+      "lineIndex": 2,
+      "speaker": "妈妈",
+      "text": "发个消息也行。你爸今天晚班，我以为老师又留人讲题。",
+      "src": "audio/voice/full-20261021/healing-c2-home--003.ogg"
+    },
+    {
+      "id": "healing-c2-home--005",
+      "lineId": "c2-home--005",
+      "sceneId": "c2-home",
+      "lineIndex": 4,
+      "speaker": "妈妈",
+      "text": "数学这样，后面还能跟上吗？又忙这个，能有多少时间？",
+      "src": "audio/voice/full-20261021/healing-c2-home--005.ogg"
+    },
+    {
+      "id": "healing-c2-home--007",
+      "lineId": "c2-home--007",
+      "sceneId": "c2-home",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "有两题我知道错在哪，最后那道还不会。今晚核对两页，还要四十分钟，然后改两题，十一点停。",
+      "src": "audio/voice/full-20261021/healing-c2-home--007.ogg"
+    },
+    {
+      "id": "healing-c2-home--008",
+      "lineId": "c2-home--008",
+      "sceneId": "c2-home",
+      "lineIndex": 7,
+      "speaker": "妈妈",
+      "text": "两题就够了？",
+      "src": "audio/voice/full-20261021/healing-c2-home--008.ogg"
+    },
+    {
+      "id": "healing-c2-home--009",
+      "lineId": "c2-home--009",
+      "sceneId": "c2-home",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "今天先做这些。不会的明天问。我不想说今晚全部补完，再躲到屋里不出来。",
+      "src": "audio/voice/full-20261021/healing-c2-home--009.ogg"
+    },
+    {
+      "id": "healing-c2-home--011",
+      "lineId": "c2-home--011",
+      "sceneId": "c2-home",
+      "lineIndex": 10,
+      "speaker": "程屿",
+      "text": "我把不会的圈出来，明天你也能看。",
+      "src": "audio/voice/full-20261021/healing-c2-home--011.ogg"
+    },
+    {
+      "id": "healing-c2-home--012",
+      "lineId": "c2-home--012",
+      "sceneId": "c2-home",
+      "lineIndex": 11,
+      "speaker": "妈妈",
+      "text": "先吃。你爸那份别动，等下放冰箱。",
+      "src": "audio/voice/full-20261021/healing-c2-home--012.ogg"
+    },
+    {
+      "id": "healing-c2-home-plan--002",
+      "lineId": "c2-home-plan--002",
+      "sceneId": "c2-home-plan",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "先把日期补上，不要让天气替你背锅。",
+      "src": "audio/voice/full-20261021/healing-c2-home-plan--002.ogg"
+    },
+    {
+      "id": "healing-c2-home-plan--005",
+      "lineId": "c2-home-plan--005",
+      "sceneId": "c2-home-plan",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "妈，第二题还差一步。我圈在这里，明天接着做。",
+      "src": "audio/voice/full-20261021/healing-c2-home-plan--005.ogg"
+    },
+    {
+      "id": "healing-c2-home-plan--006",
+      "lineId": "c2-home-plan--006",
+      "sceneId": "c2-home-plan",
+      "lineIndex": 5,
+      "speaker": "妈妈",
+      "text": "不是说改完两题？",
+      "src": "audio/voice/full-20261021/healing-c2-home-plan--006.ogg"
+    },
+    {
+      "id": "healing-c2-home-plan--007",
+      "lineId": "c2-home-plan--007",
+      "sceneId": "c2-home-plan",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "我估少了。改完一题，另一题到这里。明天早读问老师，再给你看答案。",
+      "src": "audio/voice/full-20261021/healing-c2-home-plan--007.ogg"
+    },
+    {
+      "id": "healing-c2-confirm--002",
+      "lineId": "c2-confirm--002",
+      "sceneId": "c2-confirm",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "你来了就来得及。迟到的话，你那页先空着。",
+      "src": "audio/voice/full-20261021/healing-c2-confirm--002.ogg"
+    },
+    {
+      "id": "healing-c2-confirm--004",
+      "lineId": "c2-confirm--004",
+      "sceneId": "c2-confirm",
+      "lineIndex": 3,
+      "speaker": "许棠",
+      "text": "可以。小一级，行距不改。",
+      "src": "audio/voice/full-20261021/healing-c2-confirm--004.ogg"
+    },
+    {
+      "id": "healing-c2-confirm--006",
+      "lineId": "c2-confirm--006",
+      "sceneId": "c2-confirm",
+      "lineIndex": 5,
+      "speaker": "林见夏",
+      "text": "这一版，我确认了。",
+      "src": "audio/voice/full-20261021/healing-c2-confirm--006.ogg"
+    },
+    {
+      "id": "healing-c2-confirm--008",
+      "lineId": "c2-confirm--008",
+      "sceneId": "c2-confirm",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "我先问一题，八点二十以前送去，行吗？",
+      "src": "audio/voice/full-20261021/healing-c2-confirm--008.ogg"
+    },
+    {
+      "id": "healing-c2-confirm--009",
+      "lineId": "c2-confirm--009",
+      "sceneId": "c2-confirm",
+      "lineIndex": 8,
+      "speaker": "陈知遥",
+      "text": "老师说中午前。不用为了送十份纸，连本来要问的题都不问。",
+      "src": "audio/voice/full-20261021/healing-c2-confirm--009.ogg"
+    },
+    {
+      "id": "healing-c2-parents--003",
+      "lineId": "c2-parents--003",
+      "sceneId": "c2-parents",
+      "lineIndex": 2,
+      "speaker": "班主任",
+      "text": "这次考试检查哪里跟不上。家长也留一点时间，听孩子怎么说。",
+      "src": "audio/voice/full-20261021/healing-c2-parents--003.ogg"
+    },
+    {
+      "id": "healing-c2-parents--004",
+      "lineId": "c2-parents--004",
+      "sceneId": "c2-parents",
+      "lineIndex": 3,
+      "speaker": "贺川",
+      "text": "我爸坐错了。他刚问我名字为什么写李卓。",
+      "src": "audio/voice/full-20261021/healing-c2-parents--004.ogg"
+    },
+    {
+      "id": "healing-c2-parents--005",
+      "lineId": "c2-parents--005",
+      "sceneId": "c2-parents",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "没告诉他哪排？",
+      "src": "audio/voice/full-20261021/healing-c2-parents--005.ogg"
+    },
+    {
+      "id": "healing-c2-parents--006",
+      "lineId": "c2-parents--006",
+      "sceneId": "c2-parents",
+      "lineIndex": 5,
+      "speaker": "贺川",
+      "text": "告诉了。他把靠门的当第一列。",
+      "src": "audio/voice/full-20261021/healing-c2-parents--006.ogg"
+    },
+    {
+      "id": "healing-c2-parents--008",
+      "lineId": "c2-parents--008",
+      "sceneId": "c2-parents",
+      "lineIndex": 7,
+      "speaker": "许棠",
+      "text": "我妈问，我给她看同意给她看的两页。",
+      "src": "audio/voice/full-20261021/healing-c2-parents--008.ogg"
+    },
+    {
+      "id": "healing-c2-parents--009",
+      "lineId": "c2-parents--009",
+      "sceneId": "c2-parents",
+      "lineIndex": 8,
+      "speaker": "陈知遥",
+      "text": "我告诉妈妈搬书安排好了。贺川五点来。",
+      "src": "audio/voice/full-20261021/healing-c2-parents--009.ogg"
+    },
+    {
+      "id": "healing-c2-parents--010",
+      "lineId": "c2-parents--010",
+      "sceneId": "c2-parents",
+      "lineIndex": 9,
+      "speaker": "贺川",
+      "text": "我现在就在这里。再确认一次，我会像快递一样被催熟。",
+      "src": "audio/voice/full-20261021/healing-c2-parents--010.ogg"
+    },
+    {
+      "id": "healing-c2-parents--011",
+      "lineId": "c2-parents--011",
+      "sceneId": "c2-parents",
+      "lineIndex": 10,
+      "speaker": "林见夏",
+      "text": "我想等爸爸出来，把文章给他。别请老师替我说。",
+      "src": "audio/voice/full-20261021/healing-c2-parents--011.ogg"
+    },
+    {
+      "id": "healing-c2-parent-lin--002",
+      "lineId": "c2-parent-lin--002",
+      "sceneId": "c2-parent-lin",
+      "lineIndex": 1,
+      "speaker": "林见夏",
+      "text": "爸爸，现在能看这个吗？",
+      "src": "audio/voice/full-20261021/healing-c2-parent-lin--002.ogg"
+    },
+    {
+      "id": "healing-c2-parent-lin--003",
+      "lineId": "c2-parent-lin--003",
+      "sceneId": "c2-parent-lin",
+      "lineIndex": 2,
+      "speaker": "林父",
+      "text": "数学还得多花时间。你又写什么？",
+      "src": "audio/voice/full-20261021/healing-c2-parent-lin--003.ogg"
+    },
+    {
+      "id": "healing-c2-parent-lin--004",
+      "lineId": "c2-parent-lin--004",
+      "sceneId": "c2-parent-lin",
+      "lineIndex": 3,
+      "speaker": "林见夏",
+      "text": "文章。你先读完，好不好？等车的时候也能读。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-lin--004.ogg"
+    },
+    {
+      "id": "healing-c2-parent-lin--006",
+      "lineId": "c2-parent-lin--006",
+      "sceneId": "c2-parent-lin",
+      "lineIndex": 5,
+      "speaker": "林父",
+      "text": "不让你只想着这个，是怕以后没选择。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-lin--006.ogg"
+    },
+    {
+      "id": "healing-c2-parent-lin--007",
+      "lineId": "c2-parent-lin--007",
+      "sceneId": "c2-parent-lin",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "我知道。但每次这样说，我现在想做的事已经被选掉了。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-lin--007.ogg"
+    },
+    {
+      "id": "healing-c2-parent-lin--009",
+      "lineId": "c2-parent-lin--009",
+      "sceneId": "c2-parent-lin",
+      "lineIndex": 8,
+      "speaker": "林父",
+      "text": "就一小时，手机别跟着带。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-lin--009.ogg"
+    },
+    {
+      "id": "healing-c2-parent-lin--010",
+      "lineId": "c2-parent-lin--010",
+      "sceneId": "c2-parent-lin",
+      "lineIndex": 9,
+      "speaker": "林见夏",
+      "text": "手机放客厅。到点自己出来，但别十分钟进来问一次有什么用。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-lin--010.ogg"
+    },
+    {
+      "id": "healing-c2-parent-lin--012",
+      "lineId": "c2-parent-lin--012",
+      "sceneId": "c2-parent-lin",
+      "lineIndex": 11,
+      "speaker": "林见夏",
+      "text": "这份可以。我那份还有铅笔字。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-lin--012.ogg"
+    },
+    {
+      "id": "healing-c2-parent-chen--002",
+      "lineId": "c2-parent-chen--002",
+      "sceneId": "c2-parent-chen",
+      "lineIndex": 1,
+      "speaker": "陈母",
+      "text": "班长还是要负责，老师信任你才让你管。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-chen--002.ogg"
+    },
+    {
+      "id": "healing-c2-parent-chen--003",
+      "lineId": "c2-parent-chen--003",
+      "sceneId": "c2-parent-chen",
+      "lineIndex": 2,
+      "speaker": "陈知遥",
+      "text": "负责也得有人接手。今天想五点二十出校门。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-chen--003.ogg"
+    },
+    {
+      "id": "healing-c2-parent-chen--005",
+      "lineId": "c2-parent-chen--005",
+      "sceneId": "c2-parent-chen",
+      "lineIndex": 4,
+      "speaker": "陈知遥",
+      "text": "今晚做不完。星期一中午能交，要是今天就要得找别人。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-chen--005.ogg"
+    },
+    {
+      "id": "healing-c2-parent-chen--006",
+      "lineId": "c2-parent-chen--006",
+      "sceneId": "c2-parent-chen",
+      "lineIndex": 5,
+      "speaker": "班主任",
+      "text": "周一吧，明天我也不在学校。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-chen--006.ogg"
+    },
+    {
+      "id": "healing-c2-parent-chen--007",
+      "lineId": "c2-parent-chen--007",
+      "sceneId": "c2-parent-chen",
+      "lineIndex": 6,
+      "speaker": "陈母",
+      "text": "以前都能做完。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-chen--007.ogg"
+    },
+    {
+      "id": "healing-c2-parent-chen--008",
+      "lineId": "c2-parent-chen--008",
+      "sceneId": "c2-parent-chen",
+      "lineIndex": 7,
+      "speaker": "陈知遥",
+      "text": "以前做完，就没有时间睡觉。我没把这些告诉你。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-chen--008.ogg"
+    },
+    {
+      "id": "healing-c2-parent-chen--010",
+      "lineId": "c2-parent-chen--010",
+      "sceneId": "c2-parent-chen",
+      "lineIndex": 9,
+      "speaker": "陈母",
+      "text": "那五点二十走？",
+      "src": "audio/voice/full-20261021/healing-c2-parent-chen--010.ogg"
+    },
+    {
+      "id": "healing-c2-parent-chen--011",
+      "lineId": "c2-parent-chen--011",
+      "sceneId": "c2-parent-chen",
+      "lineIndex": 10,
+      "speaker": "陈知遥",
+      "text": "嗯。门口买个烤红薯，这个不用赶。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-chen--011.ogg"
+    },
+    {
+      "id": "healing-c2-parent-tang--002",
+      "lineId": "c2-parent-tang--002",
+      "sceneId": "c2-parent-tang",
+      "lineIndex": 1,
+      "speaker": "许母",
+      "text": "这次没进步，还有空拿这个到处跑？你说拍错题，我才让你带回家。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-tang--002.ogg"
+    },
+    {
+      "id": "healing-c2-parent-tang--003",
+      "lineId": "c2-parent-tang--003",
+      "sceneId": "c2-parent-tang",
+      "lineIndex": 2,
+      "speaker": "许棠",
+      "text": "拍错题是真的。但还拍了别的，我躲着没说。今天带来还社团，周末别人要借。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-tang--003.ogg"
+    },
+    {
+      "id": "healing-c2-parent-tang--005",
+      "lineId": "c2-parent-tang--005",
+      "sceneId": "c2-parent-tang",
+      "lineIndex": 4,
+      "speaker": "许棠",
+      "text": "我想拍下成绩以外的学校。也不是照片交出去，就可以不用学习。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-tang--005.ogg"
+    },
+    {
+      "id": "healing-c2-parent-tang--006",
+      "lineId": "c2-parent-tang--006",
+      "sceneId": "c2-parent-tang",
+      "lineIndex": 5,
+      "speaker": "许母",
+      "text": "花的都是时间。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-tang--006.ogg"
+    },
+    {
+      "id": "healing-c2-parent-tang--007",
+      "lineId": "c2-parent-tang--007",
+      "sceneId": "c2-parent-tang",
+      "lineIndex": 6,
+      "speaker": "许棠",
+      "text": "所以把时间说清楚。周四到六点，其余晚自习照常。借相机先告诉你，周末也不一直拿着。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-tang--007.ogg"
+    },
+    {
+      "id": "healing-c2-parent-tang--009",
+      "lineId": "c2-parent-tang--009",
+      "sceneId": "c2-parent-tang",
+      "lineIndex": 8,
+      "speaker": "许母",
+      "text": "先试一个月。我还是会看作业。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-tang--009.ogg"
+    },
+    {
+      "id": "healing-c2-parent-tang--010",
+      "lineId": "c2-parent-tang--010",
+      "sceneId": "c2-parent-tang",
+      "lineIndex": 9,
+      "speaker": "许棠",
+      "text": "可以。照片你可以问，我会说。别没问就拿去家长群。",
+      "src": "audio/voice/full-20261021/healing-c2-parent-tang--010.ogg"
+    },
+    {
+      "id": "healing-c2-stitch--002",
+      "lineId": "c2-stitch--002",
+      "sceneId": "c2-stitch",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "留给我。我拿错的版本。",
+      "src": "audio/voice/full-20261021/healing-c2-stitch--002.ogg"
+    },
+    {
+      "id": "healing-c2-stitch--004",
+      "lineId": "c2-stitch--004",
+      "sceneId": "c2-stitch",
+      "lineIndex": 3,
+      "speaker": "许棠",
+      "text": "那群里只说样张入柜，周一再看。别发一串现在就要答的照片。",
+      "src": "audio/voice/full-20261021/healing-c2-stitch--004.ogg"
+    },
+    {
+      "id": "healing-c2-stitch--007",
+      "lineId": "c2-stitch--007",
+      "sceneId": "c2-stitch",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "已经超过你说的两分钟了。",
+      "src": "audio/voice/full-20261021/healing-c2-stitch--007.ogg"
+    },
+    {
+      "id": "healing-c2-stitch--008",
+      "lineId": "c2-stitch--008",
+      "sceneId": "c2-stitch",
+      "lineIndex": 7,
+      "speaker": "许棠",
+      "text": "那下去说四分钟。不能因为两分钟听着好，就继续说两分钟。",
+      "src": "audio/voice/full-20261021/healing-c2-stitch--008.ogg"
+    },
+    {
+      "id": "healing-c2-finish--002",
+      "lineId": "c2-finish--002",
+      "sceneId": "c2-finish",
+      "lineIndex": 1,
+      "speaker": "妈妈",
+      "text": "那题问过了？",
+      "src": "audio/voice/full-20261021/healing-c2-finish--002.ogg"
+    },
+    {
+      "id": "healing-c2-finish--003",
+      "lineId": "c2-finish--003",
+      "sceneId": "c2-finish",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "问过。能给你讲没想到的那一步，得先画图。",
+      "src": "audio/voice/full-20261021/healing-c2-finish--003.ogg"
+    },
+    {
+      "id": "healing-c2-finish--004",
+      "lineId": "c2-finish--004",
+      "sceneId": "c2-finish",
+      "lineIndex": 3,
+      "speaker": "妈妈",
+      "text": "回去讲。今天买了排骨。",
+      "src": "audio/voice/full-20261021/healing-c2-finish--004.ogg"
+    },
+    {
+      "id": "healing-c2-finish--006",
+      "lineId": "c2-finish--006",
+      "sceneId": "c2-finish",
+      "lineIndex": 5,
+      "speaker": "贺川",
+      "text": "程屿，下周记得还我直尺！",
+      "src": "audio/voice/full-20261021/healing-c2-finish--006.ogg"
+    },
+    {
+      "id": "healing-c3-open--003",
+      "lineId": "c3-open--003",
+      "sceneId": "c3-open",
+      "lineIndex": 2,
+      "speaker": "贺川",
+      "text": "带了？我都准备第二次催你了。",
+      "src": "audio/voice/full-20261021/healing-c3-open--003.ogg"
+    },
+    {
+      "id": "healing-c3-open--004",
+      "lineId": "c3-open--004",
+      "sceneId": "c3-open",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "纸箱还在旧刊室。这个先还。",
+      "src": "audio/voice/full-20261021/healing-c3-open--004.ogg"
+    },
+    {
+      "id": "healing-c3-open--006",
+      "lineId": "c3-open--006",
+      "sceneId": "c3-open",
+      "lineIndex": 5,
+      "speaker": "林见夏",
+      "text": "作业做完了吗？",
+      "src": "audio/voice/full-20261021/healing-c3-open--006.ogg"
+    },
+    {
+      "id": "healing-c3-open--007",
+      "lineId": "c3-open--007",
+      "sceneId": "c3-open",
+      "lineIndex": 6,
+      "speaker": "程屿",
+      "text": "两道没做出来，圈好了。",
+      "src": "audio/voice/full-20261021/healing-c3-open--007.ogg"
+    },
+    {
+      "id": "healing-c3-open--008",
+      "lineId": "c3-open--008",
+      "sceneId": "c3-open",
+      "lineIndex": 7,
+      "speaker": "林见夏",
+      "text": "我三道。这样是不是你赢了？",
+      "src": "audio/voice/full-20261021/healing-c3-open--008.ogg"
+    },
+    {
+      "id": "healing-c3-open--009",
+      "lineId": "c3-open--009",
+      "sceneId": "c3-open",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "别把错题也做成比赛。",
+      "src": "audio/voice/full-20261021/healing-c3-open--009.ogg"
+    },
+    {
+      "id": "healing-c3-open--011",
+      "lineId": "c3-open--011",
+      "sceneId": "c3-open",
+      "lineIndex": 10,
+      "speaker": "林见夏",
+      "text": "第二周去外婆家，没有留出来。我没在车上把一小时抢回来。",
+      "src": "audio/voice/full-20261021/healing-c3-open--011.ogg"
+    },
+    {
+      "id": "healing-c3-open--012",
+      "lineId": "c3-open--012",
+      "sceneId": "c3-open",
+      "lineIndex": 11,
+      "speaker": "程屿",
+      "text": "稿子呢？",
+      "src": "audio/voice/full-20261021/healing-c3-open--012.ogg"
+    },
+    {
+      "id": "healing-c3-open--013",
+      "lineId": "c3-open--013",
+      "sceneId": "c3-open",
+      "lineIndex": 12,
+      "speaker": "林见夏",
+      "text": "慢一点也在写，有一段这周想再改。",
+      "src": "audio/voice/full-20261021/healing-c3-open--013.ogg"
+    },
+    {
+      "id": "healing-c3-return--002",
+      "lineId": "c3-return--002",
+      "sceneId": "c3-return",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "五十是这期的份数，不是再找五十个人投稿。老师把我们几页放进这一期。",
+      "src": "audio/voice/full-20261021/healing-c3-return--002.ogg"
+    },
+    {
+      "id": "healing-c3-return--004",
+      "lineId": "c3-return--004",
+      "sceneId": "c3-return",
+      "lineIndex": 3,
+      "speaker": "许棠",
+      "text": "上次没回信的人，我问了。原图能留，不愿意印。继续用窗框。",
+      "src": "audio/voice/full-20261021/healing-c3-return--004.ogg"
+    },
+    {
+      "id": "healing-c3-return--006",
+      "lineId": "c3-return--006",
+      "sceneId": "c3-return",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "联络表呢？",
+      "src": "audio/voice/full-20261021/healing-c3-return--006.ogg"
+    },
+    {
+      "id": "healing-c3-return--007",
+      "lineId": "c3-return--007",
+      "sceneId": "c3-return",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "昨天中午交了。老师说下次早点提醒，我说下次也需要两天。",
+      "src": "audio/voice/full-20261021/healing-c3-return--007.ogg"
+    },
+    {
+      "id": "healing-c3-return--009",
+      "lineId": "c3-return--009",
+      "sceneId": "c3-return",
+      "lineIndex": 8,
+      "speaker": "许棠",
+      "text": "我妈上周问三次为什么周四还留下。每次都拿同一张表给她看，第三遍特别想发火。",
+      "src": "audio/voice/full-20261021/healing-c3-return--009.ogg"
+    },
+    {
+      "id": "healing-c3-return--010",
+      "lineId": "c3-return--010",
+      "sceneId": "c3-return",
+      "lineIndex": 9,
+      "speaker": "林见夏",
+      "text": "有时候要说很多遍。",
+      "src": "audio/voice/full-20261021/healing-c3-return--010.ogg"
+    },
+    {
+      "id": "healing-c3-return--011",
+      "lineId": "c3-return--011",
+      "sceneId": "c3-return",
+      "lineIndex": 10,
+      "speaker": "许棠",
+      "text": "对。借用登记也写完，不能只说别人不理解。",
+      "src": "audio/voice/full-20261021/healing-c3-return--011.ogg"
+    },
+    {
+      "id": "healing-c3-revision--002",
+      "lineId": "c3-revision--002",
+      "sceneId": "c3-revision",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "标题也改吗？",
+      "src": "audio/voice/full-20261021/healing-c3-revision--002.ogg"
+    },
+    {
+      "id": "healing-c3-revision--003",
+      "lineId": "c3-revision--003",
+      "sceneId": "c3-revision",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "留着。标题可以比我走得远一点，正文不能装作已经到了。",
+      "src": "audio/voice/full-20261021/healing-c3-revision--003.ogg"
+    },
+    {
+      "id": "healing-c3-revision--005",
+      "lineId": "c3-revision--005",
+      "sceneId": "c3-revision",
+      "lineIndex": 4,
+      "speaker": "林见夏",
+      "text": "这次想用这个。",
+      "src": "audio/voice/full-20261021/healing-c3-revision--005.ogg"
+    },
+    {
+      "id": "healing-c3-revision--006",
+      "lineId": "c3-revision--006",
+      "sceneId": "c3-revision",
+      "lineIndex": 5,
+      "speaker": "许棠",
+      "text": "印前能撤回。印过的可以停止再发，不能让已经拿到的人没看见。",
+      "src": "audio/voice/full-20261021/healing-c3-revision--006.ogg"
+    },
+    {
+      "id": "healing-c3-revision--007",
+      "lineId": "c3-revision--007",
+      "sceneId": "c3-revision",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "我知道。文章里没有具体分数和地址，我想名字是我的，决定也由我做。",
+      "src": "audio/voice/full-20261021/healing-c3-revision--007.ogg"
+    },
+    {
+      "id": "healing-c3-revision--009",
+      "lineId": "c3-revision--009",
+      "sceneId": "c3-revision",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "我想给自己那页加一句，后来圈出了没做完的题。我没有全部完成，但说了还差哪一步。",
+      "src": "audio/voice/full-20261021/healing-c3-revision--009.ogg"
+    },
+    {
+      "id": "healing-c3-revision--010",
+      "lineId": "c3-revision--010",
+      "sceneId": "c3-revision",
+      "lineIndex": 9,
+      "speaker": "林见夏",
+      "text": "前面害怕回家的段落删吗？",
+      "src": "audio/voice/full-20261021/healing-c3-revision--010.ogg"
+    },
+    {
+      "id": "healing-c3-revision--011",
+      "lineId": "c3-revision--011",
+      "sceneId": "c3-revision",
+      "lineIndex": 10,
+      "speaker": "程屿",
+      "text": "留着。那个晚上确实害怕，后来有进展，不用把以前的我改成一直敢说话的人。",
+      "src": "audio/voice/full-20261021/healing-c3-revision--011.ogg"
+    },
+    {
+      "id": "healing-c3-contact--002",
+      "lineId": "c3-contact--002",
+      "sceneId": "c3-contact",
+      "lineIndex": 1,
+      "speaker": "许棠",
+      "text": "想再拍一张。但新漆是今天的，不能拿它补成那天。",
+      "src": "audio/voice/full-20261021/healing-c3-contact--002.ogg"
+    },
+    {
+      "id": "healing-c3-contact--003",
+      "lineId": "c3-contact--003",
+      "sceneId": "c3-contact",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "旧照片挺好。",
+      "src": "audio/voice/full-20261021/healing-c3-contact--003.ogg"
+    },
+    {
+      "id": "healing-c3-contact--004",
+      "lineId": "c3-contact--004",
+      "sceneId": "c3-contact",
+      "lineIndex": 3,
+      "speaker": "许棠",
+      "text": "看太多遍，总觉得应该更好。长椅有点歪，光也不够。",
+      "src": "audio/voice/full-20261021/healing-c3-contact--004.ogg"
+    },
+    {
+      "id": "healing-c3-contact--006",
+      "lineId": "c3-contact--006",
+      "sceneId": "c3-contact",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "只拍椅子呢？",
+      "src": "audio/voice/full-20261021/healing-c3-contact--006.ogg"
+    },
+    {
+      "id": "healing-c3-contact--007",
+      "lineId": "c3-contact--007",
+      "sceneId": "c3-contact",
+      "lineIndex": 6,
+      "speaker": "许棠",
+      "text": "能，站这里。你让一下，没邀请你出镜。",
+      "src": "audio/voice/full-20261021/healing-c3-contact--007.ogg"
+    },
+    {
+      "id": "healing-c3-contact--009",
+      "lineId": "c3-contact--009",
+      "sceneId": "c3-contact",
+      "lineIndex": 8,
+      "speaker": "许棠",
+      "text": "用这张。至少它记得那天还没刷漆。",
+      "src": "audio/voice/full-20261021/healing-c3-contact--009.ogg"
+    },
+    {
+      "id": "healing-c3-contact--010",
+      "lineId": "c3-contact--010",
+      "sceneId": "c3-contact",
+      "lineIndex": 9,
+      "speaker": "程屿",
+      "text": "下次拍什么？",
+      "src": "audio/voice/full-20261021/healing-c3-contact--010.ogg"
+    },
+    {
+      "id": "healing-c3-contact--011",
+      "lineId": "c3-contact--011",
+      "sceneId": "c3-contact",
+      "lineIndex": 10,
+      "speaker": "许棠",
+      "text": "先不说。说了好像就必须拍好，放学也变成赶进度。",
+      "src": "audio/voice/full-20261021/healing-c3-contact--011.ogg"
+    },
+    {
+      "id": "healing-c3-check--002",
+      "lineId": "c3-check--002",
+      "sceneId": "c3-check",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "编辑名单拆成几栏。校对、搬书、核对文字也写各自名字。",
+      "src": "audio/voice/full-20261021/healing-c3-check--002.ogg"
+    },
+    {
+      "id": "healing-c3-check--003",
+      "lineId": "c3-check--003",
+      "sceneId": "c3-check",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "我只核对两页，还拿错一次。",
+      "src": "audio/voice/full-20261021/healing-c3-check--003.ogg"
+    },
+    {
+      "id": "healing-c3-check--004",
+      "lineId": "c3-check--004",
+      "sceneId": "c3-check",
+      "lineIndex": 3,
+      "speaker": "陈知遥",
+      "text": "是你做过的。写名字没要求先做得无可挑剔。",
+      "src": "audio/voice/full-20261021/healing-c3-check--004.ogg"
+    },
+    {
+      "id": "healing-c3-check--006",
+      "lineId": "c3-check--006",
+      "sceneId": "c3-check",
+      "lineIndex": 5,
+      "speaker": "许棠",
+      "text": "见夏，今天的文字、全名，封底空长椅，这些都可以吗？",
+      "src": "audio/voice/full-20261021/healing-c3-check--006.ogg"
+    },
+    {
+      "id": "healing-c3-check--007",
+      "lineId": "c3-check--007",
+      "sceneId": "c3-check",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "可以，我看过。",
+      "src": "audio/voice/full-20261021/healing-c3-check--007.ogg"
+    },
+    {
+      "id": "healing-c3-check--009",
+      "lineId": "c3-check--009",
+      "sceneId": "c3-check",
+      "lineIndex": 8,
+      "speaker": "陈知遥",
+      "text": "刚才差点一次全填了，因为都在这里，觉得再问多余。",
+      "src": "audio/voice/full-20261021/healing-c3-check--009.ogg"
+    },
+    {
+      "id": "healing-c3-check--010",
+      "lineId": "c3-check--010",
+      "sceneId": "c3-check",
+      "lineIndex": 9,
+      "speaker": "许棠",
+      "text": "你问，我才能告诉你目录页码错了。",
+      "src": "audio/voice/full-20261021/healing-c3-check--010.ogg"
+    },
+    {
+      "id": "healing-c3-check--012",
+      "lineId": "c3-check--012",
+      "sceneId": "c3-check",
+      "lineIndex": 11,
+      "speaker": "林见夏",
+      "text": "还要等一遍试印。",
+      "src": "audio/voice/full-20261021/healing-c3-check--012.ogg"
+    },
+    {
+      "id": "healing-c3-check--013",
+      "lineId": "c3-check--013",
+      "sceneId": "c3-check",
+      "lineIndex": 12,
+      "speaker": "许棠",
+      "text": "嗯，纸上确认没问题，才印正式份数。",
+      "src": "audio/voice/full-20261021/healing-c3-check--013.ogg"
+    },
+    {
+      "id": "healing-c3-print--002",
+      "lineId": "c3-print--002",
+      "sceneId": "c3-print",
+      "lineIndex": 1,
+      "speaker": "文印老师",
+      "text": "现在能印？",
+      "src": "audio/voice/full-20261021/healing-c3-print--002.ogg"
+    },
+    {
+      "id": "healing-c3-print--003",
+      "lineId": "c3-print--003",
+      "sceneId": "c3-print",
+      "lineIndex": 2,
+      "speaker": "许棠",
+      "text": "能了。这个版本。",
+      "src": "audio/voice/full-20261021/healing-c3-print--003.ogg"
+    },
+    {
+      "id": "healing-c3-print--005",
+      "lineId": "c3-print--005",
+      "sceneId": "c3-print",
+      "lineIndex": 4,
+      "speaker": "贺川",
+      "text": "怎么还是热的？",
+      "src": "audio/voice/full-20261021/healing-c3-print--005.ogg"
+    },
+    {
+      "id": "healing-c3-print--006",
+      "lineId": "c3-print--006",
+      "sceneId": "c3-print",
+      "lineIndex": 5,
+      "speaker": "文印老师",
+      "text": "刚过机器。放一会儿再扎。",
+      "src": "audio/voice/full-20261021/healing-c3-print--006.ogg"
+    },
+    {
+      "id": "healing-c3-print--007",
+      "lineId": "c3-print--007",
+      "sceneId": "c3-print",
+      "lineIndex": 6,
+      "speaker": "贺川",
+      "text": "那我在照顾刚出炉的书。",
+      "src": "audio/voice/full-20261021/healing-c3-print--007.ogg"
+    },
+    {
+      "id": "healing-c3-print--008",
+      "lineId": "c3-print--008",
+      "sceneId": "c3-print",
+      "lineIndex": 7,
+      "speaker": "陈知遥",
+      "text": "别捏边角，照顾太用力会皱。",
+      "src": "audio/voice/full-20261021/healing-c3-print--008.ogg"
+    },
+    {
+      "id": "healing-c3-print--010",
+      "lineId": "c3-print--010",
+      "sceneId": "c3-print",
+      "lineIndex": 9,
+      "speaker": "林见夏",
+      "text": "名字比电脑里大。",
+      "src": "audio/voice/full-20261021/healing-c3-print--010.ogg"
+    },
+    {
+      "id": "healing-c3-print--011",
+      "lineId": "c3-print--011",
+      "sceneId": "c3-print",
+      "lineIndex": 10,
+      "speaker": "程屿",
+      "text": "标题缩过，名字没有。",
+      "src": "audio/voice/full-20261021/healing-c3-print--011.ogg"
+    },
+    {
+      "id": "healing-c3-print--012",
+      "lineId": "c3-print--012",
+      "sceneId": "c3-print",
+      "lineIndex": 11,
+      "speaker": "林见夏",
+      "text": "那让它大一点吧。",
+      "src": "audio/voice/full-20261021/healing-c3-print--012.ogg"
+    },
+    {
+      "id": "healing-c3-give--003",
+      "lineId": "c3-give--003",
+      "sceneId": "c3-give",
+      "lineIndex": 2,
+      "speaker": "贺川",
+      "text": "没人翻我忘带伞那篇？写得比篮球的短。",
+      "src": "audio/voice/full-20261021/healing-c3-give--003.ogg"
+    },
+    {
+      "id": "healing-c3-give--004",
+      "lineId": "c3-give--004",
+      "sceneId": "c3-give",
+      "lineIndex": 3,
+      "speaker": "陈知遥",
+      "text": "我翻了，确实短。",
+      "src": "audio/voice/full-20261021/healing-c3-give--004.ogg"
+    },
+    {
+      "id": "healing-c3-give--007",
+      "lineId": "c3-give--007",
+      "sceneId": "c3-give",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "爸爸要我带一本。他把上次样张折太厉害，放不了书架。",
+      "src": "audio/voice/full-20261021/healing-c3-give--007.ogg"
+    },
+    {
+      "id": "healing-c3-give--008",
+      "lineId": "c3-give--008",
+      "sceneId": "c3-give",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "签名吗？",
+      "src": "audio/voice/full-20261021/healing-c3-give--008.ogg"
+    },
+    {
+      "id": "healing-c3-give--009",
+      "lineId": "c3-give--009",
+      "sceneId": "c3-give",
+      "lineIndex": 8,
+      "speaker": "林见夏",
+      "text": "问过，他说名字已经印了。我只好签旁边。",
+      "src": "audio/voice/full-20261021/healing-c3-give--009.ogg"
+    },
+    {
+      "id": "healing-c3-give--011",
+      "lineId": "c3-give--011",
+      "sceneId": "c3-give",
+      "lineIndex": 10,
+      "speaker": "程屿",
+      "text": "我也想请你写一句。",
+      "src": "audio/voice/full-20261021/healing-c3-give--011.ogg"
+    },
+    {
+      "id": "healing-c3-give--013",
+      "lineId": "c3-give--013",
+      "sceneId": "c3-give",
+      "lineIndex": 12,
+      "speaker": "陈知遥",
+      "text": "登记放这儿。今天到五点十，剩下的下周自己写。",
+      "src": "audio/voice/full-20261021/healing-c3-give--013.ogg"
+    },
+    {
+      "id": "healing-c3-after-school--002",
+      "lineId": "c3-after-school--002",
+      "sceneId": "c3-after-school",
+      "lineIndex": 1,
+      "speaker": "林见夏",
+      "text": "那句想让我写的话，还算数吗？旧刊室有纸。",
+      "src": "audio/voice/full-20261021/healing-c3-after-school--002.ogg"
+    },
+    {
+      "id": "healing-c3-after-school--003",
+      "lineId": "c3-after-school--003",
+      "sceneId": "c3-after-school",
+      "lineIndex": 2,
+      "speaker": "贺川",
+      "text": "我在食堂等我爸，他下班路过。今天不会坐到隔壁班找我了。",
+      "src": "audio/voice/full-20261021/healing-c3-after-school--003.ogg"
+    },
+    {
+      "id": "healing-c3-after-school--004",
+      "lineId": "c3-after-school--004",
+      "sceneId": "c3-after-school",
+      "lineIndex": 3,
+      "speaker": "陈知遥",
+      "text": "发准确位置。",
+      "src": "audio/voice/full-20261021/healing-c3-after-school--004.ogg"
+    },
+    {
+      "id": "healing-c3-after-school--005",
+      "lineId": "c3-after-school--005",
+      "sceneId": "c3-after-school",
+      "lineIndex": 4,
+      "speaker": "贺川",
+      "text": "发了。食堂没第几排，总能找对一次。",
+      "src": "audio/voice/full-20261021/healing-c3-after-school--005.ogg"
+    },
+    {
+      "id": "healing-c3-after-school--009",
+      "lineId": "c3-after-school--009",
+      "sceneId": "c3-after-school",
+      "lineIndex": 8,
+      "speaker": "程屿",
+      "text": "那我今天……",
+      "src": "audio/voice/full-20261021/healing-c3-after-school--009.ogg"
+    },
+    {
+      "id": "healing-c3-lin-talk--002",
+      "lineId": "c3-lin-talk--002",
+      "sceneId": "c3-lin-talk",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "本来想写明天继续，后来想起明天周六，不一定来学校。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-talk--002.ogg"
+    },
+    {
+      "id": "healing-c3-lin-talk--003",
+      "lineId": "c3-lin-talk--003",
+      "sceneId": "c3-lin-talk",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "周一继续？像布置作业。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-talk--003.ogg"
+    },
+    {
+      "id": "healing-c3-lin-talk--005",
+      "lineId": "c3-lin-talk--005",
+      "sceneId": "c3-lin-talk",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "想让它是你给我的那本。不只是搬过的二十份里面随便一本。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-talk--005.ogg"
+    },
+    {
+      "id": "healing-c3-lin-talk--007",
+      "lineId": "c3-lin-talk--007",
+      "sceneId": "c3-lin-talk",
+      "lineIndex": 6,
+      "speaker": "林见夏",
+      "text": "不要拿给贺川猜。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-talk--007.ogg"
+    },
+    {
+      "id": "healing-c3-lin-talk--008",
+      "lineId": "c3-lin-talk--008",
+      "sceneId": "c3-lin-talk",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "不拿。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-talk--008.ogg"
+    },
+    {
+      "id": "healing-c3-lin-talk--010",
+      "lineId": "c3-lin-talk--010",
+      "sceneId": "c3-lin-talk",
+      "lineIndex": 9,
+      "speaker": "林见夏",
+      "text": "我记得很多。你把其实很害怕写出来的时候，也记得。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-talk--010.ogg"
+    },
+    {
+      "id": "healing-c3-lin-talk--012",
+      "lineId": "c3-lin-talk--012",
+      "sceneId": "c3-lin-talk",
+      "lineIndex": 11,
+      "speaker": "林见夏",
+      "text": "不一定每句话都说得好，有一些我想先跟你说。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-talk--012.ogg"
+    },
+    {
+      "id": "healing-c3-lin-talk--013",
+      "lineId": "c3-lin-talk--013",
+      "sceneId": "c3-lin-talk",
+      "lineIndex": 12,
+      "speaker": "程屿",
+      "text": "我听。听错要再告诉我。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-talk--013.ogg"
+    },
+    {
+      "id": "healing-c3-lin-talk--014",
+      "lineId": "c3-lin-talk--014",
+      "sceneId": "c3-lin-talk",
+      "lineIndex": 13,
+      "speaker": "林见夏",
+      "text": "已经错过一次，我知道怎么圈出来。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-talk--014.ogg"
+    },
+    {
+      "id": "healing-c3-lin-page--002",
+      "lineId": "c3-lin-page--002",
+      "sceneId": "c3-lin-page",
+      "lineIndex": 1,
+      "speaker": "林见夏",
+      "text": "帮我看这一段？不必今天看完，意见写旁边，别替我改。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-page--002.ogg"
+    },
+    {
+      "id": "healing-c3-lin-page--004",
+      "lineId": "c3-lin-page--004",
+      "sceneId": "c3-lin-page",
+      "lineIndex": 3,
+      "speaker": "程屿",
+      "text": "周一带来，想坐你旁边看。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-page--004.ogg"
+    },
+    {
+      "id": "healing-c3-lin-page--005",
+      "lineId": "c3-lin-page--005",
+      "sceneId": "c3-lin-page",
+      "lineIndex": 4,
+      "speaker": "林见夏",
+      "text": "本来就是邻座。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-page--005.ogg"
+    },
+    {
+      "id": "healing-c3-lin-page--006",
+      "lineId": "c3-lin-page--006",
+      "sceneId": "c3-lin-page",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "想坐那里，和座位表刚好排在那里，还是有点不同。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-page--006.ogg"
+    },
+    {
+      "id": "healing-c3-lin-page--008",
+      "lineId": "c3-lin-page--008",
+      "sceneId": "c3-lin-page",
+      "lineIndex": 7,
+      "speaker": "林见夏",
+      "text": "那早点来，椅子会擦干净。不是只擦你的。",
+      "src": "audio/voice/full-20261021/healing-c3-lin-page--008.ogg"
+    },
+    {
+      "id": "healing-end-lin-final--003",
+      "lineId": "end-lin-final--003",
+      "sceneId": "end-lin-final",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "以前不知道怎么说，现在也不是每次都知道。",
+      "src": "audio/voice/full-20261021/healing-end-lin-final--003.ogg"
+    },
+    {
+      "id": "healing-end-lin-final--006",
+      "lineId": "end-lin-final--006",
+      "sceneId": "end-lin-final",
+      "lineIndex": 5,
+      "speaker": "林见夏",
+      "text": "这句没懂？我也没想明白怎么写，午休再改。",
+      "src": "audio/voice/full-20261021/healing-end-lin-final--006.ogg"
+    },
+    {
+      "id": "healing-c3-chen-talk--002",
+      "lineId": "c3-chen-talk--002",
+      "sceneId": "c3-chen-talk",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "比搬箱时快。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-talk--002.ogg"
+    },
+    {
+      "id": "healing-c3-chen-talk--003",
+      "lineId": "c3-chen-talk--003",
+      "sceneId": "c3-chen-talk",
+      "lineIndex": 2,
+      "speaker": "陈知遥",
+      "text": "是从教室出来，没有先问别人需不需要我。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-talk--003.ogg"
+    },
+    {
+      "id": "healing-c3-chen-talk--005",
+      "lineId": "c3-chen-talk--005",
+      "sceneId": "c3-chen-talk",
+      "lineIndex": 4,
+      "speaker": "陈知遥",
+      "text": "坐着，总觉得楼上水桶没人倒。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-talk--005.ogg"
+    },
+    {
+      "id": "healing-c3-chen-talk--007",
+      "lineId": "c3-chen-talk--007",
+      "sceneId": "c3-chen-talk",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "到六点，车来得及，家里说好了。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-talk--007.ogg"
+    },
+    {
+      "id": "healing-c3-chen-talk--008",
+      "lineId": "c3-chen-talk--008",
+      "sceneId": "c3-chen-talk",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "陪你到六点。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-talk--008.ogg"
+    },
+    {
+      "id": "healing-c3-chen-talk--010",
+      "lineId": "c3-chen-talk--010",
+      "sceneId": "c3-chen-talk",
+      "lineIndex": 9,
+      "speaker": "程屿",
+      "text": "现在没有别的事，我想坐你旁边。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-talk--010.ogg"
+    },
+    {
+      "id": "healing-c3-chen-talk--012",
+      "lineId": "c3-chen-talk--012",
+      "sceneId": "c3-chen-talk",
+      "lineIndex": 11,
+      "speaker": "陈知遥",
+      "text": "其实不爱做统计表，只是做得快。我会挑食，红薯不能太干，跳绳很差，也没想练到第一。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-talk--012.ogg"
+    },
+    {
+      "id": "healing-c3-chen-rest--002",
+      "lineId": "c3-chen-rest--002",
+      "sceneId": "c3-chen-rest",
+      "lineIndex": 1,
+      "speaker": "陈知遥",
+      "text": "以前一坐下就想，十分钟能做几道题。现在跟你说这个，用了两分钟。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-rest--002.ogg"
+    },
+    {
+      "id": "healing-c3-chen-rest--003",
+      "lineId": "c3-chen-rest--003",
+      "sceneId": "c3-chen-rest",
+      "lineIndex": 2,
+      "speaker": "程屿",
+      "text": "剩下八分钟，不用补回来。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-rest--003.ogg"
+    },
+    {
+      "id": "healing-c3-chen-rest--004",
+      "lineId": "c3-chen-rest--004",
+      "sceneId": "c3-chen-rest",
+      "lineIndex": 3,
+      "speaker": "陈知遥",
+      "text": "我没想补。不过六点到了，还会走吧？我不想突然坐到六点半。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-rest--004.ogg"
+    },
+    {
+      "id": "healing-c3-chen-rest--005",
+      "lineId": "c3-chen-rest--005",
+      "sceneId": "c3-chen-rest",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "会走，我也按时到家。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-rest--005.ogg"
+    },
+    {
+      "id": "healing-c3-chen-rest--007",
+      "lineId": "c3-chen-rest--007",
+      "sceneId": "c3-chen-rest",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "下周五如果不用留班里，你还来吗？",
+      "src": "audio/voice/full-20261021/healing-c3-chen-rest--007.ogg"
+    },
+    {
+      "id": "healing-c3-chen-rest--008",
+      "lineId": "c3-chen-rest--008",
+      "sceneId": "c3-chen-rest",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "愿意，不是来帮你关窗。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-rest--008.ogg"
+    },
+    {
+      "id": "healing-c3-chen-rest--009",
+      "lineId": "c3-chen-rest--009",
+      "sceneId": "c3-chen-rest",
+      "lineIndex": 8,
+      "speaker": "陈知遥",
+      "text": "也不用帮我把问题都想出办法。今天只是想告诉你，这样坐着很高兴。",
+      "src": "audio/voice/full-20261021/healing-c3-chen-rest--009.ogg"
+    },
+    {
+      "id": "healing-end-chen-final--003",
+      "lineId": "end-chen-final--003",
+      "sceneId": "end-chen-final",
+      "lineIndex": 2,
+      "speaker": "陈知遥",
+      "text": "不知道可以问我，名字得是你的。上次交给你，也不是等你忘了再由我做。",
+      "src": "audio/voice/full-20261021/healing-end-chen-final--003.ogg"
+    },
+    {
+      "id": "healing-end-chen-final--007",
+      "lineId": "end-chen-final--007",
+      "sceneId": "end-chen-final",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "今天不用说班里。你文章的下一段，后来怎么写？",
+      "src": "audio/voice/full-20261021/healing-end-chen-final--007.ogg"
+    },
+    {
+      "id": "healing-c3-tang-talk--002",
+      "lineId": "c3-tang-talk--002",
+      "sceneId": "c3-tang-talk",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "几分钟？",
+      "src": "audio/voice/full-20261021/healing-c3-tang-talk--002.ogg"
+    },
+    {
+      "id": "healing-c3-tang-talk--003",
+      "lineId": "c3-tang-talk--003",
+      "sceneId": "c3-tang-talk",
+      "lineIndex": 2,
+      "speaker": "许棠",
+      "text": "不知道，它不按清单走。",
+      "src": "audio/voice/full-20261021/healing-c3-tang-talk--003.ogg"
+    },
+    {
+      "id": "healing-c3-tang-talk--005",
+      "lineId": "c3-tang-talk--005",
+      "sceneId": "c3-tang-talk",
+      "lineIndex": 4,
+      "speaker": "许棠",
+      "text": "没有，今天只是让我带伞。",
+      "src": "audio/voice/full-20261021/healing-c3-tang-talk--005.ogg"
+    },
+    {
+      "id": "healing-c3-tang-talk--007",
+      "lineId": "c3-tang-talk--007",
+      "sceneId": "c3-tang-talk",
+      "lineIndex": 6,
+      "speaker": "许棠",
+      "text": "想给你拍一张，不进校刊，不放征集。可以拒绝。",
+      "src": "audio/voice/full-20261021/healing-c3-tang-talk--007.ogg"
+    },
+    {
+      "id": "healing-c3-tang-talk--008",
+      "lineId": "c3-tang-talk--008",
+      "sceneId": "c3-tang-talk",
+      "lineIndex": 7,
+      "speaker": "程屿",
+      "text": "什么样？",
+      "src": "audio/voice/full-20261021/healing-c3-tang-talk--008.ogg"
+    },
+    {
+      "id": "healing-c3-tang-talk--009",
+      "lineId": "c3-tang-talk--009",
+      "sceneId": "c3-tang-talk",
+      "lineIndex": 8,
+      "speaker": "许棠",
+      "text": "栏杆这边，袖子有光。正脸、不写班级，你看过愿意才留，只在我和你的相册。",
+      "src": "audio/voice/full-20261021/healing-c3-tang-talk--009.ogg"
+    },
+    {
+      "id": "healing-c3-tang-talk--010",
+      "lineId": "c3-tang-talk--010",
+      "sceneId": "c3-tang-talk",
+      "lineIndex": 9,
+      "speaker": "程屿",
+      "text": "先拍，看过再决定。我也想拍你，可以吗？",
+      "src": "audio/voice/full-20261021/healing-c3-tang-talk--010.ogg"
+    },
+    {
+      "id": "healing-c3-tang-talk--011",
+      "lineId": "c3-tang-talk--011",
+      "sceneId": "c3-tang-talk",
+      "lineIndex": 10,
+      "speaker": "许棠",
+      "text": "可以，站哪里？",
+      "src": "audio/voice/full-20261021/healing-c3-tang-talk--011.ogg"
+    },
+    {
+      "id": "healing-c3-tang-light--002",
+      "lineId": "c3-tang-light--002",
+      "sceneId": "c3-tang-light",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "想。手僵一点，但就是刚才的我。",
+      "src": "audio/voice/full-20261021/healing-c3-tang-light--002.ogg"
+    },
+    {
+      "id": "healing-c3-tang-light--003",
+      "lineId": "c3-tang-light--003",
+      "sceneId": "c3-tang-light",
+      "lineIndex": 2,
+      "speaker": "许棠",
+      "text": "你拍我的也想留。我一直笑你怎么举那么高。",
+      "src": "audio/voice/full-20261021/healing-c3-tang-light--003.ogg"
+    },
+    {
+      "id": "healing-c3-tang-light--005",
+      "lineId": "c3-tang-light--005",
+      "sceneId": "c3-tang-light",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "只发给我，不放班群。",
+      "src": "audio/voice/full-20261021/healing-c3-tang-light--005.ogg"
+    },
+    {
+      "id": "healing-c3-tang-light--006",
+      "lineId": "c3-tang-light--006",
+      "sceneId": "c3-tang-light",
+      "lineIndex": 5,
+      "speaker": "许棠",
+      "text": "我也一样。下次想发别处，重新问。",
+      "src": "audio/voice/full-20261021/healing-c3-tang-light--006.ogg"
+    },
+    {
+      "id": "healing-c3-tang-light--008",
+      "lineId": "c3-tang-light--008",
+      "sceneId": "c3-tang-light",
+      "lineIndex": 7,
+      "speaker": "许棠",
+      "text": "没赶上它在你袖子上。不过车来了，今天到这里，不拿迟到换一张照片。",
+      "src": "audio/voice/full-20261021/healing-c3-tang-light--008.ogg"
+    },
+    {
+      "id": "healing-end-tang-final--003",
+      "lineId": "end-tang-final--003",
+      "sceneId": "end-tang-final",
+      "lineIndex": 2,
+      "speaker": "许棠",
+      "text": "妈妈还是觉得分心。昨天问空长椅在哪，我没有觉得所有争论就结束了。",
+      "src": "audio/voice/full-20261021/healing-end-tang-final--003.ogg"
+    },
+    {
+      "id": "healing-end-tang-final--006",
+      "lineId": "end-tang-final--006",
+      "sceneId": "end-tang-final",
+      "lineIndex": 5,
+      "speaker": "程屿",
+      "text": "走。今天不一定带一张照片回去。",
+      "src": "audio/voice/full-20261021/healing-end-tang-final--006.ogg"
+    },
+    {
+      "id": "healing-c3-shared-talk--002",
+      "lineId": "c3-shared-talk--002",
+      "sceneId": "c3-shared-talk",
+      "lineIndex": 1,
+      "speaker": "程屿",
+      "text": "不用都答应。少一个人，也能留今天有的东西。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-talk--002.ogg"
+    },
+    {
+      "id": "healing-c3-shared-talk--003",
+      "lineId": "c3-shared-talk--003",
+      "sceneId": "c3-shared-talk",
+      "lineIndex": 2,
+      "speaker": "林见夏",
+      "text": "我答应，别让我举书站直，像发奖。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-talk--003.ogg"
+    },
+    {
+      "id": "healing-c3-shared-talk--004",
+      "lineId": "c3-shared-talk--004",
+      "sceneId": "c3-shared-talk",
+      "lineIndex": 3,
+      "speaker": "陈知遥",
+      "text": "我也是。不给班群，要给别人看先问。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-talk--004.ogg"
+    },
+    {
+      "id": "healing-c3-shared-talk--005",
+      "lineId": "c3-shared-talk--005",
+      "sceneId": "c3-shared-talk",
+      "lineIndex": 4,
+      "speaker": "许棠",
+      "text": "定时，每个人先看画面，想挪就挪。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-talk--005.ogg"
+    },
+    {
+      "id": "healing-c3-shared-talk--008",
+      "lineId": "c3-shared-talk--008",
+      "sceneId": "c3-shared-talk",
+      "lineIndex": 7,
+      "speaker": "许棠",
+      "text": "对。今天照片没他，校刊里有，不用每件事都凑成所有人合影。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-talk--008.ogg"
+    },
+    {
+      "id": "healing-c3-shared-print--002",
+      "lineId": "c3-shared-print--002",
+      "sceneId": "c3-shared-print",
+      "lineIndex": 1,
+      "speaker": "许棠",
+      "text": "先别发。给你们原图，各自看。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-print--002.ogg"
+    },
+    {
+      "id": "healing-c3-shared-print--003",
+      "lineId": "c3-shared-print--003",
+      "sceneId": "c3-shared-print",
+      "lineIndex": 2,
+      "speaker": "陈知遥",
+      "text": "留我们相册，不放社团宣传。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-print--003.ogg"
+    },
+    {
+      "id": "healing-c3-shared-print--004",
+      "lineId": "c3-shared-print--004",
+      "sceneId": "c3-shared-print",
+      "lineIndex": 3,
+      "speaker": "林见夏",
+      "text": "我也是。稿纸正面能看，背面没露出来。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-print--004.ogg"
+    },
+    {
+      "id": "healing-c3-shared-print--005",
+      "lineId": "c3-shared-print--005",
+      "sceneId": "c3-shared-print",
+      "lineIndex": 4,
+      "speaker": "程屿",
+      "text": "包没拉好也留着，下次提醒。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-print--005.ogg"
+    },
+    {
+      "id": "healing-c3-shared-print--007",
+      "lineId": "c3-shared-print--007",
+      "sceneId": "c3-shared-print",
+      "lineIndex": 6,
+      "speaker": "陈知遥",
+      "text": "先别叫永远的编辑部。下期想做普通作者，不包全部安排。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-print--007.ogg"
+    },
+    {
+      "id": "healing-c3-shared-print--008",
+      "lineId": "c3-shared-print--008",
+      "sceneId": "c3-shared-print",
+      "lineIndex": 7,
+      "speaker": "林见夏",
+      "text": "叫这一页吧。有没有下一页，到时再说。",
+      "src": "audio/voice/full-20261021/healing-c3-shared-print--008.ogg"
+    }
+  ]
+}

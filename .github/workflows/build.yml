@@ -36,6 +36,13 @@ jobs:
           name: Healing-Reusable-Materials
           path: .reuse-kit/v1.2.0/
           include-hidden-files: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify every full-dialogue byte and runtime image
+        run: |
+          python -m pip install Pillow
+          python tools/production/validate_runtime.py --require-complete --report reports/full-media.json
       - run: npm test
       - run: npm run build
       - run: npx playwright install --with-deps chromium

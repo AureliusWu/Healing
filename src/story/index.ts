@@ -3,7 +3,20 @@ import { scenes as second } from './chapter2';
 import { scenes as third } from './chapter3';
 import type { Ending, Scene } from '../game/types';
 
-export const scenes: Scene[] = [...first.map(scene => ({ ...scene, chapter: 1 as const, ...(scene.ending ? { continuation: 'c2-open' } : {}) })), ...second, ...third];
+const firstPictures: Record<string, { cg: Scene['cg']; cgFrom: number }> = {
+  'end-together': { cg: 'window-open', cgFrom: 9 },
+  'end-letter': { cg: 'unsigned-letter', cgFrom: 11 },
+  'end-quiet': { cg: 'blank-page', cgFrom: 11 },
+};
+const firstRooms: Partial<Record<string, Scene['background']>> = {
+  corridor: 'corridor', storm: 'rain-eaves', 'rain-both': 'rain-eaves',
+  'rain-lin': 'rain-eaves', evening: 'bus-stop', club: 'clubroom',
+  'draft-plain': 'clubroom', 'draft-safe': 'clubroom', misunderstanding: 'clubroom',
+  'tang-interlude': 'clubroom', 'rain-chen': 'clubroom', 'end-together': 'clubroom',
+};
+export const scenes: Scene[] = [...first.map(scene => ({ ...scene, chapter: 1 as const,
+  ...(firstRooms[scene.id] ? { background: firstRooms[scene.id] } : {}),
+  ...firstPictures[scene.id], ...(scene.ending ? { continuation: 'c2-open' } : {}) })), ...second, ...third];
 export const chapters = [
   { id: 1 as const, title: '生长痛', subtitle: '一张成绩单，一本笔记，三个没说完的下午。', background: 'campus', start: 'arrival' },
   { id: 2 as const, title: '显影', subtitle: '校刊试印，纸上的人也要拥有自己的声音。', background: 'clubroom', start: 'c2-open' },
@@ -18,6 +31,9 @@ export const endingInfo: Record<Ending, { label: string; subtitle: string; badge
 };
 export const finalEndingIds: Ending[] = ['lin-final', 'chen-final', 'tang-final', 'friends-final'];
 export const cgInfo = {
+  'window-open': { title: '窗还开着', scene: 'end-together', description: '稿纸推到中间，撤开的手碰到袖口，谁也没有装作没发生。' },
+  'unsigned-letter': { title: '一封没有署名的信', scene: 'end-letter', description: '折好的纸推到桌子中间，一句自己的话终于留下来。' },
+  'blank-page': { title: '留白', scene: 'end-quiet', description: '暖饭团放在稿纸旁，空白没有被揉掉。' },
   'confirmed-proof': { title: '七点四十', scene: 'c2-confirm', description: '清单逐项看过，U盘和确认后的样张一起装袋。' },
   'proof': { title: '纸上少了一句', scene: 'c2-proof', description: '两版样张并排，漏掉的那一行被铅笔圈出。' },
   'lin-page': { title: '写在页边', scene: 'c3-lin-page', description: '见夏递来稿纸，笔记和钢笔留在窗边。' },

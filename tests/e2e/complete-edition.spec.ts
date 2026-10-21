@@ -70,7 +70,7 @@ test('all four final illustrations, ending rereads and offline memories retain a
   }
   await page.getByRole('button', { name: '回忆', exact: true }).click();
   await expect(page.locator('.edition-memories')).toContainText('最终结局 4 / 4');
-  await expect(page.locator('.cg-card:enabled')).toHaveCount(6);
+  await expect(page.locator('.cg-card:enabled')).toHaveCount(7);
   await page.locator('.cg-card').first().click();
   await expect.poll(() => page.locator('.cg-view img').evaluate((image: HTMLImageElement) => image.naturalWidth >= 1600)).toBe(true);
   await page.getByRole('button', { name: '返回回忆手册' }).click();
@@ -85,7 +85,7 @@ test('fresh devices keep chapters, final memories and pictures locked', async ({
   await expect(page.locator('.chapter-card:disabled')).toHaveCount(2);
   await page.getByRole('button', { name: '关闭', exact: true }).click();
   await page.getByRole('button', { name: '回忆', exact: true }).click();
-  await expect(page.locator('.cg-card:disabled')).toHaveCount(6);
+  await expect(page.locator('.cg-card:disabled')).toHaveCount(9);
   await expect(page.locator('.memory-replay')).toHaveCount(0);
   await expect(page.locator('.score-card:enabled')).toHaveCount(1);
 });

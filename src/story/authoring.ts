@@ -8,7 +8,7 @@ export function lines(text: string): Line[] {
     return { speaker: match?.[1] ?? speaker, text: divider < 0 ? line : line.slice(divider + 1), ...(match ? { expression: match[2] as Expression } : {}) };
   });
 }
-const locations: Record<Background, string> = { classroom: '高二（3）班', campus: '江城七中', clubroom: '旧刊室', home: '程屿家', printshop: '文印室', riverbank: '江边步道' };
+const locations: Record<Background, string> = { corridor: '教学楼走廊', 'rain-eaves': '教学楼雨檐', 'bus-stop': '校园外公交站', 'bus-interior': '夜间公交车', classroom: '高二（3）班', campus: '江城七中', clubroom: '旧刊室', home: '程屿家', printshop: '文印室', riverbank: '江边步道' };
 export function scene(chapter: 2 | 3, id: string, title: string, background: Background, text: string, details: Partial<Omit<Scene, 'id' | 'lines' | 'chapter'>>): Scene {
   return { id, chapter, title, background, location: locations[background], time: chapter === 2 ? '九月下旬 · 放学后' : '十月 · 放学后', lines: lines(text), ...details };
 }

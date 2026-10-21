@@ -1,6 +1,8 @@
 # 验证记录
 
-当前正式版本：**v1.0.8**，运行提交 `d7e6df9b697eebd982f2043785089b2463a1ab91`。Windows 与公开 PWA 均已更新；正式双端、真实安装升级、公开三屏和五项下载回读见 [PUBLISHED-v1.0.8.json](production/PUBLISHED-v1.0.8.json)。
+v1.3.0 候选的 82 项逻辑、427 条录音完整解码和素材校验已本地通过；完整平台与公开下载结果将按精确 CI 补记。见 [本轮制作记录](production/ITERATIONS.md)。
+
+历史验证基线：**v1.0.8**，运行提交 `d7e6df9b697eebd982f2043785089b2463a1ab91`。Windows 与公开 PWA 均已更新；正式双端、真实安装升级、公开三屏和五项下载回读见 [PUBLISHED-v1.0.8.json](production/PUBLISHED-v1.0.8.json)。
 
 ## v1.0.8 正式发布与公开结果
 
@@ -233,6 +235,6 @@ Windows CI 载入实际 Electron 窗口，检查标题、美术、剧情开始�
 
 - 当前版本包含三章完结；上方 v0.1.0 为第一章时期的历史记录。
 - 跨端存档通过导出/导入完成，未提供账户云同步。
-- 暂无人物语音。
+- v1.3.0 候选已接入人物语音；真人听感仍待实际体验。
 - Windows 包暂未代码签名。
 - Pages 已启用并完成 v0.1.0 部署。后续版本由验证成功的构建自动发布；仓库的 Pages Source 应设为 GitHub Actions。

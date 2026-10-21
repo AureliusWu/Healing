@@ -1,7 +1,7 @@
-export type Character = 'lin' | 'chen' | 'tang';
+export type Character = 'lin' | 'chen' | 'tang' | 'hechuan' | 'chengyu' | 'teacher' | 'classmate' | 'mother' | 'printteacher' | 'linfather' | 'chenmother' | 'xumother';
 export type Expression = 'neutral' | 'smile' | 'surprised' | 'worried' | 'hurt' | 'shy';
-export type Background = 'classroom' | 'campus' | 'clubroom' | 'home' | 'printshop' | 'riverbank';
-export type CgId = 'confirmed-proof' | 'lin-page' | 'chen-rest' | 'tang-light' | 'shared-print' | 'proof';
+export type Background = 'classroom' | 'campus' | 'clubroom' | 'home' | 'printshop' | 'riverbank' | 'corridor' | 'rain-eaves' | 'bus-stop' | 'bus-interior';
+export type CgId = 'window-open' | 'unsigned-letter' | 'blank-page' | 'confirmed-proof' | 'lin-page' | 'chen-rest' | 'tang-light' | 'shared-print' | 'proof';
 export type MusicId = 'rain' | 'window' | 'workshop' | 'distance' | 'evening' | 'after-rain' | 'proof-confirmed';
 export type Ending = 'together' | 'letter' | 'quiet' | 'lin-final' | 'chen-final' | 'tang-final' | 'friends-final';
 export type Stats = { honesty: number; lin: number; chen: number };
@@ -24,6 +24,7 @@ export type Scene = {
   bridge?: true;
   chapterEnd?: true;
   cg?: CgId;
+  cgFrom?: number;
   music?: MusicId;
   rain?: boolean;
 };
@@ -39,4 +40,4 @@ export type GameState = {
   history: HistoryEntry[];
 };
 export type Save = { schema: 1; game: 'moist-healing'; savedAt: string; state: GameState };
-export type Settings = { textSpeed: number; autoDelay: number; music: boolean; volume: number; reducedMotion: boolean; soundEffects: boolean; ambience: boolean };
+export type Settings = { voiceEnabled?: boolean; voiceVolume?: number; textSpeed: number; autoDelay: number; music: boolean; volume: number; reducedMotion: boolean; soundEffects: boolean; ambience: boolean };

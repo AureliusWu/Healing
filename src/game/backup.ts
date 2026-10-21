@@ -1,3 +1,4 @@
+import { reachedCg } from './scene-media';
 import { chapters, cgInfo, endingInfo } from '../story';
 import { sceneMap } from './engine';
 import { musicFor, readChapter, readEnding, readGallery, readScores, readUnlockProof } from './progress';
@@ -126,8 +127,9 @@ export function applyProgressImport(imported: ProgressImport, storage: ProgressS
 }
 
 function witnessed(save: Save): Set<string> {
+  const state = save.state;
   const ids = new Set([...save.state.history.map(entry => entry.sceneId), save.state.sceneId]);
   const proof = new Set<string>();
-  for (const id of ids) { const scene = sceneMap.get(id)!; if (scene.cg) proof.add(`gallery:${scene.cg}`); proof.add(`scores:${musicFor(id)}`); }
+  for (const id of ids) { const scene = sceneMap.get(id)!; const picture = reachedCg(scene, state.history, scene.id === state.sceneId ? state.line : undefined); if (picture) proof.add(`gallery:${picture}`); proof.add(`scores:${musicFor(id)}`); }
   return proof;
 }

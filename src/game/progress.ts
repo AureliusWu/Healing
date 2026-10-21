@@ -1,3 +1,4 @@
+import { reachedCg } from './scene-media';
 import { chapters, cgInfo } from '../story';
 import { replay, sceneMap } from './engine';
 import { decodeSave, encodeSave, KEY, readEndings } from './storage';
@@ -44,10 +45,11 @@ export function rememberProgress(state: GameState, finished: boolean) {
   // Persist a compact route once per unlocked asset, even after all slots move on.
   const { schema, storyVersion, sceneId, line, decisions } = state;
   const proof = JSON.stringify({ ...encodeSave(state), state: { schema, storyVersion, sceneId, line, decisions } });
-  for (const item of visited) for (const id of [...(item.cg ? [`gallery:${item.cg}`] : []), `scores:${musicFor(item.id)}`]) {
+  const pictures = visited.flatMap(item => { const id = reachedCg(item, state.history, item.id === state.sceneId ? state.line : undefined); return id ? [id] : []; });
+  for (const id of [...pictures.map(id => `gallery:${id}`), ...visited.map(item => `scores:${musicFor(item.id)}`)]) {
     if (!readUnlockProof(id)) localStorage.setItem(`${KEY}:proof:${id}`, proof);
   }
-  const gallery = union('gallery', readGallery(), visited.flatMap(item => item.cg ? [item.cg] : []));
+  const gallery = union('gallery', readGallery(), pictures);
   const scores = union('scores', readScores(), visited.map(item => musicFor(item.id)));
   let endings = readEndings();
   if (finished && scene.ending) {

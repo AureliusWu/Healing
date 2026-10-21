@@ -6,14 +6,14 @@ import { CharacterSprite } from './CharacterSprite';
 
 export function CharacterGallery() {
   const [view, setView] = useState<'expressions' | 'turnaround'>('expressions');
-  const [expressions, setExpressions] = useState<Record<Character, Expression>>({ lin: 'neutral', chen: 'neutral', tang: 'neutral' });
+  const [expressions, setExpressions] = useState<Record<Character, Expression>>(Object.fromEntries(characterIds.map(id => [id, 'neutral'])) as Record<Character, Expression>);
   return <>
     <div className="character-gallery-tabs" role="group" aria-label="角色画集">
       <button aria-pressed={view === 'expressions'} onClick={() => setView('expressions')}>表情与档案</button>
       <button aria-pressed={view === 'turnaround'} onClick={() => setView('turnaround')}>三视图</button>
     </div>
     <div className={`character-cards character-gallery ${view === 'turnaround' ? 'turnaround-gallery' : ''}`}>
-      {characterIds.map(id => <article key={id} className="character-card">
+      {(view === 'turnaround' ? characterIds.filter(id => ['lin', 'chen', 'tang'].includes(id)) : characterIds).map(id => <article key={id} className="character-card">
         {view === 'expressions' ? <>
           <div className="character-portrait"><CharacterSprite character={id} expression={expressions[id]} className="gallery-sprite" /></div>
           <div className="expression-options" role="group" aria-label={`${characterInfo[id].name}的表情`}>

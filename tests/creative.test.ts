@@ -7,6 +7,6 @@ describe('creative revision and mid-story illustration',()=>{
   it('keeps native positions/routes and attaches the proof event',()=>{
     expect(auditRevision(baseline,{scenes}).revisedParagraphs).toBe(23);
     expect(scenes.find(s=>s.id==='c2-proof')?.cg).toBe('proof');
-    expect(cgInfo.proof.scene).toBe('c2-proof');expect(validateFrames(frames)).toBe(3);
+    expect(cgInfo.proof.scene).toBe('c2-proof');expect(validateFrames(frames)).toBe(12);
   });
 });

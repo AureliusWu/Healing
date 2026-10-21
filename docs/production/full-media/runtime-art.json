@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "outputs": [
+    {
+      "id": "hechuan",
+      "output": "public/art/hechuan-expressions.webp",
+      "sha256": "e3e5b519f9c2342cddd7728ee9ce40fd2ce1261e48d32213ce14c2f1d7ddb3a4"
+    },
+    {
+      "id": "teacher",
+      "output": "public/art/teacher-expressions.webp",
+      "sha256": "047dbcb631b36345ea3e6dc6943575ced8952586b9afb8fa6498a4444c50a2c5"
+    },
+    {
+      "id": "mother",
+      "output": "public/art/mother-expressions.webp",
+      "sha256": "7d1a9dd07cd2a08ee46ad11c99d1fc884214383e25a3052b5f290faadce60522"
+    },
+    {
+      "id": "printteacher",
+      "output": "public/art/printteacher-expressions.webp",
+      "sha256": "023dc815e8823487aad777116e4f5e8017c1867e0587b115f6767a685c70b156"
+    },
+    {
+      "id": "linfather",
+      "output": "public/art/linfather-expressions.webp",
+      "sha256": "660c434d42fa3254ac0b73040714a4c7ab0a1341be35b8852e3c928c6a79e988"
+    },
+    {
+      "id": "chenmother",
+      "output": "public/art/chenmother-expressions.webp",
+      "sha256": "6fd02b2e1e152a16390be320abdfe12f53fc20555d1ae961f67b8722991d45a4"
+    },
+    {
+      "id": "xumother",
+      "output": "public/art/xumother-expressions.webp",
+      "sha256": "ac2b8d0423453bc56c78992b0a0182ae92df8955941751865e2f953f32f6fe42"
+    },
+    {
+      "id": "chengyu",
+      "output": "public/art/chengyu-expressions.webp",
+      "sha256": "f338732947fb449da50af24056c5195cc17876c7ab919fc36997f33ee132160f"
+    },
+    {
+      "id": "classmate",
+      "output": "public/art/classmate-expressions.webp",
+      "sha256": "872cde07ea9b67b50d0c19850e715297f89f0daa718a4badf0a32f801756d8c7"
+    },
+    {
+      "id": "window-open",
+      "output": "public/art/cg-window-open.webp",
+      "sha256": "09362d8c63af7ada9ce7ae75446f5b793d1a7af8a93456b3fc829fd0470beb5b"
+    },
+    {
+      "id": "unsigned-letter",
+      "output": "public/art/cg-unsigned-letter.webp",
+      "sha256": "121de162fccb9f928ca6df06853d64e1dc14d19fd0d88b37170a46bba97cedac"
+    },
+    {
+      "id": "blank-page",
+      "output": "public/art/cg-blank-page.webp",
+      "sha256": "ef6933a8d49347ecc3814a33fcfa2aeb046f5b0157ff4577fbfe577925ad1d6a"
+    },
+    {
+      "id": "corridor",
+      "output": "public/art/corridor.webp",
+      "sha256": "7ea95948df7c70a68103ae7faf95ad391ca5f3fa87aaa63a25a1c8ed2f3e5077"
+    },
+    {
+      "id": "rain-eaves",
+      "output": "public/art/rain-eaves.webp",
+      "sha256": "3127e820b5686dd7cd05a080cdb81697a1372d71426b587fac0e2194a1af56f2"
+    },
+    {
+      "id": "bus-stop",
+      "output": "public/art/bus-stop.webp",
+      "sha256": "1e965cf3cd46f0ffb0fd59456090b47f9a449b715f0e4affb5e65abb94e8b3e1"
+    },
+    {
+      "id": "bus-interior",
+      "output": "public/art/bus-interior.webp",
+      "sha256": "3fce0f3788e5c9f9ea9fc73d38bccd9a76ef7ccfa69bef4fb1a3487e99d9d7cc"
+    }
+  ],
+  "humanVisualApproval": false,
+  "release": "not_published",
+  "status": "runtime_files_prepared"
+}
