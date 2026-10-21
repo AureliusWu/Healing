@@ -13,43 +13,15 @@
   "medium": "spoken",
   "requestSha256": "6cb6ebac53d8fb5d73beb2ec777a7578b8e2f564446294f563eeb222b98580d3",
   "attempt": 8,
-  "status": "needs_review",
+  "status": "accepted",
   "asr": {
-    "transcript": "我要五岁 够不够重要",
-    "cer": 0.222222,
+    "transcript": "我要午睡 够不够重要",
+    "cer": 0.0,
     "polarityCountsMatch": true,
-    "passed": false,
-    "phoneticReview": {
-      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-      "expected": "我要午睡够不够重要",
-      "observed": "我要五岁够不够重要",
-      "expectedSyllables": [
-        "wo3",
-        "yao4",
-        "wu3",
-        "shui4",
-        "gou4",
-        "bu4",
-        "gou4",
-        "zhong4",
-        "yao4"
-      ],
-      "observedSyllables": [
-        "wo3",
-        "yao4",
-        "wu3",
-        "sui4",
-        "gou4",
-        "bu4",
-        "gou4",
-        "zhong4",
-        "yao4"
-      ],
-      "sameLength": true,
-      "polarityCountsMatch": true,
-      "passed": false,
-      "humanListening": false
-    }
+    "passed": true,
+    "model": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "audioSha256": "ffa9b18cd63aecb8c585d9803f443b93b4e222ee44ea1525419b7fafab4e709a"
   },
   "duration": 1.68,
   "wallSeconds": 8.261,
@@ -82,5 +54,44 @@
       "sha256": "ffa9b18cd63aecb8c585d9803f443b93b4e222ee44ea1525419b7fafab4e709a"
     }
   },
-  "recoveredFromRun": 39522076326
+  "recoveredFromRun": 39522076326,
+  "asrReviewHistory": [
+    {
+      "transcript": "我要五岁 够不够重要",
+      "cer": 0.222222,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "phoneticReview": {
+        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "expected": "我要午睡够不够重要",
+        "observed": "我要五岁够不够重要",
+        "expectedSyllables": [
+          "wo3",
+          "yao4",
+          "wu3",
+          "shui4",
+          "gou4",
+          "bu4",
+          "gou4",
+          "zhong4",
+          "yao4"
+        ],
+        "observedSyllables": [
+          "wo3",
+          "yao4",
+          "wu3",
+          "sui4",
+          "gou4",
+          "bu4",
+          "gou4",
+          "zhong4",
+          "yao4"
+        ],
+        "sameLength": true,
+        "polarityCountsMatch": true,
+        "passed": false,
+        "humanListening": false
+      }
+    }
+  ]
 }

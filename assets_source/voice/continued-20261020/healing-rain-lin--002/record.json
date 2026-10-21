@@ -15,14 +15,14 @@
   "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "那智陽呢?",
+    "transcript": "那志瑤呢?",
     "cer": 0.5,
     "polarityCountsMatch": true,
     "passed": false,
     "phoneticReview": {
       "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
       "expected": "那知遥呢",
-      "observed": "那智阳呢",
+      "observed": "那志瑶呢",
       "expectedSyllables": [
         "na4",
         "zhi1",
@@ -32,14 +32,17 @@
       "observedSyllables": [
         "na4",
         "zhi4",
-        "yang2",
+        "yao2",
         "ne5"
       ],
       "sameLength": true,
       "polarityCountsMatch": true,
       "passed": false,
       "humanListening": false
-    }
+    },
+    "model": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "audioSha256": "9b841c5c6e64eac72f3926ddf48e5b6b50f31de6713b69ef918bf92a74a36992"
   },
   "duration": 1.2,
   "wallSeconds": 5.746,
@@ -72,5 +75,34 @@
       "sha256": "9b841c5c6e64eac72f3926ddf48e5b6b50f31de6713b69ef918bf92a74a36992"
     }
   },
-  "recoveredFromRun": 39522076326
+  "recoveredFromRun": 39522076326,
+  "asrReviewHistory": [
+    {
+      "transcript": "那智陽呢?",
+      "cer": 0.5,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "phoneticReview": {
+        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "expected": "那知遥呢",
+        "observed": "那智阳呢",
+        "expectedSyllables": [
+          "na4",
+          "zhi1",
+          "yao2",
+          "ne5"
+        ],
+        "observedSyllables": [
+          "na4",
+          "zhi4",
+          "yang2",
+          "ne5"
+        ],
+        "sameLength": true,
+        "polarityCountsMatch": true,
+        "passed": false,
+        "humanListening": false
+      }
+    }
+  ]
 }

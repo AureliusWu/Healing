@@ -13,23 +13,15 @@
   "medium": "spoken",
   "requestSha256": "48d4d21aa98482dcfc232c7c305145b0f158c8b6a687324f3ff8cf55a62d3cf7",
   "attempt": 8,
-  "status": "needs_review",
+  "status": "accepted",
   "asr": {
-    "transcript": "看不见就别挤了我1米8都只看见30个后脑烧",
-    "cer": 0.238095,
+    "transcript": "看不见就别挤了我一米八都只看见三十个后脑梢",
+    "cer": 0.047619,
     "polarityCountsMatch": true,
-    "passed": false,
-    "phoneticReview": {
-      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-      "expected": "看不见就别挤了我一米八都只看见三十个后脑勺",
-      "observed": "看不见就别挤了我1米8都只看见30个后脑烧",
-      "expectedSyllables": [],
-      "observedSyllables": [],
-      "sameLength": true,
-      "polarityCountsMatch": true,
-      "passed": false,
-      "humanListening": false
-    }
+    "passed": true,
+    "model": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "audioSha256": "89f8dc127d65e6f3fc314ba9b1f29932d77a5176890b8ca7e2c71e73c711ac33"
   },
   "duration": 6.24,
   "wallSeconds": 25.156,
@@ -62,5 +54,24 @@
       "sha256": "89f8dc127d65e6f3fc314ba9b1f29932d77a5176890b8ca7e2c71e73c711ac33"
     }
   },
-  "recoveredFromRun": 39522076326
+  "recoveredFromRun": 39522076326,
+  "asrReviewHistory": [
+    {
+      "transcript": "看不见就别挤了我1米8都只看见30个后脑烧",
+      "cer": 0.238095,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "phoneticReview": {
+        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "expected": "看不见就别挤了我一米八都只看见三十个后脑勺",
+        "observed": "看不见就别挤了我1米8都只看见30个后脑烧",
+        "expectedSyllables": [],
+        "observedSyllables": [],
+        "sameLength": true,
+        "polarityCountsMatch": true,
+        "passed": false,
+        "humanListening": false
+      }
+    }
+  ]
 }

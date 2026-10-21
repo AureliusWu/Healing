@@ -15,7 +15,7 @@
   "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "現在能贏",
+    "transcript": "现在能赢",
     "cer": 0.25,
     "polarityCountsMatch": true,
     "passed": false,
@@ -39,7 +39,10 @@
       "polarityCountsMatch": true,
       "passed": false,
       "humanListening": false
-    }
+    },
+    "model": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "audioSha256": "99db125e874ddb0dc77a73d8b7575df44044490f63afc894a6042087b98358a4"
   },
   "duration": 1.36,
   "wallSeconds": 6.438,
@@ -72,5 +75,34 @@
       "sha256": "99db125e874ddb0dc77a73d8b7575df44044490f63afc894a6042087b98358a4"
     }
   },
-  "recoveredFromRun": 39522076326
+  "recoveredFromRun": 39522076326,
+  "asrReviewHistory": [
+    {
+      "transcript": "現在能贏",
+      "cer": 0.25,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "phoneticReview": {
+        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "expected": "现在能印",
+        "observed": "现在能赢",
+        "expectedSyllables": [
+          "xian4",
+          "zai4",
+          "neng2",
+          "yin4"
+        ],
+        "observedSyllables": [
+          "xian4",
+          "zai4",
+          "neng2",
+          "ying2"
+        ],
+        "sameLength": true,
+        "polarityCountsMatch": true,
+        "passed": false,
+        "humanListening": false
+      }
+    }
+  ]
 }

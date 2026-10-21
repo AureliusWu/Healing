@@ -49,7 +49,10 @@
       "polarityCountsMatch": true,
       "passed": false,
       "humanListening": false
-    }
+    },
+    "model": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "audioSha256": "f89dac4c40b29808823e79a89566480012a8002ce129d8b0cbba5323cd5ce217"
   },
   "duration": 2.56,
   "wallSeconds": 11.121,
@@ -82,5 +85,44 @@
       "sha256": "f89dac4c40b29808823e79a89566480012a8002ce129d8b0cbba5323cd5ce217"
     }
   },
-  "recoveredFromRun": 39522076326
+  "recoveredFromRun": 39522076326,
+  "asrReviewHistory": [
+    {
+      "transcript": "终于继续向布置作业",
+      "cer": 0.333333,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "phoneticReview": {
+        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "expected": "周一继续像布置作业",
+        "observed": "终于继续向布置作业",
+        "expectedSyllables": [
+          "zhou1",
+          "yi1",
+          "ji4",
+          "xu4",
+          "xiang4",
+          "bu4",
+          "zhi4",
+          "zuo4",
+          "ye4"
+        ],
+        "observedSyllables": [
+          "zhong1",
+          "yu2",
+          "ji4",
+          "xu4",
+          "xiang4",
+          "bu4",
+          "zhi4",
+          "zuo4",
+          "ye4"
+        ],
+        "sameLength": true,
+        "polarityCountsMatch": true,
+        "passed": false,
+        "humanListening": false
+      }
+    }
+  ]
 }

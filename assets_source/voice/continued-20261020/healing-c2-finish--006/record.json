@@ -15,14 +15,14 @@
   "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "乘以下周记得还我支持",
+    "transcript": "成语 下周记得还我指齿",
     "cer": 0.4,
     "polarityCountsMatch": true,
     "passed": false,
     "phoneticReview": {
       "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
       "expected": "程屿下周记得还我直尺",
-      "observed": "乘以下周记得还我支持",
+      "observed": "成语下周记得还我指齿",
       "expectedSyllables": [
         "cheng2",
         "yu3",
@@ -37,21 +37,24 @@
       ],
       "observedSyllables": [
         "cheng2",
-        "yi3",
+        "yu3",
         "xia4",
         "zhou1",
         "ji4",
         "de5",
         "hai2",
         "wo3",
-        "zhi1",
-        "chi2"
+        "zhi3",
+        "chi3"
       ],
       "sameLength": true,
       "polarityCountsMatch": true,
       "passed": false,
       "humanListening": false
-    }
+    },
+    "model": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "audioSha256": "72108515e08abbc1a12ab00e312eab84d1b84a00327627abf71279fb51c16d54"
   },
   "duration": 2.4,
   "wallSeconds": 10.465,
@@ -84,5 +87,46 @@
       "sha256": "72108515e08abbc1a12ab00e312eab84d1b84a00327627abf71279fb51c16d54"
     }
   },
-  "recoveredFromRun": 39522076326
+  "recoveredFromRun": 39522076326,
+  "asrReviewHistory": [
+    {
+      "transcript": "乘以下周记得还我支持",
+      "cer": 0.4,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "phoneticReview": {
+        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+        "expected": "程屿下周记得还我直尺",
+        "observed": "乘以下周记得还我支持",
+        "expectedSyllables": [
+          "cheng2",
+          "yu3",
+          "xia4",
+          "zhou1",
+          "ji4",
+          "de5",
+          "hai2",
+          "wo3",
+          "zhi2",
+          "chi3"
+        ],
+        "observedSyllables": [
+          "cheng2",
+          "yi3",
+          "xia4",
+          "zhou1",
+          "ji4",
+          "de5",
+          "hai2",
+          "wo3",
+          "zhi1",
+          "chi2"
+        ],
+        "sameLength": true,
+        "polarityCountsMatch": true,
+        "passed": false,
+        "humanListening": false
+      }
+    }
+  ]
 }
