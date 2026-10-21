@@ -24,7 +24,9 @@ def seed(plan, source, output, index, count, review_homophones=False):
     for record in archive['records']:
         identity = record['id']
         require(identity in expected and identity not in records, 'Unknown or duplicate recovered take')
-        require(record.get('requestSha256') == request_hash(plan, expected[identity]), 'Recovered request changed')
+        if record.get('requestSha256') != request_hash(plan, expected[identity]):
+            require(record.get('status') != 'accepted', 'Recovered accepted request changed')
+            continue
         records[identity] = record
     selected = plan['lines'][index::count]
     retained = []
@@ -59,7 +61,7 @@ def seed(plan, source, output, index, count, review_homophones=False):
         'semanticSha256': plan['semanticSha256'], 'sourceCommit': plan['sourceCommit'],
         'shardIndex': index, 'shardCount': count,
         'requestedIds': [row['id'] for row in selected],
-        'records': retained, 'status': 'incomplete', 'humanListening': False,
+        'records': retained, 'status': 'ready_for_merge' if len(retained) == len(selected) else 'incomplete', 'humanListening': False,
         'resumeEvidence': {'archiveManifestSha256': hashlib.sha256((source / 'manifest.json').read_bytes()).hexdigest(),
                            'reusedAccepted': len(retained)}})
     return {'selected': len(selected), 'reused': len(retained), 'pending': len(selected) - len(retained)}

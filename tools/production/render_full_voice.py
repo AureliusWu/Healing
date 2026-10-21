@@ -57,6 +57,9 @@ def validate_plan(plan):
         ids.add(name)
         text = row.get('text')
         require(isinstance(text, str) and text.strip() and hashlib.sha256(text.encode()).hexdigest() == row.get('textSha256'), 'Stale or empty dialogue text')
+        if row.get('spokenText'):
+            from phonetic_review import expand_asr_numbers
+            require(row['spokenText'] == expand_asr_numbers(text), 'Spoken form changes authored words or numeric values')
         actor = plan.get('actors', {}).get(row.get('actorId'))
         require(actor and actor.get('voice') == row.get('voice') and actor.get('instruct') == row.get('instruct'), 'Unresolved speaker or direction')
         require(type(row.get('seed')) is int and row['seed'] >= 0, 'Invalid voice seed')
@@ -191,7 +194,7 @@ def render(args):
                 take = args.output / 'takes' / row['id'] / str(attempt)
                 take.mkdir(parents=True, exist_ok=True)
                 pieces = []
-                for index, text in enumerate(split_text(row['text'])):
+                for index, text in enumerate(split_text(row.get('spokenText', row['text']))):
                     seed = row['seed'] + attempt * 10000 + index
                     torch.manual_seed(seed)
                     np.random.seed(seed % (2 ** 32))
@@ -216,10 +219,11 @@ def render(args):
                 segments, _ = asr.transcribe(np.frombuffer(probe.stdout, dtype='<f4').copy(), language='zh', beam_size=5,
                     condition_on_previous_text=False, vad_filter=False)
                 transcript = ''.join(s.text for s in segments)
-                result = transcript_result(row['text'], transcript, converter)
+                result = transcript_result(row.get('spokenText', row['text']), transcript, converter)
+                result['expectedSpokenText'] = row.get('spokenText', row['text'])
                 if not result['passed']:
                     from phonetic_review import review_homophones
-                    proof = review_homophones(row['text'], transcript, converter)
+                    proof = review_homophones(row.get('spokenText', row['text']), transcript, converter)
                     result['phoneticReview'] = proof
                     if proof['passed']:
                         result['passed'] = True

@@ -108,11 +108,28 @@ jobs:
           path: reports/continued-parts
       - name: Preserve verified results and exact remaining list even if incomplete
         run: python tools/production/recover_voice.py --plan docs/production/full-media/dialogue-plan.json --parts reports/continued-parts --output assets_source/voice/continued-20261020 --report docs/production/full-media/resume-report.json --run-id ${{ github.run_id }}
+      - name: Install decoder and larger independent ASR
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends ffmpeg libseccomp2
+          python -m pip install faster-whisper==1.2.1 opencc-python-reimplemented==0.1.7 pypinyin==0.53.0
+      - uses: actions/cache@v4
+        with:
+          path: .runtime/review-asr-medium
+          key: review-asr-medium-08e178d48790-v1
+      - name: Download fixed independent review model before offline checking
+        run: |
+          python - <<'PYMODEL'
+          from huggingface_hub import snapshot_download
+          snapshot_download('Systran/faster-whisper-medium', revision='08e178d48790749d25932bbc082711ddcfdfbc4f', local_dir='.runtime/review-asr-medium')
+          PYMODEL
+      - name: Recheck only rejected immutable takes and resolve original-file replays
+        run: python tools/production/review_rejected_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --model-dir .runtime/review-asr-medium --report docs/production/full-media/review-report.json
       - name: Commit this continuation checkpoint
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets_source/voice/continued-20261020 docs/production/full-media/resume-report.json
+          git add assets_source/voice/continued-20261020 docs/production/full-media/resume-report.json docs/production/full-media/review-report.json
           if ! git diff --cached --quiet; then
             git commit -m 'production: preserve continued dialogue and exact unresolved takes [skip ci]'
             git fetch origin main
@@ -120,7 +137,9 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Require every binding and exact replay before calling the bundle complete
-        run: python tools/production/render_full_voice.py merge --plan docs/production/full-media/dialogue-plan.json --parts reports/continued-parts --output reports/full-voice-complete
+        run: |
+          python tools/production/seed_verified_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --output reports/final-checked/part-0 --shard-index 0 --shard-count 1
+          python tools/production/render_full_voice.py merge --plan docs/production/full-media/dialogue-plan.json --parts reports/final-checked --output reports/full-voice-complete
       - uses: actions/upload-artifact@v4
         with:
           name: full-dialogue-complete-${{ github.sha }}-${{ github.run_attempt }}

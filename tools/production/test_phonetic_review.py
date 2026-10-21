@@ -17,10 +17,17 @@ class PhoneticReviewTests(unittest.TestCase):
         for expected, actual in [('没进档。', '没劲到'), ('单列。', 'HELLO'),
                                  ('我没有答应。', '我有答应'), ('你说得对。', '你说对'),
                                  ('先改成机械轻响。', '先改成机械倾向。'),
-                                 ('十七是后来取文件的。', '17是后来取文件的'),
+                                 ('十七是后来取文件的。', '19是后来取文件的'),
                                  ('我们一点二十一就报了。', '我们一点二十九报了')]:
             with self.subTest(expected=expected, actual=actual):
                 self.assertFalse(review_homophones(expected, actual)['passed'])
+
+    def test_explicit_numbers_and_timestamps_keep_their_exact_values(self):
+        self.assertTrue(review_homophones('十七是后来取文件的。', '17是后来取文件的')['passed'])
+        self.assertTrue(review_homophones('我们一点二十一就报了。', '我们1点21就爆了')['passed'])
+        self.assertTrue(review_homophones('00:03，林岚收到过。', '零点零三分林岚收到过')['passed'])
+        self.assertFalse(review_homophones('00:03，林岚收到过。', '00:29林岚收到过')['passed'])
+        self.assertFalse(review_homophones('17号', '71号')['passed'])
 
 
 if __name__ == '__main__':

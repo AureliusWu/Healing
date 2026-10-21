@@ -57,9 +57,9 @@ def main(args):
         segments, _ = engine.transcribe(np.frombuffer(decoded.stdout, dtype='<f4').copy(), language='zh', beam_size=5,
                                          condition_on_previous_text=False, vad_filter=False, temperature=0)
         actual = ''.join(segment.text for segment in segments)
-        result = transcript_result(row['text'], actual, converter)
+        result = transcript_result(row.get('spokenText', row['text']), actual, converter)
         if not result['passed']:
-            proof = review_homophones(row['text'], actual, converter)
+            proof = review_homophones(row.get('spokenText', row['text']), actual, converter)
             result['phoneticReview'] = proof
             if proof['passed']:
                 result.update(passed=True, acceptance='exact_toned_homophones')
