@@ -12,44 +12,44 @@
   "textSha256": "670698992050387a192a35160bc5636766a0e72a6149593d629610d263d01094",
   "medium": "spoken",
   "requestSha256": "6e4110bad461ebbe51b3fda754ee671a4d1f619dc4f5e0a2949b7a310208968d",
-  "attempt": 5,
-  "status": "needs_review",
+  "attempt": 6,
+  "status": "accepted",
   "asr": {
-    "transcript": "对,今天照片没她,笑看理由不用每件事都凑成所有人合影。",
-    "cer": 0.208333,
+    "transcript": "对,今天照片没它,校刊理由,不用每件事都凑成所有人合影。",
+    "cer": 0.125,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": true
   },
-  "duration": 7.12,
-  "wallSeconds": 31.639,
+  "duration": 6.96,
+  "wallSeconds": 28.496,
   "loudness": {
-    "input_i": "-18.58",
-    "input_tp": "-5.00",
-    "input_lra": "0.60",
-    "input_thresh": "-28.82",
-    "output_i": "-19.47",
-    "output_tp": "-5.41",
-    "output_lra": "1.20",
-    "output_thresh": "-29.83",
+    "input_i": "-19.22",
+    "input_tp": "-1.87",
+    "input_lra": "1.60",
+    "input_thresh": "-29.58",
+    "output_i": "-18.98",
+    "output_tp": "-2.00",
+    "output_lra": "0.90",
+    "output_thresh": "-29.36",
     "normalization_type": "dynamic",
-    "target_offset": "-0.53"
+    "target_offset": "-1.02"
   },
   "files": {
     "raw": {
       "path": "healing-c3-shared-talk--008/raw.wav",
-      "bytes": 683600,
-      "sha256": "1ed372e1235013f8e38823a9b4f60202fb2adbc943c57d89427d75438be86ae5"
+      "bytes": 668240,
+      "sha256": "91b8312581dad264037f84b407fea0be2caf28d2e2d4937a22bf41a3d76037ee"
     },
     "master": {
       "path": "healing-c3-shared-talk--008/master.wav",
-      "bytes": 341838,
-      "sha256": "b57a0376b4abe72a99086736a390045a5293462ea251e3f7efbde33e069dd993"
+      "bytes": 334158,
+      "sha256": "b9ea87d4167eabbf855838eb3c637d1598f7da1e8f8e70ce8f8bc3ee2d1cde7e"
     },
     "runtime": {
       "path": "healing-c3-shared-talk--008/runtime.ogg",
-      "bytes": 51725,
-      "sha256": "83afc976feff492d2bf30a05031bd9ab8c0b5c8f7ae4b59de129f0492ec13a8c"
+      "bytes": 50366,
+      "sha256": "3aad4aa5b4bbd47c48a8bcbb3b757ee642a5a1e0e90d9590096b1bba0dc4bdb1"
     }
   },
-  "recoveredFromRun": 39436524426
+  "recoveredFromRun": 39522076326
 }

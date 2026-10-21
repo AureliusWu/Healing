@@ -12,44 +12,44 @@
   "textSha256": "6910b9665bf2f8b6f6b45b0a67393f61e013dc18d95031232d129205838b0da3",
   "medium": "spoken",
   "requestSha256": "db8d1efcaee5bb4d1a4b03d5df4d468bdb96c806d7279f7e9728c9f5848a4774",
-  "attempt": 5,
-  "status": "needs_review",
+  "attempt": 8,
+  "status": "accepted",
   "asr": {
-    "transcript": "什么样儿",
-    "cer": 0.333333,
+    "transcript": "什么样",
+    "cer": 0.0,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": true
   },
   "duration": 0.72,
-  "wallSeconds": 30.642,
+  "wallSeconds": 4.112,
   "loudness": {
-    "input_i": "-23.57",
-    "input_tp": "-9.56",
+    "input_i": "-29.60",
+    "input_tp": "-13.11",
     "input_lra": "0.00",
-    "input_thresh": "-33.57",
-    "output_i": "-20.00",
-    "output_tp": "-5.99",
+    "input_thresh": "-39.60",
+    "output_i": "-19.99",
+    "output_tp": "-3.50",
     "output_lra": "0.00",
-    "output_thresh": "-30.00",
+    "output_thresh": "-29.99",
     "normalization_type": "linear",
-    "target_offset": "-0.00"
+    "target_offset": "-0.01"
   },
   "files": {
     "raw": {
       "path": "healing-c3-tang-talk--008/raw.wav",
       "bytes": 69200,
-      "sha256": "f04a7aa215ccfd12179da39c9ae1512adaabd1495e24a4acacda79b615f72683"
+      "sha256": "1d023fee442627e4712b9f7f3b43e9d600c8b2eacf26ca197497cfe38c55377b"
     },
     "master": {
       "path": "healing-c3-tang-talk--008/master.wav",
       "bytes": 34638,
-      "sha256": "13df2e3c01e9fc28809af812bbc5cb259c990866967e10650aa0f2faf1bfc838"
+      "sha256": "63278b3361a59ae21cc163350675d396178a9f147202ef7acc58df40fb52d6aa"
     },
     "runtime": {
       "path": "healing-c3-tang-talk--008/runtime.ogg",
-      "bytes": 8987,
-      "sha256": "4aa6ec5befc56054071e5074c2501dafec90d19db820a3a299bcef0a2ce2ac7f"
+      "bytes": 9257,
+      "sha256": "02d3149829b4071c674889cbb7d58ff06a23df8ece9b76e026a40bc7fe3a0e70"
     }
   },
-  "recoveredFromRun": 39436524426
+  "recoveredFromRun": 39522076326
 }

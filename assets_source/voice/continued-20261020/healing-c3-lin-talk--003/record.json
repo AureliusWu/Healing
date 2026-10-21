@@ -12,44 +12,75 @@
   "textSha256": "310fc044b92ab652dd72e3d8134d21fb2e1f29192d9c73cb6d05fc6ed71bff45",
   "medium": "spoken",
   "requestSha256": "5ca711fa909fc3fcb8a38083f93d0cd1449e51a47f263ec50872adcf004e2003",
-  "attempt": 5,
+  "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "周一繼續 向不執作業",
+    "transcript": "终于继续向布置作业",
     "cer": 0.333333,
-    "polarityCountsMatch": false,
-    "passed": false
+    "polarityCountsMatch": true,
+    "passed": false,
+    "phoneticReview": {
+      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "expected": "周一继续像布置作业",
+      "observed": "终于继续向布置作业",
+      "expectedSyllables": [
+        "zhou1",
+        "yi1",
+        "ji4",
+        "xu4",
+        "xiang4",
+        "bu4",
+        "zhi4",
+        "zuo4",
+        "ye4"
+      ],
+      "observedSyllables": [
+        "zhong1",
+        "yu2",
+        "ji4",
+        "xu4",
+        "xiang4",
+        "bu4",
+        "zhi4",
+        "zuo4",
+        "ye4"
+      ],
+      "sameLength": true,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "humanListening": false
+    }
   },
-  "duration": 3.04,
-  "wallSeconds": 169.624,
+  "duration": 2.56,
+  "wallSeconds": 11.121,
   "loudness": {
-    "input_i": "-26.58",
-    "input_tp": "-11.26",
-    "input_lra": "0.10",
-    "input_thresh": "-37.11",
-    "output_i": "-19.30",
-    "output_tp": "-3.86",
+    "input_i": "-29.33",
+    "input_tp": "-14.59",
+    "input_lra": "0.00",
+    "input_thresh": "-39.56",
+    "output_i": "-19.99",
+    "output_tp": "-5.26",
     "output_lra": "0.00",
-    "output_thresh": "-30.03",
-    "normalization_type": "dynamic",
-    "target_offset": "-0.70"
+    "output_thresh": "-30.22",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
   },
   "files": {
     "raw": {
       "path": "healing-c3-lin-talk--003/raw.wav",
-      "bytes": 291920,
-      "sha256": "aaee919cd20b67485c5d63a72018171f687ff8bd51a7d13326528c462a09580d"
+      "bytes": 245840,
+      "sha256": "ad2628886560ccf1c586cc8dae589df7c08743b0aba3fee5cc4ca36ab8898ec1"
     },
     "master": {
       "path": "healing-c3-lin-talk--003/master.wav",
-      "bytes": 145998,
-      "sha256": "973763287ece18e986934f719b570d2aee2cb0af4ff37d17559a9a72a1e5cb4c"
+      "bytes": 122958,
+      "sha256": "eff29c7d7962a23a45d48459dfa733b582cc795b92c42d52f372e98ffc52b2a8"
     },
     "runtime": {
       "path": "healing-c3-lin-talk--003/runtime.ogg",
-      "bytes": 23455,
-      "sha256": "53a1e59e6dbbc249db6a025d722f7f46db69ca7899d6a03bd09c9640bfce1bf4"
+      "bytes": 21105,
+      "sha256": "f89dac4c40b29808823e79a89566480012a8002ce129d8b0cbba5323cd5ce217"
     }
   },
-  "recoveredFromRun": 39436524426
+  "recoveredFromRun": 39522076326
 }

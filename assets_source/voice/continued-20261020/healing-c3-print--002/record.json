@@ -12,44 +12,65 @@
   "textSha256": "8fcc354a1a3cf7b83a95a9c381bdcaff45fcbf7535e24f0c5d98c2bdeb34e917",
   "medium": "spoken",
   "requestSha256": "8db0cbdda493f35937ce6497924c9d097bd83dd5b303e50ad613507455a4c233",
-  "attempt": 5,
+  "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "現在能應",
+    "transcript": "現在能贏",
     "cer": 0.25,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": false,
+    "phoneticReview": {
+      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "expected": "现在能印",
+      "observed": "现在能赢",
+      "expectedSyllables": [
+        "xian4",
+        "zai4",
+        "neng2",
+        "yin4"
+      ],
+      "observedSyllables": [
+        "xian4",
+        "zai4",
+        "neng2",
+        "ying2"
+      ],
+      "sameLength": true,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "humanListening": false
+    }
   },
-  "duration": 1.04,
-  "wallSeconds": 5.69,
+  "duration": 1.36,
+  "wallSeconds": 6.438,
   "loudness": {
-    "input_i": "-19.62",
-    "input_tp": "-5.74",
+    "input_i": "-22.09",
+    "input_tp": "-9.08",
     "input_lra": "0.00",
-    "input_thresh": "-29.62",
-    "output_i": "-20.01",
-    "output_tp": "-6.12",
+    "input_thresh": "-32.09",
+    "output_i": "-19.99",
+    "output_tp": "-6.99",
     "output_lra": "0.00",
-    "output_thresh": "-30.01",
+    "output_thresh": "-29.99",
     "normalization_type": "linear",
-    "target_offset": "0.01"
+    "target_offset": "-0.01"
   },
   "files": {
     "raw": {
       "path": "healing-c3-print--002/raw.wav",
-      "bytes": 99920,
-      "sha256": "ff2a335147ebed9dfdfcde6e19189855a8acb8913a80f7296c1737b7fc0cd4eb"
+      "bytes": 130640,
+      "sha256": "dbe4f96d757af6908482c4e7c990b398c9727ea1d0f85e51fb3a40f01fe3db8e"
     },
     "master": {
       "path": "healing-c3-print--002/master.wav",
-      "bytes": 49998,
-      "sha256": "516367aa7853663b59c33190ff06b61c9dd2d75cf9d72b5864d01eaa99de217e"
+      "bytes": 65358,
+      "sha256": "dd62f7db3cd47627aa5f06a49342957f0f09d9013cde038cd0163b683e8e418f"
     },
     "runtime": {
       "path": "healing-c3-print--002/runtime.ogg",
-      "bytes": 11189,
-      "sha256": "589173bcce666008ef664b76e207f65f2925bf80840d41252c58893a70ca4c2b"
+      "bytes": 13890,
+      "sha256": "99db125e874ddb0dc77a73d8b7575df44044490f63afc894a6042087b98358a4"
     }
   },
-  "recoveredFromRun": 39436524426
+  "recoveredFromRun": 39522076326
 }

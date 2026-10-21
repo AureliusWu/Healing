@@ -12,44 +12,65 @@
   "textSha256": "b510fc81f600b2df0e5792f4a6c5862387c3fa8879ce78ed97203f0b9649004d",
   "medium": "spoken",
   "requestSha256": "5a9f543ccd22cf4826e90729c8490dfc2a76753db04741c5683e9a360eaf03ae",
-  "attempt": 5,
+  "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "那只要呢?",
+    "transcript": "那智陽呢?",
     "cer": 0.5,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": false,
+    "phoneticReview": {
+      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "expected": "那知遥呢",
+      "observed": "那智阳呢",
+      "expectedSyllables": [
+        "na4",
+        "zhi1",
+        "yao2",
+        "ne5"
+      ],
+      "observedSyllables": [
+        "na4",
+        "zhi4",
+        "yang2",
+        "ne5"
+      ],
+      "sameLength": true,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "humanListening": false
+    }
   },
-  "duration": 0.96,
-  "wallSeconds": 56.655,
+  "duration": 1.2,
+  "wallSeconds": 5.746,
   "loudness": {
-    "input_i": "-24.27",
-    "input_tp": "-12.10",
+    "input_i": "-21.54",
+    "input_tp": "-8.42",
     "input_lra": "0.00",
-    "input_thresh": "-34.27",
-    "output_i": "-20.02",
-    "output_tp": "-7.84",
+    "input_thresh": "-31.54",
+    "output_i": "-19.98",
+    "output_tp": "-6.88",
     "output_lra": "0.00",
-    "output_thresh": "-30.02",
+    "output_thresh": "-29.98",
     "normalization_type": "linear",
-    "target_offset": "0.02"
+    "target_offset": "-0.02"
   },
   "files": {
     "raw": {
       "path": "healing-rain-lin--002/raw.wav",
-      "bytes": 92240,
-      "sha256": "06b371ac392d2d4b59ad6092b6bd687571462de744cf9cc086105990461a9e7a"
+      "bytes": 115280,
+      "sha256": "b7b7b7ddf2e39cd31836510cd4c17304ac1dc7f860b5805c773634a06ed6700d"
     },
     "master": {
       "path": "healing-rain-lin--002/master.wav",
-      "bytes": 46158,
-      "sha256": "676b0a947291f9232c8aa775ee3f12f2bb2a4fbfd9321802155f731b0af259b3"
+      "bytes": 57678,
+      "sha256": "80bf7d634fa41d7377d4f975bc958f8a74a551a82562a9bd143fdef50a64a1cb"
     },
     "runtime": {
       "path": "healing-rain-lin--002/runtime.ogg",
-      "bytes": 10461,
-      "sha256": "ba88d7deb672c31a8414b6b9a9a2b5d0f022d9219c6b3021d1a5efe49835ee84"
+      "bytes": 11869,
+      "sha256": "9b841c5c6e64eac72f3926ddf48e5b6b50f31de6713b69ef918bf92a74a36992"
     }
   },
-  "recoveredFromRun": 39436524426
+  "recoveredFromRun": 39522076326
 }

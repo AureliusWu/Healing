@@ -55,7 +55,7 @@
           "sha256": "750c040fb16de8b323bec7fdc20f4b2e9af474e0b47d7ebf1d978192b5548646"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-arrival--004",
@@ -110,7 +110,7 @@
           "sha256": "75b781d3cfa259cda03aad50a5d2412ced38d37ef187e8c172173577b83823d5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-arrival--006",
@@ -165,7 +165,7 @@
           "sha256": "7cf555798e889b86b20076d092355a83985fd6abdc885c357102ca5505c860aa"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-arrival--008",
@@ -220,7 +220,7 @@
           "sha256": "616c5bf5e8222e73ade800e37371e66ae4cdc12603c9ef75e268c36cf673c572"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-arrival--009",
@@ -275,7 +275,7 @@
           "sha256": "ea99a33fa0828a895e0d385961b3e7e298afbc7a65847d98e54296e64e4f0e7a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk--002",
@@ -330,7 +330,7 @@
           "sha256": "a324d7c44ebced1b96fb5113ec89ab116756dd6a0dc33d7cd316e6de81087e5a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk--005",
@@ -385,7 +385,7 @@
           "sha256": "ee0eb5428e9b8b7762acf3a52a285ad77b90936ec9b6a0d35a86fdaa635fd512"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk--006",
@@ -440,7 +440,7 @@
           "sha256": "4cd918fa7d86a6a096c64a988d1ffd1cb41c32611e9e098d5ffb2345fe114f4a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk--007",
@@ -495,7 +495,7 @@
           "sha256": "9490501150bcd424165d5ca7a0ecdf75173e25fdc89e681cddd3e5aff8c06e57"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk--009",
@@ -550,7 +550,7 @@
           "sha256": "e6d8911dbcf99651af521f15917d7d99facb4231beb1396055553bdf7f1079ca"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk--010",
@@ -605,7 +605,7 @@
           "sha256": "7a8f63f624c8eabada27da50c1420eaf347911b3a3bae20e907d15fb47e8228a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk--012",
@@ -660,7 +660,7 @@
           "sha256": "304bd737be3b8cf4b62e523445c5f8105a4d56374e4d1ff5603b768381e966ea"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk--014",
@@ -715,7 +715,7 @@
           "sha256": "411068956aa6b85cc9a0e8e16d9a10be6e8f879c13a047b6ef9a8dbf52aa7c03"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-honest--001",
@@ -770,7 +770,7 @@
           "sha256": "4e90c4fd2501d53575a9b554840949ad57b53e0b0352af05e05ab579b3cae3d8"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-honest--003",
@@ -825,7 +825,7 @@
           "sha256": "aafa9a25a6f86721b430257d5460ee191a7385024c5b336121c5bfcc2229ffc8"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-honest--004",
@@ -880,7 +880,7 @@
           "sha256": "fe438cd077af0538ea8d20d0f70cb47548df79f44589efb2b5d4effac9c179e9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-honest--005",
@@ -935,7 +935,7 @@
           "sha256": "1bf9a36ac9d0faf7d5b10ba34e42400d2779b5f442672fb6b77a5c2934b5f8ea"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-honest--007",
@@ -990,7 +990,7 @@
           "sha256": "39374e3123b3964ffe30cef130207e4b028385fcaa349ce85e72cb2542663c92"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-honest--008",
@@ -1045,7 +1045,7 @@
           "sha256": "41ff6c9e211ab897f379d096e3385c6fd659276b9b0f09a9a39e7bad0f7d25eb"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-honest--009",
@@ -1100,7 +1100,7 @@
           "sha256": "a27c9c687038fb51705dc5f8e199ec89761fd2b37b89832f2bffd39631231122"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-honest--011",
@@ -1155,7 +1155,7 @@
           "sha256": "70d8de4579f3d717551c446ed3cb9875c8e861ce19214ac9bd7b5895313f7ed7"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-honest--012",
@@ -1210,7 +1210,7 @@
           "sha256": "0cf7428702bab73dadc37f5ed8636666bd9e23e4b6d3a99d99fee2b1b306ca81"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-deflect--001",
@@ -1265,7 +1265,7 @@
           "sha256": "1771564177c51b4cd5a73caec6f14ece8203e8cbe13c38db0cda392f6535830b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-deflect--003",
@@ -1320,7 +1320,7 @@
           "sha256": "2cc3d07794a4681ff84e779fab75addd34d64313618e245709bc898e02830155"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-deflect--005",
@@ -1375,7 +1375,7 @@
           "sha256": "f9f987802614881435a1c54a8fb62557701438e9455f21bfbfea67a707a1570a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-help--001",
@@ -1430,7 +1430,7 @@
           "sha256": "a6cd96a446f600e96786aa0cdecb4abeb03b7eca06bc96db940d3762e91deb62"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-help--002",
@@ -1485,7 +1485,7 @@
           "sha256": "b17a381744959e983629947f25712287cb81916ace4ac8e63018c6b09107fd3f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-help--003",
@@ -1540,7 +1540,7 @@
           "sha256": "e5717c5bb252b2959adcaa06334141b16d8bf26e2398268551e86df69fd59951"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-help--004",
@@ -1595,7 +1595,7 @@
           "sha256": "414252d4d8d526e3b093bb3e264a24783522367574938bbf0ab84b03b855e373"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-help--006",
@@ -1650,7 +1650,7 @@
           "sha256": "db165825c6db555897cc78c61a594ba627924e5dcede57997c2ed5a303d0cadf"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-help--007",
@@ -1705,7 +1705,7 @@
           "sha256": "91572e27eae74398d9eb7cbf23bfe4a50b6dfa9bbe6e6c986fe6a1466fbfb809"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-help--009",
@@ -1760,7 +1760,7 @@
           "sha256": "c63716892309bfe209fc7b15caf8ec3cb1f917303707423acfb3b13aaa205fc9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-help--010",
@@ -1815,7 +1815,7 @@
           "sha256": "b65f64b184f11705ade9ccc7dc6e4bfc96935a225aaa4232e63e9b51134e322a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-desk-help--011",
@@ -1870,7 +1870,7 @@
           "sha256": "e4719cf0cb15364d9c01df0c298191ad8966ea971e228ee898ba72b2f84d107f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--002",
@@ -1886,46 +1886,57 @@
       "textSha256": "daefed58de5d220cd608ff2efa47db3222ef63c7d41f84db048eee14adbbcde9",
       "medium": "spoken",
       "requestSha256": "48d4d21aa98482dcfc232c7c305145b0f158c8b6a687324f3ff8cf55a62d3cf7",
-      "attempt": 5,
+      "attempt": 8,
       "status": "needs_review",
       "asr": {
-        "transcript": "看不見就別計了我1米8都只看見30個後腦勺",
+        "transcript": "看不见就别挤了我1米8都只看见30个后脑烧",
         "cer": 0.238095,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": false,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "看不见就别挤了我一米八都只看见三十个后脑勺",
+          "observed": "看不见就别挤了我1米8都只看见30个后脑烧",
+          "expectedSyllables": [],
+          "observedSyllables": [],
+          "sameLength": true,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "humanListening": false
+        }
       },
-      "duration": 4.08,
-      "wallSeconds": 197.242,
+      "duration": 6.24,
+      "wallSeconds": 25.156,
       "loudness": {
-        "input_i": "-24.99",
-        "input_tp": "-7.24",
-        "input_lra": "0.20",
-        "input_thresh": "-35.60",
-        "output_i": "-19.43",
+        "input_i": "-22.89",
+        "input_tp": "-4.39",
+        "input_lra": "1.70",
+        "input_thresh": "-33.76",
+        "output_i": "-19.13",
         "output_tp": "-2.00",
-        "output_lra": "0.10",
-        "output_thresh": "-29.91",
+        "output_lra": "1.10",
+        "output_thresh": "-30.47",
         "normalization_type": "dynamic",
-        "target_offset": "-0.57"
+        "target_offset": "-0.87"
       },
       "files": {
         "raw": {
           "path": "healing-corridor--002/raw.wav",
-          "bytes": 391760,
-          "sha256": "38252476c6648a5e229026a21e7e96f42230d528c5c35941a4ad26a72aea250a"
+          "bytes": 599120,
+          "sha256": "04120f6ae4b88acb6b8f127794cd5a848e8b8a9bf369524e8ee3a774a26fa982"
         },
         "master": {
           "path": "healing-corridor--002/master.wav",
-          "bytes": 195918,
-          "sha256": "8932a885805714e93b2b89d14fe01104dcb53fa819c68a3caa519394a5c5d7d6"
+          "bytes": 299598,
+          "sha256": "67e6602e274f94735344242df8bda353ee3bf8d74202209df6d59315d7571cda"
         },
         "runtime": {
           "path": "healing-corridor--002/runtime.ogg",
-          "bytes": 37210,
-          "sha256": "18293f0f01f92bbb87a0249aa0c3c5ed9b9849ef7b7cf198c8843bb6fea7969a"
+          "bytes": 47941,
+          "sha256": "89f8dc127d65e6f3fc314ba9b1f29932d77a5176890b8ca7e2c71e73c711ac33"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--003",
@@ -1980,7 +1991,7 @@
           "sha256": "080ad518e174b5bb57d2dd7e67644398f670d0f9e736aad6735dc918ffab4b86"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--004",
@@ -2035,7 +2046,7 @@
           "sha256": "4e3466a68275927e7ef9e1695e2e3529573036bd7cacb23f83317452a1950da2"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--006",
@@ -2090,7 +2101,7 @@
           "sha256": "83d5acf614de5dd7be7a99d0f7c9d566b74a2aa7f2130fce3bb007e1ccfafb7b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--007",
@@ -2145,7 +2156,7 @@
           "sha256": "ce7f01c781cca913dd8a2ae24b7ba189e40eb72468b9f46dcce526da1a1b61c0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--008",
@@ -2200,7 +2211,7 @@
           "sha256": "67b2ada82e6d27dd4541123d2b25f62d3e6c8708308f3e7fef4e5e01b95cb8be"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--011",
@@ -2255,7 +2266,7 @@
           "sha256": "dd69b66ec3d894ba6e693634597022eee556e16c1ed5e3ac039acd89a7cf97ea"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--014",
@@ -2310,7 +2321,7 @@
           "sha256": "785f08df73e98c7291ee7443ac724be0b129c0e3766c3e85341960fd66966f14"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--015",
@@ -2365,7 +2376,7 @@
           "sha256": "e96f76cb10043c3b9b82f85027e254411c26e8b9b90b5ec301c756f109575000"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-corridor--016",
@@ -2420,7 +2431,7 @@
           "sha256": "0c8a53cf07a4a09ba734ef50d5c5e732c2c814cdbf72cca9fbd18f8e329fd3ed"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch--002",
@@ -2475,7 +2486,7 @@
           "sha256": "ca800280da17468a0d201f16d61dab270312bd9fe2a14630dbdf14fe15432380"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch--008",
@@ -2530,7 +2541,7 @@
           "sha256": "2ab2e532568409ecc98ee1639971b0257e3bd0c966135ba8cf52b69df88b3893"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--001",
@@ -2585,7 +2596,7 @@
           "sha256": "81601c36c98f8672d1c62cbdcbc7cba3ee4261a222f5266c307a29173fcfb18e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--002",
@@ -2640,7 +2651,7 @@
           "sha256": "026804e991997b00c39a7051409574fa9942a1c75b517351628f7f7c1b94c25e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--004",
@@ -2695,7 +2706,7 @@
           "sha256": "d328f392124ebcc6798fcefca95bdeda1b6ba9abc1ec3c8cfbff72bdd5f45dae"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--005",
@@ -2750,7 +2761,7 @@
           "sha256": "dff9447ce16bf9d2d45e77897d11f9eb893180c64ff5d52b70738c9d1b297005"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--006",
@@ -2805,7 +2816,7 @@
           "sha256": "6d64d0e4fb29dff2ec048bccfc25f2d42971b3a0bf071db4db8790572ece286e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--008",
@@ -2860,7 +2871,7 @@
           "sha256": "8047803597ca6fdef0ad1b5da55ed7ea7b09339d7c629d6aeb3075ec99bfe93e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--009",
@@ -2915,7 +2926,7 @@
           "sha256": "8f36cce99a985558f406f7eab2b84fd5c99d345b7d7155c582ca09ab0e49d8c5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--010",
@@ -2970,7 +2981,7 @@
           "sha256": "14674bc030855530d600422ebe447e7cda253f38aff1f6bae6fc2aee9e0a152a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--012",
@@ -3025,7 +3036,7 @@
           "sha256": "8555e83fd704839a067ee4a8d95f6d02b8a69fdb676798e2dba8745cedd4559b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--014",
@@ -3080,7 +3091,7 @@
           "sha256": "37440345d9138d4886d8edbe420a9f4e1a75db640d1bb3e18d993fa007924c46"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--015",
@@ -3135,7 +3146,7 @@
           "sha256": "a10931a431145434396389127b086e6319d4afdb3cc44a144f2686a5418c7248"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--016",
@@ -3190,7 +3201,7 @@
           "sha256": "eb919f85a8c6cc2e8d5471588239e23f7fd2cb8f512274c9d1d2316bb3dc324f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--018",
@@ -3245,7 +3256,7 @@
           "sha256": "fceae4e4b74acbf23af48b6a17efdad450a48cfaf95b8b642b813db5e3b2f886"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-lin--019",
@@ -3300,7 +3311,7 @@
           "sha256": "1f0a02181c414aaf79eb3bb95423ffb5219e982edbc488c2f0cd3fa31ca21875"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--001",
@@ -3355,7 +3366,7 @@
           "sha256": "109010931e868424b59dfcae05c3b242831bad0821d9549092c62325369e60e8"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--002",
@@ -3410,7 +3421,7 @@
           "sha256": "b3bb4991e65e05354871aaa217ae3e60c0f240a326f7ef5ff443fa6318cb711b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--004",
@@ -3465,7 +3476,7 @@
           "sha256": "f53af09721fe420192edc81bed020360d2d9ac4f9d063befe3f386d914f4a9fd"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--005",
@@ -3520,7 +3531,7 @@
           "sha256": "ee4179db61e9e924cd443097e600c20d307f2cdb8706db138d60135ea36c09d0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--006",
@@ -3536,46 +3547,74 @@
       "textSha256": "08b6f206172e371c31aab4ad18a1df3944458617f5cec7d5f619400bae4ccbdd",
       "medium": "spoken",
       "requestSha256": "cb0e18fb3b974eee280e97ad4630a0745a6fe28d419fa655a69749434dee2fe8",
-      "attempt": 5,
-      "status": "needs_review",
+      "attempt": 6,
+      "status": "accepted",
       "asr": {
-        "transcript": "五修还剩几分钟哦",
-        "cer": 0.428571,
+        "transcript": "五修还剩几分钟",
+        "cer": 0.285714,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": true,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "午休还剩几分钟",
+          "observed": "五修还剩几分钟",
+          "expectedSyllables": [
+            "wu3",
+            "xiu1",
+            "hai2",
+            "sheng4",
+            "ji3",
+            "fen1",
+            "zhong1"
+          ],
+          "observedSyllables": [
+            "wu3",
+            "xiu1",
+            "hai2",
+            "sheng4",
+            "ji3",
+            "fen1",
+            "zhong1"
+          ],
+          "sameLength": true,
+          "polarityCountsMatch": true,
+          "passed": true,
+          "humanListening": false
+        },
+        "acceptance": "exact_toned_homophones"
       },
-      "duration": 1.6,
-      "wallSeconds": 8.465,
+      "duration": 1.36,
+      "wallSeconds": 6.452,
       "loudness": {
-        "input_i": "-28.53",
-        "input_tp": "-12.67",
+        "input_i": "-26.86",
+        "input_tp": "-7.71",
         "input_lra": "0.00",
-        "input_thresh": "-38.53",
-        "output_i": "-19.98",
-        "output_tp": "-4.14",
+        "input_thresh": "-36.86",
+        "output_i": "-21.16",
+        "output_tp": "-2.00",
         "output_lra": "0.00",
-        "output_thresh": "-29.98",
+        "output_thresh": "-31.16",
         "normalization_type": "linear",
-        "target_offset": "-0.02"
+        "target_offset": "1.16"
       },
       "files": {
         "raw": {
           "path": "healing-lunch-chen--006/raw.wav",
-          "bytes": 153680,
-          "sha256": "59883b1165254d82885978a645bc206860f695b8bffe6deecb36f2db66141731"
+          "bytes": 130640,
+          "sha256": "9e6760196324a953559574556dd59ec9dafbbf1ad7a85a12a6a7034a92f1b0db"
         },
         "master": {
           "path": "healing-lunch-chen--006/master.wav",
-          "bytes": 76878,
-          "sha256": "438831b4c3cc7c15da077e74049b3e95ca4f7185a470e3f60a123bfb5aff95e5"
+          "bytes": 65358,
+          "sha256": "199676134d7f8beef5c7ab36aace17be3cf999ac0c8c6636cdc30db8f76b2edb"
         },
         "runtime": {
           "path": "healing-lunch-chen--006/runtime.ogg",
-          "bytes": 15180,
-          "sha256": "3de101d4856778bdd8e02867e4e27be70f7a5b440a953948a28b953f4ce751cd"
+          "bytes": 13560,
+          "sha256": "4c7ee7a261920a788af76f8cee80b4b7f3b5e93bd8c9eb543663bf4345c0dbb2"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--007",
@@ -3630,7 +3669,7 @@
           "sha256": "38fbe81636d0393843fe12f89ef829ebd82672b949d3a3609921fc11aaef2fab"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--009",
@@ -3685,7 +3724,7 @@
           "sha256": "88e57da1953e584ac96cf4e485382f23e6a222fc4900c848193984de42a348c3"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--010",
@@ -3740,7 +3779,7 @@
           "sha256": "897dcb09e5b7a57c6da968901ff24dc02b51eec08b9d6e676904e7db4aad9200"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--011",
@@ -3795,7 +3834,7 @@
           "sha256": "e860ff1db67480205da5165abb632a1e9eb32ff59b690358ca4b9a770624db77"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--013",
@@ -3811,46 +3850,77 @@
       "textSha256": "a8aed09beac176c1558df1ab22eaa34a85a4dbba568db8366a7f8aff5600e04c",
       "medium": "spoken",
       "requestSha256": "6cb6ebac53d8fb5d73beb2ec777a7578b8e2f564446294f563eeb222b98580d3",
-      "attempt": 5,
+      "attempt": 8,
       "status": "needs_review",
       "asr": {
-        "transcript": "我要5岁 够不够重要",
+        "transcript": "我要五岁 够不够重要",
         "cer": 0.222222,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": false,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "我要午睡够不够重要",
+          "observed": "我要五岁够不够重要",
+          "expectedSyllables": [
+            "wo3",
+            "yao4",
+            "wu3",
+            "shui4",
+            "gou4",
+            "bu4",
+            "gou4",
+            "zhong4",
+            "yao4"
+          ],
+          "observedSyllables": [
+            "wo3",
+            "yao4",
+            "wu3",
+            "sui4",
+            "gou4",
+            "bu4",
+            "gou4",
+            "zhong4",
+            "yao4"
+          ],
+          "sameLength": true,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "humanListening": false
+        }
       },
-      "duration": 2.0,
-      "wallSeconds": 76.244,
+      "duration": 1.68,
+      "wallSeconds": 8.261,
       "loudness": {
-        "input_i": "-25.39",
-        "input_tp": "-9.22",
+        "input_i": "-21.68",
+        "input_tp": "-5.05",
         "input_lra": "0.00",
-        "input_thresh": "-35.39",
-        "output_i": "-20.00",
-        "output_tp": "-3.83",
+        "input_thresh": "-31.68",
+        "output_i": "-20.02",
+        "output_tp": "-3.38",
         "output_lra": "0.00",
-        "output_thresh": "-30.00",
+        "output_thresh": "-30.02",
         "normalization_type": "linear",
-        "target_offset": "-0.00"
+        "target_offset": "0.02"
       },
       "files": {
         "raw": {
           "path": "healing-lunch-chen--013/raw.wav",
-          "bytes": 192080,
-          "sha256": "710def7cc62dd55d7e9a33a28a8b8becdef33cf532d5b3fa301cc0db77ff944d"
+          "bytes": 161360,
+          "sha256": "cde294301f55a5e709521d95f6ab968e72f4ae159faa27c4579d349df642be06"
         },
         "master": {
           "path": "healing-lunch-chen--013/master.wav",
-          "bytes": 96078,
-          "sha256": "29589a487b8fa32160d68a3dead8346bb4253fe0897a42457673c443f77dc790"
+          "bytes": 80718,
+          "sha256": "220e0a2df22023a016c60a6194f0f0646779ec08828ed2d6477e40d765da10ea"
         },
         "runtime": {
           "path": "healing-lunch-chen--013/runtime.ogg",
-          "bytes": 20158,
-          "sha256": "cad237482fc6b316bbbf2d3eac7c25481772450b800e8374973697eb37b84f80"
+          "bytes": 16098,
+          "sha256": "ffa9b18cd63aecb8c585d9803f443b93b4e222ee44ea1525419b7fafab4e709a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--014",
@@ -3905,7 +3975,7 @@
           "sha256": "843ae6f3b5aa69c68009c0f1bc45059c336b86333b1db0ac0fce1c271fb896c0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--015",
@@ -3960,7 +4030,7 @@
           "sha256": "8fc8d194b9a90eaa82fd009d61e45b8d095f8555ed31bac00fd9ce26626b7af0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--017",
@@ -4015,7 +4085,7 @@
           "sha256": "8f181f34ccc527147318b3f08362c488befbedd3ff3f08a633843125b2a057a1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-chen--018",
@@ -4070,7 +4140,7 @@
           "sha256": "5dec4cd42733461b5b97780ed9b1b1a1a8de927ca201290f36caa15ab5064c97"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-lunch-alone--003",
@@ -4125,7 +4195,7 @@
           "sha256": "37f84068d136ad863d5f9900a25fb2e55beeb95341bb4f04f0a69c2229885399"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-club--003",
@@ -4180,7 +4250,7 @@
           "sha256": "59bbea6a4363c635395483f28118afa75f099101bdc143cd788b0d09ab76ad0b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-club--004",
@@ -4235,7 +4305,7 @@
           "sha256": "967f6e5984c188cc8bbc1247230efb97e37cd04233276373612c783f67d703a9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-club--005",
@@ -4290,7 +4360,7 @@
           "sha256": "703c131d94f0ac648160d29e0452d24219d1ed7e8f81ceb66b1c3b3da49bedca"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-club--007",
@@ -4345,7 +4415,7 @@
           "sha256": "bc2250e730e6f222df2dee0f1f95ab81f9d4680ddbb74499bb1d860b26e472f3"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-club--008",
@@ -4400,7 +4470,7 @@
           "sha256": "6579cbed86d0c8ccc382065fda81cdcf4eb8ded7a209148ef465a194ac062486"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-club--009",
@@ -4455,7 +4525,7 @@
           "sha256": "b4778c10ced27fb867d110fb1759be012c2f68dc56fa9c6594f69024c761a9de"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-club--011",
@@ -4510,7 +4580,7 @@
           "sha256": "93e31211dfef57b843f4ac304016b70684fe505bd40612b277c571e874544fa4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-club--014",
@@ -4565,7 +4635,7 @@
           "sha256": "716d85dec6656d206a0a5d2dd5afee7c082decba5487b54629124dd27af4647a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-club--016",
@@ -4620,7 +4690,7 @@
           "sha256": "975d0700d131e77add5b300be2480f56acfb0217b9c416e7491efaada277f3ea"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--001",
@@ -4675,7 +4745,7 @@
           "sha256": "91fd55e80320a9d1d5bf9fbee2ba485e378dda924b2caeae31d6bfa8062b67be"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--003",
@@ -4730,7 +4800,7 @@
           "sha256": "303bbc129f29883b93a95db46180efcb2e3eb82f7ae2013ace506a871e334be1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--004",
@@ -4785,7 +4855,7 @@
           "sha256": "d0063560a018a80e38ef147bebc133f23abb74d63894d0457b3542f5eb2787f0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--005",
@@ -4840,7 +4910,7 @@
           "sha256": "7e3de620f7271fa8507c9e31522f317b894c659dc83dae8990870808300af6ed"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--007",
@@ -4895,7 +4965,7 @@
           "sha256": "27ff42fb1576da28ad6309794833d7caaab866560588dd1c572e2dc5cf6d9dc8"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--008",
@@ -4950,7 +5020,7 @@
           "sha256": "050b16e6ca0a5e072489addfa59b7cf9edb278257f37ea2ef0b6ad19c9e971d7"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--009",
@@ -5005,7 +5075,7 @@
           "sha256": "5f88aeb74c5dc0c8f9e47b6a5bd98e90bf9bb56181b3e19656018c830b638249"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--011",
@@ -5060,7 +5130,7 @@
           "sha256": "8107bb4dd34f63e957c0e5fa3148c71acd6a387367378eb9ef6ba3d320182583"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--012",
@@ -5115,7 +5185,7 @@
           "sha256": "e35ee468687b0bbc37d86b7bce19570a1948b97eea84eab024f43ec9874e2030"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--013",
@@ -5170,7 +5240,7 @@
           "sha256": "637bbb50b192fc32a870fda98047067e882cd10de8a02772e3be8a656b1027d9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--016",
@@ -5225,7 +5295,7 @@
           "sha256": "259f2dff5af8c920dcac29aca771179792710ead68b7b3361ca093aa3c549dfe"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-plain--017",
@@ -5280,7 +5350,7 @@
           "sha256": "6593ef4ef08827bab6749364af5baa6bc835f70da6d7f047990732c196391274"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-safe--002",
@@ -5335,7 +5405,7 @@
           "sha256": "d035622f6a637e4c6f5f500a613db0a86b4c965afdf5a8ecb7c8c95ecdf469cb"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-safe--003",
@@ -5390,7 +5460,7 @@
           "sha256": "d1f6eb9186c51e7d09d09be652449768c37448acc9cba75d174509bda7ecfb8a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-safe--004",
@@ -5445,7 +5515,7 @@
           "sha256": "3162015dbe85fa5571c61b11a5cf8de065b700ba106e85258b7e5637419abb4f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-safe--006",
@@ -5500,7 +5570,7 @@
           "sha256": "e3bf3ad95ab91b87b6e773c1350ea014fafffcdd3b3e23e326818623d97f5d7c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-safe--007",
@@ -5555,7 +5625,7 @@
           "sha256": "75477da7ff0d6bb0398a41fde38bc37fd4616a3220aa910d1c4f569e8424c4b5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-draft-safe--008",
@@ -5610,7 +5680,7 @@
           "sha256": "ba95eec7d8aaf5579c158d06ae9ecda330517b7191f4a129540d22517cb0aa68"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-misunderstanding--002",
@@ -5665,7 +5735,7 @@
           "sha256": "785177c5ee90223e1cacf5a5cecf209afb12826dd5e341363450542e44eaf653"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-misunderstanding--004",
@@ -5720,7 +5790,7 @@
           "sha256": "a973daf556db4983c3726aded3f11a01d416a4735ee6d741b06ab98716968c39"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-misunderstanding--005",
@@ -5775,7 +5845,7 @@
           "sha256": "0820301046d14d10c1ca8b86b299ad819ae4fcfce0fd9d6c6799e5e10202051a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-misunderstanding--007",
@@ -5830,7 +5900,7 @@
           "sha256": "6ea3b24d5eae750573f1b52a15435ed733b753a14a46fd2871aae3721bde9d96"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-misunderstanding--008",
@@ -5885,7 +5955,7 @@
           "sha256": "0926ee9fef5e6c638ae0cc6242213ad01fc942ea9678a77cd20d3382f5ead25c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-misunderstanding--009",
@@ -5940,7 +6010,7 @@
           "sha256": "e322b58c368e1220aa4d07f3e37acdbdfd8267dbb4af033b9a959dde985d2658"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-misunderstanding--011",
@@ -5995,7 +6065,7 @@
           "sha256": "9f5c1e7a85662d50f6b45f924d4df41e9e001a166a8d33680fcf80248151863e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-misunderstanding--012",
@@ -6050,7 +6120,7 @@
           "sha256": "f354930f534dc1e0e0dff3c52d12dfb142c037492246ec8f967f710db5060c00"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-misunderstanding--014",
@@ -6105,7 +6175,7 @@
           "sha256": "b33dd8851bb682e88689428a7f204beb0856c6f0440c37b80962630ddc42b0f6"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--002",
@@ -6160,7 +6230,7 @@
           "sha256": "f26fe2fa00659c02ebd02e2cf6b01a97b6e0ddc37fb6dd9a320370f3e3367977"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--004",
@@ -6215,7 +6285,7 @@
           "sha256": "80b1c5a9a1fc2436dd36001d27a40e24b2bbd6479a7233ba50912f9a8ba7be0f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--005",
@@ -6270,7 +6340,7 @@
           "sha256": "9dd89df082d78f129915d3b6406a420380ebb4a4499a18c36d7159a64123d856"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--007",
@@ -6325,7 +6395,7 @@
           "sha256": "7d113c51b6b4c4a4ff55af3712891a727fe23eaeb6bc1b7ecb4fa890560b8f38"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--008",
@@ -6380,7 +6450,7 @@
           "sha256": "99b8259cffa2299a45dd54e99fa9cd6735325ef0e62fb4c945346e3fb7bcfd5d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--009",
@@ -6435,7 +6505,7 @@
           "sha256": "72c1b113858952a5c14467de7c30afe2d094c70309f43a26b0a44abc73cc2bd1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--011",
@@ -6490,7 +6560,7 @@
           "sha256": "c9134156be26eedf5735e5c52e5448322f6e47e693dd47c946918038a4d72b64"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--012",
@@ -6545,7 +6615,7 @@
           "sha256": "2ca0d078e49b62141e1a80802428e4f3fd825d6a3c8e435f346444bc56a3bfe2"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--013",
@@ -6600,7 +6670,7 @@
           "sha256": "0a58ecab33cc76c138f10e430f97c29fabafaed4a2075bb2f359d0129d19948f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-tang-interlude--015",
@@ -6655,7 +6725,7 @@
           "sha256": "8d3874e130c0a111951bec8c6faed39d2b34bd5f16fc3449f71de8242eea5dc2"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-storm--005",
@@ -6710,7 +6780,7 @@
           "sha256": "abfec1eeefff91c67aff128d0efda4365bba6a53d34745135fa6a715d90060ea"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-storm--006",
@@ -6765,7 +6835,7 @@
           "sha256": "8149ca8ad0f6977920a5c42e8694c01468470577dfe853b2a2e0e16b1f0b201e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-storm--009",
@@ -6820,7 +6890,7 @@
           "sha256": "bf27509480a410c1a5db72c23e02c4e1b515d45a37fd3e8d45b0e618c5584f8f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-both--001",
@@ -6875,7 +6945,7 @@
           "sha256": "7614fe6ccdb6bea7344c0c8cddd480d40de28db2dfdcc0be5fb95076f2ad5274"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-both--003",
@@ -6930,7 +7000,7 @@
           "sha256": "453d0d35a8c9c89072f612ffef0551cce91986239db31c4503417cf7af492628"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-both--004",
@@ -6985,7 +7055,7 @@
           "sha256": "f39a11c45158090620421ead43d8469a3032d9bc93e9e72b76c5a05f75bb937f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-both--005",
@@ -7040,7 +7110,7 @@
           "sha256": "bc3116dc45a4248ee611b652f215ec67ab1541d697416911c47e2969bebdb360"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-both--007",
@@ -7095,7 +7165,7 @@
           "sha256": "0853ed9274b97b98d91e3cc650c61a51af01861ed14117ea7d079af8d8e0c8b1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-both--008",
@@ -7150,7 +7220,7 @@
           "sha256": "b2629a9a3730081a2172b7ee2b94973127f926f71886088b98f2c3c923d7e2d6"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-both--010",
@@ -7205,7 +7275,7 @@
           "sha256": "b3d58d90aab34d7fe6cc4dca21f147c383bd69ffe33fbed2a43c28a83769e6c5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-both--011",
@@ -7260,7 +7330,7 @@
           "sha256": "101df228a47785c541a9cd5c5094238df7ebccd10f80986af875cbd8904f51c1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-both--012",
@@ -7315,7 +7385,7 @@
           "sha256": "69f98b0f9feac469b20c36f201a207cd4f9415eb5e10fc50c6b1a794896078bb"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--001",
@@ -7370,7 +7440,7 @@
           "sha256": "4754c9da134f861d4d28101689a895ebec01541b042cce4dfdb4c6b11c40dec1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--002",
@@ -7386,46 +7456,67 @@
       "textSha256": "b510fc81f600b2df0e5792f4a6c5862387c3fa8879ce78ed97203f0b9649004d",
       "medium": "spoken",
       "requestSha256": "5a9f543ccd22cf4826e90729c8490dfc2a76753db04741c5683e9a360eaf03ae",
-      "attempt": 5,
+      "attempt": 8,
       "status": "needs_review",
       "asr": {
-        "transcript": "那只要呢?",
+        "transcript": "那智陽呢?",
         "cer": 0.5,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": false,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "那知遥呢",
+          "observed": "那智阳呢",
+          "expectedSyllables": [
+            "na4",
+            "zhi1",
+            "yao2",
+            "ne5"
+          ],
+          "observedSyllables": [
+            "na4",
+            "zhi4",
+            "yang2",
+            "ne5"
+          ],
+          "sameLength": true,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "humanListening": false
+        }
       },
-      "duration": 0.96,
-      "wallSeconds": 56.655,
+      "duration": 1.2,
+      "wallSeconds": 5.746,
       "loudness": {
-        "input_i": "-24.27",
-        "input_tp": "-12.10",
+        "input_i": "-21.54",
+        "input_tp": "-8.42",
         "input_lra": "0.00",
-        "input_thresh": "-34.27",
-        "output_i": "-20.02",
-        "output_tp": "-7.84",
+        "input_thresh": "-31.54",
+        "output_i": "-19.98",
+        "output_tp": "-6.88",
         "output_lra": "0.00",
-        "output_thresh": "-30.02",
+        "output_thresh": "-29.98",
         "normalization_type": "linear",
-        "target_offset": "0.02"
+        "target_offset": "-0.02"
       },
       "files": {
         "raw": {
           "path": "healing-rain-lin--002/raw.wav",
-          "bytes": 92240,
-          "sha256": "06b371ac392d2d4b59ad6092b6bd687571462de744cf9cc086105990461a9e7a"
+          "bytes": 115280,
+          "sha256": "b7b7b7ddf2e39cd31836510cd4c17304ac1dc7f860b5805c773634a06ed6700d"
         },
         "master": {
           "path": "healing-rain-lin--002/master.wav",
-          "bytes": 46158,
-          "sha256": "676b0a947291f9232c8aa775ee3f12f2bb2a4fbfd9321802155f731b0af259b3"
+          "bytes": 57678,
+          "sha256": "80bf7d634fa41d7377d4f975bc958f8a74a551a82562a9bd143fdef50a64a1cb"
         },
         "runtime": {
           "path": "healing-rain-lin--002/runtime.ogg",
-          "bytes": 10461,
-          "sha256": "ba88d7deb672c31a8414b6b9a9a2b5d0f022d9219c6b3021d1a5efe49835ee84"
+          "bytes": 11869,
+          "sha256": "9b841c5c6e64eac72f3926ddf48e5b6b50f31de6713b69ef918bf92a74a36992"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--003",
@@ -7480,7 +7571,7 @@
           "sha256": "a7da7267ee59ebce1ae93abf1a9969ab7f0db9d8cc7eb8e3ecfacc9b54fa6286"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--006",
@@ -7535,7 +7626,7 @@
           "sha256": "c3e61701766fd5791e74eef2cd3bc6c76d693ddc77d20c5dc8e03702449eb57c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--007",
@@ -7590,7 +7681,7 @@
           "sha256": "964f1f64f86714fc3c1c3fae25807b7d00002be573cdaecd792399294706d0b7"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--009",
@@ -7645,7 +7736,7 @@
           "sha256": "3abc25ba0a52398cec78b4fc7f985326a5ad938b505070777fcdc9d2f3208609"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--010",
@@ -7700,7 +7791,7 @@
           "sha256": "5032f14b5a612c51d5d49c16b5e4a9d4ac8c6a6cb024f4e4d3035add086fcc48"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--011",
@@ -7755,7 +7846,7 @@
           "sha256": "e4c5bd17ea1867a58bb34fa24ca03e60293260384349dca9345245e0a6fb2795"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--013",
@@ -7810,7 +7901,7 @@
           "sha256": "474d24fe7b6cd8f634b0bd45734bea4dbdaea61a577010d2a8ec90ead17c7af1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--014",
@@ -7865,7 +7956,7 @@
           "sha256": "5d9cb9ca5dfabc019cd6aa8ba4895d46d4baf13e4d06ef704fb5da258f4a120b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-lin--016",
@@ -7920,7 +8011,7 @@
           "sha256": "71034297300968d84a67b12232ade70ab789b7c01c66589ba42eeb341b334095"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-chen--001",
@@ -7975,7 +8066,7 @@
           "sha256": "d38e87c91d46184c826d1c2b8e0a7e331a2fd2e42b0ec9494ef7f987492a8153"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-chen--002",
@@ -8030,7 +8121,7 @@
           "sha256": "290abdd87aca960eb1a0b2959ce79824abccd815a801415cad14fc196d8d58ac"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-chen--003",
@@ -8085,7 +8176,7 @@
           "sha256": "16edb217626afda5d2bfe0cb60243bc207ea29ddb92e23fc82b9eada16dfe3ce"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-chen--006",
@@ -8140,7 +8231,7 @@
           "sha256": "a4e4d6a9b97e2e8988adae15ede81d8e7eaba0196651f15991212b8c39179ce9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-chen--007",
@@ -8195,7 +8286,7 @@
           "sha256": "54074c71a82498a02f676743cba9babc7bae1e7beb492c979347789d8c77eccd"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-chen--008",
@@ -8250,7 +8341,7 @@
           "sha256": "1cf759847985d85e467fc932762560c03e576f43c546f2ab9bf71737bc240a4f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-chen--010",
@@ -8305,7 +8396,7 @@
           "sha256": "0c78883ef1a5bab776a641b90c6733566ccbcf947d4cdfd66618ca88a4985835"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-chen--013",
@@ -8360,7 +8451,7 @@
           "sha256": "666eb09f742482e9aa3a2be9758c35a76e6d348e294e34220c726199411e8195"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-rain-chen--014",
@@ -8415,7 +8506,7 @@
           "sha256": "bf0dbedeb41f06b3c366e8e1e8d8f26580dd053b441a36673e610fbdea4dc30f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-evening--002",
@@ -8470,7 +8561,7 @@
           "sha256": "69a02fa8579fecc3a4a3139e585bfaf56775144222d0884124eecae5428b132f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-evening--003",
@@ -8525,7 +8616,7 @@
           "sha256": "f3e14e22faf479c5e70847eb971e8a9565bb6266ae03ca5bbe9bca2317192959"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-evening--004",
@@ -8580,7 +8671,7 @@
           "sha256": "c1fdbe16ec80b44d9045f6ebcebcab930fbc50bc51258ef577679e8541007b06"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-evening--006",
@@ -8635,7 +8726,7 @@
           "sha256": "940d5e7b00cf83cb6b52b89ae083d781fa459c43bfcbf0111cbecb76d19c4ce0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-evening--008",
@@ -8690,7 +8781,7 @@
           "sha256": "e2ac01222ea8bdf75cab500eef76f4e6ff087f097096ffc4eed745ef1486b265"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-evening--009",
@@ -8745,7 +8836,7 @@
           "sha256": "5edf4a4eb41005b2cd1507570f5a312f1dfbcf08953d6205a252c23f62e45171"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-evening--010",
@@ -8800,7 +8891,7 @@
           "sha256": "3c3e894b69e962c7263cf1e6be41a21bf0a7db3d16653da2c776cc0b8dc7980f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-evening--012",
@@ -8855,7 +8946,7 @@
           "sha256": "a969c836db1fdd10cec366b2ec467d519c10c35187012c3cfe0c120c572bc30d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-together--003",
@@ -8910,7 +9001,7 @@
           "sha256": "9e89da308f9acd8909a7a905dc5e1364bf472971a16f15c094ef12c4f1d45b52"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-together--004",
@@ -8965,7 +9056,7 @@
           "sha256": "2cb20002d77ca46bf32e218fe865e609e1889667e7425f07ab127d7b5ed2cb3a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-together--006",
@@ -9020,7 +9111,7 @@
           "sha256": "2544643f2e2ce212986101d52519dc6d69ab569c9145b2f4564636f0024b5306"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-together--008",
@@ -9075,7 +9166,7 @@
           "sha256": "e37bdca769860441837a7bdc71fad7c2e759b5b5b35be3ea47107e5a78c272c9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-together--009",
@@ -9130,7 +9221,7 @@
           "sha256": "bab1198cf0ac8c96b0113f353b7663b7f77a211623aeb6da15d9f19c88638551"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-together--011",
@@ -9185,7 +9276,7 @@
           "sha256": "dbf8288ea79d540f39f196d1072914dd0e028d5b511f10097f1f30547c33b354"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-together--012",
@@ -9240,7 +9331,7 @@
           "sha256": "f7522f300c13608f06899cadb8309bd66e2a7ebb44315e4221c74d5a8db49231"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-together--016",
@@ -9295,7 +9386,7 @@
           "sha256": "c471ba6229a604e67159f048e40404a84ed3ef636608de9292f94cfac53fd245"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-together--017",
@@ -9350,7 +9441,7 @@
           "sha256": "199c8583ca687f6a1932fb91e185e04f272de8d27888cf3598725ff46a2edd44"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-letter--004",
@@ -9405,7 +9496,7 @@
           "sha256": "ad65e1afea8ff9dd6485788eb49095800c1d036c7ccb2eca5deb93aaa9047a90"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-letter--007",
@@ -9460,7 +9551,7 @@
           "sha256": "bb7ef5462f7dd257151fc2c2ab9fd70d53b40be4ee76e97b14965f584b63ac2e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-letter--008",
@@ -9515,7 +9606,7 @@
           "sha256": "9dde6081557c3e40134127a06f97e4065850d43fc6818e8c81f075decbe6d101"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-letter--009",
@@ -9570,7 +9661,7 @@
           "sha256": "9deac9e6b9aca7ee95c8d3767e5fa196161deb5faaba554450b075e397aef55f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-quiet--003",
@@ -9625,7 +9716,7 @@
           "sha256": "5b6fba29a820b782d56fca13d0fa0e0eea25452ab71e823534eb76af52abfcb2"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-quiet--004",
@@ -9680,7 +9771,7 @@
           "sha256": "bfe467950feca8267a8742460d74f699c6ef6142c2ad99d6de39294fc9bf0970"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-quiet--007",
@@ -9735,7 +9826,7 @@
           "sha256": "b968a17a9382b9b8635fe7f3dfb5eca6bc4f9a9a06c310d7804087e2baef4112"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-quiet--008",
@@ -9790,7 +9881,7 @@
           "sha256": "3356d713befaf8e953fe31c59aa4d8dabe600eca25a4672576358327f9c3b048"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-quiet--009",
@@ -9845,7 +9936,7 @@
           "sha256": "0b63059711a14645c7328a7c6a18bb01f46524c4e0e5868c2441316309e189f3"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-open--002",
@@ -9900,7 +9991,7 @@
           "sha256": "e8dce7351b465b4001e5fd9240b000de8e7433ec5f3a471375af7b3bf9fcfd8d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-open--003",
@@ -9955,7 +10046,7 @@
           "sha256": "d46eb1b78e2e5732f79d782d649ba653a21b98b45b3e5fadf3c9efacb1ae0236"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-open--005",
@@ -10010,7 +10101,7 @@
           "sha256": "cb708141754e48efbebf29c7eaaa304ede7f398696a5291cb5f83e3543db34a5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-open--006",
@@ -10065,7 +10156,7 @@
           "sha256": "8f77fafbebd20dd8e475a0747526161fcb3b29cf702d9441f49c827958aa87be"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-open--007",
@@ -10120,7 +10211,7 @@
           "sha256": "bd8d6a1d77a2ae157e247a8a8348221f5a21856b7bfb2bcab9e52db3db5fc170"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-open--009",
@@ -10175,7 +10266,7 @@
           "sha256": "bc7578d3490a6f564428191fb615ca59b224f7bb10492568c6270fd9ee22f64c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-open--010",
@@ -10230,7 +10321,7 @@
           "sha256": "278ec4a4efb9edf5309c9713bd6c50dc2414228cb952d9cc0028c1ccfccf3978"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-together--002",
@@ -10285,7 +10376,7 @@
           "sha256": "b37317e9d37d629cd714141a968cd7294b465ba210c39d723f342f348277a4d9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-together--003",
@@ -10340,7 +10431,7 @@
           "sha256": "205141f21ab93a419edcb7464e41e8e2921a6ffc9d4657d79b382cbeb88d2a0b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-together--004",
@@ -10395,7 +10486,7 @@
           "sha256": "eb23ea014a62e986e224d4c16c20054cd796a3cde83870fcb7300b563d7ef536"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-together--006",
@@ -10450,7 +10541,7 @@
           "sha256": "c57d21d742a63a1f04e828a638e4ff9b3e9decaad4d792093d4f728305f699b6"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-letter--002",
@@ -10505,7 +10596,7 @@
           "sha256": "12476d0cd0718f0716cf6ee63b3408b42a837bb13a2b06ba0c52d2e295c2c419"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-letter--003",
@@ -10560,7 +10651,7 @@
           "sha256": "cf22a80b730e32204c32d0ad4347b5b60381e2132989a405346381256cf5cbe1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-letter--004",
@@ -10615,7 +10706,7 @@
           "sha256": "b6fc5f10304f55bd466e8a9a95d313c15e1e713b3d734942b443c1cd1d1d150c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-letter--005",
@@ -10670,7 +10761,7 @@
           "sha256": "18cb80f6f88fd9226be0f073962461f5c34defabed0fce2574a38596b4de096e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-letter--007",
@@ -10725,7 +10816,7 @@
           "sha256": "466cbfe746e5709f5b6efc1fdc13d7735e3d4a20261cacd6c4a2cdd4c32fc394"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-quiet--002",
@@ -10780,7 +10871,7 @@
           "sha256": "7c81b1e45221efdaf8c0a409732736568ab14bd608058c87a1a80177c272d90c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-quiet--003",
@@ -10835,7 +10926,7 @@
           "sha256": "3394f4b902a6b744cb153557d313167d46b31cceaf0aafdc378f5db4daf2b016"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-quiet--005",
@@ -10890,7 +10981,7 @@
           "sha256": "77c82c180813760e0e11b553f51758af97ca5b7665adba2b80fe68d081c5e423"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-quiet--006",
@@ -10945,7 +11036,7 @@
           "sha256": "afc6b62cec1ba630762f5fba7b603d593bcdd93171775894a2a3057da5d0ff22"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-from-quiet--007",
@@ -11000,7 +11091,7 @@
           "sha256": "e7e1d585ef8464ed6401f99f7802a275107623f982b783e46c1301f760d07de4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-deadline--002",
@@ -11055,7 +11146,7 @@
           "sha256": "902af8e728cec87c871aafcabe4c9b04122c0fec5e0c98df34b8438bf97ad1f4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-deadline--003",
@@ -11110,7 +11201,7 @@
           "sha256": "147fc6330a33936f3cccda5e76e93225d9a2a01aec7f50608ca92ab3c4ba40a0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-deadline--004",
@@ -11126,46 +11217,46 @@
       "textSha256": "811f4a87289e840b4622c6672b912ae9b6960dbb537d064e927ac2a23336fd5c",
       "medium": "spoken",
       "requestSha256": "6863c6b2748b9808622c91eff08038bc361f071ab0295047f615e7941d09224c",
-      "attempt": 5,
-      "status": "needs_review",
+      "attempt": 8,
+      "status": "accepted",
       "asr": {
-        "transcript": "那我们别再5点44,再发现有三页要重排",
-        "cer": 0.263158,
+        "transcript": "那我们别再五点四十四再发现有三夜要重排",
+        "cer": 0.105263,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": true
       },
-      "duration": 4.24,
-      "wallSeconds": 186.096,
+      "duration": 4.88,
+      "wallSeconds": 20.077,
       "loudness": {
-        "input_i": "-17.27",
-        "input_tp": "-3.10",
-        "input_lra": "0.50",
-        "input_thresh": "-27.53",
-        "output_i": "-19.50",
-        "output_tp": "-5.47",
-        "output_lra": "0.20",
-        "output_thresh": "-29.72",
+        "input_i": "-21.24",
+        "input_tp": "-7.05",
+        "input_lra": "2.80",
+        "input_thresh": "-31.62",
+        "output_i": "-17.59",
+        "output_tp": "-3.35",
+        "output_lra": "2.60",
+        "output_thresh": "-27.89",
         "normalization_type": "dynamic",
-        "target_offset": "-0.50"
+        "target_offset": "-2.41"
       },
       "files": {
         "raw": {
           "path": "healing-c2-deadline--004/raw.wav",
-          "bytes": 407120,
-          "sha256": "43b9c3733a2ffd5083333a63cd86c9971434e82a24835a8478a9ab2a7e4ffbef"
+          "bytes": 468560,
+          "sha256": "0f27381db9e79ee76c32a4b340053eb345fc3647b81ef6b99d85bf5b5c63aa1d"
         },
         "master": {
           "path": "healing-c2-deadline--004/master.wav",
-          "bytes": 203598,
-          "sha256": "ae63777e63eeb1c6b65090455bffa55fd874c2b8692434602fbc44e1c7e93284"
+          "bytes": 234318,
+          "sha256": "6d6372763c19413100634f5026dbd608fa574f3c94dd8ce5498585b20e426083"
         },
         "runtime": {
           "path": "healing-c2-deadline--004/runtime.ogg",
-          "bytes": 33315,
-          "sha256": "1d5064953be1ab7a81db6e11e6fc22946a03698acc9edb25afc142e10ebfbf76"
+          "bytes": 37318,
+          "sha256": "936faba6b0e932a5cc8b336ba1ff6cba0899e5b8a65bcc196438b4407a18b015"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-deadline--006",
@@ -11220,7 +11311,7 @@
           "sha256": "33b6c6f849545c1736095063f06925ebe38a60178fc6cce1874c79288b217eb9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-deadline--007",
@@ -11275,7 +11366,7 @@
           "sha256": "b10596f55c075d755ae23de111c162623b909dbb9255bd7d5fbd432cc47ee5e6"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-deadline--008",
@@ -11330,7 +11421,7 @@
           "sha256": "a42016acc79e3663fae83d2d80cbdb65fd83a43c40efca0a1dc4c1d74b21e687"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-task--002",
@@ -11385,7 +11476,7 @@
           "sha256": "7b8bcedf0e4543bfbd7037e2cd584361bdd2571517560ba236bef1b193ff35f9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-task--003",
@@ -11440,7 +11531,7 @@
           "sha256": "dd5f929035540b4de682d0accc3af8242207ad0ce9d5a7b224e78742400f5d85"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-task--004",
@@ -11495,7 +11586,7 @@
           "sha256": "03e39784b421fb250ce21a320d762ad2fb8b59e97423dcb791a83fe23a79506b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-lin-draft--002",
@@ -11550,7 +11641,7 @@
           "sha256": "c73b8600dffcbc1aac749ea5f33fb0a5a0b0f642f91179227bb0b515796edb8b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-lin-draft--003",
@@ -11605,7 +11696,7 @@
           "sha256": "864dc6edd6643d8cf842ef0969b2749655718ead19f2e0dc8ff4414c775168dd"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-lin-draft--005",
@@ -11660,7 +11751,7 @@
           "sha256": "e008801ba0cf56ec2a8f894bdf1575e6628a1dc8838825705efdb1afca6dc426"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-lin-draft--006",
@@ -11715,7 +11806,7 @@
           "sha256": "05bc8b3c5511270ac125b95cd3f9b40f2612497bc828188d17778c3083876d65"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-lin-draft--008",
@@ -11770,7 +11861,7 @@
           "sha256": "e08a4265418c09d691feca51d032e468abf123ca88bdcec564cc26dfa7eccb3d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-lin-draft--009",
@@ -11825,7 +11916,7 @@
           "sha256": "4432bbbec3e7aba657f67a2a56354c2fe6dce1555a849e3d02b2ad2dbfbb34ef"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-chen-list--002",
@@ -11880,7 +11971,7 @@
           "sha256": "672f3b06886a07d444e4ef7b4f977cb4ce8aded6d51cc4f2606480ff787ba3a4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-chen-list--003",
@@ -11935,7 +12026,7 @@
           "sha256": "d710d237e5cf3bbf633ab98b05c3b9eea0dd699cbab6195d38a986469de4fc07"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-chen-list--004",
@@ -11990,7 +12081,7 @@
           "sha256": "e39c1dec8ba334758dd2190692830343818901a6210e0879d56f617588e6083a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-chen-list--006",
@@ -12045,7 +12136,7 @@
           "sha256": "3cc37db9daf9a88654d3fb8d5210a3bd23f210116434c78030c09cd57e6e7642"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-chen-list--007",
@@ -12100,7 +12191,7 @@
           "sha256": "5ccb613d8b58b6c34aa3be8844a5822ea665ebe292a128fb21076a48c8252586"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-chen-list--008",
@@ -12155,7 +12246,7 @@
           "sha256": "af8bb486eec9bfb8b47807a51ce263ece855b5af8ef7e2ba5d64a01838fd4b1e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-chen-list--010",
@@ -12210,7 +12301,7 @@
           "sha256": "b1ef70aa9e32044bc34d9fad3402c3fbf678aa9c11307b64e52115147916068b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-tang-photo--002",
@@ -12265,7 +12356,7 @@
           "sha256": "12db06f7ed9efba734a9f7184c87f8c5ade648aa7024bdecca883db16c23e0aa"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-tang-photo--003",
@@ -12320,7 +12411,7 @@
           "sha256": "9312813aa7410961c041bd5d71e6aff0c4b9bd6a4e04f50b964897dade35a598"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-tang-photo--005",
@@ -12375,7 +12466,7 @@
           "sha256": "771971f82b708335a46dd671d06ca9ae6a7d5fe59729c2a267e70c8a3a152bb1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-tang-photo--006",
@@ -12430,7 +12521,7 @@
           "sha256": "6e060726821d7a2740daf3d44e438ae77fd040c591b2d3b2dd7c19eb0b7dc8c4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-tang-photo--008",
@@ -12485,7 +12576,7 @@
           "sha256": "ab15552bc4f973e3df15121ee35126188d17198aa4765f30598af7dcc6b3e0c5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-tang-photo--009",
@@ -12540,7 +12631,7 @@
           "sha256": "31ba58a2722360a65d2aa5d062acd1a3b0d2030a12fefe19c364cb4243ab028d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-tang-photo--010",
@@ -12595,7 +12686,7 @@
           "sha256": "0db75b5dcb87b011c908b59c6bec88e727f249d62f009768d494f2040400a672"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-proof--002",
@@ -12650,7 +12741,7 @@
           "sha256": "82d48aa52ba96c579afdb217f44ee2e13469752477557246153c0a197be7a852"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-proof--004",
@@ -12705,7 +12796,7 @@
           "sha256": "ec032099aab6db472c981e71d86de3c317683f3bfe24629233ebfb1dc23fafdf"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-proof--005",
@@ -12760,7 +12851,7 @@
           "sha256": "c398e01ad8a0048fd35befa9baf0f2a90e5497281f7b21bf29d885c832cac9b5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-proof--007",
@@ -12815,7 +12906,7 @@
           "sha256": "84bcd8a42ed21e13e94d3dc662ac7214f56f99282b01d79f618e1ab4249209ee"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-proof--008",
@@ -12870,7 +12961,7 @@
           "sha256": "bc3a322a765accf5b37d7bd2b720f13c2a882a7a4e7b3b96b5f29d3a7368e402"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-proof--009",
@@ -12925,7 +13016,7 @@
           "sha256": "d8c24513b025310705d935100cc5a82fcdbd53936b5571f3b84625003f8c669d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-proof--011",
@@ -12980,7 +13071,7 @@
           "sha256": "bb8c335ce0035254be2bff457a74c7f15b47de29d90915abe0ceffeafe921b1e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-permission--002",
@@ -13035,7 +13126,7 @@
           "sha256": "60e4008275bd4a0708f4a9d1bf2fe06cd4c71760f3ec27af4050b3b8c9d3c1b4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-permission--003",
@@ -13090,7 +13181,7 @@
           "sha256": "d928113d0ebeb2affec6e3d2bad63bee925d5b172f3a6ed4bb37b0f53ec658b1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-permission--004",
@@ -13145,7 +13236,7 @@
           "sha256": "fbd7028c7509033002c0c81ae29657d87f55c97aee533bac6d24e6cc449c1feb"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-ask--002",
@@ -13200,7 +13291,7 @@
           "sha256": "36d678b95aeba324681291c2c2b54ca0d22f179659a9eae6c5bee397585a91e0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-ask--003",
@@ -13255,7 +13346,7 @@
           "sha256": "db002f253f376491239ccb2983d5352d7c44fde3eab864cd8282dcce4e1419af"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-ask--005",
@@ -13310,7 +13401,7 @@
           "sha256": "b0648fd91ae2c2e85fe5fe324e92e2a03825b11c11fc8b6970f6343da99f02e7"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-ask--006",
@@ -13365,7 +13456,7 @@
           "sha256": "d62e3cd1a052d5d6b1bfee5888dd598b8cfbbe6be57ffae0dca3f6926a5d030b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-ask--007",
@@ -13420,7 +13511,7 @@
           "sha256": "6fe04c9cece9783c4c207adf457bf2b138fc46304e88949adad91a07eec4573b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-ask--009",
@@ -13475,7 +13566,7 @@
           "sha256": "9570a855c064c023ad2a8d56e38f413185cbb00d8ec08d123f5dcf8210e40a8d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-layout--002",
@@ -13530,7 +13621,7 @@
           "sha256": "9335866e995e66e92aea4ca1f7e69d96d2ec7d07108d63b390038ea6769c0d70"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-layout--003",
@@ -13585,7 +13676,7 @@
           "sha256": "60e49af1d1f2cbed6f29311b8a504a431b1c4427cb47fe79a038714ade2b8653"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-layout--004",
@@ -13640,7 +13731,7 @@
           "sha256": "425988d84e4935e8ed5d75ecc140be090f3b4daa2432f9c64f2a038dd558c02a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-layout--006",
@@ -13695,7 +13786,7 @@
           "sha256": "b225cb4fccf2593917551fd753815c8c89065920ab885f32f2a052ede7e9eb1c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-layout--008",
@@ -13750,7 +13841,7 @@
           "sha256": "fe48a83b9a595ed93373bfc0ca677218331d820fac158bb674c6ee974dcdae9d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-layout--009",
@@ -13805,7 +13896,7 @@
           "sha256": "074c0d0dfb2cfa6919c8b9aa9ae4e6896ad4f08a8745e52e9bd13fe4fdeb9143"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home--002",
@@ -13860,7 +13951,7 @@
           "sha256": "0b1daf89caf268acb469bd383d4d1afbbfc5d3bcb4586334df003e7b5383a5c6"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home--003",
@@ -13915,7 +14006,7 @@
           "sha256": "ff4a210f6af5e8f167f8de0708bbe1481663feaa29e51ec59b6b395dc2ea969c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home--005",
@@ -13970,7 +14061,7 @@
           "sha256": "2538d401a224f331f236dcc48302640de35f613a686fc6fc12e0e3dc7eb21e88"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home--007",
@@ -14025,7 +14116,7 @@
           "sha256": "170dee74383ae671e47a7bafce10de9507f8c81b9927b60d65a6331a00144dbb"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home--008",
@@ -14080,7 +14171,7 @@
           "sha256": "4c9db53c412f49e84acf81104710beb702453ac75ec1f503f9f53d8d4c467a16"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home--009",
@@ -14135,7 +14226,7 @@
           "sha256": "012a178a32abdfd7a173df8aefc054406ab601639fd19cbf5ffd3a646b00eeb8"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home--011",
@@ -14190,7 +14281,7 @@
           "sha256": "79718478f11ff5560e004685fcd6c74b0a67bdef04068f91d4187ed19c2d6ff5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home--012",
@@ -14245,7 +14336,7 @@
           "sha256": "c4e1643e56e85faae67319a1d58bea5c14a68e61ae35ee0460bd6cf7ecfb6c32"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home-plan--002",
@@ -14300,7 +14391,7 @@
           "sha256": "559a2ec4305e702d6b46a8891c91eb59e0cccb326a90a8737ea9b6d23cef1489"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home-plan--005",
@@ -14355,7 +14446,7 @@
           "sha256": "ed4db9bea2ec2d8b29baaba9ef53b9857edfbfd0cceb7b8d7622e1a7f8b539a7"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home-plan--006",
@@ -14410,7 +14501,7 @@
           "sha256": "a819cf95181cae70ea71537d22a0ace46e4668e04798860547a32de593cc2b5f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-home-plan--007",
@@ -14465,7 +14556,7 @@
           "sha256": "b57b4080e698ac484e5b76a7f268a32895086f15f43903406a27230bf4226c54"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-confirm--002",
@@ -14520,7 +14611,7 @@
           "sha256": "25c77bf08a1fa2b949add5d41c0a87b43aa23831386654c20b5b4d8b3852616e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-confirm--004",
@@ -14575,7 +14666,7 @@
           "sha256": "0c934d6bb0e92fb0dad60c8479517cb4e24a9745d6d0bcafb71b0dc17e4add4a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-confirm--006",
@@ -14630,7 +14721,7 @@
           "sha256": "d97740f518a5d717fc8f7c51634e5e74650e1bede410987a45e94d6237232611"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-confirm--008",
@@ -14646,46 +14737,46 @@
       "textSha256": "0b82cf1ed7e9f6d2972f71197c189afb491d0c264a29b3b3192617f7729a4f20",
       "medium": "spoken",
       "requestSha256": "d60dfd64b9b065ac4cd9db44206845879685bd5aa308a36f506b06b3234ea4b1",
-      "attempt": 5,
-      "status": "needs_review",
+      "attempt": 8,
+      "status": "accepted",
       "asr": {
-        "transcript": "我先问一题 8.20亿钱送去行吗",
-        "cer": 0.4,
+        "transcript": "我先问一题,8点20以前送去行吗?",
+        "cer": 0.2,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": true
       },
-      "duration": 3.04,
-      "wallSeconds": 168.581,
+      "duration": 3.2,
+      "wallSeconds": 13.514,
       "loudness": {
-        "input_i": "-24.38",
-        "input_tp": "-5.48",
-        "input_lra": "0.10",
-        "input_thresh": "-34.53",
-        "output_i": "-19.82",
+        "input_i": "-26.62",
+        "input_tp": "-8.70",
+        "input_lra": "0.20",
+        "input_thresh": "-36.76",
+        "output_i": "-19.75",
         "output_tp": "-2.00",
         "output_lra": "0.00",
-        "output_thresh": "-29.98",
+        "output_thresh": "-29.89",
         "normalization_type": "dynamic",
-        "target_offset": "-0.18"
+        "target_offset": "-0.25"
       },
       "files": {
         "raw": {
           "path": "healing-c2-confirm--008/raw.wav",
-          "bytes": 291920,
-          "sha256": "cdb8256844731c5be56213f11b8168066e4bcbc1b1ed8ff4d868a10b5c5a2c59"
+          "bytes": 307280,
+          "sha256": "1219c52c7c1a6de12452737587d072c487d7c46a00f4b764aa7120349a874086"
         },
         "master": {
           "path": "healing-c2-confirm--008/master.wav",
-          "bytes": 145998,
-          "sha256": "6562f5f9f045f33283a38d7e02a5ea3353bdfa963d837f1d23146fabeb0fb63b"
+          "bytes": 153678,
+          "sha256": "d7c0c2f7a63309795ebe0f34e86ca19b80f5937df31f8f8d8a20e5b4062a68f1"
         },
         "runtime": {
           "path": "healing-c2-confirm--008/runtime.ogg",
-          "bytes": 26762,
-          "sha256": "924ec3ef394ba5162e86107ecd864e8053f9c83cf3af93452386fad80acaa0c8"
+          "bytes": 27320,
+          "sha256": "b53f51a6a9e1fc00db726f96ef64a4211c8d99270953feabaa9503be79512562"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-confirm--009",
@@ -14740,7 +14831,7 @@
           "sha256": "2afa0bb1644175bdb108271418f2b29dc795712c33401b27b3fde3b6996009e4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parents--003",
@@ -14795,7 +14886,7 @@
           "sha256": "15dbfaa01880f29595a799692627009a400cf46e1be03ef2af6d2079eb0e217e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parents--004",
@@ -14850,7 +14941,7 @@
           "sha256": "3c62ca819d36d636b85ccfc430c2512f04dda8ca66126958e9ba9a79ab014011"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parents--005",
@@ -14905,7 +14996,7 @@
           "sha256": "457ce0335e4b5991a73e42e8cf50a131cd67a2b918257cc1d3be8fa68c2170a8"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parents--006",
@@ -14960,7 +15051,7 @@
           "sha256": "0a8b57ea38c5a1744696b31d10827b04f1593c2543bf9e21cc503b701bd1c82d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parents--008",
@@ -15015,7 +15106,7 @@
           "sha256": "453f3bd199da4450745628fa70101d20e74ed3e6aa856174dc9fc3bfeac830c9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parents--009",
@@ -15070,7 +15161,7 @@
           "sha256": "e76317ce826c6439438c40a44411e8bb246b837ec6995d29129cb555f96e65ec"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parents--010",
@@ -15125,7 +15216,7 @@
           "sha256": "b1977603efcf1caec3cf1dd0febae90e603f6b100a8ff7ecb1e1df1c2561749d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parents--011",
@@ -15180,7 +15271,7 @@
           "sha256": "c79ac9bbc440630352e9aa1683f095291bbaf15b261e71c5a75daecd985fbe81"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-lin--002",
@@ -15235,7 +15326,7 @@
           "sha256": "2669e1ba401942e6b5a58d30be35c9d79ab736a825d134f473294ed5722c5937"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-lin--003",
@@ -15290,7 +15381,7 @@
           "sha256": "75e3f5345ffa56b364899e4aea843ccd12c07e0c1e2cca0791afa8a7b2226c2c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-lin--004",
@@ -15345,7 +15436,7 @@
           "sha256": "d2ec8ba64aefb39dacac7ce047a77680766c27ea8c9c749a58835d9f4e323ee8"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-lin--006",
@@ -15400,7 +15491,7 @@
           "sha256": "07501fdfd17cf26c56cd9cc71295013a6d7e51cceda6b5b1ce49176ff163ee09"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-lin--007",
@@ -15455,7 +15546,7 @@
           "sha256": "1b02b298d5501927e7191421e9ce94120e35ec7347e75fc7e76cdf7ed79c0e50"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-lin--009",
@@ -15510,7 +15601,7 @@
           "sha256": "44946b86b1f37154cef01019684bed0bbe58e4c971058f02b506a00e68bee7dc"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-lin--010",
@@ -15565,7 +15656,7 @@
           "sha256": "56163436895ec4058c9ba273bc985994824e70272282fe7edde7dc72b8a1d7d2"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-lin--012",
@@ -15620,7 +15711,7 @@
           "sha256": "a8721fa373918a8ee521945086f7a012e7be6564bd84114e6186fc529af36148"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-chen--002",
@@ -15675,7 +15766,7 @@
           "sha256": "f49f490c3f81af912b62ae32506bd693a60275071811e013058c50f48acc833c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-chen--003",
@@ -15730,7 +15821,7 @@
           "sha256": "291ccb2994f16d628fa7ef592e473008010da602c5f71d099a4528bfeb18a24a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-chen--005",
@@ -15785,7 +15876,7 @@
           "sha256": "c08fcdf7510c206d783924da951cf50fd58f03ff020c1241554fe9a6897fc993"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-chen--006",
@@ -15840,7 +15931,7 @@
           "sha256": "a70209c903d8d586e85cb15ee1894a2763ace9f56490b3cd257b3f67375085e4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-chen--007",
@@ -15895,7 +15986,7 @@
           "sha256": "2a3b4a76a88a4aeb1a5a0b1b3a9ee1754bc6c2fee3a6b05b59da26e80ab4b397"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-chen--008",
@@ -15950,7 +16041,7 @@
           "sha256": "0f4a227ebc7a36fd3bc0e2ef1aa95e843d657dd70c18a209e894527c33065c53"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-chen--010",
@@ -16005,7 +16096,7 @@
           "sha256": "9f57e1298611c66387300cf96fcf4af19837a77063be5c967840bd5753bb23cd"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-chen--011",
@@ -16060,7 +16151,7 @@
           "sha256": "bb1aa138ae6cdcd251484f143146c161d71a7055e2803481357cb263527ac944"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-tang--002",
@@ -16115,7 +16206,7 @@
           "sha256": "3ecbd4b03ae2f20b8d63e59bb19d859d556daa652f3e84f94fce8e1b2b9b911e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-tang--003",
@@ -16170,7 +16261,7 @@
           "sha256": "25a516c93e047d4de4ed33ea015ba5fa868844a17af3710e12b7161e9fd52380"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-tang--005",
@@ -16225,7 +16316,7 @@
           "sha256": "7964d6cdaf7175271360cfa4f1b7c01f886dd83f83d146f92fedf9048c74edba"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-tang--006",
@@ -16280,7 +16371,7 @@
           "sha256": "d0a4a5703d39129d3c869fc5f0a7c58ce98b20968d915d963a9b42f889662c33"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-tang--007",
@@ -16335,7 +16426,7 @@
           "sha256": "181d7f9fc607a41679b4363461c2db7da6972eb72d3e2f3470494c56a4b300e9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-tang--009",
@@ -16390,7 +16481,7 @@
           "sha256": "5f58f9b1184f62b3ac133a3e2b9b3b6f6497d3e5a43c24a23e9b7ec4bfdeb301"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-parent-tang--010",
@@ -16445,7 +16536,7 @@
           "sha256": "0df96b8b5e001984bd17bad9f4cb68d5c6000c69eda078f48eabb1c45139db80"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-stitch--002",
@@ -16500,7 +16591,7 @@
           "sha256": "2fcf4f6c683b3ae09e5ddbae4edb6721e9801dc9c1304002b288d9e83df8464f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-stitch--004",
@@ -16555,7 +16646,7 @@
           "sha256": "1e3f3728e0877eed6cd2e6ecb40f5276daa57f63b64f350628b624afaaf34022"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-stitch--007",
@@ -16610,7 +16701,7 @@
           "sha256": "d864f7b80c51f3fb6b6eac32eb8f4a529943e3b4b3cb4381380dd6e2bbeacdde"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-stitch--008",
@@ -16665,7 +16756,7 @@
           "sha256": "3f95a28fe50655f594e4a2767c5f8d809544eb17906131e2405d1f35f01efd9d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-finish--002",
@@ -16720,7 +16811,7 @@
           "sha256": "348e434049645c637c2c84af9775c1469da922e77417094120b32f4ce2bf3b1a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-finish--003",
@@ -16775,7 +16866,7 @@
           "sha256": "b8c4eb3a499cd4de44d7b5c08d5536c7a61aa3c0e2cef5ac696b0a68923251e4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-finish--004",
@@ -16830,7 +16921,7 @@
           "sha256": "e8dcd388ea7a00b7db675e8e54b8fbfd6f4077e3f2f2d1e50cd3e6876f1166bf"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c2-finish--006",
@@ -16846,46 +16937,79 @@
       "textSha256": "87c0ffffb37daef8db0a3bfcd659d35847e2ac359e25ac7d10ef5c7daa8802c3",
       "medium": "spoken",
       "requestSha256": "7099b27eb8d97fc40f880d318a2d7e101b5fc2417a986019cc73b69800c533b8",
-      "attempt": 5,
+      "attempt": 8,
       "status": "needs_review",
       "asr": {
-        "transcript": "成余下周记得还我支持",
+        "transcript": "乘以下周记得还我支持",
         "cer": 0.4,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": false,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "程屿下周记得还我直尺",
+          "observed": "乘以下周记得还我支持",
+          "expectedSyllables": [
+            "cheng2",
+            "yu3",
+            "xia4",
+            "zhou1",
+            "ji4",
+            "de5",
+            "hai2",
+            "wo3",
+            "zhi2",
+            "chi3"
+          ],
+          "observedSyllables": [
+            "cheng2",
+            "yi3",
+            "xia4",
+            "zhou1",
+            "ji4",
+            "de5",
+            "hai2",
+            "wo3",
+            "zhi1",
+            "chi2"
+          ],
+          "sameLength": true,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "humanListening": false
+        }
       },
-      "duration": 2.88,
-      "wallSeconds": 168.155,
+      "duration": 2.4,
+      "wallSeconds": 10.465,
       "loudness": {
-        "input_i": "-22.05",
-        "input_tp": "-4.41",
+        "input_i": "-24.20",
+        "input_tp": "-6.37",
         "input_lra": "0.00",
-        "input_thresh": "-32.41",
+        "input_thresh": "-34.40",
         "output_i": "-20.00",
-        "output_tp": "-2.36",
+        "output_tp": "-2.17",
         "output_lra": "0.00",
-        "output_thresh": "-30.36",
+        "output_thresh": "-30.20",
         "normalization_type": "linear",
-        "target_offset": "0.00"
+        "target_offset": "-0.00"
       },
       "files": {
         "raw": {
           "path": "healing-c2-finish--006/raw.wav",
-          "bytes": 276560,
-          "sha256": "db2874a317afd26bab7aaa42ade8841ed1ff2c71071052a61a4af86e55643761"
+          "bytes": 230480,
+          "sha256": "72cdf1ebb97c459e60b2af05341e95dad5b94b133f9a90f6858f697f7c650062"
         },
         "master": {
           "path": "healing-c2-finish--006/master.wav",
-          "bytes": 138318,
-          "sha256": "7ddbeebaf373bee071165c5962107a43c7236ebd8efbbc45802bba7e46c10853"
+          "bytes": 115278,
+          "sha256": "fa43e43d152d459f3b2b1129245368028b08c579f3cb8289467de08e9405e822"
         },
         "runtime": {
           "path": "healing-c2-finish--006/runtime.ogg",
-          "bytes": 24300,
-          "sha256": "8fe7a52fa3ff6d7338526b9f48a1d0fe8fe312967cb3652a91113d74045d139c"
+          "bytes": 21284,
+          "sha256": "72108515e08abbc1a12ab00e312eab84d1b84a00327627abf71279fb51c16d54"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-open--003",
@@ -16940,7 +17064,7 @@
           "sha256": "7ed54d1f8845b572410e1c1d8761be1e0dc1de0e62fcb1cf8d5b7dee8eab4da7"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-open--004",
@@ -16995,7 +17119,7 @@
           "sha256": "e58377f7e31caaa4e93e6d24124bd297a23a8ac7f164465950648c1610a16a35"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-open--006",
@@ -17050,7 +17174,7 @@
           "sha256": "02464e79a8aef9ce85202502388bea4df82312b68a18f13962a083af6e517483"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-open--007",
@@ -17105,7 +17229,7 @@
           "sha256": "ff7becbfdf7d8aa699c0dbd6e2bdf28b892cc9dd0510d12e40a47630c1810384"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-open--008",
@@ -17160,7 +17284,7 @@
           "sha256": "70127059a445f3080f5833c1b635e53bb182712ce1521643af62b62571c24ed6"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-open--009",
@@ -17215,7 +17339,7 @@
           "sha256": "f6fba399f2f0cd7719a86f56a9287ff7d95aae11df7ff33237f063b3599ed687"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-open--011",
@@ -17270,7 +17394,7 @@
           "sha256": "aff796627ad94360a9cc9bbbe5b4d43ccde73cec3fe4afe44c61309f8f657c98"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-open--012",
@@ -17325,7 +17449,7 @@
           "sha256": "eb4d1c886599e5a3be7d9437256154660b7d35fd5abae6d52cbb14c616e0c3a8"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-open--013",
@@ -17380,7 +17504,7 @@
           "sha256": "9eb2b5c16279e89c17a1b556e194a5e4211bd2a6ded03e8ee234108065910929"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-return--002",
@@ -17435,7 +17559,7 @@
           "sha256": "613642dbd449bfa34527f0af6a62fddb15fe12a7cfa14c22bc005c52ada33245"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-return--004",
@@ -17490,7 +17614,7 @@
           "sha256": "8a6c1d82b23733dabfe6a9ee6d45878e9e238ca4bdc6aaf0e492cfb39ebe9ddf"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-return--006",
@@ -17545,7 +17669,7 @@
           "sha256": "4b6b8d990301bad86d0d710ad2378af372832d2672101c1a674b87c38c3e7c8f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-return--007",
@@ -17600,7 +17724,7 @@
           "sha256": "0f8e3bf0fb277e7d84c20bcf64efc36a38c48f31a505313919187749705894cc"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-return--009",
@@ -17655,7 +17779,7 @@
           "sha256": "3c2055ae3a1d4fc29d7e155f5319b8ecdd267c3e9bc930b918b876ab741f888d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-return--010",
@@ -17710,7 +17834,7 @@
           "sha256": "eb3b01c235d26091008ca67f64ad881c5645296cd9daeb12286a937bbef18709"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-return--011",
@@ -17765,7 +17889,7 @@
           "sha256": "f66a9a4c0a724180161c3f80cf12b321d985840c9e4458f4613fbfefedf226ff"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-revision--002",
@@ -17820,7 +17944,7 @@
           "sha256": "06411ce5483c0e00d90abb323fa0cb2391d1bf439e68d405e3ce9a721ff68d01"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-revision--003",
@@ -17875,7 +17999,7 @@
           "sha256": "76b3b1c0764550748db3054fdd6a2e6b42a76bb0783ee6cc480ad01afe1f1dfa"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-revision--005",
@@ -17930,7 +18054,7 @@
           "sha256": "ea8a9672f80703d67d83dd2043d23cb634994cd867f5a01fc26c58e687a8f4c4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-revision--006",
@@ -17985,7 +18109,7 @@
           "sha256": "50a35115592bb2b1ba26590199315833e13612c5691b82e3a27e0538325d16bf"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-revision--007",
@@ -18040,7 +18164,7 @@
           "sha256": "f6a3b5003bfcc3889c40eaeb417c78df3d59150f46abbb89412142bb88e30ec1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-revision--009",
@@ -18095,7 +18219,7 @@
           "sha256": "1af154da28e3b9131f48c05075a6eeb5dd12a42c571cc29e41b3434fd7844f7f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-revision--010",
@@ -18150,7 +18274,7 @@
           "sha256": "332697f35142ee555fa41cad04c87bcf0ea5aedc000487b87de39045702fbc93"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-revision--011",
@@ -18205,7 +18329,7 @@
           "sha256": "7b21ae153d47c4d693a657589c68c72367ae33ae180bec4624f48adfc39a5b83"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-contact--002",
@@ -18260,7 +18384,7 @@
           "sha256": "d7bbd84ea7e39cc57b5a4cc29077b7d4c398eea8a789adb6d1c6e04a6d9a1b76"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-contact--003",
@@ -18315,7 +18439,7 @@
           "sha256": "569c0a610f8151d52559f7bd7caf58e0e73b3de530e8f157fcb1beabf696a6c3"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-contact--004",
@@ -18370,7 +18494,7 @@
           "sha256": "cfc201e98f02c110542d8b36ddb52ee876a2f8db2d276a7d8292b917987f5031"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-contact--006",
@@ -18425,7 +18549,7 @@
           "sha256": "4920ef9424eeb7edb13e3e2866966659d8df25937a7e8f0bfdd0b13181ae08f5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-contact--007",
@@ -18480,7 +18604,7 @@
           "sha256": "6ff8e82548a0447e1f1172198b715c7bfcb12b3879f202fc364a3c33c7b742f3"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-contact--009",
@@ -18535,7 +18659,7 @@
           "sha256": "84a06d3e7451c8df794149f29d944e446937da28687169b20a0c8055a25dcbf9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-contact--010",
@@ -18590,7 +18714,7 @@
           "sha256": "07603f604f24f6a788a5388bd3c76f2bdc752d679b665abb12dafbc36510e036"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-contact--011",
@@ -18645,7 +18769,7 @@
           "sha256": "d0cfef2440326a31f401934260f6b26cd2247149384db3da10586672019b33b0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-check--002",
@@ -18700,7 +18824,7 @@
           "sha256": "8475ebc938c15df1d00299b8929ddfcf655455dd7cca85e7c4fb62069153e41d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-check--003",
@@ -18755,7 +18879,7 @@
           "sha256": "01b5fa735e13495feab30645c28b703b590233fcd980f635ca3a140cc45e137e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-check--004",
@@ -18810,7 +18934,7 @@
           "sha256": "0436f56f66a3def6c18422a223995a16859764933050d34c9846f8c45afc1039"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-check--006",
@@ -18865,7 +18989,7 @@
           "sha256": "f5c82218868ef0fca084172f69887bed2b9b38e43d1ec249b44e22bffcd2b404"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-check--007",
@@ -18920,7 +19044,7 @@
           "sha256": "05adfa08aa63144f0ebdd5f234c39493b41a3c1ef62c7b8f478792e8fc95fa58"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-check--009",
@@ -18975,7 +19099,7 @@
           "sha256": "5b8e6c076ec9c4930d8be1f471e140f198fb5ef749419d27836bf9ecc1ccfa9d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-check--010",
@@ -19030,7 +19154,7 @@
           "sha256": "90bc4d37fe02ab1df058e712950c1421521a0fd847df67fee68bf4115ea2e10e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-check--012",
@@ -19085,7 +19209,7 @@
           "sha256": "514e87332c88cd4f21bd6a4e7b0ac4f38c4502de9f3d7049db306e470af91667"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-check--013",
@@ -19140,7 +19264,7 @@
           "sha256": "de80c9a22b0ba1f9e53d55db01c0ad09721ad559ffd9739f109ddb3de44b349a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-print--002",
@@ -19156,46 +19280,67 @@
       "textSha256": "8fcc354a1a3cf7b83a95a9c381bdcaff45fcbf7535e24f0c5d98c2bdeb34e917",
       "medium": "spoken",
       "requestSha256": "8db0cbdda493f35937ce6497924c9d097bd83dd5b303e50ad613507455a4c233",
-      "attempt": 5,
+      "attempt": 8,
       "status": "needs_review",
       "asr": {
-        "transcript": "現在能應",
+        "transcript": "現在能贏",
         "cer": 0.25,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": false,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "现在能印",
+          "observed": "现在能赢",
+          "expectedSyllables": [
+            "xian4",
+            "zai4",
+            "neng2",
+            "yin4"
+          ],
+          "observedSyllables": [
+            "xian4",
+            "zai4",
+            "neng2",
+            "ying2"
+          ],
+          "sameLength": true,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "humanListening": false
+        }
       },
-      "duration": 1.04,
-      "wallSeconds": 5.69,
+      "duration": 1.36,
+      "wallSeconds": 6.438,
       "loudness": {
-        "input_i": "-19.62",
-        "input_tp": "-5.74",
+        "input_i": "-22.09",
+        "input_tp": "-9.08",
         "input_lra": "0.00",
-        "input_thresh": "-29.62",
-        "output_i": "-20.01",
-        "output_tp": "-6.12",
+        "input_thresh": "-32.09",
+        "output_i": "-19.99",
+        "output_tp": "-6.99",
         "output_lra": "0.00",
-        "output_thresh": "-30.01",
+        "output_thresh": "-29.99",
         "normalization_type": "linear",
-        "target_offset": "0.01"
+        "target_offset": "-0.01"
       },
       "files": {
         "raw": {
           "path": "healing-c3-print--002/raw.wav",
-          "bytes": 99920,
-          "sha256": "ff2a335147ebed9dfdfcde6e19189855a8acb8913a80f7296c1737b7fc0cd4eb"
+          "bytes": 130640,
+          "sha256": "dbe4f96d757af6908482c4e7c990b398c9727ea1d0f85e51fb3a40f01fe3db8e"
         },
         "master": {
           "path": "healing-c3-print--002/master.wav",
-          "bytes": 49998,
-          "sha256": "516367aa7853663b59c33190ff06b61c9dd2d75cf9d72b5864d01eaa99de217e"
+          "bytes": 65358,
+          "sha256": "dd62f7db3cd47627aa5f06a49342957f0f09d9013cde038cd0163b683e8e418f"
         },
         "runtime": {
           "path": "healing-c3-print--002/runtime.ogg",
-          "bytes": 11189,
-          "sha256": "589173bcce666008ef664b76e207f65f2925bf80840d41252c58893a70ca4c2b"
+          "bytes": 13890,
+          "sha256": "99db125e874ddb0dc77a73d8b7575df44044490f63afc894a6042087b98358a4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-print--003",
@@ -19250,7 +19395,7 @@
           "sha256": "5dd1b86178d46337a242b297a57036d63d702a206d7af780b4f5e900a10443b1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-print--005",
@@ -19305,7 +19450,7 @@
           "sha256": "9818e8fd782f68666cd935484d1b992c5a8da63272efbabbb2b77975dc329048"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-print--006",
@@ -19360,7 +19505,7 @@
           "sha256": "42babcf716b9de42d9eadae3e471a5686cf127e619c061018412a512e5bc2b38"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-print--007",
@@ -19415,7 +19560,7 @@
           "sha256": "b294569f6b64462875dc53d5d76fdd8221db57f3afbb2f8a1cc38cf8f9cebd47"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-print--008",
@@ -19470,7 +19615,7 @@
           "sha256": "a61c565642e46399eb243fc9d9bdef77ce432a7c0c099c25523eba5eda544ef5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-print--010",
@@ -19525,7 +19670,7 @@
           "sha256": "485097b74b4b272a59f352ef590e735d3866551557d5f0385da2aa7d53ccda04"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-print--011",
@@ -19580,7 +19725,7 @@
           "sha256": "4e6d53036110d74e221cdf2a82d84564647dc1336619c1928089f11af8837d1c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-print--012",
@@ -19635,7 +19780,7 @@
           "sha256": "933cc97f8e5677be760b966f0c420d8f91d6ac1ed2a2438a02e4b309c7be3fe4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-give--003",
@@ -19690,7 +19835,7 @@
           "sha256": "91d59b1171d04836fe949baef673196152c089f17037e1523208b2979a7e5d5e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-give--004",
@@ -19745,7 +19890,7 @@
           "sha256": "572e8fa2aa295551029a35af3326f3bb41d3116ebb537292d9c4e3f2a1c94146"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-give--007",
@@ -19800,7 +19945,7 @@
           "sha256": "6512b3a70e508a62a2ae479fcd833f0c2bc3243c7e834a0d01e3d9b75423b6e0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-give--008",
@@ -19855,7 +20000,7 @@
           "sha256": "09acf4c5f94214f41342b462222e7ea5aed769aacc379c5bd2c5aaa9393a4626"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-give--009",
@@ -19910,7 +20055,7 @@
           "sha256": "68d00e7d54c1afe065401c59a21117f2a618dc492de49a6776efee4fffbcabe9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-give--011",
@@ -19965,7 +20110,7 @@
           "sha256": "cf4fa9367a4705ce2b8bd20d587281e2d854121e3252d89f5436a1fe0149a67a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-give--013",
@@ -20020,7 +20165,7 @@
           "sha256": "951066e9cf4c0ff165720ee023122fbd8257bc0b437ac7dcb81022058bf7c446"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-after-school--002",
@@ -20075,7 +20220,7 @@
           "sha256": "97d44111b72ba8df21bde3e0f686507508e8bfacc947302cc0480e91627df286"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-after-school--003",
@@ -20130,7 +20275,7 @@
           "sha256": "a06747a316478a9816248b35d1d145ff26c177f30ae7ad0e5650f4e5de1c4ca0"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-after-school--004",
@@ -20185,7 +20330,7 @@
           "sha256": "7c8e1ba0a685d17ca4d83eba85edde5562c8cfe93c2bfb0f62a44e82c3eb136c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-after-school--005",
@@ -20240,7 +20385,7 @@
           "sha256": "2f0819eda48dc2a8750cc3e712849bb65b40cb3eb252528e196056e355cfb77e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-after-school--009",
@@ -20295,7 +20440,7 @@
           "sha256": "9410693cf0761ade7333f751570f0598b724a7067b29f6e53595cd71303ba9a3"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-talk--002",
@@ -20350,7 +20495,7 @@
           "sha256": "d0c2f249706ea5355ea264be110bf888977d2e42bd8591d6cee0222507c79534"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-talk--003",
@@ -20366,46 +20511,77 @@
       "textSha256": "310fc044b92ab652dd72e3d8134d21fb2e1f29192d9c73cb6d05fc6ed71bff45",
       "medium": "spoken",
       "requestSha256": "5ca711fa909fc3fcb8a38083f93d0cd1449e51a47f263ec50872adcf004e2003",
-      "attempt": 5,
+      "attempt": 8,
       "status": "needs_review",
       "asr": {
-        "transcript": "周一繼續 向不執作業",
+        "transcript": "终于继续向布置作业",
         "cer": 0.333333,
-        "polarityCountsMatch": false,
-        "passed": false
+        "polarityCountsMatch": true,
+        "passed": false,
+        "phoneticReview": {
+          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "expected": "周一继续像布置作业",
+          "observed": "终于继续向布置作业",
+          "expectedSyllables": [
+            "zhou1",
+            "yi1",
+            "ji4",
+            "xu4",
+            "xiang4",
+            "bu4",
+            "zhi4",
+            "zuo4",
+            "ye4"
+          ],
+          "observedSyllables": [
+            "zhong1",
+            "yu2",
+            "ji4",
+            "xu4",
+            "xiang4",
+            "bu4",
+            "zhi4",
+            "zuo4",
+            "ye4"
+          ],
+          "sameLength": true,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "humanListening": false
+        }
       },
-      "duration": 3.04,
-      "wallSeconds": 169.624,
+      "duration": 2.56,
+      "wallSeconds": 11.121,
       "loudness": {
-        "input_i": "-26.58",
-        "input_tp": "-11.26",
-        "input_lra": "0.10",
-        "input_thresh": "-37.11",
-        "output_i": "-19.30",
-        "output_tp": "-3.86",
+        "input_i": "-29.33",
+        "input_tp": "-14.59",
+        "input_lra": "0.00",
+        "input_thresh": "-39.56",
+        "output_i": "-19.99",
+        "output_tp": "-5.26",
         "output_lra": "0.00",
-        "output_thresh": "-30.03",
-        "normalization_type": "dynamic",
-        "target_offset": "-0.70"
+        "output_thresh": "-30.22",
+        "normalization_type": "linear",
+        "target_offset": "-0.01"
       },
       "files": {
         "raw": {
           "path": "healing-c3-lin-talk--003/raw.wav",
-          "bytes": 291920,
-          "sha256": "aaee919cd20b67485c5d63a72018171f687ff8bd51a7d13326528c462a09580d"
+          "bytes": 245840,
+          "sha256": "ad2628886560ccf1c586cc8dae589df7c08743b0aba3fee5cc4ca36ab8898ec1"
         },
         "master": {
           "path": "healing-c3-lin-talk--003/master.wav",
-          "bytes": 145998,
-          "sha256": "973763287ece18e986934f719b570d2aee2cb0af4ff37d17559a9a72a1e5cb4c"
+          "bytes": 122958,
+          "sha256": "eff29c7d7962a23a45d48459dfa733b582cc795b92c42d52f372e98ffc52b2a8"
         },
         "runtime": {
           "path": "healing-c3-lin-talk--003/runtime.ogg",
-          "bytes": 23455,
-          "sha256": "53a1e59e6dbbc249db6a025d722f7f46db69ca7899d6a03bd09c9640bfce1bf4"
+          "bytes": 21105,
+          "sha256": "f89dac4c40b29808823e79a89566480012a8002ce129d8b0cbba5323cd5ce217"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-talk--005",
@@ -20460,7 +20636,7 @@
           "sha256": "27f0e9932f5619d0825cd8498b1c52adc0be03908e6341066f7db37200d20125"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-talk--007",
@@ -20515,7 +20691,7 @@
           "sha256": "f5a6e9cf44d16ce181eefb757a1d7b865a8e2b0dcf8807fa9d50d6be7943b2e4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-talk--008",
@@ -20570,7 +20746,7 @@
           "sha256": "de25f71e2c9d4b241d2b02c81a9438d1891b794c7a5b86c3a3a9d87566f69b36"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-talk--010",
@@ -20625,7 +20801,7 @@
           "sha256": "18926336ebc09a226bc0e66743ae375c9dead27c94594e72eb5e157c4b13c5c4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-talk--012",
@@ -20680,7 +20856,7 @@
           "sha256": "ce6e88560a79df31c2fdcaddb2d6f90cf4d13eb622c79ceae271da1481ca0a91"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-talk--013",
@@ -20735,7 +20911,7 @@
           "sha256": "2fd0c4c87d5a8482405f862f6397b35cc3682c5316d66fd8809a8a01d7355667"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-talk--014",
@@ -20790,7 +20966,7 @@
           "sha256": "d2abd4ef2582e7b13950cb658d1af46acdd58ed6e15e7525d6d76dd1282bcef4"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-page--002",
@@ -20845,7 +21021,7 @@
           "sha256": "03fd78fa7d9d7c95d2a346eaa638eec601be18de78c5a508febdeb6af20225b2"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-page--004",
@@ -20900,7 +21076,7 @@
           "sha256": "97222d0935aa0e309ad30a998b86ed56e71376d55dfa65bc2b05f56cef4c813e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-page--005",
@@ -20955,7 +21131,7 @@
           "sha256": "309c6502841e6d9cf0d85735bae95a25cae8ae0914bba8fa1224add000a38493"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-page--006",
@@ -21010,7 +21186,7 @@
           "sha256": "bff3adfcf33f24262236c900656816a628db216ea5595d5e459c4b0a500e42f6"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-lin-page--008",
@@ -21065,7 +21241,7 @@
           "sha256": "5abc2d9b948ac8b82082dd20ae131324014502aa231c3022d2781153d131c121"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-lin-final--003",
@@ -21120,7 +21296,7 @@
           "sha256": "35c9e5949a2c4a06f14a03494e5cf500ca8203a7a6fa67f39f8f3325aaf3ba06"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-lin-final--006",
@@ -21175,7 +21351,7 @@
           "sha256": "8384174887ad69d17ad33f110e4096af536818f4e97eb35143a9bfa74799855b"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-talk--002",
@@ -21230,7 +21406,7 @@
           "sha256": "babffa06690e477f476b4d9c5b984d0fbd384f277b470fd88766b9199cbcf261"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-talk--003",
@@ -21285,7 +21461,7 @@
           "sha256": "006e31989efe270ef4b8c427f476f2dd6bf02301262b718f913601a6b21d7d32"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-talk--005",
@@ -21340,7 +21516,7 @@
           "sha256": "2dcd2b8b451d5682c2ede6b69b5957209044b45ad9881bb048d802dc31df4432"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-talk--007",
@@ -21395,7 +21571,7 @@
           "sha256": "feea0a132557afc3a9a9422012ab22fd1a4b6b349a7fd7d598998123ce79b144"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-talk--008",
@@ -21450,7 +21626,7 @@
           "sha256": "78c9c0a3f9b430bfb110a8663d7c8c352df7282abb9b859e6a441473ccfcead1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-talk--010",
@@ -21505,7 +21681,7 @@
           "sha256": "b7cd34d79afcc05d64a25bf69e1d9c0dd31a2f33fb5b9beb3f858e79ac4783c3"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-talk--012",
@@ -21560,7 +21736,7 @@
           "sha256": "2c99e84167dd716a62e3c4a42cf80b2caf18bc462b094b818304cb0906b3fec7"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-rest--002",
@@ -21615,7 +21791,7 @@
           "sha256": "2d1c63c22b76c42e7f5b090c82e15346a268fd0c038bd495af457545743302eb"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-rest--003",
@@ -21670,7 +21846,7 @@
           "sha256": "4a09e0e56da4b593b28d685d5ad6e4a94e2ca287308da7eac6e4995cdd3804b9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-rest--004",
@@ -21725,7 +21901,7 @@
           "sha256": "e7b337d81b8fae419a846e07cad269f8aecb816c846e5fd8acd4b93c86a528ba"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-rest--005",
@@ -21780,7 +21956,7 @@
           "sha256": "6b617371712476140f8bbea53788517e84c5620f4e54b93ce9fa2d51c67b10e9"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-rest--007",
@@ -21835,7 +22011,7 @@
           "sha256": "95f7bd0db161aa3fbcf4e34a9298974f3751ff060dd7637d6af2fb969747f1db"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-rest--008",
@@ -21890,7 +22066,7 @@
           "sha256": "da06c9b3c540fad35289648a46d48e3a9d6b0b091a57480df7925e1fee08c8f5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-chen-rest--009",
@@ -21945,7 +22121,7 @@
           "sha256": "616476d35b141673e4cf5464e6a1ba7fbf386c152634e55b0f40f31b3cb428f5"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-chen-final--003",
@@ -22000,7 +22176,7 @@
           "sha256": "6e4f56aa05f045b42a96a256116da9724a1cc7d059c74b5323699e5f7d21e75c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-chen-final--007",
@@ -22055,7 +22231,7 @@
           "sha256": "32907612a79cc390da0e3f27c747b6bc92f2eb8d5c31596befb254be01ec50ce"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-talk--002",
@@ -22110,7 +22286,7 @@
           "sha256": "18d2fba6ff5b3960475c28de89841d1a9a254a27a0e4dda37fe75165d10a35c2"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-talk--003",
@@ -22165,7 +22341,7 @@
           "sha256": "b3184c179dc66a77cf144d0f261353ce8e642e8ed236ec2b13a50a7127f87818"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-talk--005",
@@ -22220,7 +22396,7 @@
           "sha256": "2a6124f0cf129e2fda9a247807053974faf7aed690de09bd55ec18dceb00c053"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-talk--007",
@@ -22275,7 +22451,7 @@
           "sha256": "eaaada698828804156bde00ba764092575944860eb9d51d1aa529e4bcfa9d388"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-talk--008",
@@ -22291,46 +22467,46 @@
       "textSha256": "6910b9665bf2f8b6f6b45b0a67393f61e013dc18d95031232d129205838b0da3",
       "medium": "spoken",
       "requestSha256": "db8d1efcaee5bb4d1a4b03d5df4d468bdb96c806d7279f7e9728c9f5848a4774",
-      "attempt": 5,
-      "status": "needs_review",
+      "attempt": 8,
+      "status": "accepted",
       "asr": {
-        "transcript": "什么样儿",
-        "cer": 0.333333,
+        "transcript": "什么样",
+        "cer": 0.0,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": true
       },
       "duration": 0.72,
-      "wallSeconds": 30.642,
+      "wallSeconds": 4.112,
       "loudness": {
-        "input_i": "-23.57",
-        "input_tp": "-9.56",
+        "input_i": "-29.60",
+        "input_tp": "-13.11",
         "input_lra": "0.00",
-        "input_thresh": "-33.57",
-        "output_i": "-20.00",
-        "output_tp": "-5.99",
+        "input_thresh": "-39.60",
+        "output_i": "-19.99",
+        "output_tp": "-3.50",
         "output_lra": "0.00",
-        "output_thresh": "-30.00",
+        "output_thresh": "-29.99",
         "normalization_type": "linear",
-        "target_offset": "-0.00"
+        "target_offset": "-0.01"
       },
       "files": {
         "raw": {
           "path": "healing-c3-tang-talk--008/raw.wav",
           "bytes": 69200,
-          "sha256": "f04a7aa215ccfd12179da39c9ae1512adaabd1495e24a4acacda79b615f72683"
+          "sha256": "1d023fee442627e4712b9f7f3b43e9d600c8b2eacf26ca197497cfe38c55377b"
         },
         "master": {
           "path": "healing-c3-tang-talk--008/master.wav",
           "bytes": 34638,
-          "sha256": "13df2e3c01e9fc28809af812bbc5cb259c990866967e10650aa0f2faf1bfc838"
+          "sha256": "63278b3361a59ae21cc163350675d396178a9f147202ef7acc58df40fb52d6aa"
         },
         "runtime": {
           "path": "healing-c3-tang-talk--008/runtime.ogg",
-          "bytes": 8987,
-          "sha256": "4aa6ec5befc56054071e5074c2501dafec90d19db820a3a299bcef0a2ce2ac7f"
+          "bytes": 9257,
+          "sha256": "02d3149829b4071c674889cbb7d58ff06a23df8ece9b76e026a40bc7fe3a0e70"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-talk--009",
@@ -22385,7 +22561,7 @@
           "sha256": "25c9378ce9a4554a5f0dcd41fc9b1aac780554c3a48de12c074ad5db6f224e28"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-talk--010",
@@ -22440,7 +22616,7 @@
           "sha256": "1a0f4d2af84ee0670b554c33f963e0e7bbb0f5422e6d941eb3f2c9c33a51b726"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-talk--011",
@@ -22495,7 +22671,7 @@
           "sha256": "9e941caf2b48ce58f6429b2fe8b03ca7e9e238a52462e2e89ee2fab1e326297a"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-light--002",
@@ -22550,7 +22726,7 @@
           "sha256": "8e097730cabb590ce3c2075cc496de688c81a2977aa39f6c212d8dd8c53866c8"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-light--003",
@@ -22605,7 +22781,7 @@
           "sha256": "a14789964a0d63c214a2d3bdfd3df2221738ec62aad1ec74847da0f85593c38c"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-light--005",
@@ -22660,7 +22836,7 @@
           "sha256": "57ba8b5ba6cab21833ea88b89e1f92bb27f1fd5219d3285ea36c378e662fadca"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-light--006",
@@ -22715,7 +22891,7 @@
           "sha256": "a93384d6a136f26ddaf8c95073a9937ff3f1e6010fc0b0d8af35e4ae9148aa50"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-tang-light--008",
@@ -22770,7 +22946,7 @@
           "sha256": "bd73a79554f48a43835858270f1e13755c6289aefd15aa44634880b15e95b7d7"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-tang-final--003",
@@ -22825,7 +23001,7 @@
           "sha256": "3a8563161667ac7ea30395d1c3d3297d706b1e1e6b388dd4c0d2bea9151368ef"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-end-tang-final--006",
@@ -22880,7 +23056,7 @@
           "sha256": "e24088a4599cd0c637ae94feee808b74dfddbe3d3830ef0dc3e339d37692efdb"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-talk--002",
@@ -22935,7 +23111,7 @@
           "sha256": "0cc3130313126e34d0260d8504e106dbfa7e0b4d2e0f25f3b62d49408341b540"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-talk--003",
@@ -22990,7 +23166,7 @@
           "sha256": "4219ba2d554df37fd3aba24e8139ae6bf579f38fa6b38d4fc8cfbff213c1207e"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-talk--004",
@@ -23045,7 +23221,7 @@
           "sha256": "7ca2955a610829c48d6a9393a12262d402becb555d4556f65f3e12dcc3594668"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-talk--005",
@@ -23100,7 +23276,7 @@
           "sha256": "86544b66164371cb684334a3e27616c9d9680569159eb38704d86924a8909e08"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-talk--008",
@@ -23116,46 +23292,46 @@
       "textSha256": "670698992050387a192a35160bc5636766a0e72a6149593d629610d263d01094",
       "medium": "spoken",
       "requestSha256": "6e4110bad461ebbe51b3fda754ee671a4d1f619dc4f5e0a2949b7a310208968d",
-      "attempt": 5,
-      "status": "needs_review",
+      "attempt": 6,
+      "status": "accepted",
       "asr": {
-        "transcript": "对,今天照片没她,笑看理由不用每件事都凑成所有人合影。",
-        "cer": 0.208333,
+        "transcript": "对,今天照片没它,校刊理由,不用每件事都凑成所有人合影。",
+        "cer": 0.125,
         "polarityCountsMatch": true,
-        "passed": false
+        "passed": true
       },
-      "duration": 7.12,
-      "wallSeconds": 31.639,
+      "duration": 6.96,
+      "wallSeconds": 28.496,
       "loudness": {
-        "input_i": "-18.58",
-        "input_tp": "-5.00",
-        "input_lra": "0.60",
-        "input_thresh": "-28.82",
-        "output_i": "-19.47",
-        "output_tp": "-5.41",
-        "output_lra": "1.20",
-        "output_thresh": "-29.83",
+        "input_i": "-19.22",
+        "input_tp": "-1.87",
+        "input_lra": "1.60",
+        "input_thresh": "-29.58",
+        "output_i": "-18.98",
+        "output_tp": "-2.00",
+        "output_lra": "0.90",
+        "output_thresh": "-29.36",
         "normalization_type": "dynamic",
-        "target_offset": "-0.53"
+        "target_offset": "-1.02"
       },
       "files": {
         "raw": {
           "path": "healing-c3-shared-talk--008/raw.wav",
-          "bytes": 683600,
-          "sha256": "1ed372e1235013f8e38823a9b4f60202fb2adbc943c57d89427d75438be86ae5"
+          "bytes": 668240,
+          "sha256": "91b8312581dad264037f84b407fea0be2caf28d2e2d4937a22bf41a3d76037ee"
         },
         "master": {
           "path": "healing-c3-shared-talk--008/master.wav",
-          "bytes": 341838,
-          "sha256": "b57a0376b4abe72a99086736a390045a5293462ea251e3f7efbde33e069dd993"
+          "bytes": 334158,
+          "sha256": "b9ea87d4167eabbf855838eb3c637d1598f7da1e8f8e70ce8f8bc3ee2d1cde7e"
         },
         "runtime": {
           "path": "healing-c3-shared-talk--008/runtime.ogg",
-          "bytes": 51725,
-          "sha256": "83afc976feff492d2bf30a05031bd9ab8c0b5c8f7ae4b59de129f0492ec13a8c"
+          "bytes": 50366,
+          "sha256": "3aad4aa5b4bbd47c48a8bcbb3b757ee642a5a1e0e90d9590096b1bba0dc4bdb1"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-print--002",
@@ -23210,7 +23386,7 @@
           "sha256": "5542d8f92cbbf2f4459d3267240eff97784b18e56f6994771066a091d2b2e832"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-print--003",
@@ -23265,7 +23441,7 @@
           "sha256": "fd99f6bf91c80b976f2084fd404429cd0149e1e4519f66efe801dba142b3948d"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-print--004",
@@ -23320,7 +23496,7 @@
           "sha256": "3db021f372529251febcc6dd3efa2ab8eb3762bc5ed6e0d52a19d2b3b9012016"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-print--005",
@@ -23375,7 +23551,7 @@
           "sha256": "690873dabf341df391e5e43645ca6d33c5aeff32c9ee12a683d464c5ff3aa865"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-print--007",
@@ -23430,7 +23606,7 @@
           "sha256": "9508a1a59ceb246d0ba40110aa7c76c57ae987fb721a2dd3d0425d76a279fc38"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     },
     {
       "id": "healing-c3-shared-print--008",
@@ -23485,9 +23661,9 @@
           "sha256": "e92e014d9f7cb575a44f2005f85daf30921ab2c2deaa50aa7adfe6a9f39e065f"
         }
       },
-      "recoveredFromRun": 39436524426
+      "recoveredFromRun": 39522076326
     }
   ],
   "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
-  "sourceRun": 39436524426
+  "sourceRun": 39522076326
 }

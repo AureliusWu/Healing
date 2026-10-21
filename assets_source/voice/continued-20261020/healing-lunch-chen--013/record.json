@@ -12,44 +12,75 @@
   "textSha256": "a8aed09beac176c1558df1ab22eaa34a85a4dbba568db8366a7f8aff5600e04c",
   "medium": "spoken",
   "requestSha256": "6cb6ebac53d8fb5d73beb2ec777a7578b8e2f564446294f563eeb222b98580d3",
-  "attempt": 5,
+  "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "我要5岁 够不够重要",
+    "transcript": "我要五岁 够不够重要",
     "cer": 0.222222,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": false,
+    "phoneticReview": {
+      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "expected": "我要午睡够不够重要",
+      "observed": "我要五岁够不够重要",
+      "expectedSyllables": [
+        "wo3",
+        "yao4",
+        "wu3",
+        "shui4",
+        "gou4",
+        "bu4",
+        "gou4",
+        "zhong4",
+        "yao4"
+      ],
+      "observedSyllables": [
+        "wo3",
+        "yao4",
+        "wu3",
+        "sui4",
+        "gou4",
+        "bu4",
+        "gou4",
+        "zhong4",
+        "yao4"
+      ],
+      "sameLength": true,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "humanListening": false
+    }
   },
-  "duration": 2.0,
-  "wallSeconds": 76.244,
+  "duration": 1.68,
+  "wallSeconds": 8.261,
   "loudness": {
-    "input_i": "-25.39",
-    "input_tp": "-9.22",
+    "input_i": "-21.68",
+    "input_tp": "-5.05",
     "input_lra": "0.00",
-    "input_thresh": "-35.39",
-    "output_i": "-20.00",
-    "output_tp": "-3.83",
+    "input_thresh": "-31.68",
+    "output_i": "-20.02",
+    "output_tp": "-3.38",
     "output_lra": "0.00",
-    "output_thresh": "-30.00",
+    "output_thresh": "-30.02",
     "normalization_type": "linear",
-    "target_offset": "-0.00"
+    "target_offset": "0.02"
   },
   "files": {
     "raw": {
       "path": "healing-lunch-chen--013/raw.wav",
-      "bytes": 192080,
-      "sha256": "710def7cc62dd55d7e9a33a28a8b8becdef33cf532d5b3fa301cc0db77ff944d"
+      "bytes": 161360,
+      "sha256": "cde294301f55a5e709521d95f6ab968e72f4ae159faa27c4579d349df642be06"
     },
     "master": {
       "path": "healing-lunch-chen--013/master.wav",
-      "bytes": 96078,
-      "sha256": "29589a487b8fa32160d68a3dead8346bb4253fe0897a42457673c443f77dc790"
+      "bytes": 80718,
+      "sha256": "220e0a2df22023a016c60a6194f0f0646779ec08828ed2d6477e40d765da10ea"
     },
     "runtime": {
       "path": "healing-lunch-chen--013/runtime.ogg",
-      "bytes": 20158,
-      "sha256": "cad237482fc6b316bbbf2d3eac7c25481772450b800e8374973697eb37b84f80"
+      "bytes": 16098,
+      "sha256": "ffa9b18cd63aecb8c585d9803f443b93b4e222ee44ea1525419b7fafab4e709a"
     }
   },
-  "recoveredFromRun": 39436524426
+  "recoveredFromRun": 39522076326
 }

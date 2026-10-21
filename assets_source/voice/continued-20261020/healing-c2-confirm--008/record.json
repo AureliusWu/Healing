@@ -12,44 +12,44 @@
   "textSha256": "0b82cf1ed7e9f6d2972f71197c189afb491d0c264a29b3b3192617f7729a4f20",
   "medium": "spoken",
   "requestSha256": "d60dfd64b9b065ac4cd9db44206845879685bd5aa308a36f506b06b3234ea4b1",
-  "attempt": 5,
-  "status": "needs_review",
+  "attempt": 8,
+  "status": "accepted",
   "asr": {
-    "transcript": "我先问一题 8.20亿钱送去行吗",
-    "cer": 0.4,
+    "transcript": "我先问一题,8点20以前送去行吗?",
+    "cer": 0.2,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": true
   },
-  "duration": 3.04,
-  "wallSeconds": 168.581,
+  "duration": 3.2,
+  "wallSeconds": 13.514,
   "loudness": {
-    "input_i": "-24.38",
-    "input_tp": "-5.48",
-    "input_lra": "0.10",
-    "input_thresh": "-34.53",
-    "output_i": "-19.82",
+    "input_i": "-26.62",
+    "input_tp": "-8.70",
+    "input_lra": "0.20",
+    "input_thresh": "-36.76",
+    "output_i": "-19.75",
     "output_tp": "-2.00",
     "output_lra": "0.00",
-    "output_thresh": "-29.98",
+    "output_thresh": "-29.89",
     "normalization_type": "dynamic",
-    "target_offset": "-0.18"
+    "target_offset": "-0.25"
   },
   "files": {
     "raw": {
       "path": "healing-c2-confirm--008/raw.wav",
-      "bytes": 291920,
-      "sha256": "cdb8256844731c5be56213f11b8168066e4bcbc1b1ed8ff4d868a10b5c5a2c59"
+      "bytes": 307280,
+      "sha256": "1219c52c7c1a6de12452737587d072c487d7c46a00f4b764aa7120349a874086"
     },
     "master": {
       "path": "healing-c2-confirm--008/master.wav",
-      "bytes": 145998,
-      "sha256": "6562f5f9f045f33283a38d7e02a5ea3353bdfa963d837f1d23146fabeb0fb63b"
+      "bytes": 153678,
+      "sha256": "d7c0c2f7a63309795ebe0f34e86ca19b80f5937df31f8f8d8a20e5b4062a68f1"
     },
     "runtime": {
       "path": "healing-c2-confirm--008/runtime.ogg",
-      "bytes": 26762,
-      "sha256": "924ec3ef394ba5162e86107ecd864e8053f9c83cf3af93452386fad80acaa0c8"
+      "bytes": 27320,
+      "sha256": "b53f51a6a9e1fc00db726f96ef64a4211c8d99270953feabaa9503be79512562"
     }
   },
-  "recoveredFromRun": 39436524426
+  "recoveredFromRun": 39522076326
 }

@@ -12,44 +12,44 @@
   "textSha256": "811f4a87289e840b4622c6672b912ae9b6960dbb537d064e927ac2a23336fd5c",
   "medium": "spoken",
   "requestSha256": "6863c6b2748b9808622c91eff08038bc361f071ab0295047f615e7941d09224c",
-  "attempt": 5,
-  "status": "needs_review",
+  "attempt": 8,
+  "status": "accepted",
   "asr": {
-    "transcript": "那我们别再5点44,再发现有三页要重排",
-    "cer": 0.263158,
+    "transcript": "那我们别再五点四十四再发现有三夜要重排",
+    "cer": 0.105263,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": true
   },
-  "duration": 4.24,
-  "wallSeconds": 186.096,
+  "duration": 4.88,
+  "wallSeconds": 20.077,
   "loudness": {
-    "input_i": "-17.27",
-    "input_tp": "-3.10",
-    "input_lra": "0.50",
-    "input_thresh": "-27.53",
-    "output_i": "-19.50",
-    "output_tp": "-5.47",
-    "output_lra": "0.20",
-    "output_thresh": "-29.72",
+    "input_i": "-21.24",
+    "input_tp": "-7.05",
+    "input_lra": "2.80",
+    "input_thresh": "-31.62",
+    "output_i": "-17.59",
+    "output_tp": "-3.35",
+    "output_lra": "2.60",
+    "output_thresh": "-27.89",
     "normalization_type": "dynamic",
-    "target_offset": "-0.50"
+    "target_offset": "-2.41"
   },
   "files": {
     "raw": {
       "path": "healing-c2-deadline--004/raw.wav",
-      "bytes": 407120,
-      "sha256": "43b9c3733a2ffd5083333a63cd86c9971434e82a24835a8478a9ab2a7e4ffbef"
+      "bytes": 468560,
+      "sha256": "0f27381db9e79ee76c32a4b340053eb345fc3647b81ef6b99d85bf5b5c63aa1d"
     },
     "master": {
       "path": "healing-c2-deadline--004/master.wav",
-      "bytes": 203598,
-      "sha256": "ae63777e63eeb1c6b65090455bffa55fd874c2b8692434602fbc44e1c7e93284"
+      "bytes": 234318,
+      "sha256": "6d6372763c19413100634f5026dbd608fa574f3c94dd8ce5498585b20e426083"
     },
     "runtime": {
       "path": "healing-c2-deadline--004/runtime.ogg",
-      "bytes": 33315,
-      "sha256": "1d5064953be1ab7a81db6e11e6fc22946a03698acc9edb25afc142e10ebfbf76"
+      "bytes": 37318,
+      "sha256": "936faba6b0e932a5cc8b336ba1ff6cba0899e5b8a65bcc196438b4407a18b015"
     }
   },
-  "recoveredFromRun": 39436524426
+  "recoveredFromRun": 39522076326
 }

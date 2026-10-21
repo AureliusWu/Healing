@@ -12,44 +12,55 @@
   "textSha256": "daefed58de5d220cd608ff2efa47db3222ef63c7d41f84db048eee14adbbcde9",
   "medium": "spoken",
   "requestSha256": "48d4d21aa98482dcfc232c7c305145b0f158c8b6a687324f3ff8cf55a62d3cf7",
-  "attempt": 5,
+  "attempt": 8,
   "status": "needs_review",
   "asr": {
-    "transcript": "看不見就別計了我1米8都只看見30個後腦勺",
+    "transcript": "看不见就别挤了我1米8都只看见30个后脑烧",
     "cer": 0.238095,
     "polarityCountsMatch": true,
-    "passed": false
+    "passed": false,
+    "phoneticReview": {
+      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "expected": "看不见就别挤了我一米八都只看见三十个后脑勺",
+      "observed": "看不见就别挤了我1米8都只看见30个后脑烧",
+      "expectedSyllables": [],
+      "observedSyllables": [],
+      "sameLength": true,
+      "polarityCountsMatch": true,
+      "passed": false,
+      "humanListening": false
+    }
   },
-  "duration": 4.08,
-  "wallSeconds": 197.242,
+  "duration": 6.24,
+  "wallSeconds": 25.156,
   "loudness": {
-    "input_i": "-24.99",
-    "input_tp": "-7.24",
-    "input_lra": "0.20",
-    "input_thresh": "-35.60",
-    "output_i": "-19.43",
+    "input_i": "-22.89",
+    "input_tp": "-4.39",
+    "input_lra": "1.70",
+    "input_thresh": "-33.76",
+    "output_i": "-19.13",
     "output_tp": "-2.00",
-    "output_lra": "0.10",
-    "output_thresh": "-29.91",
+    "output_lra": "1.10",
+    "output_thresh": "-30.47",
     "normalization_type": "dynamic",
-    "target_offset": "-0.57"
+    "target_offset": "-0.87"
   },
   "files": {
     "raw": {
       "path": "healing-corridor--002/raw.wav",
-      "bytes": 391760,
-      "sha256": "38252476c6648a5e229026a21e7e96f42230d528c5c35941a4ad26a72aea250a"
+      "bytes": 599120,
+      "sha256": "04120f6ae4b88acb6b8f127794cd5a848e8b8a9bf369524e8ee3a774a26fa982"
     },
     "master": {
       "path": "healing-corridor--002/master.wav",
-      "bytes": 195918,
-      "sha256": "8932a885805714e93b2b89d14fe01104dcb53fa819c68a3caa519394a5c5d7d6"
+      "bytes": 299598,
+      "sha256": "67e6602e274f94735344242df8bda353ee3bf8d74202209df6d59315d7571cda"
     },
     "runtime": {
       "path": "healing-corridor--002/runtime.ogg",
-      "bytes": 37210,
-      "sha256": "18293f0f01f92bbb87a0249aa0c3c5ed9b9849ef7b7cf198c8843bb6fea7969a"
+      "bytes": 47941,
+      "sha256": "89f8dc127d65e6f3fc314ba9b1f29932d77a5176890b8ca7e2c71e73c711ac33"
     }
   },
-  "recoveredFromRun": 39436524426
+  "recoveredFromRun": 39522076326
 }
