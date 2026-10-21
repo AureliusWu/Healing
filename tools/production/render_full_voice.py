@@ -279,7 +279,7 @@ def merge(args):
         copied = dict(record)
         copied['files'] = {}
         for key, file in record['files'].items():
-            suffix = '.ogg' if key == 'runtime' else '.wav'
+            suffix = Path(file['path']).suffix
             target = args.output / key / (row['id'] + suffix)
             target.parent.mkdir(exist_ok=True)
             shutil.copy2(root / file['path'], target)

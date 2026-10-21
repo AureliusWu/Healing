@@ -32,18 +32,18 @@ jobs:
         run: python -m pip install faster-whisper==1.2.1 opencc-python-reimplemented==0.1.7 pypinyin==0.53.0
       - uses: actions/cache@v4
         with:
-          path: .runtime/review-asr-medium
-          key: review-asr-medium-08e178d48790-v1
+          path: .runtime/review-asr-large-v3
+          key: review-asr-large-v3-edaa852ec7e1-v1
       - name: Download fixed larger model before denying inference network access
         run: |
           python - <<'PY'
           from huggingface_hub import snapshot_download
-          snapshot_download('Systran/faster-whisper-medium', revision='08e178d48790749d25932bbc082711ddcfdfbc4f', local_dir='.runtime/review-asr-medium')
+          snapshot_download('Systran/faster-whisper-large-v3', revision='edaa852ec7e145841d8ffdb056a99866b5f0a478', local_dir='.runtime/review-asr-large-v3')
           PY
       - name: Read newest checkpoint and retain exact audio bytes
         run: |
           git pull --ff-only origin main
-          python tools/production/review_rejected_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --model-dir .runtime/review-asr-medium --report docs/production/full-media/review-report.json
+          python tools/production/review_rejected_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --model-dir .runtime/review-asr-large-v3 --report docs/production/full-media/review-report.json
       - name: Keep independently measured transcript evidence
         uses: actions/upload-artifact@v4
         with:
@@ -65,3 +65,13 @@ jobs:
             git rebase origin/main
             git push origin HEAD:main
           fi
+      - name: Require exact complete recording coverage
+        run: |
+          python tools/production/seed_verified_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --output reports/final-checked/part-0 --shard-index 0 --shard-count 1
+          python tools/production/render_full_voice.py merge --plan docs/production/full-media/dialogue-plan.json --parts reports/final-checked --output reports/full-voice-complete
+      - uses: actions/upload-artifact@v4
+        with:
+          name: full-dialogue-complete-${{ github.sha }}-${{ github.run_attempt }}
+          path: reports/full-voice-complete/
+          retention-days: 30
+          if-no-files-found: error

@@ -13,8 +13,8 @@ from render_full_voice import digest, request_hash, require, save, transcript_re
 from phonetic_review import review_homophones
 from offline_runtime import enforce_offline
 
-MODEL = 'Systran/faster-whisper-medium'
-REVISION = '08e178d48790749d25932bbc082711ddcfdfbc4f'
+MODEL = 'Systran/faster-whisper-large-v3'
+REVISION = 'edaa852ec7e145841d8ffdb056a99866b5f0a478'
 
 
 def main(args):

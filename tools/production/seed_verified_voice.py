@@ -61,7 +61,7 @@ def seed(plan, source, output, index, count, review_homophones=False):
         'semanticSha256': plan['semanticSha256'], 'sourceCommit': plan['sourceCommit'],
         'shardIndex': index, 'shardCount': count,
         'requestedIds': [row['id'] for row in selected],
-        'records': retained, 'status': 'ready_for_merge' if len(retained) == len(selected) else 'incomplete', 'humanListening': False,
+        'records': retained, 'status': 'accepted' if len(retained) == len(selected) else 'incomplete', 'humanListening': False,
         'resumeEvidence': {'archiveManifestSha256': hashlib.sha256((source / 'manifest.json').read_bytes()).hexdigest(),
                            'reusedAccepted': len(retained)}})
     return {'selected': len(selected), 'reused': len(retained), 'pending': len(selected) - len(retained)}

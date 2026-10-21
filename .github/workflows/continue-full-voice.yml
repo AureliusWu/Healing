@@ -115,16 +115,16 @@ jobs:
           python -m pip install faster-whisper==1.2.1 opencc-python-reimplemented==0.1.7 pypinyin==0.53.0
       - uses: actions/cache@v4
         with:
-          path: .runtime/review-asr-medium
-          key: review-asr-medium-08e178d48790-v1
+          path: .runtime/review-asr-large-v3
+          key: review-asr-large-v3-edaa852ec7e1-v1
       - name: Download fixed independent review model before offline checking
         run: |
           python - <<'PYMODEL'
           from huggingface_hub import snapshot_download
-          snapshot_download('Systran/faster-whisper-medium', revision='08e178d48790749d25932bbc082711ddcfdfbc4f', local_dir='.runtime/review-asr-medium')
+          snapshot_download('Systran/faster-whisper-large-v3', revision='edaa852ec7e145841d8ffdb056a99866b5f0a478', local_dir='.runtime/review-asr-large-v3')
           PYMODEL
       - name: Recheck only rejected immutable takes and resolve original-file replays
-        run: python tools/production/review_rejected_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --model-dir .runtime/review-asr-medium --report docs/production/full-media/review-report.json
+        run: python tools/production/review_rejected_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --model-dir .runtime/review-asr-large-v3 --report docs/production/full-media/review-report.json
       - name: Commit this continuation checkpoint
         run: |
           git config user.name 'github-actions[bot]'

@@ -5,7 +5,8 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from render_full_voice import request_hash
+from render_full_voice import request_hash, merge
+from types import SimpleNamespace
 from seed_verified_voice import seed
 
 
@@ -19,7 +20,7 @@ class SeedVerifiedVoiceTests(unittest.TestCase):
         for index, row in enumerate(plan['lines'][:2]):
             files = {}
             for kind in ('raw', 'master', 'runtime'):
-                path = source / (str(index) + '-' + kind + '.bin')
+                path = source / (str(index) + '-' + kind + ('.ogg' if kind == 'runtime' else '.wav'))
                 path.write_bytes((row['id'] + kind).encode())
                 files[kind] = {'path': path.name, 'bytes': path.stat().st_size,
                                'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
@@ -41,6 +42,23 @@ class SeedVerifiedVoiceTests(unittest.TestCase):
             for meta in saved['records'][0]['files'].values():
                 self.assertEqual(hashlib.sha256((output / meta['path']).read_bytes()).hexdigest(), meta['sha256'])
             self.assertEqual(len(json.loads((source / 'manifest.json').read_text())['records']), 2)
+
+    def test_complete_verified_seed_can_merge_without_synthesis(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source, plan, manifest = self.fixture(root)
+            plan['lines'] = plan['lines'][:1]
+            manifest['records'] = manifest['records'][:1]
+            (source / 'manifest.json').write_text(json.dumps(manifest))
+            result = seed(plan, source, root / 'parts' / 'part-0', 0, 1)
+            self.assertEqual(result['pending'], 0)
+            plan_file = root / 'plan.json'
+            plan_file.write_text(json.dumps(plan))
+            merge(SimpleNamespace(plan=plan_file, parts=root / 'parts', output=root / 'complete'))
+            complete = json.loads((root / 'complete' / 'full-voice.json').read_text())
+            self.assertEqual(complete['count'], 1)
+            self.assertEqual(complete['records'][0]['files']['runtime']['sha256'],
+                             manifest['records'][0]['files']['runtime']['sha256'])
 
     def test_corrupt_bytes_stale_request_duplicate_and_foreign_project_are_rejected(self):
         for mutation in ('bytes', 'request', 'duplicate', 'foreign'):
