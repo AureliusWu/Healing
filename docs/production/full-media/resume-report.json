@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "Healing",
-  "sourceRun": 39525784381,
+  "sourceRun": 39561180023,
   "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
   "target": 427,
   "accepted": 425,
@@ -12,7 +12,7 @@
       "text": "程屿，下周记得还我直尺！",
       "status": "needs_review",
       "asr": {
-        "transcript": "终于,下周记得还我支持",
+        "transcript": "腾予下周记得还我支持",
         "cer": 0.4,
         "polarityCountsMatch": true,
         "passed": false,
@@ -20,7 +20,7 @@
         "phoneticReview": {
           "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "程屿下周记得还我直尺",
-          "observed": "终于下周记得还我支持",
+          "observed": "腾予下周记得还我支持",
           "expectedSyllables": [
             "cheng2",
             "yu3",
@@ -34,8 +34,8 @@
             "chi3"
           ],
           "observedSyllables": [
-            "zhong1",
-            "yu2",
+            "teng2",
+            "yu3",
             "xia4",
             "zhou1",
             "ji4",
@@ -58,7 +58,7 @@
       "text": "现在能印？",
       "status": "needs_review",
       "asr": {
-        "transcript": "現在能應",
+        "transcript": "現在能贏",
         "cer": 0.25,
         "polarityCountsMatch": true,
         "passed": false,
@@ -66,7 +66,7 @@
         "phoneticReview": {
           "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "现在能印",
-          "observed": "现在能应",
+          "observed": "现在能赢",
           "expectedSyllables": [
             "xian4",
             "zai4",
@@ -77,7 +77,7 @@
             "xian4",
             "zai4",
             "neng2",
-            "ying1"
+            "ying2"
           ],
           "sameLength": true,
           "polarityCountsMatch": true,

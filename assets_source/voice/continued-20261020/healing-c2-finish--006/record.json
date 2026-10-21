@@ -12,17 +12,17 @@
   "textSha256": "87c0ffffb37daef8db0a3bfcd659d35847e2ac359e25ac7d10ef5c7daa8802c3",
   "medium": "spoken",
   "requestSha256": "7099b27eb8d97fc40f880d318a2d7e101b5fc2417a986019cc73b69800c533b8",
-  "attempt": 11,
+  "attempt": 14,
   "status": "needs_review",
   "asr": {
-    "transcript": "终于下周记得还我支持",
-    "cer": 0.4,
+    "transcript": "成语 下周记得还我纸尺",
+    "cer": 0.3,
     "polarityCountsMatch": true,
     "passed": false,
     "phoneticReview": {
       "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
       "expected": "程屿下周记得还我直尺",
-      "observed": "终于下周记得还我支持",
+      "observed": "成语下周记得还我纸尺",
       "expectedSyllables": [
         "cheng2",
         "yu3",
@@ -36,16 +36,16 @@
         "chi3"
       ],
       "observedSyllables": [
-        "zhong1",
-        "yu2",
+        "cheng2",
+        "yu3",
         "xia4",
         "zhou1",
         "ji4",
         "de5",
         "hai2",
         "wo3",
-        "zhi1",
-        "chi2"
+        "zhi3",
+        "chi3"
       ],
       "sameLength": true,
       "polarityCountsMatch": true,
@@ -54,43 +54,43 @@
     },
     "model": "Systran/faster-whisper-medium",
     "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-    "audioSha256": "7f1b6b406dceede08c94be4a667b7bcdf96fd89eb874cdb77e31ec6707823c41"
+    "audioSha256": "ba5bdf0d20db7a164e3217f01b8c567b0d7e9bd2bea8273fce7ba6bca796a825"
   },
-  "duration": 2.32,
-  "wallSeconds": 79.934,
+  "duration": 2.16,
+  "wallSeconds": 10.866,
   "loudness": {
-    "input_i": "-21.82",
-    "input_tp": "-4.94",
+    "input_i": "-21.05",
+    "input_tp": "-3.46",
     "input_lra": "0.00",
-    "input_thresh": "-32.04",
-    "output_i": "-19.99",
-    "output_tp": "-3.12",
+    "input_thresh": "-31.28",
+    "output_i": "-20.03",
+    "output_tp": "-2.41",
     "output_lra": "0.00",
-    "output_thresh": "-30.21",
+    "output_thresh": "-30.27",
     "normalization_type": "linear",
-    "target_offset": "-0.01"
+    "target_offset": "0.03"
   },
   "files": {
     "raw": {
       "path": "healing-c2-finish--006/raw.wav",
-      "bytes": 222800,
-      "sha256": "1576f9883fa92ff23b990bee5730d511f9b44e403b42d00d379547fd9e98b235"
+      "bytes": 207440,
+      "sha256": "d530329f5e0ac0f59584add126c167a5a0301b82174b606431688602188b69f8"
     },
     "master": {
       "path": "healing-c2-finish--006/master.wav",
-      "bytes": 111438,
-      "sha256": "1fff418c905dd7bebe0cc340d2b42c46caef4c0f45b3f51bc86e3dbfa2f2c41d"
+      "bytes": 103758,
+      "sha256": "403525e622f5f94442f40806594549d269a379410f0f205165158566de6ede71"
     },
     "runtime": {
       "path": "healing-c2-finish--006/runtime.ogg",
-      "bytes": 19903,
-      "sha256": "7f1b6b406dceede08c94be4a667b7bcdf96fd89eb874cdb77e31ec6707823c41"
+      "bytes": 19861,
+      "sha256": "ba5bdf0d20db7a164e3217f01b8c567b0d7e9bd2bea8273fce7ba6bca796a825"
     }
   },
-  "recoveredFromRun": 39525784381,
+  "recoveredFromRun": 39561180023,
   "asrReviewHistory": [
     {
-      "transcript": "终于,下周记得还我支持",
+      "transcript": "腾予下周记得还我支持",
       "cer": 0.4,
       "polarityCountsMatch": true,
       "passed": false,
@@ -98,7 +98,7 @@
       "phoneticReview": {
         "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
         "expected": "程屿下周记得还我直尺",
-        "observed": "终于下周记得还我支持",
+        "observed": "腾予下周记得还我支持",
         "expectedSyllables": [
           "cheng2",
           "yu3",
@@ -112,8 +112,8 @@
           "chi3"
         ],
         "observedSyllables": [
-          "zhong1",
-          "yu2",
+          "teng2",
+          "yu3",
           "xia4",
           "zhou1",
           "ji4",

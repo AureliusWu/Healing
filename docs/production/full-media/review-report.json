@@ -2,22 +2,22 @@
   "schema": 1,
   "project": "Healing",
   "target": 427,
-  "accepted": 425,
-  "pendingCount": 2,
+  "accepted": 426,
+  "pendingCount": 1,
   "pending": [
     {
       "id": "healing-c2-finish--006",
       "text": "程屿，下周记得还我直尺！",
       "status": "needs_review",
       "asr": {
-        "transcript": "终于下周记得还我支持",
-        "cer": 0.4,
+        "transcript": "成语 下周记得还我纸尺",
+        "cer": 0.3,
         "polarityCountsMatch": true,
         "passed": false,
         "phoneticReview": {
           "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "程屿下周记得还我直尺",
-          "observed": "终于下周记得还我支持",
+          "observed": "成语下周记得还我纸尺",
           "expectedSyllables": [
             "cheng2",
             "yu3",
@@ -31,16 +31,16 @@
             "chi3"
           ],
           "observedSyllables": [
-            "zhong1",
-            "yu2",
+            "cheng2",
+            "yu3",
             "xia4",
             "zhou1",
             "ji4",
             "de5",
             "hai2",
             "wo3",
-            "zhi1",
-            "chi2"
+            "zhi3",
+            "chi3"
           ],
           "sameLength": true,
           "polarityCountsMatch": true,
@@ -49,42 +49,7 @@
         },
         "model": "Systran/faster-whisper-medium",
         "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-        "audioSha256": "7f1b6b406dceede08c94be4a667b7bcdf96fd89eb874cdb77e31ec6707823c41"
-      }
-    },
-    {
-      "id": "healing-c3-print--002",
-      "text": "现在能印？",
-      "status": "needs_review",
-      "asr": {
-        "transcript": "现在能硬",
-        "cer": 0.25,
-        "polarityCountsMatch": true,
-        "passed": false,
-        "phoneticReview": {
-          "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
-          "expected": "现在能印",
-          "observed": "现在能硬",
-          "expectedSyllables": [
-            "xian4",
-            "zai4",
-            "neng2",
-            "yin4"
-          ],
-          "observedSyllables": [
-            "xian4",
-            "zai4",
-            "neng2",
-            "ying4"
-          ],
-          "sameLength": true,
-          "polarityCountsMatch": true,
-          "passed": false,
-          "humanListening": false
-        },
-        "model": "Systran/faster-whisper-medium",
-        "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-        "audioSha256": "3cea3d11d6d50f5546baf7583f16fb80aa777c59bb27cc85a62fcc3c69405ebf"
+        "audioSha256": "ba5bdf0d20db7a164e3217f01b8c567b0d7e9bd2bea8273fce7ba6bca796a825"
       }
     }
   ],
