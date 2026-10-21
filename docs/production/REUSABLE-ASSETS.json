@@ -225,7 +225,7 @@
           "role": "recipe",
           "path": "src/game/sceneLoop.ts",
           "encoding": "text-lf",
-          "sha256": "eca0391a912f5e9d27e16f3c3f1d8c2aa9d92b2f793fe7b34e1a96ef929e9872"
+          "sha256": "96a6297419f4f89b5713e13f255d9eeb15d59d6ee8cd6905261c35a84c38d518"
         },
         {
           "role": "recipe",

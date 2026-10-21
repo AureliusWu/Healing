@@ -1,3 +1,7 @@
+## 2026-10-21 · v1.2.1 场景音频缓存
+
+连续访问场景会长期保留全部 PCM；本轮统一采用两首 / 32 MiB LRU 与 AbortController，取消后的解码不入缓存。原生路线、旧存档和画面契约保留，实际验证与复用文件见 [引擎同步记录](ENGINE-SYNC-20261021.md)。新版本 Windows / PWA 以对应 CI 为准。
+
 # 2026-10-19 · 四作同源共存与断网复验
 
 本版 1.1.1 与 Circuit 1.5.2、NetLove 0.3.1、Rain 1.3.1 在同一独立 Chromium 环境依次缓存，再共同断网重开。四作 186 条缓存、独立 scope/controller 与真实 React 自动存档载荷保留，页面错误为零。可复用测试位于 Circuit/tests/four-games-live.py；原始报告和失败后修正测试器的记录见 [四仓闭环](FOUR-GAMES-CLOSURE-20261019.md)。本次只归档结果，玩家程序和已公开包保持。

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-21",
+  "project": "Healing",
+  "version": "1.2.1",
+  "base_commit": "ff88f298453d89cdca22942af103abf20c53ac81",
+  "local": {
+    "unit_tests_passed": 79,
+    "production_build": "passed",
+    "browser": {
+      "unique_checks_passed": 28,
+      "kind": "desktop and mobile production build: CG, reading, backup, endings, music and decoded-loop reuse",
+      "full_run": {
+        "passed": 27,
+        "failed": 1,
+        "failure": "mobile first-install worker controller was not ready within 10 seconds"
+      },
+      "isolated_recheck": {
+        "passed": 1,
+        "failed": 0,
+        "same_source": true
+      },
+      "limitation": "full CI browser run remains required; a successful isolated recheck is not a clean full-suite run"
+    },
+    "release_tests_passed": 9,
+    "release_metadata": "1.2.1 and 20 indexed release notes passed",
+    "materials": "10 tool tests and source fingerprints passed"
+  },
+  "platform_validation": {
+    "github_ci": "pending push",
+    "windows_actual_package": "pending exact-commit CI",
+    "public_pwa": "pending exact-commit deployment"
+  },
+  "fingerprints": {
+    "src/game/sceneLoop.ts": "96a6297419f4f89b5713e13f255d9eeb15d59d6ee8cd6905261c35a84c38d518",
+    "tests/scene-loop.test.ts": "29cc6c024bae0bbc8783df5a2d3309a3a99e67aaeaf39c539b1b411167a792c4"
+  }
+}
