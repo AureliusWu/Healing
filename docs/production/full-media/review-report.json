@@ -10,14 +10,14 @@
       "text": "程屿，下周记得还我直尺！",
       "status": "needs_review",
       "asr": {
-        "transcript": "成语 下周记得还我纸尺",
+        "transcript": "成语 下周记得还我咫尺",
         "cer": 0.3,
         "polarityCountsMatch": true,
         "passed": false,
         "phoneticReview": {
           "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "程屿下周记得还我直尺",
-          "observed": "成语下周记得还我纸尺",
+          "observed": "成语下周记得还我咫尺",
           "expectedSyllables": [
             "cheng2",
             "yu3",
@@ -49,7 +49,7 @@
         },
         "model": "Systran/faster-whisper-medium",
         "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-        "audioSha256": "ba5bdf0d20db7a164e3217f01b8c567b0d7e9bd2bea8273fce7ba6bca796a825"
+        "audioSha256": "ee00bd6e7274c10be2357b93c619614028440e7de1d053f5eafce3d7444c1d87"
       }
     }
   ],
