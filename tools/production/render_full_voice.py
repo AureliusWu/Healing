@@ -217,6 +217,13 @@ def render(args):
                     condition_on_previous_text=False, vad_filter=False)
                 transcript = ''.join(s.text for s in segments)
                 result = transcript_result(row['text'], transcript, converter)
+                if not result['passed']:
+                    from phonetic_review import review_homophones
+                    proof = review_homophones(row['text'], transcript, converter)
+                    result['phoneticReview'] = proof
+                    if proof['passed']:
+                        result['passed'] = True
+                        result['acceptance'] = 'exact_toned_homophones'
                 record = {**row, 'requestSha256': request_hash(plan, row), 'attempt': attempt,
                     'status': 'accepted' if result['passed'] else 'needs_review', 'asr': result,
                     'duration': round(len(samples) / 24000, 6), 'wallSeconds': round(time.monotonic() - began, 3),

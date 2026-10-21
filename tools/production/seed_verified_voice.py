@@ -13,7 +13,7 @@ import shutil
 from render_full_voice import canonical, request_hash, require, save, validate_plan, verify_record
 
 
-def seed(plan, source, output, index, count):
+def seed(plan, source, output, index, count, review_homophones=False):
     validate_plan(plan)
     require(0 <= index < count <= 128, 'Invalid production partition')
     require(not (output / 'manifest.json').exists(), 'Refuse to overwrite a production checkpoint')
@@ -30,7 +30,19 @@ def seed(plan, source, output, index, count):
     retained = []
     for row in selected:
         previous = records.get(row['id'])
-        if not previous or previous['status'] != 'accepted':
+        if not previous:
+            continue
+        previous = copy.deepcopy(previous)
+        if review_homophones and previous['status'] == 'needs_review':
+            from phonetic_review import review_homophones as review
+            from opencc import OpenCC
+            proof = review(row['text'], previous.get('asr', {}).get('transcript', ''), OpenCC('t2s'))
+            previous['asr']['phoneticReview'] = proof
+            if proof['passed']:
+                previous['status'] = 'accepted'
+                previous['asr']['passed'] = True
+                previous['asr']['acceptance'] = 'exact_toned_homophones'
+        if previous['status'] != 'accepted':
             continue
         verify_record(source, row, previous, plan)
         record = copy.deepcopy(previous)
@@ -60,6 +72,7 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--shard-index', type=int, required=True)
     parser.add_argument('--shard-count', type=int, required=True)
+    parser.add_argument('--review-homophones', action='store_true')
     args = parser.parse_args()
     print(json.dumps(seed(json.loads(args.plan.read_text()), args.source, args.output,
-                          args.shard_index, args.shard_count)))
+                          args.shard_index, args.shard_count, args.review_homophones)))

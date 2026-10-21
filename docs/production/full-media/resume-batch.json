@@ -1,10 +1,12 @@
 {
   "schema": 1,
   "project": "Healing",
-  "batch": "20261020-continue-verified-01",
+  "batch": "20261021-continue-latest-02",
   "count": 427,
   "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
-  "attemptOffset": 3,
+  "attemptOffset": 6,
   "reuse": "byte-verified accepted takes only",
-  "humanListening": false
+  "humanListening": false,
+  "sourceArchive": "assets_source/voice/continued-20261020",
+  "homophoneReview": "exact same length, syllables and tones; raw ASR retained"
 }

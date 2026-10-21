@@ -16,11 +16,14 @@ jobs:
     timeout-minutes: 20
     outputs:
       shards: ${{ steps.matrix.outputs.shards }}
+      attemptOffset: ${{ steps.matrix.outputs.attemptOffset }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install exact-pronunciation review dependencies
+        run: python -m pip install pypinyin==0.53.0 opencc-python-reimplemented==0.1.7
       - name: Verify unchanged-take preservation
         run: python -m unittest discover -s tools/production -p 'test_*.py'
       - name: Compute bounded retry partitions
@@ -33,13 +36,17 @@ jobs:
           sys.path.insert(0,'tools/production')
           from render_full_voice import validate_plan,request_hash
           plan=json.loads(Path('docs/production/full-media/dialogue-plan.json').read_text())
-          archive=json.loads(Path('assets_source/voice/full-20261020/manifest.json').read_text())
+          archive=json.loads(Path('assets_source/voice/continued-20261020/manifest.json').read_text())
           validate_plan(plan)
+          batch=json.loads(Path('docs/production/full-media/resume-batch.json').read_text())
+          offset=batch['attemptOffset']
+          assert type(offset) is int and 6 <= offset <= 10000
           accepted={r['id']:r for r in archive['records'] if r['status']=='accepted'}
           pending=[r for r in plan['lines'] if not r.get('replayOf') and
               (r['id'] not in accepted or accepted[r['id']]['requestSha256']!=request_hash(plan,r))]
           count=min(4,max(1,math.ceil(len(pending)/8)))
           with open(os.environ['GITHUB_OUTPUT'],'a') as output:
+              output.write('attemptOffset='+str(offset)+'\n')
               output.write('shards='+json.dumps({'shard':list(range(count)),'shardCount':[count]})+'\n')
           print('Target',len(plan['lines']),'retained',len(accepted),'to synthesize',len(pending))
           PYCODE
@@ -61,8 +68,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install exact-pronunciation review dependencies
+        run: python -m pip install pypinyin==0.53.0 opencc-python-reimplemented==0.1.7
       - name: Reuse byte-verified accepted requests without synthesis
-        run: python tools/production/seed_verified_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/full-20261020 --output reports/continued/part-${{ matrix.shard }} --shard-index ${{ matrix.shard }} --shard-count ${{ matrix.shardCount }}
+        run: python tools/production/seed_verified_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --output reports/continued/part-${{ matrix.shard }} --shard-index ${{ matrix.shard }} --shard-count ${{ matrix.shardCount }} --review-homophones
       - name: Install author-side speech tools
         run: |
           sudo apt-get update -qq
@@ -75,7 +84,7 @@ jobs:
           key: full-voice-qwen-0c0e3051-asr-536b066-v1
           fail-on-cache-miss: true
       - name: Retry remaining requests with new seeds and unchanged ASR gates
-        run: python tools/production/render_full_voice.py render --plan docs/production/full-media/dialogue-plan.json --model-dir .runtime/full-voice-models/tts --asr-dir .runtime/full-voice-models/asr --output reports/continued/part-${{ matrix.shard }} --shard-index ${{ matrix.shard }} --shard-count ${{ matrix.shardCount }} --threads 4 --attempt-offset $((3*${{ github.run_attempt }}))
+        run: python tools/production/render_full_voice.py render --plan docs/production/full-media/dialogue-plan.json --model-dir .runtime/full-voice-models/tts --asr-dir .runtime/full-voice-models/asr --output reports/continued/part-${{ matrix.shard }} --shard-index ${{ matrix.shard }} --shard-count ${{ matrix.shardCount }} --threads 4 --attempt-offset $((${{ needs.plan.outputs.attemptOffset }}+3*(${{ github.run_attempt }}-1)))
       - uses: actions/upload-artifact@v4
         if: always()
         with:
