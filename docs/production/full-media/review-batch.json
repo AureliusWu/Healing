@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "Healing",
-  "batch": "20261021-independent-medium-asr-01",
+  "batch": "20261021-independent-medium-asr-02",
   "model": "Systran/faster-whisper-medium",
   "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
   "preserveAudioBytes": true,
