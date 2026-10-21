@@ -112,7 +112,8 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends ffmpeg libseccomp2
-          python -m pip install faster-whisper==1.2.1 opencc-python-reimplemented==0.1.7 pypinyin==0.53.0
+          python -m pip install torch==2.9.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install faster-whisper==1.2.1 opencc-python-reimplemented==0.1.7 pypinyin==0.53.0 funasr==1.4.16
       - uses: actions/cache@v4
         with:
           path: .runtime/review-asr-large-v3
@@ -122,9 +123,10 @@ jobs:
           python - <<'PYMODEL'
           from huggingface_hub import snapshot_download
           snapshot_download('Systran/faster-whisper-large-v3', revision='edaa852ec7e145841d8ffdb056a99866b5f0a478', local_dir='.runtime/review-asr-large-v3')
+          snapshot_download('FunAudioLLM/SenseVoiceSmall', revision='3847d57b6bdf2dd8875cb1508d2af43d80a16bf7', local_dir='.runtime/review-sensevoice', allow_patterns=['config.yaml', 'configuration.json', 'model.pt', 'am.mvn', '*.model'])
           PYMODEL
       - name: Recheck only rejected immutable takes and resolve original-file replays
-        run: python tools/production/review_rejected_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --model-dir .runtime/review-asr-large-v3 --report docs/production/full-media/review-report.json
+        run: python tools/production/review_rejected_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --model-dir .runtime/review-asr-large-v3 --report docs/production/full-media/review-report.json --secondary-model-dir .runtime/review-sensevoice --candidates reports/continued-parts
       - name: Commit this continuation checkpoint
         run: |
           git config user.name 'github-actions[bot]'
