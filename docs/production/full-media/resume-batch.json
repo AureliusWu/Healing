@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "project": "Healing",
-  "batch": "20261021-articulation-retakes-07",
+  "batch": "20261021-phonetic-articulation-08",
   "count": 427,
   "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
-  "attemptOffset": 18,
+  "attemptOffset": 21,
   "reuse": "byte-verified accepted takes only",
   "humanListening": false,
   "sourceArchive": "assets_source/voice/continued-20261020",

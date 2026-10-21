@@ -7,7 +7,7 @@ from retake_directions import load_directions
 
 class RetakeDirectionsTests(unittest.TestCase):
     def test_source_words_and_actor_are_bound(self):
-        row = {'id': 'clip', 'textSha256': 'exact-words', 'instruct': 'Original actor.'}
+        row = {'id': 'clip', 'text': '原句', 'textSha256': 'exact-words', 'instruct': 'Original actor.'}
         plan = {'project': 'Healing', 'lines': [row]}
         with tempfile.TemporaryDirectory() as root:
             file = Path(root) / 'directions.json'
@@ -29,3 +29,19 @@ class RetakeDirectionsTests(unittest.TestCase):
 
     def test_no_implicit_override(self):
         self.assertEqual(load_directions(None, {'project': 'Healing'}), {})
+
+    def test_same_toned_pronunciation_spelling_and_segments(self):
+        row = {'id': 'clip', 'text': '直尺', 'textSha256': 'ruler', 'instruct': 'Original actor.'}
+        plan = {'project': 'Healing', 'lines': [row]}
+        with tempfile.TemporaryDirectory() as root:
+            file = Path(root) / 'directions.json'
+            spec = {'schema': 1, 'project': 'Healing', 'directions': [
+                {'id': 'clip', 'textSha256': 'ruler', 'instruction': '清楚说话。',
+                 'spokenText': '值齿', 'segments': ['值，', '齿。']}]}
+            file.write_text(json.dumps(spec))
+            self.assertTrue(load_directions(file, plan)['clip']['phoneticSpellingProof']['passed'])
+            self.assertEqual(row['text'], '直尺')
+            spec['directions'][0]['spokenText'] = '支持'
+            file.write_text(json.dumps(spec))
+            with self.assertRaisesRegex(ValueError, 'syllables or tones'):
+                load_directions(file, plan)

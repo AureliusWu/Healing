@@ -196,7 +196,7 @@ def render(args):
                 take = args.output / 'takes' / row['id'] / str(attempt)
                 take.mkdir(parents=True, exist_ok=True)
                 pieces = []
-                for index, text in enumerate(directions.get(row['id'], {}).get('segments', split_text(row.get('spokenText', row['text'])))):
+                for index, text in enumerate(directions.get(row['id'], {}).get('segments', split_text(directions.get(row['id'], {}).get('spokenText', row.get('spokenText', row['text']))))):
                     seed = row['seed'] + attempt * 10000 + index
                     torch.manual_seed(seed)
                     np.random.seed(seed % (2 ** 32))
