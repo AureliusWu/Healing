@@ -1,6 +1,6 @@
 # 四项目引擎同步优化 · 2026-10-21
 
-本轮处理场景音频的资源生命周期和 Ren’Py PWA 交付。各作品继续使用当前原生引擎与存档身份，当前版本为待平台验收的补丁候选。
+本轮处理场景音频的资源生命周期和 Ren’Py PWA 交付。各作品继续使用当前原生引擎与存档身份，本批代码已同步推送，四作 PWA 与各自 Windows 实际运行验证均已通过。正式下载的晋级状态单独记录。
 
 | 项目 | 候选版本 | 实际改动 |
 | --- | --- | --- |
@@ -24,3 +24,17 @@ Rain 使用 `node --test tests/pwa-progress.test.mjs tests/pwa-downloads.test.mj
 各仓另执行自身完整逻辑/剧情/存档检查和生产构建、相关真实 Chromium 阅读/音频/PWA 检查。实际结果写入同目录 ENGINE-SYNC-20261021.json。Windows 成品、公开部署和下载回读以本候选对应的 CI 结果为准，旧版平台结果不作为本次成功证明。
 
 本地结果：Rain 239 项 Python / 全部作者校验 / Ren’Py lint、4 项 Worker 单测和 5 项真实 Worker 交互通过；NetLove 67 项逻辑、26 项浏览器通过；Healing 79 项逻辑通过，完整相关浏览器批次 27 通过 / 1 次首次缓存等待超时，该用例同源码独立复验通过；Circuit 95 项逻辑、28 项浏览器检查通过。Healing 的完整批次以本次 CI 继续验收，不把独立复验冒充整批全通过。三个 React 生产构建和当前复用素材指纹通过。
+
+
+## 最终平台回读 · 2026-10-21
+
+| 项目 | Windows / 原生验证 | 公开 PWA |
+| --- | --- | --- |
+| Rain 1.4.1 | [完整源码、独立 EXE、真实旧档与新进程读档通过](https://github.com/AureliusWu/Rain/actions/runs/39528122230) | [官方 WASM、离线及公开页面通过](https://github.com/AureliusWu/Rain/actions/runs/39528122222) |
+| Healing 1.2.1 | [81 项浏览器通过、3 项设备适用性跳过，Windows 源码 / ASAR / 真实旧档升级通过](https://github.com/AureliusWu/Healing/actions/runs/39528127729) | [公开三屏与离线通过](https://github.com/AureliusWu/Healing/actions/runs/39528846411) |
+| NetLove 0.4.1 | [58 项浏览器、实际 Windows 成品与安装 / 便携检查通过](https://github.com/AureliusWu/NetLove/actions/runs/39528133150) | [公开版本与断网续读通过](https://github.com/AureliusWu/NetLove/actions/runs/39528854377) |
+| Circuit 1.6.1 | [完整 CI 通过](https://github.com/AureliusWu/Circuit/actions/runs/39528140326)，[真实安装、运行及卸载通过](https://github.com/AureliusWu/Circuit/actions/runs/39528140324) | [公开部署与实际离线通过](https://github.com/AureliusWu/Circuit/actions/runs/39528140338) |
+
+Rain 源码与独立 EXE 各 37 用例 / 498 断言 / 87 张截图，新进程读档 1 / 17 / 3，通过真实 v1.1.0 旧档升级。前文的本地等待超时已由 Healing 本次完整 CI 的零失败结果接续，原始失败记录仍保留。
+
+正式下载：[Healing 1.2.1](https://github.com/AureliusWu/Healing/releases/tag/v1.2.1) 已发布；[NetLove 0.4.1](https://github.com/AureliusWu/NetLove/releases/tag/v0.4.1) 已发布为可玩预览。Rain 1.4.1 的正式 Release 尚未晋级；Circuit 1.6.1 因制作中的语音检查点推进 main，发布器按既定规则保留原公开版本。两作的新引擎均已上线 PWA，已验收的桌面包保存在对应 CI 工件中。本记录不把成功构建写成全部正式发布。

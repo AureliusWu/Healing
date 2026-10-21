@@ -26,12 +26,77 @@
     "materials": "10 tool tests and source fingerprints passed"
   },
   "platform_validation": {
-    "github_ci": "pending push",
-    "windows_actual_package": "pending exact-commit CI",
-    "public_pwa": "pending exact-commit deployment"
+    "github_ci": [
+      {
+        "id": 39528127729,
+        "name": "Build game",
+        "status": "completed",
+        "conclusion": "success",
+        "commit": "12881e71e07b9927fb4014e1d6b11caa2a261fb2",
+        "url": "https://github.com/AureliusWu/Healing/actions/runs/39528127729"
+      },
+      {
+        "id": 39528846411,
+        "name": "Publish PWA",
+        "status": "completed",
+        "conclusion": "success",
+        "commit": "12881e71e07b9927fb4014e1d6b11caa2a261fb2",
+        "url": "https://github.com/AureliusWu/Healing/actions/runs/39528846411"
+      }
+    ],
+    "windows_actual_package": {
+      "status": "passed",
+      "run_id": 39528127729
+    },
+    "public_pwa": {
+      "status": "passed",
+      "url": "https://aureliuswu.github.io/Healing/",
+      "run_id": 39528846411
+    },
+    "release": {
+      "status": "published",
+      "version": "1.2.1",
+      "tag": "v1.2.1",
+      "tag_commit": "12881e71e07b9927fb4014e1d6b11caa2a261fb2",
+      "prerelease": false,
+      "url": "https://github.com/AureliusWu/Healing/releases/tag/v1.2.1",
+      "assets": [
+        {
+          "name": "MoistHealing-1.2.1-x64-Portable.exe",
+          "bytes": 122408035,
+          "sha256": "sha256:b79c52d4f42e1295560f20dc875477ad5f2cfceeb41a0809080c033115db848b"
+        },
+        {
+          "name": "MoistHealing-1.2.1-x64-Setup.exe",
+          "bytes": 122642293,
+          "sha256": "sha256:77ef7ceb247c37cd25a2fb21eb679e634b6ce74369f5e34f0a2a2304928f48d8"
+        },
+        {
+          "name": "MoistHealing-PWA-1.2.1.zip",
+          "bytes": 10793869,
+          "sha256": "sha256:c21aa638162aa03a0859ec290e75a246ca990f9d7a7c9449f5f3a21ffd9b6a51"
+        },
+        {
+          "name": "release.json",
+          "bytes": 293,
+          "sha256": "sha256:d2d655c4c417a1727b42c18c0a428951834ac9d8da983659ced6f952e6379116"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "bytes": 373,
+          "sha256": "sha256:dcab69431a9386f01d1332d69b8e12537683e3e16a89f806bb9ed4cf35c23f7a"
+        }
+      ]
+    }
   },
   "fingerprints": {
     "src/game/sceneLoop.ts": "96a6297419f4f89b5713e13f255d9eeb15d59d6ee8cd6905261c35a84c38d518",
     "tests/scene-loop.test.ts": "29cc6c024bae0bbc8783df5a2d3309a3a99e67aaeaf39c539b1b411167a792c4"
+  },
+  "runtime_commit": "12881e71e07b9927fb4014e1d6b11caa2a261fb2",
+  "ci_browser": {
+    "passed": 81,
+    "skipped": 3,
+    "failed": 0
   }
 }
