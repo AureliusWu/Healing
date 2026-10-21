@@ -1,124 +1,26 @@
 {
   "schema": 1,
   "project": "Healing",
-  "sourceRun": 39522076326,
+  "sourceRun": 39525784381,
   "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
   "target": 427,
-  "accepted": 421,
-  "pendingCount": 6,
+  "accepted": 425,
+  "pendingCount": 2,
   "pending": [
-    {
-      "id": "healing-corridor--002",
-      "text": "看不见就别挤了。我一米八都只看见三十个后脑勺。",
-      "status": "needs_review",
-      "asr": {
-        "transcript": "看不见就别挤了我1米8都只看见30个后脑烧",
-        "cer": 0.238095,
-        "polarityCountsMatch": true,
-        "passed": false,
-        "phoneticReview": {
-          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-          "expected": "看不见就别挤了我一米八都只看见三十个后脑勺",
-          "observed": "看不见就别挤了我1米8都只看见30个后脑烧",
-          "expectedSyllables": [],
-          "observedSyllables": [],
-          "sameLength": true,
-          "polarityCountsMatch": true,
-          "passed": false,
-          "humanListening": false
-        }
-      },
-      "error": null
-    },
-    {
-      "id": "healing-lunch-chen--013",
-      "text": "“我要午睡”够不够重要？",
-      "status": "needs_review",
-      "asr": {
-        "transcript": "我要五岁 够不够重要",
-        "cer": 0.222222,
-        "polarityCountsMatch": true,
-        "passed": false,
-        "phoneticReview": {
-          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-          "expected": "我要午睡够不够重要",
-          "observed": "我要五岁够不够重要",
-          "expectedSyllables": [
-            "wo3",
-            "yao4",
-            "wu3",
-            "shui4",
-            "gou4",
-            "bu4",
-            "gou4",
-            "zhong4",
-            "yao4"
-          ],
-          "observedSyllables": [
-            "wo3",
-            "yao4",
-            "wu3",
-            "sui4",
-            "gou4",
-            "bu4",
-            "gou4",
-            "zhong4",
-            "yao4"
-          ],
-          "sameLength": true,
-          "polarityCountsMatch": true,
-          "passed": false,
-          "humanListening": false
-        }
-      },
-      "error": null
-    },
-    {
-      "id": "healing-rain-lin--002",
-      "text": "那知遥呢？",
-      "status": "needs_review",
-      "asr": {
-        "transcript": "那智陽呢?",
-        "cer": 0.5,
-        "polarityCountsMatch": true,
-        "passed": false,
-        "phoneticReview": {
-          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-          "expected": "那知遥呢",
-          "observed": "那智阳呢",
-          "expectedSyllables": [
-            "na4",
-            "zhi1",
-            "yao2",
-            "ne5"
-          ],
-          "observedSyllables": [
-            "na4",
-            "zhi4",
-            "yang2",
-            "ne5"
-          ],
-          "sameLength": true,
-          "polarityCountsMatch": true,
-          "passed": false,
-          "humanListening": false
-        }
-      },
-      "error": null
-    },
     {
       "id": "healing-c2-finish--006",
       "text": "程屿，下周记得还我直尺！",
       "status": "needs_review",
       "asr": {
-        "transcript": "乘以下周记得还我支持",
+        "transcript": "终于,下周记得还我支持",
         "cer": 0.4,
         "polarityCountsMatch": true,
         "passed": false,
+        "expectedSpokenText": "程屿，下周记得还我直尺！",
         "phoneticReview": {
-          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "程屿下周记得还我直尺",
-          "observed": "乘以下周记得还我支持",
+          "observed": "终于下周记得还我支持",
           "expectedSyllables": [
             "cheng2",
             "yu3",
@@ -132,8 +34,8 @@
             "chi3"
           ],
           "observedSyllables": [
-            "cheng2",
-            "yi3",
+            "zhong1",
+            "yu2",
             "xia4",
             "zhou1",
             "ji4",
@@ -156,14 +58,15 @@
       "text": "现在能印？",
       "status": "needs_review",
       "asr": {
-        "transcript": "現在能贏",
+        "transcript": "現在能應",
         "cer": 0.25,
         "polarityCountsMatch": true,
         "passed": false,
+        "expectedSpokenText": "现在能印？",
         "phoneticReview": {
-          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+          "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "现在能印",
-          "observed": "现在能赢",
+          "observed": "现在能应",
           "expectedSyllables": [
             "xian4",
             "zai4",
@@ -174,50 +77,7 @@
             "xian4",
             "zai4",
             "neng2",
-            "ying2"
-          ],
-          "sameLength": true,
-          "polarityCountsMatch": true,
-          "passed": false,
-          "humanListening": false
-        }
-      },
-      "error": null
-    },
-    {
-      "id": "healing-c3-lin-talk--003",
-      "text": "周一继续？像布置作业。",
-      "status": "needs_review",
-      "asr": {
-        "transcript": "终于继续向布置作业",
-        "cer": 0.333333,
-        "polarityCountsMatch": true,
-        "passed": false,
-        "phoneticReview": {
-          "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-          "expected": "周一继续像布置作业",
-          "observed": "终于继续向布置作业",
-          "expectedSyllables": [
-            "zhou1",
-            "yi1",
-            "ji4",
-            "xu4",
-            "xiang4",
-            "bu4",
-            "zhi4",
-            "zuo4",
-            "ye4"
-          ],
-          "observedSyllables": [
-            "zhong1",
-            "yu2",
-            "ji4",
-            "xu4",
-            "xiang4",
-            "bu4",
-            "zhi4",
-            "zuo4",
-            "ye4"
+            "ying1"
           ],
           "sameLength": true,
           "polarityCountsMatch": true,

@@ -12,17 +12,18 @@
   "textSha256": "310fc044b92ab652dd72e3d8134d21fb2e1f29192d9c73cb6d05fc6ed71bff45",
   "medium": "spoken",
   "requestSha256": "5ca711fa909fc3fcb8a38083f93d0cd1449e51a47f263ec50872adcf004e2003",
-  "attempt": 8,
-  "status": "needs_review",
+  "attempt": 9,
+  "status": "accepted",
   "asr": {
-    "transcript": "终于继续向布置作业",
+    "transcript": "周一继续 向部制作业",
     "cer": 0.333333,
     "polarityCountsMatch": true,
-    "passed": false,
+    "passed": true,
+    "expectedSpokenText": "周一继续？像布置作业。",
     "phoneticReview": {
-      "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
+      "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
       "expected": "周一继续像布置作业",
-      "observed": "终于继续向布置作业",
+      "observed": "周一继续向部制作业",
       "expectedSyllables": [
         "zhou1",
         "yi1",
@@ -35,8 +36,8 @@
         "ye4"
       ],
       "observedSyllables": [
-        "zhong1",
-        "yu2",
+        "zhou1",
+        "yi1",
         "ji4",
         "xu4",
         "xiang4",
@@ -47,82 +48,41 @@
       ],
       "sameLength": true,
       "polarityCountsMatch": true,
-      "passed": false,
+      "passed": true,
       "humanListening": false
     },
-    "model": "Systran/faster-whisper-medium",
-    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
-    "audioSha256": "f89dac4c40b29808823e79a89566480012a8002ce129d8b0cbba5323cd5ce217"
+    "acceptance": "exact_toned_homophones"
   },
-  "duration": 2.56,
-  "wallSeconds": 11.121,
+  "duration": 2.4,
+  "wallSeconds": 119.367,
   "loudness": {
-    "input_i": "-29.33",
-    "input_tp": "-14.59",
+    "input_i": "-27.54",
+    "input_tp": "-12.32",
     "input_lra": "0.00",
-    "input_thresh": "-39.56",
-    "output_i": "-19.99",
-    "output_tp": "-5.26",
+    "input_thresh": "-37.78",
+    "output_i": "-20.01",
+    "output_tp": "-4.78",
     "output_lra": "0.00",
-    "output_thresh": "-30.22",
+    "output_thresh": "-30.26",
     "normalization_type": "linear",
-    "target_offset": "-0.01"
+    "target_offset": "0.01"
   },
   "files": {
     "raw": {
       "path": "healing-c3-lin-talk--003/raw.wav",
-      "bytes": 245840,
-      "sha256": "ad2628886560ccf1c586cc8dae589df7c08743b0aba3fee5cc4ca36ab8898ec1"
+      "bytes": 230480,
+      "sha256": "df08559d0b0a23e914be522c4eb58914a646982305d7226672d510e023932baa"
     },
     "master": {
       "path": "healing-c3-lin-talk--003/master.wav",
-      "bytes": 122958,
-      "sha256": "eff29c7d7962a23a45d48459dfa733b582cc795b92c42d52f372e98ffc52b2a8"
+      "bytes": 115278,
+      "sha256": "b7bad074ee8532c58999124102d9da380536cc28e899602d1c97b1217e022974"
     },
     "runtime": {
       "path": "healing-c3-lin-talk--003/runtime.ogg",
-      "bytes": 21105,
-      "sha256": "f89dac4c40b29808823e79a89566480012a8002ce129d8b0cbba5323cd5ce217"
+      "bytes": 19759,
+      "sha256": "7b5033f1cec0c2b39308f49875356daf655a1bd372400e1eee3d3e79c2a9ad77"
     }
   },
-  "recoveredFromRun": 39522076326,
-  "asrReviewHistory": [
-    {
-      "transcript": "终于继续向布置作业",
-      "cer": 0.333333,
-      "polarityCountsMatch": true,
-      "passed": false,
-      "phoneticReview": {
-        "method": "exact_all_syllables_and_tones_pypinyin_0.53.0",
-        "expected": "周一继续像布置作业",
-        "observed": "终于继续向布置作业",
-        "expectedSyllables": [
-          "zhou1",
-          "yi1",
-          "ji4",
-          "xu4",
-          "xiang4",
-          "bu4",
-          "zhi4",
-          "zuo4",
-          "ye4"
-        ],
-        "observedSyllables": [
-          "zhong1",
-          "yu2",
-          "ji4",
-          "xu4",
-          "xiang4",
-          "bu4",
-          "zhi4",
-          "zuo4",
-          "ye4"
-        ],
-        "sameLength": true,
-        "polarityCountsMatch": true,
-        "passed": false,
-        "humanListening": false
-      }
-    }
-  ]
+  "recoveredFromRun": 39525784381
 }
