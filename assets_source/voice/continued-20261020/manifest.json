@@ -16942,14 +16942,14 @@
       "attempt": 17,
       "status": "needs_review",
       "asr": {
-        "transcript": "成语 下周记得还我咫尺",
-        "cer": 0.3,
+        "transcript": "诚宇,下周记得还我支持!",
+        "cer": 0.4,
         "polarityCountsMatch": true,
         "passed": false,
         "phoneticReview": {
           "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "程屿下周记得还我直尺",
-          "observed": "成语下周记得还我咫尺",
+          "observed": "诚宇下周记得还我支持",
           "expectedSyllables": [
             "cheng2",
             "yu3",
@@ -16971,16 +16971,16 @@
             "de5",
             "hai2",
             "wo3",
-            "zhi3",
-            "chi3"
+            "zhi1",
+            "chi2"
           ],
           "sameLength": true,
           "polarityCountsMatch": true,
           "passed": false,
           "humanListening": false
         },
-        "model": "Systran/faster-whisper-medium",
-        "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+        "model": "Systran/faster-whisper-large-v3",
+        "revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
         "audioSha256": "ee00bd6e7274c10be2357b93c619614028440e7de1d053f5eafce3d7444c1d87"
       },
       "duration": 2.72,
@@ -17061,6 +17061,48 @@
             "passed": false,
             "humanListening": false
           }
+        },
+        {
+          "transcript": "成语 下周记得还我咫尺",
+          "cer": 0.3,
+          "polarityCountsMatch": true,
+          "passed": false,
+          "phoneticReview": {
+            "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
+            "expected": "程屿下周记得还我直尺",
+            "observed": "成语下周记得还我咫尺",
+            "expectedSyllables": [
+              "cheng2",
+              "yu3",
+              "xia4",
+              "zhou1",
+              "ji4",
+              "de5",
+              "hai2",
+              "wo3",
+              "zhi2",
+              "chi3"
+            ],
+            "observedSyllables": [
+              "cheng2",
+              "yu3",
+              "xia4",
+              "zhou1",
+              "ji4",
+              "de5",
+              "hai2",
+              "wo3",
+              "zhi3",
+              "chi3"
+            ],
+            "sameLength": true,
+            "polarityCountsMatch": true,
+            "passed": false,
+            "humanListening": false
+          },
+          "model": "Systran/faster-whisper-medium",
+          "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+          "audioSha256": "ee00bd6e7274c10be2357b93c619614028440e7de1d053f5eafce3d7444c1d87"
         }
       ]
     },
@@ -23734,38 +23776,43 @@
   "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
   "sourceRun": 39562413634,
   "reviewModel": {
-    "id": "Systran/faster-whisper-medium",
-    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "id": "Systran/faster-whisper-large-v3",
+    "revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
     "files": [
       {
         "path": ".gitattributes",
-        "sha256": "db7c0371f46f0840b8f25794c1e3321c9b5820a8cb6ba9694a46fc64b8fae5a6",
-        "bytes": 1477
+        "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+        "bytes": 1519
       },
       {
         "path": "README.md",
-        "sha256": "a30144a6232423e5e4e9e17952b5a543a506dc0cb9de02fd9d875d7ec40fef83",
-        "bytes": 2005
+        "sha256": "39e96252229f5a3d0141dc81afb65a36fd205461ac21e5b70f2cd1248ef0082c",
+        "bytes": 2052
       },
       {
         "path": "config.json",
-        "sha256": "3622a2ddc41ec0e0fd4e68c13c6830f03b90c38d89aaad184de02c8c642cf807",
-        "bytes": 2257
+        "sha256": "a9306624f5ec14270a014b647e5c316b6e03a662c369758d1b90697a7b0655b9",
+        "bytes": 2394
       },
       {
         "path": "model.bin",
-        "sha256": "9b45e1009dcc4ab601eff815b61d80e60ce3fd8c74c1a14f4a282258286b51ae",
-        "bytes": 1527906378
+        "sha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1",
+        "bytes": 3087284237
+      },
+      {
+        "path": "preprocessor_config.json",
+        "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+        "bytes": 340
       },
       {
         "path": "tokenizer.json",
-        "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
-        "bytes": 2203239
+        "sha256": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca",
+        "bytes": 2480617
       },
       {
-        "path": "vocabulary.txt",
-        "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
-        "bytes": 459861
+        "path": "vocabulary.json",
+        "sha256": "c69260f2ab26d659b7c398f9a2b2b48ed0df16c3b47d7326782fd9cba71690c1",
+        "bytes": 1068114
       }
     ],
     "networkPolicy": "network_syscalls_denied_and_telemetry_disabled"

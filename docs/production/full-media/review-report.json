@@ -10,14 +10,14 @@
       "text": "程屿，下周记得还我直尺！",
       "status": "needs_review",
       "asr": {
-        "transcript": "成语 下周记得还我咫尺",
-        "cer": 0.3,
+        "transcript": "诚宇,下周记得还我支持!",
+        "cer": 0.4,
         "polarityCountsMatch": true,
         "passed": false,
         "phoneticReview": {
           "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "程屿下周记得还我直尺",
-          "observed": "成语下周记得还我咫尺",
+          "observed": "诚宇下周记得还我支持",
           "expectedSyllables": [
             "cheng2",
             "yu3",
@@ -39,16 +39,16 @@
             "de5",
             "hai2",
             "wo3",
-            "zhi3",
-            "chi3"
+            "zhi1",
+            "chi2"
           ],
           "sameLength": true,
           "polarityCountsMatch": true,
           "passed": false,
           "humanListening": false
         },
-        "model": "Systran/faster-whisper-medium",
-        "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+        "model": "Systran/faster-whisper-large-v3",
+        "revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
         "audioSha256": "ee00bd6e7274c10be2357b93c619614028440e7de1d053f5eafce3d7444c1d87"
       }
     }
@@ -56,8 +56,8 @@
   "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
   "archive": "assets_source/voice/continued-20261020",
   "reviewModel": {
-    "id": "Systran/faster-whisper-medium",
-    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f"
+    "id": "Systran/faster-whisper-large-v3",
+    "revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478"
   },
   "humanListening": false,
   "runtimeIntegration": "pending",
