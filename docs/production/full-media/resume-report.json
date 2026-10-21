@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "Healing",
-  "sourceRun": 39569402205,
+  "sourceRun": 39572677289,
   "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
   "target": 427,
   "accepted": 426,
@@ -12,7 +12,7 @@
       "text": "程屿，下周记得还我直尺！",
       "status": "needs_review",
       "asr": {
-        "transcript": "成语下周记得还我只只",
+        "transcript": "成语下周记得还我支持",
         "cer": 0.4,
         "polarityCountsMatch": true,
         "passed": false,
@@ -20,7 +20,7 @@
         "phoneticReview": {
           "method": "exact_all_syllables_tones_and_explicit_numeric_values_v2_pypinyin_0.53.0",
           "expected": "程屿下周记得还我直尺",
-          "observed": "成语下周记得还我只只",
+          "observed": "成语下周记得还我支持",
           "expectedSyllables": [
             "cheng2",
             "yu3",
@@ -42,8 +42,8 @@
             "de5",
             "hai2",
             "wo3",
-            "zhi3",
-            "zhi3"
+            "zhi1",
+            "chi2"
           ],
           "sameLength": true,
           "polarityCountsMatch": true,
