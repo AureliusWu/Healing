@@ -1,0 +1,59 @@
+{
+  "version": "1.3.0",
+  "commit": "c7298ad385fa026983e7ea3f6b745d444c139217",
+  "run": 39595336935,
+  "pagesRun": 39596506346,
+  "release": "https://github.com/AureliusWu/Healing/releases/tag/v1.3.0",
+  "assets": [
+    {
+      "id": 662370086,
+      "name": "MoistHealing-1.3.0-x64-Portable.exe",
+      "bytes": 145585388,
+      "sha256": "d359f54a71b92df514f7824637716a087308dc196df80dac3438d53a37a48ac2",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.3.0/MoistHealing-1.3.0-x64-Portable.exe"
+    },
+    {
+      "id": 662369774,
+      "name": "MoistHealing-1.3.0-x64-Setup.exe",
+      "bytes": 145819618,
+      "sha256": "ae2f06f7ce9fe7509924bd0d1e2a76615c26f8a2ccfd32c827886182e990d28a",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.3.0/MoistHealing-1.3.0-x64-Setup.exe"
+    },
+    {
+      "id": 662370336,
+      "name": "MoistHealing-PWA-1.3.0.zip",
+      "bytes": 35245974,
+      "sha256": "db187514376470d4c850d263c05be06e79abe12adc6a50ee8eaf27ed63847d40",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.3.0/MoistHealing-PWA-1.3.0.zip"
+    },
+    {
+      "id": 662370420,
+      "name": "release.json",
+      "bytes": 293,
+      "sha256": "d34bb055600126213b8301c19218fbc27d697ca5d397a6dfe6d5db5804475984",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.3.0/release.json"
+    },
+    {
+      "id": 662370440,
+      "name": "SHA256SUMS.txt",
+      "bytes": 373,
+      "sha256": "859182f096c681b20cbc155ffdae59873719a7e3d712ea4fa31ad6e1e0906d4a",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.3.0/SHA256SUMS.txt"
+    }
+  ],
+  "status": "published_and_public_bytes_verified",
+  "checksumEntries": 4,
+  "pwaZipCrc": true,
+  "pwaFiles": 477,
+  "voiceRuntimeFiles": 427,
+  "logicTests": 82,
+  "browserTests": {
+    "passed": 81,
+    "skipped": 3,
+    "skipScope": "device applicability"
+  },
+  "windows": "source, ASAR, installed upgrade passed",
+  "publicPwa": "desktop, portrait and landscape offline checks passed",
+  "humanListening": false,
+  "humanVisualApproval": false
+}

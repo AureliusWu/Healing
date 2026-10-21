@@ -2,7 +2,7 @@
 
 《湿性愈合》的版本更新日志统一保存在 [`docs/releases/`](docs/releases/README.md)。
 
-- 本轮候选：[`v1.3.0`](docs/releases/v1.3.0.md)；发布状态以对应构建、Windows 和线上复验为准。
+- 当前已发布：[`v1.3.0`](docs/releases/v1.3.0.md)，Windows、PWA 与公开下载回读已通过。
 - 完整版本索引：[`docs/releases/README.md`](docs/releases/README.md)
 - 历史基线 `v0.1.0` 也已补录，并明确标注为当时未建立正式 tag / Release 的版本。
 

@@ -1,3 +1,5 @@
+> 2026-10-21：**v1.3.0 全对白与完整角色素材已发布**。Windows 与 PWA 均通过，427 条录音、完整人物图鉴及新场景 / CG 已接入。见[验证凭据](docs/production/PUBLISHED-v1.3.0-full-media.json)与[版本下载](https://github.com/AureliusWu/Healing/releases/tag/v1.3.0)。
+
 > 2026-10-21：v1.2.1 引擎补丁通过本次 Windows、浏览器与公开离线验证；正式版已发布。详见[最终同步记录](docs/production/ENGINE-SYNC-20261021.md)。
 
 > 2026-10-20：**v1.2.0已发布**，新增《七点四十》CG与原创场景配乐。双端构建与公开PWA通过，下载ZIP及新资源字节已回读。[本版凭据](docs/production/SCENE-MEDIA-20261020.json) · [下载](https://github.com/AureliusWu/Healing/releases/tag/v1.2.0)。
