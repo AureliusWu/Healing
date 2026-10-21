@@ -1,0 +1,63 @@
+name: Review rejected immutable speech with larger ASR
+on:
+  push:
+    branches: [main]
+    paths: ['docs/production/full-media/review-batch.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: continue-full-dialogue-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      DO_NOT_TRACK: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install independent author-side speech checker
+        run: python -m pip install faster-whisper==1.2.1 opencc-python-reimplemented==0.1.7 pypinyin==0.53.0
+      - uses: actions/cache@v4
+        with:
+          path: .runtime/review-asr-medium
+          key: review-asr-medium-08e178d48790-v1
+      - name: Download fixed larger model before denying inference network access
+        run: |
+          python - <<'PY'
+          from huggingface_hub import snapshot_download
+          snapshot_download('Systran/faster-whisper-medium', revision='08e178d48790749d25932bbc082711ddcfdfbc4f', local_dir='.runtime/review-asr-medium')
+          PY
+      - name: Read newest checkpoint and retain exact audio bytes
+        run: |
+          git pull --ff-only origin main
+          python tools/production/review_rejected_voice.py --plan docs/production/full-media/dialogue-plan.json --source assets_source/voice/continued-20261020 --model-dir .runtime/review-asr-medium --report docs/production/full-media/review-report.json
+      - name: Keep independently measured transcript evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: larger-asr-review-${{ github.sha }}
+          path: |
+            assets_source/voice/continued-20261020/manifest.json
+            assets_source/voice/continued-20261020/**/record.json
+            docs/production/full-media/review-report.json
+          if-no-files-found: error
+          retention-days: 30
+      - name: Preserve this checked production checkpoint
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets_source/voice/continued-20261020 docs/production/full-media/review-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'production: retain larger independent ASR evidence and exact recording replays [skip ci]'
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
