@@ -19,9 +19,17 @@ def load_directions(path, plan):
         note = item.get('instruction')
         if not isinstance(note, str) or not note.strip() or len(note) > 600:
             raise ValueError('Invalid retake performance instruction')
+        segments = item.get('segments')
+        if segments is not None:
+            clean = lambda value: ''.join(c for c in value if c.isalnum())
+            if (not isinstance(segments, list) or not 1 <= len(segments) <= 8
+                    or any(not isinstance(s, str) or not s.strip() for s in segments)
+                    or clean(''.join(segments)) != clean(row.get('spokenText', row['text']))):
+                raise ValueError('Performance segmentation changes source words')
         result[row['id']] = {
             'instruction': row['instruct'] + ' ' + note,
             'note': note,
+            **({'segments': segments} if segments is not None else {}),
             'textSha256': row['textSha256'],
             'directionSha256': hashlib.sha256(json.dumps(item, ensure_ascii=False, sort_keys=True).encode()).hexdigest(),
         }
