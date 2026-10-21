@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "directions": [
+    {
+      "id": "healing-c2-finish--006",
+      "textSha256": "87c0ffffb37daef8db0a3bfcd659d35847e2ac359e25ac7d10ef5c7daa8802c3",
+      "instruction": "只读给定的一句话。人名程屿读 chéng yǔ；还我读 huán wǒ；直尺读 zhí chǐ。名字后稍停，清楚咬字，保留少年的自然口语。不要读拼音、不要补充解释。"
+    },
+    {
+      "id": "healing-c3-print--002",
+      "textSha256": "8fcc354a1a3cf7b83a95a9c381bdcaff45fcbf7535e24f0c5d98c2bdeb34e917",
+      "instruction": "文印老师在问是否可以印刷。印读 yìn，前鼻音 in，第四声，清楚闭合尾音。这句很短，慢一点读完整：现在能印？不要添加字、不要读拼音或解释。"
+    }
+  ]
+}

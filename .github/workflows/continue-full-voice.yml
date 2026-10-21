@@ -84,7 +84,7 @@ jobs:
           key: full-voice-qwen-0c0e3051-asr-536b066-v1
           fail-on-cache-miss: true
       - name: Retry remaining requests with new seeds and unchanged ASR gates
-        run: python tools/production/render_full_voice.py render --plan docs/production/full-media/dialogue-plan.json --model-dir .runtime/full-voice-models/tts --asr-dir .runtime/full-voice-models/asr --output reports/continued/part-${{ matrix.shard }} --shard-index ${{ matrix.shard }} --shard-count ${{ matrix.shardCount }} --threads 4 --attempt-offset $((${{ needs.plan.outputs.attemptOffset }}+3*(${{ github.run_attempt }}-1)))
+        run: python tools/production/render_full_voice.py render --plan docs/production/full-media/dialogue-plan.json --model-dir .runtime/full-voice-models/tts --asr-dir .runtime/full-voice-models/asr --output reports/continued/part-${{ matrix.shard }} --shard-index ${{ matrix.shard }} --shard-count ${{ matrix.shardCount }} --threads 4 --directions docs/production/full-media/retake-directions.json --attempt-offset $((${{ needs.plan.outputs.attemptOffset }}+3*(${{ github.run_attempt }}-1)))
       - uses: actions/upload-artifact@v4
         if: always()
         with:

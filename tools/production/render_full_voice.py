@@ -138,6 +138,8 @@ def verify_record(root, row, record, plan):
 def render(args):
     plan = json.loads(args.plan.read_text(encoding='utf-8'))
     validate_plan(plan)
+    from retake_directions import load_directions
+    directions = load_directions(getattr(args, 'directions', None), plan)
     require(0 <= args.shard_index < args.shard_count <= 128 and 1 <= args.threads <= 16, 'Invalid production shard')
     require(args.model_dir.is_dir() and args.asr_dir.is_dir(), 'Download both pinned models before offline inference')
     require(args.attempt_offset >= 0, 'Invalid retry offset')
@@ -200,7 +202,7 @@ def render(args):
                     np.random.seed(seed % (2 ** 32))
                     with torch.inference_mode():
                         waves, rate = engine.generate_custom_voice(text=text, language='Chinese', speaker=row['voice'],
-                            instruct=row['instruct'], max_new_tokens=512)
+                            instruct=directions.get(row['id'], {}).get('instruction', row['instruct']), max_new_tokens=512)
                     samples = np.asarray(waves[0], dtype=np.float32).reshape(-1)
                     require(rate == 24000 and len(waves) == 1 and np.isfinite(samples).all() and len(samples) > 0, 'Invalid generated speech')
                     if pieces:
@@ -233,6 +235,8 @@ def render(args):
                     'duration': round(len(samples) / 24000, 6), 'wallSeconds': round(time.monotonic() - began, 3),
                     'loudness': loudness, 'files': {key: {'path': file.relative_to(args.output).as_posix(),
                         'bytes': file.stat().st_size, 'sha256': digest(file)} for key, file in [('raw', raw), ('master', master), ('runtime', runtime)]}}
+                if row['id'] in directions:
+                    record['performanceDirection'] = directions[row['id']]
                 save(take / 'take.json', record)
                 records[row['id']] = record
                 checkpoint()
@@ -301,6 +305,7 @@ def main():
     render_parser.add_argument('--threads', type=int, default=4)
     render_parser.add_argument('--limit', type=int)
     render_parser.add_argument('--attempt-offset', type=int, default=0)
+    render_parser.add_argument('--directions', type=Path)
     merge_parser = sub.add_parser('merge')
     merge_parser.add_argument('--plan', type=Path, required=True)
     merge_parser.add_argument('--parts', type=Path, required=True)
