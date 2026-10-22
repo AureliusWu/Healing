@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "date": "2026-10-22",
+  "project": "Healing",
+  "targetVersion": "1.4.0",
+  "baselineCommit": "45d5f4eb693eedc5bdb367f5a1ee1e4026069897",
+  "status": "planned",
+  "gates": {
+    "implementation": "pending",
+    "localValidation": "pending",
+    "windowsRuntime": "pending",
+    "pwaRuntime": "pending",
+    "publicRelease": "pending",
+    "publicReadback": "pending",
+    "fourGameCoexistence": "pending"
+  },
+  "humanReview": "pending-user-consolidated",
+  "evidence": [],
+  "blockers": []
+}
