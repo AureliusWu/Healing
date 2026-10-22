@@ -16,9 +16,9 @@
 
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.1.1**。正式 CI 通过真实安装升级与公开三种屏幕规格的断网续读，五项公开下载也已实际回读，证据见 [发布记录](docs/production/PUBLISHED-v1.0.8.json)。
+青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.3.0**。427 条人物对白、十二位角色图鉴和新增场景 / CG 已接入；真实安装升级、公开三屏断网及五项公开下载回读通过，证据见 [发布记录](docs/production/PUBLISHED-v1.3.0-full-media.json)。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.1.0)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.3.0)
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥和许棠相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
 
@@ -40,8 +40,8 @@
 ## 可玩的内容
 
 - 三章完结，65 个场景、7 次选择、1,296 种组合；保留第一章 3 种章节结局，追加 4 个最终结局。
-- 四张后续章节背景与五张事件 CG；漏句样张随实际阅读解锁，章首重读、结局重读、事件画面和音乐鉴赏保留真实路线。
-- 三位主要女角色沿用 v0.1.4 的统一二维美术；每人六种表情与完整三视图，可在角色档案浏览。生日、身高、体重保留，恢复十七岁的高二校园设定。
+- 三章场景与事件 CG 随实际阅读解锁；v1.3.0 新增四处背景和三幅事件画面，章首重读、结局重读与音乐鉴赏保留真实路线。
+- 十二位角色图鉴；三位主要女角色保留六种表情与完整三视图，九位配角补齐表情立绘。延续十七岁的高二校园设定。
 - 全窗口场景画面 + 底部一体化半透明阅读层；透明度可调，隐藏界面可完整欣赏背景与立绘。
 - 逐字文本、自动阅读、快进、已读回看与原生重读、结局回忆手册；后台暂停打字，回到前台继续原字数。
 - 自动存档 + 3 个手动存档位；JSON 导入/导出，在手机与电脑之间迁移进度。
@@ -49,7 +49,8 @@
 - 标题页、阅读界面与设置提供全屏入口；手机网页采用页面内沉浸模式，避免 Android Chrome 无法由页面关闭的系统全屏提示；桌面继续使用系统全屏。
 - 键盘操作、减少动态效果选项。
 - 安装说明、完整离线下载状态、下载失败重试与版本检查。
-- 六首原创 Web Audio 配乐、场景雨声与操作提示音，可独立控制；无账号、无 API 密钥、无运行时外部请求。
+- 六首原创 Web Audio 配乐、《七点四十》场景配乐、雨声与操作提示音，可独立控制；无账号、无 API 密钥、无运行时外部请求。
+- 427 条全分支人物对白使用离线录音，支持独立音量、暂停与已读重听；旁白保留文字，自动阅读等待当前语音完成。
 
 ## 两个客户端，一套游戏
 
@@ -64,7 +65,7 @@ PWA 安装清单指定 `orientation: landscape`，支持的系统安装后优先
 
 ## 开发与游玩
 
-[共享制作契约](docs/production/SHARED-VN.md) · [剧情与美术协作方法](docs/production/CREATIVE-PLAYBOOK.md) · [可复用素材与工具](docs/production/REUSABLE-MATERIALS.md) · [v1.0.8 更新](docs/releases/v1.0.8.md)。素材目录保留许可证、摘要和项目专用边界；缺失的原始美术与完整字体源会明确标注。
+[共享制作契约](docs/production/SHARED-VN.md) · [剧情与美术协作方法](docs/production/CREATIVE-PLAYBOOK.md) · [可复用素材与工具](docs/production/REUSABLE-MATERIALS.md) · [v1.3.0 更新](docs/releases/v1.3.0.md)。素材目录保留许可证、摘要和项目专用边界；缺失的原始美术与完整字体源会明确标注。
 
 需要 Node.js 24（或满足 Vite 8 要求的 Node.js 22.12+）。
 
@@ -96,7 +97,7 @@ npm run desktop:win   # 在 Windows 生成 NSIS 安装包和便携 EXE
 
 直接打开 [游戏网页](https://aureliuswu.github.io/Healing/)，标题页的「安装与离线」提供安装操作、下载状态与更新检查。离线状态就绪后可以断网重开。
 
-[v1.0.8 下载页](https://github.com/AureliusWu/Healing/releases/tag/v1.0.8) 提供 Windows 安装版、便携版及 PWA ZIP，包含文件 SHA-256 与实际构建提交记录。五项公开下载已实际回读，摘要与四行校验清单全部一致；两份 EXE 与正式 CI 附件字节一致，PWA ZIP 的全部 32 个文件与同次 CI 静态包一致。该下载不依赖 Actions 产物保留期限。
+[v1.3.0 下载页](https://github.com/AureliusWu/Healing/releases/tag/v1.3.0) 提供 Windows 安装版、便携版及 PWA ZIP，附 SHA-256 与实际构建记录。五项公开下载及四行校验清单已回读；本版构建、线上离线检查与原包来源见 [发布凭据](docs/production/PUBLISHED-v1.3.0-full-media.json)，独立再次下载见 [2026-10-22 回读](docs/production/PUBLIC-READBACK-20261022.json)。该下载不依赖 Actions 产物保留期限。
 
 每次推送 `main` 会运行 [Build game](https://github.com/AureliusWu/Healing/actions/workflows/build.yml)：先验证剧情与手机/电脑 PWA，再在 Windows 启动实际 Electron 程序、生成安装包并启动实际打包程序复验。全部成功后，对应版本的安装包和 PWA 会发布到 Releases。需要发布新版本时，同时更新 `package.json`、锁文件与 `docs/releases/v版本号.md`；已发布版本不被覆盖。对应运行页面也保留 Artifacts：
 
@@ -140,3 +141,7 @@ npm run test:desktop:packaged # Windows 打包后，检查实际 ASAR 桌面程�
 ## 授权
 
 项目代码和原创文本使用 [MIT](LICENSE)。AI 美术来源与生成记录见素材文档。游戏内字体使用 Noto Serif SC 子集，遵循 [SIL Open Font License](docs/OFL-NotoSerifSC.txt)。两份许可文本也随 PWA 和桌面包提供于 `licenses/`。
+
+## 四作共存复验 · 2026-10-22
+
+Rain 1.5.0、Healing 1.3.0、NetLove 0.5.0 与 Circuit 1.7.0 在同一独立浏览器中完成安装缓存与四站断网重开，1,248 条缓存与实际阅读进度保留，页面错误为零。[本轮闭环与素材审计](docs/production/FOUR-GAMES-CLOSURE-20261022.md)。

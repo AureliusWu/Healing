@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-22T04:02:58.202127+00:00",
+  "scope": "Current source dialogue, retained accepted recordings, runtime bytes and new image decoding; platform publication recorded separately.",
+  "projects": [
+    {
+      "project": "Rain",
+      "sourceCommit": "e4856b5a5f44803e1c1b263534702f5d7d8c80dc",
+      "semanticSha256": "43ef805dc1a881d5fc4736841c0ebee358707ee7db17982ece91fb23437104dd",
+      "sourceDialogueMatches": true,
+      "recordingPronunciationOverrides": [],
+      "runtimeValidation": {
+        "project": "Rain",
+        "target": 306,
+        "accepted": 306,
+        "images": 12,
+        "decoded": true,
+        "complete": true,
+        "humanListening": false,
+        "status": "passed"
+      },
+      "evidenceSha256": {
+        "docs/production/full-media/dialogue-plan.json": "e7e6be5dd43da9df7a9104d5fe20e3d501a40344674b7a0ffcdd4bf0bfaa7357",
+        "docs/production/full-media/runtime-voice.json": "14947bec50a35c1f475c17730100013f5630e8ed9359e0121675260c62b474f7",
+        "docs/production/full-media/runtime-art.json": "4b8d608e67957615bf692ecbf4f1a7a7f87d068850a1df4b23aa00831c16f2c0"
+      },
+      "localChecks": {
+        "pythonTests": 246,
+        "authorValidators": "passed"
+      }
+    },
+    {
+      "project": "Healing",
+      "sourceCommit": "27f7c731fe56685052a2a94c73fcdf8e3512b67b",
+      "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
+      "sourceDialogueMatches": true,
+      "recordingPronunciationOverrides": [],
+      "runtimeValidation": {
+        "project": "Healing",
+        "target": 427,
+        "accepted": 427,
+        "images": 16,
+        "decoded": true,
+        "complete": true,
+        "humanListening": false,
+        "status": "passed"
+      },
+      "evidenceSha256": {
+        "docs/production/full-media/dialogue-plan.json": "7d0309cd80cb054f5158f170e95775bc6c145e59efba4dd4b9a93e069cf57b39",
+        "docs/production/full-media/runtime-voice.json": "7ccce145a94c2bf4717706ac4ec5e598c71b96b88079cadff01c26dee0e27614",
+        "docs/production/full-media/runtime-art.json": "682ee1532bd2b904d9beec6e99777954dd9b581d15f74198aaae618dbb4cf0a3"
+      },
+      "localChecks": {
+        "logicTests": 82,
+        "productionBuild": "passed"
+      }
+    },
+    {
+      "project": "NetLove",
+      "sourceCommit": "fe19aa8be999f50b322e6c05eb0510808a0b8689",
+      "semanticSha256": "63f50b8495ced4c2206b3555a804fde746847323b595ea2ec9ec14c2ff2b5573",
+      "sourceDialogueMatches": true,
+      "recordingPronunciationOverrides": [],
+      "runtimeValidation": {
+        "project": "NetLove",
+        "target": 220,
+        "accepted": 220,
+        "images": 4,
+        "decoded": true,
+        "complete": true,
+        "humanListening": false,
+        "status": "passed"
+      },
+      "evidenceSha256": {
+        "docs/production/full-media/dialogue-plan.json": "9e7af75e26c776f28dba9b5742f4110e610bc10183aafa8ac5d6526e2cf17f25",
+        "docs/production/full-media/runtime-voice.json": "b055a9f8b81bc60aa0eb9bc09887b6b0ce76354054711e3742978a6d552ec63b",
+        "docs/production/full-media/runtime-art.json": "cd00c32b446d362f680dcaef387ea22a3bb7a37c5931ac28bb817f77767d8559"
+      },
+      "localChecks": {
+        "logicTests": 67,
+        "productionBuild": "passed"
+      }
+    },
+    {
+      "project": "Circuit",
+      "sourceCommit": "a6d02111eb70865bc7e73a1344039327404ccfe4",
+      "semanticSha256": "68824bc923500abfaffa5e94195c361feda70c878d95e6218dfb6eaa527e709f",
+      "sourceDialogueMatches": true,
+      "recordingPronunciationOverrides": [
+        {
+          "id": "circuit-return-visit--compare--q01--01",
+          "text": "00:03，林岚收到过。",
+          "spokenText": "零点零三分，林岚收到过。"
+        }
+      ],
+      "runtimeValidation": {
+        "project": "Circuit",
+        "target": 403,
+        "accepted": 403,
+        "images": 14,
+        "decoded": true,
+        "complete": true,
+        "humanListening": false,
+        "status": "passed"
+      },
+      "evidenceSha256": {
+        "docs/production/full-media/dialogue-plan.json": "c30db7e891146de98a1edf62f0b56ea66790f81012f40f3b46b76d5e2db8a9b1",
+        "docs/production/full-media/runtime-voice.json": "59fa7181fba2bf4c1965aca74a7e525b48098d9eacaddd18f6e21438fae33b43",
+        "docs/production/full-media/runtime-art.json": "0430ebf4c77e81bf541ca5fa72b2315f2009e2c4cfd910e973f2fda7d8eb4731"
+      },
+      "localChecks": {
+        "logicTests": 97,
+        "productionBuild": "passed"
+      }
+    }
+  ],
+  "totals": {
+    "dialogueBindings": 1356,
+    "newRuntimeImages": 46,
+    "humanListening": false
+  }
+}
