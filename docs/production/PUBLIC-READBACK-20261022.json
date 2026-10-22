@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "checkedAt": "2026-10-22T02:28:28.218Z",
+  "project": "Healing",
+  "status": "public_assets_verified",
+  "assets": [
+    {
+      "repo": "Healing",
+      "name": "MoistHealing-1.3.0-x64-Portable.exe",
+      "id": 662370086,
+      "bytes": 145585388,
+      "sha256": "d359f54a71b92df514f7824637716a087308dc196df80dac3438d53a37a48ac2",
+      "verified": true
+    },
+    {
+      "repo": "Healing",
+      "name": "MoistHealing-1.3.0-x64-Setup.exe",
+      "id": 662369774,
+      "bytes": 145819618,
+      "sha256": "ae2f06f7ce9fe7509924bd0d1e2a76615c26f8a2ccfd32c827886182e990d28a",
+      "verified": true
+    },
+    {
+      "repo": "Healing",
+      "name": "MoistHealing-PWA-1.3.0.zip",
+      "id": 662370336,
+      "bytes": 35245974,
+      "sha256": "db187514376470d4c850d263c05be06e79abe12adc6a50ee8eaf27ed63847d40",
+      "verified": true,
+      "zipCrc": true,
+      "zipFiles": 485
+    },
+    {
+      "repo": "Healing",
+      "name": "release.json",
+      "id": 662370420,
+      "bytes": 293,
+      "sha256": "d34bb055600126213b8301c19218fbc27d697ca5d397a6dfe6d5db5804475984",
+      "verified": true
+    },
+    {
+      "repo": "Healing",
+      "name": "SHA256SUMS.txt",
+      "id": 662370440,
+      "bytes": 373,
+      "sha256": "859182f096c681b20cbc155ffdae59873719a7e3d712ea4fa31ad6e1e0906d4a",
+      "verified": true
+    }
+  ],
+  "checksumsVerified": 4,
+  "pwaZipCrc": "passed",
+  "humanListening": false,
+  "humanVisualApproval": false,
+  "note": "Independent download of existing immutable release assets; this documentation commit does not rebuild the player."
+}

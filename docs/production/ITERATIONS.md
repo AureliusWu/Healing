@@ -1,3 +1,9 @@
+# 2026-10-22 · 全量素材发行独立回读
+
+问题：路线页仍显示早期 v1.1.1，已发布 v1.3.0 的当前说明不完整。已同步路线页，独立下载五份原公开附件并核对大小/SHA-256、四条公开校验和和 PWA ZIP CRC。机器结果留在 `PUBLIC-READBACK-20261022.json`；本次仅记录原发布字节，不重建客户端，不借此新增 Windows 或真人验收声明。
+
+---
+
 ## 2026-10-21 · v1.3.0 全对白与完整角色资源已发布
 
 427 条配音、十二位角色、三幅新 CG 与四处新场景已进入 Windows 和 PWA。精确运行提交 `c7298ad385fa026983e7ea3f6b745d444c139217`；[Build game 39595336935](https://github.com/AureliusWu/Healing/actions/runs/39595336935) 和 [公开 PWA 39596506346](https://github.com/AureliusWu/Healing/actions/runs/39596506346) 均成功。
