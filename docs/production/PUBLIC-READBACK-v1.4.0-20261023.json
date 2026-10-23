@@ -1,0 +1,96 @@
+{
+  "release": {
+    "id": 421544285,
+    "tag_name": "v1.4.0",
+    "html_url": "https://github.com/AureliusWu/Healing/releases/tag/v1.4.0",
+    "target_commitish": "62f84f73856504f7432e35d970cd35cd8bc5cc21"
+  },
+  "checkedAt": "2026-10-23T14:39:46.272842+00:00",
+  "method": "Anonymous HTTPS download with standard certificate verification; actual full bytes, GitHub asset size and digest, ZIP CRC, and SHA256SUMS entries checked.",
+  "assets": [
+    {
+      "id": 668295366,
+      "name": "release.json",
+      "size": 293,
+      "digest": "sha256:c764cc7c741f713f6896e2e606f3a3d03eb5735f9f41ac7b912babba2ad798da",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.4.0/release.json",
+      "bytes": 293,
+      "sha256": "c764cc7c741f713f6896e2e606f3a3d03eb5735f9f41ac7b912babba2ad798da",
+      "status": "passed"
+    },
+    {
+      "id": 668295400,
+      "name": "SHA256SUMS.txt",
+      "size": 373,
+      "digest": "sha256:dd7d46d01985cedc6a0d8fe601c119893a513fc7ed1a83b0ca042c2d269887aa",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.4.0/SHA256SUMS.txt",
+      "bytes": 373,
+      "sha256": "dd7d46d01985cedc6a0d8fe601c119893a513fc7ed1a83b0ca042c2d269887aa",
+      "status": "passed"
+    },
+    {
+      "id": 668295306,
+      "name": "MoistHealing-PWA-1.4.0.zip",
+      "size": 35248025,
+      "digest": "sha256:95d1940a7e4bacdd40934a241093ba0efe348c742e658f824204c84b4a37e5d7",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.4.0/MoistHealing-PWA-1.4.0.zip",
+      "bytes": 35248025,
+      "sha256": "95d1940a7e4bacdd40934a241093ba0efe348c742e658f824204c84b4a37e5d7",
+      "status": "passed",
+      "zip": {
+        "crc": "passed",
+        "files": 477
+      },
+      "entrypoints": {
+        "index.html": "2112f6fea72bcba74ab8c39ba66d8ae3882907a36c0fffeee39bfa884df72c25",
+        "sw.js": "b8f3f153f079d7533102a993c3b48b950be5e603c4ba3a2e547f70118edbdc94"
+      }
+    },
+    {
+      "id": 668295041,
+      "name": "MoistHealing-1.4.0-x64-Portable.exe",
+      "size": 145587125,
+      "digest": "sha256:415315ebe856071039924e1dbff555b44c2aa8573b62eb93a88299f0043909a7",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.4.0/MoistHealing-1.4.0-x64-Portable.exe",
+      "bytes": 145587125,
+      "sha256": "415315ebe856071039924e1dbff555b44c2aa8573b62eb93a88299f0043909a7",
+      "status": "passed"
+    },
+    {
+      "id": 668294791,
+      "name": "MoistHealing-1.4.0-x64-Setup.exe",
+      "size": 145821367,
+      "digest": "sha256:60486af4aacb2d355fb4bedea291a64fef53366e0e788ed9f4476615ab5c49a2",
+      "url": "https://github.com/AureliusWu/Healing/releases/download/v1.4.0/MoistHealing-1.4.0-x64-Setup.exe",
+      "bytes": 145821367,
+      "sha256": "60486af4aacb2d355fb4bedea291a64fef53366e0e788ed9f4476615ab5c49a2",
+      "status": "passed"
+    }
+  ],
+  "checksumEntries": [
+    "MoistHealing-1.4.0-x64-Setup.exe",
+    "MoistHealing-1.4.0-x64-Portable.exe",
+    "MoistHealing-PWA-1.4.0.zip",
+    "release.json"
+  ],
+  "status": "passed",
+  "runtimeCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
+  "tagCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
+  "tagIdentityMethod": "Local fresh git fetch of public main and tags; exact tag SHA compared to frozen tested runtime commit.",
+  "publicEntrypoints": [
+    {
+      "project": "Healing",
+      "file": "index.html",
+      "status": "passed",
+      "bytes": 1157,
+      "sha256": "2112f6fea72bcba74ab8c39ba66d8ae3882907a36c0fffeee39bfa884df72c25"
+    },
+    {
+      "project": "Healing",
+      "file": "sw.js",
+      "status": "passed",
+      "bytes": 27727,
+      "sha256": "b8f3f153f079d7533102a993c3b48b950be5e603c4ba3a2e547f70118edbdc94"
+    }
+  ]
+}

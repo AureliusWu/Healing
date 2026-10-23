@@ -1,0 +1,11 @@
+{
+  "run": "https://github.com/AureliusWu/Circuit/actions/runs/39972929371",
+  "attempt": 1,
+  "sourceCommit": "4860750b5bc7f7b7658b4a6981759095e07b2175",
+  "artifactId": 12510296803,
+  "artifactSha256": "c312ccc8ebe8c5eeed4d5e4251ace0a2ed7e6596277fd8cd9d290474ead19e4e",
+  "reportSha256": "c9a254fb7c7bc967c3c586b76946d8bf00d78ba7245dc1ece1c27e2969d5e3de",
+  "browser": "156.0.8078.4",
+  "localIndependentReport": "FOUR-GAMES-LIVE-20261023.json",
+  "cachedInventoryIdenticalToIndependentLocalRun": true
+}

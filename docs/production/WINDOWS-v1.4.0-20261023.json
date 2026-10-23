@@ -1,0 +1,29 @@
+{
+  "previousVersion": "1.0.2",
+  "version": "1.4.0",
+  "measuredAt": "2026-10-23T07:09:50.925Z",
+  "installation": "D:\\a\\_temp\\Healing-installed-knyHZv\\game",
+  "stages": [
+    {
+      "name": "baseline-installed",
+      "version": "1.0.2",
+      "smoke": true,
+      "pid": 7880
+    },
+    {
+      "name": "upgrade-installed",
+      "version": "1.4.0",
+      "sameInstallation": true,
+      "sameProfile": true,
+      "actualPriorSaveRestored": true,
+      "smoke": true
+    }
+  ],
+  "baselineInstallerSha256": "10bf1c8871bb2212c87e3dcbb52b8f262d92aeb3911a5d3a382ee03733b59e6b",
+  "currentInstallerSha256": "60486af4aacb2d355fb4bedea291a64fef53366e0e788ed9f4476615ab5c49a2",
+  "baselineExecutableVersion": "1.0.2",
+  "upgradedExecutableVersion": "1.4.0",
+  "installedAsarSha256": "6201fa7e665f0668c9b2596b8a720cbec404c3deacbac88ea03bd7e85f780a0e",
+  "builtAsarSha256": "6201fa7e665f0668c9b2596b8a720cbec404c3deacbac88ea03bd7e85f780a0e",
+  "ok": true
+}

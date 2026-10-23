@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "runtimeCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
+  "packageSha256": "95d1940a7e4bacdd40934a241093ba0efe348c742e658f824204c84b4a37e5d7",
+  "originalScriptSha256": "828048a2c90dcd09938495424fc266bdd8fa215dd225a55aae9add0a25c67693",
+  "results": [
+    {
+      "url": "https://aureliuswu.github.io/Healing/",
+      "version": "1.4.0",
+      "screen": "desktop",
+      "orientation": "landscape",
+      "art": true,
+      "stageSeparated": true,
+      "fullWindowArtwork": true,
+      "pictureMode": true,
+      "autosave": true,
+      "offline": true,
+      "legacyContinuation": true,
+      "completeCg": true,
+      "finalEnding": true,
+      "credits": true,
+      "pageErrors": 0
+    },
+    {
+      "url": "https://aureliuswu.github.io/Healing/",
+      "version": "1.4.0",
+      "screen": "mobile",
+      "orientation": "landscape",
+      "art": true,
+      "stageSeparated": true,
+      "fullWindowArtwork": true,
+      "pictureMode": true,
+      "autosave": true,
+      "offline": true,
+      "legacyContinuation": true,
+      "completeCg": true,
+      "finalEnding": true,
+      "credits": true,
+      "pageErrors": 0
+    },
+    {
+      "url": "https://aureliuswu.github.io/Healing/",
+      "version": "1.4.0",
+      "screen": "landscape",
+      "orientation": "landscape",
+      "art": true,
+      "stageSeparated": true,
+      "fullWindowArtwork": true,
+      "pictureMode": true,
+      "autosave": true,
+      "offline": true,
+      "legacyContinuation": true,
+      "completeCg": true,
+      "finalEnding": true,
+      "credits": true,
+      "pageErrors": 0
+    }
+  ],
+  "readOnly": true,
+  "publishedAssetsModified": false
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.4.0",
+  "runtimeCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
+  "run": "https://github.com/AureliusWu/Healing/actions/runs/39975049079",
+  "artifactId": 12511186381,
+  "artifactSha256": "2e212ab7a4df4560ab327d5e7f5963182840c99549f54fda4549164a3153d1ed",
+  "source": "Final read-only CI verification of immutable public PWA; original public smoke passes all desktop, portrait and landscape assertions.",
+  "processing": "JPEG encoding only; original pixel dimensions retained.",
+  "artworkChanged": false,
+  "screenshots": [
+    {
+      "file": "docs/previews/v1.4.0/reading-desktop.jpg",
+      "source": "reading-desktop.png",
+      "sourceSha256": "a8e6a162a06f61d8ac593b5a31baddd40980dfa3cbd85fe91df38fcbd0a43367",
+      "sha256": "7845946f40f38540a33ac2dea6e6c32522196a3a46eefbfe27fe3f2fd00703aa",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "bytes": 271900
+    },
+    {
+      "file": "docs/previews/v1.4.0/reading-mobile.jpg",
+      "source": "reading-mobile.png",
+      "sourceSha256": "0c8fdff017487c64f1748bbed378304b46b28ebbb57db7740961e29f7f8e7228",
+      "sha256": "8e644f798b8db1bcc8c1430ffe2c75d51f4bec29bf48c5ce3e73510fef80b454",
+      "dimensions": [
+        1082,
+        2402
+      ],
+      "bytes": 314167
+    }
+  ]
+}

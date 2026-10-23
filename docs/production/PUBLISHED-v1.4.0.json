@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "version": "1.4.0",
+  "status": "released-and-verified",
+  "checkedAt": "2026-10-23T15:07:34.468305+00:00",
+  "runtimeCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
+  "tagCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
+  "release": {
+    "id": 421544285,
+    "tag_name": "v1.4.0",
+    "html_url": "https://github.com/AureliusWu/Healing/releases/tag/v1.4.0",
+    "target_commitish": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
+    "draft": false,
+    "prerelease": false
+  },
+  "build": {
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/39914573349",
+    "conclusion": "success"
+  },
+  "publication": {
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/39914573349",
+    "conclusion": "success",
+    "mode": "draft-upload-verify-all-bytes-then-public",
+    "immutable": true
+  },
+  "pwa": {
+    "id": 39975049079,
+    "attempt": 1,
+    "conclusion": "success",
+    "headCommit": "910a30597df858ed930f098ce574f6de16b896bd",
+    "verifiedRuntimeCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
+    "verification": "Original frozen-runtime three-screen smoke against pinned immutable public ZIP; read-only CI support workflow.",
+    "url": "https://github.com/AureliusWu/Healing/actions/runs/39975049079",
+    "screens": "Actual public desktop, portrait and landscape offline verification.",
+    "entrypoints": [
+      {
+        "project": "Healing",
+        "file": "index.html",
+        "status": "passed",
+        "bytes": 1157,
+        "sha256": "2112f6fea72bcba74ab8c39ba66d8ae3882907a36c0fffeee39bfa884df72c25"
+      },
+      {
+        "project": "Healing",
+        "file": "sw.js",
+        "status": "passed",
+        "bytes": 27727,
+        "sha256": "b8f3f153f079d7533102a993c3b48b950be5e603c4ba3a2e547f70118edbdc94"
+      }
+    ],
+    "artifactId": 12511186381,
+    "artifactSha256": "2e212ab7a4df4560ab327d5e7f5963182840c99549f54fda4549164a3153d1ed",
+    "proof": "PWA-LIVE-v1.4.0-20261023.json"
+  },
+  "validation": {
+    "logicTests": 82,
+    "publisherTests": 16,
+    "materialTests": 10,
+    "browserPassed": 85,
+    "browserDeviceSpecificSkipped": 3,
+    "dialogueBindings": 427
+  },
+  "publicReadback": {
+    "path": "PUBLIC-READBACK-v1.4.0-20261023.json",
+    "assets": 5,
+    "bytes": 326657183,
+    "allBytesAndChecksumsPassed": true
+  },
+  "fourGameCoexistence": {
+    "status": "passed",
+    "run": "https://github.com/AureliusWu/Circuit/actions/runs/39972929371",
+    "ciReport": "FOUR-GAMES-LIVE-CI-20261023.json",
+    "independentLocalReport": "FOUR-GAMES-LIVE-20261023.json",
+    "versions": {
+      "Rain": "1.6.0",
+      "Healing": "1.4.0",
+      "NetLove": "1.0.0",
+      "Circuit": "1.8.0"
+    },
+    "cachedFiles": 1248,
+    "pageErrors": []
+  },
+  "humanReview": {
+    "status": "pending-user-consolidated",
+    "checks": [
+      "full human listening",
+      "effective reading time",
+      "physical mobile installation",
+      "ordinary Windows / Chinese paths / DPI",
+      "final creative acceptance"
+    ],
+    "machineEvidenceDoesNotClaimHumanAcceptance": true
+  },
+  "history": [
+    {
+      "run": 39916500539,
+      "attempt": 1,
+      "status": "failed",
+      "detail": "Published title image loading exceeded original 30-second wait; exact entrypoint hashes matched."
+    },
+    {
+      "run": 39916500539,
+      "attempt": 2,
+      "status": "cancelled-before-browser-test",
+      "detail": "OS/font downloads exhausted ten-minute job deadline."
+    },
+    {
+      "run": 39916500539,
+      "attempt": 3,
+      "status": "cancelled-before-browser-test",
+      "detail": "OS/font downloads again exhausted ten-minute job deadline."
+    },
+    {
+      "kind": "independent-local",
+      "detail": "Desktop and portrait passed the complete unmodified public smoke; landscape initially exceeded the original 45-second controller wait and passed an isolated unchanged-case retry. Final CI runs all three original cases together and passes."
+    },
+    {
+      "kind": "ci-support-only",
+      "commit": "910a30597df858ed930f098ce574f6de16b896bd",
+      "detail": "Raise dependency-install job budget to twenty minutes. Add read-only immutable-package audit, using hosted Ubuntu runtime libraries and locked official Playwright Chromium. Game source, tests, published ZIP and tags unchanged."
+    }
+  ],
+  "nativeInstalledProof": "WINDOWS-v1.4.0-20261023.json",
+  "nativeAsarSha256": "6201fa7e665f0668c9b2596b8a720cbec404c3deacbac88ea03bd7e85f780a0e",
+  "ciSupportCommit": "910a30597df858ed930f098ce574f6de16b896bd",
+  "publishedRuntimeFilesUnchangedByCiSupport": true
+}

@@ -1,4 +1,4 @@
-> 2026-10-23：**v1.4.0候选**加入游玩帮助、完整字体覆盖与草稿附件字节验证。当前候选的平台验收接续中，正式下载仍见下方已发布版本。[本轮说明](docs/releases/v1.4.0.md) · [统筹计划](docs/production/RELEASE-PLAN-20261022.md)。
+> 2026-10-23：**v1.4.0 已正式发布**。标题 / 阅读中帮助、完整字体和草稿下载字节验证已交付。Windows 源码 / 成品 / 旧档升级、公开三屏断网、五份下载和四作共存通过。[本轮说明](docs/releases/v1.4.0.md) · [发布凭据](docs/production/PUBLISHED-v1.4.0.json) · [四作闭环](docs/production/FOUR-GAMES-CLOSURE-20261023.md)。
 
 > 2026-10-21：**v1.3.0 全对白与完整角色素材已发布**。Windows 与 PWA 均通过，427 条录音、完整人物图鉴及新场景 / CG 已接入。见[验证凭据](docs/production/PUBLISHED-v1.3.0-full-media.json)与[版本下载](https://github.com/AureliusWu/Healing/releases/tag/v1.3.0)。
 
@@ -18,11 +18,13 @@
 
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.3.0**。427 条人物对白、十二位角色图鉴和新增场景 / CG 已接入；真实安装升级、公开三屏断网及五项公开下载回读通过，证据见 [发布记录](docs/production/PUBLISHED-v1.3.0-full-media.json)。
+青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前正式版本均为 **v1.4.0**。427 条人物对白、十二位角色图鉴和新增场景 / CG 已接入；真实安装升级、公开三屏断网及五项公开下载回读通过，证据见 [发布记录](docs/production/PUBLISHED-v1.4.0.json)。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.3.0)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.4.0)
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥和许棠相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
+
+[本轮电脑实际阅读](docs/previews/v1.4.0/reading-desktop.jpg) · [本轮手机实际阅读](docs/previews/v1.4.0/reading-mobile.jpg) · [预览来源](docs/previews/v1.4.0/provenance.json)
 
 ![共同篇事件画面](public/art/cg-shared-print.webp)
 
@@ -40,6 +42,8 @@
 [三位角色与表情实机预览](docs/previews/v0.1.6/characters-desktop.png) · [角色美术规范与素材](docs/production/CHARACTER-ART.md) · [v1.0.1 更新记录](docs/releases/v1.0.1.md)
 
 ## 可玩的内容
+
+- 标题页和阅读中均可打开游玩帮助，关闭后保留原段落、已显示字数及键盘焦点；完整备份说明与实际回忆数据一致。
 
 - 三章完结，65 个场景、7 次选择、1,296 种组合；保留第一章 3 种章节结局，追加 4 个最终结局。
 - 三章场景与事件 CG 随实际阅读解锁；v1.3.0 新增四处背景和三幅事件画面，章首重读、结局重读与音乐鉴赏保留真实路线。
@@ -67,7 +71,7 @@ PWA 安装清单指定 `orientation: landscape`，支持的系统安装后优先
 
 ## 开发与游玩
 
-[共享制作契约](docs/production/SHARED-VN.md) · [剧情与美术协作方法](docs/production/CREATIVE-PLAYBOOK.md) · [可复用素材与工具](docs/production/REUSABLE-MATERIALS.md) · [v1.3.0 更新](docs/releases/v1.3.0.md)。素材目录保留许可证、摘要和项目专用边界；缺失的原始美术与完整字体源会明确标注。
+[共享制作契约](docs/production/SHARED-VN.md) · [剧情与美术协作方法](docs/production/CREATIVE-PLAYBOOK.md) · [可复用素材与工具](docs/production/REUSABLE-MATERIALS.md) · [v1.4.0 更新](docs/releases/v1.4.0.md)。素材目录保留许可证、摘要和项目专用边界；缺失的原始美术与完整字体源会明确标注。
 
 需要 Node.js 24（或满足 Vite 8 要求的 Node.js 22.12+）。
 

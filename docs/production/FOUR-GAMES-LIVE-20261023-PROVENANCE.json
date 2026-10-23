@@ -1,0 +1,21 @@
+{
+  "browser": "Chromium153 from extracted runtime",
+  "generalTLSChecksDisabled": false,
+  "proxyTrust": "Only configured managed proxy CA public key; no broad certificate bypass.",
+  "webSecurity": "enabled",
+  "siteIsolation": "enabled",
+  "testScript": "Unmodified Circuit/tests/four-games-live.py at 4860750b5bc7f7b7658b4a6981759095e07b2175",
+  "progress": "Real interface actions and application autosaves; isolated fresh browser profile.",
+  "scriptSha256": "7e56e573e0aacd41d03cb0b225af3a74fa7a0c98560271fde79293837a14cab3",
+  "reportSha256": "254a5071a6564b53f7ab569486d37f35b6e1b0daaf46e61f476924bd7be0f2b5",
+  "screenshotSha256": {
+    "Circuit-offline.png": "ce2c4b5b69a50daa8a10d04a8d018ef5d05d9b35c4837b54646e736fafc04513",
+    "Circuit-online.png": "8790da8fbc6b3a1fe2bf7bb7d24918a6d8e27861f3939026b3373f4ca1a21b68",
+    "Healing-offline.png": "02d3c627a553f710184acbbff501fee519c95d5c90987487e2ba977f64ca6425",
+    "Healing-online.png": "d2d649f43fd32e6a37728f9ee6416279a1b017170ab050b5afe07c555363b894",
+    "NetLove-offline.png": "b379b6a76f87d5e17e26e3aa1b55de3e0fa5302eb7ee4926cae7b85aa963c553",
+    "NetLove-online.png": "00af372a951b9352c04a38fd9f4bba962459c6f1ebdfa8328a7459eecd678907",
+    "Rain-offline.png": "1db53d8083efe37a1c39a2775afb6a99ca82b8bc83c59312f3cb07973ce0cc1b",
+    "Rain-online.png": "1db53d8083efe37a1c39a2775afb6a99ca82b8bc83c59312f3cb07973ce0cc1b"
+  }
+}

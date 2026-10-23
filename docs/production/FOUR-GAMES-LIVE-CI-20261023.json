@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-23T14:50:16.459228+00:00",
+  "expected_versions": {
+    "Circuit": "1.8.0",
+    "NetLove": "1.0.0",
+    "Healing": "1.4.0",
+    "Rain": "1.6.0"
+  },
+  "status": "passed",
+  "installs": [
+    {
+      "game": "Circuit",
+      "version": "1.8.0",
+      "worker": {
+        "scope": "https://aureliuswu.github.io/Circuit/",
+        "active": "https://aureliuswu.github.io/Circuit/sw.js",
+        "controller": "https://aureliuswu.github.io/Circuit/sw.js"
+      },
+      "own_cache_entries": {
+        "workbox-precache-v2-https://aureliuswu.github.io/Circuit/": 479
+      },
+      "prior_caches_preserved": true,
+      "prior_save_states_preserved": true
+    },
+    {
+      "game": "NetLove",
+      "version": "1.0.0",
+      "worker": {
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "active": "https://aureliuswu.github.io/NetLove/sw.js",
+        "controller": "https://aureliuswu.github.io/NetLove/sw.js"
+      },
+      "own_cache_entries": {
+        "netlove-v2:https%3A%2F%2Faureliuswu.github.io%2FNetLove%2F:19d99acea0a932": 257
+      },
+      "prior_caches_preserved": true,
+      "prior_save_states_preserved": true
+    },
+    {
+      "game": "Healing",
+      "version": "1.4.0",
+      "worker": {
+        "scope": "https://aureliuswu.github.io/Healing/",
+        "active": "https://aureliuswu.github.io/Healing/sw.js",
+        "controller": "https://aureliuswu.github.io/Healing/sw.js"
+      },
+      "own_cache_entries": {
+        "moist-healing-v2:https%3A%2F%2Faureliuswu.github.io%2FHealing%2F:4097fdac32dea3": 475
+      },
+      "prior_caches_preserved": true,
+      "prior_save_states_preserved": true
+    },
+    {
+      "game": "Rain",
+      "version": "1.6.0",
+      "worker": {
+        "scope": "https://aureliuswu.github.io/Rain/",
+        "active": "https://aureliuswu.github.io/Rain/service-worker.js",
+        "controller": "https://aureliuswu.github.io/Rain/service-worker.js"
+      },
+      "own_cache_entries": {
+        "rain-pwa:/Rain/:86966951c58b0319d4210d47": 37
+      },
+      "prior_caches_preserved": true,
+      "prior_save_states_preserved": true
+    }
+  ],
+  "offline": [
+    {
+      "game": "Circuit",
+      "version": "1.8.0",
+      "worker": {
+        "scope": "https://aureliuswu.github.io/Circuit/",
+        "active": "https://aureliuswu.github.io/Circuit/sw.js",
+        "controller": "https://aureliuswu.github.io/Circuit/sw.js"
+      },
+      "cache_inventory_preserved": true,
+      "react_save_states_preserved": true
+    },
+    {
+      "game": "NetLove",
+      "version": "1.0.0",
+      "worker": {
+        "scope": "https://aureliuswu.github.io/NetLove/",
+        "active": "https://aureliuswu.github.io/NetLove/sw.js",
+        "controller": "https://aureliuswu.github.io/NetLove/sw.js"
+      },
+      "cache_inventory_preserved": true,
+      "react_save_states_preserved": true
+    },
+    {
+      "game": "Healing",
+      "version": "1.4.0",
+      "worker": {
+        "scope": "https://aureliuswu.github.io/Healing/",
+        "active": "https://aureliuswu.github.io/Healing/sw.js",
+        "controller": "https://aureliuswu.github.io/Healing/sw.js"
+      },
+      "cache_inventory_preserved": true,
+      "react_save_states_preserved": true
+    },
+    {
+      "game": "Rain",
+      "version": "1.6.0",
+      "worker": {
+        "scope": "https://aureliuswu.github.io/Rain/",
+        "active": "https://aureliuswu.github.io/Rain/service-worker.js",
+        "controller": "https://aureliuswu.github.io/Rain/service-worker.js"
+      },
+      "cache_inventory_preserved": true,
+      "react_save_states_preserved": true
+    }
+  ],
+  "page_errors": [],
+  "scope": "Fresh Chromium profile; same-origin caches, real React autosaves and offline startup. Native Save/Load, Windows and physical devices are separate checks.",
+  "browser_version": "156.0.8078.4",
+  "cache_inventory_sha256": "8c74b4357b594b499a0f4a1c8a551743bb9eeb1c90030d45080a2e44e93cc44e",
+  "registrations": [
+    "https://aureliuswu.github.io/Circuit/",
+    "https://aureliuswu.github.io/Healing/",
+    "https://aureliuswu.github.io/NetLove/",
+    "https://aureliuswu.github.io/Rain/"
+  ],
+  "total_cached_files": 1248
+}
