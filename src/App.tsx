@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, useSyncExternalStore } from 'react';
 import { Icon } from './components/Icon';
 import { Dialog } from './components/Dialog';
+import { PlayerHelp } from './components/PlayerHelp';
 import { RecordSearch } from './components/RecordSearch';
 import { CharacterSprite } from './components/CharacterSprite';
 import { CharacterGallery } from './components/CharacterGallery';
@@ -22,9 +23,9 @@ import { musicFor, readGallery, readScores, rememberProgress } from './game/prog
 import type { CgId, GameState, HistoryEntry, MusicId, Save, Settings } from './game/types';
 import { chapters, cgInfo, endingInfo } from './story';
 
-type Panel = 'chapters' | 'characters' | 'memories' | 'settings' | 'saves' | 'history' | 'about' | 'credits' | 'pwa' | null;
+type Panel = 'chapters' | 'characters' | 'memories' | 'settings' | 'saves' | 'history' | 'about' | 'credits' | 'pwa' | 'help' | null;
 const art = (name: string) => `${import.meta.env.BASE_URL}art/${name}.webp`;
-const panelTitles = { chapters: '章节', characters: '与你相遇', memories: '回忆手册', settings: '阅读设置', saves: '存档', history: '已读文字', about: '关于这场青春', credits: '制作人员', pwa: '把故事留在身边' };
+const panelTitles = { chapters: '章节', characters: '与你相遇', memories: '回忆手册', settings: '阅读设置', saves: '存档', history: '已读文字', about: '关于这场青春', credits: '制作人员', pwa: '把故事留在身边', help: '游玩帮助' };
 const backgroundLabels = { corridor: '雨后的教学楼走廊', 'rain-eaves': '教学楼门口的雨檐', 'bus-stop': '校园外的夜间公交站', 'bus-interior': '雨夜公交车的后排', classroom: '午后的校园教室', campus: '秋雨后的校园', clubroom: '旧刊室与长桌', home: '雨夜的家与餐桌', printshop: '文印室与新印的稿纸', riverbank: '雨停后的江边步道' };
 const historyChapter = (entry: HistoryEntry) => {
   const chapter = chapters.find(item => item.id === (sceneMap.get(entry.sceneId)?.chapter ?? 1));
@@ -292,7 +293,7 @@ export function App() {
         <div className="chapter-note"><span className="note-number">03</span><div><span>生长痛 / 显影 / 雨停以后</span><p>三章故事，四个结局，留在同一页的青春。</p></div></div>
       </section>
       <section className="title-visual" aria-label="雨后校园与林见夏"><img className="cover-background" src={art('campus')} alt="秋雨后的校园，香樟树与湿润的跑道" /><div className="cover-wash" /><img className="cover-character" src={art('lin')} alt="林见夏，抱着文学笔记本的靠窗邻座" /><div className="visual-date">江城 · 九月<br /><span>17:42 / AFTER THE RAIN</span></div><div className="visual-caption"><span className="caption-line" /><p>“你还没想好，<br />也可以先留白。”</p><small>林见夏</small></div><span className="visual-index">01 — 03</span></section>
-      <footer className="title-footer"><span><i className={`status-dot ${pwaState.status === 'ready' || pwaState.status === 'desktop' ? 'ready' : ''}`} />{pwaState.status === 'desktop' ? '桌面版 · 离线阅读' : pwaState.status === 'ready' ? `${pwaState.online ? '离线阅读已就绪' : '正在离线阅读'} · PWA` : pwaState.status === 'downloading' ? '正在下载离线内容…' : pwaState.status === 'error' ? '离线下载待重试' : '校园视觉小说 · 三章完结'}</span><div>{pwaState.status !== 'desktop' && <button onClick={() => setPanel('pwa')}><Icon name={pwaState.updateReady ? 'check' : 'download'} size={14} />{pwaState.updateReady ? '有新版本' : '安装与离线'}</button>}<button onClick={() => setPanel('saves')}>存档迁移</button><button onClick={() => setPanel('credits')}>制作人员</button><span>v{__APP_VERSION__}</span></div></footer>
+      <footer className="title-footer"><span><i className={`status-dot ${pwaState.status === 'ready' || pwaState.status === 'desktop' ? 'ready' : ''}`} />{pwaState.status === 'desktop' ? '桌面版 · 离线阅读' : pwaState.status === 'ready' ? `${pwaState.online ? '离线阅读已就绪' : '正在离线阅读'} · PWA` : pwaState.status === 'downloading' ? '正在下载离线内容…' : pwaState.status === 'error' ? '离线下载待重试' : '校园视觉小说 · 三章完结'}</span><div>{pwaState.status !== 'desktop' && <button onClick={() => setPanel('pwa')}><Icon name={pwaState.updateReady ? 'check' : 'download'} size={14} />{pwaState.updateReady ? '有新版本' : '安装与离线'}</button>}<button onClick={() => setPanel('help')}>游玩帮助</button><button onClick={() => setPanel('saves')}>存档迁移</button><button onClick={() => setPanel('credits')}>制作人员</button><span>v{__APP_VERSION__}</span></div></footer>
     </main> : <main className="game-screen" data-scene={game.sceneId} data-line={game.line} data-ui-hidden={uiHidden} data-rereading={rereading}>
       {rereading && <aside className="reread-banner" aria-label="重读状态"><span>正在临时重读 · 原进度已保留</span><button onClick={returnFromReread}>返回原进度</button><button onClick={() => setConfirm({ text: '将这次重读作为后续阅读，会更新自动进度。原进度可先导出保留。', action: () => restoreSave(encodeSave(game)), exportBefore: true })}>沿此路线继续</button></aside>}
       <header className="game-header">
@@ -326,7 +327,7 @@ export function App() {
             {voiceState.status === 'failed' && <span>语音暂不可用，可继续阅读。</span>}
           </div>}
           <div className="reading-bottom">
-            <div className="game-tools"><button onClick={() => setPanel('saves')}><Icon name="save" size={16} />存档</button><button onClick={() => setPanel('history')}><Icon name="history" size={16} />回看</button><button className={auto ? 'active' : ''} disabled={choicesVisible || finished} onClick={() => { setAuto(value => !value); setFast(false); }} aria-pressed={auto}><Icon name={auto ? 'pause' : 'play'} size={15} />自动</button><button className={fast ? 'active' : ''} disabled={choicesVisible || finished} onClick={() => { setFast(value => !value); setAuto(false); }} aria-pressed={fast}>快进</button><button onClick={hideInterface} aria-keyshortcuts="H" title="隐藏界面 · H，轻触画面恢复"><Icon name="eye-off" size={16} />隐藏界面</button></div>
+            <div className="game-tools"><button onClick={() => setPanel('help')}><Icon name="book" size={16} />帮助</button><button onClick={() => setPanel('saves')}><Icon name="save" size={16} />存档</button><button onClick={() => setPanel('history')}><Icon name="history" size={16} />回看</button><button className={auto ? 'active' : ''} disabled={choicesVisible || finished} onClick={() => { setAuto(value => !value); setFast(false); }} aria-pressed={auto}><Icon name={auto ? 'pause' : 'play'} size={15} />自动</button><button className={fast ? 'active' : ''} disabled={choicesVisible || finished} onClick={() => { setFast(value => !value); setAuto(false); }} aria-pressed={fast}>快进</button><button onClick={hideInterface} aria-keyshortcuts="H" title="隐藏界面 · H，轻触画面恢复"><Icon name="eye-off" size={16} />隐藏界面</button></div>
             <span className="next-indicator">{finished ? '本章结束' : choicesVisible ? '请做出选择' : complete ? '点击继续 ◇' : '正在阅读'}</span>
           </div>
           <div className="reading-progress"><span style={{ width: `${((game.line + 1) / scene.lines.length) * 100}%` }} /></div>
@@ -336,6 +337,7 @@ export function App() {
     </div>
 
     {panel && !confirm && <Dialog title={panelTitles[panel]} onClose={closePanel} wide={panel === 'characters' || panel === 'saves' || panel === 'memories'} subtitle={panel === 'saves' ? '在这里留住进度，也可以带到另一台设备。' : undefined}>
+      {panel === 'help' && <PlayerHelp />}
       {panel === 'pwa' && <PwaPanel state={pwaState} />}
       {panel === 'chapters' && <ChapterMenu begin={begin} load={load} />}
       {panel === 'characters' && <CharacterGallery />}
