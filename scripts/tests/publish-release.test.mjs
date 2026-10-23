@@ -48,10 +48,15 @@ function mockNetwork() {
       return new Response(scenario === 'corrupt-download' ? Buffer.from('corrupt') : uploaded.data);
     }
     if (method === 'GET' && endpoint === '/releases/7') return reply({ ...release, assets: [...uploads.values()].map(item => item.asset) });
+    if (method === 'GET' && endpoint === '/releases') {
+      if (scenario === 'retry-draft') return reply([{ ...release, assets: [{ id: 12, name: 'release.json' }] }]);
+      if (scenario === 'retry-draft-page2') return reply(url.searchParams.get('page') === '1' ? Array.from({ length: 100 }, (_, i) => ({ id: 200 + i, tag_name: `v0.0.${i}` })) : [{ ...release, assets: [{ id: 12, name: 'release.json' }] }]);
+      if (scenario === 'foreign-listed-draft') return reply([{ ...release, target_commitish: 'b'.repeat(40) }]);
+      return reply([]);
+    }
     if (method === 'GET' && endpoint === '/releases/tags/v8.4.2') {
       if (scenario === 'published') return reply({ ...release, draft: false });
       if (scenario === 'foreign-draft') return reply({ ...release, target_commitish: 'b'.repeat(40) });
-      if (scenario === 'retry-draft') return reply({ ...release, assets: [{ id: 12, name: 'release.json' }] });
       return reply({ message: 'Not Found' }, 404);
     }
     if (method === 'GET' && endpoint === '/git/ref/tags/v8.4.2') {
@@ -117,7 +122,7 @@ test('published versions cause no remote mutation', async t => {
   assert.match(result.stdout, /immutable/);
 });
 
-for (const [scenario, message] of [['foreign-draft', /another commit/], ['foreign-tag', /different commit/]]) {
+for (const [scenario, message] of [['foreign-draft', /another commit/], ['foreign-listed-draft', /another commit/], ['foreign-tag', /different commit/]]) {
   test('rejects ' + scenario + ' before remote mutation', async t => {
     const result = await publish(t, scenario);
     assert.notEqual(result.status, 0);
@@ -138,6 +143,14 @@ test('same-commit draft retries replace only existing draft assets and verify al
   assert.equal(result.status, 0, result.stderr);
   assert.deepEqual(result.requests.filter(request => request.method === 'DELETE').map(request => request.pathname), ['/repos/test-owner/test-repo/releases/assets/12']);
   assert.equal(result.requests.filter(request => request.name).length, 5);
+  assert.equal(result.requests.at(-1).method, 'PATCH');
+});
+
+test('same-commit draft discovery continues beyond the first release page', async t => {
+  const result = await publish(t, 'retry-draft-page2');
+  assert.equal(result.status, 0, result.stderr);
+  assert.equal(result.requests.filter(request => request.method === 'POST' && request.pathname.endsWith('/releases')).length, 0);
+  assert.equal(result.requests.filter(request => request.method === 'DELETE').length, 1);
   assert.equal(result.requests.at(-1).method, 'PATCH');
 });
 

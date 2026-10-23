@@ -20,11 +20,16 @@
       "kind": "local",
       "checks": {
         "logic": 82,
-        "publisher": 14,
+        "publisher": 16,
         "materials": 10,
         "newHelpBrowser": 4,
         "build": "passed",
-        "fontCoverage": "passed"
+        "fontCoverage": "passed",
+        "fullBrowser": {
+          "passed": 85,
+          "skippedDeviceSpecific": 3,
+          "failed": 0
+        }
       },
       "browser": "Chromium153 local; complete CI remains separate"
     }

@@ -32,6 +32,18 @@ async function api(endpoint, options = {}) {
 }
 
 let release = await api(`/releases/tags/${tag}`);
+// Draft discovery must not depend on the published-tag endpoint.
+if (!release) {
+  for (let page = 1; page <= 100; page++) {
+    const batch = await api(`/releases?per_page=100&page=${page}`);
+    if (!Array.isArray(batch)) throw new Error('Cannot enumerate releases safely');
+    const matches = batch.filter(item => item.tag_name === tag);
+    if (matches.length > 1) throw new Error('Ambiguous draft identity');
+    if (matches.length === 1) { release = matches[0]; break; }
+    if (batch.length < 100) break;
+    if (page === 100) throw new Error('Release inventory exceeded safe discovery bound');
+  }
+}
 if (release && !release.draft) {
   console.log(`Published release is immutable; keeping ${release.html_url}`);
   process.exit(0);
