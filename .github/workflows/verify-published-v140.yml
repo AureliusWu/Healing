@@ -1,0 +1,71 @@
+name: Verify immutable v1.4.0 public PWA
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/verify-published-v140.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 62f84f73856504f7432e35d970cd35cd8bc5cc21
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Download and verify the immutable tested public package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p release-readback
+          gh api repos/AureliusWu/Healing/git/ref/tags/v1.4.0 > release-readback/tag.json
+          gh release download v1.4.0 --repo AureliusWu/Healing --pattern MoistHealing-PWA-1.4.0.zip --dir release-readback
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json,zipfile
+          tag=json.loads(Path('release-readback/tag.json').read_text())
+          assert tag['object']['type']=='commit'
+          assert tag['object']['sha']=='62f84f73856504f7432e35d970cd35cd8bc5cc21'
+          package=Path('release-readback/MoistHealing-PWA-1.4.0.zip')
+          assert package.stat().st_size==35248025
+          assert hashlib.sha256(package.read_bytes()).hexdigest()=='95d1940a7e4bacdd40934a241093ba0efe348c742e658f824204c84b4a37e5d7'
+          with zipfile.ZipFile(package) as archive:
+              assert archive.testzip() is None
+              assert 'index.html' in archive.namelist() and 'sw.js' in archive.namelist()
+              assert all(not p.startswith(('/', '\\')) and '..' not in Path(p).parts for p in archive.namelist())
+              archive.extractall('dist')
+          PY
+      - name: Install the locked official browser on the hosted Ubuntu image
+        # The image already supplies Chromium runtime libraries; bundled game
+        # fonts are checked by the original smoke. Avoid an OS font upgrade.
+        run: npx playwright install chromium
+      - name: Run every original public desktop, portrait and landscape assertion
+        env:
+          GAME_URL: https://aureliuswu.github.io/Healing/
+          EXPECTED_VERSION: 1.4.0
+        shell: bash
+        run: |
+          mkdir -p test-results/live
+          node scripts/live-smoke.mjs 2>&1 | tee test-results/live/smoke.log
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          prefix='LIVE_SMOKE_OK '
+          rows=[json.loads(line.split(prefix,1)[1]) for line in Path('test-results/live/smoke.log').read_text().splitlines() if prefix in line]
+          assert len(rows)==3 and {row['screen'] for row in rows}=={'desktop','mobile','landscape'}
+          assert all(row['version']=='1.4.0' and row['offline'] and row['legacyContinuation'] and row['completeCg'] and row['finalEnding'] and row['pageErrors']==0 for row in rows)
+          result={'schema':1,'status':'passed','runtimeCommit':'62f84f73856504f7432e35d970cd35cd8bc5cc21','packageSha256':'95d1940a7e4bacdd40934a241093ba0efe348c742e658f824204c84b4a37e5d7','originalScriptSha256':hashlib.sha256(Path('scripts/live-smoke.mjs').read_bytes()).hexdigest(),'results':rows,'readOnly':True,'publishedAssetsModified':False}
+          Path('test-results/live/result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Healing-v140-public-${{ github.run_id }}-${{ github.run_attempt }}
+          path: test-results/live/
+          if-no-files-found: error
