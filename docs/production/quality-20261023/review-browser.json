@@ -1,0 +1,42 @@
+{
+  "project": "Healing",
+  "runtimeCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
+  "catalogSha256": "87a73db6ed0489f18fe2eb359bad8e84a7d24f2db843318529465293664909a8",
+  "checks": [
+    "desktop: initial full catalog stays pending",
+    "desktop: real local audio decode, play and stop on navigation",
+    "desktop: search, editable notes and isolated persistence",
+    "desktop: JSON export, exact-version import and rejected foreign IDs",
+    "desktop: status/priority filters, real image and no horizontal overflow",
+    "desktop: zero page errors; initial pending state restored",
+    "phone: initial full catalog stays pending",
+    "phone: real local audio decode, play and stop on navigation",
+    "phone: search, editable notes and isolated persistence",
+    "phone: JSON export, exact-version import and rejected foreign IDs",
+    "phone: status/priority filters, real image and no horizontal overflow",
+    "phone: zero page errors; initial pending state restored",
+    "file URL: standalone page loads local audio and artwork without a server"
+  ],
+  "screenshots": [
+    {
+      "path": "review-desktop.png",
+      "sha256": "60c373d0048c5f197b55abb632f7ca033e70026c6cb2a9ba7351ac061a63d7ee",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    },
+    {
+      "path": "review-phone.png",
+      "sha256": "f244af2f5f2b3c6693f60b310becd7d6991c2a24a774dc5c4af42b09c99b4188",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      }
+    }
+  ],
+  "browser": "153.0.8010.0",
+  "passed": 13,
+  "humanListening": false,
+  "physicalDevice": false
+}

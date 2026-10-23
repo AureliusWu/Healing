@@ -1,3 +1,5 @@
+**发布后素材审阅（2026-10-23）**：发布后素材质检：427 条对白、36 张美术全部完成摘要 / 解码与信号测量，客观错误为 0；44 项保留为人工优先审阅线索。逐句试听、画面查看、独立备注及版本绑定的 JSON 导入 / 导出已通过桌面、手机视口与本地文件检查。 [结果与审阅工具](docs/production/quality-20261023/README.md)。
+
 > 2026-10-23：**v1.4.0 已正式发布**。标题 / 阅读中帮助、完整字体和草稿下载字节验证已交付。Windows 源码 / 成品 / 旧档升级、公开三屏断网、五份下载和四作共存通过。[本轮说明](docs/releases/v1.4.0.md) · [发布凭据](docs/production/PUBLISHED-v1.4.0.json) · [四作闭环](docs/production/FOUR-GAMES-CLOSURE-20261023.md)。
 
 > 2026-10-21：**v1.3.0 全对白与完整角色素材已发布**。Windows 与 PWA 均通过，427 条录音、完整人物图鉴及新场景 / CG 已接入。见[验证凭据](docs/production/PUBLISHED-v1.3.0-full-media.json)与[版本下载](https://github.com/AureliusWu/Healing/releases/tag/v1.3.0)。
