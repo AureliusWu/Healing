@@ -37,8 +37,16 @@ if (release && !release.draft) {
   process.exit(0);
 }
 if (release && release.target_commitish !== sha) throw new Error(`${tag} draft belongs to another commit; bump the version`);
-const ref = await api(`/git/ref/tags/${tag}`);
-if (ref && (ref.object.type !== 'commit' || ref.object.sha !== sha)) throw new Error(`${tag} already points to a different commit; bump the version`);
+async function requireCurrentMain() {
+  const head = await api('/git/ref/heads/main');
+  if (head?.object?.type !== 'commit' || head.object.sha !== sha) throw new Error('Tested commit is no longer main; refusing publication');
+}
+async function requireCompatibleTag() {
+  const ref = await api(`/git/ref/tags/${tag}`);
+  if (ref && (ref.object.type !== 'commit' || ref.object.sha !== sha)) throw new Error(`${tag} already points to a different commit; bump the version`);
+}
+await requireCurrentMain();
+await requireCompatibleTag();
 if (!release) release = await api('/releases', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ tag_name: tag, target_commitish: sha, name: `湿性愈合 ${heading}`, body: notes, draft: true, prerelease: false }) });
 // Only a draft for this exact tested commit may be repaired on retry.
 for (const name of names) {
@@ -52,6 +60,16 @@ for (const name of names) {
   const uploaded = await response.json();
   const data = await readFile(file);
   if (uploaded.state !== 'uploaded' || uploaded.size !== data.length || (uploaded.digest && uploaded.digest !== `sha256:${createHash('sha256').update(data).digest('hex')}`)) throw new Error(`Uploaded file verification failed: ${name}`);
+  if (!Number.isSafeInteger(uploaded.id) || uploaded.id < 1) throw new Error(`Missing uploaded file identity: ${name}`);
+  const download = await fetch(`https://api.github.com/repos/${repository}/releases/assets/${uploaded.id}`, { headers: { Authorization: `Bearer ${token}`, Accept: 'application/octet-stream', 'X-GitHub-Api-Version': '2026-03-10' } });
+  if (!download.ok) throw new Error(`Draft download failed: ${name} (${download.status})`);
+  const received = Buffer.from(await download.arrayBuffer());
+  if (!received.equals(data)) throw new Error(`Draft byte verification failed: ${name}`);
 }
+const staged = await api(`/releases/${release.id}`);
+if (!staged?.draft || staged.tag_name !== tag || staged.target_commitish !== sha || staged.prerelease !== false) throw new Error('Draft identity changed during upload');
+if (staged.assets.length !== names.length || new Set(staged.assets.map(asset => asset.name)).size !== names.length || names.some(name => !staged.assets.some(asset => asset.name === name && asset.state === 'uploaded'))) throw new Error('Draft attachment inventory differs from verified files');
+await requireCurrentMain();
+await requireCompatibleTag();
 await api(`/releases/${release.id}`, { method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ draft: false, make_latest: 'true' }) });
 console.log(`RELEASE_OK https://github.com/${repository}/releases/tag/${tag}`);

@@ -18,7 +18,10 @@ const files = ['MoistHealing-8.4.2-x64-Setup.exe', 'MoistHealing-8.4.2-x64-Porta
 // Unrecognized requests fail; the subprocess cannot make real network writes.
 function mockNetwork() {
   const scenario = process.env.RELEASE_TEST_CASE;
-  const release = { id: 7, draft: true, target_commitish: process.env.GITHUB_SHA, html_url: 'https://example.test/v8.4.2', upload_url: 'https://uploads.example.test/assets{?name,label}', assets: [] };
+  const release = { id: 7, tag_name: 'v8.4.2', draft: true, prerelease: false, target_commitish: process.env.GITHUB_SHA, html_url: 'https://example.test/v8.4.2', upload_url: 'https://uploads.example.test/assets{?name,label}', assets: [] };
+  const uploads = new Map();
+  let mainReads = 0;
+  let tagReads = 0;
   globalThis.fetch = async (input, options = {}) => {
     const url = new URL(input);
     const method = options.method || 'GET';
@@ -28,11 +31,23 @@ function mockNetwork() {
     const reply = (body, status = 200) => new Response(JSON.stringify(body), { status });
     if (url.hostname === 'uploads.example.test' && method === 'POST') {
       const data = Buffer.from(options.body);
-      return reply({ state: 'uploaded', size: data.length, digest: scenario === 'bad-upload' ? 'sha256:wrong' : 'sha256:' + createHash('sha256').update(data).digest('hex') });
+      const asset = { id: 100 + uploads.size, name: url.searchParams.get('name'), state: 'uploaded', size: data.length, digest: scenario === 'bad-upload' ? 'sha256:wrong' : 'sha256:' + createHash('sha256').update(data).digest('hex') };
+      uploads.set(asset.id, { asset, data });
+      return reply(asset);
     }
     const prefix = '/repos/test-owner/test-repo';
     if (url.hostname !== 'api.github.com' || !url.pathname.startsWith(prefix)) throw new Error('Unexpected release request');
     const endpoint = url.pathname.slice(prefix.length);
+    if (method === 'GET' && endpoint === '/git/ref/heads/main') {
+      mainReads++;
+      return reply({ object: { type: 'commit', sha: scenario === 'stale-head' || (scenario === 'head-moved' && mainReads > 1) ? 'b'.repeat(40) : process.env.GITHUB_SHA } });
+    }
+    if (method === 'GET' && /^\/releases\/assets\/\d+$/.test(endpoint)) {
+      const uploaded = uploads.get(Number(endpoint.split('/').at(-1)));
+      if (!uploaded || scenario === 'missing-download') return new Response('missing', { status: 404 });
+      return new Response(scenario === 'corrupt-download' ? Buffer.from('corrupt') : uploaded.data);
+    }
+    if (method === 'GET' && endpoint === '/releases/7') return reply({ ...release, assets: [...uploads.values()].map(item => item.asset) });
     if (method === 'GET' && endpoint === '/releases/tags/v8.4.2') {
       if (scenario === 'published') return reply({ ...release, draft: false });
       if (scenario === 'foreign-draft') return reply({ ...release, target_commitish: 'b'.repeat(40) });
@@ -40,7 +55,8 @@ function mockNetwork() {
       return reply({ message: 'Not Found' }, 404);
     }
     if (method === 'GET' && endpoint === '/git/ref/tags/v8.4.2') {
-      return scenario === 'foreign-tag' ? reply({ object: { type: 'commit', sha: 'b'.repeat(40) } }) : reply({}, 404);
+      tagReads++;
+      return scenario === 'foreign-tag' || (scenario === 'tag-moved' && tagReads > 1) ? reply({ object: { type: 'commit', sha: 'b'.repeat(40) } }) : reply({}, 404);
     }
     if (method === 'POST' && endpoint === '/releases') return reply(release);
     if (method === 'DELETE' && endpoint === '/releases/assets/12') return new Response(null, { status: 204 });
@@ -124,6 +140,16 @@ test('same-commit draft retries replace only existing draft assets and verify al
   assert.equal(result.requests.filter(request => request.name).length, 5);
   assert.equal(result.requests.at(-1).method, 'PATCH');
 });
+
+for (const [scenario, message] of [['stale-head', /no longer main/], ['head-moved', /no longer main/], ['tag-moved', /different commit/], ['corrupt-download', /byte verification failed/], ['missing-download', /Draft download failed/]]) {
+  test(scenario + ' never makes an unverified draft public', async t => {
+    const result = await publish(t, scenario);
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, message);
+    assert.ok(result.requests.every(request => request.method !== 'PATCH'));
+    if (scenario === 'stale-head') assert.ok(result.requests.every(request => request.method === 'GET'));
+  });
+}
 
 for (const [name, alter, message] of [
   ['inconsistent route fixtures', data => { data.fixtures.cg.storyVersion = 'chapter1-v1'; }, /save fixtures/],

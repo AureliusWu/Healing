@@ -4,10 +4,10 @@
   "project": "Healing",
   "targetVersion": "1.4.0",
   "baselineCommit": "45d5f4eb693eedc5bdb367f5a1ee1e4026069897",
-  "status": "planned",
+  "status": "candidate-local-validated",
   "gates": {
-    "implementation": "pending",
-    "localValidation": "pending",
+    "implementation": "passed",
+    "localValidation": "passed",
     "windowsRuntime": "pending",
     "pwaRuntime": "pending",
     "publicRelease": "pending",
@@ -15,6 +15,20 @@
     "fourGameCoexistence": "pending"
   },
   "humanReview": "pending-user-consolidated",
-  "evidence": [],
-  "blockers": []
+  "evidence": [
+    {
+      "kind": "local",
+      "checks": {
+        "logic": 82,
+        "publisher": 14,
+        "materials": 10,
+        "newHelpBrowser": 4,
+        "build": "passed",
+        "fontCoverage": "passed"
+      },
+      "browser": "Chromium153 local; complete CI remains separate"
+    }
+  ],
+  "blockers": [],
+  "updatedAt": "2026-10-23"
 }
