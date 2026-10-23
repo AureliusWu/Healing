@@ -256,7 +256,7 @@ export function App() {
       if (file.size > 2_000_000) throw new Error('存档文件过大');
       const imported = decodeProgressFile(await file.text());
       const text = imported.kind === 'single' ? '导入后会切换到这份存档，并更新自动存档。手动存档会保留。'
-        : `这份备份包含 ${Object.keys(imported.slots).length} 份存档、${Object.keys(imported.chapters).length} 个章首和 ${imported.memories.endings.length} 段结局。导入会更新对应位置并合并消息归档；备份中没有的位置会保留。`;
+        : `这份备份包含 ${Object.keys(imported.slots).length} 份存档、${Object.keys(imported.chapters).length} 个章首和 ${imported.memories.endings.length} 段结局。导入会更新对应位置并合并结局、画面与音乐回忆；备份中没有的位置会保留。`;
       setConfirm({ text: `${rereading ? '导入会结束这次重读。' : ''}${text}`, action: () => {
         try {
           applyProgressImport(imported);

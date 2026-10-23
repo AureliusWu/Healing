@@ -38,6 +38,7 @@ test('downloads a real full backup, previews and cancels import, then preserves 
     await target.getByRole('button',{name:'存档迁移',exact:true}).click();const before=await snapshot(target);
     const input=target.getByLabel('选择存档文件');await input.setInputFiles({name:'backup.json',mimeType:'application/json',buffer:raw});
     await expect(target.locator('.confirm-text')).toContainText('2 份存档、3 个章首和 1 段结局');
+    await expect(target.locator('.confirm-text')).toContainText('合并结局、画面与音乐回忆');
     await target.getByRole('button',{name:'再想一下',exact:true}).click();expect(await snapshot(target)).toEqual(before);
     await input.setInputFiles({name:'backup.json',mimeType:'application/json',buffer:raw});await target.locator('.confirm-actions .primary').click();
     await expect(target.locator('.game-screen')).toHaveAttribute('data-scene',fixture.final.sceneId);
