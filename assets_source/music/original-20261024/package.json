@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "js-synthesizer": "1.13.0"
+  },
+  "name": "four-games-instrumentals-20261024",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compose": "python compose.py",
+    "render": "python master.py"
+  }
+}

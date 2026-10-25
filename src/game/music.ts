@@ -12,6 +12,7 @@ export class Music {
   private timer?: ReturnType<typeof setInterval>;
   private pending?: Promise<void>;
   private allowed = false;
+  private paused = false;
   private options: Pick<Settings, 'music' | 'volume' | 'soundEffects' | 'ambience'> = { music: true, volume: .2, soundEffects: true, ambience: true };
   private track: MusicId = 'rain';
   private raining = false;
@@ -19,6 +20,11 @@ export class Music {
   private nextBeat = 0;
   private voices = new Set<GainNode>();
 
+  setPaused(paused: boolean) {
+    this.paused = paused;
+    if (paused) this.pause();
+    else if (this.allowed && !document.hidden) void this.resume();
+  }
   configure(options: Pick<Settings, 'music' | 'volume' | 'soundEffects' | 'ambience'>) {
     this.options = options; this.levels();
     if (!options.music) { clearInterval(this.timer); this.timer = undefined; this.fade(); this.sceneLoop?.select(undefined); }
@@ -33,7 +39,7 @@ export class Music {
   }
   async unlock() { this.allowed = true; await this.resume(); }
   private async resume() {
-    if (document.hidden || (!this.options.music && !this.options.soundEffects && !this.options.ambience)) return;
+    if (this.paused || document.hidden || (!this.options.music && !this.options.soundEffects && !this.options.ambience)) return;
     if (this.pending) return this.pending;
     this.pending = this.start();
     try { await this.pending; } finally { this.pending = undefined; }
@@ -55,7 +61,7 @@ export class Music {
         source.connect(filter); filter.connect(this.rainBus); source.start();
       }
       await this.context.resume();
-      if (document.hidden) { this.pause(); return; }
+      if (this.paused || document.hidden) { this.pause(); return; }
       this.levels();
       const file = scoreInfo[this.track].file;
       this.sceneLoop?.select(this.options.music && file ? import.meta.env.BASE_URL + file : undefined);
@@ -73,7 +79,7 @@ export class Music {
   }
   pause() { clearInterval(this.timer); this.timer = undefined; this.fade(); void this.context?.suspend(); }
   effect(kind: 'page' | 'choice') {
-    if (!this.allowed || !this.options.soundEffects || document.hidden || !this.context || this.context.state !== 'running' || !this.effectsBus) return;
+    if (this.paused || !this.allowed || !this.options.soundEffects || document.hidden || !this.context || this.context.state !== 'running' || !this.effectsBus) return;
     const t = this.context.currentTime, oscillator = this.context.createOscillator(), gain = this.context.createGain();
     oscillator.frequency.setValueAtTime(kind === 'choice' ? 660 : 370, t);
     oscillator.frequency.exponentialRampToValueAtTime(kind === 'choice' ? 440 : 210, t + .07);

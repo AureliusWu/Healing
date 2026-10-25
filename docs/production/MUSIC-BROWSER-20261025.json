@@ -1,0 +1,240 @@
+{
+  "config": {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "/workspace/scratch/2d7c1ba6d546/Healing/node_modules/@playwright/test/cli.js",
+      "test",
+      "--config=../.qa-tools/Healing-music.config.mjs",
+      "--reporter=list,json"
+    ],
+    "configFile": "/workspace/scratch/2d7c1ba6d546/.qa-tools/Healing-music.config.mjs",
+    "rootDir": "/workspace/scratch/2d7c1ba6d546/Healing/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/workspace/scratch/2d7c1ba6d546/Healing/test-results/original-music-current",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "/workspace/scratch/2d7c1ba6d546/Healing/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "original-music.spec.ts"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "/workspace/scratch/2d7c1ba6d546/Healing/test-results/original-music-current",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "/workspace/scratch/2d7c1ba6d546/Healing/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "original-music.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run preview -- --port 51231 --host 127.0.0.1 --strictPort",
+      "cwd": "/workspace/scratch/2d7c1ba6d546/Healing",
+      "url": "http://127.0.0.1:51231",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "original-music.spec.ts",
+      "file": "original-music.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "original loop audio/bgm/healing-desks.ogg plays, pauses for help and restores offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3213,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T23:22:07.646Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "81de5c56c5d997c44f85-7addc6a06216c5988a0a",
+          "file": "original-music.spec.ts",
+          "line": 19,
+          "column": 3
+        },
+        {
+          "title": "original loop audio/bgm/healing-developed.ogg plays, pauses for help and restores offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3324,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T23:22:10.934Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "81de5c56c5d997c44f85-8b75df636b8c47d7822a",
+          "file": "original-music.spec.ts",
+          "line": 19,
+          "column": 3
+        },
+        {
+          "title": "original loop audio/bgm/healing-desks.ogg plays, pauses for help and restores offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4152,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T23:22:14.805Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "81de5c56c5d997c44f85-16431398fbf1e4e9877d",
+          "file": "original-music.spec.ts",
+          "line": 19,
+          "column": 3
+        },
+        {
+          "title": "original loop audio/bgm/healing-developed.ogg plays, pauses for help and restores offline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3151,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-24T23:22:19.031Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "81de5c56c5d997c44f85-8b62520c93af708ac6e5",
+          "file": "original-music.spec.ts",
+          "line": 19,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-24T23:22:06.162Z",
+    "duration": 16123.288000000002,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

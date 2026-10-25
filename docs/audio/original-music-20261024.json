@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "version": "1.5.0",
+  "date": "2026-10-24",
+  "stage": "local-runtime-verified",
+  "baselineCommit": "59b3b9d5829a787133d290db3082accddd25dd68",
+  "soundfont": {
+    "version": "2.0.3",
+    "author": "S. Christian Collins",
+    "source": "https://github.com/mrbumpy409/GeneralUser-GS",
+    "commit": "684543d5e5efaef08d02be50dcda8d552478fa60",
+    "soundfontSha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+  },
+  "soundfontLicense": "public/licenses/GeneralUser-GS-LICENSE.txt",
+  "tracks": [
+    {
+      "id": "healing-desks",
+      "title": "课桌间的光",
+      "vocals": false,
+      "bpm": 94,
+      "key": "G major",
+      "instruments": [
+        "长笛",
+        "尼龙弦吉他",
+        "钢琴",
+        "轻弦乐",
+        "木贝司",
+        "轻打击乐"
+      ],
+      "loopFrames": 3921728,
+      "loopSampleRate": 48000,
+      "loopDurationSeconds": 81.702667,
+      "loopEntireFile": true,
+      "runtime": "public/audio/bgm/healing-desks.ogg",
+      "sha256": "9a6238e9edce0bd2b31dc9ba11a25b331a2500e3296367f6d52d12abc6384403",
+      "bindings": [
+        "window"
+      ],
+      "bindingRegistry": "src/game/score.ts",
+      "score": "assets_source/music/original-20261024/scores/healing-desks.json",
+      "midi": "assets_source/music/original-20261024/scores/healing-desks.mid",
+      "quality": {
+        "path": "Healing/loops/healing-desks_loop.ogg",
+        "bytes": 1275942,
+        "sha256": "9a6238e9edce0bd2b31dc9ba11a25b331a2500e3296367f6d52d12abc6384403",
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 3921728,
+        "seconds": 81.702667,
+        "finite": true,
+        "samplePeakDbfs": -10.7204,
+        "rmsDbfs": -23.9657,
+        "integratedLufs": -20.95,
+        "truePeakDbtp": -10.72,
+        "loudnessRangeLu": 5.9,
+        "loopBoundaryDelta": 0.0009994059801101685,
+        "humanListening": "pending",
+        "originalRenderPath": "loops/03_Healing_desks_loop.ogg"
+      },
+      "humanListening": "pending"
+    },
+    {
+      "id": "healing-developed",
+      "title": "显影之后",
+      "vocals": false,
+      "bpm": 80,
+      "key": "E minor",
+      "instruments": [
+        "原声钢琴",
+        "钢弦吉他",
+        "单簧管",
+        "弦乐",
+        "大提琴"
+      ],
+      "loopFrames": 4608000,
+      "loopSampleRate": 48000,
+      "loopDurationSeconds": 96.0,
+      "loopEntireFile": true,
+      "runtime": "public/audio/bgm/healing-developed.ogg",
+      "sha256": "19bff176150aca61d4b8e7e6ffdb7715f1e9454dd7c16f61012887ff27fa5b1d",
+      "bindings": [
+        "distance"
+      ],
+      "bindingRegistry": "src/game/score.ts",
+      "score": "assets_source/music/original-20261024/scores/healing-developed.json",
+      "midi": "assets_source/music/original-20261024/scores/healing-developed.mid",
+      "quality": {
+        "path": "Healing/loops/healing-developed_loop.ogg",
+        "bytes": 1501916,
+        "sha256": "19bff176150aca61d4b8e7e6ffdb7715f1e9454dd7c16f61012887ff27fa5b1d",
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 4608000,
+        "seconds": 96.0,
+        "finite": true,
+        "samplePeakDbfs": -7.3425,
+        "rmsDbfs": -23.3167,
+        "integratedLufs": -20.98,
+        "truePeakDbtp": -7.34,
+        "loudnessRangeLu": 4.0,
+        "loopBoundaryDelta": 0.003863282036036253,
+        "humanListening": "pending",
+        "originalRenderPath": "loops/04_Healing_developed_loop.ogg"
+      },
+      "humanListening": "pending"
+    }
+  ],
+  "pending": [
+    "actual Windows package validation",
+    "public PWA and release validation",
+    "human listening and physical devices"
+  ],
+  "lastValidatedOn": "2026-10-25"
+}

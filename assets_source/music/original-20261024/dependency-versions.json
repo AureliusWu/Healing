@@ -1,0 +1,22 @@
+{
+  "GeneralUserGS": {
+    "version": "2.0.3",
+    "author": "S. Christian Collins",
+    "source": "https://github.com/mrbumpy409/GeneralUser-GS",
+    "commit": "684543d5e5efaef08d02be50dcda8d552478fa60",
+    "soundfontSha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe"
+  },
+  "jsSynthesizer": "1.13.0",
+  "FluidSynth": "2.4.6 / WebAssembly",
+  "numpy": "2.3.5",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "sourceSha256": {
+    "master.py": "fefee0096df6d9ba0e462f0122b829dcb2f878bb6df9942d4e9473626ca11e2f",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "package-lock.json": "612732cead929cc01409cd74c3bb97a131709e1c1fb9ca31b3300a53190b87e0",
+    "render.cjs": "8613b7f7451dbf34b7aa83c379d71c47fcea9458b60fe71290ba2e86e3fdfecd",
+    "package.json": "6e4b743ae2718f082daf19376cbca6a816c3c48ab328a0b84b0872129b54b584",
+    "compose.py": "1a66eee1c474d92096bb07f9b587e2f4d190ac09bd60447a104b91b581052ef7"
+  },
+  "composition": "Eight newly authored melodies and arrangements; no demo MIDI or stock song recordings used."
+}

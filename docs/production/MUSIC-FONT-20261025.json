@@ -1,0 +1,11 @@
+{
+  "continuedOn": "2026-10-25",
+  "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+  "sourceSha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+  "weight": 400,
+  "runtime": "src/assets/story-serif.woff2",
+  "runtimeSha256": "9da424657ec73c38c90415b8e37bfbc31dd09b84f68a32ad5c4c6b16a35beac5",
+  "currentSourceCJKMissing": [],
+  "fixedGlyph": "纯",
+  "humanReview": "pending"
+}
