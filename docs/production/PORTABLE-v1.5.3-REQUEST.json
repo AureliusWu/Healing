@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "version": "1.5.3",
+  "runtimeCommit": "2d4c9d2c72cb8920916eb453936f393df725275c",
+  "sourceRun": 40163464363,
+  "asset": "MoistHealing-1.5.3-x64-Portable.exe",
+  "url": "https://github.com/AureliusWu/Healing/releases/download/v1.5.3/MoistHealing-1.5.3-x64-Portable.exe",
+  "portableSha256": "237f61ac9266c56baddbb5b9947935cf0c5f9ed9b1037a9921969d825809540f",
+  "asarSha256": "a904058d290db1fd5b8411d0b45e339b619993ca05f7c481d5ecb4ac92356965"
+}
