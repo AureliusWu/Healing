@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "scene": "c2-open",
+  "line": 11,
+  "issue": "The September 26 Thursday opening calls September 23 Monday last week.",
+  "correction": "上周 → 周一（同一旁白中两处）",
+  "recordedDialogueChanged": false,
+  "lineIdsAndSavePositionsPreserved": true,
+  "reviewedBaselineRevisedParagraphs": 24
+}
