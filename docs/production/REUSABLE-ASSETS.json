@@ -232,6 +232,18 @@
           "path": "tools/audio/render_scene_score.py",
           "encoding": "text-lf",
           "sha256": "7423fb45f6e2a61f840859dd83ff1eda21e1484c73cb736ac82700127aa22cd0"
+        },
+        {
+          "role": "recipe",
+          "path": "src/game/scene-cues.ts",
+          "encoding": "text-lf",
+          "sha256": "99faaf152df61b352a0e231039fe11cdef260b75219ed3d115b23ef50fd21f9c"
+        },
+        {
+          "role": "recipe",
+          "path": "src/useSceneCue.ts",
+          "encoding": "text-lf",
+          "sha256": "ba86d78bee00c37c00b640af5e59446b27ec233da5486183aa0af98df36fb06d"
         }
       ]
     },
