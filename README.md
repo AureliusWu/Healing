@@ -1,4 +1,6 @@
-> 2026-10-25：**当前发行 v1.5.2 已通过 Windows、公开 PWA 和下载回读**。新增校园事件音效与同周时间线修正；安装版旧档升级与公开便携启动器均实测通过。[正式下载](https://github.com/AureliusWu/Healing/releases/tag/v1.5.2) · [实际验收与缺口](docs/production/ACCEPTANCE-20261025.md) · [精确提交与机器凭据](docs/production/VERIFIED-DELIVERY-20261025.json)。
+> 2026-10-25：**当前发行 v1.5.4 已通过 Windows、公开 PWA 和公开下载核验**。修复陈知遥六表情书本边缘、周五稿纸与正表 / 假期补页时间衔接；117 浏览器通过、3 设备适用性跳过，真实旧档升级与公开便携启动器通过。[正式下载](https://github.com/AureliusWu/Healing/releases/tag/v1.5.4) · [实际验收与缺口](docs/production/ACCEPTANCE-20261025.md) · [精确源码与证据](docs/production/VERIFIED-DELIVERY-20261025.json)。
+
+**当前版本素材复核（2026-10-25）**：427处对白绑定、36图完整测量，客观错误0；审阅工具13项实际检查通过。[当前可试听目录](docs/production/quality-20261025/README.md)。全部素材仍保留独立人工审阅状态，历史记录不冒充新版意见。
 
 **发布后素材审阅（2026-10-23）**：发布后素材质检：427 条对白、36 张美术全部完成摘要 / 解码与信号测量，客观错误为 0；44 项保留为人工优先审阅线索。逐句试听、画面查看、独立备注及版本绑定的 JSON 导入 / 导出已通过桌面、手机视口与本地文件检查。 [结果与审阅工具](docs/production/quality-20261023/README.md)。
 
@@ -22,9 +24,9 @@
 
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前发行版本均为 **v1.5.2**。427 条人物对白、十二位角色图鉴和新增场景 / CG 已接入；真实安装升级、公开三屏断网及五项公开下载回读通过，证据见 [本轮核验](docs/production/VERIFIED-DELIVERY-20261025.json)。
+青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前发行版本均为 **v1.5.4**。427 条人物对白、十二位角色图鉴和新增场景 / CG 已接入；真实安装升级、公开三屏断网及五项公开下载回读通过，证据见 [本轮核验](docs/production/VERIFIED-DELIVERY-20261025.json)。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.5.2)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.5.4)
 
 你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥和许棠相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
 

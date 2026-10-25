@@ -1,10 +1,11 @@
 {
   "schema": 1,
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "project": "Healing",
-  "targetVersion": "1.4.0",
-  "baselineCommit": "45d5f4eb693eedc5bdb367f5a1ee1e4026069897",
+  "targetVersion": "1.5.4",
+  "runtimeCommit": "19cd5f09daef76c46afbfefe492164fe5a53c079",
   "status": "released-and-verified",
+  "acceptanceScope": "engineering release; human creative/listening/physical-device review pending",
   "gates": {
     "implementation": "passed",
     "localValidation": "passed",
@@ -14,34 +15,28 @@
     "publicReadback": "passed",
     "fourGameCoexistence": "passed"
   },
-  "humanReview": "pending-user-consolidated",
+  "humanReview": "pending",
+  "humanListeningClaimed": false,
   "evidence": [
-    {
-      "kind": "local",
-      "checks": {
-        "logic": 82,
-        "publisher": 16,
-        "materials": 10,
-        "newHelpBrowser": 4,
-        "build": "passed",
-        "fontCoverage": "passed",
-        "fullBrowser": {
-          "passed": 85,
-          "skippedDeviceSpecific": 3,
-          "failed": 0
-        }
-      },
-      "browser": "Chromium153 local; complete CI remains separate"
-    },
-    {
-      "kind": "final-release-closure",
-      "path": "docs/production/PUBLISHED-v1.4.0.json",
-      "runtimeCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21",
-      "platforms": "actual Windows and public PWA",
-      "fourGamesCiRun": 39972929371
-    }
+    "docs/production/VERIFIED-DELIVERY-20261025.json",
+    "docs/production/ACCEPTANCE-20261025.md",
+    "docs/production/quality-20261025/media-quality.json",
+    "docs/production/quality-20261025/review-browser.json"
   ],
+  "previousReadiness": "docs/production/quality-20261025/previous-readiness.json",
+  "previousTargetVersion": "1.4.0",
   "blockers": [],
-  "updatedAt": "2026-10-23T15:07:34.468305+00:00",
-  "runtimeCommit": "62f84f73856504f7432e35d970cd35cd8bc5cc21"
+  "quality": {
+    "dialogueBindings": 427,
+    "uniqueAudioFiles": 427,
+    "artworkFiles": 36,
+    "fullMediaNewImages": 17,
+    "audioDurationSeconds": 1705.12,
+    "reviewPriorityItems": 43,
+    "objectiveErrorItems": 0,
+    "flags": {
+      "asr_difference": 42,
+      "leading_silence": 1
+    }
+  }
 }

@@ -3,81 +3,246 @@
   "date": "2026-10-25",
   "project": "Healing",
   "type": "校园视觉小说 / Galgame",
-  "version": "1.5.2",
-  "runtimeCommit": "f1a7183cf03eb94e4edb2a6d0432a91038144b19",
-  "buildRun": 40148770721,
+  "version": "1.5.4",
+  "runtimeCommit": "19cd5f09daef76c46afbfefe492164fe5a53c079",
+  "buildRun": 40167690048,
   "buildConclusion": "success",
-  "publicPwaRun": 40149450800,
+  "publicPwaRun": 40169147228,
   "publicPwaConclusion": "success",
-  "browserSummary": "111 通过，3 项设备适用性跳过（标准 CI，60 秒超时）",
-  "nativeSummary": "源码 Electron 与实际 ASAR、NSIS 安装及 v1.0.2 旧档升级、全屏、保存位置、CG / 最终结局和退出通过；公开便携启动器专项亦通过，子程序 ASAR 与安装版一致，实际保存续读与临时目录清理通过",
+  "browserSummary": "117 通过，3 项设备不适用跳过（v1.5.4 完整标准 CI）",
+  "nativeSummary": "v1.5.4：88 项逻辑及素材 / 发布协议、生产构建通过；完整标准 CI 117 浏览器通过、三项设备不适用跳过。Windows 源码 Electron、实际 ASAR、NSIS 安装及 v1.0.2 同安装 / 同 profile 真实旧档升级通过；四最终结局 / CG、保存、全屏和退出通过。公开便携外层启动器单独启动、存档 / 续读、同 ASAR 和临时目录清理通过；桌面 / 手机旁白位置离线专项 2/2 通过，427 文件完整解码通过。",
   "publicReadback": {
     "schema": 1,
-    "checkedAt": 1792890587.4232857,
-    "repo": "Healing",
-    "version": "v1.5.2",
-    "runtimeCommit": "f1a7183cf03eb94e4edb2a6d0432a91038144b19",
-    "releaseUrl": "https://github.com/AureliusWu/Healing/releases/tag/v1.5.2",
-    "publicAssets": [
+    "checkedAt": "2026-10-25T06:32:04.685346+00:00",
+    "repository": "AureliusWu/Healing",
+    "version": "v1.5.4",
+    "runtimeCommit": "19cd5f09daef76c46afbfefe492164fe5a53c079",
+    "releaseUrl": "https://github.com/AureliusWu/Healing/releases/tag/v1.5.4",
+    "status": "passed",
+    "assets": [
       {
-        "name": "MoistHealing-1.5.2-x64-Portable.exe",
-        "size": 148312462,
-        "sha256": "cff3712407bd0f7597f0c9e5dfdb8ed30f20c3b452ee9255aeb902bbc2a40a15",
-        "githubDigestMatches": true
+        "name": "MoistHealing-1.5.4-x64-Portable.exe",
+        "bytes": 148281384,
+        "sha256": "8a09cdd6daf0d64cc92544b65a581f30f9a9fa25f2ea7fcfbaa1cc265ef8bf08",
+        "matchesGitHubDigest": true,
+        "publicUrl": "https://github.com/AureliusWu/Healing/releases/download/v1.5.4/MoistHealing-1.5.4-x64-Portable.exe"
       },
       {
-        "name": "MoistHealing-1.5.2-x64-Setup.exe",
-        "size": 148546709,
-        "sha256": "11a8dcfc7b8e280059d31c26db3d789fc8e6b688a4591d80ae94cbd1aa9dc3a9",
-        "githubDigestMatches": true
+        "name": "MoistHealing-1.5.4-x64-Setup.exe",
+        "bytes": 148515619,
+        "sha256": "03a9c6bb424b8821360fcaee3cfefd61e02bd85ee754912872bc8ed6741747a4",
+        "matchesGitHubDigest": true,
+        "publicUrl": "https://github.com/AureliusWu/Healing/releases/download/v1.5.4/MoistHealing-1.5.4-x64-Setup.exe"
       },
       {
-        "name": "MoistHealing-PWA-1.5.2.zip",
-        "size": 37979348,
-        "sha256": "59a62fc63f9ff1996458cfcb95617ee185e829bcc1185b02e6535de99a744c3f",
-        "githubDigestMatches": true,
-        "zipCrcPassed": true,
-        "files": 480,
-        "forbiddenDevelopmentFiles": []
+        "name": "MoistHealing-PWA-1.5.4.zip",
+        "bytes": 37947128,
+        "sha256": "54a68178e61becfa9015805ce199f3dda2abe1697bec3404a5eb7e5832751efc",
+        "matchesGitHubDigest": true,
+        "publicUrl": "https://github.com/AureliusWu/Healing/releases/download/v1.5.4/MoistHealing-PWA-1.5.4.zip"
       },
       {
         "name": "release.json",
-        "size": 293,
-        "sha256": "b14ff80225b26c4fecfded62a9d3bdca138f17154381e3689c0370cce0fd6fe5",
-        "githubDigestMatches": true
+        "bytes": 293,
+        "sha256": "7e9bf6855b7d89c955c72b8842c51e930c937fd601beab4fb16e2bb4cd5c6e8a",
+        "matchesGitHubDigest": true,
+        "publicUrl": "https://github.com/AureliusWu/Healing/releases/download/v1.5.4/release.json"
       },
       {
         "name": "SHA256SUMS.txt",
-        "size": 373,
-        "sha256": "f5030046e96678b1e9b80d27b26fa828468d3bd9f2758cbe07a6496052cb3238",
-        "githubDigestMatches": true
+        "bytes": 373,
+        "sha256": "bd0ba036af1ec98783dd00ff130d3f6a03a54291a4b4450f7df13ae59785cc9b",
+        "matchesGitHubDigest": true,
+        "publicUrl": "https://github.com/AureliusWu/Healing/releases/download/v1.5.4/SHA256SUMS.txt"
       }
     ],
-    "checksumEntries": {
-      "MoistHealing-1.5.2-x64-Setup.exe": true,
-      "MoistHealing-1.5.2-x64-Portable.exe": true,
-      "MoistHealing-PWA-1.5.2.zip": true,
-      "release.json": true
-    },
-    "status": "passed"
+    "checksumEntries": [
+      "MoistHealing-1.5.4-x64-Setup.exe",
+      "MoistHealing-1.5.4-x64-Portable.exe",
+      "MoistHealing-PWA-1.5.4.zip",
+      "release.json"
+    ],
+    "archives": [
+      {
+        "name": "MoistHealing-PWA-1.5.4.zip",
+        "files": 488,
+        "crcPassed": true,
+        "forbiddenFiles": []
+      }
+    ],
+    "releaseMetadata": {
+      "version": "1.5.4",
+      "commit": "19cd5f09daef76c46afbfefe492164fe5a53c079",
+      "build": "https://github.com/AureliusWu/Healing/actions/runs/40167690048",
+      "storyVersion": "moist-healing-v1",
+      "saveSchema": 1,
+      "compatibleStoryVersions": [
+        "chapter1-v1",
+        "moist-healing-v1"
+      ]
+    }
   },
   "sameOrigin": {
-    "status": "passed",
-    "run": 40148998570,
-    "attempt": 2,
-    "expectedVersions": {
-      "Circuit": "1.9.0",
+    "schema": 1,
+    "checked_at": "2026-10-25T06:26:36.168286+00:00",
+    "expected_versions": {
+      "Circuit": "1.10.1",
       "NetLove": "1.1.1",
-      "Healing": "1.5.2",
+      "Healing": "1.5.4",
       "Rain": "1.7.0"
     },
-    "totalCachedFiles": 1257,
-    "pageErrors": []
+    "status": "passed",
+    "installs": [
+      {
+        "game": "Circuit",
+        "version": "1.10.1",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Circuit/",
+          "active": "https://aureliuswu.github.io/Circuit/sw.js",
+          "controller": "https://aureliuswu.github.io/Circuit/sw.js"
+        },
+        "own_cache_entries": {
+          "workbox-precache-v2-https://aureliuswu.github.io/Circuit/": 493
+        },
+        "prior_caches_preserved": true,
+        "prior_save_states_preserved": true
+      },
+      {
+        "game": "NetLove",
+        "version": "1.1.1",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "active": "https://aureliuswu.github.io/NetLove/sw.js",
+          "controller": "https://aureliuswu.github.io/NetLove/sw.js"
+        },
+        "own_cache_entries": {
+          "netlove-v2:https%3A%2F%2Faureliuswu.github.io%2FNetLove%2F:aaf7b2e55977b0": 260
+        },
+        "prior_caches_preserved": true,
+        "prior_save_states_preserved": true
+      },
+      {
+        "game": "Healing",
+        "version": "1.5.4",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Healing/",
+          "active": "https://aureliuswu.github.io/Healing/sw.js",
+          "controller": "https://aureliuswu.github.io/Healing/sw.js"
+        },
+        "own_cache_entries": {
+          "moist-healing-v2:https%3A%2F%2Faureliuswu.github.io%2FHealing%2F:7854d1327e6175": 478
+        },
+        "prior_caches_preserved": true,
+        "prior_save_states_preserved": true
+      },
+      {
+        "game": "Rain",
+        "version": "1.7.0",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Rain/",
+          "active": "https://aureliuswu.github.io/Rain/service-worker.js",
+          "controller": "https://aureliuswu.github.io/Rain/service-worker.js"
+        },
+        "own_cache_entries": {
+          "rain-pwa:/Rain/:f83e74ac401a19dd622d9cd6": 37
+        },
+        "prior_caches_preserved": true,
+        "prior_save_states_preserved": true
+      }
+    ],
+    "offline": [
+      {
+        "game": "Circuit",
+        "version": "1.10.1",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Circuit/",
+          "active": "https://aureliuswu.github.io/Circuit/sw.js",
+          "controller": "https://aureliuswu.github.io/Circuit/sw.js"
+        },
+        "cache_inventory_preserved": true,
+        "react_save_states_preserved": true
+      },
+      {
+        "game": "NetLove",
+        "version": "1.1.1",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/NetLove/",
+          "active": "https://aureliuswu.github.io/NetLove/sw.js",
+          "controller": "https://aureliuswu.github.io/NetLove/sw.js"
+        },
+        "cache_inventory_preserved": true,
+        "react_save_states_preserved": true
+      },
+      {
+        "game": "Healing",
+        "version": "1.5.4",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Healing/",
+          "active": "https://aureliuswu.github.io/Healing/sw.js",
+          "controller": "https://aureliuswu.github.io/Healing/sw.js"
+        },
+        "cache_inventory_preserved": true,
+        "react_save_states_preserved": true
+      },
+      {
+        "game": "Rain",
+        "version": "1.7.0",
+        "worker": {
+          "scope": "https://aureliuswu.github.io/Rain/",
+          "active": "https://aureliuswu.github.io/Rain/service-worker.js",
+          "controller": "https://aureliuswu.github.io/Rain/service-worker.js"
+        },
+        "cache_inventory_preserved": true,
+        "react_save_states_preserved": true
+      }
+    ],
+    "page_errors": [],
+    "scope": "Fresh Chromium profile; same-origin caches, real React autosaves and offline startup. Native Save/Load, Windows and physical devices are separate checks.",
+    "browser_version": "156.0.8078.4",
+    "cache_inventory_sha256": "a21a34ce8f8c69a8c130d3bdf96380fa2b795b5bc2b08d08f12c712e15949ccb",
+    "registrations": [
+      "https://aureliuswu.github.io/Circuit/",
+      "https://aureliuswu.github.io/Healing/",
+      "https://aureliuswu.github.io/NetLove/",
+      "https://aureliuswu.github.io/Rain/"
+    ],
+    "total_cached_files": 1268,
+    "verificationRun": 40169055016,
+    "runAttempt": 1
   },
   "finalWorkAccepted": false,
   "humanListeningClaimed": false,
-  "remaining": "P2：陈知遥图集书本边缘修整，录音 / 音乐试听，人物口吻与演出审读。P3：19 项旧素材来源缺口的补档、普通设备 / DPI 与阅读计时。没有以增加大量 CG 代替这些问题。",
-  "portableRun": 40149608246,
+  "remaining": "P2：42 条旧 ASR 差异和一段约 0.82 秒前静音需结合原音判断，不直接当错配；全篇听感、口吻及演出终审。P3：18 项历史制作源补档，普通设备 / DPI 与阅读计时。陈知遥书本裁切缺口已关闭。",
+  "portableRun": 40168719674,
   "portableConclusion": "success",
-  "verificationOnlyCommit": "295ce161e33d91d6b067f3da9ebb1cde97b37099"
+  "verificationOnlyCommit": "40db63af33f731982769294f48d6e9c5acaed00c",
+  "engineeringReleaseVerified": true,
+  "thisContinuation": "重绘并接入陈知遥完整六表情图集，修复右侧书本轮廓贴边；原 PNG、完整请求、透明测量与运行坐标均归档。两格在实际剧情触发，六种视口逐格检查透明边缘。逐段复核补正两处未配音旁白：周五递来的稿纸明确为上周六所写；10 月 8 日回顾明确区分 9 月 30 日已交正表与假期按两天约定交出的补页。v1.5.3 / v1.5.4 分别独立发布，不覆盖旧包。",
+  "completedGaps": "修复陈知遥惊讶 / 害羞格书本边缘裁切；修复两处明确时间指代；保留 427/427 原录音请求、段落槽位、路线与存档 schema。专项测试改比较完整剧情状态，避免把正常 savedAt 更新时间误当损坏。",
+  "verificationOnlyBuildRun": 40168719740,
+  "verificationOnlyBuildConclusion": "success",
+  "publicPwaCommit": "40db63af33f731982769294f48d6e9c5acaed00c",
+  "releaseSourcePwaRun": 40168268668,
+  "note": "公开运行包固定19cd；40db只增补公开便携核验工作流 / 请求，不改变游戏运行代码与素材。",
+  "publicPortable": {
+    "schema": 1,
+    "status": "passed",
+    "version": "1.5.4",
+    "runtimeCommit": "19cd5f09daef76c46afbfefe492164fe5a53c079",
+    "sourceRun": 40167690048,
+    "checkedAt": "2026-10-25T06:20:37.992597+00:00",
+    "checks": [
+      "public wrapper launches exact previously verified packaged ASAR",
+      "current title and version render from public portable wrapper",
+      "start and actual automatic save",
+      "reload and Continue restore the same saved state",
+      "no renderer page errors during the exercised reading"
+    ],
+    "pageErrors": [],
+    "portableSha256": "8a09cdd6daf0d64cc92544b65a581f30f9a9fa25f2ea7fcfbaa1cc265ef8bf08",
+    "asarSha256": "53356144b903550d0ae29ddcdc6cfd1adee200f8c4c709f09af542ee156aa913",
+    "temporarySandboxRemoved": true,
+    "verificationRun": 40168719674,
+    "verificationOnlyCommit": "40db63af33f731982769294f48d6e9c5acaed00c"
+  }
 }
