@@ -5,7 +5,7 @@ on:
     paths:
       - .github/workflows/public-portable.yml
       - tools/production/verify_public_portable.py
-      - docs/production/PORTABLE-v1.5.3-REQUEST.json
+      - docs/production/PORTABLE-v1.5.4-REQUEST.json
   workflow_dispatch:
 permissions:
   contents: read
@@ -20,10 +20,10 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install playwright
       - name: Launch the exact published portable wrapper
-        run: python tools/production/verify_public_portable.py --request docs/production/PORTABLE-v1.5.3-REQUEST.json --output artifacts/public-portable/result.json
+        run: python tools/production/verify_public_portable.py --request docs/production/PORTABLE-v1.5.4-REQUEST.json --output artifacts/public-portable/result.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: Healing-public-portable-v1.5.3
+          name: Healing-public-portable-v1.5.4
           path: artifacts/public-portable/
           if-no-files-found: error
