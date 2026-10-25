@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-25",
+  "version": "1.5.1",
+  "unitTests": 88,
+  "build": "passed",
+  "materials": "passed",
+  "e2e": "running separately; not claimed passed",
+  "windows": "pending matching CI",
+  "records": [
+    {
+      "file": "Healing-final-unit.log",
+      "sha256": "8011371a0f3af6d17ef1d301686f7e9da7c3c40aa326f3cc7bec8f3a9355d2cf",
+      "bytes": 545
+    },
+    {
+      "file": "Healing-final-materials.log",
+      "sha256": "dde89aa3ab29a61e44662cfe4367437261affadeb711bbe43886a8a2513e2463",
+      "bytes": 1384
+    },
+    {
+      "file": "Healing-final-build.log",
+      "sha256": "1bcb0330ab7c414b9fac13a08fc73c710b1b80513a953439d5c48e54d9e0210e",
+      "bytes": 658
+    }
+  ]
+}

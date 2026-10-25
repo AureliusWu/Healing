@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-25",
+  "method": "current runtime bytes, complete SoundFile decode, finite samples, peak and loop boundary; no human listening claimed",
+  "tracks": [
+    {
+      "id": "healing-desks",
+      "runtime": "public/audio/bgm/healing-desks.ogg",
+      "sha256": "9a6238e9edce0bd2b31dc9ba11a25b331a2500e3296367f6d52d12abc6384403",
+      "frames": 3921728,
+      "sampleRate": 48000,
+      "channels": 2,
+      "seconds": 81.70266666666667,
+      "finite": true,
+      "samplePeakDbfs": -10.7203950881958,
+      "loopBoundaryDelta": 0.0009994059801101685
+    },
+    {
+      "id": "healing-developed",
+      "runtime": "public/audio/bgm/healing-developed.ogg",
+      "sha256": "19bff176150aca61d4b8e7e6ffdb7715f1e9454dd7c16f61012887ff27fa5b1d",
+      "frames": 4608000,
+      "sampleRate": 48000,
+      "channels": 2,
+      "seconds": 96.0,
+      "finite": true,
+      "samplePeakDbfs": -7.342463493347168,
+      "loopBoundaryDelta": 0.003863283898681402
+    }
+  ]
+}

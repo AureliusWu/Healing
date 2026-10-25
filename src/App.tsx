@@ -15,6 +15,7 @@ import { rereadFrom } from './game/reread';
 import { decodeSave, encodeSave, KEY, readEndings, readSave, readSettings, slots, writeSave, type Slot } from './game/storage';
 import { applyProgressImport, createReadingBackup, decodeProgressFile } from './game/backup';
 import { music } from './game/music';
+import { useSceneCue } from './useSceneCue';
 import { RecordedVoice, voiceBlocksAuto } from './game/voice';
 import { voiceFor } from './game/voice-catalog';
 import { cgAt, backgroundAt } from './game/scene-media';
@@ -119,6 +120,8 @@ export function App() {
     music.setScene(panel === 'memories' && audition ? audition : screen === 'game' ? musicFor(scene.id) : 'rain', screen === 'game' && panel !== 'memories' && !!scene.rain);
   }, [settings, scene.id, scene.rain, screen, audition, panel, confirm, uiHidden, pageHidden, voiceState.status]);
   useEffect(() => { if (panel !== 'memories') setAudition(null); }, [panel]);
+  useSceneCue(scene.id, game.line, readingSession,
+    screen === 'game' && !panel && !confirm && !uiHidden && !pageHidden && !fast);
   useEffect(() => {
     if (screen === 'game') store('auto', liveGame);
   }, [liveGame, screen, store]);

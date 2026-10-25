@@ -1,5 +1,6 @@
 import { scoreInfo } from './score';
 import { SceneLoop } from './sceneLoop';
+import { playSceneCue, type SceneCue } from './scene-cues';
 import type { MusicId, Settings } from './types';
 
 // One audio graph and one scheduler, unlocked by a gesture, suspended when hidden.
@@ -78,6 +79,10 @@ export class Music {
     this.effectsBus?.gain.setTargetAtTime(this.options.soundEffects ? this.options.volume : 0, t, .05);
   }
   pause() { clearInterval(this.timer); this.timer = undefined; this.fade(); void this.context?.suspend(); }
+  event(kind: SceneCue) {
+    if (this.paused || !this.allowed || !this.options.soundEffects || document.hidden || !this.context || this.context.state !== 'running' || !this.effectsBus) return;
+    playSceneCue(this.context, this.effectsBus, kind);
+  }
   effect(kind: 'page' | 'choice') {
     if (this.paused || !this.allowed || !this.options.soundEffects || document.hidden || !this.context || this.context.state !== 'running' || !this.effectsBus) return;
     const t = this.context.currentTime, oscillator = this.context.createOscillator(), gain = this.context.createGain();
