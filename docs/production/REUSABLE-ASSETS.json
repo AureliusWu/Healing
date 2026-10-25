@@ -507,39 +507,45 @@
       "kind": "art",
       "reuse": "project-only",
       "origin": "Built-in image_gen; exact original request recorded in prompt evidence",
-      "sourceStatus": "not-in-repository",
-      "sourceNote": "Only final WebP, request and metadata are in repository; original generation PNG not preserved",
+      "sourceStatus": "present",
+      "sourceNote": "2026-10-25 regenerated replacement source PNG retained; original historical source gap is not backfilled.",
       "licenseNote": "Generated project art; repository MIT code license does not establish third-party or exclusive art rights",
       "files": [
         {
           "role": "runtime",
           "path": "public/art/chen-expressions.webp",
           "encoding": "binary",
-          "sha256": "f19df7ddae0436a79325d4fc27af0007575e1389288818165601d7f0f5f84f05"
+          "sha256": "57cc3ec69d047493cf00807b8ef86fb868a22a68d434227ebc6a86f1383a7b36"
+        },
+        {
+          "role": "source",
+          "path": "assets_source/characters/repair-20261025/chen-expressions.png",
+          "encoding": "binary",
+          "sha256": "80068dfc1744fd8679d9d108b16cd07bc47166a10f1ef464759b800b9ebd1b55"
         },
         {
           "role": "prompt",
-          "path": "docs/prompts/ART-v4.md",
+          "path": "docs/prompts/CHEN-REPAIR-20261025.md",
           "encoding": "text-lf",
-          "sha256": "f4067a300b99a9b09f4a1046bc5a7d891b13411ff822c4f73b0d26ee652095c9"
+          "sha256": "b00afe4e3396fa1195b4d7597455da6a1fa3b2699c07c984b95a20f2347f796f"
         }
       ],
       "formatMetadata": {
-        "width": 1254,
-        "height": 1254,
-        "bytes": 1248646,
-        "transparentFraction": 0.4562,
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1216396,
+        "transparentFraction": 0.673,
         "alphaBounds": [
-          37,
-          36,
-          1254,
-          1254
+          0,
+          17,
+          1388,
+          994
         ],
         "solidAlphaBounds": [
-          72,
-          42,
-          1251,
-          1241
+          290,
+          70,
+          1305,
+          986
         ],
         "columns": 3,
         "rows": 2,
@@ -553,40 +559,78 @@
         ],
         "figureBounds": [
           [
+            290,
+            70,
+            571,
+            503
+          ],
+          [
+            654,
             72,
-            42,
-            435,
-            621
+            937,
+            504
           ],
           [
-            471,
-            43,
-            834,
-            620
+            1013,
+            73,
+            1294,
+            505
           ],
           [
-            890,
-            42,
-            1251,
-            620
+            290,
+            553,
+            574,
+            984
           ],
           [
-            72,
-            662,
-            435,
-            1241
+            655,
+            554,
+            942,
+            986
           ],
           [
-            472,
-            662,
-            836,
-            1241
+            1021,
+            554,
+            1305,
+            986
+          ]
+        ],
+        "frames": [
+          [
+            271,
+            64,
+            319,
+            445
           ],
           [
-            892,
-            662,
-            1251,
-            1241
+            636,
+            66,
+            319,
+            445
+          ],
+          [
+            994,
+            67,
+            319,
+            445
+          ],
+          [
+            272,
+            547,
+            319,
+            445
+          ],
+          [
+            639,
+            548,
+            319,
+            445
+          ],
+          [
+            1004,
+            548,
+            319,
+            445
           ]
         ]
       }

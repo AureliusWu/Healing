@@ -81,6 +81,14 @@
       "id": "bus-interior",
       "output": "public/art/bus-interior.webp",
       "sha256": "3fce0f3788e5c9f9ea9fc73d38bccd9a76ef7ccfa69bef4fb1a3487e99d9d7cc"
+    },
+    {
+      "id": "chen-repair-20261025",
+      "output": "public/art/chen-expressions.webp",
+      "sha256": "57cc3ec69d047493cf00807b8ef86fb868a22a68d434227ebc6a86f1383a7b36",
+      "source": "assets_source/characters/repair-20261025/chen-expressions.png",
+      "sourceSha256": "80068dfc1744fd8679d9d108b16cd07bc47166a10f1ef464759b800b9ebd1b55",
+      "prompt": "docs/prompts/CHEN-REPAIR-20261025.md"
     }
   ],
   "humanVisualApproval": false,

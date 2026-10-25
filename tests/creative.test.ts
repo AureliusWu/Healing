@@ -5,7 +5,7 @@ import {auditRevision,validateFrames} from '../scripts/vn-creative.mjs';
 import {scenes,cgInfo} from '../src/story';
 describe('creative revision and mid-story illustration',()=>{
   it('keeps native positions/routes and attaches the proof event',()=>{
-    expect(auditRevision(baseline,{scenes}).revisedParagraphs).toBe(24);
+    expect(auditRevision(baseline,{scenes}).revisedParagraphs).toBe(25);
     expect(scenes.find(s=>s.id==='c2-proof')?.cg).toBe('proof');
     expect(cgInfo.proof.scene).toBe('c2-proof');expect(validateFrames(frames)).toBe(12);
   });

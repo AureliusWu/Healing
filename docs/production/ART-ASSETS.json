@@ -191,20 +191,20 @@
     },
     {
       "kind": "atlas",
-      "width": 1254,
-      "height": 1254,
-      "transparentFraction": 0.4562,
+      "width": 1536,
+      "height": 1024,
+      "transparentFraction": 0.673,
       "alphaBounds": [
-        37,
-        36,
-        1254,
-        1254
+        0,
+        17,
+        1388,
+        994
       ],
       "solidAlphaBounds": [
-        72,
-        42,
-        1251,
-        1241
+        290,
+        70,
+        1305,
+        986
       ],
       "columns": 3,
       "rows": 2,
@@ -218,87 +218,90 @@
       ],
       "figureBounds": [
         [
+          290,
+          70,
+          571,
+          503
+        ],
+        [
+          654,
           72,
-          42,
-          435,
-          621
+          937,
+          504
         ],
         [
-          471,
-          43,
-          834,
-          620
+          1013,
+          73,
+          1294,
+          505
         ],
         [
-          890,
-          42,
-          1251,
-          620
+          290,
+          553,
+          574,
+          984
         ],
         [
-          72,
-          662,
-          435,
-          1241
+          655,
+          554,
+          942,
+          986
         ],
         [
-          472,
-          662,
-          836,
-          1241
-        ],
-        [
-          892,
-          662,
-          1251,
-          1241
+          1021,
+          554,
+          1305,
+          986
         ]
       ],
       "frames": [
         [
-          56,
-          36,
-          396,
-          591
+          271,
+          64,
+          319,
+          445
         ],
         [
-          454,
-          37,
-          396,
-          591
+          636,
+          66,
+          319,
+          445
         ],
         [
-          858,
-          36,
-          396,
-          591
+          994,
+          67,
+          319,
+          445
         ],
         [
-          56,
-          656,
-          396,
-          591
+          272,
+          547,
+          319,
+          445
         ],
         [
-          456,
-          656,
-          396,
-          591
+          639,
+          548,
+          319,
+          445
         ],
         [
-          858,
-          656,
-          396,
-          591
+          1004,
+          548,
+          319,
+          445
         ]
       ],
       "path": "public/art/chen-expressions.webp",
-      "bytes": 1248646,
-      "sha256": "f19df7ddae0436a79325d4fc27af0007575e1389288818165601d7f0f5f84f05",
+      "bytes": 1216396,
+      "sha256": "57cc3ec69d047493cf00807b8ef86fb868a22a68d434227ebc6a86f1383a7b36",
       "id": "chen-expressions",
-      "inputCommit": "b51f8bd6dbf98165c1a20f24d58ca1cb6ddc6bcc",
-      "prompts": "docs/prompts/ART-v4.md",
-      "measurement": "2026-10-13 from existing runtime WebP; original source gap remains documented"
+      "inputCommit": "9001f1732d35e1d496db570fa4b053868b3c9f11",
+      "prompts": "docs/prompts/CHEN-REPAIR-20261025.md",
+      "measurement": "Regenerated atlas; measured complete books, visible margins and transparent gutters on 2026-10-25.",
+      "rowSeparator": 528,
+      "source": "assets_source/characters/repair-20261025/chen-expressions.png",
+      "sourceSha256": "80068dfc1744fd8679d9d108b16cd07bc47166a10f1ef464759b800b9ebd1b55"
     },
     {
       "kind": "sheet",
