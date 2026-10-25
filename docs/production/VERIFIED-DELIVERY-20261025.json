@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "date": "2026-10-25",
+  "project": "Healing",
+  "type": "校园视觉小说 / Galgame",
+  "version": "1.5.2",
+  "runtimeCommit": "f1a7183cf03eb94e4edb2a6d0432a91038144b19",
+  "buildRun": 40148770721,
+  "buildConclusion": "success",
+  "publicPwaRun": 40149450800,
+  "publicPwaConclusion": "success",
+  "browserSummary": "111 通过，3 项设备适用性跳过（标准 CI，60 秒超时）",
+  "nativeSummary": "源码 Electron 与实际 ASAR、NSIS 安装及 v1.0.2 旧档升级、全屏、保存位置、CG / 最终结局和退出通过；公开便携启动器专项亦通过，子程序 ASAR 与安装版一致，实际保存续读与临时目录清理通过",
+  "publicReadback": {
+    "schema": 1,
+    "checkedAt": 1792890587.4232857,
+    "repo": "Healing",
+    "version": "v1.5.2",
+    "runtimeCommit": "f1a7183cf03eb94e4edb2a6d0432a91038144b19",
+    "releaseUrl": "https://github.com/AureliusWu/Healing/releases/tag/v1.5.2",
+    "publicAssets": [
+      {
+        "name": "MoistHealing-1.5.2-x64-Portable.exe",
+        "size": 148312462,
+        "sha256": "cff3712407bd0f7597f0c9e5dfdb8ed30f20c3b452ee9255aeb902bbc2a40a15",
+        "githubDigestMatches": true
+      },
+      {
+        "name": "MoistHealing-1.5.2-x64-Setup.exe",
+        "size": 148546709,
+        "sha256": "11a8dcfc7b8e280059d31c26db3d789fc8e6b688a4591d80ae94cbd1aa9dc3a9",
+        "githubDigestMatches": true
+      },
+      {
+        "name": "MoistHealing-PWA-1.5.2.zip",
+        "size": 37979348,
+        "sha256": "59a62fc63f9ff1996458cfcb95617ee185e829bcc1185b02e6535de99a744c3f",
+        "githubDigestMatches": true,
+        "zipCrcPassed": true,
+        "files": 480,
+        "forbiddenDevelopmentFiles": []
+      },
+      {
+        "name": "release.json",
+        "size": 293,
+        "sha256": "b14ff80225b26c4fecfded62a9d3bdca138f17154381e3689c0370cce0fd6fe5",
+        "githubDigestMatches": true
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 373,
+        "sha256": "f5030046e96678b1e9b80d27b26fa828468d3bd9f2758cbe07a6496052cb3238",
+        "githubDigestMatches": true
+      }
+    ],
+    "checksumEntries": {
+      "MoistHealing-1.5.2-x64-Setup.exe": true,
+      "MoistHealing-1.5.2-x64-Portable.exe": true,
+      "MoistHealing-PWA-1.5.2.zip": true,
+      "release.json": true
+    },
+    "status": "passed"
+  },
+  "sameOrigin": {
+    "status": "passed",
+    "run": 40148998570,
+    "attempt": 2,
+    "expectedVersions": {
+      "Circuit": "1.9.0",
+      "NetLove": "1.1.1",
+      "Healing": "1.5.2",
+      "Rain": "1.7.0"
+    },
+    "totalCachedFiles": 1257,
+    "pageErrors": []
+  },
+  "finalWorkAccepted": false,
+  "humanListeningClaimed": false,
+  "remaining": "P2：陈知遥图集书本边缘修整，录音 / 音乐试听，人物口吻与演出审读。P3：19 项旧素材来源缺口的补档、普通设备 / DPI 与阅读计时。没有以增加大量 CG 代替这些问题。",
+  "portableRun": 40149608246,
+  "portableConclusion": "success",
+  "verificationOnlyCommit": "295ce161e33d91d6b067f3da9ebb1cde97b37099"
+}
