@@ -19,3 +19,5 @@
 剧情、美术精修另读 [协作方法](docs/production/CREATIVE-PLAYBOOK.md)。保留原段落、路线与录音句，检查点与实际平台证据分别留档。
 
 项目类型和完成标准另读 [本作验收](docs/production/PROJECT-ACCEPTANCE.md)，以用户 2026-10-25 四作要求为准。按各作实际玩法验收，不强制统一 Galgame 模板；资源必须实际触发并验证效果，才能标记完成。
+
+跨仓制作工作流另读 [VN 工作流 R1](docs/production/VN-WORKFLOW-R1.md) 与 `.vn/workflow.json`。复用方法按本作语义适配；清单检查 PASS 不授予运行、内容或发布 PASS。

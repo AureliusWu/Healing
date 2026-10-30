@@ -1,0 +1,53 @@
+{
+  "schema": "vn-workflow-profile-v1",
+  "workflowVersion": "1.0.0",
+  "repository": "AureliusWu/Healing",
+  "kind": "game",
+  "engine": "React / TypeScript / Electron",
+  "releaseAuthority": "native-project-gates",
+  "sources": [
+    "src/story/chapter1.ts",
+    "src/story/chapter2.ts",
+    "src/story/chapter3.ts",
+    "src/story/index.ts"
+  ],
+  "requiredPaths": [
+    "AGENTS.md",
+    "docs/production/VN-WORKFLOW-R1.md",
+    "docs/PRODUCTION.md",
+    "docs/production/FULLSCREEN-READING.md",
+    "docs/production/PROJECT-ACCEPTANCE.md"
+  ],
+  "commands": [
+    {
+      "id": "full-check",
+      "argv": [
+        "npm",
+        "run",
+        "check"
+      ]
+    },
+    {
+      "id": "materials",
+      "argv": [
+        "npm",
+        "run",
+        "test:materials"
+      ]
+    },
+    {
+      "id": "desktop",
+      "argv": [
+        "npm",
+        "run",
+        "test:desktop:installed"
+      ]
+    }
+  ],
+  "workflows": [
+    ".github/workflows/build.yml",
+    ".github/workflows/pages.yml"
+  ],
+  "identityNotes": "TS 章节为正文来源；保留 moist-healing-v1、chapter1-v1 兼容与 moist-healing:v1；浮层/隐藏暂停按本作规范。",
+  "sharedManifest": "docs/production/REUSE-MANIFEST.json"
+}
