@@ -22,6 +22,10 @@
 
 # 湿性愈合
 
+<!-- project-badges:start -->
+[![Version](https://img.shields.io/github/v/tag/AureliusWu/Healing?sort=semver&style=flat-square&label=version)](https://github.com/AureliusWu/Healing/tags) [![Build](https://github.com/AureliusWu/Healing/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/AureliusWu/Healing/actions/workflows/build.yml) [![Last commit](https://img.shields.io/github/last-commit/AureliusWu/Healing?style=flat-square)](https://github.com/AureliusWu/Healing/commits/main) [![License](https://img.shields.io/github/license/AureliusWu/Healing?style=flat-square)](LICENSE)
+<!-- project-badges:end -->
+
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
 青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前发行版本均为 **v1.5.4**。427 条人物对白、十二位角色图鉴和新增场景 / CG 已接入；真实安装升级、公开三屏断网及五项公开下载回读通过，证据见 [本轮核验](docs/production/VERIFIED-DELIVERY-20261025.json)。
