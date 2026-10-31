@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "project": "Healing",
+  "sourceCommit": "49b08968bf29e130fd826a720f966f70f576569c",
+  "currentSourceFiles": [
+    {
+      "path": "src/story/index.ts",
+      "sha256": "efa4c11c50087ab5c4b6d71007c9c6f57d0d584ba78e7205cb0ff1d41756f5d2"
+    },
+    {
+      "path": "src/story/chapter1.ts",
+      "sha256": "37f513e3c2fcf056d931e0128f1718f9dc31739d649396f786e68970cea81bf1"
+    },
+    {
+      "path": "src/story/chapter2.ts",
+      "sha256": "3c7f41ce6e2186cd75103ce6f42e43fb44d9be2959ec8c9e7471e83120131d96"
+    },
+    {
+      "path": "src/story/authoring.ts",
+      "sha256": "ac8ac9b2771bc54788f7bdd2e672c35257ce86dd35578e6bad97380f8ba981af"
+    },
+    {
+      "path": "src/story/chapter3.ts",
+      "sha256": "283b5f100226ac934152449dbcbb572ddc2220aeaaf5697ae5110380071ef613"
+    }
+  ],
+  "semanticSha256": "66bc13022bf64b01b90fb86240254cfe39941e28a96fd2dd474b165cb4ac89da",
+  "retainedPlanSha256": "7d0309cd80cb054f5158f170e95775bc6c145e59efba4dd4b9a93e069cf57b39",
+  "target": 427,
+  "accepted": 427,
+  "decoded": true,
+  "seedAndMerge": "PASS",
+  "technicalStatus": "PASS",
+  "synthesized": 0,
+  "humanListening": false,
+  "runtimeInteraction": "NOT_RUN",
+  "release": "NOT_ASSESSED"
+}
