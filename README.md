@@ -1,163 +1,53 @@
-> 2026-10-25：**当前发行 v1.5.4 已通过 Windows、公开 PWA 和公开下载核验**。修复陈知遥六表情书本边缘、周五稿纸与正表 / 假期补页时间衔接；117 浏览器通过、3 设备适用性跳过，真实旧档升级与公开便携启动器通过。[正式下载](https://github.com/AureliusWu/Healing/releases/tag/v1.5.4) · [实际验收与缺口](docs/production/ACCEPTANCE-20261025.md) · [精确源码与证据](docs/production/VERIFIED-DELIVERY-20261025.json)。
-
-**当前版本素材复核（2026-10-25）**：427处对白绑定、36图完整测量，客观错误0；审阅工具13项实际检查通过。[当前可试听目录](docs/production/quality-20261025/README.md)。全部素材仍保留独立人工审阅状态，历史记录不冒充新版意见。
-
-**发布后素材审阅（2026-10-23）**：发布后素材质检：427 条对白、36 张美术全部完成摘要 / 解码与信号测量，客观错误为 0；44 项保留为人工优先审阅线索。逐句试听、画面查看、独立备注及版本绑定的 JSON 导入 / 导出已通过桌面、手机视口与本地文件检查。 [结果与审阅工具](docs/production/quality-20261023/README.md)。
-
-> 2026-10-23：**v1.4.0 已正式发布**。标题 / 阅读中帮助、完整字体和草稿下载字节验证已交付。Windows 源码 / 成品 / 旧档升级、公开三屏断网、五份下载和四作共存通过。[本轮说明](docs/releases/v1.4.0.md) · [发布凭据](docs/production/PUBLISHED-v1.4.0.json) · [四作闭环](docs/production/FOUR-GAMES-CLOSURE-20261023.md)。
-
-> 2026-10-21：**v1.3.0 全对白与完整角色素材已发布**。Windows 与 PWA 均通过，427 条录音、完整人物图鉴及新场景 / CG 已接入。见[验证凭据](docs/production/PUBLISHED-v1.3.0-full-media.json)与[版本下载](https://github.com/AureliusWu/Healing/releases/tag/v1.3.0)。
-
-> 2026-10-21：v1.2.1 引擎补丁通过本次 Windows、浏览器与公开离线验证；正式版已发布。详见[最终同步记录](docs/production/ENGINE-SYNC-20261021.md)。
-
-> 2026-10-20：**v1.2.0已发布**，新增《七点四十》CG与原创场景配乐。双端构建与公开PWA通过，下载ZIP及新资源字节已回读。[本版凭据](docs/production/SCENE-MEDIA-20261020.json) · [下载](https://github.com/AureliusWu/Healing/releases/tag/v1.2.0)。
-
-> 2026-10-19：**v1.1.1 已发布**。已读章节筛选与关键词、说话人交叉检索已完成；本次 Windows 实际运行、公开 PWA 三屏断网与字节核验通过。[发布凭据](docs/production/PUBLISHED-v1.1.1.json) · [下载](https://github.com/AureliusWu/Healing/releases/tag/v1.1.1)。
-
-> 2026-10-18：**v1.1.0 版本已发布，双端 CI 与公开 PWA 验证通过。** [本轮发布回读](docs/production/RELEASE-CLOSURE-20261018.md)。实体设备体验、真人阅读审阅保持独立待办。
-
-> 2026-10-16：v1.0.8 已正式发布。后台暂停逐字显示，返回前台继续原字数；同段载入、已读重读、旧存档与离线恢复已完成双端验收。正式构建、Windows 安装升级、公开三屏与下载回读见 [发布记录](docs/production/PUBLISHED-v1.0.8.json)。 本轮更新与推送的最终核验见 [闭环回执](docs/production/RELEASE-CLOSURE-20261017.md)。 下一版目标与四仓交流见 [更新规划](docs/production/FOUR-GAMES-NEXT-20261017.md)。
-
-> 2026-10-13：v1.0.4 剧情精修与漏句样张 CG 已正式发布，见 [精修记录](docs/production/CREATIVE-REVIEW.md) 与 [本轮电脑/手机预览](docs/previews/v1.0.4/README.md)。
-
 # 湿性愈合
 
 <!-- project-badges:start -->
 [![Version](https://img.shields.io/github/v/tag/AureliusWu/Healing?sort=semver&style=flat-square&label=version)](https://github.com/AureliusWu/Healing/tags) [![Build](https://github.com/AureliusWu/Healing/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/AureliusWu/Healing/actions/workflows/build.yml) [![Last commit](https://img.shields.io/github/last-commit/AureliusWu/Healing?style=flat-square)](https://github.com/AureliusWu/Healing/commits/main) [![License](https://img.shields.io/github/license/AureliusWu/Healing?style=flat-square)](LICENSE)
 <!-- project-badges:end -->
 
+当前正式版：`1.5.4`。Windows 与 PWA 共用剧情和存档格式。
+
 > 有些话，长大后才学会说。有些人，在雨停之前就已靠近。
 
-青春期校园题材原创视觉小说。三章 **《生长痛》《显影》《雨停以后》** 已完整收录，Windows 与 PWA 当前发行版本均为 **v1.5.4**。427 条人物对白、十二位角色图鉴和新增场景 / CG 已接入；真实安装升级、公开三屏断网及五项公开下载回读通过，证据见 [本轮核验](docs/production/VERIFIED-DELIVERY-20261025.json)。
+青春期校园题材原创视觉小说。你扮演江城七中高二学生程屿，在成绩、家庭期待、文学社与几段没有说完的话之间，走过《生长痛》《显影》《雨停以后》三章。
 
-[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [下载 Windows / PWA](https://github.com/AureliusWu/Healing/releases/tag/v1.5.4)
+[在线游玩 / 安装 PWA](https://aureliuswu.github.io/Healing/) · [v1.5.4 Release](https://github.com/AureliusWu/Healing/releases/tag/v1.5.4)
 
-你扮演江城七中高二学生程屿，在一次月考后的换座中，与林见夏、陈知遥和许棠相遇。成绩、家庭期待、文学社与一场没有说完的争执，构成九月的这个下午。
+## 当前内容
 
-[v1.4.0 电脑阅读预览](docs/previews/v1.4.0/reading-desktop.jpg) · [v1.4.0 手机阅读预览](docs/previews/v1.4.0/reading-mobile.jpg) · [预览来源](docs/previews/v1.4.0/provenance.json)
+- 三章完整剧情、65 个场景、7 次选择与 4 个最终结局。
+- 十二位角色图鉴；主要角色包含多表情立绘、场景与事件 CG。
+- 427 条人物对白离线语音，支持重听、自动阅读与独立音量。
+- 自动存档、3 个手动槽、已读回看、结局回忆与 JSON 备份迁移。
+- 横屏优先的 PWA 与 Windows 客户端；资源完整缓存后支持离线游玩。
 
-![共同篇事件画面](public/art/cg-shared-print.webp)
-
-[完整版实机预览与验证证据](docs/previews/v1.0.1/README.md)
-
-下表为 v1.0.1 正式线上版本的实际界面，已将通过验证的截图归档到仓库。
-
-| 预览 | 电脑 | 手机横屏 | 手机竖屏兼容 |
-| --- | --- | --- | --- |
-| 标题界面 | [查看](docs/previews/title-desktop.jpg) | [查看](docs/previews/title-landscape.jpg) | [查看](docs/previews/title-mobile.jpg) |
-| 实际阅读 | [查看](docs/previews/reading-desktop.jpg) | [查看](docs/previews/reading-landscape.jpg) | [查看](docs/previews/reading-mobile.jpg) |
-| 剧情选择 | [查看](docs/previews/choices-desktop.jpg) | [查看](docs/previews/choices-landscape.jpg) | [查看](docs/previews/choices-mobile.jpg) |
-| 隐藏界面 | [查看](docs/previews/picture-desktop.jpg) | [查看](docs/previews/picture-landscape.jpg) | [查看](docs/previews/picture-mobile.jpg) |
-
-[三位角色与表情实机预览](docs/previews/v0.1.6/characters-desktop.png) · [角色美术规范与素材](docs/production/CHARACTER-ART.md) · [v1.0.1 更新记录](docs/releases/v1.0.1.md)
-
-## 可玩的内容
-
-- 标题页和阅读中均可打开游玩帮助，关闭后保留原段落、已显示字数及键盘焦点；完整备份说明与实际回忆数据一致。
-
-- 三章完结，65 个场景、7 次选择、1,296 种组合；保留第一章 3 种章节结局，追加 4 个最终结局。
-- 三章场景与事件 CG 随实际阅读解锁；v1.3.0 新增四处背景和三幅事件画面，章首重读、结局重读与音乐鉴赏保留真实路线。
-- 十二位角色图鉴；三位主要女角色保留六种表情与完整三视图，九位配角补齐表情立绘。延续十七岁的高二校园设定。
-- 全窗口场景画面 + 底部一体化半透明阅读层；透明度可调，隐藏界面可完整欣赏背景与立绘。
-- 逐字文本、自动阅读、快进、已读回看与原生重读、结局回忆手册；后台暂停打字，回到前台继续原字数。
-- 自动存档 + 3 个手动存档位；JSON 导入/导出，在手机与电脑之间迁移进度。
-- 横屏优先：手机短横屏标题、立绘和阅读布局；竖屏旋转提示可关闭，旋转时保留进度。
-- 标题页、阅读界面与设置提供全屏入口；手机网页采用页面内沉浸模式，避免 Android Chrome 无法由页面关闭的系统全屏提示；桌面继续使用系统全屏。
-- 键盘操作、减少动态效果选项。
-- 安装说明、完整离线下载状态、下载失败重试与版本检查。
-- 六首原创 Web Audio 配乐、《七点四十》场景配乐、雨声与操作提示音，可独立控制；无账号、无 API 密钥、无运行时外部请求。
-- 427 条全分支人物对白使用离线录音，支持独立音量、暂停与已读重听；旁白保留文字，自动阅读等待当前语音完成。
-
-## 两个客户端，一套游戏
-
-| 客户端 | 运行方式 | 离线支持 | 存档 |
-| --- | --- | --- | --- |
-| 手机 / 电脑 PWA | HTTPS 网站安装到主屏幕或桌面 | 首次缓存全部资源后可断网重开 | 浏览器本地存储，可导出迁移 |
-| Windows 桌面 | Electron 安装包 / 便携 EXE | 所有资源随安装包提供 | 应用本地存储，可导出迁移 |
-
-PWA 安装清单指定 `orientation: landscape`，支持的系统安装后优先横屏。网页可直接横向握持手机；全屏按钮只在点击后请求全屏。若系统锁定了竖屏，请开启自动旋转。竖屏保留兼容布局。
-
-这是共用代码与数据格式的双端实现。当前版本不包含账户云同步。
-
-## 开发与游玩
-
-[共享制作契约](docs/production/SHARED-VN.md) · [剧情与美术协作方法](docs/production/CREATIVE-PLAYBOOK.md) · [可复用素材与工具](docs/production/REUSABLE-MATERIALS.md) · [v1.4.0 更新](docs/releases/v1.4.0.md)。素材目录保留许可证、摘要和项目专用边界；缺失的原始美术与完整字体源会明确标注。
-
-需要 Node.js 24（或满足 Vite 8 要求的 Node.js 22.12+）。
+## 开发与验证
 
 ```bash
 npm ci
 npm run dev
-```
-
-浏览器打开终端显示的地址。测试生产 PWA：
-
-```bash
 npm run build
 npm run preview
 ```
 
-localhost 可测试 Service Worker；手机实际安装需要 HTTPS。
-
-桌面版：
+Windows：
 
 ```bash
-npm run desktop       # 构建并启动桌面客户端
-npm run desktop:pack  # 输出未打包目录
-npm run desktop:win   # 在 Windows 生成 NSIS 安装包和便携 EXE
+npm run desktop
+npm run desktop:win
 ```
 
-`release/`、`dist/` 和依赖目录不进入 Git。发布包通过 Actions 生成。
+## AI / 维护者入口
 
-## 下载与部署
+修改前先读 [AGENTS.md](AGENTS.md)。
 
-直接打开 [游戏网页](https://aureliuswu.github.io/Healing/)，标题页的「安装与离线」提供安装操作、下载状态与更新检查。离线状态就绪后可以断网重开。
+- 剧情：`docs/STORY.md`。
+- 制作与布局：`docs/PRODUCTION.md`、`docs/production/FULLSCREEN-READING.md`。
+- 架构与验证：`docs/ARCHITECTURE.md`、`docs/VALIDATION.md`。
+- 跨仓制作：`docs/production/VN-WORKFLOW-R1.md`、`docs/production/SHARED-VN.md`。
+- 当前发行与真实证据：GitHub Release 与 `docs/production/`。
 
-[v1.3.0 下载页](https://github.com/AureliusWu/Healing/releases/tag/v1.3.0) 提供 Windows 安装版、便携版及 PWA ZIP，附 SHA-256 与实际构建记录。五项公开下载及四行校验清单已回读；本版构建、线上离线检查与原包来源见 [发布凭据](docs/production/PUBLISHED-v1.3.0-full-media.json)，独立再次下载见 [2026-10-22 回读](docs/production/PUBLIC-READBACK-20261022.json)。该下载不依赖 Actions 产物保留期限。
+保持剧情 ID、存档兼容、素材来源与双端行为；未实际执行的真人阅读、实体设备或听感审阅不能写成已通过。历史发布、截图矩阵、工作流 run 和逐轮验收不要重新堆进 README。
 
-每次推送 `main` 会运行 [Build game](https://github.com/AureliusWu/Healing/actions/workflows/build.yml)：先验证剧情与手机/电脑 PWA，再在 Windows 启动实际 Electron 程序、生成安装包并启动实际打包程序复验。全部成功后，对应版本的安装包和 PWA 会发布到 Releases。需要发布新版本时，同时更新 `package.json`、锁文件与 `docs/releases/v版本号.md`；已发布版本不被覆盖。对应运行页面也保留 Artifacts：
+## License
 
-- `MoistHealing-PWA`：完整静态网页包。
-- `MoistHealing-Windows-x64`：NSIS 安装包与便携 EXE。
-
-仓库已启用 GitHub Pages。[Publish PWA](https://github.com/AureliusWu/Healing/actions/workflows/pages.yml) 在完整构建验证成功后自动部署该次构建的 PWA 包，随后检查实际网站的手机/电脑游玩、存档及离线重开。也可以手动运行该流程。
-
-仓库 Settings → Pages 的 Source 应选择 **GitHub Actions**，以保证只发布构建产物。使用 `main` 分支目录发布会载入开发源码，无法直接运行游戏。
-
-还可以把 `dist/` 部署到任意 HTTPS 静态主机。采用相对路径，支持子目录部署。网页的新版本完整下载后会显示提示，关闭所有游戏窗口再打开时接管，保留当前存档。
-
-## 操作
-
-| 操作 | 键盘 / 触屏 |
-| --- | --- |
-| 显示完整段落 / 下一段 | 空格、Enter、右方向键，或点击画面/文本 |
-| 自动阅读 | A，或「自动」 |
-| 存档 | S / Esc，或「存档」 |
-| 回看 | L，或「回看」 |
-| 隐藏 / 恢复界面 | H，或「隐藏界面」；轻触画面与 Esc 可恢复 |
-| 进入 / 退出全屏 | 标题、阅读页或设置中的全屏按钮；桌面版也支持 F11 |
-
-隐藏界面会暂停自动与快进，恢复操作保持当前段落。快进与自动阅读都会在选择处停下。回到标题会保留进度；开启新故事前会提示自动存档将更新。
-
-## 验证
-
-```bash
-npm test
-npm run build
-npx playwright install chromium
-npm run test:e2e
-npm run test:desktop
-npm run test:desktop:packaged # Windows 打包后，检查实际 ASAR 桌面程序
-```
-
-剧情校验遍历 1,296 条完整路线与 54 条旧章迁移，并验证段落可恢复、全部场景可达、非法存档被拒绝。浏览器测试覆盖电脑与手机的完整游玩、存档、迁移、离线重开与短横屏布局。桌面启动检查验证实际窗口、立绘资源、剧情启动、自动存档和渲染器隔离。
-
-详见 [技术结构](docs/ARCHITECTURE.md)、[三章剧情设计](docs/STORY.md)、[素材与提示词](docs/prompts/ART-v4.md)、[制作规范](docs/PRODUCTION.md)、[迭代记录](docs/production/ITERATIONS.md) 和 [验证记录](docs/VALIDATION.md)。
-
-## 授权
-
-项目代码和原创文本使用 [MIT](LICENSE)。AI 美术来源与生成记录见素材文档。游戏内字体使用 Noto Serif SC 子集，遵循 [SIL Open Font License](docs/OFL-NotoSerifSC.txt)。两份许可文本也随 PWA 和桌面包提供于 `licenses/`。
-
-## 四作共存复验 · 2026-10-22
-
-Rain 1.5.0、Healing 1.3.0、NetLove 0.5.0 与 Circuit 1.7.0 在同一独立浏览器中完成安装缓存与四站断网重开，1,248 条缓存与实际阅读进度保留，页面错误为零。[本轮闭环与素材审计](docs/production/FOUR-GAMES-CLOSURE-20261022.md)。
+许可与素材来源见 [LICENSE](LICENSE) 及仓库中的素材/来源文档。
